@@ -55,6 +55,8 @@ def get_markup(price: float) -> float:
         return 1500.0
     return 2000.0
 
+def round_up_to_100(price: float) -> float:
+    return math.ceil(price / 100) * 100
 
 def calculate_price(original_price: float, category_id: str) -> float:
     if original_price <= 0:
