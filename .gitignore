@@ -2,7 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+*.pyc
+data/raw/*.xml
+data/output/*.xml
 # C extensions
 *.so
 
