@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
@@ -20,6 +19,10 @@ def get_text(element: ET.Element | None, tag_name: str, default: str = "") -> st
     return child.text.strip()
 
 
+def get_images(element: ET.Element) -> list[str]:
+    return [img.text.strip() for img in element.findall("image") if img.text]
+
+
 def parse_price(value: str) -> float:
     try:
         return float(value.replace(",", ".").strip())
@@ -36,14 +39,24 @@ def parse_local_feed() -> list[dict]:
 
     products: list[dict] = []
 
-    for offer in root.findall(".//offer"):
+    for item in root.findall(".//items/item"):
         product = {
-            "id": offer.get("id", "").strip(),
-            "vendor_code": get_text(offer, "vendorCode"),
-            "name": get_text(offer, "name"),
-            "price": parse_price(get_text(offer, "price")),
-            "category_id": get_text(offer, "categoryId"),
-            "available": offer.get("available", "").strip(),
+            "id": item.get("id", "").strip(),
+            "selling_type": item.get("selling_type", "").strip(),
+            "vendor_code": get_text(item, "vendorCode"),
+            "name": get_text(item, "name"),
+            "name_ua": get_text(item, "name_ua"),
+            "price": parse_price(get_text(item, "price")),
+            "category_id": get_text(item, "categoryId"),
+            "url": get_text(item, "url"),
+            "quantity_in_stock": get_text(item, "quantity_in_stock"),
+            "currency_id": get_text(item, "currencyId"),
+            "available": get_text(item, "available"),
+            "vendor": get_text(item, "vendor"),
+            "barcode": get_text(item, "barcode"),
+            "description": get_text(item, "description"),
+            "description_ua": get_text(item, "description_ua"),
+            "images": get_images(item),
         }
         products.append(product)
 
@@ -53,6 +66,5 @@ def parse_local_feed() -> list[dict]:
 if __name__ == "__main__":
     items = parse_local_feed()
     print(f"Знайдено товарів: {len(items)}")
-
     for item in items[:5]:
         print(item)
