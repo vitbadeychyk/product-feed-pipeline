@@ -62,7 +62,7 @@ def calculate_price(original_price: float, category_id: str) -> float:
 
     discounted_price = original_price * (1 - 0.22)
     commission = get_commission(category_id)
-    price_with_commission = discounted_price * (1 + commission)
+    price_with_commission = discounted_price / (1 - commission)
     final_price = price_with_commission + get_markup(original_price)
 
     return round(final_price, 2)
