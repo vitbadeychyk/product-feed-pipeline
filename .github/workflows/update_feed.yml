@@ -1,1 +1,29 @@
 
+name: Update product feed
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch supplier feed
+        run: python scripts/fetch_supplier_feed.py
+
+      - name: Export processed feed
+        run: python scripts/export_feed.py
