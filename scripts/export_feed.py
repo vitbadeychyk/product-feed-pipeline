@@ -45,9 +45,13 @@ def build_feed(products: list[dict]) -> ET.Element:
 
 def export_feed() -> None:
     products = parse_local_feed()
+    print(f"Знайдено товарів для експорту: {len(products)}")
+
     root = build_feed(products)
 
     tree = ET.ElementTree(root)
+    ET.indent(tree, space=" ", level=0)
+
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
 
