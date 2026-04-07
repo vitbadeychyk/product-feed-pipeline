@@ -58,20 +58,23 @@ def get_markup(price: float) -> float:
 def round_up_to_100(price: float) -> float:
     return math.ceil(price / 100) * 100
 
+
 def calculate_price(original_price: float, category_id: str) -> float:
     if original_price <= 0:
         return 0.0
 
-    discounted_price = original_price * (1 - 0.22)
     commission = get_commission(category_id)
     markup = get_markup(original_price)
 
-    target_amount = discounted_price + markup
+    supplier_net_price = original_price * (1 - 0.22)
+    target_amount = supplier_net_price + markup
+
     final_price = target_amount / (1 - commission)
 
+    # 🔥 округлення до 100
     final_price = round_up_to_100(final_price)
-    
-    return round(final_price, 2)
+
+    return final_price
 
 
 if __name__ == "__main__":
