@@ -1,4 +1,3 @@
-
 name: Update product feed
 
 on:
@@ -10,9 +9,14 @@ jobs:
   update-feed:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,3 +31,11 @@ jobs:
 
       - name: Export processed feed
         run: python scripts/export_feed.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/fetch_meta.json data/raw/ data/output/
+          git diff --cached --quiet || git commit -m "Auto-update supplier feed"
+          git push
