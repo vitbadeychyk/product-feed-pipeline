@@ -6,7 +6,7 @@ from pathlib import Path
 
 from parse_local_feed import parse_local_feed
 from pricing import calculate_price
-
+from pricing import calculate_old_price
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = BASE_DIR / "data" / "output" / "epicentr_feed.xml"
@@ -46,7 +46,9 @@ def build_feed(products: list[dict]) -> ET.Element:
         offer.set("available", available)
 
         ET.SubElement(offer, "price").text = str(int(final_price))
-        ET.SubElement(offer, "price_old").text = str(int(original_price))
+        old_price = calculate_old_price(final_price)
+        ET.SubElement(offer, "price_old").text = str(int(old_price))
+        
 
         category = ET.SubElement(offer, "category")
         category.set("code", category_id)
