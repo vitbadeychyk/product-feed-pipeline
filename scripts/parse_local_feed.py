@@ -68,3 +68,11 @@ if __name__ == "__main__":
     print(f"Знайдено товарів: {len(items)}")
     for item in items[:5]:
         print(item)
+if __name__ == "__main__":
+    items = parse_local_feed()
+    print(f"Знайдено товарів: {len(items)}")
+
+    category_ids = sorted({item["category_id"] for item in items if item["category_id"]})
+    print("Категорії:")
+    for category_id in category_ids:
+        print(category_id)
