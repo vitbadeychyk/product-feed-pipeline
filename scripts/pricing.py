@@ -69,6 +69,8 @@ def calculate_price(original_price: float, category_id: str) -> float:
     target_amount = discounted_price + markup
     final_price = target_amount / (1 - commission)
 
+    final_price = round_up_to_100(final_price)
+    
     return round(final_price, 2)
 
 
