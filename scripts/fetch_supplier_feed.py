@@ -13,9 +13,9 @@ STATE_FILE = BASE_DIR / "state" / "fetch_meta.json"
 RAW_FILE = BASE_DIR / "data" / "raw" / "supplier_feed.xml"
 
 # ⚠️ ВСТАВ СЮДИ СВОЄ ПОСИЛАННЯ ПОСТАЧАЛЬНИКА
-SUPPLIER_FEED_URL = os.getenv("SUPPLIER_FEED_URL")
+SUPPLIER_FEED_URL = "https://metr-plus.com.ua/export.php?token=0333b5177032408cdc24c96ec2962f4d&action=4&udepartment=992&issingle=1&isrrc=0&tofile=1&lang=uk"
 
-FETCH_INTERVAL = timedelta(hours=2)
+FETCH_INTERVAL = timedelta(hours=4)
 
 
 def load_state() -> dict:
