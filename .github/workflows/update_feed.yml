@@ -32,6 +32,9 @@ jobs:
       - name: Export processed feed
         run: python scripts/export_feed.py
 
+      - name: Export Epicentr updates feed
+        run: python scripts/export_epicentr_updates.py
+
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
