@@ -33,7 +33,7 @@ jobs:
         run: python scripts/export_feed.py
 
       - name: Export Epicentr updates feed
-        run: python scripts/export_epicentr_updates.py
+        run: python scripts/export_epicentr_updates_with_history.py
 
       - name: Commit updated files
         run: |
