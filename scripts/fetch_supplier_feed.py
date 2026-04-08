@@ -13,7 +13,7 @@ STATE_FILE = BASE_DIR / "state" / "fetch_meta.json"
 RAW_FILE = BASE_DIR / "data" / "raw" / "supplier_feed.xml"
 
 # ⚠️ ВСТАВ СЮДИ СВОЄ ПОСИЛАННЯ ПОСТАЧАЛЬНИКА
-SUPPLIER_FEED_URL = "https://example.com/supplier-feed.xml"
+SUPPLIER_FEED_URL = os.getenv("SUPPLIER_FEED_URL")
 
 FETCH_INTERVAL = timedelta(hours=2)
 
