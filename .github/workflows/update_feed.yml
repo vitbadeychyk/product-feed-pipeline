@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-       - name: Fetch supplier feed
-         run: python -m scripts.common.fetch_supplier_feed
+      - name: Fetch supplier feed
+        run: python -m scripts.common.fetch_supplier_feed
 
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
