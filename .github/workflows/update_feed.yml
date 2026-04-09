@@ -27,18 +27,18 @@ jobs:
         run: pip install -r requirements.txt
 
       #- name: Fetch supplier feed
-      #  run: python scripts/fetch_supplier_feed.py
+      #  run: python scripts/common/fetch_supplier_feed.py
 
       - name: Export processed feed
-        run: python scripts/export_feed.py
+        run: python scripts/epicentr/export_feed.py
 
       - name: Export Epicentr updates feed
-        run: python scripts/export_epicentr_updates_with_history.py
+        run: python scripts/epicentr/export_updates_with_history.py
 
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/fetch_meta.json state/known_products.json data/raw/ data/output/
+          git add state/fetch_meta.json state/epicentr_known_products.json data/raw/ data/output/
           git diff --cached --quiet || git commit -m "Auto-update supplier feed"
           git push
