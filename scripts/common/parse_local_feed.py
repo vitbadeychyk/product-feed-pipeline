@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-RAW_FILE = BASE_DIR / "data" / "raw" / "common" / "supplier_feed.xml"
+RAW_FILE = BASE_DIR / "data" / "raw" / "supplier_feed.xml"
 
 
 def get_text(element: ET.Element | None, tag_name: str, default: str = "") -> str:
