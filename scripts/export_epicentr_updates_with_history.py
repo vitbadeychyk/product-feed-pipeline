@@ -25,6 +25,14 @@ def normalize_available(value: object) -> str:
     value_str = safe_text(value).lower()
     return "true" if value_str == "true" else "false"
 
+def convert_availability(value: str) -> str:
+    if value == "true":
+        return "in_stock"
+    return "out_of_stock"
+
+
+def calculate_old_price(price: int) -> int:
+    return int(price * 1.3)
 
 def load_known_products() -> dict:
     if not STATE_FILE.exists():
@@ -95,11 +103,18 @@ def build_feed(all_products: dict[str, dict]) -> ET.Element:
     exported_count = 0
 
     for product_id, product_data in sorted(all_products.items()):
+        available_value = normalize_available(product_data.get("available"))
+        availability_value = convert_availability(available_value)
+        price_value = int(product_data.get("price", 0))
+        old_price_value = calculate_old_price(price_value)
+
         offer = ET.SubElement(offers, "offer")
         offer.set("id", safe_text(product_data.get("id")))
-        offer.set("available", normalize_available(product_data.get("available")))
+        offer.set("available", available_value)
 
-        ET.SubElement(offer, "price").text = str(int(product_data.get("price", 0)))
+        ET.SubElement(offer, "price").text = str(price_value)
+        ET.SubElement(offer, "price_old").text = str(old_price_value)
+        ET.SubElement(offer, "availability").text = availability_value
 
         exported_count += 1
 
