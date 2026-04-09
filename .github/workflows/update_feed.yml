@@ -26,14 +26,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      #- name: Fetch supplier feed
-      #  run: python scripts/common/fetch_supplier_feed.py
+      # - name: Fetch supplier feed
+      #   run: python -m scripts.common.fetch_supplier_feed
 
       - name: Export processed feed
-        run: python scripts/epicentr/export_feed.py
+        run: python -m scripts.epicentr.export_feed
 
       - name: Export Epicentr updates feed
-        run: python scripts/epicentr/export_updates_with_history.py
+        run: python -m scripts.epicentr.export_updates_with_history
 
       - name: Commit updated files
         run: |
