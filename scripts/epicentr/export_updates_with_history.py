@@ -112,7 +112,8 @@ def build_feed(all_products: dict[str, dict]) -> ET.Element:
         offer.set("available", available_value)
 
         ET.SubElement(offer, "price").text = str(price_value)
-        
+        ET.SubElement(offer, "price_old").text = str(old_price_value)
+        ET.SubElement(offer, "availability").text = availability_value
 
         exported_count += 1
 
