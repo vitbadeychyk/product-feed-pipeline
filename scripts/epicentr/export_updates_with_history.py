@@ -5,8 +5,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
-from parse_local_feed import parse_local_feed
-from pricing import calculate_price
+from scripts.common.parse_local_feed import parse_local_feed
+from scripts.pricing.epicentr_pricing import calculate_price
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
