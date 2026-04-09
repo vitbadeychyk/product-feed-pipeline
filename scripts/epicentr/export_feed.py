@@ -8,7 +8,7 @@ from scripts.common.parse_local_feed import parse_local_feed
 from scripts.pricing.epicentr_pricing import calculate_price
 from scripts.pricing.epicentr_pricing import calculate_old_price
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_FILE = BASE_DIR / "data" / "output" / "epicentr" / "epicentr_feed.xml"
 
 
