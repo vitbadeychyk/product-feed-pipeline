@@ -9,7 +9,7 @@ from scripts.pricing.epicentr_pricing import calculate_price
 from scripts.pricing.epicentr_pricing import calculate_old_price
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_FILE = BASE_DIR / "data" / "output" / "epicentr_feed.xml"
+OUTPUT_FILE = BASE_DIR / "data" / "output" / "epicentr" / "epicentr_feed.xml"
 
 
 def safe_text(value: object) -> str:
