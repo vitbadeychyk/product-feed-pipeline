@@ -48,11 +48,6 @@ def normalize_available(value: str) -> str:
 
 
 def convert_stock_quantity(quantity_in_stock: str) -> tuple[str, str]:
-    """
-    Логіка буферного залишку:
-    - якщо quantity_in_stock > 0 -> stock_quantity = 10, available = true
-    - якщо quantity_in_stock = 0 або невалідне -> stock_quantity = 0, available = false
-    """
     try:
         qty = int(float(safe_text(quantity_in_stock).replace(",", ".")))
     except ValueError:
@@ -63,7 +58,7 @@ def convert_stock_quantity(quantity_in_stock: str) -> tuple[str, str]:
     return "0", "false"
 
 
-def build_root() -> tuple[ET.Element, ET.Element, ET.Element]:
+def build_root() -> tuple[ET.Element, ET.Element]:
     root = ET.Element("yml_catalog")
     root.set("date", datetime.now().strftime("%Y-%m-%d %H:%M"))
 
@@ -78,21 +73,9 @@ def build_root() -> tuple[ET.Element, ET.Element, ET.Element]:
     currency.set("id", "UAH")
     currency.set("rate", "1")
 
-    categories = ET.SubElement(shop, "categories")
     offers = ET.SubElement(shop, "offers")
 
-    return root, categories, offers
-
-
-def collect_categories(items: list[ET.Element]) -> dict[str, str]:
-    categories: dict[str, str] = {}
-
-    for item in items:
-        category_id = get_text(item, "categoryId")
-        if category_id and category_id not in categories:
-            categories[category_id] = category_id
-
-    return categories
+    return root, offers
 
 
 def append_param_with_multilang(offer: ET.Element, source_param: ET.Element) -> None:
@@ -133,7 +116,6 @@ def build_offer(item: ET.Element, offers: ET.Element) -> None:
     name_ua = get_text(item, "name_ua")
     description = get_text(item, "description")
     description_ua = get_text(item, "description_ua")
-    category_id = get_text(item, "categoryId")
     vendor = get_text(item, "vendor")
     url = get_text(item, "url")
     currency_id = get_text(item, "currencyId", "UAH")
@@ -144,18 +126,16 @@ def build_offer(item: ET.Element, offers: ET.Element) -> None:
 
     stock_quantity, stock_available = convert_stock_quantity(quantity_in_stock)
 
-    # Додатково враховуємо available постачальника:
     if supplier_available == "false":
         stock_quantity = "0"
         stock_available = "false"
 
     offer = ET.SubElement(offers, "offer")
-    offer.set("id", product_id if product_id else vendor_code)
+    offer.set("id", vendor_code if vendor_code else product_id)
     offer.set("available", stock_available)
 
     ET.SubElement(offer, "price").text = parse_price(raw_price)
     ET.SubElement(offer, "currencyId").text = currency_id or "UAH"
-    ET.SubElement(offer, "categoryId").text = category_id
     ET.SubElement(offer, "vendor").text = vendor
     ET.SubElement(offer, "article").text = vendor_code
     ET.SubElement(offer, "stock_quantity").text = stock_quantity
@@ -195,13 +175,7 @@ def export_rozetka_feed() -> None:
     source_items = source_root.findall(".//items/item")
     print(f"Знайдено товарів у фіді постачальника: {len(source_items)}")
 
-    root, categories_el, offers_el = build_root()
-
-    categories = collect_categories(source_items)
-    for category_id, category_name in categories.items():
-        category = ET.SubElement(categories_el, "category")
-        category.set("id", category_id)
-        category.text = category_name
+    root, offers_el = build_root()
 
     exported_count = 0
     for item in source_items:
