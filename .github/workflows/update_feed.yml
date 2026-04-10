@@ -31,9 +31,12 @@ jobs:
 
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
-
+        
       - name: Export Epicentr updates feed
         run: python -m scripts.epicentr.export_updates_with_history
+
+      - name: Export Rozetka feed
+        run: python -m scripts.rozetka.export_feed
 
       - name: Commit updated files
         run: |
