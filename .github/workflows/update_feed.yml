@@ -29,29 +29,9 @@ jobs:
       - name: Fetch supplier feed
         run: python -m scripts.common.fetch_supplier_feed
 
-         # ← ОСЬ СЮДИ ВСТАВИТИ
-      - name: Debug raw feed
-        run: |
-          echo "===== FETCH META ====="
-          cat state/fetch_meta.json || true
-
-          echo "===== RAW FILE SIZE ====="
-          ls -lh data/raw/supplier_feed.xml
-
-          echo "===== CHECK EXACT SKU ====="
-          grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND: M 4259EBLR-1"
-
-          echo "===== CHECK PARTIAL SKU ====="
-          grep -n "M 4259" data/raw/supplier_feed.xml || echo "NOT FOUND: M 4259"
-
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
-      # ← І ОСЬ СЮДИ ЩЕ
-      - name: Debug output feed
-        run: |
-          echo "===== CHECK SKU IN OUTPUT ====="
-          grep -R "M 4259EBLR-1" data/output/ || echo "NOT FOUND IN OUTPUT"
-        
+      
       - name: Export Epicentr updates feed
         run: python -m scripts.epicentr.export_updates_with_history
 
