@@ -7,7 +7,7 @@ from pathlib import Path
 import requests
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parents[2]
 STATE_FILE = BASE_DIR / "state" / "fetch_meta.json"
 RAW_FILE = BASE_DIR / "data" / "raw" / "supplier_feed.xml"
 
