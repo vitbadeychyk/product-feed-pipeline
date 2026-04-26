@@ -29,6 +29,22 @@ jobs:
       - name: Fetch supplier feed
         run: python -m scripts.common.fetch_supplier_feed
 
+      - name: Debug downloaded XML
+        run: |
+          echo "===== FILE SIZE ====="
+          ls -lh data/raw/supplier_feed.xml
+
+          echo "===== FIRST 1500 SYMBOLS ====="
+          head -c 1500 data/raw/supplier_feed.xml
+          echo
+
+          echo "===== LAST 1500 SYMBOLS ====="
+          tail -c 1500 data/raw/supplier_feed.xml
+          echo
+
+          echo "===== CHECK SKU IN RAW ====="
+          grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND IN RAW"
+
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
       
@@ -37,6 +53,11 @@ jobs:
 
       - name: Export Rozetka feed
         run: python -m scripts.rozetka.export_feed
+
+      - name: Debug output feeds
+        run: |
+          echo "===== CHECK SKU IN OUTPUT ====="
+          grep -R "M 4259EBLR-1" data/output/ || echo "NOT FOUND IN OUTPUT"
 
       - name: Commit updated files
         run: |
