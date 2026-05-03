@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-05-03 13:04">
+<yml_catalog date="2026-05-03 13:25">
   <offers>
     <offer id="M 3237EBLR-10" available="true">
       <price>13400</price>
@@ -219,26 +219,6 @@
       <param name="Штрихкод">6903317496419</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=276835&amp;lang=uk</param>
-    </offer>
-    <offer id="M 4845-3" available="true">
-      <price>2900</price>
-      <price_old>3800</price_old>
-      <category code="78">78</category>
-      <name lang="ru">Каталка-толокар M 4845-3</name>
-      <name lang="ua">Каталка-толокар M 4845-3</name>
-      <picture>https://metr-plus.com.ua/img/789130.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/906443.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/906444.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/906445.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/906446.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/906447.jpg</picture>
-      <description lang="ru">род.ручка, музыка, свет, MP3, USB, TF, красный</description>
-      <description lang="ua">батьк.ручка, музика, світло, MP3, USB, TF, червоний</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 4845-3</param>
-      <param name="Штрихкод">6903317496259</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=78&amp;id=276952&amp;lang=uk</param>
     </offer>
     <offer id="M 4845-4" available="true">
       <price>2900</price>
@@ -1380,30 +1360,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=309672&amp;lang=uk</param>
     </offer>
-    <offer id="M 6139EBLR-1" available="true">
-      <price>10300</price>
-      <price_old>13400</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 6139EBLR-1</name>
-      <name lang="ua">Джип M 6139EBLR-1</name>
-      <picture>https://metr-plus.com.ua/img/953264.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958327.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958328.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958329.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958330.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958331.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958332.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958333.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958334.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958335.jpg</picture>
-      <description lang="ru">р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий</description>
-      <description lang="ua">р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6139EBLR-1</param>
-      <param name="Штрихкод">6903317736997</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=309770&amp;lang=uk</param>
-    </offer>
     <offer id="M 6139EBLRS-3" available="true">
       <price>11900</price>
       <price_old>15500</price_old>
@@ -1428,6 +1384,21 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=309772&amp;lang=uk</param>
     </offer>
+    <offer id="JR3-134-P" available="true">
+      <price>1900</price>
+      <price_old>2500</price_old>
+      <category code="79">79</category>
+      <name lang="ru">Самокат JR3-134-P</name>
+      <name lang="ua">Самокат JR3-134-P</name>
+      <picture>https://metr-plus.com.ua/img/957052.jpg</picture>
+      <description lang="ru">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 84мм світло, кермо (3 положення, min 67см, max 78см), музика, світло, підніжка 27-13см, рожевий на бат-ці, в кор-ці</description>
+      <description lang="ua">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 84мм світло, кермо (3 положення, min 67см, max 78см), музика, світло, підніжка 27-13см, рожевий на бат-ці, в кор-ці</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">JR3-134-P</param>
+      <param name="Штрихкод">6903317746873</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=310932&amp;lang=uk</param>
+    </offer>
     <offer id="JR3-134-Y" available="true">
       <price>1900</price>
       <price_old>2500</price_old>
@@ -1444,58 +1415,6 @@
       <param name="Штрихкод">6903317746903</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=310933&amp;lang=uk</param>
-    </offer>
-    <offer id="JR3-136-GR" available="true">
-      <price>1900</price>
-      <price_old>2500</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-136-GR</name>
-      <name lang="ua">Самокат JR3-136-GR</name>
-      <picture>https://metr-plus.com.ua/img/957055.jpg</picture>
-      <description lang="ru">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 90мм світло, кермо (3 положення, min 63см, 1 положення 69см, max 75см), музика, світло, підніжка 27-13см, зелений, на бат-ці, в кор-ці</description>
-      <description lang="ua">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 90мм світло, кермо (3 положення, min 63см, 1 положення 69см, max 75см), музика, світло, підніжка 27-13см, зелений, на бат-ці, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-136-GR</param>
-      <param name="Штрихкод">6903317746965</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=310935&amp;lang=uk</param>
-    </offer>
-    <offer id="MBB 1039 Black" available="true">
-      <price>1900</price>
-      <price_old>2500</price_old>
-      <category code="491">491</category>
-      <name lang="ru">Биговел MBB 1039 Black</name>
-      <name lang="ua">Біговел MBB 1039 Black</name>
-      <picture>https://metr-plus.com.ua/img/957101.jpg</picture>
-      <description lang="ru">57-24-в37см, светло, на бат-ке, черно-красный</description>
-      <description lang="ua">57-24-в37см, світло, на бат-ці, чорно-червоний</description>
-      <vendor code="PROF1 KIDS">PROF1 KIDS</vendor>
-      <param name="Артикул">MBB 1039 Black</param>
-      <param name="Штрихкод">6903317739066</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=114&amp;id=310964&amp;lang=uk</param>
-    </offer>
-    <offer id="MBB 1039 Mint grey" available="true">
-      <price>1900</price>
-      <price_old>2500</price_old>
-      <category code="491">491</category>
-      <name lang="ru">Биговел MBB 1039 Mint grey</name>
-      <name lang="ua">Біговел MBB 1039 Mint grey</name>
-      <picture>https://metr-plus.com.ua/img/957102.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963070.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963071.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963072.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963073.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963074.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963075.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/963076.jpg</picture>
-      <description lang="ru">57-24-в37см, светло, на бат-ке, мятно-серый</description>
-      <description lang="ua">57-24-в37см, світло, на бат-ці, м&amp;apos;ятно-сірий</description>
-      <vendor code="PROF1 KIDS">PROF1 KIDS</vendor>
-      <param name="Артикул">MBB 1039 Mint grey</param>
-      <param name="Штрихкод">6903317739073</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=114&amp;id=310965&amp;lang=uk</param>
     </offer>
     <offer id="MBB 1040 Pink" available="true">
       <price>1900</price>
@@ -1663,28 +1582,6 @@
       <param name="Штрихкод">6903317769858</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=114&amp;id=312438&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6154-6" available="true">
-      <price>2500</price>
-      <price_old>3300</price_old>
-      <category code="78">78</category>
-      <name lang="ru">Каталка-толокар M 6154-6</name>
-      <name lang="ua">Каталка-толокар M 6154-6</name>
-      <picture>https://metr-plus.com.ua/img/972071.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974042.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974043.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974044.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974045.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974046.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974047.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/974048.jpg</picture>
-      <description lang="ru">трактор з причепом, жовтий</description>
-      <description lang="ua">трактор з причепом, жовтий</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6154-6</param>
-      <param name="Штрихкод">6903317746316</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=78&amp;id=313035&amp;lang=uk</param>
     </offer>
     <offer id="M 6147-ST WHEEL" available="true">
       <price>1000</price>
@@ -2910,6 +2807,21 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=75&amp;id=339170&amp;lang=uk</param>
     </offer>
+    <offer id="ME 1226 Taube Beige" available="true">
+      <price>4900</price>
+      <price_old>6400</price_old>
+      <category code="75">75</category>
+      <name lang="ru">Велосипед El Camino TRIGO ME 1226 Taupe Beige</name>
+      <name lang="ua">Велосипед El Camino TRIGO ME 1226 Taupe Beige</name>
+      <picture>https://metr-plus.com.ua/img/1052447.jpg</picture>
+      <description lang="ru">3 кол. EVA а.п. (12/10), поворот сид., гальма, склад. кермо, світло, підшип., сумка, бежевий</description>
+      <description lang="ua">3 кол. EVA а.п. (12/10), поворот сид., гальма, склад. кермо, світло, підшип., сумка, бежевий</description>
+      <vendor code="EL CAMINO">EL CAMINO</vendor>
+      <param name="Артикул">ME 1226 Taube Beige</param>
+      <param name="Штрихкод">6903317830503</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=75&amp;id=339180&amp;lang=uk</param>
+    </offer>
     <offer id="M 6319-1" available="true">
       <price>3900</price>
       <price_old>5100</price_old>
@@ -2930,21 +2842,6 @@
       <param name="Штрихкод">6903317830930</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=344150&amp;lang=uk</param>
-    </offer>
-    <offer id="JR3-141-5-W" available="true">
-      <price>2200</price>
-      <price_old>2900</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-141-5-W</name>
-      <name lang="ua">Самокат JR3-141-5-W</name>
-      <picture>https://metr-plus.com.ua/img/1114152.jpg</picture>
-      <description lang="ru">5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 66см, 1 положення 73см, max 81см), вис.від підл.до сидіння 32см, підніжка 28-11см, кошик, доп.колеса 40мм</description>
-      <description lang="ua">5в1(біговел,батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 66см, 1 положення 73см, max 81см), вис.від підл.до сидіння 32см, підніжка 28-11см, кошик, доп.колеса 40мм</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-141-5-W</param>
-      <param name="Штрихкод">6903317836024</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344279&amp;lang=uk</param>
     </offer>
     <offer id="JR3-164-R" available="true">
       <price>2200</price>
@@ -2976,21 +2873,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344281&amp;lang=uk</param>
     </offer>
-    <offer id="JR3-166-5-P" available="true">
-      <price>2100</price>
-      <price_old>2800</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-166-5-P</name>
-      <name lang="ua">Самокат JR3-166-5-P</name>
-      <picture>https://metr-plus.com.ua/img/1114156.jpg</picture>
-      <description lang="ru">5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3полож., min 61см, 1 положення 67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик</description>
-      <description lang="ua">5в1(біговел,батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3полож., min 61см, 1 положення 67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-166-5-P</param>
-      <param name="Штрихкод">6903317835751</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344283&amp;lang=uk</param>
-    </offer>
     <offer id="JR3-168-5С-P" available="true">
       <price>2200</price>
       <price_old>2900</price_old>
@@ -3005,36 +2887,6 @@
       <param name="Штрихкод">6903317835836</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344284&amp;lang=uk</param>
-    </offer>
-    <offer id="JR3-169" available="true">
-      <price>1500</price>
-      <price_old>2000</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-169</name>
-      <name lang="ua">Самокат JR3-169</name>
-      <picture>https://metr-plus.com.ua/img/1114158.jpg</picture>
-      <description lang="ru">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (4положення, min 61см, 1 положення 66см, max 77,5см), підніжка 29-12см, капібара, на бат-ці, в кор-ці, 61-28-17см</description>
-      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (4положення, min 61см, 1 положення 66см, max 77,5см), підніжка 29-12см, капібара, на бат-ці, в кор-ці, 61-28-17см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-169</param>
-      <param name="Штрихкод">6903317836123</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344285&amp;lang=uk</param>
-    </offer>
-    <offer id="JR3-170-3-W" available="true">
-      <price>2300</price>
-      <price_old>3000</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-170-3-W</name>
-      <name lang="ua">Самокат JR3-170-3-W</name>
-      <picture>https://metr-plus.com.ua/img/1114159.jpg</picture>
-      <description lang="ru">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 75мм світло, музика, світло, кермо (3положення, min 49см, max81см), підніжка 27-12см, сидіння (світло,висота від підлоги  27см), білий, на бат-ці, в кор-ці, 57-3</description>
-      <description lang="ua">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 75мм світло, музика, світло, кермо (3положення, min 49см, max81см), підніжка 27-12см, сидіння (світло,висота від підлоги  27см), білий, на бат-ці, в кор-ці, 57-3</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-170-3-W</param>
-      <param name="Штрихкод">6903317835928</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344286&amp;lang=uk</param>
     </offer>
     <offer id="JR3-172-V" available="true">
       <price>2100</price>
@@ -3065,21 +2917,6 @@
       <param name="Штрихкод">6903317836093</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344291&amp;lang=uk</param>
-    </offer>
-    <offer id="JR3-177-GR" available="true">
-      <price>1500</price>
-      <price_old>2000</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-177-GR</name>
-      <name lang="ua">Самокат JR3-177-GR</name>
-      <picture>https://metr-plus.com.ua/img/1114167.jpg</picture>
-      <description lang="ru">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо ( 3положення, min 63,5см, 1 положення 67см, max 74,5см), підніжка 26-12см, панда, зелений, на бат-ці, в кор-ці, 57-29,5-17см</description>
-      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо ( 3положення, min 63,5см, 1 положення 67см, max 74,5см), підніжка 26-12см, панда, зелений, на бат-ці, в кор-ці, 57-29,5-17см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-177-GR</param>
-      <param name="Штрихкод">6903317836130</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344294&amp;lang=uk</param>
     </offer>
     <offer id="JR3-178-R" available="true">
       <price>1700</price>
@@ -3185,21 +3022,6 @@
       <param name="Штрихкод">6903317830985</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=66&amp;id=344331&amp;lang=uk</param>
-    </offer>
-    <offer id="MB18VCB BLUE" available="true">
-      <price>6100</price>
-      <price_old>8000</price_old>
-      <category code="66">66</category>
-      <name lang="ru">Велосипед детский PROF1 18д. MB18VCB BLUE</name>
-      <name lang="ua">Велосипед дитячий PROF1 18д. MB18VCB BLUE</name>
-      <picture>https://metr-plus.com.ua/img/1114185.jpg</picture>
-      <description lang="ru">VELOCITY,SKD85,магнез.рама,обод,перед/зад.диск.торм.,крыла,доп.кол.,бутылодержатель,дзонок,синий в кор-ке</description>
-      <description lang="ua">VELOCITY,SKD85,магнез.рама,обод,перед/зад.диск.торм.,крила,доп.кол.,пляшкотримач,дзінок,синій в кор-ці</description>
-      <vendor code="PROF1">PROF1</vendor>
-      <param name="Артикул">MB18VCB BLUE</param>
-      <param name="Штрихкод">6903317831050</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=66&amp;id=344332&amp;lang=uk</param>
     </offer>
     <offer id="MB18VCB YELLOW" available="true">
       <price>6100</price>
@@ -3591,21 +3413,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344987&amp;lang=uk</param>
     </offer>
-    <offer id="JR3-171-P" available="true">
-      <price>2000</price>
-      <price_old>2600</price_old>
-      <category code="79">79</category>
-      <name lang="ru">Самокат JR3-171-P</name>
-      <name lang="ua">Самокат JR3-171-P</name>
-      <picture>https://metr-plus.com.ua/img/1114491.jpg</picture>
-      <description lang="ru">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 82мм світло, кермо (4положення, min 58см, 1 положення 64см, max 79см), світло, підніжка 28-12см, рожевий, на бат-ці, в кор-ці, 58-30-17см</description>
-      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 82мм світло, кермо (4положення, min 58см, 1 положення 64см, max 79см), світло, підніжка 28-12см, рожевий, на бат-ці, в кор-ці, 58-30-17см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JR3-171-P</param>
-      <param name="Штрихкод">6903317835942</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=344992&amp;lang=uk</param>
-    </offer>
     <offer id="JR3-174-B" available="true">
       <price>1900</price>
       <price_old>2500</price_old>
@@ -3650,21 +3457,6 @@
       <param name="Штрихкод">6903317831074</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=66&amp;id=345005&amp;lang=uk</param>
-    </offer>
-    <offer id="ME 1231 Hot Chocolate" available="true">
-      <price>5600</price>
-      <price_old>7300</price_old>
-      <category code="75">75</category>
-      <name lang="ru">Велосипед El Camino VECTOR FLEX ME 1231 Hot Chocolate</name>
-      <name lang="ua">Велосипед El Camino VECTOR FLEX ME 1231 Hot Chocolate</name>
-      <picture>https://metr-plus.com.ua/img/1114504.jpg</picture>
-      <description lang="ru">3 цв. PU (12/10), поворот сид., быстросъемные кол., тормоза, склад. руль, свет, подшип., сумка, шоколадный</description>
-      <description lang="ua">3 кол. PU (12/10), поворот сид., швидкоз?ємні кол., гальма, склад. кермо, світло, підшип., сумка, шоколадний</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1231 Hot Chocolate</param>
-      <param name="Штрихкод">6903317830602</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=75&amp;id=345037&amp;lang=uk</param>
     </offer>
     <offer id="ME 1231 Latte" available="true">
       <price>5600</price>
@@ -4882,31 +4674,6 @@
       <param name="Штрихкод">6903317554409</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=281898&amp;lang=uk</param>
-    </offer>
-    <offer id="ME 1102 Serious Gray" available="true">
-      <price>9000</price>
-      <price_old>11700</price_old>
-      <category code="45">45</category>
-      <name lang="ru">Стульчик-качели ME 1102 DEBUT Serious Gray</name>
-      <name lang="ua">Стільчик-гойдалка ME 1102 DEBUT Serious Gray</name>
-      <picture>https://metr-plus.com.ua/img/819347.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915229.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915230.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915239.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915231.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915232.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915233.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915234.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915235.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915236.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/915237.jpg</picture>
-      <description lang="ru">р/к, ел.прив., для годув., 5-точ.рем., тайм,, муз.сiрий</description>
-      <description lang="ua">р/к, ел.прив., для годув., 5-точ.рем., тайм,, муз.сiрий</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1102 Serious Gray</param>
-      <param name="Штрихкод">6903317551767</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=45&amp;id=284030&amp;lang=uk</param>
     </offer>
     <offer id="ME 1110 Royal Dark Gray" available="true">
       <price>4900</price>
@@ -6420,21 +6187,6 @@
       <param name="Штрихкод">6903317680047</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=295879&amp;lang=uk</param>
-    </offer>
-    <offer id="N 2071-13-1" available="true">
-      <price>4300</price>
-      <price_old>5600</price_old>
-      <category code="81">81</category>
-      <name lang="ru">Парта N 2071-13-1</name>
-      <name lang="ua">Парта N 2071-13-1</name>
-      <picture>https://metr-plus.com.ua/img/891466.jpg</picture>
-      <description lang="ru">зі стільчиком, 69,5х44,5см, регул.висота 56,5см/67,5см, МС, таблиця множення, білий</description>
-      <description lang="ua">зі стільчиком, 69,5х44,5см, регул.висота 56,5см/67,5см, МС, таблиця множення, білий</description>
-      <vendor code="MINECRAFT">MINECRAFT</vendor>
-      <param name="Артикул">N 2071-13-1</param>
-      <param name="Штрихкод">6903317680078</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=295880&amp;lang=uk</param>
     </offer>
     <offer id="N 2071-3-1" available="true">
       <price>4300</price>
@@ -9213,6 +8965,21 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=314888&amp;lang=uk</param>
     </offer>
+    <offer id="MS 4681" available="true">
+      <price>2100</price>
+      <price_old>2800</price_old>
+      <category code="134">134</category>
+      <name lang="ru">Боксерский набор MS 4681</name>
+      <name lang="ua">Боксерський набір MS 4681</name>
+      <picture>https://metr-plus.com.ua/img/994014.jpg</picture>
+      <description lang="ru">груша, на стойке (металл, 124см/155см, на присосках), насос, гла, отвертка, в кор-ке</description>
+      <description lang="ua">груша, на стійці (метал, 124см/155см, на присосках), насос, гла, викрутка, в кор-ці</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">MS 4681</param>
+      <param name="Штрихкод">6903317770854</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=134&amp;id=317439&amp;lang=uk</param>
+    </offer>
     <offer id="MB 14021-1" available="true">
       <price>4000</price>
       <price_old>5200</price_old>
@@ -9588,31 +9355,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=45&amp;id=284029&amp;lang=uk</param>
     </offer>
-    <offer id="ME 1115-W Beige" available="true">
-      <price>4400</price>
-      <price_old>5800</price_old>
-      <category code="45">45</category>
-      <name lang="ru">Стульчик ME 1115-W CRAFT Beige</name>
-      <name lang="ua">Стільчик ME 1115-W CRAFT Beige</name>
-      <picture>https://metr-plus.com.ua/img/842831.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/846534.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847330.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847331.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847332.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847333.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847334.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847335.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847336.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847337.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/847338.jpg</picture>
-      <description lang="ru">для кормления, 5-точ.ремни, матрас, 2 колеса, кож., бежевый</description>
-      <description lang="ua">для годування, 5-точ.ремені, матрац, 2 колеса, шкір., бежевий</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1115-W Beige</param>
-      <param name="Штрихкод">6903317598601</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=45&amp;id=288654&amp;lang=uk</param>
-    </offer>
     <offer id="ME 1115-W Gray" available="true">
       <price>4400</price>
       <price_old>5800</price_old>
@@ -9756,31 +9498,6 @@
       <param name="Штрихкод">6903317718085</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=45&amp;id=307374&amp;lang=uk</param>
-    </offer>
-    <offer id="ME 1177 Quiet Gray" available="true">
-      <price>3600</price>
-      <price_old>4700</price_old>
-      <category code="45">45</category>
-      <name lang="ru">Стульчик ME 1177 STEADY Quiet Gray</name>
-      <name lang="ua">Стільчик ME 1177 STEADY Quiet Gray</name>
-      <picture>https://metr-plus.com.ua/img/939877.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958241.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958242.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958243.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958244.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958245.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958246.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958247.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958248.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958249.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/958250.jpg</picture>
-      <description lang="ru">для кормления, 5-точ.ремни, матрас, 4 колеса, кож., светло-серый</description>
-      <description lang="ua">для годування, 5-точ.ремені, матрац, 4 колеса, шкір., світло-сірий</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1177 Quiet Gray</param>
-      <param name="Штрихкод">6903317718092</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=45&amp;id=307375&amp;lang=uk</param>
     </offer>
     <offer id="ME 1177 Storm Gray" available="true">
       <price>3600</price>
@@ -11538,21 +11255,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=330827&amp;lang=uk</param>
     </offer>
-    <offer id="N 2071-31-1" available="true">
-      <price>4300</price>
-      <price_old>5600</price_old>
-      <category code="81">81</category>
-      <name lang="ru">Парта N 2071-31-1</name>
-      <name lang="ua">Парта N 2071-31-1</name>
-      <picture>https://metr-plus.com.ua/img/1018039.jpg</picture>
-      <description lang="ru">зі стільчиком, 69,5х44,5см, регул.висота 56,5/67,5см, футбол, білий</description>
-      <description lang="ua">зі стільчиком, 69,5х44,5см, регул.висота 56,5/67,5см, футбол, білий</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">N 2071-31-1</param>
-      <param name="Штрихкод">6903317832958</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=330829&amp;lang=uk</param>
-    </offer>
     <offer id="M 502-3" available="true">
       <price>3100</price>
       <price_old>4100</price_old>
@@ -11568,6 +11270,66 @@
       <param name="Штрихкод">6903317837526</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=331828&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6319-13" available="true">
+      <price>3900</price>
+      <price_old>5100</price_old>
+      <category code="81">81</category>
+      <name lang="ru">Столик M 6319-13</name>
+      <name lang="ua">Столик M 6319-13</name>
+      <picture>https://metr-plus.com.ua/img/1114756.jpg</picture>
+      <description lang="ru">1 стільчик, в кор-ці, полиці, дерев&amp;apos;яна поверхня</description>
+      <description lang="ua">1 стільчик, в кор-ці, полиці, дерев&amp;apos;яна поверхня</description>
+      <vendor code="BAMBI">BAMBI</vendor>
+      <param name="Артикул">M 6319-13</param>
+      <param name="Штрихкод">6903317830947</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=345388&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6320-11" available="true">
+      <price>3800</price>
+      <price_old>5000</price_old>
+      <category code="81">81</category>
+      <name lang="ru">Столик M 6320-11</name>
+      <name lang="ua">Столик M 6320-11</name>
+      <picture>https://metr-plus.com.ua/img/1114757.jpg</picture>
+      <description lang="ru">1 стільчик, в кор-ці, знімна стільниця, сірий</description>
+      <description lang="ua">1 стільчик, в кор-ці, знімна стільниця, сірий</description>
+      <vendor code="BAMBI">BAMBI</vendor>
+      <param name="Артикул">M 6320-11</param>
+      <param name="Штрихкод">6903317830954</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=345389&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6320-13" available="true">
+      <price>3800</price>
+      <price_old>5000</price_old>
+      <category code="81">81</category>
+      <name lang="ru">Столик M 6320-13</name>
+      <name lang="ua">Столик M 6320-13</name>
+      <picture>https://metr-plus.com.ua/img/1114758.jpg</picture>
+      <description lang="ru">1 стільчик, в кор-ці, знімна стільниця, бежевий</description>
+      <description lang="ua">1 стільчик, в кор-ці, знімна стільниця, бежевий</description>
+      <vendor code="BAMBI">BAMBI</vendor>
+      <param name="Артикул">M 6320-13</param>
+      <param name="Штрихкод">6903317830961</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=345390&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6321-5" available="true">
+      <price>3300</price>
+      <price_old>4300</price_old>
+      <category code="81">81</category>
+      <name lang="ru">Столик M 6321-5</name>
+      <name lang="ua">Столик M 6321-5</name>
+      <picture>https://metr-plus.com.ua/img/1114759.jpg</picture>
+      <description lang="ru">2 стільчика, в кор-ці, ігрове поле для конструктора, знімна стільниця, кольоровий</description>
+      <description lang="ua">2 стільчика, в кор-ці, ігрове поле для конструктора, знімна стільниця, кольоровий</description>
+      <vendor code="BAMBI">BAMBI</vendor>
+      <param name="Артикул">M 6321-5</param>
+      <param name="Штрихкод">6903317830978</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=345391&amp;lang=uk</param>
     </offer>
     <offer id="ME 1180-W Gray" available="true">
       <price>5400</price>
@@ -12083,29 +11845,6 @@
       <param name="Штрихкод">6903317610075</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=122&amp;id=289981&amp;lang=uk</param>
-    </offer>
-    <offer id="ME 1116 Dark Gray" available="true">
-      <price>3800</price>
-      <price_old>5000</price_old>
-      <category code="122">122</category>
-      <name lang="ru">Убаюкивающий центр ME 1116 CUTE Dark Gray</name>
-      <name lang="ua">Заколисуючий центр ME 1116 CUTE Dark Gray</name>
-      <picture>https://metr-plus.com.ua/img/850778.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853414.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853415.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853416.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853417.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853418.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853419.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853420.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/853421.jpg</picture>
-      <description lang="ru">пульт, APP, 5скор., таймер, 12 мелодий, Bluetooth, 2 полож.спинки, серый</description>
-      <description lang="ua">пульт, APP, 5швидк., таймер, 12 мелодій, Bluetooth, 2 полож.спинки, сірий</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1116 Dark Gray</param>
-      <param name="Штрихкод">6903317610105</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=122&amp;id=289984&amp;lang=uk</param>
     </offer>
     <offer id="8301" available="true">
       <price>6000</price>
@@ -13138,31 +12877,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=43&amp;id=310390&amp;lang=uk</param>
     </offer>
-    <offer id="M 4249-2 Hunter Green Matt" available="true">
-      <price>4400</price>
-      <price_old>5800</price_old>
-      <category code="43">43</category>
-      <name lang="ru">Коляска детская M 4249-2 Hunter Green Matt</name>
-      <name lang="ua">Коляска дитяча M 4249-2 Hunter Green Matt</name>
-      <picture>https://metr-plus.com.ua/img/991488.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992722.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992723.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992724.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992725.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992726.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992727.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992728.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992729.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992730.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/992731.jpg</picture>
-      <description lang="ru">прогулочная, книга, зеленый</description>
-      <description lang="ua">прогулянкова, книжка, зелений</description>
-      <vendor code="BAMBI">BAMBI</vendor>
-      <param name="Артикул">M 4249-2 Hunter Green Matt</param>
-      <param name="Штрихкод">6903317757121</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=43&amp;id=316396&amp;lang=uk</param>
-    </offer>
     <offer id="ME 1199" available="true">
       <price>1500</price>
       <price_old>2000</price_old>
@@ -13383,31 +13097,6 @@
       <param name="Штрихкод">6903317815999</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=43&amp;id=339142&amp;lang=uk</param>
-    </offer>
-    <offer id="ME 1124-3 Taupe Beige" available="true">
-      <price>15000</price>
-      <price_old>19500</price_old>
-      <category code="43">43</category>
-      <name lang="ru">Коляска универсальная El Camino PRESTIGE ME 1124-3 Taupe Beige</name>
-      <name lang="ua">Коляска універсальна 2в1 El Camino PRESTIGE ME 1124-3 Taupe Beige</name>
-      <picture>https://metr-plus.com.ua/img/1052430.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113685.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113686.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113689.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113687.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113690.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113702.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113688.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113691.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113692.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1113693.jpg</picture>
-      <description lang="ru">люлька+прогул.блок,хром.рама, 2 дождевика, моск.сетка,рюкзак,алюмин, бежевый</description>
-      <description lang="ua">люлька+прогул.блок,хром.рама, 2 дощовика, моск.сітка,рюкзак,алюмин, бежевий</description>
-      <vendor code="EL CAMINO">EL CAMINO</vendor>
-      <param name="Артикул">ME 1124-3 Taupe Beige</param>
-      <param name="Штрихкод">6903317816002</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=43&amp;id=339143&amp;lang=uk</param>
     </offer>
     <offer id="ME 1124-3 Jade Green" available="true">
       <price>15000</price>
@@ -13930,6 +13619,21 @@
       <param name="Штрихкод">6903317615285</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=78&amp;id=291658&amp;lang=uk</param>
+    </offer>
+    <offer id="MBB 1014-2" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <category code="491">491</category>
+      <name lang="ru">Беговел детский PROFI KIDS 7 д.MBB 1014-2</name>
+      <name lang="ua">Біговел дитячий PROFI KIDS 7 д.MBB 1014-2</name>
+      <picture>https://metr-plus.com.ua/img/863205.jpg</picture>
+      <description lang="ru">4 цв EVA, алюм.рама, розово-белый</description>
+      <description lang="ua">4 кол EVA,алюм.рама, рожево-білий</description>
+      <vendor code="PROF1 KIDS">PROF1 KIDS</vendor>
+      <param name="Артикул">MBB 1014-2</param>
+      <param name="Штрихкод">6903317629206</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=78&amp;id=293378&amp;lang=uk</param>
     </offer>
     <offer id="MBB 1014-1" available="true">
       <price>2000</price>
@@ -14478,21 +14182,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=491&amp;id=310969&amp;lang=uk</param>
     </offer>
-    <offer id="MBB 1051-1" available="true">
-      <price>2300</price>
-      <price_old>3000</price_old>
-      <category code="491">491</category>
-      <name lang="ru">Беговел детский 14 д. MBB 1051-1</name>
-      <name lang="ua">Біговел дитячий 14 д. MBB 1051-1</name>
-      <picture>https://metr-plus.com.ua/img/958122.jpg</picture>
-      <description lang="ru">колеса резина, салатовый мат</description>
-      <description lang="ua">колеса гума, салатовий мат</description>
-      <vendor code="PROF1 KIDS">PROF1 KIDS</vendor>
-      <param name="Артикул">MBB 1051-1</param>
-      <param name="Штрихкод">6903317752652</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=491&amp;id=311283&amp;lang=uk</param>
-    </offer>
     <offer id="MBB 1050-4" available="true">
       <price>2200</price>
       <price_old>2900</price_old>
@@ -14690,6 +14379,21 @@
       <param name="Штрихкод">6903317834747</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=345100&amp;lang=uk</param>
+    </offer>
+    <offer id="JR3-166-5-GR" available="true">
+      <price>2100</price>
+      <price_old>2800</price_old>
+      <category code="79">79</category>
+      <name lang="ru">Самокат JR3-166-5-GR</name>
+      <name lang="ua">Самокат JR3-166-5-GR</name>
+      <picture>https://metr-plus.com.ua/img/1114755.jpg</picture>
+      <description lang="ru">5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3полож., min 61см, 1 положення 67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик</description>
+      <description lang="ua">5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3полож., min 61см, 1 положення 67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">JR3-166-5-GR</param>
+      <param name="Штрихкод">6903317835775</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=79&amp;id=345387&amp;lang=uk</param>
     </offer>
     <offer id="M 1450-6" available="true">
       <price>7000</price>
@@ -15854,6 +15558,21 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=75&amp;id=338416&amp;lang=uk</param>
     </offer>
+    <offer id="ME 1231 Charcoal Gray" available="true">
+      <price>5600</price>
+      <price_old>7300</price_old>
+      <category code="75">75</category>
+      <name lang="ru">Велосипед El Camino VECTOR FLEX ME 1231 Charcoal Gray</name>
+      <name lang="ua">Велосипед El Camino VECTOR FLEX ME 1231 Charcoal Gray</name>
+      <picture>https://metr-plus.com.ua/img/1114762.jpg</picture>
+      <description lang="ru">3 цв. PU (12/10), поворот сид., быстросъемные кол., тормоза, склад. руль, светло, подшип., сумка, темно-серый</description>
+      <description lang="ua">3 кол. PU (12/10), поворот сид., швидкоз?ємні кол., гальма, склад. кермо, світло, підшип., сумка, темно-сірий</description>
+      <vendor code="EL CAMINO">EL CAMINO</vendor>
+      <param name="Артикул">ME 1231 Charcoal Gray</param>
+      <param name="Штрихкод">6903317830626</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=75&amp;id=345396&amp;lang=uk</param>
+    </offer>
     <offer id="MES 1033-1" available="true">
       <price>20100</price>
       <price_old>26200</price_old>
@@ -16316,31 +16035,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=223441&amp;lang=uk</param>
     </offer>
-    <offer id="M 4259EBLR-1" available="true">
-      <price>15500</price>
-      <price_old>20200</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 4259EBLR-1</name>
-      <name lang="ua">Джип M 4259EBLR-1</name>
-      <picture>https://metr-plus.com.ua/img/532825.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/532824.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505673.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505676.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505678.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505677.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505674.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505683.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505684.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/505675.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/422472.jpg</picture>
-      <description lang="ru">2,4G, 4мот45W, 2аккум12V7AH, музыка, свет, USB, EVA, кожа, белый</description>
-      <description lang="ua">2,4G, 4мот45W, 2аккум12V7AH, музыка, свет, USB, EVA, кожа, белый</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 4259EBLR-1</param>
-      <param name="Штрихкод">6903317212125</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=223949&amp;lang=uk</param>
-    </offer>
     <offer id="M 4170EBLR-1(24V)" available="true">
       <price>24100</price>
       <price_old>31400</price_old>
@@ -16546,26 +16240,6 @@
       <param name="Штрихкод">6903317344048</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=245697&amp;lang=uk</param>
-    </offer>
-    <offer id="M 3681AL-1" available="true">
-      <price>7100</price>
-      <price_old>9300</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Мотоцикл M 3681AL-1</name>
-      <name lang="ua">Мотоцикл M 3681AL-1</name>
-      <picture>https://metr-plus.com.ua/img/547615.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/548528.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/673255.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/673256.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/548530.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/548527.jpg</picture>
-      <description lang="ru">2мот18W, 12V7A,руч.газа,рез.колес,USB, муз,кож.сид, бел</description>
-      <description lang="ua">2мот18W, 12V7A, руч.газа, рез.колес, USB, муз, кож.сід, бел</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 3681AL-1</param>
-      <param name="Штрихкод">6903317343027</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=245718&amp;lang=uk</param>
     </offer>
     <offer id="M 3681AL-4" available="true">
       <price>7100</price>
@@ -17499,30 +17173,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=276182&amp;lang=uk</param>
     </offer>
-    <offer id="M 3906EBLRS-2" available="true">
-      <price>19800</price>
-      <price_old>25800</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Машина M 3906EBLRS-2</name>
-      <name lang="ua">Машина M 3906EBLRS-2</name>
-      <picture>https://metr-plus.com.ua/img/781001.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048157.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048158.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048159.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048166.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048165.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048162.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048161.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048160.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1048163.jpg</picture>
-      <description lang="ru">р/у2,4G,4мот35W,12V14Ah PRO,колEVA,USB,SD,кож.сид,5точ.рем,краш.черн</description>
-      <description lang="ua">р/в2,4G,4мот35W,12V14Ah PRO,колEVA,USB,SD,шкір.сид,5точ.рем,краш.чорн</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 3906EBLRS-2</param>
-      <param name="Штрихкод">6903317537846</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=276183&amp;lang=uk</param>
-    </offer>
     <offer id="M 4938EBLR-1" available="true">
       <price>9200</price>
       <price_old>12000</price_old>
@@ -18441,31 +18091,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=286321&amp;lang=uk</param>
     </offer>
-    <offer id="JJ2088EBLR-1-2(4WD)" available="true">
-      <price>14300</price>
-      <price_old>18600</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип JJ2088EBLR-1-2(4WD)</name>
-      <name lang="ua">Джип JJ2088EBLR-1-2(4WD)</name>
-      <picture>https://metr-plus.com.ua/img/848828.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848980.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848981.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848982.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848983.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848984.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848985.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848986.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848987.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848988.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/848989.jpg</picture>
-      <description lang="ru">(1шт) 2,4G, передн.2*25W, задн.2*35W, 1аккум*12V9AH, колесаEVA, шкір.сид, біло-чорний</description>
-      <description lang="ua">(1шт) 2,4G, передн.2*25W, задн.2*35W, 1аккум*12V9AH, колесаEVA, шкір.сид, біло-чорний</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JJ2088EBLR-1-2(4WD)</param>
-      <param name="Штрихкод">6903317612376</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=289763&amp;lang=uk</param>
-    </offer>
     <offer id="M 5098EBLR-1" available="true">
       <price>13800</price>
       <price_old>18000</price_old>
@@ -18797,30 +18422,6 @@
       <param name="Штрихкод">6903317612673</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=291082&amp;lang=uk</param>
-    </offer>
-    <offer id="M 5744EL-8" available="true">
-      <price>9200</price>
-      <price_old>12000</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Мотоцикл M 5744EL-8</name>
-      <name lang="ua">Мотоцикл M 5744EL-8</name>
-      <picture>https://metr-plus.com.ua/img/854360.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861389.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861390.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861391.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861392.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861393.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861394.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861395.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861396.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/861397.jpg</picture>
-      <description lang="ru">2мотори35W, 1акум12V12AH, музика, світло, MP3, TF, USB, колесаEVA, шкіра, рожевий</description>
-      <description lang="ua">2мотори35W, 1акум12V12AH, музика, світло, MP3, TF, USB, колесаEVA, шкіра, рожевий</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 5744EL-8</param>
-      <param name="Штрихкод">6903317618101</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=291205&amp;lang=uk</param>
     </offer>
     <offer id="M 5054EL-8" available="true">
       <price>3700</price>
@@ -19270,31 +18871,6 @@
       <param name="Штрихкод">6903317619429</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=293978&amp;lang=uk</param>
-    </offer>
-    <offer id="M 5772EBR-3" available="true">
-      <price>21900</price>
-      <price_old>28500</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Трактор M 5772EBR-3</name>
-      <name lang="ua">Трактор M 5772EBR-3</name>
-      <picture>https://metr-plus.com.ua/img/881611.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888890.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888891.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888892.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888893.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888894.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888895.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888896.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888897.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888898.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/888899.jpg</picture>
-      <description lang="ru">р/к2,4G, с прицепом, 1акум24V7AH, 2мотори95W, муз,свiтло, MP3, USB, колесаEVA,червоний</description>
-      <description lang="ua">р/к2,4G, з причепом, 1акум24V7AH, 2мотори95W, муз,свiтло, MP3, USB, колесаEVA,червоний</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 5772EBR-3</param>
-      <param name="Штрихкод">6903317626229</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=293979&amp;lang=uk</param>
     </offer>
     <offer id="JS3198EBLR-1" available="true">
       <price>14100</price>
@@ -20367,31 +19943,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=300067&amp;lang=uk</param>
     </offer>
-    <offer id="M 5797A-2(48V)" available="true">
-      <price>52700</price>
-      <price_old>68600</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Багги M 5797A-2(48V)</name>
-      <name lang="ua">Баггі M 5797A-2(48V)</name>
-      <picture>https://metr-plus.com.ua/img/921045.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926838.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926839.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926840.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926841.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926842.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926843.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926844.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926845.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926846.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/926847.jpg</picture>
-      <description lang="ru">(1шт) 48V800W, 12V20AH*4(48V), надувные шины, MP3, USB, BLUETOOTH, FM, навант.до 150кг, черный</description>
-      <description lang="ua">(1шт) 48V800W, 12V20AH*4(48V), надувні шини, MP3, USB, BLUETOOTH, FM, навант.до 150кг, чорний</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 5797A-2(48V)</param>
-      <param name="Штрихкод">6903317661534</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=301155&amp;lang=uk</param>
-    </offer>
     <offer id="M 5912EBLR-1" available="true">
       <price>18600</price>
       <price_old>24200</price_old>
@@ -20611,30 +20162,6 @@
       <param name="Штрихкод">6903317695683</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=304785&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6019EBLR-8" available="true">
-      <price>18900</price>
-      <price_old>24600</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 6019EBLR-8</name>
-      <name lang="ua">Джип M 6019EBLR-8</name>
-      <picture>https://metr-plus.com.ua/img/932190.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940367.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940368.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940369.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940370.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940371.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940372.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940373.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940374.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/940375.jpg</picture>
-      <description lang="ru">2,4G р/к, 2*12V12AH, 4*45W, MP3, USB, TF, BLUETOOTH, EVA, APP, шкіра, музика, світло, рожевий</description>
-      <description lang="ua">2,4G р/к, 2*12V12AH, 4*45W, MP3, USB, TF, BLUETOOTH, EVA, APP, шкіра, музика, світло, рожевий</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6019EBLR-8</param>
-      <param name="Штрихкод">6903317703142</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=304790&amp;lang=uk</param>
     </offer>
     <offer id="M 6013EL-1(24V)" available="true">
       <price>16200</price>
@@ -21513,30 +21040,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=308171&amp;lang=uk</param>
     </offer>
-    <offer id="M 6124EBLR-2(24V)" available="true">
-      <price>18200</price>
-      <price_old>23700</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 6124EBLR-2(24V)</name>
-      <name lang="ua">Джип M 6124EBLR-2(24V)</name>
-      <picture>https://metr-plus.com.ua/img/946744.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979746.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979747.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979748.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979749.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979752.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979753.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979750.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979751.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/979745.jpg</picture>
-      <description lang="ru">(1шт) 2,4G р/к, 1*24V8AH, 4*45W, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, чорний</description>
-      <description lang="ua">(1шт) 2,4G р/к, 1*24V8AH, 4*45W, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, чорний</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6124EBLR-2(24V)</param>
-      <param name="Штрихкод">6903317731046</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=308176&amp;lang=uk</param>
-    </offer>
     <offer id="M 6124EBLR-6(24V)" available="true">
       <price>18200</price>
       <price_old>23700</price_old>
@@ -21560,30 +21063,6 @@
       <param name="Штрихкод">6903317726400</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=308178&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6124EBLR-7(24V)" available="true">
-      <price>18200</price>
-      <price_old>23700</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 6124EBLR-7(24V)</name>
-      <name lang="ua">Джип M 6124EBLR-7(24V)</name>
-      <picture>https://metr-plus.com.ua/img/946747.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999533.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999534.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999535.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999536.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999537.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999538.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999539.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999540.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/999541.jpg</picture>
-      <description lang="ru">(1шт) 2,4G р/к, 1*24V8AH, 4*45W, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, помаранч</description>
-      <description lang="ua">(1шт) 2,4G р/к, 1*24V8AH, 4*45W, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, помаранч</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6124EBLR-7(24V)</param>
-      <param name="Штрихкод">6903317726417</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=308179&amp;lang=uk</param>
     </offer>
     <offer id="M 6072EBR-1" available="true">
       <price>4100</price>
@@ -22496,29 +21975,6 @@
       <param name="Штрихкод">6903317737086</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=311284&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6125EBLR-5" available="true">
-      <price>3900</price>
-      <price_old>5100</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Квадроцикл M 6125EBLR-5</name>
-      <name lang="ua">Квадроцикл M 6125EBLR-5</name>
-      <picture>https://metr-plus.com.ua/img/958182.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960107.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960108.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960109.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960110.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960111.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960112.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960113.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/960114.jpg</picture>
-      <description lang="ru">2,4G р/к, 2-в-1(каталка-толокар), 1*6V4AH, 1*25W, MP3, USB, BLUETOOTH, EVA, шкіра, музика, світло, зелений</description>
-      <description lang="ua">2,4G р/к, 2-в-1(каталка-толокар), 1*6V4AH, 1*25W, MP3, USB, BLUETOOTH, EVA, шкіра, музика, світло, зелений</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6125EBLR-5</param>
-      <param name="Штрихкод">6903317728589</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=311314&amp;lang=uk</param>
     </offer>
     <offer id="M 6125EBLR-6" available="true">
       <price>3900</price>
@@ -24922,29 +24378,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=327965&amp;lang=uk</param>
     </offer>
-    <offer id="M 6145(A)EBR-8" available="true">
-      <price>4400</price>
-      <price_old>5800</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Електрокарт M 6145(A)EBR-8</name>
-      <name lang="ua">Електрокарт M 6145(A)EBR-8</name>
-      <picture>https://metr-plus.com.ua/img/1010052.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027425.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027426.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027427.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027428.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027429.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027430.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027431.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1027432.jpg</picture>
-      <description lang="ru">р/к2,4G, 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, рожевий</description>
-      <description lang="ua">р/к2,4G, 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, розовий</description>
-      <vendor code="Bambi kart">Bambi kart</vendor>
-      <param name="Артикул">M 6145(A)EBR-8</param>
-      <param name="Штрихкод">6903317796670</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=327966&amp;lang=uk</param>
-    </offer>
     <offer id="M 6145(A)EBR-15" available="true">
       <price>4400</price>
       <price_old>5800</price_old>
@@ -25379,29 +24812,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=329831&amp;lang=uk</param>
     </offer>
-    <offer id="M 6258EBLR-5" available="true">
-      <price>6900</price>
-      <price_old>9000</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Джип M 6258EBLR-5</name>
-      <name lang="ua">Джип M 6258EBLR-5</name>
-      <picture>https://metr-plus.com.ua/img/1015759.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016829.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016830.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016831.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016832.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016833.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016834.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016835.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1016836.jpg</picture>
-      <description lang="ru">р/к2,4G, 2мотор35W, 1акум12V7AH, BLUETOOTH, MP3, USB, TF, EVA, музика, світло, шкіра, зелений</description>
-      <description lang="ua">р/к2,4G, 2мотор35W, 1акум12V7AH, BLUETOOTH, MP3, USB, TF, EVA, музика, світло, шкіра, зелений</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6258EBLR-5</param>
-      <param name="Штрихкод">6903317797387</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=329832&amp;lang=uk</param>
-    </offer>
     <offer id="M 6072EBR-13" available="true">
       <price>4100</price>
       <price_old>5400</price_old>
@@ -25488,31 +24898,6 @@
       <param name="Штрихкод">6903317798353</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=329837&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6260EBLR-6(24V)" available="true">
-      <price>18400</price>
-      <price_old>24000</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Трактор M 6260EBLR-6(24V)</name>
-      <name lang="ua">Трактор M 6260EBLR-6(24V)</name>
-      <picture>https://metr-plus.com.ua/img/1015771.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019486.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019487.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019488.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019489.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019490.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019491.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019492.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019493.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019494.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1019495.jpg</picture>
-      <description lang="ru">(1шт) р/к2,4G, с прицепом, 1акум24V7AH, 2моторы95W, муз, свет, MP3, USB, BLUETOOTH, TF, колесаEVA, желтый</description>
-      <description lang="ua">(1шт) р/к2,4G, з причепом, 1акум24V7AH, 2мотори95W, муз, світло, MP3, USB, BLUETOOTH, TF, колесаEVA, жовтий</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6260EBLR-6(24V)</param>
-      <param name="Штрихкод">6903317797486</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=329844&amp;lang=uk</param>
     </offer>
     <offer id="M 6257EBLR-4" available="true">
       <price>13900</price>
@@ -29922,21 +29307,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=339473&amp;lang=uk</param>
     </offer>
-    <offer id="M 6323EBLR-5" available="true">
-      <price>4300</price>
-      <price_old>5600</price_old>
-      <category code="77">77</category>
-      <name lang="ru">Квадроцикл M 6323EBLR-5</name>
-      <name lang="ua">Квадроцикл M 6323EBLR-5</name>
-      <picture>https://metr-plus.com.ua/img/1054084.jpg</picture>
-      <description lang="ru">2,4G р/к, 3-в-1(каталка-толокар, бат.ручка), 1*6V7AH, 2*25W, TF, USB, BLUETOOTH, EVA, шкіра, музика, світло, зелений</description>
-      <description lang="ua">2,4G р/к, 3-в-1(каталка-толокар, бат.ручка), 1*6V7AH, 2*25W, TF, USB, BLUETOOTH, EVA, шкіра, музика, світло, зелений</description>
-      <vendor code="Bambi Racer">Bambi Racer</vendor>
-      <param name="Артикул">M 6323EBLR-5</param>
-      <param name="Штрихкод">6903317831623</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=339592&amp;lang=uk</param>
-    </offer>
     <offer id="M 6027EBLR-4" available="true">
       <price>11100</price>
       <price_old>14500</price_old>
@@ -30462,6 +29832,66 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=344740&amp;lang=uk</param>
     </offer>
+    <offer id="M 6368EBLR-2(24V)" available="true">
+      <price>15400</price>
+      <price_old>20100</price_old>
+      <category code="77">77</category>
+      <name lang="ru">Джип M 6368EBLR-2(24V)</name>
+      <name lang="ua">Джип M 6368EBLR-2(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1114746.jpg</picture>
+      <description lang="ru">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, чорний</description>
+      <description lang="ua">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, чорний</description>
+      <vendor code="Bambi Racer">Bambi Racer</vendor>
+      <param name="Артикул">M 6368EBLR-2(24V)</param>
+      <param name="Штрихкод">6903317844630</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=345378&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6368EBLR-4(24V)" available="true">
+      <price>15400</price>
+      <price_old>20100</price_old>
+      <category code="77">77</category>
+      <name lang="ru">Джип M 6368EBLR-4(24V)</name>
+      <name lang="ua">Джип M 6368EBLR-4(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1114747.jpg</picture>
+      <description lang="ru">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, синій</description>
+      <description lang="ua">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, синій</description>
+      <vendor code="Bambi Racer">Bambi Racer</vendor>
+      <param name="Артикул">M 6368EBLR-4(24V)</param>
+      <param name="Штрихкод">6903317844654</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=345379&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6368EBLR-7(24V)" available="true">
+      <price>15400</price>
+      <price_old>20100</price_old>
+      <category code="77">77</category>
+      <name lang="ru">Джип M 6368EBLR-7(24V)</name>
+      <name lang="ua">Джип M 6368EBLR-7(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1114748.jpg</picture>
+      <description lang="ru">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, помаранчевий</description>
+      <description lang="ua">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, помаранчевий</description>
+      <vendor code="Bambi Racer">Bambi Racer</vendor>
+      <param name="Артикул">M 6368EBLR-7(24V)</param>
+      <param name="Штрихкод">6903317844661</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=345380&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6368EBLR-8(24V)" available="true">
+      <price>15400</price>
+      <price_old>20100</price_old>
+      <category code="77">77</category>
+      <name lang="ru">Джип M 6368EBLR-8(24V)</name>
+      <name lang="ua">Джип M 6368EBLR-8(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1114749.jpg</picture>
+      <description lang="ru">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, рожевий</description>
+      <description lang="ua">(1шт) 2,4G р/к, 1*24V7AH, 4*200W, MP3, BLUETOOTH, EVA, музика, світло, шкіра, рожевий</description>
+      <vendor code="Bambi Racer">Bambi Racer</vendor>
+      <param name="Артикул">M 6368EBLR-8(24V)</param>
+      <param name="Штрихкод">6903317844678</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=77&amp;id=345381&amp;lang=uk</param>
+    </offer>
     <offer id="CHARGER-800N" available="true">
       <price>1500</price>
       <price_old>2000</price_old>
@@ -30746,21 +30176,6 @@
       <param name="Штрихкод">6903166704017</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=148990&amp;lang=uk</param>
-    </offer>
-    <offer id="M 3237-EVA WHEEL" available="true">
-      <price>1300</price>
-      <price_old>1700</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Колесо M 3237-EVA WHEEL</name>
-      <name lang="ua">Колесо M 3237-EVA WHEEL</name>
-      <picture>https://metr-plus.com.ua/img/943114.jpg</picture>
-      <description lang="ru">ЕВА для джипа M 3237, диам.29,5см, ширина 11см</description>
-      <description lang="ua">ЕВА до джипа M 3237, діам.29,5см, ширина 11см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 3237-EVA WHEEL</param>
-      <param name="Штрихкод">6903166702013</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=148991&amp;lang=uk</param>
     </offer>
     <offer id="M 3454-CHARGER" available="true">
       <price>1200</price>
@@ -32279,21 +31694,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=234405&amp;lang=uk</param>
     </offer>
-    <offer id="JJ2066- RC" available="true">
-      <price>1200</price>
-      <price_old>1600</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Пульт JJ2066- RC</name>
-      <name lang="ua">Пульт JJ2066- RC</name>
-      <picture>https://metr-plus.com.ua/img/506540.jpg</picture>
-      <description lang="ru">для машины JJ2066, на бат-ке, в кор-ке</description>
-      <description lang="ua">для машины JJ2066, на бат-ке, в кор-ке</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JJ2066- RC</param>
-      <param name="Штрихкод">6903317257706</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=234414&amp;lang=uk</param>
-    </offer>
     <offer id="JE1618 GEAR" available="true">
       <price>1300</price>
       <price_old>1700</price_old>
@@ -33299,21 +32699,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=251062&amp;lang=uk</param>
     </offer>
-    <offer id="M 4560-MP3" available="true">
-      <price>1000</price>
-      <price_old>1300</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Плеер M 4560-MP3</name>
-      <name lang="ua">Плеєр M 4560-MP3</name>
-      <picture>https://metr-plus.com.ua/img/640134.jpg</picture>
-      <description lang="ru">для машины M 4560</description>
-      <description lang="ua">Для машини M 4560</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 4560-MP3</param>
-      <param name="Штрихкод">6903317367931</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=251077&amp;lang=uk</param>
-    </offer>
     <offer id="M 4560-ST GEAR" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
@@ -33403,36 +32788,6 @@
       <param name="Штрихкод">6903317394807</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=257645&amp;lang=uk</param>
-    </offer>
-    <offer id="M 3454-RC RECEIVER" available="true">
-      <price>1400</price>
-      <price_old>1900</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Блок управления M 3454-RC RECEIVER</name>
-      <name lang="ua">Блок керування M 3454-RC RECEIVER</name>
-      <picture>https://metr-plus.com.ua/img/663663.jpg</picture>
-      <description lang="ru">для электромоб. M 3454, 12V,2021г</description>
-      <description lang="ua">Для електромобілі. M 3454, 12V, 2021р</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 3454-RC RECEIVER</param>
-      <param name="Штрихкод">6903317394814</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=257646&amp;lang=uk</param>
-    </offer>
-    <offer id="M 3237-2,4G" available="true">
-      <price>1100</price>
-      <price_old>1500</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Пульт управления M 3237-2,4G</name>
-      <name lang="ua">Пульт керування M 3237-2,4G</name>
-      <picture>https://metr-plus.com.ua/img/663669.jpg</picture>
-      <description lang="ru">для электромоб. M 3237/M 3454, 2021г, на бат-ке, в кор-ке</description>
-      <description lang="ua">Для електромобілі. M 3237 / M 3454, 2021р, на бат-ке, в кор-ке</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 3237-2,4G</param>
-      <param name="Штрихкод">6903317394821</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=257653&amp;lang=uk</param>
     </offer>
     <offer id="M 4259-GEAR BOX" available="true">
       <price>1200</price>
@@ -34889,21 +34244,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=282645&amp;lang=uk</param>
     </offer>
-    <offer id="M 5025-ST GEAR" available="true">
-      <price>1100</price>
-      <price_old>1500</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Рулевой редуктор M 5025-ST GEAR</name>
-      <name lang="ua">Рульовий редуктор M 5025-ST GEAR</name>
-      <picture>https://metr-plus.com.ua/img/816341.jpg</picture>
-      <description lang="ru">для джипа M 5025, 24V, RPM5000, отверстие под ось 10мм, дл.17см. 4WD</description>
-      <description lang="ua">для джипа M 5025, 24V,RPM5000, отвір під вісь 10мм, довж.17см. 4WD</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 5025-ST GEAR</param>
-      <param name="Штрихкод">6903317552801</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=282864&amp;lang=uk</param>
-    </offer>
     <offer id="M 5038-ST-GEAR" available="true">
       <price>1200</price>
       <price_old>1600</price_old>
@@ -35143,21 +34483,6 @@
       <param name="Штрихкод">6903317571888</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=283636&amp;lang=uk</param>
-    </offer>
-    <offer id="JE1009-ST WHEEL" available="true">
-      <price>1200</price>
-      <price_old>1600</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Руль JE1009-ST WHEEL</name>
-      <name lang="ua">Кермо JE1009-ST WHEEL</name>
-      <picture>https://metr-plus.com.ua/img/818357.jpg</picture>
-      <description lang="ru">для машины JE1009</description>
-      <description lang="ua">для машини JE1009</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JE1009-ST WHEEL</param>
-      <param name="Штрихкод">6903317571796</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=283672&amp;lang=uk</param>
     </offer>
     <offer id="JE1009-BLUETOOTH" available="true">
       <price>1200</price>
@@ -35473,21 +34798,6 @@
       <param name="Штрихкод">6903317612567</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=289762&amp;lang=uk</param>
-    </offer>
-    <offer id="JJ2088- RC" available="true">
-      <price>1200</price>
-      <price_old>1600</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Пульт JJ2088-RC</name>
-      <name lang="ua">Пульт JJ2088-RC</name>
-      <picture>https://metr-plus.com.ua/img/848840.jpg</picture>
-      <description lang="ru">2,4G, для джипа JJ2088,4WD, на бат-ці, в кор-ці</description>
-      <description lang="ua">2,4G, для джипа JJ2088,4WD, на бат-ці, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JJ2088- RC</param>
-      <param name="Штрихкод">6903317612598</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=289776&amp;lang=uk</param>
     </offer>
     <offer id="JJ2088 GEAR" available="true">
       <price>1400</price>
@@ -36283,21 +35593,6 @@
       <param name="Штрихкод">6903317636723</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=292316&amp;lang=uk</param>
-    </offer>
-    <offer id="M 5101-RC" available="true">
-      <price>1100</price>
-      <price_old>1500</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Пульт управления M 5101-RC</name>
-      <name lang="ua">Пульт керування M 5101-RC</name>
-      <picture>https://metr-plus.com.ua/img/861508.jpg</picture>
-      <description lang="ru">для машины M 5101, на бат-ке, в кор-ке</description>
-      <description lang="ua">для машини M 5101, на бат-ці, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 5101-RC</param>
-      <param name="Штрихкод">6903317636853</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=292327&amp;lang=uk</param>
     </offer>
     <offer id="M 5103-RC" available="true">
       <price>1100</price>
@@ -38759,21 +38054,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=307621&amp;lang=uk</param>
     </offer>
-    <offer id="MES 1033 FOOTREST PAD" available="true">
-      <price>1000</price>
-      <price_old>1300</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Накладка на подножку MES 1033 FOOTREST PAD</name>
-      <name lang="ua">Накладка на підніжку MES 1033 FOOTREST PAD</name>
-      <picture>https://metr-plus.com.ua/img/941685.jpg</picture>
-      <description lang="ru">для электросамоката, антискользящая, резина</description>
-      <description lang="ua">для електросамоката, антиковзна, гума</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">MES 1033 FOOTREST PAD</param>
-      <param name="Штрихкод">6903317743391</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=307623&amp;lang=uk</param>
-    </offer>
     <offer id="MES 1034_1034S FOOTREST PAD" available="true">
       <price>900</price>
       <price_old>1200</price_old>
@@ -41024,21 +40304,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=315939&amp;lang=uk</param>
     </offer>
-    <offer id="M 6075-BLUETOOTH" available="true">
-      <price>1100</price>
-      <price_old>1500</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Плеер M 6075-BLUETOOTH</name>
-      <name lang="ua">Плеєр M 6075-BLUETOOTH</name>
-      <picture>https://metr-plus.com.ua/img/987280.jpg</picture>
-      <description lang="ru">до джипу M 6075</description>
-      <description lang="ua">до джипу M 6075</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6075-BLUETOOTH</param>
-      <param name="Штрихкод">6903317776177</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=315945&amp;lang=uk</param>
-    </offer>
     <offer id="M 6145-RC" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
@@ -41593,21 +40858,6 @@
       <param name="Штрихкод">6903317646340</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=318370&amp;lang=uk</param>
-    </offer>
-    <offer id="JE1688-ST WHEEL" available="true">
-      <price>1100</price>
-      <price_old>1500</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Руль JE1688-ST WHEEL</name>
-      <name lang="ua">Кермо JE1688-ST WHEEL</name>
-      <picture>https://metr-plus.com.ua/img/999805.jpg</picture>
-      <description lang="ru">к джипу JE1688</description>
-      <description lang="ua">до джипа JE1688</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">JE1688-ST WHEEL</param>
-      <param name="Штрихкод">6903317782390</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=318452&amp;lang=uk</param>
     </offer>
     <offer id="M 6058-ST-WHEE" available="true">
       <price>1200</price>
@@ -42598,21 +41848,6 @@
       <param name="Штрихкод">6903317800964</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=328521&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6107-F-GEAR BOX" available="true">
-      <price>1200</price>
-      <price_old>1600</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Редуктор в сборе с мотором M 6107-F-GEAR BOX</name>
-      <name lang="ua">Редуктор у зборі з мотором M 6107-F-GEAR BOX</name>
-      <picture>https://metr-plus.com.ua/img/1011431.jpg</picture>
-      <description lang="ru">к машине М 6107, 24V, RPM19000, отверстие под ось 12мм, длина 17см</description>
-      <description lang="ua">до машини М 6107, 24V, RPM19000, отвір під вісь 12мм, довжина 17см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6107-F-GEAR BOX</param>
-      <param name="Штрихкод">6903317800988</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=328522&amp;lang=uk</param>
     </offer>
     <offer id="M 6107-ST GEAR" available="true">
       <price>1200</price>
@@ -44609,21 +43844,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=335236&amp;lang=uk</param>
     </offer>
-    <offer id="M 6301-RC RECEIVER" available="true">
-      <price>1300</price>
-      <price_old>1700</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Блок управления M 6301-RC RECEIVER</name>
-      <name lang="ua">Блок керування M 6301-RC RECEIVER</name>
-      <picture>https://metr-plus.com.ua/img/1043187.jpg</picture>
-      <description lang="ru">к джипу M 6301, 12V</description>
-      <description lang="ua">до джипа M 6301, 12V</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6301-RC RECEIVER</param>
-      <param name="Штрихкод">6903317831272</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=335701&amp;lang=uk</param>
-    </offer>
     <offer id="M 6301-ST WHEEL" available="true">
       <price>1100</price>
       <price_old>1500</price_old>
@@ -44803,21 +44023,6 @@
       <param name="Штрихкод">6903317824434</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=337035&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6181-EVA WHEEL" available="true">
-      <price>1000</price>
-      <price_old>1300</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Колесо M 6181-EVA WHEEL</name>
-      <name lang="ua">Колесо M 6181-EVA WHEEL</name>
-      <picture>https://metr-plus.com.ua/img/1043969.jpg</picture>
-      <description lang="ru">до квадроциклу M 6181, ширина 7,5см, діам.23см</description>
-      <description lang="ua">до квадроциклу M 6181, ширина 7,5см, діам.23см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6181-EVA WHEEL</param>
-      <param name="Штрихкод">6903317824458</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=337036&amp;lang=uk</param>
     </offer>
     <offer id="M 5730-RC" available="true">
       <price>1100</price>
@@ -45374,21 +44579,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=338803&amp;lang=uk</param>
     </offer>
-    <offer id="M 6325-ST WHEEL" available="true">
-      <price>900</price>
-      <price_old>1200</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Руль M 6325-ST WHEEL</name>
-      <name lang="ua">Кермо M 6325-ST WHEEL</name>
-      <picture>https://metr-plus.com.ua/img/1049925.jpg</picture>
-      <description lang="ru">к джипу M 6325</description>
-      <description lang="ua">до джипу M 6325</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6325-ST WHEEL</param>
-      <param name="Штрихкод">6903317833955</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=338804&amp;lang=uk</param>
-    </offer>
     <offer id="M 6322-F-EVA WHEEL" available="true">
       <price>1300</price>
       <price_old>1700</price_old>
@@ -45478,21 +44668,6 @@
       <param name="Штрихкод">6903317843206</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=338813&amp;lang=uk</param>
-    </offer>
-    <offer id="M 6325-BLUETOOTH" available="true">
-      <price>1000</price>
-      <price_old>1300</price_old>
-      <category code="195">195</category>
-      <name lang="ru">Плеер M 6325-BLUETOOTH</name>
-      <name lang="ua">Плеєр M 6325-BLUETOOTH</name>
-      <picture>https://metr-plus.com.ua/img/1049935.jpg</picture>
-      <description lang="ru">к джипу M 6325</description>
-      <description lang="ua">до джипу M 6325</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">M 6325-BLUETOOTH</param>
-      <param name="Штрихкод">6903317833979</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=195&amp;id=338814&amp;lang=uk</param>
     </offer>
     <offer id="M 6322-RC" available="true">
       <price>1000</price>
@@ -46544,6 +45719,231 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=343784&amp;lang=uk</param>
     </offer>
+    <offer id="M 6311-BATTERY" available="true">
+      <price>1900</price>
+      <price_old>2500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Батарея M 6311-BATTERY</name>
+      <name lang="ua">Батарея M 6311-BATTERY</name>
+      <picture>https://metr-plus.com.ua/img/1114745.jpg</picture>
+      <description lang="ru">12V12AH до електрокарту M 6311</description>
+      <description lang="ua">12V12AH до електрокарту M 6311</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-BATTERY</param>
+      <param name="Штрихкод">6903317843053</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345377&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-GEAR BOX" available="true">
+      <price>2300</price>
+      <price_old>3000</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Редуктор в сборе с мотором M 6311-GEAR BOX</name>
+      <name lang="ua">Редуктор в сборе с мотором M 6311-GEAR BOX</name>
+      <picture>https://metr-plus.com.ua/img/1114750.jpg</picture>
+      <description lang="ru">до електрокарту M 6311, 24V, 5000r/min, 150W, отвір під вісь 15мм, довжина 20см</description>
+      <description lang="ua">до електрокарту M 6311, 24V, 5000r/min, 150W, отвір під вісь 15мм, довжина 20см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-GEAR BOX</param>
+      <param name="Штрихкод">6903317843121</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345382&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-GEAR BOX" available="true">
+      <price>1000</price>
+      <price_old>1300</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Редуктор в сборе с мотором M 6324-GEAR BOX</name>
+      <name lang="ua">Редуктор у зборі з мотором M 6324-GEAR BOX</name>
+      <picture>https://metr-plus.com.ua/img/1114751.jpg</picture>
+      <description lang="ru">к джипу M 6324, отверстие под ось 12мм, длина 16,5см</description>
+      <description lang="ua">до джипу M 6324, отвір під вісь 12мм, довжина 16,5см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-GEAR BOX</param>
+      <param name="Штрихкод">6903317842797</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345383&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6269-ST GEAR" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Рулевой редуктор M 6269-ST GEAR</name>
+      <name lang="ua">Рулевой редуктор M 6269-ST GEAR</name>
+      <picture>https://metr-plus.com.ua/img/1114752.jpg</picture>
+      <description lang="ru">до трактора M 6269, 12V, RPM5000, отвір під вісь 10мм, довжина 17см</description>
+      <description lang="ua">до трактора M 6269, 12V, RPM5000, отвір під вісь 10мм, довжина 17см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6269-ST GEAR</param>
+      <param name="Штрихкод">6903317851447</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345384&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-ST GEAR" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Рулевой редуктор M 6311-ST GEAR</name>
+      <name lang="ua">Рулевой редуктор M 6311-ST GEAR</name>
+      <picture>https://metr-plus.com.ua/img/1114753.jpg</picture>
+      <description lang="ru">до електрокарту M 6311, 24V, RPM5500, отвір під вісь 12мм, довжина 17см</description>
+      <description lang="ua">до електрокарту M 6311, 24V, RPM5500, отвір під вісь 12мм, довжина 17см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-ST GEAR</param>
+      <param name="Штрихкод">6903317843138</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345385&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-ST GEAR" available="true">
+      <price>1000</price>
+      <price_old>1300</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Рулевой редуктор M 6324-ST GEAR</name>
+      <name lang="ua">Рулевой редуктор M 6324-ST GEAR</name>
+      <picture>https://metr-plus.com.ua/img/1114754.jpg</picture>
+      <description lang="ru">до джипу M 6324, 12V, RPM7000, отвір під вісь 10мм, довжина 14см</description>
+      <description lang="ua">до джипу M 6324, 12V, RPM7000, отвір під вісь 10мм, довжина 14см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-ST GEAR</param>
+      <param name="Штрихкод">6903317842803</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345386&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-RC RECEIVER" available="true">
+      <price>1400</price>
+      <price_old>1900</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Блок управления M 6311-RC RECEIVER</name>
+      <name lang="ua">Блок керування M 6311-RC RECEIVER</name>
+      <picture>https://metr-plus.com.ua/img/1114760.jpg</picture>
+      <description lang="ru">к электрокарте M 6311, 12V-24V</description>
+      <description lang="ua">до електрокарту M 6311, 12V-24V</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-RC RECEIVER</param>
+      <param name="Штрихкод">6903317843060</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345394&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-RC RECEIVER" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Блок управления M 6324-RC RECEIVER</name>
+      <name lang="ua">Блок керування M 6324-RC RECEIVER</name>
+      <picture>https://metr-plus.com.ua/img/1114761.jpg</picture>
+      <description lang="ru">к джипу M 6324, 6V-12V</description>
+      <description lang="ua">до джипу M 6324, 6V-12V</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-RC RECEIVER</param>
+      <param name="Штрихкод">6903317842742</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345395&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-CHARGER" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Зарядное устройство для M 6311-CHARGER</name>
+      <name lang="ua">Зарядний пристрій M 6311-CHARGER</name>
+      <picture>https://metr-plus.com.ua/img/1114763.jpg</picture>
+      <description lang="ru">к электрокарте M 6311, 24V, 1500mA</description>
+      <description lang="ua">до електрокарту M 6311, 24V, 1500mA</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-CHARGER</param>
+      <param name="Штрихкод">6903317843077</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345397&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-ST WHEEL" available="true">
+      <price>900</price>
+      <price_old>1200</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Руль M 6324-ST WHEEL</name>
+      <name lang="ua">Кермо M 6324-ST WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1114764.jpg</picture>
+      <description lang="ru">к джипу M 6324</description>
+      <description lang="ua">до джипу M 6324</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-ST WHEEL</param>
+      <param name="Штрихкод">6903317842759</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345398&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-F-EVA WHEEL" available="true">
+      <price>1300</price>
+      <price_old>1700</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Колесо M 6311-F-EVA WHEEL</name>
+      <name lang="ua">Колесо M 6311-F-EVA WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1114765.jpg</picture>
+      <description lang="ru">переднє, до електрокарту M 6311, ширина 8см, діам.21см</description>
+      <description lang="ua">переднє, до електрокарту M 6311, ширина 8см, діам.21см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-F-EVA WHEEL</param>
+      <param name="Штрихкод">6903317843091</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345399&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6311-R-PP+Nylon WHEEL" available="true">
+      <price>1300</price>
+      <price_old>1700</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Колесо M 6311-R-PP+Nylon WHEEL</name>
+      <name lang="ua">Колесо M 6311-R-PP+Nylon WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1114766.jpg</picture>
+      <description lang="ru">к электрокарте M 6311, ширина 12см, диам.</description>
+      <description lang="ua">до електрокарту M 6311, ширина 12см, діам.25см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6311-R-PP+Nylon WHEEL</param>
+      <param name="Штрихкод">6903317843107</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345400&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-EVA WHEEL" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Колесо M 6324-EVA WHEEL</name>
+      <name lang="ua">Колесо M 6324-EVA WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1114767.jpg</picture>
+      <description lang="ru">до джипу M 6324, ширина 10см, діам.26см</description>
+      <description lang="ua">до джипу M 6324, ширина 10см, діам.26см</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-EVA WHEEL</param>
+      <param name="Штрихкод">6903317842766</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345401&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-BLUETOOTH" available="true">
+      <price>1100</price>
+      <price_old>1500</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Плеер M 6324-BLUETOOTH</name>
+      <name lang="ua">Плеєр M 6324-BLUETOOTH</name>
+      <picture>https://metr-plus.com.ua/img/1114768.jpg</picture>
+      <description lang="ru">к джипу M 6324</description>
+      <description lang="ua">до джипу M 6324</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-BLUETOOTH</param>
+      <param name="Штрихкод">6903317842773</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345402&amp;lang=uk</param>
+    </offer>
+    <offer id="M 6324-RC" available="true">
+      <price>1000</price>
+      <price_old>1300</price_old>
+      <category code="195">195</category>
+      <name lang="ru">Пульт управления M 6324-RC</name>
+      <name lang="ua">Пульт керування M 6324-RC</name>
+      <picture>https://metr-plus.com.ua/img/1114769.jpg</picture>
+      <description lang="ru">к джипу M 6324</description>
+      <description lang="ua">до джипу M 6324</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">M 6324-RC</param>
+      <param name="Штрихкод">6903317842780</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=109&amp;id=345403&amp;lang=uk</param>
+    </offer>
     <offer id="TT-12" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
@@ -46663,6 +46063,21 @@
       <param name="Штрихкод">6903317742646</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=543&amp;id=307613&amp;lang=uk</param>
+    </offer>
+    <offer id="MEB 700C DASH CONTROLLER" available="true">
+      <price>4400</price>
+      <price_old>5800</price_old>
+      <category code="543">543</category>
+      <name lang="ru">Контролер MEB 700C DASH CONTROLLER</name>
+      <name lang="ua">Контролер MEB 700C DASH CONTROLLER</name>
+      <picture>https://metr-plus.com.ua/img/941677.jpg</picture>
+      <description lang="ru">для електровелоcипеда, 48V, 10+/-1A</description>
+      <description lang="ua">для електровелоcипеда, 48V, 10+/-1A</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">MEB 700C DASH CONTROLLER</param>
+      <param name="Штрихкод">6903317742769</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=543&amp;id=307615&amp;lang=uk</param>
     </offer>
     <offer id="MEB 700C NOVA CONTROLLER" available="true">
       <price>4800</price>
@@ -51617,23 +51032,6 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=60&amp;id=239401&amp;lang=uk</param>
     </offer>
-    <offer id="MS 0533-5" available="true">
-      <price>1900</price>
-      <price_old>2500</price_old>
-      <category code="60">60</category>
-      <name lang="ru">Степ-платформа MS 0533-5</name>
-      <name lang="ua">Степ-платформа MS 0533-5</name>
-      <picture>https://metr-plus.com.ua/img/1043712.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1045334.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1045333.jpg</picture>
-      <description lang="ru">3 сходинки, розмір 68-29-10см/15см/20см, в кор-ці, 80-30-11см</description>
-      <description lang="ua">3 сходинки, розмір 68-29-10см/15см/20см, в кор-ці, 80-30-11см</description>
-      <vendor code="PROF1">PROF1</vendor>
-      <param name="Артикул">MS 0533-5</param>
-      <param name="Штрихкод">6903317828746</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=60&amp;id=336067&amp;lang=uk</param>
-    </offer>
     <offer id="MS 0534-4" available="true">
       <price>1800</price>
       <price_old>2400</price_old>
@@ -51703,21 +51101,6 @@
       <param name="Штрихкод">6903317842711</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=60&amp;id=341005&amp;lang=uk</param>
-    </offer>
-    <offer id="MS 4800-3" available="true">
-      <price>8700</price>
-      <price_old>11400</price_old>
-      <category code="60">60</category>
-      <name lang="ru">Тренажер MS 4800-3</name>
-      <name lang="ua">Тренажер MS 4800-3</name>
-      <picture>https://metr-plus.com.ua/img/1111445.jpg</picture>
-      <description lang="ru">беговая дорожка, дорожка для ходьбы, с ручкой, пульт, дисплей (время, скорость, расстояние, калории), скорость 1-8км/ч, нагрузка до 120кг, д115-ш54-в10см/с ручкой 96/103см, дорожка 9 129,5-58-14см</description>
-      <description lang="ua">бігова доріжка, доріжка для ходьби, з ручкою, пульт, дисплей(час, швидкість, відстань, калорії), швидкість 1-8км/год, навантаження до 120кг, д115-ш54-в10см/з ручкою 96/103см, доріжка 97-40см, від мережі, в кор-ці, 129,5-58-14см</description>
-      <vendor code="PROF1">PROF1</vendor>
-      <param name="Артикул">MS 4800-3</param>
-      <param name="Штрихкод">6903317840250</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=60&amp;id=343409&amp;lang=uk</param>
     </offer>
     <offer id="A4122-XS-BL" available="true">
       <price>1700</price>
@@ -51966,25 +51349,6 @@
       <param name="Штрихкод">6903317841509</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=63&amp;id=343238&amp;lang=uk</param>
-    </offer>
-    <offer id="A4165-S-V" available="true">
-      <price>1900</price>
-      <price_old>2500</price_old>
-      <category code="63">63</category>
-      <name lang="ru">Ролики A4165-S-V (30-33)</name>
-      <name lang="ua">Ролики A4165-S-V (30-33)</name>
-      <picture>https://metr-plus.com.ua/img/1111355.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1112593.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1112592.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1112594.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/1112591.jpg</picture>
-      <description lang="ru">(1шт) розсувні, шнурівка+бакля, алюм.рама, колеса ПУ 64мм, світло, устілка 18,5см, розсувні 2,3см, фіолет, в кор-ці,40-30-12см</description>
-      <description lang="ua">(1шт) розсувні, шнурівка+бакля, алюм.рама, колеса ПУ 64мм, світло, устілка 18,5см, розсувні 2,3см, фіолет, в кор-ці,40-30-12см</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">A4165-S-V</param>
-      <param name="Штрихкод">6903317841493</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=63&amp;id=343240&amp;lang=uk</param>
     </offer>
     <offer id="MR 0326" available="true">
       <price>3600</price>
