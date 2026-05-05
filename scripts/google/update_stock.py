@@ -163,20 +163,21 @@ def main() -> None:
 
         if sku_sheet in xml_products:
             product = xml_products[sku_sheet]
-
+        
             quantity = product["quantity"]
             availability = "В наявності" if quantity > 0 else "Не в наявності"
-
+        
             all_values[row_index][col_stock] = str(quantity)
             all_values[row_index][col_status] = availability
             all_values[row_index][col_price] = str(product["price"])
             all_values[row_index][col_old_price] = str(product["old_price"])
-
+        
             updated_count += 1
 
-            else:   # ❌ ПОМИЛКА — else всередині if
-                all_values[row_index][col_stock] = "0"
-                all_values[row_index][col_status] = "Не в наявності"
+        else:
+            # 🔴 якщо товару немає в XML → ставимо 0 і "Не в наявності"
+            all_values[row_index][col_stock] = "0"
+            all_values[row_index][col_status] = "Не в наявності"
 
     added_count = 0
 
