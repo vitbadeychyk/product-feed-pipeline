@@ -2,7 +2,7 @@ name: Update product feed
 
 on:
   schedule:
-   - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      #- name: Fetch supplier feed
-      #  run: python -m scripts.common.fetch_supplier_feed
+      - name: Fetch supplier feed
+        run: python -m scripts.common.fetch_supplier_feed
 
       - name: Debug downloaded XML
         run: |
@@ -45,9 +45,18 @@ jobs:
           echo "===== CHECK SKU IN RAW ====="
           grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND IN RAW"
 
+      - name: Create Google credentials file
+        run: |
+          cat > service_account.json <<'EOF'
+          ${{ secrets.SERVICE_ACCOUNT_JSON }}
+          EOF
+
+      - name: Update Google Sheet stock
+        run: python -m scripts.google.update_stock
+
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
-      
+
       - name: Export Epicentr updates feed
         run: python -m scripts.epicentr.export_updates_with_history
 
