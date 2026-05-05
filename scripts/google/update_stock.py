@@ -174,12 +174,9 @@ def main() -> None:
 
             updated_count += 1
 
-            else:
-    # 🔴 НОВА ЛОГІКА
-    # якщо товару немає в XML — ставимо 0 і "Не в наявності"
-
-            all_values[row_index][col_stock] = "0"
-            all_values[row_index][col_status] = "Не в наявності"
+            else:   # ❌ ПОМИЛКА — else всередині if
+                all_values[row_index][col_stock] = "0"
+                all_values[row_index][col_status] = "Не в наявності"
 
     added_count = 0
 
