@@ -131,7 +131,7 @@ def build_offer(item: ET.Element, offers: ET.Element) -> None:
         stock_available = "false"
 
     offer = ET.SubElement(offers, "offer")
-    offer.set("id", vendor_code if vendor_code else product_id)
+    offer.set("id", product_id)
     offer.set("available", stock_available)
 
     ET.SubElement(offer, "price").text = parse_price(raw_price)
