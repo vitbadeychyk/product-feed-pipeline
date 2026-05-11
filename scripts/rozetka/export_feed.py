@@ -58,7 +58,7 @@ def convert_stock_quantity(quantity_in_stock: str) -> tuple[str, str]:
     return "0", "false"
 
 
-def build_root() -> tuple[ET.Element, ET.Element]:
+def build_root(source_root: ET.Element) -> tuple[ET.Element, ET.Element]:
     root = ET.Element("yml_catalog")
     root.set("date", datetime.now().strftime("%Y-%m-%d %H:%M"))
 
@@ -72,6 +72,19 @@ def build_root() -> tuple[ET.Element, ET.Element]:
     currency = ET.SubElement(currencies, "currency")
     currency.set("id", "UAH")
     currency.set("rate", "1")
+
+    categories = ET.SubElement(shop, "categories")
+
+    for source_category in source_root.findall(".//catalog/category"):
+        category_id = safe_text(source_category.get("id"))
+        category_name = safe_text(source_category.text)
+
+        if not category_id or not category_name:
+            continue
+
+        category = ET.SubElement(categories, "category")
+        category.set("id", category_id)
+        category.text = category_name
 
     offers = ET.SubElement(shop, "offers")
 
@@ -119,6 +132,7 @@ def build_offer(item: ET.Element, offers: ET.Element) -> None:
     vendor = get_text(item, "vendor")
     url = get_text(item, "url")
     currency_id = get_text(item, "currencyId", "UAH")
+    category_id = get_text(item, "categoryId")
     raw_price = get_text(item, "price")
     barcode = get_text(item, "barcode")
     quantity_in_stock = get_text(item, "quantity_in_stock")
@@ -136,6 +150,10 @@ def build_offer(item: ET.Element, offers: ET.Element) -> None:
 
     ET.SubElement(offer, "price").text = parse_price(raw_price)
     ET.SubElement(offer, "currencyId").text = currency_id or "UAH"
+
+    if category_id:
+        ET.SubElement(offer, "categoryId").text = category_id
+
     ET.SubElement(offer, "vendor").text = vendor
     ET.SubElement(offer, "article").text = vendor_code
     ET.SubElement(offer, "stock_quantity").text = stock_quantity
@@ -175,7 +193,7 @@ def export_rozetka_feed() -> None:
     source_items = source_root.findall(".//items/item")
     print(f"Знайдено товарів у фіді постачальника: {len(source_items)}")
 
-    root, offers_el = build_root()
+    root, offers_el = build_root(source_root)
 
     exported_count = 0
     for item in source_items:
