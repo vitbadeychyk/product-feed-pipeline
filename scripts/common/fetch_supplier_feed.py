@@ -54,7 +54,7 @@ def fetch_supplier_feed() -> None:
         print(f"⏱ Пропуск. Наступний дозволений запит: {next_allowed_at.isoformat()}")
         return
 
-    print("⬇️ Завантаження фіда постачальника...")
+    print("Downloading supplier feed...")
     response = requests.get(SUPPLIER_FEED_URL, timeout=120)
     response.raise_for_status()
 
