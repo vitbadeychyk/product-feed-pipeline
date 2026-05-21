@@ -51,7 +51,7 @@ def fetch_supplier_feed() -> None:
 
     if not can_fetch(last_fetch_at):
         next_allowed_at = last_fetch_at + FETCH_INTERVAL
-        print(f"⏱ Пропуск. Наступний дозволений запит: {next_allowed_at.isoformat()}")
+        print(f"Skip. Next allowed fetch: {next_allowed_at.isoformat()}")
         return
 
     print("Downloading supplier feed...")
@@ -64,8 +64,8 @@ def fetch_supplier_feed() -> None:
     now = datetime.now(timezone.utc)
     save_state({"last_fetch_at": now.isoformat()})
 
-    print(f"✅ Фід збережено: {RAW_FILE}")
-    print(f"🕒 Час: {now.isoformat()}")
+    print(f"OK Feed saved: {RAW_FILE}")
+    print(f"Time: {now.isoformat()}")
 
 
 if __name__ == "__main__":
