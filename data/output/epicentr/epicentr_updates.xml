@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-05-27 18:25">
+<yml_catalog date="2026-05-27 21:52">
   <offers>
     <offer id="04-025B-DESK" available="true">
       <price>4200</price>
@@ -4146,10 +4146,10 @@
       <price_old>2470</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="JR3-179-P" available="true">
+    <offer id="JR3-179-P" available="false">
       <price>1900</price>
       <price_old>2470</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JR3-181-OR" available="false">
       <price>1600</price>
@@ -6106,10 +6106,10 @@
       <price_old>14300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4806EBLR-2" available="true">
+    <offer id="M 4806EBLR-2" available="false">
       <price>11000</price>
       <price_old>14300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4806EBLR-4" available="false">
       <price>11000</price>
