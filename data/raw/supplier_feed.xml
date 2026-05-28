@@ -1417,30 +1417,6 @@
                 <value lang="ru">метал, пластмаса, тканина</value>
             </param>
         </item>
-        <item id="345599" selling_type="r">
-            <name>Самокат JR3-166-5-B</name>
-            <name_ua>Самокат JR3-166-5-B</name_ua>
-            <categoryId>79</categoryId>
-            <price>1486</price>
-                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=345599&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117066.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>JR3-166-5-B</vendorCode>
-            <barcode>6903317835768</barcode>
-            <description><![CDATA[5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3полож., min 61см, 1 положення 67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик]]></description>
-            <description_ua><![CDATA[5в1(біговел,род.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, Bluetooth, кермо (3полож., min 61см, 1 пол.67см, max77см), підніжка28-12см, вис.від підл.до сидіння 31см, доп.колеса 2шт 40мм, кошик]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">коробка</value>
-                <value lang="ru">коробка</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, ПУ</value>
-                <value lang="ru">метал, пластмаса, ПУ</value>
-            </param>
-        </item>
         <item id="346393" selling_type="r">
             <name>Квадроцикл M 6381EBLR-4</name>
             <name_ua>Квадроцикл M 6381EBLR-4</name_ua>
@@ -15123,37 +15099,6 @@
                 <value lang="ru">метал, пластмаса, тканина</value>
             </param>
         </item>
-        <item id="304892" selling_type="r">
-            <name>Коляска универсальная 2в1 ME 1100-1 ERA Ultimate Gray</name>
-            <name_ua>Коляска універсальна 2в1 ME 1100-1 ERA Ultimate Gray</name_ua>
-            <categoryId>43</categoryId>
-            <price>13156</price>
-            <price_rrc>13156</price_rrc>
-                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=304892&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/932259.jpg</image>
-            <image>https://metr-plus.com.ua/img/939593.jpg</image>
-            <image>https://metr-plus.com.ua/img/939594.jpg</image>
-            <image>https://metr-plus.com.ua/img/939595.jpg</image>
-            <image>https://metr-plus.com.ua/img/939596.jpg</image>
-            <image>https://metr-plus.com.ua/img/939597.jpg</image>
-            <image>https://metr-plus.com.ua/img/939598.jpg</image>
-            <image>https://metr-plus.com.ua/img/939599.jpg</image>
-            <image>https://metr-plus.com.ua/img/939600.jpg</image>
-            <image>https://metr-plus.com.ua/img/939601.jpg</image>
-            <image>https://metr-plus.com.ua/img/939602.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1100-1 Ultimate Gray</vendorCode>
-            <barcode>6903317661633</barcode>
-            <description><![CDATA[люлька+прогул.блок,дождевик,моск.сетка,сумка,алюмин, серый]]></description>
-            <description_ua><![CDATA[люлька+прогул.блок,дощовик, моск.сітка,сумка,алюмин, сірий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
         <item id="308402" selling_type="r">
             <name>Детская коляска ME 1127-B BEYA Vintage Plum</name>
             <name_ua>Коляска дитяча ME 1127-B BEYA Vintage Plum</name_ua>
@@ -17788,6 +17733,31 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="320349" selling_type="r">
+            <name>Каталка-толокар M 6155-8</name>
+            <name_ua>Каталка-толокар M 6155-8</name_ua>
+            <categoryId>78</categoryId>
+            <price>1090</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=320349&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1003224.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006215.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006216.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006217.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006218.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006219.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6155-8</vendorCode>
+            <barcode>6903317796694</barcode>
+            <description><![CDATA[музика, світло, рожевий]]></description>
+            <description_ua><![CDATA[музика, світло, рожевий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="293569" selling_type="r">
             <name>Велосипед-беговел детский PROFI KIDS 12 д. MBB 1012-1</name>
             <name_ua>Велосипед-біговел дитячий PROFI KIDS 12 д. MBB 1012-1</name_ua>
@@ -17820,26 +17790,6 @@
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса, EVA</value>
                 <value lang="ru">метал, пластмаса, EVA</value>
-            </param>
-        </item>
-        <item id="310910" selling_type="r">
-            <name>Беговел детский 14 д. MBB 1052-1</name>
-            <name_ua>Біговел дитячий 14 д. MBB 1052-1</name_ua>
-            <categoryId>491</categoryId>
-            <price>2686</price>
-                <url>https://metr-plus.com.ua/index.php?section=491&amp;id=310910&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/957035.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>MBB 1052-1</vendorCode>
-            <barcode>6903317752690</barcode>
-            <description><![CDATA[колеса резина, серебро]]></description>
-            <description_ua><![CDATA[колеса гума, срібло]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, гума</value>
-                <value lang="ru">метал, пластмаса, гума</value>
             </param>
         </item>
         <item id="310911" selling_type="r">
@@ -17915,26 +17865,6 @@
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1046-12-3</vendorCode>
             <barcode>6903317752577</barcode>
-            <description><![CDATA[красный мат]]></description>
-            <description_ua><![CDATA[червоний мат]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, PU</value>
-                <value lang="ru">метал, PU</value>
-            </param>
-        </item>
-        <item id="310969" selling_type="r">
-            <name>Беговел детский 14 д. MBB 1046-14-3</name>
-            <name_ua>Біговел дитячий 14 д. MBB 1046-14-3</name_ua>
-            <categoryId>491</categoryId>
-            <price>1850</price>
-                <url>https://metr-plus.com.ua/index.php?section=491&amp;id=310969&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/957106.jpg</image>
-                <available>true</available>
-            <vendor>PROF1 KIDS</vendor>
-            <vendorCode>MBB 1046-14-3</vendorCode>
-            <barcode>6903317752645</barcode>
             <description><![CDATA[красный мат]]></description>
             <description_ua><![CDATA[червоний мат]]></description_ua>
             <param name="Матеріал">
@@ -20318,6 +20248,174 @@
             <param name="Тип пакування">
                 <value lang="uk">коробка</value>
                 <value lang="ru">коробка</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349063" selling_type="r">
+            <name>Самокат JR3-160-Bee</name>
+            <name_ua>Самокат JR3-160-Bee</name_ua>
+            <categoryId>79</categoryId>
+            <price>1022</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349063&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125913.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-160-Bee</vendorCode>
+            <barcode>6903317834969</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-28-16см</value>
+                <value lang="ru">57-28-16см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349064" selling_type="r">
+            <name>Самокат JR3-160-Deer</name>
+            <name_ua>Самокат JR3-160-Deer</name_ua>
+            <categoryId>79</categoryId>
+            <price>1022</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349064&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125914.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-160-Deer</vendorCode>
+            <barcode>6903317834983</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-28-16см</value>
+                <value lang="ru">57-28-16см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349065" selling_type="r">
+            <name>Самокат JR3-160-Dino</name>
+            <name_ua>Самокат JR3-160-Dino</name_ua>
+            <categoryId>79</categoryId>
+            <price>1022</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349065&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125915.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-160-Dino</vendorCode>
+            <barcode>6903317834976</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 63см, max 76см), підніжка 27-11см, в кор-ці, 57-28-16см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-28-16см</value>
+                <value lang="ru">57-28-16см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349068" selling_type="r">
+            <name>Самокат JR3-163-B</name>
+            <name_ua>Самокат JR3-163-B</name_ua>
+            <categoryId>79</categoryId>
+            <price>910</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349068&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125918.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-163-B</vendorCode>
+            <barcode>6903317835034</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-31,5-17см</value>
+                <value lang="ru">57-31,5-17см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349069" selling_type="r">
+            <name>Самокат JR3-163-R</name>
+            <name_ua>Самокат JR3-163-R</name_ua>
+            <categoryId>79</categoryId>
+            <price>910</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349069&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125919.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-163-R</vendorCode>
+            <barcode>6903317835010</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-31,5-17см</value>
+                <value lang="ru">57-31,5-17см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, ПУ</value>
+                <value lang="ru">метал, пластмаса, ПУ</value>
+            </param>
+        </item>
+        <item id="349070" selling_type="r">
+            <name>Самокат JR3-163-W</name>
+            <name_ua>Самокат JR3-163-W</name_ua>
+            <categoryId>79</categoryId>
+            <price>962</price>
+                <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349070&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1125920.jpg</image>
+                <available>true</available>
+            <vendor>iTrike</vendor>
+            <vendorCode>JR3-163-W</vendorCode>
+            <barcode>6903317835027</barcode>
+            <description><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description>
+            <description_ua><![CDATA[Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3 положення, min 63см, 1 положення 72см, max 82см), підніжка 26-10см, в кор-ці, 57-31,5-17см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">57-31,5-17см</value>
+                <value lang="ru">57-31,5-17см</value>
             </param>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса, ПУ</value>
@@ -25438,6 +25536,26 @@
                 <value lang="ru">метал, пластмаса, тканина</value>
             </param>
         </item>
+        <item id="338416" selling_type="r">
+            <name>Велосипед MT 1036 black</name>
+            <name_ua>Велосипед MT 1036 black</name_ua>
+            <categoryId>75</categoryId>
+            <price>3825</price>
+                <url>https://metr-plus.com.ua/index.php?section=75&amp;id=338416&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1047492.jpg</image>
+                <available>true</available>
+            <vendor>TURBOTRIKE</vendor>
+            <vendorCode>MT 1036 black</vendorCode>
+            <barcode>6903317823185</barcode>
+            <description><![CDATA[3 цв.EVA (8/7),алюм.рама,поворот,складн., черный]]></description>
+            <description_ua><![CDATA[3 кол.EVA (8/7),алюм.рама,поворот,складн., черный]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, тканина</value>
+                <value lang="ru">метал, пластмаса, тканина</value>
+            </param>
+        </item>
         <item id="338417" selling_type="r">
             <name>Велосипед MT 1038-1 Magnet Gray</name>
             <name_ua>Велосипед MT 1038-1 Magnet Gray</name_ua>
@@ -26105,6 +26223,34 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="242566" selling_type="r">
+            <name>Квадроцикл HB-ATV800AS-5</name>
+            <name_ua>Квадроцикл HB-ATV800AS-5</name_ua>
+            <categoryId>494</categoryId>
+            <price>22115</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=242566&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/532260.jpg</image>
+            <image>https://metr-plus.com.ua/img/534691.jpg</image>
+            <image>https://metr-plus.com.ua/img/534693.jpg</image>
+            <image>https://metr-plus.com.ua/img/534689.jpg</image>
+            <image>https://metr-plus.com.ua/img/534692.jpg</image>
+            <image>https://metr-plus.com.ua/img/534688.jpg</image>
+            <image>https://metr-plus.com.ua/img/534690.jpg</image>
+            <image>https://metr-plus.com.ua/img/532860.jpg</image>
+            <image>https://metr-plus.com.ua/img/532864.jpg</image>
+                <available>true</available>
+            <vendor>PROF1</vendor>
+            <vendorCode>HB-ATV800AS-5</vendorCode>
+            <barcode>6903317276387</barcode>
+            <description><![CDATA[мотор800W, 3акк12A/12V, скор 25 км/ч, до 65 кг, зеленый]]></description>
+            <description_ua><![CDATA[Мотор800W, 3акк12A / 12V, швид 25км/год, до 65 кг, зелений]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="243462" selling_type="r">
             <name>Машина M 4522EBLR-3</name>
             <name_ua>Машина M 4522EBLR-3</name_ua>
@@ -26320,6 +26466,36 @@
             <barcode>6903317342204</barcode>
             <description><![CDATA[2,4G р/у, 2мотора25W, 2аккум6V7AH, EVA, кожа, белый]]></description>
             <description_ua><![CDATA[2,4G р / у, 2мотора25W, 2аккум6V7AH, EVA, шкіра, білий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="247511" selling_type="r">
+            <name>Джип JJ2066EBLR-2</name>
+            <name_ua>Джип JJ2066EBLR-2</name_ua>
+            <categoryId>77</categoryId>
+            <price>11467</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=247511&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/588307.jpg</image>
+            <image>https://metr-plus.com.ua/img/612997.jpg</image>
+            <image>https://metr-plus.com.ua/img/612999.jpg</image>
+            <image>https://metr-plus.com.ua/img/612994.jpg</image>
+            <image>https://metr-plus.com.ua/img/612996.jpg</image>
+            <image>https://metr-plus.com.ua/img/612998.jpg</image>
+            <image>https://metr-plus.com.ua/img/612995.jpg</image>
+            <image>https://metr-plus.com.ua/img/613000.jpg</image>
+            <image>https://metr-plus.com.ua/img/612993.jpg</image>
+            <image>https://metr-plus.com.ua/img/612991.jpg</image>
+            <image>https://metr-plus.com.ua/img/612992.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>JJ2066EBLR-2</vendorCode>
+            <barcode>6903317342211</barcode>
+            <description><![CDATA[2,4G р/у, 2мотора25W, 2аккум6V7AH, EVA, кожа, черный]]></description>
+            <description_ua><![CDATA[2,4G р / у, 2мотора25W, 2аккум6V7AH, EVA, шкіра, чорний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -27716,6 +27892,36 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="290404" selling_type="r">
+            <name>Машина  M 5096EBLR-2</name>
+            <name_ua>Машина  M 5096EBLR-2</name_ua>
+            <categoryId>77</categoryId>
+            <price>10183</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=290404&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/852840.jpg</image>
+            <image>https://metr-plus.com.ua/img/862808.jpg</image>
+            <image>https://metr-plus.com.ua/img/862809.jpg</image>
+            <image>https://metr-plus.com.ua/img/862810.jpg</image>
+            <image>https://metr-plus.com.ua/img/862811.jpg</image>
+            <image>https://metr-plus.com.ua/img/862812.jpg</image>
+            <image>https://metr-plus.com.ua/img/862813.jpg</image>
+            <image>https://metr-plus.com.ua/img/862814.jpg</image>
+            <image>https://metr-plus.com.ua/img/862815.jpg</image>
+            <image>https://metr-plus.com.ua/img/862816.jpg</image>
+            <image>https://metr-plus.com.ua/img/862817.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 5096EBLR-2</vendorCode>
+            <barcode>6903317612703</barcode>
+            <description><![CDATA[2,4G, 1аккум12V10AH, EVA, шкіра, TF, чорний]]></description>
+            <description_ua><![CDATA[2,4G, 1аккум12V10AH, EVA, шкіра, TF, чорний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="290723" selling_type="r">
             <name>Машина M 5742EBLR-3</name>
             <name_ua>Машина M 5742EBLR-3</name_ua>
@@ -28073,35 +28279,6 @@
             <barcode>6903317619382</barcode>
             <description><![CDATA[(1шт) 2,4G(р/к),4мотори200W, 1акум24V7AH, EVA, шкiра, синій]]></description>
             <description_ua><![CDATA[(1шт) 2,4G(р/к),4мотори200W, 1акум24V7AH, EVA, шкiра, синій]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="293977" selling_type="r">
-            <name>Джип M 5099EBLR-7(24V</name>
-            <name_ua>Джип M 5099EBLR-7(24V</name_ua>
-            <categoryId>77</categoryId>
-            <price>12915</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=293977&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/881609.jpg</image>
-            <image>https://metr-plus.com.ua/img/894259.jpg</image>
-            <image>https://metr-plus.com.ua/img/894260.jpg</image>
-            <image>https://metr-plus.com.ua/img/894261.jpg</image>
-            <image>https://metr-plus.com.ua/img/894262.jpg</image>
-            <image>https://metr-plus.com.ua/img/894263.jpg</image>
-            <image>https://metr-plus.com.ua/img/894264.jpg</image>
-            <image>https://metr-plus.com.ua/img/894265.jpg</image>
-            <image>https://metr-plus.com.ua/img/894266.jpg</image>
-            <image>https://metr-plus.com.ua/img/894267.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 5099EBLR-7(24V)</vendorCode>
-            <barcode>6903317619412</barcode>
-            <description><![CDATA[(1шт) 2,4G(р/к),4мотори200W, 1акум24V7AH, EVA, шкiра, помаранчевий]]></description>
-            <description_ua><![CDATA[(1шт) 2,4G(р/к),4мотори200W, 1акум24V7AH, EVA, шкiра, помаранчевий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -29191,93 +29368,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="299991" selling_type="r">
-            <name>Джип M 5829EBLR-13</name>
-            <name_ua>Джип M 5829EBLR-13</name_ua>
-            <categoryId>77</categoryId>
-            <price>10182</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=299991&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/918667.jpg</image>
-            <image>https://metr-plus.com.ua/img/920093.jpg</image>
-            <image>https://metr-plus.com.ua/img/920094.jpg</image>
-            <image>https://metr-plus.com.ua/img/920095.jpg</image>
-            <image>https://metr-plus.com.ua/img/920096.jpg</image>
-            <image>https://metr-plus.com.ua/img/920097.jpg</image>
-            <image>https://metr-plus.com.ua/img/920098.jpg</image>
-            <image>https://metr-plus.com.ua/img/920099.jpg</image>
-            <image>https://metr-plus.com.ua/img/920100.jpg</image>
-            <image>https://metr-plus.com.ua/img/920101.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 5829EBLR-13</vendorCode>
-            <barcode>6903317646746</barcode>
-            <description><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, бежевий]]></description>
-            <description_ua><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, бежевий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="299992" selling_type="r">
-            <name>Джип M 5829EBLR-3</name>
-            <name_ua>Джип M 5829EBLR-3</name_ua>
-            <categoryId>77</categoryId>
-            <price>10180</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=299992&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/918668.jpg</image>
-            <image>https://metr-plus.com.ua/img/920102.jpg</image>
-            <image>https://metr-plus.com.ua/img/920103.jpg</image>
-            <image>https://metr-plus.com.ua/img/920104.jpg</image>
-            <image>https://metr-plus.com.ua/img/920105.jpg</image>
-            <image>https://metr-plus.com.ua/img/920106.jpg</image>
-            <image>https://metr-plus.com.ua/img/920107.jpg</image>
-            <image>https://metr-plus.com.ua/img/920108.jpg</image>
-            <image>https://metr-plus.com.ua/img/920109.jpg</image>
-            <image>https://metr-plus.com.ua/img/920110.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 5829EBLR-3</vendorCode>
-            <barcode>6903317646753</barcode>
-            <description><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, червоний]]></description>
-            <description_ua><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, червоний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="299994" selling_type="r">
-            <name>Джип M 5829EBLRS-2</name>
-            <name_ua>Джип M 5829EBLRS-2</name_ua>
-            <categoryId>77</categoryId>
-            <price>10996</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=299994&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/918670.jpg</image>
-            <image>https://metr-plus.com.ua/img/920008.jpg</image>
-            <image>https://metr-plus.com.ua/img/920009.jpg</image>
-            <image>https://metr-plus.com.ua/img/920010.jpg</image>
-            <image>https://metr-plus.com.ua/img/920011.jpg</image>
-            <image>https://metr-plus.com.ua/img/920012.jpg</image>
-            <image>https://metr-plus.com.ua/img/920013.jpg</image>
-            <image>https://metr-plus.com.ua/img/920014.jpg</image>
-            <image>https://metr-plus.com.ua/img/920015.jpg</image>
-            <image>https://metr-plus.com.ua/img/920016.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 5829EBLRS-2</vendorCode>
-            <barcode>6903317646777</barcode>
-            <description><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, фарб.чорний]]></description>
-            <description_ua><![CDATA[2,4G р/к, 1*12V9AH, 4*35W, MP3, SD, USB, BLUETOOTH, APP, EVA, шкіра, музика, світло, фарб.чорний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="300062" selling_type="r">
             <name>Джип M 5837EBLR-1(36V)</name>
             <name_ua>Джип M 5837EBLR-1(36V)</name_ua>
@@ -30309,33 +30399,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="308182" selling_type="r">
-            <name>Электрокарт M 6072EBR-2</name>
-            <name_ua>Електрокарт M 6072EBR-2</name_ua>
-            <categoryId>77</categoryId>
-            <price>3520</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=308182&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/946750.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019685.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019686.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019687.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019688.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019689.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019690.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019691.jpg</image>
-                <available>true</available>
-            <vendor>Bambi kart</vendor>
-            <vendorCode>M 6072EBR-2</vendorCode>
-            <barcode>6903317730483</barcode>
-            <description><![CDATA[р/к2,4G, 1моторы35W, 1акум6V4AH, EVA, BLUETOOTH, музыка, свет, черный]]></description>
-            <description_ua><![CDATA[р/к2,4G, 1мотори35W, 1акум6V4AH, EVA, BLUETOOTH, музика, світло, чорний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="308183" selling_type="r">
             <name>Электрокарт M 6072EBR-3</name>
             <name_ua>Електрокарт M 6072EBR-3</name_ua>
@@ -30526,6 +30589,35 @@
             <barcode>6903317726929</barcode>
             <description><![CDATA[(1шт) р/к 2,4G, 4*35W, 24V7AH, EVA, музыка, светло, темно-зеленый]]></description>
             <description_ua><![CDATA[(1шт) р/к 2,4G, 4*35W, 24V7AH, EVA, музика, світло, темно-зелений]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="308696" selling_type="r">
+            <name>Джип M 6070EBLR-3(24V)</name>
+            <name_ua>Джип M 6070EBLR-3(24V)</name_ua>
+            <categoryId>77</categoryId>
+            <price>12333</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=308696&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/948600.jpg</image>
+            <image>https://metr-plus.com.ua/img/957347.jpg</image>
+            <image>https://metr-plus.com.ua/img/957348.jpg</image>
+            <image>https://metr-plus.com.ua/img/957349.jpg</image>
+            <image>https://metr-plus.com.ua/img/957350.jpg</image>
+            <image>https://metr-plus.com.ua/img/957351.jpg</image>
+            <image>https://metr-plus.com.ua/img/957352.jpg</image>
+            <image>https://metr-plus.com.ua/img/957353.jpg</image>
+            <image>https://metr-plus.com.ua/img/957354.jpg</image>
+            <image>https://metr-plus.com.ua/img/957355.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 6070EBLR-3(24V)</vendorCode>
+            <barcode>6903317723492</barcode>
+            <description><![CDATA[(1шт) 2,4G р/к, 2*200W, 1*24V7AH, MP3, USB, TF, EVA, шкіра, світло, музика, червоний]]></description>
+            <description_ua><![CDATA[(1шт) 2,4G р/к, 2*200W, 1*24V7AH, MP3, USB, TF, EVA, шкіра, світло, музика, червоний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -31270,6 +31362,64 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="310283" selling_type="r">
+            <name>Квадроцикл M 6128EBLR-2(24V)</name>
+            <name_ua>Квадроцикл M 6128EBLR-2(24V)</name_ua>
+            <categoryId>77</categoryId>
+            <price>12755</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=310283&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/954421.jpg</image>
+            <image>https://metr-plus.com.ua/img/978911.jpg</image>
+            <image>https://metr-plus.com.ua/img/978912.jpg</image>
+            <image>https://metr-plus.com.ua/img/978913.jpg</image>
+            <image>https://metr-plus.com.ua/img/978914.jpg</image>
+            <image>https://metr-plus.com.ua/img/978915.jpg</image>
+            <image>https://metr-plus.com.ua/img/978916.jpg</image>
+            <image>https://metr-plus.com.ua/img/978917.jpg</image>
+            <image>https://metr-plus.com.ua/img/978918.jpg</image>
+            <image>https://metr-plus.com.ua/img/978919.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 6128EBLR-2(24V)</vendorCode>
+            <barcode>6903317734146</barcode>
+            <description><![CDATA[(1шт) р/к 2,4G, 4мот.75W, 1акум.24V7AH, USB, TF, BLUETOOTH, муз., св., кож.сид. , EVA, черный]]></description>
+            <description_ua><![CDATA[(1шт) р/к 2,4G, 4мот.75W, 1акум.24V7AH, USB, TF, BLUETOOTH, муз., св., шкір.сид. , EVA, чорний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="310287" selling_type="r">
+            <name>Квадроцикл M 6128EBLR-8(24V)</name>
+            <name_ua>Квадроцикл M 6128EBLR-8(24V)</name_ua>
+            <categoryId>77</categoryId>
+            <price>12755</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=310287&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/954425.jpg</image>
+            <image>https://metr-plus.com.ua/img/978875.jpg</image>
+            <image>https://metr-plus.com.ua/img/978876.jpg</image>
+            <image>https://metr-plus.com.ua/img/978877.jpg</image>
+            <image>https://metr-plus.com.ua/img/978878.jpg</image>
+            <image>https://metr-plus.com.ua/img/978879.jpg</image>
+            <image>https://metr-plus.com.ua/img/978880.jpg</image>
+            <image>https://metr-plus.com.ua/img/978881.jpg</image>
+            <image>https://metr-plus.com.ua/img/978882.jpg</image>
+            <image>https://metr-plus.com.ua/img/978883.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 6128EBLR-8(24V)</vendorCode>
+            <barcode>6903317734184</barcode>
+            <description><![CDATA[(1шт) р/к 2,4G, 4мот.75W, 1акум.24V7AH, USB, TF, BLUETOOTH, муз., св., кож.сид. , EVA, розовый]]></description>
+            <description_ua><![CDATA[(1шт) р/к 2,4G, 4мот.75W, 1акум.24V7AH, USB, TF, BLUETOOTH, муз., св., шкір.сид. , EVA, рожевий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="310465" selling_type="r">
             <name>Джип M 6140EBLR-3</name>
             <name_ua>Джип M 6140EBLR-3</name_ua>
@@ -31294,35 +31444,6 @@
             <barcode>6903317737048</barcode>
             <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description>
             <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="310466" selling_type="r">
-            <name>Джип M 6140EBLRS-11</name>
-            <name_ua>Джип M 6140EBLRS-11</name_ua>
-            <categoryId>77</categoryId>
-            <price>10976</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=310466&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/954628.jpg</image>
-            <image>https://metr-plus.com.ua/img/979121.jpg</image>
-            <image>https://metr-plus.com.ua/img/979122.jpg</image>
-            <image>https://metr-plus.com.ua/img/979123.jpg</image>
-            <image>https://metr-plus.com.ua/img/979124.jpg</image>
-            <image>https://metr-plus.com.ua/img/979125.jpg</image>
-            <image>https://metr-plus.com.ua/img/979126.jpg</image>
-            <image>https://metr-plus.com.ua/img/979127.jpg</image>
-            <image>https://metr-plus.com.ua/img/979128.jpg</image>
-            <image>https://metr-plus.com.ua/img/979129.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 6140EBLRS-11</vendorCode>
-            <barcode>6903317737055</barcode>
-            <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, фарб.сірий]]></description>
-            <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, фарб.сірий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -32954,32 +33075,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="320520" selling_type="r">
-            <name>Мотоцикл M 6265EL-4</name>
-            <name_ua>Мотоцикл M 6265EL-4</name_ua>
-            <categoryId>77</categoryId>
-            <price>5157</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=320520&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1003413.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006046.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006047.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006048.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006049.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006050.jpg</image>
-            <image>https://metr-plus.com.ua/img/1006051.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 6265EL-4</vendorCode>
-            <barcode>6903317796991</barcode>
-            <description><![CDATA[1*12V4,5AH, 2*35W, BLUETOOTH, USB, TF, EVA, музыка, свет, кожа, синий]]></description>
-            <description_ua><![CDATA[1*12V4,5AH, 2*35W, BLUETOOTH, USB, TF, EVA, музика, світло, шкіра, синій]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="325102" selling_type="r">
             <name>Мотоцикл M 6265EL-5</name>
             <name_ua>Мотоцикл M 6265EL-5</name_ua>
@@ -34001,34 +34096,6 @@
             <barcode>6903317796380</barcode>
             <description><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, зелений]]></description>
             <description_ua><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, зелений]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="329935" selling_type="r">
-            <name>Квадроцикл M 6276EBLR-5</name>
-            <name_ua>Квадроцикл M 6276EBLR-5</name_ua>
-            <categoryId>77</categoryId>
-            <price>10725</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=329935&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1016045.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016163.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016169.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016167.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016164.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016168.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016170.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016166.jpg</image>
-            <image>https://metr-plus.com.ua/img/1016165.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 6276EBLR-5</vendorCode>
-            <barcode>6903317797035</barcode>
-            <description><![CDATA[2,4G р/к, 1*12V7AH, 4*35W, USB, TF, BLUETOOTH, EVA, шкіра, музика, світло, зелений]]></description>
-            <description_ua><![CDATA[2,4G р/к, 1*12V7AH, 4*35W, USB, TF, BLUETOOTH, EVA, шкіра, музика, світло, зелений]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -36259,36 +36326,6 @@
             <barcode>6903317812714</barcode>
             <description><![CDATA[р/к, 2,4G, 2*35W,1*12V7-9AH, муз, світло, шкір.сидіння, BLUETOOTH, USB, EVA, зелений]]></description>
             <description_ua><![CDATA[р/к, 2,4G, 2*35W,1*12V7-9AH, муз, світло, шкір.сидіння, BLUETOOTH, USB, EVA, зелений]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="338129" selling_type="r">
-            <name>Квадроцикл HB-EATV1200Q-7ST</name>
-            <name_ua>Квадроцикл HB-EATV1200Q-7ST</name_ua>
-            <categoryId>494</categoryId>
-            <price>27086</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=338129&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1047136.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048114.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048115.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048116.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048119.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048122.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048121.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048123.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048124.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048120.jpg</image>
-            <image>https://metr-plus.com.ua/img/1048118.jpg</image>
-                <available>true</available>
-            <vendor>PROF1</vendor>
-            <vendorCode>HB-EATV1200Q-7ST</vendorCode>
-            <barcode>6903317825264</barcode>
-            <description><![CDATA[мотор 1200W,4акум 12V/12AH,швид26,5км/ч,допуст.вага65кг, помаранчевий]]></description>
-            <description_ua><![CDATA[мотор 1200W,4акум 12V/12AH,швид26,5км/ч,допуст.вага65кг, помаранчевий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -40487,26 +40524,6 @@
             <param name="Матеріал">
                 <value lang="uk">гума</value>
                 <value lang="ru">гума</value>
-            </param>
-        </item>
-        <item id="145397" selling_type="r">
-            <name>Колесо M 3259-EVA WHEEL</name>
-            <name_ua>Колесо M 3259-EVA WHEEL</name_ua>
-            <categoryId>195</categoryId>
-            <price>478</price>
-                <url>https://metr-plus.com.ua/index.php?section=195&amp;id=145397&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1017235.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 3259-EVA WHEEL</vendorCode>
-            <barcode>6903165286019</barcode>
-            <description><![CDATA[к джипу M 3259, M 3299]]></description>
-            <description_ua><![CDATA[К джипу M 3259, M 3299]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">EVA</value>
-                <value lang="ru">EVA</value>
             </param>
         </item>
         <item id="148999" selling_type="r">
@@ -45513,26 +45530,6 @@
             <param name="Матеріал">
                 <value lang="uk">гума</value>
                 <value lang="ru">гума</value>
-            </param>
-        </item>
-        <item id="281329" selling_type="r">
-            <name>Батарея 12V10Ah-BATTERY</name>
-            <name_ua>Батарея 12V10Ah-BATTERY</name_ua>
-            <categoryId>195</categoryId>
-            <price>1135</price>
-                <url>https://metr-plus.com.ua/index.php?section=195&amp;id=281329&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/810497.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>12V10Ah-BATTERY</vendorCode>
-            <barcode>6903317556793</barcode>
-            <description><![CDATA[универсальная, 12V10Ah, 15,3-10-9,5см,2023г, Long Way]]></description>
-            <description_ua><![CDATA[универсальная, 12V10Ah, 15,3-10-9,5см,2023г, Long Way]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
         <item id="281515" selling_type="r">
@@ -63471,31 +63468,6 @@
                 <value lang="ru">силікон</value>
             </param>
         </item>
-        <item id="292456" selling_type="r">
-            <name>Ванночка ME 1151 PLUS Deep Green</name>
-            <name_ua>Ванночка ME 1151 PLUS Deep Green</name_ua>
-            <categoryId>40</categoryId>
-            <price>1084</price>
-                <url>https://metr-plus.com.ua/index.php?section=39&amp;id=292456&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/862072.jpg</image>
-            <image>https://metr-plus.com.ua/img/886133.jpg</image>
-            <image>https://metr-plus.com.ua/img/886134.jpg</image>
-            <image>https://metr-plus.com.ua/img/886135.jpg</image>
-            <image>https://metr-plus.com.ua/img/886136.jpg</image>
-            <image>https://metr-plus.com.ua/img/886137.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1151 Deep Green</vendorCode>
-            <barcode>6903317628827</barcode>
-            <description><![CDATA[детская, с термометром, вкладыш, силикон, складная 78,3*49,3*20,5, зеленый]]></description>
-            <description_ua><![CDATA[дитяча, з термометром, вкладиш, силікон, складана 78,3*49,3*20,5, зелений]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">пластмаса, силікон</value>
-                <value lang="ru">пластмаса, силікон</value>
-            </param>
-        </item>
         <item id="292457" selling_type="r">
             <name>Ванночка ME 1151 PLUS Lilac</name>
             <name_ua>Ванночка ME 1151 PLUS Lilac</name_ua>
@@ -68968,31 +68940,6 @@
             <barcode>6903317719624</barcode>
             <description><![CDATA[каркасный, 671-132см, песочный фильтр-насос, лестница, тент, наполнитель для фильтра Polysphere]]></description>
             <description_ua><![CDATA[каркасний, 671-132см, пісочний фільтр-насос, сходи, тент, наповнювач для фільтра Polysphere]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">ПВХ</value>
-                <value lang="ru">ПВХ</value>
-            </param>
-        </item>
-        <item id="307998" selling_type="r">
-            <name>BW Бассейн каркасный 561MB</name>
-            <name_ua>BW Басейн каркасний 561MB</name_ua>
-            <categoryId>126</categoryId>
-            <price>29841</price>
-                <url>https://metr-plus.com.ua/index.php?section=126&amp;id=307998&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/945395.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010150.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010151.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010152.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010153.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010154.jpg</image>
-                <available>true</available>
-            <vendor>BESTWAY</vendor>
-            <vendorCode>561MB</vendorCode>
-            <barcode>6903317719877</barcode>
-            <description><![CDATA[каркасный, 488-244-122см, фильтрующий насос, лестница, тент]]></description>
-            <description_ua><![CDATA[каркасний, 488-244-122см, фільтруючий насос, сходи, тент]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">ПВХ</value>
                 <value lang="ru">ПВХ</value>
