@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-06-04 18:13">
+<yml_catalog date="2026-06-04 21:28">
   <offers>
     <offer id="M 3147A-1" available="true">
       <price>2100</price>
@@ -9046,7 +9046,7 @@
     <offer id="MS 4681" available="true">
       <price>2100</price>
       <price_old>2800</price_old>
-      <category code="134">134</category>
+      <category code="315399">315399</category>
       <name lang="ru">Боксерский набор MS 4681</name>
       <name lang="ua">Боксерський набір MS 4681</name>
       <picture>https://metr-plus.com.ua/img/994014.jpg</picture>
@@ -10362,9 +10362,9 @@
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=81&amp;id=281551&amp;lang=uk</param>
     </offer>
     <offer id="284179" available="true">
-      <price>5300</price>
-      <price_old>6900</price_old>
-      <category code="48">48</category>
+      <price>5000</price>
+      <price_old>6500</price_old>
+      <category code="82">82</category>
       <name lang="ru">Конструктор-стол QC-BB01</name>
       <name lang="ua">Конструктор-стіл QC-BB01</name>
       <picture>https://metr-plus.com.ua/img/819969.jpg</picture>
@@ -47725,6 +47725,36 @@
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=36&amp;id=257349&amp;lang=uk</param>
     </offer>
+    <offer id="314372" available="true">
+      <price>7600</price>
+      <price_old>9900</price_old>
+      <category code="98">98</category>
+      <name lang="ru">Деревянная игрушка Домик CHP-WW2</name>
+      <name lang="ua">Дерев'яна іграшка Будиночок CHP-WW2</name>
+      <picture>https://metr-plus.com.ua/img/979861.jpg</picture>
+      <description lang="ru">3 этажа, 80-38-в120,5см, мебель, в кор-ке</description>
+      <description lang="ua">3 поверхи, 80-38-в120,5см, меблі, в кор-ці</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">314372</param>
+      <param name="Штрихкод">6903317762392</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=98&amp;id=314372&amp;lang=uk</param>
+    </offer>
+    <offer id="314380" available="true">
+      <price>9000</price>
+      <price_old>11700</price_old>
+      <category code="98">98</category>
+      <name lang="ru">Деревянная игрушка Домик TX1283</name>
+      <name lang="ua">Дерев'яна іграшка Будиночок TX1283</name>
+      <picture>https://metr-plus.com.ua/img/979866.jpg</picture>
+      <description lang="ru">120-50-134см, 3 этажа, мебель, в кор-ке</description>
+      <description lang="ua">120-50-134см, 3 поверхи, меблі, в кор-ці</description>
+      <vendor code="Без бренду">Без бренду</vendor>
+      <param name="Артикул">314380</param>
+      <param name="Штрихкод">6903317762415</param>
+      <param name="Кількість на складі">1</param>
+      <param name="Посилання">https://metr-plus.com.ua/index.php?section=98&amp;id=314380&amp;lang=uk</param>
+    </offer>
     <offer id="330560" available="true">
       <price>5600</price>
       <price_old>7300</price_old>
@@ -47824,36 +47854,6 @@
       <param name="Штрихкод">6903317854622</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=34&amp;id=343199&amp;lang=uk</param>
-    </offer>
-    <offer id="314372" available="true">
-      <price>7600</price>
-      <price_old>9900</price_old>
-      <category code="98">98</category>
-      <name lang="ru">Деревянная игрушка Домик CHP-WW2</name>
-      <name lang="ua">Дерев'яна іграшка Будиночок CHP-WW2</name>
-      <picture>https://metr-plus.com.ua/img/979861.jpg</picture>
-      <description lang="ru">3 этажа, 80-38-в120,5см, мебель, в кор-ке</description>
-      <description lang="ua">3 поверхи, 80-38-в120,5см, меблі, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">314372</param>
-      <param name="Штрихкод">6903317762392</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=98&amp;id=314372&amp;lang=uk</param>
-    </offer>
-    <offer id="314380" available="true">
-      <price>9000</price>
-      <price_old>11700</price_old>
-      <category code="98">98</category>
-      <name lang="ru">Деревянная игрушка Домик TX1283</name>
-      <name lang="ua">Дерев'яна іграшка Будиночок TX1283</name>
-      <picture>https://metr-plus.com.ua/img/979866.jpg</picture>
-      <description lang="ru">120-50-134см, 3 этажа, мебель, в кор-ке</description>
-      <description lang="ua">120-50-134см, 3 поверхи, меблі, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">314380</param>
-      <param name="Штрихкод">6903317762415</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=98&amp;id=314380&amp;lang=uk</param>
     </offer>
     <offer id="MS 3249-1" available="true">
       <price>2400</price>
@@ -48431,21 +48431,6 @@
       <param name="Штрихкод">6903317723423</param>
       <param name="Кількість на складі">1</param>
       <param name="Посилання">https://metr-plus.com.ua/index.php?section=105&amp;id=309369&amp;lang=uk</param>
-    </offer>
-    <offer id="MS 4683-1" available="true">
-      <price>2700</price>
-      <price_old>3600</price_old>
-      <category code="134">134</category>
-      <name lang="ru">Боксерский набор MS 4683-1</name>
-      <name lang="ua">Боксерський набір MS 4683-1</name>
-      <picture>https://metr-plus.com.ua/img/987816.jpg</picture>
-      <description lang="ru">груша, крепеж на стену, насос, в кор-ке</description>
-      <description lang="ua">груша, кріплення на стіну, насос, в кор-ці</description>
-      <vendor code="Без бренду">Без бренду</vendor>
-      <param name="Артикул">MS 4683-1</param>
-      <param name="Штрихкод">6903317770878</param>
-      <param name="Кількість на складі">1</param>
-      <param name="Посилання">https://metr-plus.com.ua/index.php?section=134&amp;id=316038&amp;lang=uk</param>
     </offer>
     <offer id="B0903-4" available="true">
       <price>8100</price>
