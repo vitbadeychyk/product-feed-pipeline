@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-07-03 10:32">
+<yml_catalog date="2026-07-03 13:56">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -881,10 +881,10 @@
       <price_old>119470</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="26384" available="false">
+    <offer id="26384" available="true">
       <price>67000</price>
       <price_old>87100</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="26602" available="false">
       <price>2100</price>
@@ -1631,10 +1631,10 @@
       <price_old>12220</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="56432" available="true">
+    <offer id="56432" available="false">
       <price>5800</price>
       <price_old>7540</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="56438" available="true">
       <price>20000</price>
@@ -1836,10 +1836,10 @@
       <price_old>10270</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="58499" available="true">
+    <offer id="58499" available="false">
       <price>9000</price>
       <price_old>11700</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="58515" available="false">
       <price>5300</price>
@@ -3001,10 +3001,10 @@
       <price_old>10400</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="F-BRAKE-SET-AFB200-200L" available="true">
+    <offer id="F-BRAKE-SET-AFB200-200L" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="F-BRAKE-SUPPORT-SET-AT200L" available="true">
       <price>1000</price>
@@ -3231,10 +3231,10 @@
       <price_old>2730</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="GS-2001" available="false">
+    <offer id="GS-2001" available="true">
       <price>44100</price>
       <price_old>57330</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="GS-2002" available="false">
       <price>44100</price>
@@ -3636,10 +3636,10 @@
       <price_old>35490</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="HB-FFA1000-2-3" available="true">
+    <offer id="HB-FFA1000-2-3" available="false">
       <price>26400</price>
       <price_old>34320</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="HB-FFA1000-2-4" available="true">
       <price>26400</price>
@@ -4471,10 +4471,10 @@
       <price_old>3120</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="JR3-168-5С-BG" available="true">
+    <offer id="JR3-168-5С-BG" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JR3-168-5С-BL" available="true">
       <price>2200</price>
@@ -4956,10 +4956,10 @@
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 3237-EVA WHEEL" available="true">
+    <offer id="M 3237-EVA WHEEL" available="false">
       <price>1300</price>
       <price_old>1690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 3237-RC RECEIVER" available="true">
       <price>1400</price>
@@ -8551,10 +8551,10 @@
       <price_old>10270</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5101EBLR-11" available="true">
+    <offer id="M 5101EBLR-11" available="false">
       <price>7900</price>
       <price_old>10270</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5101EBLR-3" available="true">
       <price>7900</price>
@@ -9351,10 +9351,10 @@
       <price_old>5200</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5782EBLR-8" available="true">
+    <offer id="M 5782EBLR-8" available="false">
       <price>4000</price>
       <price_old>5200</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5782EBLR-9" available="true">
       <price>4000</price>
@@ -9601,10 +9601,10 @@
       <price_old>3770</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5804EL-8" available="true">
+    <offer id="M 5804EL-8" available="false">
       <price>2900</price>
       <price_old>3770</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5806-EVA WHEEL" available="true">
       <price>1400</price>
@@ -10806,10 +10806,10 @@
       <price_old>1300</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6019EBLR-1" available="true">
+    <offer id="M 6019EBLR-1" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6019EBLR-3" available="false">
       <price>18900</price>
@@ -11556,10 +11556,10 @@
       <price_old>19500</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6075-BLUETOOTH" available="true">
+    <offer id="M 6075-BLUETOOTH" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6075-EVA WHEEL" available="true">
       <price>1300</price>
@@ -12821,10 +12821,10 @@
       <price_old>1300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6148EL-1(24V)" available="true">
+    <offer id="M 6148EL-1(24V)" available="false">
       <price>24400</price>
       <price_old>31720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6148EL-6(24V)" available="false">
       <price>24400</price>
@@ -13076,10 +13076,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6161-RC" available="true">
+    <offer id="M 6161-RC" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6161-RC-RECEIVER" available="false">
       <price>1200</price>
@@ -14126,10 +14126,10 @@
       <price_old>11310</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6261EBLR-5" available="true">
+    <offer id="M 6261EBLR-5" available="false">
       <price>8700</price>
       <price_old>11310</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6261EBLR-6" available="true">
       <price>8700</price>
@@ -14856,10 +14856,10 @@
       <price_old>13650</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6285-2,4G" available="true">
+    <offer id="M 6285-2,4G" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6285-F-EVA WHEEL" available="true">
       <price>1300</price>
@@ -15276,10 +15276,10 @@
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6296-EVA WHEEL" available="true">
+    <offer id="M 6296-EVA WHEEL" available="false">
       <price>1500</price>
       <price_old>1950</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6296-RC RECEIVER" available="false">
       <price>1500</price>
@@ -15656,10 +15656,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6310-RC" available="true">
+    <offer id="M 6310-RC" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6310-RC-RECEIVER" available="true">
       <price>1200</price>
@@ -15721,10 +15721,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6311-ST GEAR" available="true">
+    <offer id="M 6311-ST GEAR" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6311-ST WHEEL" available="false">
       <price>1000</price>
@@ -17121,10 +17121,10 @@
       <price_old>16120</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6366EBLR-1" available="true">
+    <offer id="M 6366EBLR-1" available="false">
       <price>11600</price>
       <price_old>15080</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6366EBLRS-2" available="true">
       <price>11800</price>
@@ -17621,20 +17621,20 @@
       <price_old>2080</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6404-RC" available="true">
+    <offer id="M 6404-RC" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6404-RC RECEIVER" available="true">
       <price>1300</price>
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6404-ST GEAR" available="true">
+    <offer id="M 6404-ST GEAR" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6404-ST-WHEEL" available="true">
       <price>1100</price>
@@ -19351,10 +19351,10 @@
       <price_old>8060</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1188 Shadow Gray" available="true">
+    <offer id="ME 1188 Shadow Gray" available="false">
       <price>6300</price>
       <price_old>8190</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1189 Black" available="false">
       <price>7300</price>
@@ -19576,10 +19576,10 @@
       <price_old>3900</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1202 Lavender" available="true">
+    <offer id="ME 1202 Lavender" available="false">
       <price>3000</price>
       <price_old>3900</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1202 Slate Green" available="false">
       <price>3000</price>
