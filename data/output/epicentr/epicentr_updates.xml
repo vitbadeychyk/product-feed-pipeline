@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-07-29 17:11">
+<yml_catalog date="2026-07-29 20:52">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -4251,10 +4251,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="JJ2288-RC" available="true">
+    <offer id="JJ2288-RC" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JJ2288-ST GEAR" available="true">
       <price>1400</price>
@@ -4351,10 +4351,10 @@
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="JJ2580-RC" available="true">
+    <offer id="JJ2580-RC" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JJ2580-ST GEAR" available="true">
       <price>1300</price>
@@ -12656,10 +12656,10 @@
       <price_old>7670</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6136-4" available="true">
+    <offer id="M 6136-4" available="false">
       <price>5900</price>
       <price_old>7670</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6136-8" available="true">
       <price>5900</price>
@@ -15386,10 +15386,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6289EBLR-1" available="true">
+    <offer id="M 6289EBLR-1" available="false">
       <price>8200</price>
       <price_old>10660</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6289EBLR-2" available="true">
       <price>8200</price>
@@ -20516,10 +20516,10 @@
       <price_old>3120</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MEB 700C PULSE DISPLAY" available="true">
+    <offer id="MEB 700C PULSE DISPLAY" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MEB 700C PULSE SENSOR" available="true">
       <price>2100</price>
@@ -21235,6 +21235,11 @@
       <price>2800</price>
       <price_old>3640</price_old>
       <availability>out_of_stock</availability>
+    </offer>
+    <offer id="Nature дуб клондайк" available="true">
+      <price>2800</price>
+      <price_old>3640</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="Nature мангрове дерево" available="false">
       <price>2600</price>
