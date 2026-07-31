@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-07-31 06:40">
+<yml_catalog date="2026-07-31 10:35">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -2046,10 +2046,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="6V500mA CHARGER" available="true">
+    <offer id="6V500mA CHARGER" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="6V7Ah-BATTERY" available="true">
       <price>1300</price>
@@ -2176,10 +2176,10 @@
       <price_old>8970</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="9311" available="true">
+    <offer id="9311" available="false">
       <price>5000</price>
       <price_old>6500</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="9312" available="true">
       <price>5000</price>
@@ -2636,10 +2636,10 @@
       <price_old>9490</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="BL-2604" available="true">
+    <offer id="BL-2604" available="false">
       <price>7300</price>
       <price_old>9490</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="BL-2605" available="true">
       <price>7300</price>
@@ -4501,10 +4501,10 @@
       <price_old>2730</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="JR3-166-5-GR" available="true">
+    <offer id="JR3-166-5-GR" available="false">
       <price>2100</price>
       <price_old>2730</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JR3-166-5-P" available="false">
       <price>2100</price>
@@ -4736,10 +4736,10 @@
       <price_old>2730</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="JR3-186-BRN" available="true">
+    <offer id="JR3-186-BRN" available="false">
       <price>2100</price>
       <price_old>2730</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JR3-186-GR" available="false">
       <price>2100</price>
@@ -5956,10 +5956,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4259-DASHBOARD" available="true">
+    <offer id="M 4259-DASHBOARD" available="false">
       <price>1300</price>
       <price_old>1690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4259-F-EVA WHEEL" available="false">
       <price>1200</price>
@@ -6716,10 +6716,10 @@
       <price_old>3380</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4612-RC" available="true">
+    <offer id="M 4612-RC" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4612-RC RECEIVER" available="true">
       <price>1300</price>
@@ -6771,15 +6771,15 @@
       <price_old>17810</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4619ABLR-5" available="true">
+    <offer id="M 4619ABLR-5" available="false">
       <price>13700</price>
       <price_old>17810</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 4626-ST GEAR" available="true">
+    <offer id="M 4626-ST GEAR" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4643EBLR-5(24V)" available="false">
       <price>23500</price>
@@ -7441,10 +7441,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4864-RC" available="true">
+    <offer id="M 4864-RC" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4864-RC RECEIVER" available="true">
       <price>1200</price>
@@ -10696,10 +10696,10 @@
       <price_old>17680</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5944EBLR-2" available="true">
+    <offer id="M 5944EBLR-2" available="false">
       <price>4400</price>
       <price_old>5720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5944EBLR-3" available="false">
       <price>4400</price>
@@ -11371,10 +11371,10 @@
       <price_old>12350</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6040EBLRS-5" available="true">
+    <offer id="M 6040EBLRS-5" available="false">
       <price>9500</price>
       <price_old>12350</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6041 Gray" available="false">
       <price>3400</price>
@@ -11651,10 +11651,10 @@
       <price_old>2210</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6066-RC RECEIVER" available="true">
+    <offer id="M 6066-RC RECEIVER" available="false">
       <price>1500</price>
       <price_old>1950</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6066EBLR-3" available="true">
       <price>20100</price>
@@ -14881,10 +14881,10 @@
       <price_old>11440</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6274EBLR-3" available="true">
+    <offer id="M 6274EBLR-3" available="false">
       <price>3500</price>
       <price_old>4550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6274EBLR-4" available="false">
       <price>3500</price>
@@ -18031,10 +18031,10 @@
       <price_old>20150</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6409-BLUETOOTH" available="true">
+    <offer id="M 6409-BLUETOOTH" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6409-EVA WHEEL" available="true">
       <price>1200</price>
@@ -18096,10 +18096,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6410-RC RECEIVER" available="true">
+    <offer id="M 6410-RC RECEIVER" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6410-ST GEAR" available="true">
       <price>1000</price>
@@ -18961,10 +18961,10 @@
       <price_old>2990</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MBB 1051-3" available="true">
+    <offer id="MBB 1051-3" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MBB 1051-4" available="false">
       <price>2300</price>
@@ -21431,15 +21431,15 @@
       <price_old>11180</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="RC RECEIVER-2566" available="true">
+    <offer id="RC RECEIVER-2566" available="false">
       <price>1600</price>
       <price_old>2080</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="RC RECEIVER-800N" available="true">
+    <offer id="RC RECEIVER-800N" available="false">
       <price>2000</price>
       <price_old>2600</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="RC RECEIVER-EATV08-350" available="true">
       <price>3100</price>
@@ -22026,10 +22026,10 @@
       <price_old>11440</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="VM-Charger" available="true">
+    <offer id="VM-Charger" available="false">
       <price>1600</price>
       <price_old>2080</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="VM-F-TYRE" available="true">
       <price>2100</price>
