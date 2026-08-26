@@ -1,12 +1,18 @@
 from __future__ import annotations
 
 import os
+import re
 import xml.etree.ElementTree as ET
+
 from datetime import datetime
 from pathlib import Path
 
 import requests
 
+
+# ============================================================
+# PATHS
+# ============================================================
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
@@ -30,8 +36,16 @@ OUTPUT_FILE = (
 # SUPABASE
 # ============================================================
 
-SUPABASE_URL = os.getenv("SUPABASE_URL", "").strip().rstrip("/")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "").strip()
+SUPABASE_URL = (
+    os.getenv("SUPABASE_URL", "")
+    .strip()
+    .rstrip("/")
+)
+
+SUPABASE_KEY = (
+    os.getenv("SUPABASE_KEY", "")
+    .strip()
+)
 
 
 # ============================================================
@@ -62,7 +76,10 @@ def get_text(
     return child.text.strip()
 
 
-def get_images(element: ET.Element) -> list[str]:
+def get_images(
+    element: ET.Element,
+) -> list[str]:
+
     return [
         img.text.strip()
         for img in element.findall("image")
@@ -70,21 +87,39 @@ def get_images(element: ET.Element) -> list[str]:
     ]
 
 
-def get_params(element: ET.Element) -> list[ET.Element]:
+def get_params(
+    element: ET.Element,
+) -> list[ET.Element]:
+
     return element.findall("param")
 
 
-def parse_price(value: str) -> str:
-    value = safe_text(value).replace(",", ".")
+def parse_price(
+    value: str,
+) -> str:
+
+    value = (
+        safe_text(value)
+        .replace(",", ".")
+    )
 
     try:
-        return str(int(round(float(value))))
+        return str(
+            int(
+                round(
+                    float(value)
+                )
+            )
+        )
 
     except ValueError:
         return "0"
 
 
-def normalize_available(value: str) -> str:
+def normalize_available(
+    value: str,
+) -> str:
+
     return (
         "true"
         if safe_text(value).lower() == "true"
@@ -117,21 +152,134 @@ def convert_stock_quantity(
 # SKU NORMALIZATION
 # ============================================================
 
-def normalize_sku(value: object) -> str:
+def normalize_sku(
+    value: object,
+) -> str:
     """
-    Нормалізація артикулу для порівняння.
+    Нормалізує SKU для порівняння.
 
     Наприклад:
-        "M 4259EBLR-1"
-        "m 4259eblr-1"
+
+        M 4259EBLR-1
+        m 4259eblr-1
 
     будуть вважатися однаковими.
 
-    Пробіли всередині SKU НЕ видаляємо,
-    щоб випадково не об'єднати різні артикули.
+    Пробіли всередині SKU не видаляємо.
     """
 
     return safe_text(value).casefold()
+
+
+# ============================================================
+# DESCRIPTION FORMATTER
+# ============================================================
+
+def format_description(
+    value: object,
+) -> str:
+    """
+    Форматує description для Rozetka.
+
+    Було:
+
+        Текст товару. Характеристики товару:
+        • Матеріал...
+        • Розмір...
+
+    Якщо все записано одним рядком,
+    функція додає нормальні переноси.
+
+    Сам текст опису НЕ змінюється.
+    """
+
+    text = safe_text(value)
+
+    if not text:
+        return ""
+
+    # --------------------------------------------------------
+    # Нормалізуємо переноси рядків
+    # --------------------------------------------------------
+
+    text = (
+        text
+        .replace("\r\n", "\n")
+        .replace("\r", "\n")
+    )
+
+    # --------------------------------------------------------
+    # Зайві пробіли/табуляції замінюємо одним пробілом.
+    #
+    # ВАЖЛИВО:
+    # символи нового рядка тут не видаляються.
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"[ \t]+",
+        " ",
+        text,
+    )
+
+    # --------------------------------------------------------
+    # Перед блоком "Характеристики..."
+    # додаємо порожній рядок.
+    #
+    # Спрацює для:
+    #
+    # Характеристики:
+    # Характеристики товару:
+    # Характеристики гірки Bambi WM19003:
+    # Характеристики моделі M 4259:
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"[ \t]*(Характеристики[^:\n]*:)",
+        r"\n\n\1",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # --------------------------------------------------------
+    # Кожен символ • переносимо на новий рядок
+    #
+    # Було:
+    # Матеріал... • Розмір... • Вага...
+    #
+    # Стане:
+    # Матеріал...
+    # • Розмір...
+    # • Вага...
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"[ \t]*•[ \t]*",
+        "\n• ",
+        text,
+    )
+
+    # --------------------------------------------------------
+    # Якщо перед • уже був перенос,
+    # прибираємо надлишкові порожні рядки
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"\n+\s*•",
+        "\n•",
+        text,
+    )
+
+    # --------------------------------------------------------
+    # Максимум один порожній рядок між абзацами
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"\n{3,}",
+        "\n\n",
+        text,
+    )
+
+    return text.strip()
 
 
 # ============================================================
@@ -140,14 +288,16 @@ def normalize_sku(value: object) -> str:
 
 def load_supabase_descriptions() -> dict[str, str]:
     """
-    Завантажує з Supabase:
+    Завантажує:
 
         products.sku
         products.description
 
-    Повертає словник:
+    з Supabase.
 
-        normalized_sku -> full_description
+    Повертає:
+
+        normalized_sku -> formatted_description
     """
 
     if not SUPABASE_URL:
@@ -160,7 +310,10 @@ def load_supabase_descriptions() -> dict[str, str]:
             "Не задано GitHub Secret / env SUPABASE_KEY"
         )
 
-    url = f"{SUPABASE_URL}/rest/v1/products"
+    url = (
+        f"{SUPABASE_URL}"
+        f"/rest/v1/products"
+    )
 
     headers = {
         "apikey": SUPABASE_KEY,
@@ -173,9 +326,15 @@ def load_supabase_descriptions() -> dict[str, str]:
     total_rows = 0
 
     print()
-    print("========================================")
-    print("Завантаження описів із Supabase")
-    print("========================================")
+    print(
+        "========================================"
+    )
+    print(
+        "Завантаження описів із Supabase"
+    )
+    print(
+        "========================================"
+    )
 
     while True:
 
@@ -187,6 +346,7 @@ def load_supabase_descriptions() -> dict[str, str]:
         }
 
         try:
+
             response = requests.get(
                 url,
                 headers=headers,
@@ -197,21 +357,28 @@ def load_supabase_descriptions() -> dict[str, str]:
             response.raise_for_status()
 
         except requests.RequestException as exc:
+
             raise RuntimeError(
-                f"Помилка підключення до Supabase: {exc}"
+                "Помилка підключення до Supabase: "
+                f"{exc}"
             ) from exc
 
         try:
+
             rows = response.json()
 
         except ValueError as exc:
+
             raise RuntimeError(
-                "Supabase повернув некоректну JSON-відповідь"
+                "Supabase повернув "
+                "некоректну JSON-відповідь"
             ) from exc
 
         if not isinstance(rows, list):
+
             raise RuntimeError(
-                f"Неочікувана відповідь Supabase: {rows}"
+                "Неочікувана відповідь Supabase: "
+                f"{rows}"
             )
 
         if not rows:
@@ -228,22 +395,28 @@ def load_supabase_descriptions() -> dict[str, str]:
                 row.get("sku")
             )
 
-            description = safe_text(
+            # =================================================
+            # ПОВНИЙ ОПИС ІЗ SUPABASE
+            # + форматування переносів
+            # =================================================
+
+            description = format_description(
                 row.get("description")
             )
 
-            # SKU немає
+            # SKU відсутній
             if not sku:
                 continue
 
-            # Опис NULL або пустий
+            # description NULL / пустий
             if not description:
                 continue
 
             descriptions[sku] = description
 
         print(
-            f"Оброблено рядків Supabase: {total_rows}"
+            f"Оброблено рядків Supabase: "
+            f"{total_rows}"
         )
 
         if len(rows) < page_size:
@@ -251,12 +424,21 @@ def load_supabase_descriptions() -> dict[str, str]:
 
         offset += page_size
 
+    print()
     print(
         f"Товарів з повним description: "
         f"{len(descriptions)}"
     )
 
+    # ========================================================
+    # ЗАХИСТ
+    #
+    # Якщо Supabase повернув 0 описів,
+    # старий робочий XML не перезаписуємо.
+    # ========================================================
+
     if not descriptions:
+
         raise RuntimeError(
             "У Supabase не знайдено жодного товару "
             "з непорожнім description. "
@@ -274,7 +456,9 @@ def build_root(
     source_root: ET.Element,
 ) -> tuple[ET.Element, ET.Element]:
 
-    root = ET.Element("yml_catalog")
+    root = ET.Element(
+        "yml_catalog"
+    )
 
     root.set(
         "date",
@@ -303,6 +487,10 @@ def build_root(
         "url",
     ).text = "https://example.com/"
 
+    # --------------------------------------------------------
+    # CURRENCIES
+    # --------------------------------------------------------
+
     currencies = ET.SubElement(
         shop,
         "currencies",
@@ -322,6 +510,10 @@ def build_root(
         "rate",
         "1",
     )
+
+    # --------------------------------------------------------
+    # CATEGORIES
+    # --------------------------------------------------------
 
     categories = ET.SubElement(
         shop,
@@ -355,6 +547,10 @@ def build_root(
 
         category.text = category_name
 
+    # --------------------------------------------------------
+    # OFFERS
+    # --------------------------------------------------------
+
     offers = ET.SubElement(
         shop,
         "offers",
@@ -382,6 +578,10 @@ def append_param_with_multilang(
     values = source_param.findall(
         "value"
     )
+
+    # --------------------------------------------------------
+    # MULTILANGUAGE PARAM
+    # --------------------------------------------------------
 
     if values:
 
@@ -426,6 +626,10 @@ def append_param_with_multilang(
 
         return
 
+    # --------------------------------------------------------
+    # NORMAL PARAM
+    # --------------------------------------------------------
+
     text_value = safe_text(
         source_param.text
     )
@@ -456,16 +660,16 @@ def build_offer(
 ) -> bool:
 
     # --------------------------------------------------------
-    # ARTIKUL
+    # ARTICLE / SKU
     # --------------------------------------------------------
 
     vendor_code = get_text(
         item,
-        "vendorCode"
+        "vendorCode",
     )
 
-    # Якщо vendorCode відсутній,
-    # ми не можемо знайти товар у Supabase
+    # Без vendorCode не можемо
+    # знайти товар у Supabase
     if not vendor_code:
         return False
 
@@ -480,22 +684,22 @@ def build_offer(
     full_description = safe_text(
         descriptions.get(
             normalized_vendor_code,
-            ""
+            "",
         )
     )
 
     # ========================================================
-    # ГОЛОВНЕ ПРАВИЛО:
+    # ГОЛОВНЕ ПРАВИЛО
     #
-    # якщо повного description у Supabase немає,
-    # товар НЕ потрапляє у Rozetka feed
+    # Якщо description у Supabase відсутній,
+    # товар НЕ додаємо у Rozetka XML.
     # ========================================================
 
     if not full_description:
         return False
 
     # --------------------------------------------------------
-    # Далі практично весь твій старий код без змін
+    # SOURCE PRODUCT DATA
     # --------------------------------------------------------
 
     product_id = safe_text(
@@ -504,54 +708,54 @@ def build_offer(
 
     name = get_text(
         item,
-        "name"
+        "name",
     )
 
     name_ua = get_text(
         item,
-        "name_ua"
+        "name_ua",
     )
 
     vendor = get_text(
         item,
-        "vendor"
+        "vendor",
     )
 
     url = get_text(
         item,
-        "url"
+        "url",
     )
 
     currency_id = get_text(
         item,
         "currencyId",
-        "UAH"
+        "UAH",
     )
 
     category_id = get_text(
         item,
-        "categoryId"
+        "categoryId",
     )
 
     raw_price = get_text(
         item,
-        "price"
+        "price",
     )
 
     barcode = get_text(
         item,
-        "barcode"
+        "barcode",
     )
 
     quantity_in_stock = get_text(
         item,
-        "quantity_in_stock"
+        "quantity_in_stock",
     )
 
     supplier_available = normalize_available(
         get_text(
             item,
-            "available"
+            "available",
         )
     )
 
@@ -559,33 +763,35 @@ def build_offer(
     # STOCK
     # --------------------------------------------------------
 
-    stock_quantity, stock_available = (
-        convert_stock_quantity(
-            quantity_in_stock
-        )
+    (
+        stock_quantity,
+        stock_available,
+    ) = convert_stock_quantity(
+        quantity_in_stock
     )
 
     if supplier_available == "false":
+
         stock_quantity = "0"
         stock_available = "false"
 
     # --------------------------------------------------------
-    # OFFER
+    # CREATE OFFER
     # --------------------------------------------------------
 
     offer = ET.SubElement(
         offers,
-        "offer"
+        "offer",
     )
 
     offer.set(
         "id",
-        product_id
+        product_id,
     )
 
     offer.set(
         "available",
-        stock_available
+        stock_available,
     )
 
     # --------------------------------------------------------
@@ -594,7 +800,7 @@ def build_offer(
 
     ET.SubElement(
         offer,
-        "price"
+        "price",
     ).text = parse_price(
         raw_price
     )
@@ -605,7 +811,7 @@ def build_offer(
 
     ET.SubElement(
         offer,
-        "currencyId"
+        "currencyId",
     ).text = (
         currency_id
         or "UAH"
@@ -619,7 +825,7 @@ def build_offer(
 
         ET.SubElement(
             offer,
-            "categoryId"
+            "categoryId",
         ).text = category_id
 
     # --------------------------------------------------------
@@ -628,7 +834,7 @@ def build_offer(
 
     ET.SubElement(
         offer,
-        "vendor"
+        "vendor",
     ).text = vendor
 
     # --------------------------------------------------------
@@ -637,7 +843,7 @@ def build_offer(
 
     ET.SubElement(
         offer,
-        "article"
+        "article",
     ).text = vendor_code
 
     # --------------------------------------------------------
@@ -646,7 +852,7 @@ def build_offer(
 
     ET.SubElement(
         offer,
-        "stock_quantity"
+        "stock_quantity",
     ).text = stock_quantity
 
     # --------------------------------------------------------
@@ -657,33 +863,35 @@ def build_offer(
 
         ET.SubElement(
             offer,
-            "name"
+            "name",
         ).text = name
 
     if name_ua:
 
         ET.SubElement(
             offer,
-            "name_ua"
+            "name_ua",
         ).text = name_ua
 
     # ========================================================
     # DESCRIPTION
     #
-    # Короткий description постачальника
-    # більше НЕ використовується.
+    # Короткі description / description_ua
+    # постачальника НЕ використовуємо.
     #
-    # Беремо повний опис тільки із Supabase.
+    # Беремо тільки повний description із Supabase.
+    # Він уже відформатований функцією
+    # format_description().
     # ========================================================
 
     ET.SubElement(
         offer,
-        "description"
+        "description",
     ).text = full_description
 
     ET.SubElement(
         offer,
-        "description_ua"
+        "description_ua",
     ).text = full_description
 
     # --------------------------------------------------------
@@ -694,7 +902,7 @@ def build_offer(
 
         ET.SubElement(
             offer,
-            "url"
+            "url",
         ).text = url
 
     # --------------------------------------------------------
@@ -705,7 +913,7 @@ def build_offer(
 
         ET.SubElement(
             offer,
-            "barcode"
+            "barcode",
         ).text = barcode
 
     # --------------------------------------------------------
@@ -718,7 +926,7 @@ def build_offer(
 
         ET.SubElement(
             offer,
-            "picture"
+            "picture",
         ).text = image_url
 
     # --------------------------------------------------------
@@ -731,7 +939,7 @@ def build_offer(
 
         append_param_with_multilang(
             offer,
-            source_param
+            source_param,
         )
 
     return True
@@ -761,7 +969,8 @@ def export_rozetka_feed() -> None:
     if not INPUT_FILE.exists():
 
         raise FileNotFoundError(
-            f"Файл не знайдено: {INPUT_FILE}"
+            f"Файл не знайдено: "
+            f"{INPUT_FILE}"
         )
 
     # --------------------------------------------------------
@@ -776,6 +985,11 @@ def export_rozetka_feed() -> None:
     # READ SUPPLIER XML
     # --------------------------------------------------------
 
+    print()
+    print(
+        "Читання supplier_feed.xml..."
+    )
+
     tree = ET.parse(
         INPUT_FILE
     )
@@ -786,7 +1000,6 @@ def export_rozetka_feed() -> None:
         ".//items/item"
     )
 
-    print()
     print(
         f"Знайдено товарів у фіді "
         f"постачальника: "
@@ -809,19 +1022,20 @@ def export_rozetka_feed() -> None:
         exported = build_offer(
             item,
             offers_el,
-            descriptions
+            descriptions,
         )
 
         if exported:
             exported_count += 1
+
         else:
             skipped_count += 1
 
     # ========================================================
-    # ЗАХИСТ
+    # SAFETY
     #
-    # Якщо жодного SKU не співпало,
-    # не перезаписуємо нормальний XML порожнім.
+    # Якщо збігів не знайшли взагалі,
+    # не перезаписуємо існуючий XML.
     # ========================================================
 
     if exported_count == 0:
@@ -829,12 +1043,14 @@ def export_rozetka_feed() -> None:
         raise RuntimeError(
             "Не експортовано жодного товару. "
             "Перевір SUPABASE_URL, SUPABASE_KEY "
-            "та відповідність vendorCode = products.sku. "
-            "Існуючий rozetka_feed.xml не перезаписано."
+            "та відповідність "
+            "vendorCode = products.sku. "
+            "Існуючий rozetka_feed.xml "
+            "не перезаписано."
         )
 
     # --------------------------------------------------------
-    # SAVE XML
+    # CREATE XML TREE
     # --------------------------------------------------------
 
     result_tree = ET.ElementTree(
@@ -844,18 +1060,22 @@ def export_rozetka_feed() -> None:
     ET.indent(
         result_tree,
         space="  ",
-        level=0
+        level=0,
     )
+
+    # --------------------------------------------------------
+    # SAVE XML
+    # --------------------------------------------------------
 
     OUTPUT_FILE.parent.mkdir(
         parents=True,
-        exist_ok=True
+        exist_ok=True,
     )
 
     result_tree.write(
         OUTPUT_FILE,
         encoding="utf-8",
-        xml_declaration=True
+        xml_declaration=True,
     )
 
     # --------------------------------------------------------
@@ -891,7 +1111,7 @@ def export_rozetka_feed() -> None:
 
     print()
     print(
-        f"Готовий XML:"
+        "Готовий XML:"
     )
 
     print(
