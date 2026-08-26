@@ -1,0 +1,80 @@
+name: Update product feed
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      #- name: Fetch supplier feed
+      #  run: python -m scripts.common.fetch_supplier_feed
+
+      - name: Debug downloaded XML
+        run: |
+          echo "===== FILE SIZE ====="
+          ls -lh data/raw/supplier_feed.xml
+
+          echo "===== FIRST 1500 SYMBOLS ====="
+          head -c 1500 data/raw/supplier_feed.xml
+          echo
+
+          echo "===== LAST 1500 SYMBOLS ====="
+          tail -c 1500 data/raw/supplier_feed.xml
+          echo
+
+          echo "===== CHECK SKU IN RAW ====="
+          grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND IN RAW"
+
+      - name: Create Google credentials file
+        run: |
+          cat > service_account.json <<'EOF'
+          ${{ secrets.SERVICE_ACCOUNT_JSON }}
+          EOF
+
+      - name: Update Google Sheet stock
+        run: python -m scripts.google.update_stock
+
+      - name: Export processed feed
+        run: python -m scripts.epicentr.export_feed
+
+      - name: Export Epicentr updates feed
+        run: python -m scripts.epicentr.export_updates_with_history
+
+      - name: Export Rozetka feed
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -m scripts.rozetka.export_feed
+
+      - name: Debug output feeds
+        run: |
+          echo "===== CHECK SKU IN OUTPUT ====="
+          grep -R "M 4259EBLR-1" data/output/ || echo "NOT FOUND IN OUTPUT"
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/fetch_meta.json state/epicentr_known_products.json data/raw/ data/output/
+          git diff --cached --quiet || git commit -m "Auto-update supplier feed"
+          git push
