@@ -1,0 +1,1093 @@
+from __future__ import annotations
+
+import csv
+import os
+import xml.etree.ElementTree as ET
+
+from datetime import datetime
+from pathlib import Path
+
+import requests
+
+
+# ============================================================
+# PATHS
+# ============================================================
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+INPUT_FILE = (
+    BASE_DIR
+    / "data"
+    / "raw"
+    / "supplier_feed.xml"
+)
+
+OUTPUT_FILE = (
+    BASE_DIR
+    / "data"
+    / "output"
+    / "rozetka"
+    / "rozetka_feed.xml"
+)
+
+SKIPPED_FILE = (
+    BASE_DIR
+    / "data"
+    / "output"
+    / "rozetka"
+    / "rozetka_skipped_products.csv"
+)
+
+
+# ============================================================
+# SUPABASE
+# ============================================================
+
+SUPABASE_URL = os.getenv(
+    "SUPABASE_URL",
+    "",
+).strip().rstrip("/")
+
+SUPABASE_KEY = os.getenv(
+    "SUPABASE_KEY",
+    "",
+).strip()
+
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def safe_text(value: object) -> str:
+    if value is None:
+        return ""
+
+    return str(value).strip()
+
+
+def get_text(
+    element: ET.Element | None,
+    tag_name: str,
+    default: str = "",
+) -> str:
+
+    if element is None:
+        return default
+
+    child = element.find(tag_name)
+
+    if child is None:
+        return default
+
+    if child.text is None:
+        return default
+
+    return child.text.strip()
+
+
+def get_images(
+    element: ET.Element,
+) -> list[str]:
+
+    images: list[str] = []
+
+    for img in element.findall("image"):
+
+        image_url = safe_text(img.text)
+
+        if image_url:
+            images.append(image_url)
+
+    return images
+
+
+def get_params(
+    element: ET.Element,
+) -> list[ET.Element]:
+
+    return element.findall("param")
+
+
+def parse_price(
+    value: str,
+) -> str:
+
+    value = (
+        safe_text(value)
+        .replace(",", ".")
+    )
+
+    try:
+        return str(
+            int(
+                round(
+                    float(value)
+                )
+            )
+        )
+
+    except (ValueError, TypeError):
+        return "0"
+
+
+def normalize_available(
+    value: str,
+) -> str:
+
+    value = (
+        safe_text(value)
+        .lower()
+    )
+
+    if value == "true":
+        return "true"
+
+    return "false"
+
+
+def convert_stock_quantity(
+    quantity_in_stock: str,
+) -> tuple[str, str]:
+
+    value = (
+        safe_text(quantity_in_stock)
+        .replace(",", ".")
+    )
+
+    try:
+        qty = int(
+            float(value)
+        )
+
+    except (ValueError, TypeError):
+        qty = 0
+
+    if qty > 0:
+        return "10", "true"
+
+    return "0", "false"
+
+
+# ============================================================
+# SKU
+# ============================================================
+
+def normalize_sku(
+    value: str,
+) -> str:
+    """
+    Нормалізує SKU для порівняння.
+
+    Прибирає пробіли по краях
+    і не залежить від регістру букв.
+
+    Наприклад:
+        m6066
+        M6066
+    будуть вважатися однаковими.
+    """
+
+    return safe_text(value).casefold()
+
+
+# ============================================================
+# SUPABASE
+# ============================================================
+
+def load_supabase_descriptions() -> dict[str, str]:
+    """
+    Завантажує sku + description
+    з таблиці products у Supabase.
+
+    Повертає словник:
+
+        {
+            "sku": "description"
+        }
+
+    SKU зберігається у нормалізованому вигляді.
+    """
+
+    if not SUPABASE_URL:
+        raise RuntimeError(
+            "Не задано SUPABASE_URL."
+        )
+
+    if not SUPABASE_KEY:
+        raise RuntimeError(
+            "Не задано SUPABASE_KEY."
+        )
+
+    url = (
+        f"{SUPABASE_URL}"
+        f"/rest/v1/products"
+    )
+
+    headers = {
+        "apikey": SUPABASE_KEY,
+    }
+
+    descriptions: dict[str, str] = {}
+
+    page_size = 1000
+    offset = 0
+
+    print()
+    print(
+        "========================================"
+    )
+    print(
+        "Завантаження описів із Supabase..."
+    )
+    print(
+        "========================================"
+    )
+
+    while True:
+
+        params = {
+            "select": "sku,description",
+            "limit": str(page_size),
+            "offset": str(offset),
+            "order": "sku.asc",
+        }
+
+        try:
+
+            response = requests.get(
+                url,
+                headers=headers,
+                params=params,
+                timeout=60,
+            )
+
+            response.raise_for_status()
+
+        except requests.RequestException as exc:
+
+            raise RuntimeError(
+                "Помилка підключення до Supabase: "
+                f"{exc}"
+            ) from exc
+
+        try:
+            rows = response.json()
+
+        except ValueError as exc:
+
+            raise RuntimeError(
+                "Supabase повернув некоректну JSON-відповідь."
+            ) from exc
+
+        if not isinstance(rows, list):
+
+            raise RuntimeError(
+                "Неочікувана відповідь від Supabase. "
+                f"Отримано: {rows}"
+            )
+
+        if not rows:
+            break
+
+        for row in rows:
+
+            if not isinstance(row, dict):
+                continue
+
+            sku = normalize_sku(
+                row.get("sku", "")
+            )
+
+            description = safe_text(
+                row.get("description")
+            )
+
+            # У словник додаємо тільки товари,
+            # які реально мають description
+            if not sku:
+                continue
+
+            if not description:
+                continue
+
+            descriptions[sku] = description
+
+        print(
+            f"Оброблено рядків Supabase: "
+            f"{offset + len(rows)}"
+        )
+
+        if len(rows) < page_size:
+            break
+
+        offset += page_size
+
+    print()
+    print(
+        f"Повних описів завантажено: "
+        f"{len(descriptions)}"
+    )
+
+    return descriptions
+
+
+# ============================================================
+# XML ROOT
+# ============================================================
+
+def build_root(
+    source_root: ET.Element,
+) -> tuple[ET.Element, ET.Element]:
+
+    root = ET.Element(
+        "yml_catalog"
+    )
+
+    root.set(
+        "date",
+        datetime.now().strftime(
+            "%Y-%m-%d %H:%M"
+        ),
+    )
+
+    shop = ET.SubElement(
+        root,
+        "shop",
+    )
+
+    ET.SubElement(
+        shop,
+        "name",
+    ).text = "Rozetka Feed"
+
+    ET.SubElement(
+        shop,
+        "company",
+    ).text = "Rozetka Feed"
+
+    ET.SubElement(
+        shop,
+        "url",
+    ).text = "https://example.com/"
+
+    # --------------------------------------------------------
+    # CURRENCIES
+    # --------------------------------------------------------
+
+    currencies = ET.SubElement(
+        shop,
+        "currencies",
+    )
+
+    currency = ET.SubElement(
+        currencies,
+        "currency",
+    )
+
+    currency.set(
+        "id",
+        "UAH",
+    )
+
+    currency.set(
+        "rate",
+        "1",
+    )
+
+    # --------------------------------------------------------
+    # CATEGORIES
+    # --------------------------------------------------------
+
+    categories = ET.SubElement(
+        shop,
+        "categories",
+    )
+
+    for source_category in source_root.findall(
+        ".//catalog/category"
+    ):
+
+        category_id = safe_text(
+            source_category.get("id")
+        )
+
+        category_name = safe_text(
+            source_category.text
+        )
+
+        if not category_id:
+            continue
+
+        if not category_name:
+            continue
+
+        category = ET.SubElement(
+            categories,
+            "category",
+        )
+
+        category.set(
+            "id",
+            category_id,
+        )
+
+        category.text = category_name
+
+    # --------------------------------------------------------
+    # OFFERS
+    # --------------------------------------------------------
+
+    offers = ET.SubElement(
+        shop,
+        "offers",
+    )
+
+    return root, offers
+
+
+# ============================================================
+# PARAMS
+# ============================================================
+
+def append_param_with_multilang(
+    offer: ET.Element,
+    source_param: ET.Element,
+) -> None:
+
+    param_name = safe_text(
+        source_param.get("name")
+    )
+
+    if not param_name:
+        return
+
+    values = source_param.findall(
+        "value"
+    )
+
+    # --------------------------------------------------------
+    # MULTILANGUAGE PARAM
+    # --------------------------------------------------------
+
+    if values:
+
+        for value_el in values:
+
+            value_text = safe_text(
+                value_el.text
+            )
+
+            if not value_text:
+                continue
+
+            new_param = ET.SubElement(
+                offer,
+                "param",
+            )
+
+            new_param.set(
+                "name",
+                param_name,
+            )
+
+            lang = safe_text(
+                value_el.get("lang")
+            )
+
+            if lang == "uk":
+
+                new_param.set(
+                    "lang",
+                    "ua",
+                )
+
+            elif lang:
+
+                new_param.set(
+                    "lang",
+                    lang,
+                )
+
+            new_param.text = value_text
+
+        return
+
+    # --------------------------------------------------------
+    # NORMAL PARAM
+    # --------------------------------------------------------
+
+    text_value = safe_text(
+        source_param.text
+    )
+
+    if not text_value:
+        return
+
+    new_param = ET.SubElement(
+        offer,
+        "param",
+    )
+
+    new_param.set(
+        "name",
+        param_name,
+    )
+
+    new_param.text = text_value
+
+
+# ============================================================
+# BUILD OFFER
+# ============================================================
+
+def build_offer(
+    item: ET.Element,
+    offers: ET.Element,
+    descriptions: dict[str, str],
+) -> tuple[bool, str]:
+
+    # --------------------------------------------------------
+    # SKU / ARTICLE
+    # --------------------------------------------------------
+
+    vendor_code = get_text(
+        item,
+        "vendorCode",
+    )
+
+    if not vendor_code:
+        return (
+            False,
+            "Відсутній vendorCode у supplier_feed.xml",
+        )
+
+    normalized_vendor_code = normalize_sku(
+        vendor_code
+    )
+
+    # --------------------------------------------------------
+    # FULL DESCRIPTION FROM SUPABASE
+    # --------------------------------------------------------
+
+    full_description = safe_text(
+        descriptions.get(
+            normalized_vendor_code,
+            "",
+        )
+    )
+
+    if not full_description:
+
+        return (
+            False,
+            "Немає description у Supabase",
+        )
+
+    # --------------------------------------------------------
+    # SOURCE DATA
+    # --------------------------------------------------------
+
+    product_id = safe_text(
+        item.get("id")
+    )
+
+    name = get_text(
+        item,
+        "name",
+    )
+
+    name_ua = get_text(
+        item,
+        "name_ua",
+    )
+
+    vendor = get_text(
+        item,
+        "vendor",
+    )
+
+    url = get_text(
+        item,
+        "url",
+    )
+
+    currency_id = get_text(
+        item,
+        "currencyId",
+        "UAH",
+    )
+
+    category_id = get_text(
+        item,
+        "categoryId",
+    )
+
+    raw_price = get_text(
+        item,
+        "price",
+    )
+
+    barcode = get_text(
+        item,
+        "barcode",
+    )
+
+    quantity_in_stock = get_text(
+        item,
+        "quantity_in_stock",
+    )
+
+    supplier_available = (
+        normalize_available(
+            get_text(
+                item,
+                "available",
+            )
+        )
+    )
+
+    # --------------------------------------------------------
+    # STOCK
+    # --------------------------------------------------------
+
+    (
+        stock_quantity,
+        stock_available,
+    ) = convert_stock_quantity(
+        quantity_in_stock
+    )
+
+    # Якщо постачальник явно вказав,
+    # що товар недоступний
+    if supplier_available == "false":
+
+        stock_quantity = "0"
+        stock_available = "false"
+
+    # --------------------------------------------------------
+    # CREATE OFFER
+    # --------------------------------------------------------
+
+    offer = ET.SubElement(
+        offers,
+        "offer",
+    )
+
+    offer.set(
+        "id",
+        product_id,
+    )
+
+    offer.set(
+        "available",
+        stock_available,
+    )
+
+    # --------------------------------------------------------
+    # PRICE
+    # --------------------------------------------------------
+
+    ET.SubElement(
+        offer,
+        "price",
+    ).text = parse_price(
+        raw_price
+    )
+
+    # --------------------------------------------------------
+    # CURRENCY
+    # --------------------------------------------------------
+
+    ET.SubElement(
+        offer,
+        "currencyId",
+    ).text = (
+        currency_id
+        or "UAH"
+    )
+
+    # --------------------------------------------------------
+    # CATEGORY
+    # --------------------------------------------------------
+
+    if category_id:
+
+        ET.SubElement(
+            offer,
+            "categoryId",
+        ).text = category_id
+
+    # --------------------------------------------------------
+    # VENDOR
+    # --------------------------------------------------------
+
+    if vendor:
+
+        ET.SubElement(
+            offer,
+            "vendor",
+        ).text = vendor
+
+    # --------------------------------------------------------
+    # ARTICLE = vendorCode
+    # --------------------------------------------------------
+
+    ET.SubElement(
+        offer,
+        "article",
+    ).text = vendor_code
+
+    # --------------------------------------------------------
+    # STOCK QUANTITY
+    # --------------------------------------------------------
+
+    ET.SubElement(
+        offer,
+        "stock_quantity",
+    ).text = stock_quantity
+
+    # --------------------------------------------------------
+    # NAME
+    # --------------------------------------------------------
+
+    if name:
+
+        ET.SubElement(
+            offer,
+            "name",
+        ).text = name
+
+    if name_ua:
+
+        ET.SubElement(
+            offer,
+            "name_ua",
+        ).text = name_ua
+
+    # ========================================================
+    # IMPORTANT:
+    # DESCRIPTION ТЕПЕР БЕРЕМО ТІЛЬКИ ІЗ SUPABASE
+    # ========================================================
+
+    ET.SubElement(
+        offer,
+        "description",
+    ).text = full_description
+
+    ET.SubElement(
+        offer,
+        "description_ua",
+    ).text = full_description
+
+    # --------------------------------------------------------
+    # URL
+    # --------------------------------------------------------
+
+    if url:
+
+        ET.SubElement(
+            offer,
+            "url",
+        ).text = url
+
+    # --------------------------------------------------------
+    # BARCODE
+    # --------------------------------------------------------
+
+    if barcode:
+
+        ET.SubElement(
+            offer,
+            "barcode",
+        ).text = barcode
+
+    # --------------------------------------------------------
+    # IMAGES
+    # --------------------------------------------------------
+
+    for image_url in get_images(
+        item
+    ):
+
+        ET.SubElement(
+            offer,
+            "picture",
+        ).text = image_url
+
+    # --------------------------------------------------------
+    # PARAMS
+    # --------------------------------------------------------
+
+    for source_param in get_params(
+        item
+    ):
+
+        append_param_with_multilang(
+            offer,
+            source_param,
+        )
+
+    return True, ""
+
+
+# ============================================================
+# SAVE SKIPPED PRODUCTS
+# ============================================================
+
+def save_skipped_products(
+    skipped_products: list[dict[str, str]],
+) -> None:
+
+    SKIPPED_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with SKIPPED_FILE.open(
+        "w",
+        encoding="utf-8-sig",
+        newline="",
+    ) as csv_file:
+
+        writer = csv.DictWriter(
+            csv_file,
+            fieldnames=[
+                "sku",
+                "name",
+                "reason",
+            ],
+            delimiter=";",
+        )
+
+        writer.writeheader()
+
+        writer.writerows(
+            skipped_products
+        )
+
+
+# ============================================================
+# EXPORT
+# ============================================================
+
+def export_rozetka_feed() -> None:
+
+    print()
+    print(
+        "========================================"
+    )
+    print(
+        "ROZETKA FEED GENERATION"
+    )
+    print(
+        "========================================"
+    )
+
+    # --------------------------------------------------------
+    # CHECK INPUT FILE
+    # --------------------------------------------------------
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "Файл supplier_feed.xml "
+            f"не знайдено: {INPUT_FILE}"
+        )
+
+    # --------------------------------------------------------
+    # LOAD SUPABASE
+    # --------------------------------------------------------
+
+    descriptions = (
+        load_supabase_descriptions()
+    )
+
+    if not descriptions:
+
+        raise RuntimeError(
+            "У Supabase не знайдено жодного "
+            "товару з непорожнім description. "
+            "Rozetka feed не буде створено."
+        )
+
+    # --------------------------------------------------------
+    # LOAD SUPPLIER XML
+    # --------------------------------------------------------
+
+    print()
+    print(
+        "Читання supplier_feed.xml..."
+    )
+
+    try:
+
+        tree = ET.parse(
+            INPUT_FILE
+        )
+
+    except ET.ParseError as exc:
+
+        raise RuntimeError(
+            "Помилка XML у supplier_feed.xml: "
+            f"{exc}"
+        ) from exc
+
+    source_root = tree.getroot()
+
+    source_items = source_root.findall(
+        ".//items/item"
+    )
+
+    print(
+        f"Знайдено товарів у фіді "
+        f"постачальника: "
+        f"{len(source_items)}"
+    )
+
+    # --------------------------------------------------------
+    # CREATE ROZETKA XML
+    # --------------------------------------------------------
+
+    root, offers_el = build_root(
+        source_root
+    )
+
+    exported_count = 0
+
+    skipped_products: list[
+        dict[str, str]
+    ] = []
+
+    for item in source_items:
+
+        added, reason = build_offer(
+            item,
+            offers_el,
+            descriptions,
+        )
+
+        if added:
+
+            exported_count += 1
+
+            continue
+
+        skipped_products.append(
+            {
+                "sku": get_text(
+                    item,
+                    "vendorCode",
+                ),
+                "name": (
+                    get_text(
+                        item,
+                        "name_ua",
+                    )
+                    or get_text(
+                        item,
+                        "name",
+                    )
+                ),
+                "reason": reason,
+            }
+        )
+
+    # --------------------------------------------------------
+    # SAFETY CHECK
+    # --------------------------------------------------------
+
+    if exported_count == 0:
+
+        raise RuntimeError(
+            "Жодного товару не було "
+            "експортовано для Rozetka. "
+            "Старий XML не перезаписано."
+        )
+
+    # --------------------------------------------------------
+    # SAVE XML
+    # --------------------------------------------------------
+
+    result_tree = ET.ElementTree(
+        root
+    )
+
+    ET.indent(
+        result_tree,
+        space="  ",
+        level=0,
+    )
+
+    OUTPUT_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    result_tree.write(
+        OUTPUT_FILE,
+        encoding="utf-8",
+        xml_declaration=True,
+    )
+
+    # --------------------------------------------------------
+    # SAVE SKIPPED REPORT
+    # --------------------------------------------------------
+
+    save_skipped_products(
+        skipped_products
+    )
+
+    # --------------------------------------------------------
+    # RESULT
+    # --------------------------------------------------------
+
+    print()
+    print(
+        "========================================"
+    )
+    print(
+        "ГОТОВО"
+    )
+    print(
+        "========================================"
+    )
+
+    print(
+        f"Всього у supplier feed: "
+        f"{len(source_items)}"
+    )
+
+    print(
+        f"Експортовано на Rozetka: "
+        f"{exported_count}"
+    )
+
+    print(
+        f"Пропущено без опису: "
+        f"{len(skipped_products)}"
+    )
+
+    print()
+    print(
+        f"Rozetka XML:"
+    )
+    print(
+        OUTPUT_FILE
+    )
+
+    print()
+    print(
+        f"Звіт пропущених товарів:"
+    )
+    print(
+        SKIPPED_FILE
+    )
+
+
+# ============================================================
+# START
+# ============================================================
+
+if __name__ == "__main__":
+    export_rozetka_feed()
