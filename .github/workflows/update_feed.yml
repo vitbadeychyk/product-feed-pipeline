@@ -61,6 +61,9 @@ jobs:
         run: python -m scripts.epicentr.export_updates_with_history
 
       - name: Export Rozetka feed
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python -m scripts.rozetka.export_feed
 
       - name: Debug output feeds
