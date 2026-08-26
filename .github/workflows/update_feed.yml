@@ -3,20 +3,30 @@ name: Update product feed
 on:
   schedule:
     - cron: '0 */4 * * *'
+
   workflow_dispatch:
 
 jobs:
   update-feed:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
+      # ======================================================
+      # CHECKOUT
+      # ======================================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
+
+      # ======================================================
+      # PYTHON
+      # ======================================================
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,26 +34,46 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      #- name: Fetch supplier feed
-      #  run: python -m scripts.common.fetch_supplier_feed
+      # ======================================================
+      # SUPPLIER FEED
+      # ======================================================
+
+      # Якщо захочеш знову автоматично завантажувати
+      # supplier_feed.xml — просто розкоментуй цей блок.
+      #
+      # - name: Fetch supplier feed
+      #   run: python -m scripts.common.fetch_supplier_feed
+
+      # ======================================================
+      # DEBUG RAW XML
+      # ======================================================
 
       - name: Debug downloaded XML
         run: |
           echo "===== FILE SIZE ====="
           ls -lh data/raw/supplier_feed.xml
 
+          echo
           echo "===== FIRST 1500 SYMBOLS ====="
           head -c 1500 data/raw/supplier_feed.xml
           echo
 
+          echo
           echo "===== LAST 1500 SYMBOLS ====="
           tail -c 1500 data/raw/supplier_feed.xml
           echo
 
+          echo
           echo "===== CHECK SKU IN RAW ====="
           grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND IN RAW"
+
+      # ======================================================
+      # GOOGLE
+      # ======================================================
 
       - name: Create Google credentials file
         run: |
@@ -54,11 +84,19 @@ jobs:
       - name: Update Google Sheet stock
         run: python -m scripts.google.update_stock
 
+      # ======================================================
+      # EPICENTR
+      # ======================================================
+
       - name: Export processed feed
         run: python -m scripts.epicentr.export_feed
 
       - name: Export Epicentr updates feed
         run: python -m scripts.epicentr.export_updates_with_history
+
+      # ======================================================
+      # ROZETKA
+      # ======================================================
 
       - name: Export Rozetka feed
         env:
@@ -66,15 +104,56 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python -m scripts.rozetka.export_feed
 
+      # ======================================================
+      # DEBUG OUTPUT
+      # ======================================================
+
       - name: Debug output feeds
         run: |
+          echo "===== OUTPUT FILES ====="
+          find data/output -maxdepth 3 -type f -print
+
+          echo
+          echo "===== ROZETKA FILE SIZE ====="
+          ls -lh data/output/rozetka/rozetka_feed.xml
+
+          echo
           echo "===== CHECK SKU IN OUTPUT ====="
           grep -R "M 4259EBLR-1" data/output/ || echo "NOT FOUND IN OUTPUT"
+
+      # ======================================================
+      # COMMIT + PUSH
+      # ======================================================
 
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/fetch_meta.json state/epicentr_known_products.json data/raw/ data/output/
-          git diff --cached --quiet || git commit -m "Auto-update supplier feed"
-          git push
+
+          echo "===== GIT STATUS BEFORE ADD ====="
+          git status
+
+          git add \
+            state/fetch_meta.json \
+            state/epicentr_known_products.json \
+            data/raw/ \
+            data/output/
+
+          echo
+          echo "===== STAGED CHANGES ====="
+          git diff --cached --stat
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update supplier feed"
+
+          echo
+          echo "===== SYNC WITH REMOTE MAIN ====="
+          git pull --rebase origin main
+
+          echo
+          echo "===== PUSH ====="
+          git push origin main
