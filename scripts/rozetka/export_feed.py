@@ -176,6 +176,52 @@ def normalize_sku(
 # DESCRIPTION FORMATTER
 # ============================================================
 
+
+def calculate_rozetka_prices(
+    value: str,
+) -> tuple[str, str]:
+    """
+    Розраховує ціни для Rozetka.
+
+    Поточна ціна:
+    - береться з price постачальника;
+    - округлюється ВГОРУ до найближчих 100 грн.
+
+    Стара ціна:
+    - на 30% більша за вже округлену поточну ціну;
+    - також округлюється ВГОРУ до найближчих 100 грн.
+
+    Приклад:
+        2016 -> price 2100 -> oldprice 2800
+    """
+
+    raw = (
+        safe_text(value)
+        .replace(" ", "")
+        .replace(",", ".")
+    )
+
+    try:
+        price_value = float(raw)
+    except (TypeError, ValueError):
+        price_value = 0.0
+
+    if price_value <= 0:
+        return "0", "0"
+
+    import math
+
+    price = int(
+        math.ceil(price_value / 100.0) * 100
+    )
+
+    oldprice = int(
+        math.ceil((price * 1.30) / 100.0) * 100
+    )
+
+    return str(price), str(oldprice)
+
+
 def format_description(
     value: object,
 ) -> str:
@@ -924,12 +970,19 @@ def build_offer(
     # PRICE
     # ========================================================
 
+    price_value, oldprice_value = calculate_rozetka_prices(
+        raw_price
+    )
+
     ET.SubElement(
         offer,
         "price",
-    ).text = parse_price(
-        raw_price
-    )
+    ).text = price_value
+
+    ET.SubElement(
+        offer,
+        "oldprice",
+    ).text = oldprice_value
 
     # ========================================================
     # CURRENCY
