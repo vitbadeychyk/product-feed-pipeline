@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import re
+import html
 import xml.etree.ElementTree as ET
 
 from datetime import datetime
@@ -179,12 +180,12 @@ def format_description(
     value: object,
 ) -> str:
     """
-    Форматує description для Rozetka.
+    Форматує description для Rozetka / PriceCreator.
 
-    - зберігає сам текст;
-    - додає абзац перед "Характеристики...";
-    - кожен пункт із символом • переносить
-      на окремий рядок;
+    - звичайний текст оформлює HTML-абзацами;
+    - блок "Характеристики..." виділяє жирним;
+    - кожен пункт із символом • перетворює на <ul><li>;
+    - екранує спеціальні HTML-символи у вихідному тексті;
     - прибирає зайві порожні рядки.
     """
 
@@ -214,19 +215,12 @@ def format_description(
     )
 
     # --------------------------------------------------------
-    # Перед "Характеристики..." робимо новий абзац
-    #
-    # Працює для:
-    #
-    # Характеристики:
-    # Характеристики товару:
-    # Характеристики гірки Bambi WM19003:
-    # Характеристики моделі M 4259:
+    # Перед "Характеристики..." робимо окремий блок
     # --------------------------------------------------------
 
     text = re.sub(
         r"[ \t]*(Характеристики[^:\n]*:)",
-        r"\n\n\1",
+        r"\n\n\1\n",
         text,
         flags=re.IGNORECASE,
     )
@@ -259,9 +253,99 @@ def format_description(
         r"\n{3,}",
         "\n\n",
         text,
-    )
+    ).strip()
 
-    return text.strip()
+    # --------------------------------------------------------
+    # Формуємо HTML для PriceCreator
+    # --------------------------------------------------------
+
+    lines = text.split("\n")
+
+    html_parts: list[str] = []
+    paragraph_lines: list[str] = []
+    bullet_items: list[str] = []
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph_lines
+
+        paragraph = " ".join(
+            line.strip()
+            for line in paragraph_lines
+            if line.strip()
+        )
+
+        if paragraph:
+            html_parts.append(
+                f"<p>{html.escape(paragraph)}</p>"
+            )
+
+        paragraph_lines = []
+
+    def flush_bullets() -> None:
+        nonlocal bullet_items
+
+        if bullet_items:
+            items_html = "".join(
+                f"<li>{html.escape(item)}</li>"
+                for item in bullet_items
+            )
+
+            html_parts.append(
+                f"<ul>{items_html}</ul>"
+            )
+
+        bullet_items = []
+
+    for line in lines:
+        line = line.strip()
+
+        if not line:
+            flush_paragraph()
+            flush_bullets()
+            continue
+
+        # ----------------------------------------------------
+        # Заголовок "Характеристики..."
+        # ----------------------------------------------------
+
+        if re.match(
+            r"^Характеристики[^:]*:$",
+            line,
+            flags=re.IGNORECASE,
+        ):
+            flush_paragraph()
+            flush_bullets()
+
+            html_parts.append(
+                f"<p><strong>{html.escape(line)}</strong></p>"
+            )
+            continue
+
+        # ----------------------------------------------------
+        # Пункт списку
+        # ----------------------------------------------------
+
+        if line.startswith("•"):
+            flush_paragraph()
+
+            item = line.lstrip("•").strip()
+
+            if item:
+                bullet_items.append(item)
+
+            continue
+
+        # ----------------------------------------------------
+        # Звичайний текст
+        # ----------------------------------------------------
+
+        flush_bullets()
+        paragraph_lines.append(line)
+
+    flush_paragraph()
+    flush_bullets()
+
+    return "".join(html_parts)
 
 
 # ============================================================
