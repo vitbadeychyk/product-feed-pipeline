@@ -1058,14 +1058,55 @@ def build_offer(
     # PARAMETERS
     # ========================================================
 
+    # Передаємо параметри постачальника.
+    # Якщо постачальник уже передає гарантію, пропускаємо її,
+    # щоб нижче додати одне стандартне значення для всіх товарів.
+    warranty_names = {
+        "гарантія",
+        "гарантия",
+        "warranty",
+    }
+
     for source_param in get_params(
         item
     ):
+
+        source_param_name = safe_text(
+            source_param.get("name")
+        ).casefold()
+
+        if source_param_name in warranty_names:
+            continue
 
         append_param_with_multilang(
             offer,
             source_param,
         )
+
+    # ========================================================
+    # WARRANTY
+    #
+    # Для Rozetka кожному товару додаємо ще один
+    # обов'язковий параметр:
+    #
+    #     Гарантія = 12 місяців
+    #
+    # Таким чином навіть товар, у якого від постачальника
+    # передається лише одна характеристика, матиме
+    # щонайменше ще один додатковий параметр.
+    # ========================================================
+
+    warranty_param = ET.SubElement(
+        offer,
+        "param",
+    )
+
+    warranty_param.set(
+        "name",
+        "Гарантія",
+    )
+
+    warranty_param.text = "12 місяців"
 
     return True
 
