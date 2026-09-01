@@ -10,6 +10,9 @@ from pathlib import Path
 
 import requests
 
+from scripts.pricing.rozetka_pricing import calculate_old_price
+from scripts.pricing.rozetka_pricing import calculate_price
+
 
 # ============================================================
 # PATHS
@@ -175,52 +178,6 @@ def normalize_sku(
 # ============================================================
 # DESCRIPTION FORMATTER
 # ============================================================
-
-
-def calculate_rozetka_prices(
-    value: str,
-) -> tuple[str, str]:
-    """
-    Розраховує ціни для Rozetka.
-
-    Поточна ціна:
-    - береться з price постачальника;
-    - округлюється ВГОРУ до найближчих 100 грн.
-
-    Стара ціна:
-    - на 30% більша за вже округлену поточну ціну;
-    - також округлюється ВГОРУ до найближчих 100 грн.
-
-    Приклад:
-        2016 -> price 2100 -> oldprice 2800
-    """
-
-    raw = (
-        safe_text(value)
-        .replace(" ", "")
-        .replace(",", ".")
-    )
-
-    try:
-        price_value = float(raw)
-    except (TypeError, ValueError):
-        price_value = 0.0
-
-    if price_value <= 0:
-        return "0", "0"
-
-    import math
-
-    price = int(
-        math.ceil(price_value / 100.0) * 100
-    )
-
-    oldprice = int(
-        math.ceil((price * 1.30) / 100.0) * 100
-    )
-
-    return str(price), str(oldprice)
-
 
 def format_description(
     value: object,
@@ -968,21 +925,52 @@ def build_offer(
 
     # ========================================================
     # PRICE
+    #
+    # Ціну рахуємо окремим калькулятором Rozetka
+    # залежно від categoryId.
+    #
+    # final_price:
+    # - застосовує формулу категорії;
+    # - округлюється вгору до 100 грн.
+    #
+    # old_price:
+    # - на 30% більша за final_price;
+    # - також округлюється вгору до 100 грн.
     # ========================================================
 
-    price_value, oldprice_value = calculate_rozetka_prices(
-        raw_price
+    try:
+        original_price = float(
+            safe_text(raw_price)
+            .replace(" ", "")
+            .replace(",", ".")
+        )
+    except ValueError:
+        original_price = 0.0
+
+    final_price = calculate_price(
+        original_price=original_price,
+        category_id=category_id,
+    )
+
+    old_price = calculate_old_price(
+        final_price
     )
 
     ET.SubElement(
         offer,
         "price",
-    ).text = price_value
+    ).text = str(
+        int(final_price)
+    )
 
-    ET.SubElement(
-        offer,
-        "oldprice",
-    ).text = oldprice_value
+    if old_price > final_price:
+
+        ET.SubElement(
+            offer,
+            "price_old",
+        ).text = str(
+            int(old_price)
+        )
 
     # ========================================================
     # CURRENCY
