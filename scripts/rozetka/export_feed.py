@@ -887,6 +887,13 @@ def build_offer(
         "categoryId",
     )
 
+    # ID категорії для фінального XML.
+    # Для розрахунку ціни нижче використовується оригінальний
+    # category_id постачальника.
+    xml_category_id = get_rozetka_category_id(
+        category_id
+    )
+
     raw_price = get_text(
         item,
         "price",
