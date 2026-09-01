@@ -12,6 +12,8 @@ import requests
 
 from scripts.pricing.rozetka_pricing import calculate_old_price
 from scripts.pricing.rozetka_pricing import calculate_price
+from scripts.rozetka.category_params import get_category_params
+from scripts.rozetka.category_params import get_parameter_config
 
 
 # ============================================================
@@ -784,6 +786,205 @@ def append_param_with_multilang(
         new_param.text = text_value
 
 
+
+# ============================================================
+# CATEGORY PARAMETER HELPERS
+# ============================================================
+
+def append_param_value(
+    offer: ET.Element,
+    parameter_name: str,
+    value: str,
+    lang: str = "",
+) -> None:
+
+    value = safe_text(
+        value
+    )
+
+    if not value:
+        return
+
+    param = ET.SubElement(
+        offer,
+        "param",
+    )
+
+    param.set(
+        "name",
+        parameter_name,
+    )
+
+    if lang == "uk":
+        lang = "ua"
+
+    if lang:
+        param.set(
+            "lang",
+            lang,
+        )
+
+    param.text = value
+
+
+def append_source_param_as(
+    offer: ET.Element,
+    source_param: ET.Element,
+    parameter_name: str,
+) -> bool:
+    """
+    Копіює значення параметра постачальника, але назву
+    у вихідному XML встановлює канонічну для Rozetka.
+    """
+
+    values = source_param.findall(
+        "value"
+    )
+
+    appended = False
+
+    if values:
+
+        for value_el in values:
+
+            value_text = safe_text(
+                value_el.text
+            )
+
+            if not value_text:
+                continue
+
+            append_param_value(
+                offer=offer,
+                parameter_name=parameter_name,
+                value=value_text,
+                lang=safe_text(
+                    value_el.get("lang")
+                ),
+            )
+
+            appended = True
+
+        return appended
+
+    text_value = safe_text(
+        source_param.text
+    )
+
+    if not text_value:
+        return False
+
+    append_param_value(
+        offer=offer,
+        parameter_name=parameter_name,
+        value=text_value,
+        lang=safe_text(
+            source_param.get("lang")
+        ),
+    )
+
+    return True
+
+
+def append_category_params(
+    offer: ET.Element,
+    item: ET.Element,
+    category_id: str,
+    vendor_code: str,
+) -> None:
+    """
+    Додає тільки ті параметри, які дозволені для конкретної
+    категорії у scripts/rozetka/category_params.py.
+    """
+
+    source_params = get_params(
+        item
+    )
+
+    for parameter_name in get_category_params(
+        category_id
+    ):
+
+        config = get_parameter_config(
+            parameter_name
+        )
+
+        fixed_value = safe_text(
+            config.get(
+                "fixed_value",
+                ""
+            )
+        )
+
+        if fixed_value:
+
+            append_param_value(
+                offer=offer,
+                parameter_name=parameter_name,
+                value=fixed_value,
+            )
+
+            continue
+
+        source_names_raw = config.get(
+            "source_names",
+            (
+                parameter_name,
+            ),
+        )
+
+        source_names = {
+            safe_text(name).casefold()
+            for name in source_names_raw
+            if safe_text(name)
+        }
+
+        found = False
+
+        for source_param in source_params:
+
+            source_param_name = safe_text(
+                source_param.get("name")
+            ).casefold()
+
+            if source_param_name not in source_names:
+                continue
+
+            if append_source_param_as(
+                offer=offer,
+                source_param=source_param,
+                parameter_name=parameter_name,
+            ):
+                found = True
+
+        if found:
+            continue
+
+        default_value = safe_text(
+            config.get(
+                "default_value",
+                ""
+            )
+        )
+
+        if default_value:
+
+            append_param_value(
+                offer=offer,
+                parameter_name=parameter_name,
+                value=default_value,
+            )
+
+            continue
+
+        print(
+            "WARNING: параметр не знайдено: "
+            f"SKU={vendor_code}; "
+            f"categoryId={category_id}; "
+            f"param={parameter_name}"
+        )
+
+
 # ============================================================
 # BUILD OFFER
 # ============================================================
@@ -1094,57 +1295,17 @@ def build_offer(
 
     # ========================================================
     # PARAMETERS
+    #
+    # Передаємо ТІЛЬКИ параметри, дозволені для цієї категорії
+    # у scripts/rozetka/category_params.py.
     # ========================================================
 
-    # Передаємо параметри постачальника.
-    # Якщо постачальник уже передає гарантію, пропускаємо її,
-    # щоб нижче додати одне стандартне значення для всіх товарів.
-    warranty_names = {
-        "гарантія",
-        "гарантия",
-        "warranty",
-    }
-
-    for source_param in get_params(
-        item
-    ):
-
-        source_param_name = safe_text(
-            source_param.get("name")
-        ).casefold()
-
-        if source_param_name in warranty_names:
-            continue
-
-        append_param_with_multilang(
-            offer,
-            source_param,
-        )
-
-    # ========================================================
-    # WARRANTY
-    #
-    # Для Rozetka кожному товару додаємо ще один
-    # обов'язковий параметр:
-    #
-    #     Гарантія = 12 місяців
-    #
-    # Таким чином навіть товар, у якого від постачальника
-    # передається лише одна характеристика, матиме
-    # щонайменше ще один додатковий параметр.
-    # ========================================================
-
-    warranty_param = ET.SubElement(
-        offer,
-        "param",
+    append_category_params(
+        offer=offer,
+        item=item,
+        category_id=category_id,
+        vendor_code=vendor_code,
     )
-
-    warranty_param.set(
-        "name",
-        "Гарантія",
-    )
-
-    warranty_param.text = "12 місяців"
 
     return True
 
