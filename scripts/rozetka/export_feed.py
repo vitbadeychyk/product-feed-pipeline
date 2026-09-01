@@ -12,6 +12,7 @@ import requests
 
 from scripts.pricing.rozetka_pricing import calculate_old_price
 from scripts.pricing.rozetka_pricing import calculate_price
+from scripts.rozetka.category_map import get_rozetka_category_id
 
 
 # ============================================================
@@ -866,6 +867,10 @@ def build_offer(
         "categoryId",
     )
 
+    xml_category_id = get_rozetka_category_id(
+        category_id
+    )
+
     raw_price = get_text(
         item,
         "price",
@@ -993,7 +998,7 @@ def build_offer(
         ET.SubElement(
             offer,
             "categoryId",
-        ).text = category_id
+        ).text = xml_category_id
 
     # ========================================================
     # VENDOR
