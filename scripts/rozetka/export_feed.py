@@ -637,7 +637,10 @@ def build_root(
         ".//catalog/category"
     ):
 
-        category_id = safe_text(
+        # ID категорії у фіді постачальника.
+        # Саме цей ID використовується для перевірки,
+        # чи категорія реально присутня серед експортованих товарів.
+        supplier_category_id = safe_text(
             source_category.get("id")
         )
 
@@ -645,7 +648,7 @@ def build_root(
             source_category.text
         )
 
-        if not category_id:
+        if not supplier_category_id:
             continue
 
         if not category_name:
@@ -656,14 +659,31 @@ def build_root(
         # експортованим товаром
         # ----------------------------------------------------
 
-        if category_id not in used_category_ids:
+        if supplier_category_id not in used_category_ids:
             continue
 
         # ----------------------------------------------------
-        # Захист від дублювання категорій
+        # ID категорії, який реально передаємо в XML Rozetka.
+        #
+        # Якщо для категорії є ID Rozetka -> використовуємо його.
+        # Якщо мапінгу немає -> залишаємо ID постачальника.
         # ----------------------------------------------------
 
-        if category_id in added_category_ids:
+        xml_category_id = get_rozetka_category_id(
+            supplier_category_id
+        )
+
+        if not xml_category_id:
+            continue
+
+        # ----------------------------------------------------
+        # Захист від дублювання вже після мапінгу.
+        #
+        # Це важливо, якщо декілька supplier category ID
+        # у майбутньому будуть прив'язані до одного ID Rozetka.
+        # ----------------------------------------------------
+
+        if xml_category_id in added_category_ids:
             continue
 
         category = ET.SubElement(
@@ -673,13 +693,13 @@ def build_root(
 
         category.set(
             "id",
-            category_id,
+            xml_category_id,
         )
 
         category.text = category_name
 
         added_category_ids.add(
-            category_id
+            xml_category_id
         )
 
     # ========================================================
@@ -867,10 +887,6 @@ def build_offer(
         "categoryId",
     )
 
-    xml_category_id = get_rozetka_category_id(
-        category_id
-    )
-
     raw_price = get_text(
         item,
         "price",
@@ -929,18 +945,14 @@ def build_offer(
     )
 
     # ========================================================
-    # PRICE
+    # PRICE / PRICE_OLD
     #
-    # Ціну рахуємо окремим калькулятором Rozetka
-    # залежно від categoryId.
-    #
-    # final_price:
-    # - застосовує формулу категорії;
-    # - округлюється вгору до 100 грн.
-    #
-    # old_price:
-    # - на 30% більша за final_price;
-    # - також округлюється вгору до 100 грн.
+    # ВАЖЛИВО:
+    # - для калькулятора використовуємо category_id постачальника;
+    # - calculate_price() застосовує формулу категорії;
+    # - якщо формули немає -> supplier price + 500 грн;
+    # - фінальна price округлюється ВГОРУ до 100 грн;
+    # - price_old = price + 30% і також округлюється ВГОРУ до 100.
     # ========================================================
 
     try:
@@ -993,7 +1005,7 @@ def build_offer(
     # CATEGORY
     # ========================================================
 
-    if category_id:
+    if xml_category_id:
 
         ET.SubElement(
             offer,
