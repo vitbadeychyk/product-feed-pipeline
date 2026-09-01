@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-01 08:09">
+<yml_catalog date="2026-09-01 08:32">
   <shop>
     <name>Rozetka Feed</name>
     <company>Rozetka Feed</company>
@@ -9,28 +9,28 @@
     </currencies>
     <categories>
       <category id="315399">Спецпропозиція 2</category>
-      <category id="100077">Стільчики для годування</category>
-      <category id="83687">Автокрісла</category>
-      <category id="100194">Парти, столики, полиці</category>
-      <category id="101909">Ліжка та манежі</category>
-      <category id="4674145">Гойдалки і шезлонги</category>
-      <category id="4674202">Ходунки</category>
-      <category id="100389">Коляски</category>
-      <category id="4674199">Толокари</category>
-      <category id="4674205">Біговели</category>
+      <category id="45">Стільчики для годування</category>
+      <category id="46">Автокрісла</category>
+      <category id="81">Парти, столики, полиці</category>
+      <category id="83">Ліжка та манежі</category>
+      <category id="122">Гойдалки і шезлонги</category>
+      <category id="42">Ходунки</category>
+      <category id="43">Коляски</category>
+      <category id="78">Толокари</category>
+      <category id="491">Біговели</category>
       <category id="79">Самокати та скейти</category>
       <category id="173">Карти (Педальні машинки)</category>
       <category id="125">Велосипеди спортивні</category>
       <category id="66">Велосипеди 2х колісні</category>
       <category id="75">Велосипеди 3х колісні</category>
       <category id="345906">Електротранспорт</category>
-      <category id="91143">Електромобілі</category>
+      <category id="77">Електромобілі</category>
       <category id="347037">Квадроцикли</category>
       <category id="494">Квадроцикли метал</category>
       <category id="343943">Бензинові квадроцикли</category>
       <category id="195">Запчастини</category>
       <category id="543">Велозапчастини</category>
-      <category id="197325">Ваночки та горщики</category>
+      <category id="39">Ваночки та горщики</category>
       <category id="40">Все для купання</category>
       <category id="99">Килимки та навчальні центри</category>
       <category id="92">Басейни надувні</category>
@@ -97,7 +97,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1203-13</article>
         <stock_quantity>10</stock_quantity>
@@ -120,7 +120,7 @@
         <price>1300</price>
         <price_old>1700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1151 Pale Green</article>
         <stock_quantity>10</stock_quantity>
@@ -144,7 +144,7 @@
         <price>1300</price>
         <price_old>1700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1151 Peony Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -168,7 +168,7 @@
         <price>4000</price>
         <price_old>5200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6319-1</article>
         <stock_quantity>10</stock_quantity>
@@ -193,7 +193,7 @@
         <price>4000</price>
         <price_old>5200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6319-13</article>
         <stock_quantity>10</stock_quantity>
@@ -218,7 +218,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>Z321-8</article>
         <stock_quantity>10</stock_quantity>
@@ -358,7 +358,7 @@
         <price>1600</price>
         <price_old>2100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4086-3</article>
         <stock_quantity>10</stock_quantity>
@@ -382,7 +382,7 @@
         <price>1700</price>
         <price_old>2300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4086-4</article>
         <stock_quantity>10</stock_quantity>
@@ -406,7 +406,7 @@
         <price>1700</price>
         <price_old>2300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4086-8</article>
         <stock_quantity>10</stock_quantity>
@@ -491,7 +491,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>NEW TABLE-8</article>
         <stock_quantity>10</stock_quantity>
@@ -1156,7 +1156,7 @@
         <price>15300</price>
         <price_old>19900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4262EL-1-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1175,7 +1175,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>06-025R-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1194,7 +1194,7 @@
         <price>3900</price>
         <price_old>5100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>06-025R-ROUND</article>
         <stock_quantity>10</stock_quantity>
@@ -1213,7 +1213,7 @@
         <price>3900</price>
         <price_old>5100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>07-025B-ROUND</article>
         <stock_quantity>10</stock_quantity>
@@ -1232,7 +1232,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4802EL-1</article>
         <stock_quantity>10</stock_quantity>
@@ -1258,7 +1258,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4802EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1284,7 +1284,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4802EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1310,7 +1310,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4802EL-6</article>
         <stock_quantity>10</stock_quantity>
@@ -1444,7 +1444,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>08-025B-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1463,7 +1463,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>08-025R-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1482,7 +1482,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>09-025R-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1501,7 +1501,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>09-025V-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1520,7 +1520,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>10-025R-BOX</article>
         <stock_quantity>10</stock_quantity>
@@ -1562,7 +1562,7 @@
         <price>13600</price>
         <price_old>17700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5824EBLRS-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -1591,7 +1591,7 @@
         <price>6000</price>
         <price_old>7800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5739EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1617,7 +1617,7 @@
         <price>6000</price>
         <price_old>7800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5739EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1643,7 +1643,7 @@
         <price>15300</price>
         <price_old>19900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5821EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -1672,7 +1672,7 @@
         <price>17300</price>
         <price_old>22500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5821EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -1701,7 +1701,7 @@
         <price>4200</price>
         <price_old>5500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>N 2071-15-1</article>
         <stock_quantity>10</stock_quantity>
@@ -1720,7 +1720,7 @@
         <price>13700</price>
         <price_old>17900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5845EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -1749,7 +1749,7 @@
         <price>12400</price>
         <price_old>16200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5845EBLRS-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1778,7 +1778,7 @@
         <price>9400</price>
         <price_old>12300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5105EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1806,7 +1806,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5900EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1830,7 +1830,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5900EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -1854,7 +1854,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BABY SHARK</vendor>
         <article>M 5960-7</article>
         <stock_quantity>10</stock_quantity>
@@ -1873,7 +1873,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BABY SHARK</vendor>
         <article>M 5960-8</article>
         <stock_quantity>10</stock_quantity>
@@ -1892,7 +1892,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5962-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1911,7 +1911,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>PEPPA PIG</vendor>
         <article>M 5963-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1930,7 +1930,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>PEPPA PIG</vendor>
         <article>M 5963-7</article>
         <stock_quantity>10</stock_quantity>
@@ -1949,7 +1949,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>ТРИ КОТА</vendor>
         <article>M 5965-3</article>
         <stock_quantity>10</stock_quantity>
@@ -1968,7 +1968,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>ТРИ КОТА</vendor>
         <article>M 5965-8</article>
         <stock_quantity>10</stock_quantity>
@@ -1987,7 +1987,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5968-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2006,7 +2006,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5968-7</article>
         <stock_quantity>10</stock_quantity>
@@ -2025,7 +2025,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>HELLO KITTY</vendor>
         <article>M 5969-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2044,7 +2044,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5971-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2063,7 +2063,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5971-5</article>
         <stock_quantity>10</stock_quantity>
@@ -2082,7 +2082,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 5971-8</article>
         <stock_quantity>10</stock_quantity>
@@ -2101,7 +2101,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5764EL-4-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2126,7 +2126,7 @@
         <price>11700</price>
         <price_old>15300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5912EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2154,7 +2154,7 @@
         <price>7100</price>
         <price_old>9300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5989BLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2182,7 +2182,7 @@
         <price>8300</price>
         <price_old>10800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5989BLR-6</article>
         <stock_quantity>10</stock_quantity>
@@ -2210,7 +2210,7 @@
         <price>11700</price>
         <price_old>15300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6017AL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2235,7 +2235,7 @@
         <price>5300</price>
         <price_old>6900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6057-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2259,7 +2259,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-11(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2288,7 +2288,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-3(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2317,7 +2317,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-4(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2346,7 +2346,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-5(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2375,7 +2375,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-6(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2404,7 +2404,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>Alphabet малиновий</article>
         <stock_quantity>10</stock_quantity>
@@ -2423,7 +2423,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>Creative малиновий</article>
         <stock_quantity>10</stock_quantity>
@@ -2442,7 +2442,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>Creative салатовий</article>
         <stock_quantity>10</stock_quantity>
@@ -2461,7 +2461,7 @@
         <price>13800</price>
         <price_old>18000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6062EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2490,7 +2490,7 @@
         <price>13800</price>
         <price_old>18000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6062EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2519,7 +2519,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6039EBR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2546,7 +2546,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6039EBR-7(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2573,7 +2573,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6039EBR-10(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2600,7 +2600,7 @@
         <price>13800</price>
         <price_old>18000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6073EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -2628,7 +2628,7 @@
         <price>13800</price>
         <price_old>18000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6073EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -2656,7 +2656,7 @@
         <price>12600</price>
         <price_old>16400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6073EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -2684,7 +2684,7 @@
         <price>17500</price>
         <price_old>22800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6065EBLR-11</article>
         <stock_quantity>10</stock_quantity>
@@ -2712,7 +2712,7 @@
         <price>16200</price>
         <price_old>21100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6066EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2741,7 +2741,7 @@
         <price>17900</price>
         <price_old>23300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6066EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -2770,7 +2770,7 @@
         <price>16200</price>
         <price_old>21100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6066EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -2799,7 +2799,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5899EBLRS-11</article>
         <stock_quantity>10</stock_quantity>
@@ -2827,7 +2827,7 @@
         <price>9300</price>
         <price_old>12100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2155EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -2854,7 +2854,7 @@
         <price>9300</price>
         <price_old>12100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6063EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -2969,7 +2969,7 @@
         <price>15500</price>
         <price_old>20200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6026EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3026,7 +3026,7 @@
         <price>15500</price>
         <price_old>20200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6026EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3055,7 +3055,7 @@
         <price>15500</price>
         <price_old>20200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6026EBLR-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3084,7 +3084,7 @@
         <price>54900</price>
         <price_old>71400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6150AL-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3234,7 +3234,7 @@
         <price>23900</price>
         <price_old>31100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6151AL-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3263,7 +3263,7 @@
         <price>23900</price>
         <price_old>31100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6151AL-7(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3324,7 +3324,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6174-11</article>
         <stock_quantity>10</stock_quantity>
@@ -3347,7 +3347,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6174-8</article>
         <stock_quantity>10</stock_quantity>
@@ -3370,7 +3370,7 @@
         <price>8700</price>
         <price_old>11400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6142EL-1</article>
         <stock_quantity>10</stock_quantity>
@@ -3395,7 +3395,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6142EL-2</article>
         <stock_quantity>10</stock_quantity>
@@ -3420,7 +3420,7 @@
         <price>8700</price>
         <price_old>11400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6142EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -3445,7 +3445,7 @@
         <price>8200</price>
         <price_old>10700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6143EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -3471,7 +3471,7 @@
         <price>8200</price>
         <price_old>10700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6143EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -3497,7 +3497,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>Без бренду</vendor>
         <article>MR 1515 Cashmere Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -3530,7 +3530,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>Без бренду</vendor>
         <article>MR 1515 Platinum Grey</article>
         <stock_quantity>10</stock_quantity>
@@ -3563,7 +3563,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6176-4</article>
         <stock_quantity>10</stock_quantity>
@@ -3585,7 +3585,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6176-8</article>
         <stock_quantity>10</stock_quantity>
@@ -3607,7 +3607,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1204-13</article>
         <stock_quantity>10</stock_quantity>
@@ -3658,7 +3658,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1203-11</article>
         <stock_quantity>10</stock_quantity>
@@ -3681,7 +3681,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1204-11</article>
         <stock_quantity>10</stock_quantity>
@@ -3704,7 +3704,7 @@
         <price>11600</price>
         <price_old>15100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6161EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -3732,7 +3732,7 @@
         <price>14300</price>
         <price_old>18600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6207EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3760,7 +3760,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6129EL-1</article>
         <stock_quantity>10</stock_quantity>
@@ -3784,7 +3784,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6129EL-6</article>
         <stock_quantity>10</stock_quantity>
@@ -3886,7 +3886,7 @@
         <price>12000</price>
         <price_old>15600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2566AEBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3914,7 +3914,7 @@
         <price>12000</price>
         <price_old>15600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2566AEBLR-18(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3942,7 +3942,7 @@
         <price>12000</price>
         <price_old>15600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2566AEBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3970,7 +3970,7 @@
         <price>12000</price>
         <price_old>15600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2566AEBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -3998,7 +3998,7 @@
         <price>10600</price>
         <price_old>13800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2566AEBLR-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4026,7 +4026,7 @@
         <price>23000</price>
         <price_old>29900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111(MP4)EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4055,7 +4055,7 @@
         <price>21800</price>
         <price_old>28400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4084,7 +4084,7 @@
         <price>21800</price>
         <price_old>28400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLR-6(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4113,7 +4113,7 @@
         <price>23600</price>
         <price_old>30700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLRS-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4142,7 +4142,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6250-8</article>
         <stock_quantity>10</stock_quantity>
@@ -4166,7 +4166,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6250-11</article>
         <stock_quantity>10</stock_quantity>
@@ -4190,7 +4190,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6250-13</article>
         <stock_quantity>10</stock_quantity>
@@ -4214,7 +4214,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6250-4</article>
         <stock_quantity>10</stock_quantity>
@@ -4238,7 +4238,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6250-5</article>
         <stock_quantity>10</stock_quantity>
@@ -4262,7 +4262,7 @@
         <price>13200</price>
         <price_old>17200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6282EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4289,7 +4289,7 @@
         <price>14500</price>
         <price_old>18900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6282EBLR-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4316,7 +4316,7 @@
         <price>10300</price>
         <price_old>13400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6282EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4343,7 +4343,7 @@
         <price>9800</price>
         <price_old>12800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6281EBLR-15</article>
         <stock_quantity>10</stock_quantity>
@@ -4371,7 +4371,7 @@
         <price>9800</price>
         <price_old>12800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6281EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -4561,7 +4561,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1204-5</article>
         <stock_quantity>10</stock_quantity>
@@ -4584,7 +4584,7 @@
         <price>10800</price>
         <price_old>14100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6107EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4611,7 +4611,7 @@
         <price>12200</price>
         <price_old>15900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6107EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4638,7 +4638,7 @@
         <price>10800</price>
         <price_old>14100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6107EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4665,7 +4665,7 @@
         <price>10800</price>
         <price_old>14100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6107EBLR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4692,7 +4692,7 @@
         <price>3500</price>
         <price_old>4600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Wednesday</vendor>
         <article>N 2071-24-1</article>
         <stock_quantity>10</stock_quantity>
@@ -4711,7 +4711,7 @@
         <price>14200</price>
         <price_old>18500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6296EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4792,7 +4792,7 @@
         <price>13100</price>
         <price_old>17100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6287EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4820,7 +4820,7 @@
         <price>13100</price>
         <price_old>17100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6287EBLR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -4848,7 +4848,7 @@
         <price>7400</price>
         <price_old>9700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6288EL-11-4</article>
         <stock_quantity>10</stock_quantity>
@@ -4874,7 +4874,7 @@
         <price>7400</price>
         <price_old>9700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6288EL-11-5</article>
         <stock_quantity>10</stock_quantity>
@@ -4900,7 +4900,7 @@
         <price>11700</price>
         <price_old>15300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5796EBLRS-4</article>
         <stock_quantity>10</stock_quantity>
@@ -4929,7 +4929,7 @@
         <price>9900</price>
         <price_old>12900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4569EBLRS-4</article>
         <stock_quantity>10</stock_quantity>
@@ -4958,7 +4958,7 @@
         <price>13000</price>
         <price_old>16900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6107(2)EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5089,7 +5089,7 @@
         <price>7500</price>
         <price_old>9800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6308EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -5118,7 +5118,7 @@
         <price>8300</price>
         <price_old>10800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6308EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -5147,7 +5147,7 @@
         <price>8300</price>
         <price_old>10800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6308EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -5176,7 +5176,7 @@
         <price>7500</price>
         <price_old>9800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6308EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -5205,7 +5205,7 @@
         <price>21800</price>
         <price_old>28400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5339,7 +5339,7 @@
         <price>13700</price>
         <price_old>17900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6322EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -5368,7 +5368,7 @@
         <price>13700</price>
         <price_old>17900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6322EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -5397,7 +5397,7 @@
         <price>13700</price>
         <price_old>17900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6322EBLR-6</article>
         <stock_quantity>10</stock_quantity>
@@ -5452,7 +5452,7 @@
         <price>18800</price>
         <price_old>24500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313(MP4)EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5481,7 +5481,7 @@
         <price>19400</price>
         <price_old>25300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5509,7 +5509,7 @@
         <price>19400</price>
         <price_old>25300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5537,7 +5537,7 @@
         <price>19400</price>
         <price_old>25300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLR-6(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5565,7 +5565,7 @@
         <price>19300</price>
         <price_old>25100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLRS-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5645,7 +5645,7 @@
         <price>18500</price>
         <price_old>24100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5673,7 +5673,7 @@
         <price>20400</price>
         <price_old>26600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5701,7 +5701,7 @@
         <price>20400</price>
         <price_old>26600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5729,7 +5729,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLRS-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5757,7 +5757,7 @@
         <price>21400</price>
         <price_old>27900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLRS-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5939,7 +5939,7 @@
         <price>21400</price>
         <price_old>27900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313(MP4)EBLRS-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5968,7 +5968,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -5995,7 +5995,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6022,7 +6022,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6050,7 +6050,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-6(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6077,7 +6077,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6104,7 +6104,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6374EL-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6218,7 +6218,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6321-5</article>
         <stock_quantity>10</stock_quantity>
@@ -6339,7 +6339,7 @@
         <price>13300</price>
         <price_old>17300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6311EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6368,7 +6368,7 @@
         <price>13300</price>
         <price_old>17300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6311EBLR-6(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6439,7 +6439,7 @@
         <price>15100</price>
         <price_old>19700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6147EBLRS-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -6558,7 +6558,7 @@
         <price>11100</price>
         <price_old>14500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLRS-2</article>
         <stock_quantity>10</stock_quantity>
@@ -6587,7 +6587,7 @@
         <price>11100</price>
         <price_old>14500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLRS-4</article>
         <stock_quantity>10</stock_quantity>
@@ -6616,7 +6616,7 @@
         <price>11100</price>
         <price_old>14500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLRS-5</article>
         <stock_quantity>10</stock_quantity>
@@ -6722,7 +6722,7 @@
         <price>10700</price>
         <price_old>14000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -6751,7 +6751,7 @@
         <price>11100</price>
         <price_old>14500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLRS-11</article>
         <stock_quantity>10</stock_quantity>
@@ -6780,7 +6780,7 @@
         <price>10700</price>
         <price_old>14000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -6809,7 +6809,7 @@
         <price>10700</price>
         <price_old>14000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6347EBLR-6</article>
         <stock_quantity>10</stock_quantity>
@@ -6838,7 +6838,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6408EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -6867,7 +6867,7 @@
         <price>6400</price>
         <price_old>8400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5048EL-13</article>
         <stock_quantity>10</stock_quantity>
@@ -6893,7 +6893,7 @@
         <price>6400</price>
         <price_old>8400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5048EL-8</article>
         <stock_quantity>10</stock_quantity>
@@ -6919,7 +6919,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6376EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -6947,7 +6947,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3233L Taupe Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -6973,7 +6973,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4136-2 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -6996,7 +6996,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5673-12</article>
         <stock_quantity>10</stock_quantity>
@@ -7021,7 +7021,7 @@
         <price>3700</price>
         <price_old>4900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5672-8</article>
         <stock_quantity>10</stock_quantity>
@@ -7044,7 +7044,7 @@
         <price>3300</price>
         <price_old>4300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>Без бренду</vendor>
         <article>Step up графіт 01-01</article>
         <stock_quantity>10</stock_quantity>
@@ -7066,7 +7066,7 @@
         <price>2800</price>
         <price_old>3700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1111 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7091,7 +7091,7 @@
         <price>2800</price>
         <price_old>3700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1111 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -7116,7 +7116,7 @@
         <price>2800</price>
         <price_old>3700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1111 Teal</article>
         <stock_quantity>10</stock_quantity>
@@ -7141,7 +7141,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Posh Black</article>
         <stock_quantity>10</stock_quantity>
@@ -7170,7 +7170,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1037-B Green</article>
         <stock_quantity>10</stock_quantity>
@@ -7197,7 +7197,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5722 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7223,7 +7223,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5722 Lilac</article>
         <stock_quantity>10</stock_quantity>
@@ -7248,7 +7248,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5722 Mint</article>
         <stock_quantity>10</stock_quantity>
@@ -7274,7 +7274,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1115-W Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -7303,7 +7303,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1115-W Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7332,7 +7332,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1115-W Mint</article>
         <stock_quantity>10</stock_quantity>
@@ -7361,7 +7361,7 @@
         <price>6200</price>
         <price_old>8100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1087-G Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7390,7 +7390,7 @@
         <price>6200</price>
         <price_old>8100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1087-G Pale Green</article>
         <stock_quantity>10</stock_quantity>
@@ -7419,7 +7419,7 @@
         <price>3500</price>
         <price_old>4600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5897 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -7446,7 +7446,7 @@
         <price>3500</price>
         <price_old>4600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5897 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7473,7 +7473,7 @@
         <price>3500</price>
         <price_old>4600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5897 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -7500,7 +7500,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Gentle Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7529,7 +7529,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1115-W Black</article>
         <stock_quantity>10</stock_quantity>
@@ -7558,7 +7558,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3233L Jade Green</article>
         <stock_quantity>10</stock_quantity>
@@ -7584,7 +7584,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3233L Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -7610,7 +7610,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3233L Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7629,7 +7629,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3233L Light Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7648,7 +7648,7 @@
         <price>2400</price>
         <price_old>3200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6302 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -7675,7 +7675,7 @@
         <price>4600</price>
         <price_old>6000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1037 Nude Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7702,7 +7702,7 @@
         <price>4600</price>
         <price_old>6000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1037 Nude Green</article>
         <stock_quantity>10</stock_quantity>
@@ -7729,7 +7729,7 @@
         <price>4600</price>
         <price_old>6000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1037 Nude Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -7756,7 +7756,7 @@
         <price>4600</price>
         <price_old>6000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1037 Nude Taupe</article>
         <stock_quantity>10</stock_quantity>
@@ -7783,7 +7783,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1222 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -7812,7 +7812,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1222 Cream</article>
         <stock_quantity>10</stock_quantity>
@@ -7841,7 +7841,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1222 Sage Green</article>
         <stock_quantity>10</stock_quantity>
@@ -7870,7 +7870,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1222 White</article>
         <stock_quantity>10</stock_quantity>
@@ -7899,7 +7899,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Posh Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -7928,7 +7928,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -7957,7 +7957,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5673 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -7981,7 +7981,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5673 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8005,7 +8005,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5673 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -8024,7 +8024,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Gentle Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -8053,7 +8053,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100077</categoryId>
+        <categoryId>45</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1102 Gentle Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8101,7 +8101,7 @@
         <price>4600</price>
         <price_old>6000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1110 Royal Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8129,7 +8129,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1112 Anthracite</article>
         <stock_quantity>10</stock_quantity>
@@ -8152,7 +8152,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1112 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8175,7 +8175,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1110 i-FIX Base</article>
         <stock_quantity>10</stock_quantity>
@@ -8198,7 +8198,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1176 i-LINE Base</article>
         <stock_quantity>10</stock_quantity>
@@ -8221,7 +8221,7 @@
         <price>5600</price>
         <price_old>7300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1188 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8250,7 +8250,7 @@
         <price>5600</price>
         <price_old>7300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1188 Shadow Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8279,7 +8279,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1110 Base 360</article>
         <stock_quantity>10</stock_quantity>
@@ -8303,7 +8303,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1198 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8332,7 +8332,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1198 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8361,7 +8361,7 @@
         <price>5100</price>
         <price_old>6700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1187 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8390,7 +8390,7 @@
         <price>5100</price>
         <price_old>6700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1187 Moon Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8419,7 +8419,7 @@
         <price>5100</price>
         <price_old>6700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1187 Shadow Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8448,7 +8448,7 @@
         <price>5100</price>
         <price_old>6700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1205 Antracite</article>
         <stock_quantity>10</stock_quantity>
@@ -8477,7 +8477,7 @@
         <price>5100</price>
         <price_old>6700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1205 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8506,7 +8506,7 @@
         <price>4800</price>
         <price_old>6300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1110 Simply Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8535,7 +8535,7 @@
         <price>5600</price>
         <price_old>7300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1188 Natural Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -8554,7 +8554,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1234 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -8583,7 +8583,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>83687</categoryId>
+        <categoryId>46</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1234 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -8612,7 +8612,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4428-11</article>
         <stock_quantity>10</stock_quantity>
@@ -8640,7 +8640,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4428-8</article>
         <stock_quantity>10</stock_quantity>
@@ -8669,7 +8669,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4428-12</article>
         <stock_quantity>10</stock_quantity>
@@ -8697,7 +8697,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5068-11</article>
         <stock_quantity>10</stock_quantity>
@@ -8722,7 +8722,7 @@
         <price>4500</price>
         <price_old>5900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5068-12</article>
         <stock_quantity>10</stock_quantity>
@@ -8747,7 +8747,7 @@
         <price>1400</price>
         <price_old>1900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5721 Dino</article>
         <stock_quantity>10</stock_quantity>
@@ -8769,7 +8769,7 @@
         <price>3500</price>
         <price_old>4600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6056-11</article>
         <stock_quantity>10</stock_quantity>
@@ -8792,7 +8792,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Kuromi</vendor>
         <article>M 501-1</article>
         <stock_quantity>10</stock_quantity>
@@ -8811,7 +8811,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Lilo and Stitch</vendor>
         <article>M 501-10</article>
         <stock_quantity>10</stock_quantity>
@@ -8830,7 +8830,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-11</article>
         <stock_quantity>10</stock_quantity>
@@ -8849,7 +8849,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-12</article>
         <stock_quantity>10</stock_quantity>
@@ -8868,7 +8868,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-13</article>
         <stock_quantity>10</stock_quantity>
@@ -8887,7 +8887,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-14</article>
         <stock_quantity>10</stock_quantity>
@@ -8906,7 +8906,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-2</article>
         <stock_quantity>10</stock_quantity>
@@ -8925,7 +8925,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-3</article>
         <stock_quantity>10</stock_quantity>
@@ -8944,7 +8944,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-4</article>
         <stock_quantity>10</stock_quantity>
@@ -8963,7 +8963,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>HOT WHEELS</vendor>
         <article>M 501-5</article>
         <stock_quantity>10</stock_quantity>
@@ -8982,7 +8982,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Kuromi</vendor>
         <article>M 501-6</article>
         <stock_quantity>10</stock_quantity>
@@ -9001,7 +9001,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>MINECRAFT</vendor>
         <article>M 501-7</article>
         <stock_quantity>10</stock_quantity>
@@ -9020,7 +9020,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Kuromi</vendor>
         <article>M 501-8</article>
         <stock_quantity>10</stock_quantity>
@@ -9039,7 +9039,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 501-9</article>
         <stock_quantity>10</stock_quantity>
@@ -9058,7 +9058,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6136-4</article>
         <stock_quantity>10</stock_quantity>
@@ -9086,7 +9086,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6136-8</article>
         <stock_quantity>10</stock_quantity>
@@ -9114,7 +9114,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>PEPPA PIG</vendor>
         <article>M 501-15</article>
         <stock_quantity>10</stock_quantity>
@@ -9133,7 +9133,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-16</article>
         <stock_quantity>10</stock_quantity>
@@ -9152,7 +9152,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 501-20</article>
         <stock_quantity>10</stock_quantity>
@@ -9171,7 +9171,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-21</article>
         <stock_quantity>10</stock_quantity>
@@ -9190,7 +9190,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 501-22</article>
         <stock_quantity>10</stock_quantity>
@@ -9209,7 +9209,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 501-23</article>
         <stock_quantity>10</stock_quantity>
@@ -9228,7 +9228,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>МУЛЬТИБРЕНД</vendor>
         <article>M 501-24</article>
         <stock_quantity>10</stock_quantity>
@@ -9247,7 +9247,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-25</article>
         <stock_quantity>10</stock_quantity>
@@ -9266,7 +9266,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-26</article>
         <stock_quantity>10</stock_quantity>
@@ -9285,7 +9285,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-29</article>
         <stock_quantity>10</stock_quantity>
@@ -9304,7 +9304,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-30</article>
         <stock_quantity>10</stock_quantity>
@@ -9323,7 +9323,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>MINNIE MOUSE</vendor>
         <article>M 501-32</article>
         <stock_quantity>10</stock_quantity>
@@ -9342,7 +9342,7 @@
         <price>4000</price>
         <price_old>5200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 904-8</article>
         <stock_quantity>10</stock_quantity>
@@ -9361,7 +9361,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>FERRARI</vendor>
         <article>M 501-33</article>
         <stock_quantity>10</stock_quantity>
@@ -9380,7 +9380,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>HELLO KITTY</vendor>
         <article>M 501-34</article>
         <stock_quantity>10</stock_quantity>
@@ -9399,7 +9399,7 @@
         <price>2900</price>
         <price_old>3800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 501-35</article>
         <stock_quantity>10</stock_quantity>
@@ -9418,7 +9418,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 7772-11</article>
         <stock_quantity>10</stock_quantity>
@@ -9441,7 +9441,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 7772-13</article>
         <stock_quantity>10</stock_quantity>
@@ -9464,7 +9464,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 7772-4</article>
         <stock_quantity>10</stock_quantity>
@@ -9487,7 +9487,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 7772-5</article>
         <stock_quantity>10</stock_quantity>
@@ -9510,7 +9510,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 7772-8</article>
         <stock_quantity>10</stock_quantity>
@@ -9533,7 +9533,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 502-1</article>
         <stock_quantity>10</stock_quantity>
@@ -9553,7 +9553,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 502-4</article>
         <stock_quantity>10</stock_quantity>
@@ -9573,7 +9573,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 502-5</article>
         <stock_quantity>10</stock_quantity>
@@ -9593,7 +9593,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 502-6</article>
         <stock_quantity>10</stock_quantity>
@@ -9613,7 +9613,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>HELLO KITTY</vendor>
         <article>M 502-7</article>
         <stock_quantity>10</stock_quantity>
@@ -9633,7 +9633,7 @@
         <price>3900</price>
         <price_old>5100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>MINECRAFT</vendor>
         <article>N 2071-25-7</article>
         <stock_quantity>10</stock_quantity>
@@ -9652,7 +9652,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 502-2</article>
         <stock_quantity>10</stock_quantity>
@@ -9672,7 +9672,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>PAW PATROL</vendor>
         <article>M 502-3</article>
         <stock_quantity>10</stock_quantity>
@@ -9692,7 +9692,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>MICKEY MOUSE</vendor>
         <article>M 502-8-3</article>
         <stock_quantity>10</stock_quantity>
@@ -9712,7 +9712,7 @@
         <price>3700</price>
         <price_old>4900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6482-4</article>
         <stock_quantity>10</stock_quantity>
@@ -9735,7 +9735,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6483-11</article>
         <stock_quantity>10</stock_quantity>
@@ -9758,7 +9758,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6483-4</article>
         <stock_quantity>10</stock_quantity>
@@ -9781,7 +9781,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100194</categoryId>
+        <categoryId>81</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6483-8</article>
         <stock_quantity>10</stock_quantity>
@@ -9804,7 +9804,7 @@
         <price>6500</price>
         <price_old>8500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>Mastela</vendor>
         <article>3328</article>
         <stock_quantity>10</stock_quantity>
@@ -9833,7 +9833,7 @@
         <price>6500</price>
         <price_old>8500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>Mastela</vendor>
         <article>3378</article>
         <stock_quantity>10</stock_quantity>
@@ -9862,7 +9862,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1125-G Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -9891,7 +9891,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1125-G Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -9920,7 +9920,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1125-S Graphite</article>
         <stock_quantity>10</stock_quantity>
@@ -9949,7 +9949,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1180-W Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -9978,7 +9978,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1180-W Taupe Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -10007,7 +10007,7 @@
         <price>3000</price>
         <price_old>3900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1194 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -10032,7 +10032,7 @@
         <price>4000</price>
         <price_old>5200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1098 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10061,7 +10061,7 @@
         <price>2800</price>
         <price_old>3700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1195 Dark Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10085,7 +10085,7 @@
         <price>2800</price>
         <price_old>3700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1195 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10109,7 +10109,7 @@
         <price>8800</price>
         <price_old>11500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1125-W Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -10138,7 +10138,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1223 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -10167,7 +10167,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1223 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10196,7 +10196,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>101909</categoryId>
+        <categoryId>83</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1223 White</article>
         <stock_quantity>10</stock_quantity>
@@ -10225,7 +10225,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4019-2</article>
         <stock_quantity>10</stock_quantity>
@@ -10247,7 +10247,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4019-1</article>
         <stock_quantity>10</stock_quantity>
@@ -10269,7 +10269,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4019-4</article>
         <stock_quantity>10</stock_quantity>
@@ -10292,7 +10292,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 4019-3</article>
         <stock_quantity>10</stock_quantity>
@@ -10314,7 +10314,7 @@
         <price>4200</price>
         <price_old>5500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1074 Soft Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10339,7 +10339,7 @@
         <price>4200</price>
         <price_old>5500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1074 Soft Mint</article>
         <stock_quantity>10</stock_quantity>
@@ -10364,7 +10364,7 @@
         <price>4200</price>
         <price_old>5500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1074 Soft Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -10389,7 +10389,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1075 Beige Animals</article>
         <stock_quantity>10</stock_quantity>
@@ -10416,7 +10416,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1075 Mint Animals</article>
         <stock_quantity>10</stock_quantity>
@@ -10443,7 +10443,7 @@
         <price>3600</price>
         <price_old>4700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8104</article>
         <stock_quantity>10</stock_quantity>
@@ -10472,7 +10472,7 @@
         <price>3600</price>
         <price_old>4700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8105</article>
         <stock_quantity>10</stock_quantity>
@@ -10501,7 +10501,7 @@
         <price>3600</price>
         <price_old>4700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8106</article>
         <stock_quantity>10</stock_quantity>
@@ -10530,7 +10530,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1077 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10558,7 +10558,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1116 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -10585,7 +10585,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1116 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10612,7 +10612,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8301</article>
         <stock_quantity>10</stock_quantity>
@@ -10641,7 +10641,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8303</article>
         <stock_quantity>10</stock_quantity>
@@ -10670,7 +10670,7 @@
         <price>5400</price>
         <price_old>7100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8305</article>
         <stock_quantity>10</stock_quantity>
@@ -10699,7 +10699,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1175 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -10727,7 +10727,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1175 Light Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -10755,7 +10755,7 @@
         <price>6400</price>
         <price_old>8400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8977</article>
         <stock_quantity>10</stock_quantity>
@@ -10784,7 +10784,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1075 Gray Mint Feathes</article>
         <stock_quantity>10</stock_quantity>
@@ -10804,7 +10804,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>6599</article>
         <stock_quantity>10</stock_quantity>
@@ -10830,7 +10830,7 @@
         <price>3300</price>
         <price_old>4300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8015</article>
         <stock_quantity>10</stock_quantity>
@@ -10849,7 +10849,7 @@
         <price>3300</price>
         <price_old>4300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8016</article>
         <stock_quantity>10</stock_quantity>
@@ -10868,7 +10868,7 @@
         <price>3300</price>
         <price_old>4300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8018</article>
         <stock_quantity>10</stock_quantity>
@@ -10888,7 +10888,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8081</article>
         <stock_quantity>10</stock_quantity>
@@ -10917,7 +10917,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8085</article>
         <stock_quantity>10</stock_quantity>
@@ -10946,7 +10946,7 @@
         <price>3800</price>
         <price_old>5000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>Mastela</vendor>
         <article>8087</article>
         <stock_quantity>10</stock_quantity>
@@ -10975,7 +10975,7 @@
         <price>4100</price>
         <price_old>5400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674145</categoryId>
+        <categoryId>122</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1175 Medium Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -11004,7 +11004,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 0541C-6</article>
         <stock_quantity>10</stock_quantity>
@@ -11027,7 +11027,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1103 Tropical Green</article>
         <stock_quantity>10</stock_quantity>
@@ -11050,7 +11050,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1103 Yellow</article>
         <stock_quantity>10</stock_quantity>
@@ -11073,7 +11073,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3656A-S-4</article>
         <stock_quantity>10</stock_quantity>
@@ -11096,7 +11096,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5032L-4</article>
         <stock_quantity>10</stock_quantity>
@@ -11119,7 +11119,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1163 Mint</article>
         <stock_quantity>10</stock_quantity>
@@ -11144,7 +11144,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1163 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -11169,7 +11169,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6061-11</article>
         <stock_quantity>10</stock_quantity>
@@ -11191,7 +11191,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1184 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -11213,7 +11213,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1185 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -11236,7 +11236,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6134-5</article>
         <stock_quantity>10</stock_quantity>
@@ -11259,7 +11259,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6134-8</article>
         <stock_quantity>10</stock_quantity>
@@ -11282,7 +11282,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3656A-S-11</article>
         <stock_quantity>10</stock_quantity>
@@ -11305,7 +11305,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6061-11-4</article>
         <stock_quantity>10</stock_quantity>
@@ -11328,7 +11328,7 @@
         <price>2200</price>
         <price_old>2900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6061-8</article>
         <stock_quantity>10</stock_quantity>
@@ -11351,7 +11351,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 0541C-11</article>
         <stock_quantity>10</stock_quantity>
@@ -11374,7 +11374,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 0541C-12</article>
         <stock_quantity>10</stock_quantity>
@@ -11397,7 +11397,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 0541C-13</article>
         <stock_quantity>10</stock_quantity>
@@ -11420,7 +11420,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 0541C-10</article>
         <stock_quantity>10</stock_quantity>
@@ -11443,7 +11443,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1215 Green</article>
         <stock_quantity>10</stock_quantity>
@@ -11466,7 +11466,7 @@
         <price>2100</price>
         <price_old>2800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1216 Green-Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -11489,7 +11489,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1216 Red-Black</article>
         <stock_quantity>10</stock_quantity>
@@ -11512,7 +11512,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1217 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -11535,7 +11535,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1217 Mocha</article>
         <stock_quantity>10</stock_quantity>
@@ -11558,7 +11558,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1200 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -11583,7 +11583,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1200 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -11608,7 +11608,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1200 Green</article>
         <stock_quantity>10</stock_quantity>
@@ -11633,7 +11633,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1200 Pink</article>
         <stock_quantity>10</stock_quantity>
@@ -11658,7 +11658,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1200 White</article>
         <stock_quantity>10</stock_quantity>
@@ -11683,7 +11683,7 @@
         <price>2400</price>
         <price_old>3200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3656A-S-11</article>
         <stock_quantity>10</stock_quantity>
@@ -11702,7 +11702,7 @@
         <price>2400</price>
         <price_old>3200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3656A-S-4</article>
         <stock_quantity>10</stock_quantity>
@@ -11721,7 +11721,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674202</categoryId>
+        <categoryId>42</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1215 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -11744,7 +11744,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1131 Footmuff Plus Reflective</article>
         <stock_quantity>10</stock_quantity>
@@ -11770,7 +11770,7 @@
         <price>1900</price>
         <price_old>2500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1132 Footmuff Teddy Bear</article>
         <stock_quantity>10</stock_quantity>
@@ -11795,7 +11795,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1127-G Black</article>
         <stock_quantity>10</stock_quantity>
@@ -11824,7 +11824,7 @@
         <price>5900</price>
         <price_old>7700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1127-B Vintage Plum</article>
         <stock_quantity>10</stock_quantity>
@@ -11853,7 +11853,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1127-B Khaki Green</article>
         <stock_quantity>10</stock_quantity>
@@ -11882,7 +11882,7 @@
         <price>6700</price>
         <price_old>8800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1182 Frost Orchid</article>
         <stock_quantity>10</stock_quantity>
@@ -11911,7 +11911,7 @@
         <price>11200</price>
         <price_old>14600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1183 Iris Blue</article>
         <stock_quantity>10</stock_quantity>
@@ -11940,7 +11940,7 @@
         <price>13200</price>
         <price_old>17200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1091-1 Total Black</article>
         <stock_quantity>10</stock_quantity>
@@ -11969,7 +11969,7 @@
         <price>7100</price>
         <price_old>9300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1192 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -11998,7 +11998,7 @@
         <price>6500</price>
         <price_old>8500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1192 Sage Green</article>
         <stock_quantity>10</stock_quantity>
@@ -12027,7 +12027,7 @@
         <price>7100</price>
         <price_old>9300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1192 Volcanic Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -12056,7 +12056,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1181 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -12085,7 +12085,7 @@
         <price>15900</price>
         <price_old>20700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1221 Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -12114,7 +12114,7 @@
         <price>15900</price>
         <price_old>20700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1221 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -12143,7 +12143,7 @@
         <price>15900</price>
         <price_old>20700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1221 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -12172,7 +12172,7 @@
         <price>15900</price>
         <price_old>20700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1221 Green</article>
         <stock_quantity>10</stock_quantity>
@@ -12201,7 +12201,7 @@
         <price>6400</price>
         <price_old>8400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1227 Sea Grass</article>
         <stock_quantity>10</stock_quantity>
@@ -12230,7 +12230,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1091-2 Granite Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -12259,7 +12259,7 @@
         <price>13500</price>
         <price_old>17600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1091-2 Praline</article>
         <stock_quantity>10</stock_quantity>
@@ -12288,7 +12288,7 @@
         <price>11500</price>
         <price_old>15000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1191-1 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -12317,7 +12317,7 @@
         <price>11500</price>
         <price_old>15000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1191-1 Emerald Green</article>
         <stock_quantity>10</stock_quantity>
@@ -12346,7 +12346,7 @@
         <price>11500</price>
         <price_old>15000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1191-1 Magnet Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -12375,7 +12375,7 @@
         <price>11500</price>
         <price_old>15000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1191-1 Nougat Beige</article>
         <stock_quantity>10</stock_quantity>
@@ -12404,7 +12404,7 @@
         <price>11500</price>
         <price_old>15000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1191-1 Plum Wine</article>
         <stock_quantity>10</stock_quantity>
@@ -12433,7 +12433,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1230 Chocolate</article>
         <stock_quantity>10</stock_quantity>
@@ -12462,7 +12462,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>100389</categoryId>
+        <categoryId>43</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1230 Black</article>
         <stock_quantity>10</stock_quantity>
@@ -12491,7 +12491,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3147A-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12516,7 +12516,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3147B-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12540,7 +12540,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3147B-8</article>
         <stock_quantity>10</stock_quantity>
@@ -12561,7 +12561,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3147C-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12586,7 +12586,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3503B-3</article>
         <stock_quantity>10</stock_quantity>
@@ -12611,7 +12611,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3503B-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12636,7 +12636,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3503A-3</article>
         <stock_quantity>10</stock_quantity>
@@ -12661,7 +12661,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3503A-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12686,7 +12686,7 @@
         <price>2000</price>
         <price_old>2600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 3147B-5</article>
         <stock_quantity>10</stock_quantity>
@@ -12713,7 +12713,7 @@
         <price>3900</price>
         <price_old>5100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3591L-1</article>
         <stock_quantity>10</stock_quantity>
@@ -12741,7 +12741,7 @@
         <price>3900</price>
         <price_old>5100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3591L-2</article>
         <stock_quantity>10</stock_quantity>
@@ -12768,7 +12768,7 @@
         <price>2400</price>
         <price_old>3200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4578-3</article>
         <stock_quantity>10</stock_quantity>
@@ -12793,7 +12793,7 @@
         <price>2400</price>
         <price_old>3200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4579-3</article>
         <stock_quantity>10</stock_quantity>
@@ -12817,7 +12817,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4845-3</article>
         <stock_quantity>10</stock_quantity>
@@ -12841,7 +12841,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4845-4</article>
         <stock_quantity>10</stock_quantity>
@@ -12865,7 +12865,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4845-5</article>
         <stock_quantity>10</stock_quantity>
@@ -12889,7 +12889,7 @@
         <price>2600</price>
         <price_old>3400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4845-6</article>
         <stock_quantity>10</stock_quantity>
@@ -12913,7 +12913,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>PROF1 KIDS</vendor>
         <article>MBB 1016-2</article>
         <stock_quantity>10</stock_quantity>
@@ -12934,7 +12934,7 @@
         <price>1700</price>
         <price_old>2300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5853E-8</article>
         <stock_quantity>10</stock_quantity>
@@ -12958,7 +12958,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5855E-12</article>
         <stock_quantity>10</stock_quantity>
@@ -12982,7 +12982,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5856E-5</article>
         <stock_quantity>10</stock_quantity>
@@ -13006,7 +13006,7 @@
         <price>1700</price>
         <price_old>2300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5853E-5</article>
         <stock_quantity>10</stock_quantity>
@@ -13030,7 +13030,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5855E-1</article>
         <stock_quantity>10</stock_quantity>
@@ -13054,7 +13054,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5855E-7</article>
         <stock_quantity>10</stock_quantity>
@@ -13078,7 +13078,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5855E-8</article>
         <stock_quantity>10</stock_quantity>
@@ -13102,7 +13102,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 5856E-12</article>
         <stock_quantity>10</stock_quantity>
@@ -13126,7 +13126,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6022-5</article>
         <stock_quantity>10</stock_quantity>
@@ -13150,7 +13150,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5804EL-1</article>
         <stock_quantity>10</stock_quantity>
@@ -13175,7 +13175,7 @@
         <price>2700</price>
         <price_old>3600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5804EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -13200,7 +13200,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6154-3</article>
         <stock_quantity>10</stock_quantity>
@@ -13226,7 +13226,7 @@
         <price>2300</price>
         <price_old>3000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6154-6</article>
         <stock_quantity>10</stock_quantity>
@@ -13252,7 +13252,7 @@
         <price>1800</price>
         <price_old>2400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674199</categoryId>
+        <categoryId>78</categoryId>
         <vendor>BAMBI</vendor>
         <article>M 6239E-6</article>
         <stock_quantity>10</stock_quantity>
@@ -13279,7 +13279,7 @@
         <price>2500</price>
         <price_old>3300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>PROF1 KIDS</vendor>
         <article>MBB 1012-1</article>
         <stock_quantity>10</stock_quantity>
@@ -13310,7 +13310,7 @@
         <price>3100</price>
         <price_old>4100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>4674205</categoryId>
+        <categoryId>491</categoryId>
         <vendor>Без бренду</vendor>
         <article>MBB 1052-3</article>
         <stock_quantity>10</stock_quantity>
@@ -17767,7 +17767,7 @@
         <price>11600</price>
         <price_old>15100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3237EBLR-2-3</article>
         <stock_quantity>10</stock_quantity>
@@ -17792,7 +17792,7 @@
         <price>11600</price>
         <price_old>15100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3237EBLR-10</article>
         <stock_quantity>10</stock_quantity>
@@ -17823,7 +17823,7 @@
         <price>11600</price>
         <price_old>15100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3237EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -17852,7 +17852,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JT5188L-3</article>
         <stock_quantity>10</stock_quantity>
@@ -17876,7 +17876,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JT5188L-4</article>
         <stock_quantity>10</stock_quantity>
@@ -17900,7 +17900,7 @@
         <price>15600</price>
         <price_old>20300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3804EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -17927,7 +17927,7 @@
         <price>14100</price>
         <price_old>18400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4176EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -17946,7 +17946,7 @@
         <price>14100</price>
         <price_old>18400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4176EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -17965,7 +17965,7 @@
         <price>8700</price>
         <price_old>11400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JE1618EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -17988,7 +17988,7 @@
         <price>8700</price>
         <price_old>11400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JE1618EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18017,7 +18017,7 @@
         <price>9300</price>
         <price_old>12100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4282EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18044,7 +18044,7 @@
         <price>9300</price>
         <price_old>12100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4282EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -18071,7 +18071,7 @@
         <price>5900</price>
         <price_old>7700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3981EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18095,7 +18095,7 @@
         <price>12600</price>
         <price_old>16400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 3259EBLR-1-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18124,7 +18124,7 @@
         <price>9700</price>
         <price_old>12700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4865EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -18144,7 +18144,7 @@
         <price>17800</price>
         <price_old>23200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 3906EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -18165,7 +18165,7 @@
         <price>19300</price>
         <price_old>25100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 3906EBLRS-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18191,7 +18191,7 @@
         <price>19600</price>
         <price_old>25500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 3906(MP4)EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -18219,7 +18219,7 @@
         <price>16000</price>
         <price_old>20800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4968EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -18277,7 +18277,7 @@
         <price>15800</price>
         <price_old>20600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4259EBLRS-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18306,7 +18306,7 @@
         <price>19300</price>
         <price_old>25100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 3906EBLRS-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18330,7 +18330,7 @@
         <price>16000</price>
         <price_old>20800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4968EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -18359,7 +18359,7 @@
         <price>6400</price>
         <price_old>8400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5048EL-1</article>
         <stock_quantity>10</stock_quantity>
@@ -18385,7 +18385,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5074EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18413,7 +18413,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5074EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -18441,7 +18441,7 @@
         <price>8800</price>
         <price_old>11500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5803EBLRS-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18468,7 +18468,7 @@
         <price>6800</price>
         <price_old>8900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5806EL-11</article>
         <stock_quantity>10</stock_quantity>
@@ -18494,7 +18494,7 @@
         <price>6800</price>
         <price_old>8900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5806EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18520,7 +18520,7 @@
         <price>10500</price>
         <price_old>13700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5830EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -18549,7 +18549,7 @@
         <price>4700</price>
         <price_old>6200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5825ES-11</article>
         <stock_quantity>10</stock_quantity>
@@ -18574,7 +18574,7 @@
         <price>10500</price>
         <price_old>13700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5830EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18603,7 +18603,7 @@
         <price>10500</price>
         <price_old>13700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5796EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -18631,7 +18631,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5836EBLRS-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18658,7 +18658,7 @@
         <price>13200</price>
         <price_old>17200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2022EBLR-2-1(2)(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -18686,7 +18686,7 @@
         <price>7500</price>
         <price_old>9800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5899EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18714,7 +18714,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5074EL-11</article>
         <stock_quantity>10</stock_quantity>
@@ -18742,7 +18742,7 @@
         <price>10900</price>
         <price_old>14200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6020EBLRS-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18771,7 +18771,7 @@
         <price>10900</price>
         <price_old>14200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6020EBLRS-8</article>
         <stock_quantity>10</stock_quantity>
@@ -18800,7 +18800,7 @@
         <price>6700</price>
         <price_old>8800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4053EL-2</article>
         <stock_quantity>10</stock_quantity>
@@ -18826,7 +18826,7 @@
         <price>6700</price>
         <price_old>8800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4053EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -18852,7 +18852,7 @@
         <price>6700</price>
         <price_old>8800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4053EL-5</article>
         <stock_quantity>10</stock_quantity>
@@ -18878,7 +18878,7 @@
         <price>6700</price>
         <price_old>8800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4053EL-7</article>
         <stock_quantity>10</stock_quantity>
@@ -18904,7 +18904,7 @@
         <price>20300</price>
         <price_old>26400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6016AL-1(36V)</article>
         <stock_quantity>10</stock_quantity>
@@ -18933,7 +18933,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5781EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -18959,7 +18959,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5781EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -18985,7 +18985,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5781EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -19011,7 +19011,7 @@
         <price>3400</price>
         <price_old>4500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5781EBLR-7</article>
         <stock_quantity>10</stock_quantity>
@@ -19037,7 +19037,7 @@
         <price>10400</price>
         <price_old>13600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6055EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -19066,7 +19066,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6072EBR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -19092,7 +19092,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6072EBR-6</article>
         <stock_quantity>10</stock_quantity>
@@ -19111,7 +19111,7 @@
         <price>13800</price>
         <price_old>18000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6073EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19139,7 +19139,7 @@
         <price>11700</price>
         <price_old>15300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6063EBLR-6</article>
         <stock_quantity>10</stock_quantity>
@@ -19167,7 +19167,7 @@
         <price>9700</price>
         <price_old>12700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6138EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19195,7 +19195,7 @@
         <price>9500</price>
         <price_old>12400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6140EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19223,7 +19223,7 @@
         <price>46500</price>
         <price_old>60500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6152AL-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19252,7 +19252,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5846EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -19281,7 +19281,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5846EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19310,7 +19310,7 @@
         <price>8200</price>
         <price_old>10700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 5846EBLRS-11</article>
         <stock_quantity>10</stock_quantity>
@@ -19339,7 +19339,7 @@
         <price>11600</price>
         <price_old>15100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6161EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -19367,7 +19367,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6153B-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19394,7 +19394,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6153B-4</article>
         <stock_quantity>10</stock_quantity>
@@ -19420,7 +19420,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6153B-5</article>
         <stock_quantity>10</stock_quantity>
@@ -19446,7 +19446,7 @@
         <price>13000</price>
         <price_old>16900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6206EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19474,7 +19474,7 @@
         <price>13000</price>
         <price_old>16900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6206EBLR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19502,7 +19502,7 @@
         <price>14500</price>
         <price_old>18900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6206EBLRS-18(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19530,7 +19530,7 @@
         <price>13000</price>
         <price_old>16900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6206EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19558,7 +19558,7 @@
         <price>12800</price>
         <price_old>16700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6192EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19587,7 +19587,7 @@
         <price>12800</price>
         <price_old>16700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6192EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19616,7 +19616,7 @@
         <price>28500</price>
         <price_old>37100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111(MP4)EBLRS-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19645,7 +19645,7 @@
         <price>28500</price>
         <price_old>37100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111(MP4)EBLRS-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19674,7 +19674,7 @@
         <price>23600</price>
         <price_old>30700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLRS-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -19703,7 +19703,7 @@
         <price>5300</price>
         <price_old>6900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6265EL-5</article>
         <stock_quantity>10</stock_quantity>
@@ -19728,7 +19728,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6072EBR-13</article>
         <stock_quantity>10</stock_quantity>
@@ -19754,7 +19754,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6072EBR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -19779,7 +19779,7 @@
         <price>4300</price>
         <price_old>5600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi kart</vendor>
         <article>M 6072EBR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -19805,7 +19805,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6292EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -19833,7 +19833,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6292EBLR-11</article>
         <stock_quantity>10</stock_quantity>
@@ -19861,7 +19861,7 @@
         <price>8400</price>
         <price_old>11000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6292EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -19889,7 +19889,7 @@
         <price>9200</price>
         <price_old>12000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6293EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -19917,7 +19917,7 @@
         <price>5300</price>
         <price_old>6900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6262EL-11</article>
         <stock_quantity>10</stock_quantity>
@@ -19943,7 +19943,7 @@
         <price>5300</price>
         <price_old>6900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6262EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -19969,7 +19969,7 @@
         <price>5300</price>
         <price_old>6900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6262EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -19995,7 +19995,7 @@
         <price>7400</price>
         <price_old>9700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6289EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -20022,7 +20022,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6267EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -20047,7 +20047,7 @@
         <price>13300</price>
         <price_old>17300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2022EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20075,7 +20075,7 @@
         <price>13300</price>
         <price_old>17300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2022EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20103,7 +20103,7 @@
         <price>14600</price>
         <price_old>19000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2500EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20131,7 +20131,7 @@
         <price>14600</price>
         <price_old>19000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2500EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20159,7 +20159,7 @@
         <price>4400</price>
         <price_old>5800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6300EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20184,7 +20184,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5048ELR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -20210,7 +20210,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5050ELR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -20235,7 +20235,7 @@
         <price>7000</price>
         <price_old>9100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 5050ELR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -20260,7 +20260,7 @@
         <price>21800</price>
         <price_old>28400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6111EBLR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20289,7 +20289,7 @@
         <price>9700</price>
         <price_old>12700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6301EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20318,7 +20318,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 4274EL-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20345,7 +20345,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6307EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -20372,7 +20372,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6307EL-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20399,7 +20399,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6307EL-6</article>
         <stock_quantity>10</stock_quantity>
@@ -20426,7 +20426,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6307EL-8</article>
         <stock_quantity>10</stock_quantity>
@@ -20453,7 +20453,7 @@
         <price>8100</price>
         <price_old>10600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6307EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -20480,7 +20480,7 @@
         <price>8300</price>
         <price_old>10800</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 4938EBLR-4</article>
         <stock_quantity>10</stock_quantity>
@@ -20509,7 +20509,7 @@
         <price>19400</price>
         <price_old>25300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20537,7 +20537,7 @@
         <price>22400</price>
         <price_old>29200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLRS-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20565,7 +20565,7 @@
         <price>21400</price>
         <price_old>27900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6313EBLRS-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20593,7 +20593,7 @@
         <price>22600</price>
         <price_old>29400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6315EBLRS-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20621,7 +20621,7 @@
         <price>14500</price>
         <price_old>18900</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6373EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20650,7 +20650,7 @@
         <price>6600</price>
         <price_old>8600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6267EL-11</article>
         <stock_quantity>10</stock_quantity>
@@ -20675,7 +20675,7 @@
         <price>18200</price>
         <price_old>23700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6349EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20704,7 +20704,7 @@
         <price>18200</price>
         <price_old>23700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6349EBLR-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20733,7 +20733,7 @@
         <price>18200</price>
         <price_old>23700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6349EBLR-7(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20762,7 +20762,7 @@
         <price>18600</price>
         <price_old>24200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6350EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20791,7 +20791,7 @@
         <price>18600</price>
         <price_old>24200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6350EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -20820,7 +20820,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6141EBLR-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20849,7 +20849,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6329EL-3</article>
         <stock_quantity>10</stock_quantity>
@@ -20877,7 +20877,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6329EL-4</article>
         <stock_quantity>10</stock_quantity>
@@ -20905,7 +20905,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6329EL-5</article>
         <stock_quantity>10</stock_quantity>
@@ -20933,7 +20933,7 @@
         <price>7800</price>
         <price_old>10200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6329EL-8</article>
         <stock_quantity>10</stock_quantity>
@@ -20961,7 +20961,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6376EBLR-10</article>
         <stock_quantity>10</stock_quantity>
@@ -20989,7 +20989,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6376EBLR-2</article>
         <stock_quantity>10</stock_quantity>
@@ -21017,7 +21017,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6376EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -21045,7 +21045,7 @@
         <price>12300</price>
         <price_old>16000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6408EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -21074,7 +21074,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6348EL-1-5</article>
         <stock_quantity>10</stock_quantity>
@@ -21101,7 +21101,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6348EL-2-5</article>
         <stock_quantity>10</stock_quantity>
@@ -21128,7 +21128,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6363-11</article>
         <stock_quantity>10</stock_quantity>
@@ -21153,7 +21153,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6363-3</article>
         <stock_quantity>10</stock_quantity>
@@ -21178,7 +21178,7 @@
         <price>3200</price>
         <price_old>4200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6363-6</article>
         <stock_quantity>10</stock_quantity>
@@ -21203,7 +21203,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6382EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21231,7 +21231,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6382EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21260,7 +21260,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6382EBLR-4(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21288,7 +21288,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6382EBLR-5(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21316,7 +21316,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6382EBLR-8(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21344,7 +21344,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6356EBLR-11-5</article>
         <stock_quantity>10</stock_quantity>
@@ -21373,7 +21373,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6356EBLR-2-5</article>
         <stock_quantity>10</stock_quantity>
@@ -21402,7 +21402,7 @@
         <price>7900</price>
         <price_old>10300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6356EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -21431,7 +21431,7 @@
         <price>9300</price>
         <price_old>12100</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>2155FDEBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21460,7 +21460,7 @@
         <price>7200</price>
         <price_old>9400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6357EBLR-8</article>
         <stock_quantity>10</stock_quantity>
@@ -21489,7 +21489,7 @@
         <price>15600</price>
         <price_old>20300</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6364EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -21518,7 +21518,7 @@
         <price>19000</price>
         <price_old>24700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6380EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21547,7 +21547,7 @@
         <price>19000</price>
         <price_old>24700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6380EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21576,7 +21576,7 @@
         <price>20900</price>
         <price_old>27200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6404EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21605,7 +21605,7 @@
         <price>20900</price>
         <price_old>27200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6404EBLR-11(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21634,7 +21634,7 @@
         <price>15800</price>
         <price_old>20600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6379EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -21663,7 +21663,7 @@
         <price>17200</price>
         <price_old>22400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6379EBLRS-2</article>
         <stock_quantity>10</stock_quantity>
@@ -21682,7 +21682,7 @@
         <price>14600</price>
         <price_old>19000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2288EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21711,7 +21711,7 @@
         <price>14600</price>
         <price_old>19000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2288EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21740,7 +21740,7 @@
         <price>14600</price>
         <price_old>19000</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>JJ2288EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21769,7 +21769,7 @@
         <price>7200</price>
         <price_old>9400</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Bambi Racer</vendor>
         <article>M 6357EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -21788,7 +21788,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6409EBLR-1</article>
         <stock_quantity>10</stock_quantity>
@@ -21817,7 +21817,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6409EBLR-13</article>
         <stock_quantity>10</stock_quantity>
@@ -21846,7 +21846,7 @@
         <price>13400</price>
         <price_old>17500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6409EBLR-3</article>
         <stock_quantity>10</stock_quantity>
@@ -21875,7 +21875,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6312EBLR-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21894,7 +21894,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6312EBLR-2(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21913,7 +21913,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6312EBLR-3(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21932,7 +21932,7 @@
         <price>11300</price>
         <price_old>14700</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6312EBLR-7(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21951,7 +21951,7 @@
         <price>46500</price>
         <price_old>60500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6152AL-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -21970,7 +21970,7 @@
         <price>10100</price>
         <price_old>13200</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>91143</categoryId>
+        <categoryId>77</categoryId>
         <vendor>Без бренду</vendor>
         <article>M 6535EL-1(24V)</article>
         <stock_quantity>10</stock_quantity>
@@ -23909,7 +23909,7 @@
         <price>1100</price>
         <price_old>1500</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1108 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -23970,7 +23970,7 @@
         <price>1200</price>
         <price_old>1600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1142 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -23995,7 +23995,7 @@
         <price>1200</price>
         <price_old>1600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1143 Gray</article>
         <stock_quantity>10</stock_quantity>
@@ -24084,7 +24084,7 @@
         <price>1200</price>
         <price_old>1600</price_old>
         <currencyId>UAH</currencyId>
-        <categoryId>197325</categoryId>
+        <categoryId>39</categoryId>
         <vendor>EL CAMINO</vendor>
         <article>ME 1143 Gold</article>
         <stock_quantity>10</stock_quantity>
