@@ -1,0 +1,55 @@
+===== START 08.09.2026 14:03:24,67 ===== 
+Current folder: 
+F:\GitHub\product-feed-pipeline
+===== PYTHON ===== 
+Python 3.11.9
+===== FETCH SUPPLIER ===== 
+Skip. Next allowed fetch: 2026-09-08T13:38:45.227711+00:00
+===== FILE CHECK ===== 
+ Volume in drive F is Новый том
+ Volume Serial Number is B450-5B46
+
+ Directory of F:\GitHub\product-feed-pipeline\data\raw
+
+08.09.2026  12:39    <DIR>          .
+08.09.2026  12:39    <DIR>          ..
+27.04.2026  12:11                 2 .gitkeep
+08.09.2026  12:39         3 102 800 supplier_feed.xml
+               2 File(s)      3 102 802 bytes
+               2 Dir(s)  383 702 499 328 bytes free
+===== GIT ADD XML ===== 
+===== GIT COMMIT XML ===== 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   scripts/pricing/rozetka_pricing.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	backup-local-rozetka/
+	run-debug-log.txt
+	run-feed.bat
+
+no changes added to commit (use "git add" and/or "git commit -a")
+===== GIT PULL REBASE ===== 
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+===== ERROR 08.09.2026 14:03:24,96 ===== 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   scripts/pricing/rozetka_pricing.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	backup-local-rozetka/
+	run-debug-log.txt
+	run-feed.bat
+
+no changes added to commit (use "git add" and/or "git commit -a")

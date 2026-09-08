@@ -48,16 +48,16 @@ def transport(price: float) -> float:
         price += 700
     elif price <= 9999:
         price *= 1.07
-        price += 1100
+        price += 1000
     elif price <= 19999:
         price *= 1.07
-        price += 1300
+        price += 1200
     elif price <= 29999:
         price *= 1.05
-        price += 1600
+        price += 1500
     else:
         price *= 1.05
-        price += 2200
+        price += 2000
 
     return price
 
