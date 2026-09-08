@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-08 15:57">
+<yml_catalog date="2026-09-08 19:17">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -11241,10 +11241,10 @@
       <price_old>16380</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6020EBLRS-8" available="true">
+    <offer id="M 6020EBLRS-8" available="false">
       <price>12600</price>
       <price_old>16380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6021-EVA WHEEL" available="true">
       <price>1500</price>
@@ -11926,10 +11926,10 @@
       <price_old>19500</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6075(2)EBLR-3(24V)" available="true">
+    <offer id="M 6075(2)EBLR-3(24V)" available="false">
       <price>16100</price>
       <price_old>20930</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6075(2)EBLR-5(24V)" available="false">
       <price>15000</price>
@@ -20911,6 +20911,16 @@
       <price_old>2860</price_old>
       <availability>out_of_stock</availability>
     </offer>
+    <offer id="MR 0801" available="true">
+      <price>3700</price>
+      <price_old>4810</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="MR 0802" available="true">
+      <price>4900</price>
+      <price_old>6370</price_old>
+      <availability>in_stock</availability>
+    </offer>
     <offer id="MR 1288" available="true">
       <price>1400</price>
       <price_old>1820</price_old>
@@ -20976,6 +20986,11 @@
       <price_old>3120</price_old>
       <availability>out_of_stock</availability>
     </offer>
+    <offer id="MR 1514" available="true">
+      <price>3500</price>
+      <price_old>4550</price_old>
+      <availability>in_stock</availability>
+    </offer>
     <offer id="MR 1515 Cashmere Beige" available="true">
       <price>3300</price>
       <price_old>4290</price_old>
@@ -20984,6 +20999,11 @@
     <offer id="MR 1515 Platinum Grey" available="true">
       <price>3300</price>
       <price_old>4290</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="MR 1523" available="true">
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="MR 1528" available="false">
@@ -21031,6 +21051,11 @@
       <price_old>6110</price_old>
       <availability>in_stock</availability>
     </offer>
+    <offer id="MS 0533-3" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+    </offer>
     <offer id="MS 0533-4" available="false">
       <price>1900</price>
       <price_old>2470</price_old>
@@ -21040,6 +21065,11 @@
       <price>1900</price>
       <price_old>2470</price_old>
       <availability>out_of_stock</availability>
+    </offer>
+    <offer id="MS 0534-3" available="true">
+      <price>1900</price>
+      <price_old>2470</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="MS 0534-4" available="false">
       <price>1800</price>
