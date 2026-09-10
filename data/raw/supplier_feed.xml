@@ -1232,6 +1232,13 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/957786.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156653.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156651.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156656.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156652.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156655.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156657.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156654.jpg</image>
                 <available>true</available>
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1053-1</vendorCode>
@@ -1244,7 +1251,7 @@
             </param>
         </item>
         <item id="311251" selling_type="r">
-            <name>Биговел детский 10д. MBB 1053-2</name>
+            <name>Беговел детский 10д. MBB 1053-2</name>
             <name_ua>Біговел дитячий 10 д. MBB 1053-2</name_ua>
             <categoryId>79</categoryId>
             <price>976</price>
@@ -1252,6 +1259,13 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/957787.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156658.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156659.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156661.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156660.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156664.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156662.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156663.jpg</image>
                 <available>true</available>
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1053-2</vendorCode>
@@ -1272,6 +1286,13 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/957788.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156665.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156668.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156666.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156670.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156667.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156669.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156671.jpg</image>
                 <available>true</available>
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1053-3</vendorCode>
@@ -1292,6 +1313,13 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/957789.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156679.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156680.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156682.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156681.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156684.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156685.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156683.jpg</image>
                 <available>true</available>
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1053-4</vendorCode>
@@ -1312,6 +1340,13 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/957790.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156673.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156672.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156676.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156674.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156675.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156678.jpg</image>
+            <image>https://metr-plus.com.ua/img/1156677.jpg</image>
                 <available>true</available>
             <vendor>PROF1 KIDS</vendor>
             <vendorCode>MBB 1053-5</vendorCode>
@@ -2772,37 +2807,6 @@
             <barcode>6903317830305</barcode>
             <description><![CDATA[трубка+прогул. блок, рюкзак, дождевик, моск.сетка, адаптеры для люльки, темно-серый]]></description>
             <description_ua><![CDATA[люлька+прогул. блок, рюкзак, дощовик, моск.сітка, адаптери для люльки, темно-сірий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
-        <item id="339594" selling_type="r">
-            <name>Коляска универсальная El Camino COIL ME 1190 Hot Chocolate</name>
-            <name_ua>Коляска універсальна 2в1 El Camino COIL ME 1190 Hot Chocolate</name_ua>
-            <categoryId>43</categoryId>
-            <price>15289</price>
-            <price_rrc>15289</price_rrc>
-                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=339594&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1054086.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114636.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114641.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114644.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114622.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114623.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114624.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114625.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114626.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114627.jpg</image>
-            <image>https://metr-plus.com.ua/img/1114628.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1190 Hot Chocolate</vendorCode>
-            <barcode>6903317830282</barcode>
-            <description><![CDATA[трубка+прогул. блок, рюкзак, дождевик, моск.сетка, адаптеры для люльки, коричневый]]></description>
-            <description_ua><![CDATA[люлька+прогул. блок, рюкзак, дощовик, моск.сітка, адаптери для люльки, коричнев]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса, тканина</value>
                 <value lang="ru">метал, пластмаса, тканина</value>
@@ -16420,6 +16424,132 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="329869" selling_type="r">
+            <name>Каталка-толокар M 6253EL-1</name>
+            <name_ua>Каталка-толокар M 6253EL-1</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=329869&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1015904.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-1</vendorCode>
+            <barcode>6903317795918</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, білий]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, білий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="329870" selling_type="r">
+            <name>Каталка-толокар M 6253EL-11</name>
+            <name_ua>Каталка-толокар M 6253EL-11</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=329870&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1015905.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-11</vendorCode>
+            <barcode>6903317795925</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, сірий]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, сірий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="329871" selling_type="r">
+            <name>Каталка-толокар M 6253EL-3</name>
+            <name_ua>Каталка-толокар M 6253EL-3</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=329871&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1015906.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019882.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019883.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019884.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019885.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019886.jpg</image>
+            <image>https://metr-plus.com.ua/img/1019887.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-3</vendorCode>
+            <barcode>6903317795949</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, червоний]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, червоний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="329872" selling_type="r">
+            <name>Каталка-толокар M 6253EL-4</name>
+            <name_ua>Каталка-толокар M 6253EL-4</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=329872&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1015907.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-4</vendorCode>
+            <barcode>6903317795956</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, синій]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, синій]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="330039" selling_type="r">
+            <name>Каталка-толокар M 6253EL-2</name>
+            <name_ua>Каталка-толокар M 6253EL-2</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=330039&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1016307.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-2</vendorCode>
+            <barcode>6903317795932</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, чорний]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, чорний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="330040" selling_type="r">
+            <name>Каталка-толокар M 6253EL-8</name>
+            <name_ua>Каталка-толокар M 6253EL-8</name_ua>
+            <categoryId>78</categoryId>
+            <price>2504</price>
+                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=330040&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1016308.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6253EL-8</vendorCode>
+            <barcode>6903317795970</barcode>
+            <description><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, рожевий]]></description>
+            <description_ua><![CDATA[бат.ручка, муз, світло, шкіра, підсклянник, MP3, BLUETOOTH, рожевий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="293569" selling_type="r">
             <name>Велосипед-беговел детский PROFI KIDS 12 д. MBB 1012-1</name>
             <name_ua>Велосипед-біговел дитячий PROFI KIDS 12 д. MBB 1012-1</name_ua>
@@ -23603,35 +23733,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="299966" selling_type="r">
-            <name>Машина M 5899EBLR-2</name>
-            <name_ua>Машина M 5899EBLR-2</name_ua>
-            <categoryId>77</categoryId>
-            <price>7747</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=299966&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/920404.jpg</image>
-            <image>https://metr-plus.com.ua/img/920395.jpg</image>
-            <image>https://metr-plus.com.ua/img/920396.jpg</image>
-            <image>https://metr-plus.com.ua/img/920397.jpg</image>
-            <image>https://metr-plus.com.ua/img/920398.jpg</image>
-            <image>https://metr-plus.com.ua/img/920399.jpg</image>
-            <image>https://metr-plus.com.ua/img/920400.jpg</image>
-            <image>https://metr-plus.com.ua/img/920401.jpg</image>
-            <image>https://metr-plus.com.ua/img/920402.jpg</image>
-            <image>https://metr-plus.com.ua/img/920403.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 5899EBLR-2</vendorCode>
-            <barcode>6903317670352</barcode>
-            <description><![CDATA[2.4G р/к, 1*12V9AH, 2*35W, MP3, USB, BLUETOOTH, TF, EVA, музика, світло, шкіра, чорний]]></description>
-            <description_ua><![CDATA[2.4G р/к, 1*12V9AH, 2*35W, MP3, USB, BLUETOOTH, TF, EVA, музика, світло, шкіра, чорний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="301155" selling_type="r">
             <name>Багги M 5797A-2(48V)</name>
             <name_ua>Баггі M 5797A-2(48V)</name_ua>
@@ -23686,6 +23787,36 @@
             <barcode>6903317691081</barcode>
             <description><![CDATA[акум.12V10AH, 2мотори45W, EVA, шкіра, TF,музика,сірий]]></description>
             <description_ua><![CDATA[акум.12V10AH, 2мотори 45W, EVA, шкіра, TF, музика, сірий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="304997" selling_type="r">
+            <name>Машина M 6020EBLR-12</name>
+            <name_ua>Машина M 6020EBLR-12</name_ua>
+            <categoryId>77</categoryId>
+            <price>10962</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=304997&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/932453.jpg</image>
+            <image>https://metr-plus.com.ua/img/940434.jpg</image>
+            <image>https://metr-plus.com.ua/img/940435.jpg</image>
+            <image>https://metr-plus.com.ua/img/940436.jpg</image>
+            <image>https://metr-plus.com.ua/img/940437.jpg</image>
+            <image>https://metr-plus.com.ua/img/940438.jpg</image>
+            <image>https://metr-plus.com.ua/img/940439.jpg</image>
+            <image>https://metr-plus.com.ua/img/940440.jpg</image>
+            <image>https://metr-plus.com.ua/img/940441.jpg</image>
+            <image>https://metr-plus.com.ua/img/940442.jpg</image>
+            <image>https://metr-plus.com.ua/img/940443.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6020EBLR-12</vendorCode>
+            <barcode>6903317702879</barcode>
+            <description><![CDATA[р/к2,4G, 1акум12V10AH, 4*35W, MP3, USB, TF, BLUETOOTH, APP, EVA, шкіра, музика, світло, небесно-сірий]]></description>
+            <description_ua><![CDATA[р/к2,4G, 1акум12V10AH, 4*35W, MP3, USB, TF, BLUETOOTH, APP, EVA, шкіра, музика, світло, небесно-сірий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -48566,11 +48697,67 @@
                 <value lang="ru">тканина</value>
             </param>
         </item>
+        <item id="298601" selling_type="r">
+            <name>Палка гимнастическая MS 4154-2</name>
+            <name_ua>Палка гімнастична MS 4154-2</name_ua>
+            <categoryId>60</categoryId>
+            <price>758</price>
+                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=298601&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/916705.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>MS 4154-2</vendorCode>
+            <barcode>6903317662197</barcode>
+            <description><![CDATA[body bar, 2кг, 120см, в кор-ке]]></description>
+            <description_ua><![CDATA[body bar, 2кг, 120см, в кор-ці]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">картонна обгортка</value>
+                <value lang="ru">картонная обертка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">126-6-6см</value>
+                <value lang="ru">126-6-6см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="298603" selling_type="r">
+            <name>Палка гимнастическая MS 4154-3</name>
+            <name_ua>Палка гімнастична MS 4154-3</name_ua>
+            <categoryId>60</categoryId>
+            <price>874</price>
+                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=298603&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/916706.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>MS 4154-3</vendorCode>
+            <barcode>6903317662203</barcode>
+            <description><![CDATA[body bar, 3кг, 120см, в кор-ке]]></description>
+            <description_ua><![CDATA[body bar, 3кг, 120см, в кор-ці]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">картонна обгортка</value>
+                <value lang="ru">картонная обертка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">126-6-6см</value>
+                <value lang="ru">126-6-6см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="298604" selling_type="r">
             <name>Палка гимнастическая MS 4154-4</name>
             <name_ua>Палка гімнастична MS 4154-4</name_ua>
             <categoryId>60</categoryId>
-            <price>915</price>
+            <price>970</price>
                 <url>https://metr-plus.com.ua/index.php?section=60&amp;id=298604&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -48598,7 +48785,7 @@
             <name>Палка гимнастическая MS 4154-5</name>
             <name_ua>Палка гімнастична MS 4154-5</name_ua>
             <categoryId>60</categoryId>
-            <price>977</price>
+            <price>1041</price>
                 <url>https://metr-plus.com.ua/index.php?section=60&amp;id=298605&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -48651,6 +48838,98 @@
             <param name="Матеріал">
                 <value lang="uk">пластмаса</value>
                 <value lang="ru">пластмаса</value>
+            </param>
+        </item>
+        <item id="331345" selling_type="r">
+            <name>Тренажер MS 4800-2</name>
+            <name_ua>Тренажер MS 4800-2</name_ua>
+            <categoryId>60</categoryId>
+            <price>6666</price>
+                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=331345&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1019833.jpg</image>
+            <image>https://metr-plus.com.ua/img/1020137.jpg</image>
+            <image>https://metr-plus.com.ua/img/1020138.jpg</image>
+            <image>https://metr-plus.com.ua/img/1020139.jpg</image>
+            <image>https://metr-plus.com.ua/img/1020140.jpg</image>
+                <available>true</available>
+            <vendor>PROF1</vendor>
+            <vendorCode>MS 4800-2</vendorCode>
+            <barcode>6903317801619</barcode>
+            <description><![CDATA[беговая дорожка, дорожка для ходьбы, с ручкой, пульт, дисплей (время, скорость, расстояние, калории), скорость 1-8км/ч, нагрузка до 120кг, д103-ш52-в10см/с ручкой 90см, дорожка 89-36, 116-56-11,5см]]></description>
+            <description_ua><![CDATA[бігова доріжка, доріжка для ходьби, з ручкою, пульт, дисплей(час, швидкість, відстань, калорії), швидкість 1-8км/год, навантаження до 120кг, д103-ш52-в10см/з ручкою 90см, доріжка 89-36,5см, від мережі, в кор-ці, 116-56-11,5см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">116-56-11,5см</value>
+                <value lang="ru">116-56-11,5см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, гума</value>
+                <value lang="ru">метал, пластмаса, гума</value>
+            </param>
+        </item>
+        <item id="341005" selling_type="r">
+            <name>Тренажер MS 4980</name>
+            <name_ua>Тренажер MS 4980</name_ua>
+            <categoryId>60</categoryId>
+            <price>1638</price>
+                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=341005&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1056292.jpg</image>
+            <image>https://metr-plus.com.ua/img/1056383.jpg</image>
+            <image>https://metr-plus.com.ua/img/1056380.jpg</image>
+            <image>https://metr-plus.com.ua/img/1056381.jpg</image>
+            <image>https://metr-plus.com.ua/img/1056382.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>MS 4980</vendorCode>
+            <barcode>6903317842711</barcode>
+            <description><![CDATA[велотренажер, мини, 40-40-в30см, 2в1(для тренировки рук и ног), дисплей (время, расстояние, калории, счетчик оборотов), регулировка нагрузки, на бат-ке, в кор-ке, 41-33-19см]]></description>
+            <description_ua><![CDATA[велотренажер, міні, 40-40-в30см, 2в1(для тренування рук та ніг), дисплей (час, відстань, калорії, лічильник обертів), регулювання навантаження, на бат-ці, в кор-ці, 41-33-19см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">41-33-19см</value>
+                <value lang="ru">41-33-19см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">комбінований матеріал</value>
+                <value lang="ru">комбінований матеріал</value>
+            </param>
+        </item>
+        <item id="343409" selling_type="r">
+            <name>Тренажер MS 4800-3</name>
+            <name_ua>Тренажер MS 4800-3</name_ua>
+            <categoryId>60</categoryId>
+            <price>8278</price>
+                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=343409&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1111445.jpg</image>
+                <available>true</available>
+            <vendor>PROF1</vendor>
+            <vendorCode>MS 4800-3</vendorCode>
+            <barcode>6903317840250</barcode>
+            <description><![CDATA[беговая дорожка, дорожка для ходьбы, с ручкой, пульт, дисплей (время, скорость, расстояние, калории), скорость 1-8км/ч, нагрузка до 120кг, д115-ш54-в10см/с ручкой 96/103см, дорожка 9 129,5-58-14см]]></description>
+            <description_ua><![CDATA[бігова доріжка, доріжка для ходьби, з ручкою, пульт, дисплей(час, швидкість, відстань, калорії), швидкість 1-8км/год, навантаження до 120кг, д115-ш54-в10см/з ручкою 96/103см, доріжка 97-40см, від мережі, в кор-ці, 129,5-58-14см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">129,5-58-14см</value>
+                <value lang="ru">129,5-58-14см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, гума</value>
+                <value lang="ru">метал, пластмаса, гума</value>
             </param>
         </item>
         <item id="348181" selling_type="r">
