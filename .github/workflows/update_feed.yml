@@ -45,8 +45,9 @@ jobs:
       # Автоматичне завантаження supplier_feed.xml
       # наразі вимкнене.
       #
-      # Якщо захочеш знову автоматично отримувати
-      # XML постачальника — розкоментуй:
+      # Якщо потрібно буде знову автоматично
+      # завантажувати XML постачальника —
+      # розкоментуй блок нижче.
       #
       # - name: Fetch supplier feed
       #   run: python -m scripts.common.fetch_supplier_feed
@@ -148,7 +149,7 @@ jobs:
         run: python -m scripts.epicentr.export_updates_with_history
 
       # ======================================================
-      # EPICENTR - CHECK RESULT
+      # EPICENTR - CHECK FINAL RESULT
       # ======================================================
 
       - name: Check Epicentr updates result
@@ -176,22 +177,107 @@ jobs:
           echo "Total offers: $TOTAL_COUNT"
 
           echo
-          echo "===== CHECK TEST MANUAL SKU ====="
+          echo "===== CHECK ALL MANUAL PRODUCTS ====="
 
-          if grep -q "TEST-SANKY-001" data/manual/epicentr_manual_products.xml; then
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          import sys
 
-            if grep -q "TEST-SANKY-001" data/output/epicentr/epicentr_updates.xml; then
-              echo "OK: TEST-SANKY-001 found in final Epicentr XML"
-              grep -n -A 4 -B 1 "TEST-SANKY-001" data/output/epicentr/epicentr_updates.xml
-            else
-              echo "ERROR: TEST-SANKY-001 exists in manual XML but is missing from final XML"
-              exit 1
-            fi
+          manual_file = "data/manual/epicentr_manual_products.xml"
+          output_file = "data/output/epicentr/epicentr_updates.xml"
 
-          else
-            echo "TEST-SANKY-001 is no longer present in manual XML."
-            echo "Skipping test SKU check."
-          fi
+          manual_root = ET.parse(manual_file).getroot()
+          output_root = ET.parse(output_file).getroot()
+
+          manual_offers = manual_root.findall(".//offer")
+          output_offers = output_root.findall(".//offer")
+
+          manual_ids = {
+              offer.get("id")
+              for offer in manual_offers
+              if offer.get("id")
+          }
+
+          output_ids = {
+              offer.get("id")
+              for offer in output_offers
+              if offer.get("id")
+          }
+
+          print(f"Manual products: {len(manual_ids)}")
+          print(f"Final XML products: {len(output_ids)}")
+
+          if not manual_ids:
+              print("No manual products found.")
+              sys.exit(0)
+
+          missing = []
+
+          for product_id in sorted(manual_ids):
+              if product_id in output_ids:
+                  print(f"OK: {product_id} found in final XML")
+              else:
+                  print(f"ERROR: {product_id} NOT FOUND in final XML")
+                  missing.append(product_id)
+
+          if missing:
+              print()
+              print("Missing manual products:")
+
+              for product_id in missing:
+                  print(f"- {product_id}")
+
+              sys.exit(1)
+
+          print()
+          print("ALL MANUAL PRODUCTS FOUND IN FINAL XML")
+          PY
+
+      # ======================================================
+      # EPICENTR - SHOW MANUAL PRODUCTS FROM FINAL XML
+      # ======================================================
+
+      - name: Show manual products in final Epicentr XML
+        run: |
+          echo "========================================"
+          echo "MANUAL PRODUCTS IN FINAL EPICENTR XML"
+          echo "========================================"
+
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          manual_file = "data/manual/epicentr_manual_products.xml"
+          output_file = "data/output/epicentr/epicentr_updates.xml"
+
+          manual_root = ET.parse(manual_file).getroot()
+          output_root = ET.parse(output_file).getroot()
+
+          manual_ids = {
+              offer.get("id")
+              for offer in manual_root.findall(".//offer")
+              if offer.get("id")
+          }
+
+          for offer in output_root.findall(".//offer"):
+              product_id = offer.get("id")
+
+              if product_id not in manual_ids:
+                  continue
+
+              print("----------------------------------------")
+              print(f"ID: {product_id}")
+              print(f"available: {offer.get('available')}")
+
+              price = offer.findtext("price")
+              price_old = offer.findtext("price_old")
+              availability = offer.findtext("availability")
+
+              print(f"price: {price}")
+              print(f"price_old: {price_old}")
+              print(f"availability: {availability}")
+
+          print("----------------------------------------")
+          PY
 
       # ======================================================
       # ROZETKA
