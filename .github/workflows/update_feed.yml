@@ -42,18 +42,33 @@ jobs:
       # SUPPLIER FEED
       # ======================================================
 
-      # Якщо захочеш знову автоматично завантажувати
-      # supplier_feed.xml — просто розкоментуй цей блок.
+      # Автоматичне завантаження supplier_feed.xml
+      # наразі вимкнене.
+      #
+      # Якщо захочеш знову автоматично отримувати
+      # XML постачальника — розкоментуй:
       #
       # - name: Fetch supplier feed
       #   run: python -m scripts.common.fetch_supplier_feed
 
       # ======================================================
-      # DEBUG RAW XML
+      # CHECK SUPPLIER XML
       # ======================================================
 
-      - name: Debug downloaded XML
+      - name: Check supplier XML
         run: |
+          echo "========================================"
+          echo "SUPPLIER XML CHECK"
+          echo "========================================"
+
+          if [ ! -f data/raw/supplier_feed.xml ]; then
+            echo "ERROR: data/raw/supplier_feed.xml not found"
+            exit 1
+          fi
+
+          echo "Supplier XML found."
+
+          echo
           echo "===== FILE SIZE ====="
           ls -lh data/raw/supplier_feed.xml
 
@@ -68,8 +83,9 @@ jobs:
           echo
 
           echo
-          echo "===== CHECK SKU IN RAW ====="
-          grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml || echo "NOT FOUND IN RAW"
+          echo "===== CHECK TEST SUPPLIER SKU ====="
+          grep -n "M 4259EBLR-1" data/raw/supplier_feed.xml \
+            || echo "M 4259EBLR-1 NOT FOUND IN RAW"
 
       # ======================================================
       # GOOGLE
@@ -85,14 +101,97 @@ jobs:
         run: python -m scripts.google.update_stock
 
       # ======================================================
-      # EPICENTR
+      # EPICENTR - FULL FEED
       # ======================================================
 
-      - name: Export processed feed
+      - name: Export Epicentr full feed
         run: python -m scripts.epicentr.export_feed
+
+      # ======================================================
+      # EPICENTR - MANUAL PRODUCTS
+      # ======================================================
+
+      - name: Check Epicentr manual products XML
+        run: |
+          echo "========================================"
+          echo "EPICENTR MANUAL PRODUCTS CHECK"
+          echo "========================================"
+
+          if [ ! -f data/manual/epicentr_manual_products.xml ]; then
+            echo "ERROR: data/manual/epicentr_manual_products.xml not found"
+            exit 1
+          fi
+
+          echo "Manual Epicentr XML found."
+
+          echo
+          echo "===== MANUAL FILE SIZE ====="
+          ls -lh data/manual/epicentr_manual_products.xml
+
+          echo
+          echo "===== MANUAL OFFERS COUNT ====="
+
+          MANUAL_COUNT=$(grep -c "<offer " data/manual/epicentr_manual_products.xml || true)
+
+          echo "Manual offers: $MANUAL_COUNT"
+
+          echo
+          echo "===== MANUAL XML CONTENT ====="
+          cat data/manual/epicentr_manual_products.xml
+
+      # ======================================================
+      # EPICENTR - UPDATE FEED
+      # supplier + manual + history
+      # ======================================================
 
       - name: Export Epicentr updates feed
         run: python -m scripts.epicentr.export_updates_with_history
+
+      # ======================================================
+      # EPICENTR - CHECK RESULT
+      # ======================================================
+
+      - name: Check Epicentr updates result
+        run: |
+          echo "========================================"
+          echo "EPICENTR UPDATES RESULT"
+          echo "========================================"
+
+          if [ ! -f data/output/epicentr/epicentr_updates.xml ]; then
+            echo "ERROR: epicentr_updates.xml was not created"
+            exit 1
+          fi
+
+          echo "Epicentr updates XML created."
+
+          echo
+          echo "===== FILE SIZE ====="
+          ls -lh data/output/epicentr/epicentr_updates.xml
+
+          echo
+          echo "===== TOTAL OFFERS ====="
+
+          TOTAL_COUNT=$(grep -c "<offer " data/output/epicentr/epicentr_updates.xml || true)
+
+          echo "Total offers: $TOTAL_COUNT"
+
+          echo
+          echo "===== CHECK TEST MANUAL SKU ====="
+
+          if grep -q "TEST-SANKY-001" data/manual/epicentr_manual_products.xml; then
+
+            if grep -q "TEST-SANKY-001" data/output/epicentr/epicentr_updates.xml; then
+              echo "OK: TEST-SANKY-001 found in final Epicentr XML"
+              grep -n -A 4 -B 1 "TEST-SANKY-001" data/output/epicentr/epicentr_updates.xml
+            else
+              echo "ERROR: TEST-SANKY-001 exists in manual XML but is missing from final XML"
+              exit 1
+            fi
+
+          else
+            echo "TEST-SANKY-001 is no longer present in manual XML."
+            echo "Skipping test SKU check."
+          fi
 
       # ======================================================
       # ROZETKA
@@ -110,16 +209,56 @@ jobs:
 
       - name: Debug output feeds
         run: |
-          echo "===== OUTPUT FILES ====="
+          echo "========================================"
+          echo "OUTPUT FILES"
+          echo "========================================"
+
           find data/output -maxdepth 3 -type f -print
 
           echo
-          echo "===== ROZETKA FILE SIZE ====="
-          ls -lh data/output/rozetka/rozetka_feed.xml
+          echo "===== EPICENTR FULL FEED ====="
+
+          if [ -f data/output/epicentr/epicentr_feed.xml ]; then
+            ls -lh data/output/epicentr/epicentr_feed.xml
+          else
+            echo "epicentr_feed.xml NOT FOUND"
+          fi
 
           echo
-          echo "===== CHECK SKU IN OUTPUT ====="
-          grep -R "M 4259EBLR-1" data/output/ || echo "NOT FOUND IN OUTPUT"
+          echo "===== EPICENTR UPDATES FEED ====="
+
+          if [ -f data/output/epicentr/epicentr_updates.xml ]; then
+            ls -lh data/output/epicentr/epicentr_updates.xml
+          else
+            echo "epicentr_updates.xml NOT FOUND"
+          fi
+
+          echo
+          echo "===== ROZETKA FEED ====="
+
+          if [ -f data/output/rozetka/rozetka_feed.xml ]; then
+            ls -lh data/output/rozetka/rozetka_feed.xml
+          else
+            echo "rozetka_feed.xml NOT FOUND"
+          fi
+
+          echo
+          echo "===== CHECK SUPPLIER SKU IN OUTPUT ====="
+
+          grep -R "M 4259EBLR-1" data/output/ \
+            || echo "M 4259EBLR-1 NOT FOUND IN OUTPUT"
+
+      # ======================================================
+      # GIT STATUS
+      # ======================================================
+
+      - name: Show git status
+        run: |
+          echo "========================================"
+          echo "GIT STATUS"
+          echo "========================================"
+
+          git status
 
       # ======================================================
       # COMMIT + PUSH
@@ -130,8 +269,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          echo "===== GIT STATUS BEFORE ADD ====="
+          echo "========================================"
+          echo "GIT STATUS BEFORE ADD"
+          echo "========================================"
+
           git status
+
+          echo
+          echo "===== ADD GENERATED FILES ====="
 
           git add \
             state/fetch_meta.json \
@@ -141,19 +286,28 @@ jobs:
 
           echo
           echo "===== STAGED CHANGES ====="
+
           git diff --cached --stat
+
+          echo
+          echo "===== CHECK FOR CHANGES ====="
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Auto-update supplier feed"
+          echo
+          echo "===== COMMIT ====="
+
+          git commit -m "Auto-update product feeds"
 
           echo
           echo "===== SYNC WITH REMOTE MAIN ====="
+
           git pull --rebase origin main
 
           echo
           echo "===== PUSH ====="
+
           git push origin main
