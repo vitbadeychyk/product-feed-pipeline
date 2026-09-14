@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-14 03:15">
+<yml_catalog date="2026-09-14 09:32">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -1881,10 +1881,10 @@
       <price_old>6240</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="64490" available="true">
+    <offer id="64490" available="false">
       <price>5700</price>
       <price_old>7410</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="65049" available="false">
       <price>39400</price>
@@ -6561,10 +6561,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4478-ST-WHEEL" available="true">
+    <offer id="M 4478-ST-WHEEL" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4478-bluetooth(12V)" available="true">
       <price>1100</price>
@@ -9131,10 +9131,10 @@
       <price_old>4420</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5673 Gray" available="true">
+    <offer id="M 5673 Gray" available="false">
       <price>3400</price>
       <price_old>4420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5673 Mint" available="false">
       <price>3400</price>
@@ -12111,10 +12111,10 @@
       <price_old>20410</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6080EBLR-8-2" available="true">
+    <offer id="M 6080EBLR-8-2" available="false">
       <price>18300</price>
       <price_old>23790</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6080EL-11(24V)" available="false">
       <price>16100</price>
@@ -13156,10 +13156,10 @@
       <price_old>5720</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6145(A)EBR-8" available="true">
+    <offer id="M 6145(A)EBR-8" available="false">
       <price>5200</price>
       <price_old>6760</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6145-GEAR BOX" available="false">
       <price>1000</price>
@@ -20107,13 +20107,13 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="ME 1177 Cream Beige" available="true">
-      <price>3600</price>
-      <price_old>4680</price_old>
+      <price>4400</price>
+      <price_old>5720</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="ME 1177 Menta" available="true">
-      <price>3600</price>
-      <price_old>4680</price_old>
+      <price>4400</price>
+      <price_old>5720</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="ME 1177 Quiet Gray" available="false">
@@ -20126,10 +20126,10 @@
       <price_old>4680</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1177 Taupe Beige" available="true">
+    <offer id="ME 1177 Taupe Beige" available="false">
       <price>4400</price>
       <price_old>5720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1177 Total Gray" available="true">
       <price>4400</price>
@@ -20226,10 +20226,10 @@
       <price_old>17030</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1183 Iris Blue" available="true">
+    <offer id="ME 1183 Iris Blue" available="false">
       <price>13500</price>
       <price_old>17550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1183 Silver Milk" available="false">
       <price>13400</price>
@@ -20426,10 +20426,10 @@
       <price_old>1300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1192 Black" available="true">
+    <offer id="ME 1192 Black" available="false">
       <price>7400</price>
       <price_old>9620</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1192 Milk Chocolate" available="false">
       <price>7300</price>
@@ -20566,10 +20566,10 @@
       <price_old>5070</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1204-11" available="true">
+    <offer id="ME 1204-11" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1204-13" available="true">
       <price>3200</price>
@@ -21766,15 +21766,15 @@
       <price_old>5980</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="N 2071-28-1" available="true">
+    <offer id="N 2071-28-1" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="N 2071-28-7" available="true">
+    <offer id="N 2071-28-7" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="N 2071-3-1" available="false">
       <price>4300</price>
@@ -21796,10 +21796,10 @@
       <price_old>5980</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="N 2071-32-7" available="true">
+    <offer id="N 2071-32-7" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="N 2071-34-1" available="true">
       <price>4600</price>
@@ -21811,15 +21811,15 @@
       <price_old>5980</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="N 2071-35-2" available="true">
+    <offer id="N 2071-35-2" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="N 2071-36-1" available="true">
+    <offer id="N 2071-36-1" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="N 2071-37-1" available="true">
       <price>4600</price>
