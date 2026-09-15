@@ -93,6 +93,42 @@ def can_map_item_to_eva(item: ET.Element, supplier_category_id: str) -> bool:
     return "гірк" in name or "горк" in name
 
 
+def normalize_multilang_params(root: ET.Element) -> None:
+    """Переносить мову з param у підтримувані EVA вкладені value."""
+    for offer in root.findall("./shop/offers/offer"):
+        localized: dict[str, dict[str, str]] = {}
+        localized_elements: list[ET.Element] = []
+
+        for param in offer.findall("param"):
+            language = (param.get("lang") or "").strip().lower()
+            if not language:
+                continue
+
+            name = (param.get("name") or "").strip()
+            value = (param.text or "").strip()
+            if not name or not value:
+                continue
+
+            eva_language = "uk" if language in {"ua", "uk"} else language
+            localized.setdefault(name, {})[eva_language] = value
+            localized_elements.append(param)
+
+        for param in localized_elements:
+            offer.remove(param)
+
+        for name, values in localized.items():
+            param = ET.SubElement(offer, "param")
+            param.set("name", name)
+
+            for language in ("uk", "ru"):
+                value = values.get(language)
+                if not value:
+                    continue
+                value_element = ET.SubElement(param, "value")
+                value_element.set("lang", language)
+                value_element.text = value
+
+
 def export_eva_feed() -> None:
     print("\n========================================")
     print("EVA FEED GENERATION")
@@ -158,6 +194,7 @@ def export_eva_feed() -> None:
     if exported_count == 0:
         raise RuntimeError("Не експортовано жодного товару для EVA")
 
+    normalize_multilang_params(root)
     apply_eva_categories(root, used_supplier_category_ids)
 
     tree = ET.ElementTree(root)
