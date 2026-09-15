@@ -97,7 +97,7 @@ def calculate_price(original_price: float, category_id: str) -> float:
         return 0.0
 
     commission = get_commission(category_id)
-    supplier_net_price = original_price * 0.78
+    supplier_net_price = original_price * 0.79
     target_amount = supplier_net_price + get_markup(original_price)
     return round_up_to_100(target_amount / (1.0 - commission))
 
