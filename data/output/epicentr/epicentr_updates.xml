@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-15 14:09">
+<yml_catalog date="2026-09-15 09:10">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -7126,10 +7126,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4806-GEAR BOX" available="false">
+    <offer id="M 4806-GEAR BOX" available="true">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 4806-RC RECEIVER" available="false">
       <price>1200</price>
@@ -10781,10 +10781,10 @@
       <price_old>1430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5899EBLR-1" available="true">
+    <offer id="M 5899EBLR-1" available="false">
       <price>8300</price>
       <price_old>10790</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5899EBLR-2" available="false">
       <price>8300</price>
@@ -13776,10 +13776,10 @@
       <price_old>1300</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6192EBLR-1(24V)" available="false">
+    <offer id="M 6192EBLR-1(24V)" available="true">
       <price>14500</price>
       <price_old>18850</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6192EBLR-2(24V)" available="false">
       <price>14500</price>
@@ -14621,10 +14621,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6260-GEAR BOX" available="false">
+    <offer id="M 6260-GEAR BOX" available="true">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6260-R-EVA WHEEL" available="true">
       <price>1300</price>
@@ -15465,11 +15465,6 @@
       <price>1000</price>
       <price_old>1300</price_old>
       <availability>out_of_stock</availability>
-    </offer>
-    <offer id="M 6285EBLR-3(24V)" available="true">
-      <price>15200</price>
-      <price_old>19760</price_old>
-      <availability>in_stock</availability>
     </offer>
     <offer id="M 6285EBLR-4(24V)" available="false">
       <price>13200</price>
@@ -16397,8 +16392,8 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6313(MP4)EBLR-1(24V)" available="true">
-      <price>24200</price>
-      <price_old>31460</price_old>
+      <price>23900</price>
+      <price_old>31070</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6313(MP4)EBLRS-11(24V)" available="true">
@@ -16457,18 +16452,18 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6313EBLRS-11(24V)" available="true">
-      <price>24600</price>
-      <price_old>31980</price_old>
+      <price>24500</price>
+      <price_old>31850</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6313EBLRS-2(24V)" available="true">
-      <price>25000</price>
-      <price_old>32500</price_old>
+      <price>24500</price>
+      <price_old>31850</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6313EBLRS-3(24V)" available="true">
-      <price>24600</price>
-      <price_old>31980</price_old>
+      <price>24500</price>
+      <price_old>31850</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6314 RC-RECEIVER" available="false">
@@ -16572,8 +16567,8 @@
       <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6315EBLR-1(24V)" available="true">
-      <price>23800</price>
-      <price_old>30940</price_old>
+      <price>23500</price>
+      <price_old>30550</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6315EBLR-11(24V)" available="true">
@@ -16597,8 +16592,8 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6315EBLRS-2(24V)" available="true">
-      <price>26000</price>
-      <price_old>33800</price_old>
+      <price>25600</price>
+      <price_old>33280</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6315EBLRS-3(24V)" available="true">
@@ -18036,10 +18031,10 @@
       <price_old>18200</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6376EBLR-2" available="false">
+    <offer id="M 6376EBLR-2" available="true">
       <price>14000</price>
       <price_old>18200</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6376EBLR-3" available="false">
       <price>14000</price>
@@ -20421,10 +20416,10 @@
       <price_old>8190</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1191-1 Black" available="false">
+    <offer id="ME 1191-1 Black" available="true">
       <price>12600</price>
       <price_old>16380</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1191-1 Emerald Green" available="true">
       <price>12600</price>
@@ -20662,8 +20657,8 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="ME 1210 Praline" available="true">
-      <price>5400</price>
-      <price_old>7020</price_old>
+      <price>5800</price>
+      <price_old>7540</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="ME 1215 Beige" available="true">

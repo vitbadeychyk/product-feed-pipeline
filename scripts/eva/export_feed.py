@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_FILE = BASE_DIR / "data" / "output" / "eva" / "eva_feed.xml"
 
 
-def replace_categories_with_eva(
+def apply_eva_categories(
     root: ET.Element,
     supplier_category_ids: set[str],
 ) -> None:
@@ -38,31 +38,45 @@ def replace_categories_with_eva(
         raise RuntimeError("У сформованому XML не знайдено блок categories")
 
     categories.clear()
-    added: set[str] = set()
-
     for supplier_category_id in sorted(supplier_category_ids):
         eva_category_id = get_eva_category_id(supplier_category_id)
-        if not eva_category_id or eva_category_id in added:
+        if not eva_category_id:
             continue
 
         category = ET.SubElement(categories, "category")
-        category.set("id", eva_category_id)
+        category.set("id", supplier_category_id)
+        category.set("eva_id", eva_category_id)
         category.text = EVA_CATEGORY_NAMES[eva_category_id]
-        added.add(eva_category_id)
 
-    for offer in root.findall("./shop/offers/offer"):
-        category_element = offer.find("categoryId")
-        if category_element is None:
-            continue
 
-        supplier_category_id = (category_element.text or "").strip()
-        eva_category_id = get_eva_category_id(supplier_category_id)
-        if not eva_category_id:
-            raise RuntimeError(
-                f"Товар {offer.get('id')} має категорію без відповідності EVA: "
-                f"{supplier_category_id}"
-            )
-        category_element.text = eva_category_id
+def write_xml_with_cdata(tree: ET.ElementTree, output_file: Path) -> None:
+    """Записує HTML-описи у CDATA, як вимагає EVA."""
+    root = tree.getroot()
+    replacements: list[tuple[str, str]] = []
+
+    for index, description in enumerate(
+        root.findall("./shop/offers/offer/description")
+        + root.findall("./shop/offers/offer/description_ua")
+    ):
+        token = f"__EVA_CDATA_{index:08d}__"
+        value = description.text or ""
+        safe_cdata = value.replace("]]>", "]]]]><![CDATA[>")
+        replacements.append((token, safe_cdata))
+        description.text = token
+
+    xml_text = ET.tostring(root, encoding="unicode", short_empty_elements=True)
+
+    for token, value in replacements:
+        xml_text = xml_text.replace(
+            f">{token}<",
+            f"><![CDATA[{value}]]><",
+            1,
+        )
+
+    output_file.write_text(
+        "<?xml version='1.0' encoding='utf-8'?>\n" + xml_text,
+        encoding="utf-8",
+    )
 
 
 def can_map_item_to_eva(item: ET.Element, supplier_category_id: str) -> bool:
@@ -144,12 +158,12 @@ def export_eva_feed() -> None:
     if exported_count == 0:
         raise RuntimeError("Не експортовано жодного товару для EVA")
 
-    replace_categories_with_eva(root, used_supplier_category_ids)
+    apply_eva_categories(root, used_supplier_category_ids)
 
     tree = ET.ElementTree(root)
     ET.indent(tree, space="  ", level=0)
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+    write_xml_with_cdata(tree, OUTPUT_FILE)
 
     print(f"Всього товарів постачальника: {len(source_items)}")
     print(f"Експортовано для EVA: {exported_count}")
