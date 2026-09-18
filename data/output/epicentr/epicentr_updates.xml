@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-18 15:47">
+<yml_catalog date="2026-09-18 18:51">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -2761,10 +2761,10 @@
       <price_old>1300</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="CHAIN" available="true">
+    <offer id="CHAIN" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="CHAIN-G-AFB200" available="true">
       <price>1300</price>
@@ -3496,10 +3496,10 @@
       <price_old>44460</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="HB-EATV08-350-7" available="true">
+    <offer id="HB-EATV08-350-7" available="false">
       <price>34200</price>
       <price_old>44460</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="HB-EATV1000D(MP3)-2-3" available="false">
       <price>40200</price>
@@ -5276,10 +5276,10 @@
       <price_old>3380</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 3503B-1" available="true">
+    <offer id="M 3503B-1" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 3503B-3" available="true">
       <price>2600</price>
@@ -8296,10 +8296,10 @@
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5027-GEAR BOX" available="true">
+    <offer id="M 5027-GEAR BOX" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5027-RC" available="false">
       <price>1100</price>
@@ -8876,10 +8876,10 @@
       <price_old>17810</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5099EBLR-3(24V)" available="true">
+    <offer id="M 5099EBLR-3(24V)" available="false">
       <price>13700</price>
       <price_old>17810</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5099EBLR-4(24V)" available="false">
       <price>13700</price>
@@ -11251,10 +11251,10 @@
       <price_old>1300</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6019EBLR-1" available="true">
+    <offer id="M 6019EBLR-1" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6019EBLR-3" available="true">
       <price>18900</price>
@@ -18036,10 +18036,10 @@
       <price_old>1430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6376EBLR-10" available="true">
+    <offer id="M 6376EBLR-10" available="false">
       <price>14000</price>
       <price_old>18200</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6376EBLR-2" available="false">
       <price>14000</price>
@@ -18406,10 +18406,10 @@
       <price_old>23660</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6409EBLR-13" available="true">
+    <offer id="M 6409EBLR-13" available="false">
       <price>18200</price>
       <price_old>23660</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6409EBLR-3" available="true">
       <price>18200</price>
@@ -18441,10 +18441,10 @@
       <price_old>10270</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6410EBLR-11" available="true">
+    <offer id="M 6410EBLR-11" available="false">
       <price>9500</price>
       <price_old>12350</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6410EBLR-3" available="false">
       <price>7900</price>
@@ -20031,10 +20031,10 @@
       <price_old>2470</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1151 Deep Green" available="true">
+    <offer id="ME 1151 Deep Green" available="false">
       <price>1900</price>
       <price_old>2470</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1151 Gray" available="false">
       <price>1900</price>
@@ -20376,10 +20376,10 @@
       <price_old>17030</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1190 Hot Chocolate" available="true">
+    <offer id="ME 1190 Hot Chocolate" available="false">
       <price>15000</price>
       <price_old>19500</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1190 Iris Blue" available="false">
       <price>13100</price>
@@ -21401,10 +21401,10 @@
       <price_old>3510</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MS 4291-R" available="true">
+    <offer id="MS 4291-R" available="false">
       <price>5200</price>
       <price_old>6760</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MS 4681" available="true">
       <price>2100</price>
@@ -22097,8 +22097,8 @@
       <availability>in_stock</availability>
     </offer>
     <offer id="RC RECEIVER-1000N/AS" available="true">
-      <price>2500</price>
-      <price_old>3250</price_old>
+      <price>2400</price>
+      <price_old>3120</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="RC RECEIVER-1000Q" available="true">
