@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-19 08:30">
+<yml_catalog date="2026-09-19 15:19">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -46,10 +46,10 @@
       <price_old>6240</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="08-025R-BOX" available="true">
+    <offer id="08-025R-BOX" available="false">
       <price>4800</price>
       <price_old>6240</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="09-025R-BOX" available="true">
       <price>4800</price>
@@ -2216,10 +2216,10 @@
       <price_old>2340</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="A4122-XS-P" available="true">
+    <offer id="A4122-XS-P" available="false">
       <price>1800</price>
       <price_old>2340</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="A4123-XS-PGR" available="true">
       <price>1800</price>
@@ -4541,10 +4541,10 @@
       <price_old>2080</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="JR3-163-W" available="true">
+    <offer id="JR3-163-W" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="JR3-164-GR" available="false">
       <price>2200</price>
@@ -8041,10 +8041,10 @@
       <price_old>3900</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 501-16" available="true">
+    <offer id="M 501-16" available="false">
       <price>3000</price>
       <price_old>3900</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 501-18" available="false">
       <price>3000</price>
@@ -8736,10 +8736,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5096-GEAR BOX" available="true">
+    <offer id="M 5096-GEAR BOX" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5096-RC RECEIVER" available="true">
       <price>1400</price>
@@ -14441,10 +14441,10 @@
       <price_old>18720</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6256EBLR-5" available="true">
+    <offer id="M 6256EBLR-5" available="false">
       <price>14400</price>
       <price_old>18720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6256EBLR-6" available="false">
       <price>14400</price>
@@ -19376,20 +19376,20 @@
       <price_old>2210</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MBB 1053-2" available="true">
+    <offer id="MBB 1053-2" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MBB 1053-3" available="true">
       <price>1700</price>
       <price_old>2210</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MBB 1053-4" available="true">
+    <offer id="MBB 1053-4" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MBB 1053-5" available="true">
       <price>1700</price>
