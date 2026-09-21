@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-21 09:34">
+<yml_catalog date="2026-09-21 17:50">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -5436,10 +5436,10 @@
       <price_old>22880</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 3804EBLR-4" available="true">
+    <offer id="M 3804EBLR-4" available="false">
       <price>17600</price>
       <price_old>22880</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 3893-GEAR BOX" available="true">
       <price>1200</price>
@@ -9406,10 +9406,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5736AL-5(24V)" available="true">
+    <offer id="M 5736AL-5(24V)" available="false">
       <price>41800</price>
       <price_old>54340</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5737 FRONT BEARING" available="true">
       <price>1000</price>
@@ -13666,25 +13666,25 @@
       <price_old>4290</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6177-11" available="false">
-      <price>3100</price>
-      <price_old>4030</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6177-11" available="true">
+      <price>3000</price>
+      <price_old>3900</price_old>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6177-13" available="false">
+    <offer id="M 6177-13" available="true">
       <price>3100</price>
       <price_old>4030</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6177-4" available="false">
+    <offer id="M 6177-4" available="true">
       <price>3100</price>
       <price_old>4030</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6177-8" available="false">
+    <offer id="M 6177-8" available="true">
       <price>3100</price>
       <price_old>4030</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6180-13" available="false">
       <price>1600</price>
@@ -15401,10 +15401,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6283EL-1-2" available="true">
+    <offer id="M 6283EL-1-2" available="false">
       <price>12100</price>
       <price_old>15730</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6283EL-18" available="false">
       <price>10500</price>
@@ -17261,10 +17261,10 @@
       <price_old>27430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6349EBLR-5(24V)" available="true">
+    <offer id="M 6349EBLR-5(24V)" available="false">
       <price>21100</price>
       <price_old>27430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6349EBLR-7(24V)" available="false">
       <price>21100</price>
@@ -19741,10 +19741,10 @@
       <price_old>6500</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1110 Simply Gray" available="false">
+    <offer id="ME 1110 Simply Gray" available="true">
       <price>5200</price>
       <price_old>6760</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1110 i-FIX Base" available="true">
       <price>4300</price>
@@ -20506,20 +20506,20 @@
       <price_old>3770</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1196 Beige" available="false">
-      <price>2800</price>
-      <price_old>3640</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1196 Beige" available="true">
+      <price>2900</price>
+      <price_old>3770</price_old>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1196 Dark Gray" available="false">
-      <price>2800</price>
-      <price_old>3640</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1196 Dark Gray" available="true">
+      <price>2900</price>
+      <price_old>3770</price_old>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1196 Gray" available="false">
-      <price>2800</price>
-      <price_old>3640</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1196 Gray" available="true">
+      <price>2900</price>
+      <price_old>3770</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1198 Base 360" available="false">
       <price>4100</price>
@@ -21951,10 +21951,10 @@
       <price_old>2600</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="PS-1601" available="false">
+    <offer id="PS-1601" available="true">
       <price>41400</price>
       <price_old>53820</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="PS-1602" available="false">
       <price>41400</price>
@@ -22891,10 +22891,10 @@
       <price_old>2600</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="VN-1601" available="false">
+    <offer id="VN-1601" available="true">
       <price>39600</price>
       <price_old>51480</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="VN-Charger" available="true">
       <price>1800</price>
