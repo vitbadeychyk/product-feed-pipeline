@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-21 03:13">
+<yml_catalog date="2026-09-21 09:34">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -3156,10 +3156,10 @@
       <price_old>9360</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="FD-2406" available="true">
+    <offer id="FD-2406" available="false">
       <price>7200</price>
       <price_old>9360</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="FD-2601" available="true">
       <price>7300</price>
@@ -5496,10 +5496,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 3906EBLR-1" available="true">
+    <offer id="M 3906EBLR-1" available="false">
       <price>20100</price>
       <price_old>26130</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 3906EBLRS-2" available="true">
       <price>22200</price>
@@ -7126,10 +7126,10 @@
       <price_old>1430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 4806-EVA WHEEL" available="true">
+    <offer id="M 4806-EVA WHEEL" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4806-GEAR BOX" available="false">
       <price>1100</price>
@@ -11271,10 +11271,10 @@
       <price_old>24570</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6019EBLR-8" available="true">
+    <offer id="M 6019EBLR-8" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6020-EVA WHEEL" available="false">
       <price>1100</price>
@@ -14336,10 +14336,10 @@
       <price_old>4160</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6254EL-1" available="true">
+    <offer id="M 6254EL-1" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6254EL-11" available="false">
       <price>3200</price>
@@ -14731,10 +14731,10 @@
       <price_old>1300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6262EL-11" available="true">
+    <offer id="M 6262EL-11" available="false">
       <price>6000</price>
       <price_old>7800</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6262EL-3" available="false">
       <price>6000</price>
@@ -15416,10 +15416,10 @@
       <price_old>15730</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6283EL-4" available="true">
+    <offer id="M 6283EL-4" available="false">
       <price>12100</price>
       <price_old>15730</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6283EL-5" available="false">
       <price>10500</price>
@@ -16359,6 +16359,11 @@
     <offer id="M 6312-GEAR BOX" available="true">
       <price>1400</price>
       <price_old>1820</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6312-RC 24V" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6312-RC-RECEIVER(24V)" available="true">
@@ -18516,10 +18521,10 @@
       <price_old>4160</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6483-4" available="true">
+    <offer id="M 6483-4" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6483-8" available="false">
       <price>3200</price>
@@ -20911,10 +20916,10 @@
       <price_old>7800</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MEB 700C DASH CONTROLLER" available="true">
+    <offer id="MEB 700C DASH CONTROLLER" available="false">
       <price>4400</price>
       <price_old>5720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MEB 700C DASH PEDAL" available="true">
       <price>1200</price>
@@ -21946,10 +21951,10 @@
       <price_old>2600</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="PS-1601" available="true">
+    <offer id="PS-1601" available="false">
       <price>41400</price>
       <price_old>53820</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="PS-1602" available="false">
       <price>41400</price>
@@ -22886,10 +22891,10 @@
       <price_old>2600</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="VN-1601" available="true">
+    <offer id="VN-1601" available="false">
       <price>39600</price>
       <price_old>51480</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="VN-Charger" available="true">
       <price>1800</price>
