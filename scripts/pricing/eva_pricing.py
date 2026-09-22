@@ -83,12 +83,12 @@ def get_commission(supplier_category_id: str, promo: bool = False) -> float:
 
 def get_markup(price: float) -> float:
     if price <= 4999:
-        return 700.0
-    if price <= 9999:
         return 1000.0
-    if price <= 19999:
+    if price <= 9999:
         return 1500.0
-    return 2000.0
+    if price <= 19999:
+        return 2500.0
+    return 3500.0
 
 
 def calculate_price(original_price: float, category_id: str) -> float:
