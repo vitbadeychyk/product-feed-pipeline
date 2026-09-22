@@ -290,6 +290,16 @@ jobs:
         run: python -m scripts.rozetka.export_feed
 
       # ======================================================
+      # EVA
+      # ======================================================
+
+      - name: Export EVA feed
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -m scripts.eva.export_feed
+
+      # ======================================================
       # DEBUG OUTPUT
       # ======================================================
 
@@ -326,6 +336,16 @@ jobs:
             ls -lh data/output/rozetka/rozetka_feed.xml
           else
             echo "rozetka_feed.xml NOT FOUND"
+          fi
+
+          echo
+          echo "===== EVA FEED ====="
+
+          if [ -f data/output/eva/eva_feed.xml ]; then
+            ls -lh data/output/eva/eva_feed.xml
+          else
+            echo "eva_feed.xml NOT FOUND"
+            exit 1
           fi
 
           echo
