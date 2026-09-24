@@ -2257,36 +2257,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="298914" selling_type="r">
-            <name>Джип M 5880EBLRS-11(24V)</name>
-            <name_ua>Джип M 5880EBLRS-11(24V)</name_ua>
-            <categoryId>77</categoryId>
-            <price>33414</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=298914&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/917182.jpg</image>
-            <image>https://metr-plus.com.ua/img/919292.jpg</image>
-            <image>https://metr-plus.com.ua/img/919293.jpg</image>
-            <image>https://metr-plus.com.ua/img/919294.jpg</image>
-            <image>https://metr-plus.com.ua/img/919295.jpg</image>
-            <image>https://metr-plus.com.ua/img/919296.jpg</image>
-            <image>https://metr-plus.com.ua/img/919297.jpg</image>
-            <image>https://metr-plus.com.ua/img/919298.jpg</image>
-            <image>https://metr-plus.com.ua/img/919299.jpg</image>
-            <image>https://metr-plus.com.ua/img/919300.jpg</image>
-            <image>https://metr-plus.com.ua/img/919301.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 5880EBLRS-11(24V)</vendorCode>
-            <barcode>6903317657049</barcode>
-            <description><![CDATA[(1шт) 2,4G(р/к), 4мотори200W, 1акум24V7AH, BLUETOOTH,USB,MP3,LED, EVA, фарб.сірий]]></description>
-            <description_ua><![CDATA[(1шт) 2,4G(р/к), 4мотори200W, 1акум24V7AH, BLUETOOTH,USB,MP3,LED, EVA, фарб.сірий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="299079" selling_type="r">
             <name>Джип M 5880EBLRS-2(24V)</name>
             <name_ua>Джип M 5880EBLRS-2(24V)</name_ua>
@@ -3057,6 +3027,37 @@
                 <value lang="uk">17см</value>
                 <value lang="ru">17см</value>
             </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="329921" selling_type="r">
+            <name>Джип M 6257EBLR-11</name>
+            <name_ua>Джип M 6257EBLR-11</name_ua>
+            <categoryId>77</categoryId>
+            <price>16076</price>
+            <price_rrc>16076</price_rrc>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=329921&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1016031.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017186.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017187.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017188.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017189.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017190.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017191.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017192.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017193.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017194.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017195.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6257EBLR-11</vendorCode>
+            <barcode>6903317796342</barcode>
+            <description><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, сірий]]></description>
+            <description_ua><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, сірий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -3908,6 +3909,30 @@
                 <value lang="ru">пластмаса, тканина</value>
             </param>
         </item>
+        <item id="363767" selling_type="r">
+            <name>Адаптер для автокресла ME 1221-1 ADAPTER</name>
+            <name_ua>Адаптер для автокрісла ME 1221-1 ADAPTER</name_ua>
+            <categoryId>114</categoryId>
+            <price>393</price>
+                <url>https://metr-plus.com.ua/index.php?section=114&amp;id=363767&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1156874.jpg</image>
+                <available>true</available>
+            <vendor>EL CAMINO</vendor>
+            <vendorCode>ME 1221-1 ADAPTER</vendorCode>
+            <barcode>6903317891429</barcode>
+            <description><![CDATA[к коляске ME 1221 ELLE, набор из 2шт, в коробке, 27-10-8см]]></description>
+            <description_ua><![CDATA[до коляски ME 1221 ELLE, набір з 2шт, в коробці, 27-10-8см]]></description_ua>
+            <param name="Розмір упаковки">
+                <value lang="uk">27-10-8см</value>
+                <value lang="ru">27-10-8см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="363776" selling_type="r">
             <name>Деревянная игрушка Бизиборд MD 0270</name>
             <name_ua>Дерев&apos;яна іграшка Бізіборд MD 0270</name_ua>
@@ -4463,7 +4488,9 @@
             <name>Горка-качель B0903-4</name>
             <name_ua>Гірка-гойдалка B0903-4</name_ua>
             <categoryId>84</categoryId>
-            <price>8346</price>
+            <price>5842</price>
+                <old_price>8345.59</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=131637&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4493,7 +4520,9 @@
             <name>Горка-качель HF-H002</name>
             <name_ua>Гірка-гойдалка HF-H002</name_ua>
             <categoryId>84</categoryId>
-            <price>7037</price>
+            <price>4926</price>
+                <old_price>7036.17</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=182255&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4521,7 +4550,9 @@
             <name>Самокат SR 2-046-B</name>
             <name_ua>Самокат SR 2-046-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3154</price>
+            <price>1577</price>
+                <old_price>3153.42</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=194226&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4548,7 +4579,9 @@
             <name>Самокат SR 2-047-B</name>
             <name_ua>Самокат SR 2-047-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3241</price>
+            <price>1621</price>
+                <old_price>3240.18</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=205902&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4574,7 +4607,9 @@
             <name>Самокат SR 2-047-GR</name>
             <name_ua>Самокат SR 2-047-GR</name_ua>
             <categoryId>79</categoryId>
-            <price>3241</price>
+            <price>1621</price>
+                <old_price>3240.18</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=207582&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4600,7 +4635,9 @@
             <name>Толокар M 4086-3</name>
             <name_ua>Толокар M 4086-3</name_ua>
             <categoryId>491</categoryId>
-            <price>1097</price>
+            <price>987</price>
+                <old_price>1096.57</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=78&amp;id=213272&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4675,7 +4712,9 @@
             <name>Самокат SR 2-047-BBL</name>
             <name_ua>Самокат SR 2-047-BBL</name_ua>
             <categoryId>79</categoryId>
-            <price>3241</price>
+            <price>1621</price>
+                <old_price>3240.18</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=221441&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4699,7 +4738,9 @@
             <name>Горка WM19003-4</name>
             <name_ua>Гірка WM19003-4</name_ua>
             <categoryId>84</categoryId>
-            <price>3410</price>
+            <price>2387</price>
+                <old_price>3409.86</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=229455&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4720,7 +4761,9 @@
             <name>Горка WM19003-8</name>
             <name_ua>Гірка WM19003-8</name_ua>
             <categoryId>84</categoryId>
-            <price>3410</price>
+            <price>2046</price>
+                <old_price>3409.85</old_price>
+            <discount>40%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=229456&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4741,7 +4784,9 @@
             <name>Столик NEW TABLE-8</name>
             <name_ua>Столик NEW TABLE-8</name_ua>
             <categoryId>81</categoryId>
-            <price>5210</price>
+            <price>4168</price>
+                <old_price>5209.19</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=229533&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4793,7 +4838,9 @@
             <name>Самокат SR 2-043-1-B</name>
             <name_ua>Самокат SR 2-043-1-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=238287&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4817,7 +4864,9 @@
             <name>Самокат SR 2-043-1-GR</name>
             <name_ua>Самокат SR 2-043-1-GR</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=238288&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4841,7 +4890,9 @@
             <name>Самокат SR 2-043-1-W</name>
             <name_ua>Самокат SR 2-043-1-W</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=238289&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4865,7 +4916,9 @@
             <name>Самокат SR 2-047-W</name>
             <name_ua>Самокат SR 2-047-W</name_ua>
             <categoryId>79</categoryId>
-            <price>3241</price>
+            <price>1621</price>
+                <old_price>3240.18</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=238291&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4889,7 +4942,9 @@
             <name>Горка YG2020-2-1-4</name>
             <name_ua>Гірка YG2020-2-1-4</name_ua>
             <categoryId>84</categoryId>
-            <price>3961</price>
+            <price>2773</price>
+                <old_price>3960.49</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=248450&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4914,7 +4969,9 @@
             <name>Горка YG2020-2-1-8</name>
             <name_ua>Гірка YG2020-2-1-8</name_ua>
             <categoryId>84</categoryId>
-            <price>3961</price>
+            <price>2773</price>
+                <old_price>3960.49</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=248451&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4939,7 +4996,9 @@
             <name>Самокат SR 2-043-1-BL</name>
             <name_ua>Самокат SR 2-043-1-BL</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248508&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4963,7 +5022,9 @@
             <name>Самокат SR 2-043-1-G</name>
             <name_ua>Самокат SR 2-043-1-G</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.32</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248509&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -4987,7 +5048,9 @@
             <name>Самокат SR 2-043-1-R</name>
             <name_ua>Самокат SR 2-043-1-R</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248511&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5011,7 +5074,9 @@
             <name>Самокат SR 2-043-1-V</name>
             <name_ua>Самокат SR 2-043-1-V</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248512&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5035,7 +5100,9 @@
             <name>Самокат SR 2-043-2-B</name>
             <name_ua>Самокат SR 2-043-2-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3355</price>
+            <price>1678</price>
+                <old_price>3355.04</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248513&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5059,7 +5126,9 @@
             <name>Самокат SR 2-043-2-G</name>
             <name_ua>Самокат SR 2-043-2-G</name_ua>
             <categoryId>79</categoryId>
-            <price>3355</price>
+            <price>1678</price>
+                <old_price>3355.04</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248514&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5083,7 +5152,9 @@
             <name>Самокат SR 2-043-2-W</name>
             <name_ua>Самокат SR 2-043-2-W</name_ua>
             <categoryId>79</categoryId>
-            <price>3355</price>
+            <price>1678</price>
+                <old_price>3355.04</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248515&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5107,7 +5178,9 @@
             <name>Самокат SR 2-044-1-B</name>
             <name_ua>Самокат SR 2-044-1-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3500</price>
+            <price>1750</price>
+                <old_price>3499.24</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248516&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5131,7 +5204,9 @@
             <name>Самокат SR 2-045-1-B</name>
             <name_ua>Самокат SR 2-045-1-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3682</price>
+            <price>1841</price>
+                <old_price>3681.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248517&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5155,7 +5230,9 @@
             <name>Самокат SR 2-045-1-G</name>
             <name_ua>Самокат SR 2-045-1-G</name_ua>
             <categoryId>79</categoryId>
-            <price>3682</price>
+            <price>1841</price>
+                <old_price>3681.32</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248518&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5179,7 +5256,9 @@
             <name>Самокат SR 2-045-1-W</name>
             <name_ua>Самокат SR 2-045-1-W</name_ua>
             <categoryId>79</categoryId>
-            <price>3682</price>
+            <price>1841</price>
+                <old_price>3681.32</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248519&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5203,7 +5282,9 @@
             <name>Самокат SR 2-045-2-B</name>
             <name_ua>Самокат SR 2-045-2-B</name_ua>
             <categoryId>79</categoryId>
-            <price>4115</price>
+            <price>2058</price>
+                <old_price>4114.48</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248520&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5227,7 +5308,9 @@
             <name>Самокат SR 2-045-3-W</name>
             <name_ua>Самокат SR 2-045-3-W</name_ua>
             <categoryId>79</categoryId>
-            <price>3395</price>
+            <price>1698</price>
+                <old_price>3394.16</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248521&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5251,7 +5334,9 @@
             <name>Самокат SR 2-043-1-B1</name>
             <name_ua>Самокат SR 2-043-1-B1</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248525&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5275,7 +5360,9 @@
             <name>Самокат SR 2-043-1-DBL</name>
             <name_ua>Самокат SR 2-043-1-DBL</name_ua>
             <categoryId>79</categoryId>
-            <price>3126</price>
+            <price>1563</price>
+                <old_price>3125.88</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248526&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5299,7 +5386,9 @@
             <name>Самокат SR 2-045-3-B</name>
             <name_ua>Самокат SR 2-045-3-B</name_ua>
             <categoryId>79</categoryId>
-            <price>3395</price>
+            <price>1698</price>
+                <old_price>3394.16</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248529&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5323,7 +5412,9 @@
             <name>Самокат SR 2-045-3-GR</name>
             <name_ua>Самокат SR 2-045-3-GR</name_ua>
             <categoryId>79</categoryId>
-            <price>3395</price>
+            <price>1698</price>
+                <old_price>3394.16</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=248531&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5347,7 +5438,9 @@
             <name>Горка L-CC01-4</name>
             <name_ua>Гірка L-CC01-4</name_ua>
             <categoryId>84</categoryId>
-            <price>3688</price>
+            <price>2581</price>
+                <old_price>3687.09</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=249475&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5372,7 +5465,9 @@
             <name>Горка L-CC01-8</name>
             <name_ua>Гірка L-CC01-8</name_ua>
             <categoryId>84</categoryId>
-            <price>3688</price>
+            <price>2581</price>
+                <old_price>3687.09</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=84&amp;id=249476&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5397,7 +5492,9 @@
             <name>Самокат SR 2-035-2</name>
             <name_ua>Самокат SR 2-035-2</name_ua>
             <categoryId>79</categoryId>
-            <price>3254</price>
+            <price>1627</price>
+                <old_price>3253.62</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=260762&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5469,7 +5566,9 @@
             <name>Самокат SR 2-079-BL</name>
             <name_ua>Самокат SR 2-079-BL</name_ua>
             <categoryId>79</categoryId>
-            <price>3597</price>
+            <price>1799</price>
+                <old_price>3596.34</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=266410&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5517,7 +5616,9 @@
             <name>Самокат SR 2-045-3-BL</name>
             <name_ua>Самокат SR 2-045-3-BL</name_ua>
             <categoryId>79</categoryId>
-            <price>3395</price>
+            <price>1698</price>
+                <old_price>3394.16</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=268351&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5902,7 +6003,9 @@
             <name>Машина M 5802EBLR-3</name>
             <name_ua>Машина M 5802EBLR-3</name_ua>
             <categoryId>77</categoryId>
-            <price>20641</price>
+            <price>16513</price>
+                <old_price>20640.81</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=295233&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5932,7 +6035,9 @@
             <name>Самокат JR 3-103-P</name>
             <name_ua>Самокат JR 3-103-P</name_ua>
             <categoryId>79</categoryId>
-            <price>1464</price>
+            <price>1172</price>
+                <old_price>1463.94</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=295303&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -5956,7 +6061,9 @@
             <name>Джип M 5821EBLR-11(24V)</name>
             <name_ua>Джип M 5821EBLR-11(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>23979</price>
+            <price>19183</price>
+                <old_price>23978.64</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=297591&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6011,7 +6118,9 @@
             <name>Столик M 5960-7</name>
             <name_ua>Столик M 5960-7</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300882&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6031,7 +6140,9 @@
             <name>Столик M 5960-8</name>
             <name_ua>Столик M 5960-8</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300883&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6051,7 +6162,9 @@
             <name>Столик M 5962-3</name>
             <name_ua>Столик M 5962-3</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300893&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6091,7 +6204,9 @@
             <name>Столик M 5965-8</name>
             <name_ua>Столик M 5965-8</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300914&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6111,7 +6226,9 @@
             <name>Столик M 5968-3</name>
             <name_ua>Столик M 5968-3</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1267</price>
+                <old_price>1582.55</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300927&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6151,7 +6268,9 @@
             <name>Столик M 5971-1</name>
             <name_ua>Столик M 5971-1</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300942&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6171,7 +6290,9 @@
             <name>Столик M 5971-4</name>
             <name_ua>Столик M 5971-4</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300943&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6191,7 +6312,9 @@
             <name>Столик M 5971-5</name>
             <name_ua>Столик M 5971-5</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300944&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6211,7 +6334,9 @@
             <name>Столик M 5971-8</name>
             <name_ua>Столик M 5971-8</name_ua>
             <categoryId>81</categoryId>
-            <price>1583</price>
+            <price>1425</price>
+                <old_price>1582.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=300945&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6227,40 +6352,13 @@
                 <value lang="ru">ДСП</value>
             </param>
         </item>
-        <item id="301615" selling_type="r">
-            <name>Джип M 5912EBLR-1</name>
-            <name_ua>Джип M 5912EBLR-1</name_ua>
-            <categoryId>77</categoryId>
-            <price>18310</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=301615&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/921420.jpg</image>
-            <image>https://metr-plus.com.ua/img/926797.jpg</image>
-            <image>https://metr-plus.com.ua/img/926798.jpg</image>
-            <image>https://metr-plus.com.ua/img/926799.jpg</image>
-            <image>https://metr-plus.com.ua/img/926800.jpg</image>
-            <image>https://metr-plus.com.ua/img/926801.jpg</image>
-            <image>https://metr-plus.com.ua/img/926802.jpg</image>
-            <image>https://metr-plus.com.ua/img/926803.jpg</image>
-            <image>https://metr-plus.com.ua/img/926804.jpg</image>
-            <image>https://metr-plus.com.ua/img/926805.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 5912EBLR-1</vendorCode>
-            <barcode>6903317672103</barcode>
-            <description><![CDATA[2,4G р/к, 1*12V10AH, 4*25W, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description>
-            <description_ua><![CDATA[2,4G р/к, 1*12V10AH, 4*25W, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="302891" selling_type="r">
             <name>Погрузчик M 5989BLR-4</name>
             <name_ua>Навантажувач M 5989BLR-4</name_ua>
             <categoryId>77</categoryId>
-            <price>14552</price>
+            <price>10187</price>
+                <old_price>14551.74</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=302891&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6289,7 +6387,9 @@
             <name>Погрузчик M 5989BLR-6</name>
             <name_ua>Навантажувач M 5989BLR-6</name_ua>
             <categoryId>77</categoryId>
-            <price>14552</price>
+            <price>10187</price>
+                <old_price>14551.74</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=302892&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6318,7 +6418,9 @@
             <name>Мотоцикл M 6017AL-4</name>
             <name_ua>Мотоцикл M 6017AL-4</name_ua>
             <categoryId>77</categoryId>
-            <price>15986</price>
+            <price>14387</price>
+                <old_price>15985.49</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=305773&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6344,7 +6446,9 @@
             <name>Детское кресло M 6057-4</name>
             <name_ua>Дитяче крісло M 6057-4</name_ua>
             <categoryId>81</categoryId>
-            <price>4918</price>
+            <price>3935</price>
+                <old_price>4917.79</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=21&amp;id=306269&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6369,7 +6473,9 @@
             <name>Мотоцикл M 6016AL-11(36V)</name>
             <name_ua>Мотоцикл M 6016AL-11(36V)</name_ua>
             <categoryId>77</categoryId>
-            <price>22854</price>
+            <price>20569</price>
+                <old_price>22853.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=306654&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6399,7 +6505,9 @@
             <name>Мотоцикл M 6016AL-3(36V)</name>
             <name_ua>Мотоцикл M 6016AL-3(36V)</name_ua>
             <categoryId>77</categoryId>
-            <price>22854</price>
+            <price>20569</price>
+                <old_price>22853.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=306656&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6429,7 +6537,9 @@
             <name>Мотоцикл M 6016AL-4(36V)</name>
             <name_ua>Мотоцикл M 6016AL-4(36V)</name_ua>
             <categoryId>77</categoryId>
-            <price>22854</price>
+            <price>20569</price>
+                <old_price>22853.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=306657&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6489,7 +6599,9 @@
             <name>Мотоцикл M 6016AL-6(36V)</name>
             <name_ua>Мотоцикл M 6016AL-6(36V)</name_ua>
             <categoryId>77</categoryId>
-            <price>22854</price>
+            <price>20569</price>
+                <old_price>22853.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=306659&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6559,7 +6671,9 @@
             <name>Грузовик M 6062EBLR-3</name>
             <name_ua>Вантажівка M 6062EBLR-3</name_ua>
             <categoryId>77</categoryId>
-            <price>18836</price>
+            <price>15069</price>
+                <old_price>18836.01</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=308137&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6589,7 +6703,9 @@
             <name>Багги M 6039EBR-4(24V)</name>
             <name_ua>Баггі M 6039EBR-4(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>15420</price>
+            <price>12336</price>
+                <old_price>15419.53</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=308241&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6617,7 +6733,9 @@
             <name>Багги M 6039EBR-10(24V)</name>
             <name_ua>Баггі M 6039EBR-10(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>15420</price>
+            <price>12336</price>
+                <old_price>15419.53</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=308548&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -6704,7 +6822,9 @@
             <name>Погрузчик M 6063EBLR-3</name>
             <name_ua>Навантажувач M 6063EBLR-3</name_ua>
             <categoryId>77</categoryId>
-            <price>14114</price>
+            <price>11291</price>
+                <old_price>14113.04</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=309300&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7110,7 +7230,9 @@
             <name>Палатка MR 1515 Cashmere Beige</name>
             <name_ua>Намет MR 1515 Cashmere Beige</name_ua>
             <categoryId>83</categoryId>
-            <price>2626</price>
+            <price>2364</price>
+                <old_price>2625.79</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=83&amp;id=313202&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7148,7 +7270,9 @@
             <name>Палатка MR 1515 Platinum Grey</name>
             <name_ua>Намет MR 1515 Platinum Grey</name_ua>
             <categoryId>83</categoryId>
-            <price>2626</price>
+            <price>2364</price>
+                <old_price>2625.79</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=83&amp;id=313204&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7650,7 +7774,9 @@
             <name>Джип M 6282EBLR-5(24V)</name>
             <name_ua>Джип M 6282EBLR-5(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>15893</price>
+            <price>14304</price>
+                <old_price>15892.53</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=326455&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7761,7 +7887,9 @@
             <name>Коврик Мозаика MR 1288</name>
             <name_ua>Килимок Мозаїка MR 1288</name_ua>
             <categoryId>99</categoryId>
-            <price>568</price>
+            <price>397</price>
+                <old_price>567.03</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=328125&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7785,7 +7913,9 @@
             <name>Коврик Мозаика MR 1289</name>
             <name_ua>Килимок Мозаїка MR 1289</name_ua>
             <categoryId>99</categoryId>
-            <price>2334</price>
+            <price>1634</price>
+                <old_price>2333.41</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=328126&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7809,7 +7939,9 @@
             <name>Коврик Мозаика MR 1290</name>
             <name_ua>Килимок Мозаїка MR 1290</name_ua>
             <categoryId>99</categoryId>
-            <price>976</price>
+            <price>684</price>
+                <old_price>975.79</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=328127&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7833,7 +7965,9 @@
             <name>Коврик Мозаика MR 1291</name>
             <name_ua>Килимок Мозаїка MR 1291</name_ua>
             <categoryId>99</categoryId>
-            <price>616</price>
+            <price>431</price>
+                <old_price>615.3</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=328128&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7857,7 +7991,9 @@
             <name>Коврик Мозаика MR 1293</name>
             <name_ua>Килимок Мозаїка MR 1293</name_ua>
             <categoryId>99</categoryId>
-            <price>1419</price>
+            <price>993</price>
+                <old_price>1418.13</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=328130&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7881,7 +8017,9 @@
             <name>Машина M 6107EBLR-2(24V)</name>
             <name_ua>Машина M 6107EBLR-2(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>14573</price>
+            <price>13115</price>
+                <old_price>14572.03</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=328333&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -7909,7 +8047,9 @@
             <name>Машина M 6107EBLR-4(24V)</name>
             <name_ua>Машина M 6107EBLR-4(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>14573</price>
+            <price>13115</price>
+                <old_price>14572.03</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=328335&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -8110,7 +8250,9 @@
             <name>Машина M 6107(2)EBLR-3(24V)</name>
             <name_ua>Машина M 6107(2)EBLR-3(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>20130</price>
+            <price>18117</price>
+                <old_price>20129.68</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=335843&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9079,6 +9221,8 @@
             <categoryId>343943</categoryId>
             <price>98901</price>
             <price_rrc>98901</price_rrc>
+                <old_price>109890</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=343146&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9198,7 +9342,9 @@
             <name>Электрокарт M 6374EL-4(24V)</name>
             <name_ua>Електрокарт M 6374EL-4(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>14709</price>
+            <price>13238</price>
+                <old_price>14708.12</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=343679&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9283,7 +9429,9 @@
             <name>Електрокарт M 6374EL-8(24V)</name>
             <name_ua>Електрокарт M 6374EL-8(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>14709</price>
+            <price>13238</price>
+                <old_price>14708.12</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=343682&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9341,6 +9489,8 @@
             <categoryId>343943</categoryId>
             <price>101514</price>
             <price_rrc>101514</price_rrc>
+                <old_price>112793.33</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=344340&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9372,6 +9522,8 @@
             <categoryId>343943</categoryId>
             <price>99960</price>
             <price_rrc>99960</price_rrc>
+                <old_price>111066.67</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=344746&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9403,6 +9555,8 @@
             <categoryId>343943</categoryId>
             <price>99960</price>
             <price_rrc>99960</price_rrc>
+                <old_price>111066.67</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=344747&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9496,6 +9650,8 @@
             <categoryId>343943</categoryId>
             <price>61140</price>
             <price_rrc>61140</price_rrc>
+                <old_price>67933.33</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=346372&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -9517,6 +9673,8 @@
             <categoryId>343943</categoryId>
             <price>61140</price>
             <price_rrc>61140</price_rrc>
+                <old_price>67933.33</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=346373&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -11299,6 +11457,8 @@
             <categoryId>46</categoryId>
             <price>3777</price>
             <price_rrc>3777</price_rrc>
+                <old_price>5395.71</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=46&amp;id=297716&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -11324,6 +11484,8 @@
             <categoryId>46</categoryId>
             <price>2583</price>
             <price_rrc>2583</price_rrc>
+                <old_price>5166</old_price>
+            <discount>50%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=46&amp;id=308175&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12230,7 +12392,9 @@
             <name>Столик M 501-1</name>
             <name_ua>Столик M 501-1</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1853</price>
+                <old_price>2315.69</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308570&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12250,7 +12414,9 @@
             <name>Столик M 501-10</name>
             <name_ua>Столик M 501-10</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1853</price>
+                <old_price>2315.69</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308571&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12430,7 +12596,9 @@
             <name>Столик M 501-6</name>
             <name_ua>Столик M 501-6</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1621</price>
+                <old_price>2315.69</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308580&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12470,7 +12638,9 @@
             <name>Столик M 501-8</name>
             <name_ua>Столик M 501-8</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1853</price>
+                <old_price>2315.69</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308582&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12490,7 +12660,9 @@
             <name>Столик M 501-9</name>
             <name_ua>Столик M 501-9</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1853</price>
+                <old_price>2315.69</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308583&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -12619,7 +12791,9 @@
             <name>Столик M 501-23</name>
             <name_ua>Столик M 501-23</name_ua>
             <categoryId>81</categoryId>
-            <price>2316</price>
+            <price>1853</price>
+                <old_price>2315.69</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=311703&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -13784,6 +13958,8 @@
             <categoryId>83</categoryId>
             <price>3475</price>
             <price_rrc>3475</price_rrc>
+                <old_price>4343.75</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=83&amp;id=313307&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -14527,7 +14703,9 @@
             <name>Убаюкивающий центр-шезлонг 8911</name>
             <name_ua>Заколисуючий центр-шезлонг 8911</name_ua>
             <categoryId>122</categoryId>
-            <price>6425</price>
+            <price>5782</price>
+                <old_price>6424.28</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=122&amp;id=308876&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -14907,6 +15085,8 @@
             <categoryId>122</categoryId>
             <price>3683</price>
             <price_rrc>3683</price_rrc>
+                <old_price>4092.22</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=122&amp;id=341007&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -15530,6 +15710,8 @@
             <categoryId>42</categoryId>
             <price>1551</price>
             <price_rrc>1551</price_rrc>
+                <old_price>1723.33</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=42&amp;id=326287&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20043,133 +20225,6 @@
                 <value lang="ru">FFC Z51</value>
             </param>
         </item>
-        <item id="348206" selling_type="r">
-            <name>Велосипед PROFI FREEDOM 26 д. FD-2605</name>
-            <name_ua>Велосипед PROFI FREEDOM 26 д. FD-2605</name_ua>
-            <categoryId>125</categoryId>
-            <price>7128</price>
-                <url>https://metr-plus.com.ua/index.php?section=125&amp;id=348206&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1120189.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143335.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143336.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143337.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143338.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143339.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143340.jpg</image>
-            <image>https://metr-plus.com.ua/img/1143341.jpg</image>
-                <available>true</available>
-            <vendor>PROF1</vendor>
-            <vendorCode>FD-2605</vendorCode>
-            <barcode>6903317850549</barcode>
-            <description><![CDATA[алюм.рама 13&quot;,SKD85%,SHIMANO 21SP,скоростн.кол.,промподш.,темно-син.]]></description>
-            <description_ua><![CDATA[алюм.рама 13&quot;,SKD85%,SHIMANO 21SP,швидкознім.кол.,промпідш.,темно-син.]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">мішок</value>
-                <value lang="ru">мешок</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюміній</value>
-            </param>
-            <param name="Серія">
-                <value lang="uk">FREEDOM</value>
-                <value lang="ru">FREEDOM</value>
-            </param>
-            <param name="Бренд">
-                <value lang="uk">PROFI</value>
-                <value lang="ru">PROFI</value>
-            </param>
-            <param name="Рама">
-                <value lang="uk">13&quot;</value>
-                <value lang="ru">13&quot;</value>
-            </param>
-            <param name="Розмір колеса, дм">
-                <value lang="uk">26 &quot;</value>
-                <value lang="ru">26 &quot;</value>
-            </param>
-            <param name="Стать">
-                <value lang="uk">чоловічий</value>
-                <value lang="ru">мужской</value>
-            </param>
-            <param name="% Збірки у коробці">
-                <value lang="uk">85%</value>
-                <value lang="ru">85%</value>
-            </param>
-            <param name="Рама матеріал">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Вилка">
-                <value lang="uk">сталь, 38MM з локаутом</value>
-                <value lang="ru">сталь, 38MM с локаутом</value>
-            </param>
-            <param name="Кермо">
-                <value lang="uk">сталь</value>
-                <value lang="ru">сталь</value>
-            </param>
-            <param name="Гальма">
-                <value lang="uk">передній: дисковий, задній: дисковий</value>
-                <value lang="ru">передний:дисковый, задний: дисковый</value>
-            </param>
-            <param name="Педалі">
-                <value lang="uk">пластик на насипних підшипниках</value>
-                <value lang="ru">пластик на насыпных подшипниках</value>
-            </param>
-            <param name="Доп комплектуючі">
-                <value lang="uk">катафот (передній/задній/колеса), підніжка</value>
-                <value lang="ru">катафот (передний/задний/колеса), подножка</value>
-            </param>
-            <param name="Підсідельний штир">
-                <value lang="uk">сталь</value>
-                <value lang="ru">сталь</value>
-            </param>
-            <param name="Кареточний вузол">
-                <value lang="uk">промпідшипник</value>
-                <value lang="ru">промподшипник</value>
-            </param>
-            <param name="Винос керма">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Покришка">
-                <value lang="uk">WANDA KING</value>
-                <value lang="ru">WANDA KING</value>
-            </param>
-            <param name="Обiд">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Втулки">
-                <value lang="uk">сталь, передня з швидкознімним механізмом (QR), задня-звичайна</value>
-                <value lang="ru">сталь, передняя с быстросъемным механизмом (QR), задняя -обычная</value>
-            </param>
-            <param name="Задній перемикач">
-                <value lang="uk">SHIMANO TOURNEY TZ FD-TZ500</value>
-                <value lang="ru">SHIMANO TOURNEY TZ FD-TZ500</value>
-            </param>
-            <param name="Касета (тріскачка)">
-                <value lang="uk">SUNRUN 7SPEEDS INDEX</value>
-                <value lang="ru">SUNRUN 7SPEEDS INDEX</value>
-            </param>
-            <param name="Кількість швидкостей">
-                <value lang="uk">21</value>
-                <value lang="ru">21</value>
-            </param>
-            <param name="Передній перемикач">
-                <value lang="uk">SHIMANO TOURNEY TZ FD-TZ500</value>
-                <value lang="ru">SHIMANO TOURNEY TZ FD-TZ500</value>
-            </param>
-            <param name="Система передач">
-                <value lang="uk">SHIMANO TOURNEY EF500-7</value>
-                <value lang="ru">SHIMANO TOURNEY EF500-7</value>
-            </param>
-            <param name="Ланцюг">
-                <value lang="uk">FFC Z51</value>
-                <value lang="ru">FFC Z51</value>
-            </param>
-        </item>
         <item id="348207" selling_type="r">
             <name>Велосипед PROFI FREEDOM 27,5 д. FD-27506</name>
             <name_ua>Велосипед PROFI FREEDOM 27,5 д. FD-27506</name_ua>
@@ -20314,7 +20369,9 @@
             <name>Велосипед детский 16д. MB 1681D</name>
             <name_ua>Велосипед дитячий 16д. MB 1681D</name_ua>
             <categoryId>66</categoryId>
-            <price>4696</price>
+            <price>3757</price>
+                <old_price>4695.3</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=293475&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20386,7 +20443,9 @@
             <name>Велосипед детский 18д. MB 1881D</name>
             <name_ua>Велосипед дитячий 18д. MB 1881D</name_ua>
             <categoryId>66</categoryId>
-            <price>5058</price>
+            <price>4046</price>
+                <old_price>5057.14</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=293482&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20458,7 +20517,9 @@
             <name>Велосипед детский PROF1 16д. MB 16011-1</name>
             <name_ua>Велосипед дитячий PROF1 16д. MB 16011-1</name_ua>
             <categoryId>66</categoryId>
-            <price>3789</price>
+            <price>3031</price>
+                <old_price>3788.2</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=294424&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20556,7 +20617,9 @@
             <name>Велосипед детский PROF1 16д. MB 16021-1</name>
             <name_ua>Велосипед дитячий PROF1 16д. MB 16021-1</name_ua>
             <categoryId>66</categoryId>
-            <price>3825</price>
+            <price>3060</price>
+                <old_price>3824.86</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=294427&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20626,7 +20689,9 @@
             <name>Велосипед детский PROF1 18д. MB 18021</name>
             <name_ua>Велосипед дитячий PROF1 18д. MB 18021</name_ua>
             <categoryId>66</categoryId>
-            <price>3750</price>
+            <price>3000</price>
+                <old_price>3749.9</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=294697&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20784,7 +20849,9 @@
             <name>Велосипед детский PROF1 16д. MB 16043-1</name>
             <name_ua>Велосипед дитячий PROF1 16д. MB 16043-1</name_ua>
             <categoryId>66</categoryId>
-            <price>3782</price>
+            <price>3026</price>
+                <old_price>3781.68</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=311445&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -20972,7 +21039,9 @@
             <name>Велосипед детский 16д. PROF1 MB 16LIGHTY PEONY</name>
             <name_ua>Велосипед дитячий 16д. PROF1 MB 16LIGHTY PEONY</name_ua>
             <categoryId>66</categoryId>
-            <price>5373</price>
+            <price>3761</price>
+                <old_price>5372.1</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=312312&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -21069,7 +21138,9 @@
             <name>Велосипед детский 16д. PROF1 MB 16LIGHTY SILVER</name>
             <name_ua>Велосипед дитячий 16д. PROF1 MB 16LIGHTY SILVER</name_ua>
             <categoryId>66</categoryId>
-            <price>5373</price>
+            <price>3761</price>
+                <old_price>5372.1</old_price>
+            <discount>30%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=312313&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -21166,7 +21237,9 @@
             <name>Велосипед детский 20д. PROF1 MB 20LIGHTY DARK GREY FOREST</name>
             <name_ua>Велосипед дитячий 20д. PROF1 MB 20LIGHTY DARK GREY FOREST</name_ua>
             <categoryId>66</categoryId>
-            <price>5815</price>
+            <price>4652</price>
+                <old_price>5814.25</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=312319&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -21263,7 +21336,9 @@
             <name>Велосипед детский 20д. PROF1 MB 20LIGHTY RAIN FOREST</name>
             <name_ua>Велосипед дитячий 20д. PROF1 MB 20LIGHTY RAIN FOREST</name_ua>
             <categoryId>66</categoryId>
-            <price>5815</price>
+            <price>4652</price>
+                <old_price>5814.25</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=312320&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -21360,7 +21435,9 @@
             <name>Велосипед детский 20д. PROF1 MB 20LIGHTY SILVER</name>
             <name_ua>Велосипед дитячий 20д. PROF1 MB 20LIGHTY SILVER</name_ua>
             <categoryId>66</categoryId>
-            <price>5815</price>
+            <price>4652</price>
+                <old_price>5814.25</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=66&amp;id=312321&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -23238,6 +23315,34 @@
                 <value lang="ru">тканина</value>
             </param>
         </item>
+        <item id="241257" selling_type="r">
+            <name>Мотоцикл M 4274EL-8</name>
+            <name_ua>Мотоцикл M 4274EL-8</name_ua>
+            <categoryId>77</categoryId>
+            <price>9831</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=241257&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/527602.jpg</image>
+            <image>https://metr-plus.com.ua/img/914743.jpg</image>
+            <image>https://metr-plus.com.ua/img/914744.jpg</image>
+            <image>https://metr-plus.com.ua/img/914745.jpg</image>
+            <image>https://metr-plus.com.ua/img/914746.jpg</image>
+            <image>https://metr-plus.com.ua/img/914747.jpg</image>
+            <image>https://metr-plus.com.ua/img/914748.jpg</image>
+            <image>https://metr-plus.com.ua/img/914749.jpg</image>
+            <image>https://metr-plus.com.ua/img/914750.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 4274EL-8</vendorCode>
+            <barcode>6903317326013</barcode>
+            <description><![CDATA[2мотора35W, 1аккум12V9AH, музыка, свет, MP3, TF, USB, EVA, кожа, розовый]]></description>
+            <description_ua><![CDATA[2мотора35W, 1аккум12V9AH, музика, світло, MP3, TF, USB, EVA, шкіра, рожевий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="248584" selling_type="r">
             <name>Мотоцикл M 4135EL-3</name>
             <name_ua>Мотоцикл M 4135EL-3</name_ua>
@@ -23287,6 +23392,62 @@
             <barcode>6903317355532</barcode>
             <description><![CDATA[2мотор25W, 2аккум6V5AH, MP3, свет.кол.EVA,муз,свет,кож.сид,синий]]></description>
             <description_ua><![CDATA[2мотор25W, 2аккум6V5AH, MP3, свет.кол.EVA, муз, світло, кож.сід, синій]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="248832" selling_type="r">
+            <name>Мотоцикл M 4274EL-6</name>
+            <name_ua>Мотоцикл M 4274EL-6</name_ua>
+            <categoryId>77</categoryId>
+            <price>9831</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=248832&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/622920.jpg</image>
+            <image>https://metr-plus.com.ua/img/914726.jpg</image>
+            <image>https://metr-plus.com.ua/img/914727.jpg</image>
+            <image>https://metr-plus.com.ua/img/914728.jpg</image>
+            <image>https://metr-plus.com.ua/img/914729.jpg</image>
+            <image>https://metr-plus.com.ua/img/914730.jpg</image>
+            <image>https://metr-plus.com.ua/img/914731.jpg</image>
+            <image>https://metr-plus.com.ua/img/914732.jpg</image>
+            <image>https://metr-plus.com.ua/img/914733.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 4274EL-6</vendorCode>
+            <barcode>6903317358502</barcode>
+            <description><![CDATA[2мотора35W, 1аккум12V9AH, музыка, свет, MP3, TF, USB, EVA, кожа, желтый]]></description>
+            <description_ua><![CDATA[2мотора35W, 1аккум12V9AH, музика, світло, MP3, TF, USB, EVA, шкіра, жовтий]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="248846" selling_type="r">
+            <name>Мотоцикл M 4274EL-3</name>
+            <name_ua>Мотоцикл M 4274EL-3</name_ua>
+            <categoryId>77</categoryId>
+            <price>9831</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=248846&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/618702.jpg</image>
+            <image>https://metr-plus.com.ua/img/914718.jpg</image>
+            <image>https://metr-plus.com.ua/img/914719.jpg</image>
+            <image>https://metr-plus.com.ua/img/914720.jpg</image>
+            <image>https://metr-plus.com.ua/img/914721.jpg</image>
+            <image>https://metr-plus.com.ua/img/914722.jpg</image>
+            <image>https://metr-plus.com.ua/img/914723.jpg</image>
+            <image>https://metr-plus.com.ua/img/914724.jpg</image>
+            <image>https://metr-plus.com.ua/img/914725.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 4274EL-3</vendorCode>
+            <barcode>6903317358489</barcode>
+            <description><![CDATA[2мотора35W, 1аккум12V9AH, музыка, свет, MP3, TF, USB, EVA, кожа, красный]]></description>
+            <description_ua><![CDATA[2мотора35W, 1аккум12V9AH, музика, світло, MP3, TF, USB, EVA, шкіра, червоний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -23818,7 +23979,9 @@
             <name>Машина M 5737AL-4(48V)</name>
             <name_ua>Машина M 5737AL-4(48V)</name_ua>
             <categoryId>77</categoryId>
-            <price>62573</price>
+            <price>50058</price>
+                <old_price>62572.34</old_price>
+            <discount>20%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=291328&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -24302,7 +24465,9 @@
             <name>Мотоцикл M 6016AL-1(36V)</name>
             <name_ua>Мотоцикл M 6016AL-1(36V)</name_ua>
             <categoryId>77</categoryId>
-            <price>22854</price>
+            <price>20569</price>
+                <old_price>22853.54</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=306653&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -24465,6 +24630,26 @@
             <barcode>6903317737048</barcode>
             <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description>
             <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="311284" selling_type="r">
+            <name>Джип M 6141EBLR-3</name>
+            <name_ua>Джип M 6141EBLR-3</name_ua>
+            <categoryId>77</categoryId>
+            <price>9806</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=311284&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/958123.jpg</image>
+                <available>true</available>
+            <vendor>Bambi Racer</vendor>
+            <vendorCode>M 6141EBLR-3</vendorCode>
+            <barcode>6903317737086</barcode>
+            <description><![CDATA[2,4G р/к, 1*12V7AH, 2*25W, MP3, USB, BLUETOOTH, TF, EVA, шкіра, світло, музика, червоний]]></description>
+            <description_ua><![CDATA[2,4G р/к, 1*12V7AH, 2*25W, MP3, USB, BLUETOOTH, TF, EVA, шкіра, світло, музика, червоний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -24881,6 +25066,33 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="320478" selling_type="r">
+            <name>Электрокарт M 6277EBR-3</name>
+            <name_ua>Електрокарт M 6277EBR-3</name_ua>
+            <categoryId>77</categoryId>
+            <price>4268</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=320478&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1003377.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006225.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006226.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006227.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006228.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006229.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006230.jpg</image>
+            <image>https://metr-plus.com.ua/img/1006231.jpg</image>
+                <available>true</available>
+            <vendor>Bambi kart</vendor>
+            <vendorCode>M 6277EBR-3</vendorCode>
+            <barcode>6903317797219</barcode>
+            <description><![CDATA[р/к  2мотора35W, 1акум12V4,5AH, EVA, BLUETOOTH, музыка, свет, красный]]></description>
+            <description_ua><![CDATA[р/к 2мотори 35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, червоний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="327961" selling_type="r">
             <name>Електрокарт M 6145(A)EBR-11</name>
             <name_ua>Електрокарт M 6145(A)EBR-11</name_ua>
@@ -25045,30 +25257,32 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="330358" selling_type="r">
-            <name>Машина M 6292EBLR-11</name>
-            <name_ua>Машина M 6292EBLR-11</name_ua>
+        <item id="329923" selling_type="r">
+            <name>Джип M 6257EBLR-3</name>
+            <name_ua>Джип M 6257EBLR-3</name_ua>
             <categoryId>77</categoryId>
-            <price>8771</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=330358&amp;lang=uk</url>
+            <price>13665</price>
+            <price_rrc>13665</price_rrc>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=329923&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1017103.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019638.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019639.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019640.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019641.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019642.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019643.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019644.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019645.jpg</image>
-            <image>https://metr-plus.com.ua/img/1019646.jpg</image>
+            <image>https://metr-plus.com.ua/img/1016033.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017114.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017115.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017116.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017117.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017118.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017119.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017120.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017121.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017122.jpg</image>
+            <image>https://metr-plus.com.ua/img/1017123.jpg</image>
                 <available>true</available>
             <vendor>Без бренду</vendor>
-            <vendorCode>M 6292EBLR-11</vendorCode>
-            <barcode>6903317804351</barcode>
-            <description><![CDATA[2,4G р/к, 4мотори(2х25W, 2х30W), 1акум12V9AH, MP3, USB, EVA, BLUETOOTH, TF, шкіра, музика, світло, сірий]]></description>
-            <description_ua><![CDATA[2,4G р/к, 4мотори(2х25W, 2х30W), 1акум12V9AH, MP3, USB, EVA, BLUETOOTH, TF, шкіра, музика, світло, сірий]]></description_ua>
+            <vendorCode>M 6257EBLR-3</vendorCode>
+            <barcode>6903317796366</barcode>
+            <description><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, червоний]]></description>
+            <description_ua><![CDATA[р/к2,4G, 4мотора35W, 1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, червоний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -25098,6 +25312,33 @@
             <barcode>6903317804399</barcode>
             <description><![CDATA[2,4G р/к, 4мотори(2х25W, 2х30W), 1акум12V9AH, MP3, USB, EVA, BLUETOOTH, TF, шкіра, музика, світло, синій]]></description>
             <description_ua><![CDATA[2,4G р/к, 4мотори(2х25W, 2х30W), 1акум12V9AH, MP3, USB, EVA, BLUETOOTH, TF, шкіра, музика, світло, синій]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="330426" selling_type="r">
+            <name>Электрокарт M 6277EBR-1</name>
+            <name_ua>Електрокарт M 6277EBR-1</name_ua>
+            <categoryId>77</categoryId>
+            <price>4268</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=330426&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1017259.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027542.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027543.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027544.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027545.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027546.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027547.jpg</image>
+            <image>https://metr-plus.com.ua/img/1027548.jpg</image>
+                <available>true</available>
+            <vendor>Bambi kart</vendor>
+            <vendorCode>M 6277EBR-1</vendorCode>
+            <barcode>6903317797202</barcode>
+            <description><![CDATA[р/к 2мотора 35W, 1акум12V4,5AH, EVA, BLUETOOTH, музыка, свет, белый]]></description>
+            <description_ua><![CDATA[р/к 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, білий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -25241,6 +25482,33 @@
             <barcode>6903317798681</barcode>
             <description><![CDATA[мотор 1000W,3акум 12A/12V, 25 км/ч, до 65 кг., зелений]]></description>
             <description_ua><![CDATA[мотор 1000W,3акум 12A/12V, 25 км/год, до 65 кг., зелений]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="332249" selling_type="r">
+            <name>Электрокарт M 6277EBR-6</name>
+            <name_ua>Електрокарт M 6277EBR-6</name_ua>
+            <categoryId>77</categoryId>
+            <price>4268</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=332249&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1026581.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026900.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026901.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026902.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026903.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026904.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026905.jpg</image>
+            <image>https://metr-plus.com.ua/img/1026906.jpg</image>
+                <available>true</available>
+            <vendor>Bambi kart</vendor>
+            <vendorCode>M 6277EBR-6</vendorCode>
+            <barcode>6903317797233</barcode>
+            <description><![CDATA[р/к 2мотора 35W, 1акум12V4,5AH, EVA, BLUETOOTH, музыка, свет, желтый]]></description>
+            <description_ua><![CDATA[р/к 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, жовтий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -25823,11 +26091,38 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="338656" selling_type="r">
+            <name>Электрокарт M 6277EBR-5</name>
+            <name_ua>Електрокарт M 6277EBR-5</name_ua>
+            <categoryId>77</categoryId>
+            <price>4268</price>
+                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=338656&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1049618.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052933.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052932.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052931.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052934.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052936.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052935.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052937.jpg</image>
+                <available>true</available>
+            <vendor>Bambi kart</vendor>
+            <vendorCode>M 6277EBR-5</vendorCode>
+            <barcode>6903317822805</barcode>
+            <description><![CDATA[р/к  2мотора35W, 1акум12V4,5AH, EVA, BLUETOOTH, музыка, свет, зеленый]]></description>
+            <description_ua><![CDATA[р/к 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, зелений]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="338693" selling_type="r">
             <name>Мотоцикл M 4274EL-5</name>
             <name_ua>Мотоцикл M 4274EL-5</name_ua>
             <categoryId>77</categoryId>
-            <price>8115</price>
+            <price>9831</price>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=338693&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -26631,7 +26926,9 @@
             <name>Джип M 6380EBLR-1(24V)</name>
             <name_ua>Джип M 6380EBLR-1(24V)</name_ua>
             <categoryId>77</categoryId>
-            <price>21265</price>
+            <price>19139</price>
+                <old_price>21264.79</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=354129&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -27394,7 +27691,9 @@
             <name>Квадроцикл M 6367ELR-3-2</name>
             <name_ua>Квадроцикл M 6367ELR-3-2</name_ua>
             <categoryId>347037</categoryId>
-            <price>3287</price>
+            <price>2959</price>
+                <old_price>3286.97</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=347037&amp;id=349611&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -37251,6 +37550,26 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="325090" selling_type="r">
+            <name>Блок управления M 6277-RC RECEIVER</name>
+            <name_ua>Блок керування M 6277-RC RECEIVER</name_ua>
+            <categoryId>195</categoryId>
+            <price>109</price>
+                <url>https://metr-plus.com.ua/index.php?section=195&amp;id=325090&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1003455.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6277-RC RECEIVER</vendorCode>
+            <barcode>6903317805310</barcode>
+            <description><![CDATA[к электрокарте M 6277, 12V]]></description>
+            <description_ua><![CDATA[до електрокарту M 6277, 12V]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="325091" selling_type="r">
             <name>Руль M 6265-SP HANDLE</name>
             <name_ua>Кермо M 6265-SP HANDLE</name_ua>
@@ -37334,6 +37653,50 @@
             <barcode>6903317805341</barcode>
             <description><![CDATA[к электрокарте M 6277]]></description>
             <description_ua><![CDATA[до електрокарту M 6277]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="325097" selling_type="r">
+            <name>Пульт управления M 6277-RC</name>
+            <name_ua>Пульт керування M 6277-RC</name_ua>
+            <categoryId>195</categoryId>
+            <price>65</price>
+                <url>https://metr-plus.com.ua/index.php?section=195&amp;id=325097&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1003462.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6277-RC</vendorCode>
+            <barcode>6903317805358</barcode>
+            <description><![CDATA[2,4G до електрокарту M 6277]]></description>
+            <description_ua><![CDATA[2,4G до електрокартки M 6277]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
+        <item id="325098" selling_type="r">
+            <name>Редуктор в сборе с мотором M 6277-GEAR BOX</name>
+            <name_ua>Редуктор у зборі з мотором M 6277-GEAR BOX</name_ua>
+            <categoryId>195</categoryId>
+            <price>213</price>
+                <url>https://metr-plus.com.ua/index.php?section=195&amp;id=325098&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1003463.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6277-GEAR BOX</vendorCode>
+            <barcode>6903317805365</barcode>
+            <description><![CDATA[до електрокарту M 6277, 12V, RPM20000, отвір під вісь 10мм, довжина 17см]]></description>
+            <description_ua><![CDATA[до електрокарти M 6277, 12V, RPM20000, отвір під вісь 10мм, длина 17см]]></description_ua>
+            <param name="Розмір упаковки">
+                <value lang="uk">17см</value>
+                <value lang="ru">17см</value>
+            </param>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -46256,7 +46619,9 @@
             <name>Развивающий центр-прыгунец M 6243-8</name>
             <name_ua>Розвиваючий центр-стрибунець M 6243-8</name_ua>
             <categoryId>99</categoryId>
-            <price>2632</price>
+            <price>2369</price>
+                <old_price>2632</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=318451&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
@@ -46281,7 +46646,9 @@
             <name>Развивающий центр-прыгунец M 6243-4(2)</name>
             <name_ua>Розвиваючий центр-стрибунець M 6243-4(2)</name_ua>
             <categoryId>99</categoryId>
-            <price>2465</price>
+            <price>2218</price>
+                <old_price>2464.06</old_price>
+            <discount>10%</discount>
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=351969&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
