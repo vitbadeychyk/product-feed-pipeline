@@ -13,6 +13,98 @@ from scripts.rozetka import export_feed as rozetka
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_FILE = BASE_DIR / "data" / "output" / "eva" / "eva_feed.xml"
+MANUAL_FILE = BASE_DIR / "data" / "manual" / "epicentr_manual_products.xml"
+
+
+def text_or_default(
+    offer: ET.Element,
+    defaults: ET.Element,
+    tag: str,
+) -> str:
+    value = (offer.findtext(tag) or "").strip()
+    if value:
+        return value
+    return (defaults.findtext(tag) or "").strip()
+
+
+def load_manual_offers() -> tuple[ET.Element, list[ET.Element]]:
+    """Читає спільний ручний XML для Epicentr та EVA."""
+    if not MANUAL_FILE.exists():
+        raise FileNotFoundError(f"Ручний XML не знайдено: {MANUAL_FILE}")
+
+    root = ET.parse(MANUAL_FILE).getroot()
+    defaults = root.find("defaults")
+    if defaults is None:
+        raise RuntimeError("У ручному XML не знайдено блок defaults")
+
+    offers = root.findall("offer")
+    if not offers:
+        raise RuntimeError("У ручному XML не знайдено товари")
+
+    ids = [str(offer.get("id") or "").strip() for offer in offers]
+    if any(not product_id for product_id in ids):
+        raise RuntimeError("У ручному XML є товар без id")
+    if len(ids) != len(set(ids)):
+        raise RuntimeError("У ручному XML знайдено дублікати id")
+
+    return defaults, offers
+
+
+def add_manual_offer_to_eva(
+    source_offer: ET.Element,
+    defaults: ET.Element,
+    offers: ET.Element,
+) -> None:
+    product_id = str(source_offer.get("id") or "").strip()
+    available = str(source_offer.get("available") or "").strip().lower() == "true"
+
+    required = {
+        "name_ua": text_or_default(source_offer, defaults, "name_ua"),
+        "vendor": text_or_default(source_offer, defaults, "vendor"),
+        "article": text_or_default(source_offer, defaults, "article"),
+        "picture": text_or_default(source_offer, defaults, "picture"),
+        "price": text_or_default(source_offer, defaults, "price"),
+        "price_old": text_or_default(source_offer, defaults, "price_old"),
+        "currencyId": text_or_default(source_offer, defaults, "currencyId"),
+        "categoryId": text_or_default(source_offer, defaults, "categoryId"),
+        "description_ua": text_or_default(source_offer, defaults, "description_ua"),
+    }
+    missing = [name for name, value in required.items() if not value]
+    if missing:
+        raise RuntimeError(
+            f"Ручний товар {product_id}: відсутні поля {', '.join(missing)}"
+        )
+
+    offer = ET.SubElement(offers, "offer")
+    offer.set("id", product_id)
+    offer.set("available", "true" if available else "false")
+
+    for tag in ("price", "price_old", "currencyId", "categoryId", "vendor", "article"):
+        ET.SubElement(offer, tag).text = required[tag]
+
+    ET.SubElement(offer, "stock_quantity").text = "10" if available else "0"
+    ET.SubElement(offer, "name").text = required["name_ua"]
+    ET.SubElement(offer, "name_ua").text = required["name_ua"]
+    ET.SubElement(offer, "description").text = required["description_ua"]
+    ET.SubElement(offer, "description_ua").text = required["description_ua"]
+
+    for picture in source_offer.findall("picture"):
+        value = (picture.text or "").strip()
+        if value:
+            ET.SubElement(offer, "picture").text = value
+
+    params = defaults.find("params")
+    if params is not None:
+        for source_param in params.findall("param"):
+            name = str(source_param.get("name") or "").strip()
+            value = (source_param.text or "").strip()
+            if not name or not value:
+                continue
+            param = ET.SubElement(offer, "param")
+            param.set("name", name)
+            localized_value = ET.SubElement(param, "value")
+            localized_value.set("lang", "uk")
+            localized_value.text = value
 
 
 def apply_eva_categories(
@@ -140,6 +232,7 @@ def export_eva_feed() -> None:
     descriptions = rozetka.load_supabase_descriptions()
     source_root = ET.parse(rozetka.INPUT_FILE).getroot()
     source_items = source_root.findall(".//items/item")
+    manual_defaults, manual_offers = load_manual_offers()
 
     export_items: list[ET.Element] = []
     used_supplier_category_ids: set[str] = set()
@@ -169,6 +262,17 @@ def export_eva_feed() -> None:
         export_items.append(item)
         used_supplier_category_ids.add(supplier_category_id)
 
+    manual_category_id = text_or_default(
+        manual_defaults,
+        manual_defaults,
+        "categoryId",
+    )
+    if not get_eva_category_id(manual_category_id):
+        raise RuntimeError(
+            f"Ручна категорія {manual_category_id} не прив'язана до EVA"
+        )
+    used_supplier_category_ids.add(manual_category_id)
+
     if not export_items:
         raise RuntimeError(
             "Не знайдено жодного товару для EVA. Існуючий eva_feed.xml "
@@ -191,7 +295,10 @@ def export_eva_feed() -> None:
         rozetka.calculate_price = original_calculate_price
         rozetka.calculate_old_price = original_calculate_old_price
 
-    if exported_count == 0:
+    for manual_offer in manual_offers:
+        add_manual_offer_to_eva(manual_offer, manual_defaults, offers)
+
+    if exported_count == 0 and not manual_offers:
         raise RuntimeError("Не експортовано жодного товару для EVA")
 
     normalize_multilang_params(root)
@@ -204,6 +311,7 @@ def export_eva_feed() -> None:
 
     print(f"Всього товарів постачальника: {len(source_items)}")
     print(f"Експортовано для EVA: {exported_count}")
+    print(f"Додано ручних товарів для EVA: {len(manual_offers)}")
     print(f"Пропущено погоджених категорій: {ignored_count}")
     print(f"Пропущено невідкритих категорій: {unsupported_count}")
     print(f"Пропущено без повного опису: {description_count}")

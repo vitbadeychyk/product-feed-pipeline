@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-26 09:04">
+<yml_catalog date="2026-09-26 18:34">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -366,10 +366,10 @@
       <price_old>1170</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="11728" available="true">
+    <offer id="11728" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="11733" available="true">
       <price>1000</price>
@@ -391,10 +391,10 @@
       <price_old>1430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="11824" available="true">
+    <offer id="11824" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="11868" available="true">
       <price>1000</price>
@@ -5196,10 +5196,10 @@
       <price_old>17420</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 3237EBLR-2-3" available="true">
+    <offer id="M 3237EBLR-2-3" available="false">
       <price>13400</price>
       <price_old>17420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 3237EBLR-3" available="true">
       <price>13400</price>
@@ -7126,10 +7126,10 @@
       <price_old>5070</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4803EL-4" available="true">
+    <offer id="M 4803EL-4" available="false">
       <price>3900</price>
       <price_old>5070</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4803EL-6" available="true">
       <price>3900</price>
@@ -7391,10 +7391,10 @@
       <price_old>3640</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 4845-4" available="true">
+    <offer id="M 4845-4" available="false">
       <price>2800</price>
       <price_old>3640</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4845-5" available="true">
       <price>2800</price>
@@ -8181,10 +8181,10 @@
       <price_old>3900</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 501-8" available="true">
+    <offer id="M 501-8" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 501-9" available="true">
       <price>2600</price>
@@ -10741,10 +10741,10 @@
       <price_old>34710</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5880EBLR-11(24V)" available="true">
+    <offer id="M 5880EBLR-11(24V)" available="false">
       <price>31000</price>
       <price_old>40300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5880EBLR-3(24V)" available="false">
       <price>26700</price>
@@ -10756,10 +10756,10 @@
       <price_old>43030</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5880EBLRS-2(24V)" available="true">
+    <offer id="M 5880EBLRS-2(24V)" available="false">
       <price>33100</price>
       <price_old>43030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5880EBLRS-3(24V)" available="false">
       <price>27700</price>
@@ -10901,10 +10901,10 @@
       <price_old>1560</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5912EBLR-1" available="false">
-      <price>18600</price>
-      <price_old>24180</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 5912EBLR-1" available="true">
+      <price>15300</price>
+      <price_old>19890</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 5912EBLR-11" available="false">
       <price>13600</price>
@@ -11066,10 +11066,10 @@
       <price_old>2990</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5971-1" available="true">
+    <offer id="M 5971-1" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5971-4" available="true">
       <price>2200</price>
@@ -11356,10 +11356,10 @@
       <price_old>15470</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6020EBLR-12" available="true">
+    <offer id="M 6020EBLR-12" available="false">
       <price>11900</price>
       <price_old>15470</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6020EBLRS-2" available="false">
       <price>12600</price>
@@ -14501,10 +14501,10 @@
       <price_old>18720</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6256EBLR-6" available="true">
+    <offer id="M 6256EBLR-6" available="false">
       <price>16100</price>
       <price_old>20930</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6256EBLR-8" available="true">
       <price>16100</price>
@@ -14556,10 +14556,10 @@
       <price_old>18070</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6257EBLR-3" available="true">
+    <offer id="M 6257EBLR-3" available="false">
       <price>14400</price>
       <price_old>18720</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6257EBLR-4" available="false">
       <price>14200</price>
@@ -15586,10 +15586,10 @@
       <price_old>7150</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6286EBLR-3" available="true">
+    <offer id="M 6286EBLR-3" available="false">
       <price>5500</price>
       <price_old>7150</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6286EBLR-4" available="true">
       <price>5500</price>
@@ -17351,10 +17351,10 @@
       <price_old>27430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6349EBLR-5(24V)" available="true">
+    <offer id="M 6349EBLR-5(24V)" available="false">
       <price>21100</price>
       <price_old>27430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6349EBLR-7(24V)" available="false">
       <price>21100</price>
@@ -18931,10 +18931,10 @@
       <price_old>5330</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MB 16043-1" available="true">
+    <offer id="MB 16043-1" available="false">
       <price>3500</price>
       <price_old>4550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MB 16063" available="false">
       <price>4000</price>
@@ -19501,10 +19501,10 @@
       <price_old>2210</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MBB 1053-3" available="true">
+    <offer id="MBB 1053-3" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MBB 1053-4" available="false">
       <price>1700</price>
@@ -19596,10 +19596,10 @@
       <price_old>6630</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1037 Nude Taupe" available="true">
+    <offer id="ME 1037 Nude Taupe" available="false">
       <price>5100</price>
       <price_old>6630</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1037-B Green" available="true">
       <price>5200</price>
@@ -19616,10 +19616,10 @@
       <price_old>8710</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1045 Natural Beige" available="true">
+    <offer id="ME 1045 Natural Beige" available="false">
       <price>6700</price>
       <price_old>8710</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1045 Simply Gray" available="true">
       <price>6700</price>
@@ -20176,10 +20176,10 @@
       <price_old>2470</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1151 Pale Green" available="true">
+    <offer id="ME 1151 Pale Green" available="false">
       <price>1900</price>
       <price_old>2470</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1151 Peony Pink" available="false">
       <price>1900</price>
@@ -20351,10 +20351,10 @@
       <price_old>8970</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1182 Frost Orchid" available="true">
+    <offer id="ME 1182 Frost Orchid" available="false">
       <price>7000</price>
       <price_old>9100</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1182 Iron Gray" available="false">
       <price>7000</price>
@@ -20371,10 +20371,10 @@
       <price_old>17420</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1183 Dark Chocolate" available="true">
+    <offer id="ME 1183 Dark Chocolate" available="false">
       <price>14800</price>
       <price_old>19240</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1183 Grape Pink" available="false">
       <price>13200</price>
@@ -20466,10 +20466,10 @@
       <price_old>8320</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1188 Natural Beige" available="true">
+    <offer id="ME 1188 Natural Beige" available="false">
       <price>6400</price>
       <price_old>8320</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1188 Shadow Gray" available="true">
       <price>6400</price>
@@ -20621,10 +20621,10 @@
       <price_old>3770</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1195 Dark Gray" available="true">
+    <offer id="ME 1195 Dark Gray" available="false">
       <price>2900</price>
       <price_old>3770</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1195 Gray" available="false">
       <price>2900</price>
@@ -22376,6 +22376,21 @@
       <price_old>4490</price_old>
       <availability>in_stock</availability>
     </offer>
+    <offer id="S53" available="false">
+      <price>3990</price>
+      <price_old>4490</price_old>
+      <availability>out_of_stock</availability>
+    </offer>
+    <offer id="S54" available="false">
+      <price>3990</price>
+      <price_old>4490</price_old>
+      <availability>out_of_stock</availability>
+    </offer>
+    <offer id="S55" available="false">
+      <price>3990</price>
+      <price_old>4490</price_old>
+      <availability>out_of_stock</availability>
+    </offer>
     <offer id="S56" available="true">
       <price>3990</price>
       <price_old>4490</price_old>
@@ -22385,6 +22400,11 @@
       <price>3990</price>
       <price_old>4490</price_old>
       <availability>in_stock</availability>
+    </offer>
+    <offer id="S58" available="false">
+      <price>3990</price>
+      <price_old>4490</price_old>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="S59" available="true">
       <price>3990</price>
@@ -22405,6 +22425,11 @@
       <price>3990</price>
       <price_old>4490</price_old>
       <availability>in_stock</availability>
+    </offer>
+    <offer id="S63" available="false">
+      <price>3990</price>
+      <price_old>4490</price_old>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="S64" available="false">
       <price>3990</price>

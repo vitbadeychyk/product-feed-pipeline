@@ -34,6 +34,7 @@ EVA_BASE_COMMISSION_MAP: dict[str, float] = {
     "121814": 0.08,
     "121815": 0.08,
     "121811": 0.08,
+    "105952": 0.15,
 }
 
 EVA_PROMO_COMMISSION_MAP: dict[str, float] = {
@@ -63,6 +64,7 @@ EVA_PROMO_COMMISSION_MAP: dict[str, float] = {
     "121814": 0.05,
     "121815": 0.05,
     "121811": 0.05,
+    "105952": 0.13,
 }
 
 

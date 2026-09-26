@@ -1,160 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <offers>
-
-  <offer id="S50" available="false">
+  <!--
+    Єдине ручне джерело товарів для Epicentr та EVA.
+    Для зміни наявності редагуй тільки available="true/false".
+    Генератори самі сформують availability та stock_quantity.
+  -->
+  <defaults>
+    <categoryId>76</categoryId>
+    <category_name>Санки дитячі</category_name>
+    <currencyId>UAH</currencyId>
     <price>3990</price>
     <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
+    <description_ua><![CDATA[
+<p><strong>Санки дитячі з механізмом висувних колісних шасі</strong> призначені для комфортного катання та перевезення дітей у зимовий період.</p>
+<p>Міцний металевий каркас, сидіння з дерев'яних рейок і ремінь безпеки забезпечують надійність та зручність під час використання.</p>
+<p><strong>Переваги:</strong></p>
+<ul>
+  <li>механізм висувних колісних шасі;</li>
+  <li>складані спинка та ручка;</li>
+  <li>поперечна рейка;</li>
+  <li>подовжена база;</li>
+  <li>ступінчаста підніжка;</li>
+  <li>ремінь безпеки;</li>
+  <li>гумові колеса на полозах для зручного транспортування;</li>
+  <li>максимальне навантаження — 30 кг.</li>
+</ul>
+<p><strong>Габарити та характеристики:</strong></p>
+<ul>
+  <li>у розкладеному вигляді без ручки: 820 × 390 × 420/480 мм;</li>
+  <li>висота санок по сидінню: 200/250 мм;</li>
+  <li>розмір сидіння: 450 × 290 мм;</li>
+  <li>плоскі полози: 30 × 15 мм;</li>
+  <li>висота з ручкою: 900/990 мм;</li>
+  <li>розмір упаковки: 1050 × 380 × 300 мм;</li>
+  <li>вага: 8,85 кг.</li>
+</ul>
+    ]]></description_ua>
+    <params>
+      <param name="Тип">Санки-трансформер на колесах</param>
+      <param name="Матеріал каркаса">Метал</param>
+      <param name="Матеріал сидіння">Дерев'яні рейки</param>
+      <param name="Максимальне навантаження">30 кг</param>
+      <param name="Ремінь безпеки">Так</param>
+      <param name="Складана ручка">Так</param>
+      <param name="Висувні колісні шасі">Так</param>
+      <param name="Вага">8,85 кг</param>
+    </params>
+  </defaults>
 
-  <offer id="S51" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S52" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S56" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S57" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S59" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S60" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S61" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S62" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S64" available="false">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S65" available="false">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S66" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S67" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S68" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S69" available="false">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S71" available="false">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S72" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S73" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S74" available="false">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S75" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S76" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S77" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S78" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S79" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S80" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
-  <offer id="S81" available="true">
-    <price>3990</price>
-    <price_old>4490</price_old>
-    <availability>in_stock</availability>
-  </offer>
-
+  <offer id="S50" available="false"><article>S50</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Зелений Рейки Салатово-зелені</name_ua><picture>https://i.postimg.cc/HW3CbL4h/IMG-3561.jpg</picture></offer>
+  <offer id="S51" available="true"><article>S51</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Смарагдовий Рейки Морська хвиля-лаймові</name_ua><picture>https://i.postimg.cc/JhpTgdYF/A27A3811.jpg</picture></offer>
+  <offer id="S52" available="true"><article>S52</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Морська хвиля Рейки Рожево-лаймові</name_ua><picture>https://i.postimg.cc/J4jpmhdZ/A27A3817.jpg</picture></offer>
+  <offer id="S53" available="false"><article>S53</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі Мрія 2026 Блакитно-жовтий</name_ua><picture>https://i.postimg.cc/q7JKKD71/A27A3798.jpg</picture></offer>
+  <offer id="S54" available="false"><article>S54</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі Мрія 2026 Синьо-жовтий</name_ua><picture>https://i.postimg.cc/Sx71LK6k/A27A3809.jpg</picture></offer>
+  <offer id="S55" available="false"><article>S55</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі Мрія 2026 Синьо-зелений</name_ua><picture>https://i.postimg.cc/6pNnWpxJ/A27A3796.jpg</picture></offer>
+  <offer id="S56" available="true"><article>S56</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Блакитний Рейки Блакитно-зелені</name_ua><picture>https://i.postimg.cc/B6t1Y8HD/A27A3800.jpg</picture></offer>
+  <offer id="S57" available="true"><article>S57</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Блакитний Рейки Блакитно-білі</name_ua><picture>https://i.postimg.cc/GtyTRZMm/A27A3803.jpg</picture></offer>
+  <offer id="S58" available="false"><article>S58</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі Мрія 2026 Червоно-зелений</name_ua><picture>https://i.postimg.cc/WbTcGY2d/IMG-0565.jpg</picture></offer>
+  <offer id="S59" available="true"><article>S59</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Червоний Рейки Червоно-білі</name_ua><picture>https://i.postimg.cc/QC7440Km/IMG-0407.jpg</picture></offer>
+  <offer id="S60" available="true"><article>S60</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Рожевий Рейки Рожево-салатові</name_ua><picture>https://i.postimg.cc/d095gh1M/IMG-3559.jpg</picture></offer>
+  <offer id="S61" available="true"><article>S61</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Рожевий Рейки Рожево-лаймові</name_ua><picture>https://i.postimg.cc/mD0SWxYm/A27A3823.jpg</picture></offer>
+  <offer id="S62" available="true"><article>S62</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Пудровий Рейки Рожево-лаймові</name_ua><picture>https://i.postimg.cc/9Qp1Rn2f/A27A3819.jpg</picture></offer>
+  <offer id="S63" available="false"><article>S63</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі Мрія 2026 Фіолетово-жовтий</name_ua><picture>https://i.postimg.cc/xdpRgNcD/A27A3821.jpg</picture></offer>
+  <offer id="S64" available="false"><article>S64</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Синій Рейки Дерево</name_ua><picture>https://i.postimg.cc/sf7YGN9R/A27A3836.jpg</picture></offer>
+  <offer id="S65" available="false"><article>S65</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Сіро-блакитний Рейки Дерево</name_ua><picture>https://i.postimg.cc/JzPc4H3D/A27A3829.jpg</picture></offer>
+  <offer id="S66" available="true"><article>S66</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Ізумрудний Рейки Дерево</name_ua><picture>https://i.postimg.cc/KjStsPbV/A27A3833.jpg</picture></offer>
+  <offer id="S67" available="true"><article>S67</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Блакитний Рейки Дерево</name_ua><picture>https://i.postimg.cc/T1J57BCL/A27A3846.jpg</picture></offer>
+  <offer id="S68" available="true"><article>S68</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Рожевий Рейки Дерево</name_ua><picture>https://i.postimg.cc/wBnN7X1v/A27A3842.jpg</picture></offer>
+  <offer id="S69" available="false"><article>S69</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Червоний Рейки Дерево</name_ua><picture>https://i.postimg.cc/rwFxbF68/A27A3839.jpg</picture></offer>
+  <offer id="S71" available="false"><article>S71</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Синій Рейки Блакитно-лаймові</name_ua><picture>https://i.postimg.cc/6pNnWpxJ/A27A3796.jpg</picture></offer>
+  <offer id="S72" available="true"><article>S72</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Бежевий Рейки Коричнево-білі</name_ua><picture>https://i.postimg.cc/J7yYT4bn/IMG-3577.jpg</picture></offer>
+  <offer id="S73" available="true"><article>S73</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Світло-сірий Рейки Рожево-білі</name_ua><picture>https://i.postimg.cc/fW621nKv/IMG-3578.jpg</picture></offer>
+  <offer id="S74" available="false"><article>S74</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Графітовий Рейки Графітово-оранжеві</name_ua><picture>https://i.postimg.cc/pTrzLr2n/IMG-3573.jpg</picture></offer>
+  <offer id="S75" available="true"><article>S75</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Зелений Рейки Салатово-білі</name_ua><picture>https://i.postimg.cc/NFrXRn2s/IMG-3582.jpg</picture></offer>
+  <offer id="S76" available="true"><article>S76</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Бузковий Рейки Жовто-рожеві</name_ua><picture>https://i.postimg.cc/HsXZgZv1/IMG-3579.jpg</picture></offer>
+  <offer id="S77" available="true"><article>S77</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Лавандовий Рейки Рожево-лаймові</name_ua><picture>https://i.postimg.cc/cLWD4RPg/IMG-3580.jpg</picture></offer>
+  <offer id="S78" available="true"><article>S78</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Бордовий Рейки Коричнево-білі</name_ua><picture>https://i.postimg.cc/k4H86C4Y/IMG-3581.jpg</picture></offer>
+  <offer id="S79" available="true"><article>S79</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Синій лак Рейки Дерево</name_ua><picture>https://i.postimg.cc/13PQhNHM/Sinij-lak.jpg</picture></offer>
+  <offer id="S80" available="true"><article>S80</article><vendor>Патріот Планета</vendor><name_ua>Санки-трансформер дитячі на колесах «Патріот» 2026 ТМ Veloz Бордовий лак Рейки Дерево</name_ua><picture>https://i.postimg.cc/3xBHKJfh/Bordovij-lak.jpg</picture></offer>
+  <offer id="S81" available="true"><article>S81</article><vendor>ТМ Мрія</vendor><name_ua>Санки-трансформер дитячі на колесах «Мрія» 2026 ТМ Veloz Зелений Рейки Рожево-лаймові</name_ua><picture>https://i.postimg.cc/HjDyztbQ/IMG-3570.jpg</picture></offer>
 </offers>

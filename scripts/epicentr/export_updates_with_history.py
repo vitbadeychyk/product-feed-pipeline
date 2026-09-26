@@ -145,6 +145,7 @@ def load_manual_products() -> dict[str, dict]:
     try:
         tree = ET.parse(MANUAL_FILE)
         root = tree.getroot()
+        defaults = root.find("defaults")
 
     except ET.ParseError as error:
         print(
@@ -172,6 +173,8 @@ def load_manual_products() -> dict[str, dict]:
         # -------------------------
 
         price_node = offer.find("price")
+        if price_node is None and defaults is not None:
+            price_node = defaults.find("price")
 
         if (
             price_node is None
@@ -208,9 +211,9 @@ def load_manual_products() -> dict[str, dict]:
         # PRICE OLD
         # -------------------------
 
-        price_old_node = offer.find(
-            "price_old"
-        )
+        price_old_node = offer.find("price_old")
+        if price_old_node is None and defaults is not None:
+            price_old_node = defaults.find("price_old")
 
         price_old = 0
 
