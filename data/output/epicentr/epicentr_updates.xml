@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-27 09:47">
+<yml_catalog date="2026-09-27 16:21">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -3461,6 +3461,11 @@
       <price_old>30030</price_old>
       <availability>out_of_stock</availability>
     </offer>
+    <offer id="HB-ATV1000AS-5" available="true">
+      <price>26400</price>
+      <price_old>34320</price_old>
+      <availability>in_stock</availability>
+    </offer>
     <offer id="HB-ATV1000AS-8" available="true">
       <price>26400</price>
       <price_old>34320</price_old>
@@ -5466,10 +5471,10 @@
       <price_old>29380</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 3906(MP4)EBLRS-2" available="false">
+    <offer id="M 3906(MP4)EBLRS-2" available="true">
       <price>24500</price>
       <price_old>31850</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 3906(MP4)EBLRS-3" available="false">
       <price>22300</price>
@@ -10101,10 +10106,10 @@
       <price_old>9880</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5806EL-3" available="true">
+    <offer id="M 5806EL-3" available="false">
       <price>7600</price>
       <price_old>9880</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5806EL-5" available="false">
       <price>6300</price>
@@ -17351,10 +17356,10 @@
       <price_old>27430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6349EBLR-5(24V)" available="false">
+    <offer id="M 6349EBLR-5(24V)" available="true">
       <price>21100</price>
       <price_old>27430</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6349EBLR-7(24V)" available="false">
       <price>21100</price>
@@ -20401,10 +20406,10 @@
       <price_old>17420</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1183/ME 1190-ADAPTER" available="true">
+    <offer id="ME 1183/ME 1190-ADAPTER" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1184 Beige" available="true">
       <price>2400</price>
