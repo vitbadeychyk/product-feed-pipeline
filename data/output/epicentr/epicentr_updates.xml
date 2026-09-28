@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-28 10:31">
+<yml_catalog date="2026-09-28 19:12">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -8786,10 +8786,10 @@
       <price_old>16120</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5096EBLR-6" available="true">
+    <offer id="M 5096EBLR-6" available="false">
       <price>12400</price>
       <price_old>16120</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5096EBLRS-11" available="true">
       <price>13600</price>
@@ -11696,10 +11696,10 @@
       <price_old>16120</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6055EBLRS-2" available="true">
+    <offer id="M 6055EBLRS-2" available="false">
       <price>13700</price>
       <price_old>17810</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6056-11" available="false">
       <price>3600</price>
@@ -14200,6 +14200,11 @@
       <price>15300</price>
       <price_old>19890</price_old>
       <availability>out_of_stock</availability>
+    </offer>
+    <offer id="M 6236-EVA WHEEL" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6236EBLR-1" available="true">
       <price>11400</price>
@@ -16709,6 +16714,31 @@
     <offer id="M 6315EBLRS-3(24V)" available="true">
       <price>25600</price>
       <price_old>33280</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6316EBLR-11" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6316EBLR-13" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6316EBLR-5" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6316EBLR-6" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6316EBLR-8" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
       <availability>in_stock</availability>
     </offer>
     <offer id="M 6317 Beige" available="false">
