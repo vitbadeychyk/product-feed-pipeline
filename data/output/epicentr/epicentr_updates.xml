@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-07 04:11">
+<yml_catalog date="2026-10-07 15:03">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -8686,10 +8686,10 @@
       <price_old>24570</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5055EBLR-8(4WD)" available="true">
+    <offer id="M 5055EBLR-8(4WD)" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5055EBLRS-11(4WD)" available="true">
       <price>20800</price>
@@ -14406,10 +14406,10 @@
       <price_old>5720</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6250-8" available="true">
+    <offer id="M 6250-8" available="false">
       <price>4500</price>
       <price_old>5850</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6253EL-1" available="true">
       <price>3200</price>
@@ -14536,10 +14536,10 @@
       <price_old>20930</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6256EBLR-3" available="true">
+    <offer id="M 6256EBLR-3" available="false">
       <price>16100</price>
       <price_old>20930</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6256EBLR-4" available="false">
       <price>16100</price>
@@ -19696,10 +19696,10 @@
       <price_old>2600</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MBB 1056 Pink" available="true">
+    <offer id="MBB 1056 Pink" available="false">
       <price>2000</price>
       <price_old>2600</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MBB 1057 Mint" available="false">
       <price>2800</price>
@@ -21421,10 +21421,10 @@
       <price_old>16770</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MP 2372-1" available="true">
+    <offer id="MP 2372-1" available="false">
       <price>3800</price>
       <price_old>4940</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MP 2372-2" available="true">
       <price>3800</price>
