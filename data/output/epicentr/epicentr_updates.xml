@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-12 04:13">
+<yml_catalog date="2026-10-12 17:19">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -761,10 +761,10 @@
       <price_old>1690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="2155-F-EVA WHEEL" available="false">
+    <offer id="2155-F-EVA WHEEL" available="true">
       <price>1500</price>
       <price_old>1950</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="2155-R-EVA WHEEL" available="false">
       <price>1400</price>
@@ -2191,10 +2191,10 @@
       <price_old>9230</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="8977" available="false">
+    <offer id="8977" available="true">
       <price>6900</price>
       <price_old>8970</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="9311" available="true">
       <price>5000</price>
@@ -8536,10 +8536,10 @@
       <price_old>1300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5048EL-1" available="true">
+    <offer id="M 5048EL-1" available="false">
       <price>7100</price>
       <price_old>9230</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5048EL-13" available="true">
       <price>7100</price>
@@ -9246,10 +9246,10 @@
       <price_old>3640</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5722 Lilac" available="true">
+    <offer id="M 5722 Lilac" available="false">
       <price>2800</price>
       <price_old>3640</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5722 Mint" available="false">
       <price>2800</price>
@@ -11246,10 +11246,10 @@
       <price_old>27690</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6016AL-11(36V)" available="true">
+    <offer id="M 6016AL-11(36V)" available="false">
       <price>21300</price>
       <price_old>27690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6016AL-3(36V)" available="false">
       <price>21300</price>
@@ -13651,10 +13651,10 @@
       <price_old>4420</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6153B-4" available="true">
+    <offer id="M 6153B-4" available="false">
       <price>3400</price>
       <price_old>4420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6153B-5" available="false">
       <price>3400</price>
@@ -17231,10 +17231,10 @@
       <price_old>11180</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6329EL-8" available="true">
+    <offer id="M 6329EL-8" available="false">
       <price>8600</price>
       <price_old>11180</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6343,M 6344-BLUETOOTH" available="false">
       <price>1000</price>
@@ -20806,10 +20806,10 @@
       <price_old>17550</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1190 Vulcan Gray" available="true">
+    <offer id="ME 1190 Vulcan Gray" available="false">
       <price>15000</price>
       <price_old>19500</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1191 Black" available="false">
       <price>6600</price>
@@ -20971,15 +20971,15 @@
       <price_old>1950</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1200 Beige" available="true">
+    <offer id="ME 1200 Beige" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1200 Gray" available="true">
+    <offer id="ME 1200 Gray" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1200 Green" available="true">
       <price>3200</price>
