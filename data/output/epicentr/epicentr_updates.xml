@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-15 16:16">
+<yml_catalog date="2026-10-15 22:52">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -12176,10 +12176,10 @@
       <price_old>1560</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6080-GEAR BOX 24V" available="true">
+    <offer id="M 6080-GEAR BOX 24V" available="false">
       <price>1400</price>
       <price_old>1820</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6080-RC-RECEIVER 12V" available="false">
       <price>1200</price>
@@ -12246,10 +12246,10 @@
       <price_old>20930</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6080EL-4(24V)" available="true">
+    <offer id="M 6080EL-4(24V)" available="false">
       <price>21000</price>
       <price_old>27300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6080EL-6(24V)" available="true">
       <price>21000</price>
@@ -13511,10 +13511,10 @@
       <price_old>30030</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6149EBLR-3(24V)" available="true">
+    <offer id="M 6149EBLR-3(24V)" available="false">
       <price>23100</price>
       <price_old>30030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6149EBLR-6(24V)" available="false">
       <price>23100</price>
@@ -16881,10 +16881,10 @@
       <price_old>2210</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6316-RC" available="true">
+    <offer id="M 6316-RC" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6316-RC RECEIVER" available="true">
       <price>1400</price>
@@ -17971,20 +17971,20 @@
       <price_old>3510</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6361-4" available="false">
+    <offer id="M 6361-4" available="true">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6361-5" available="false">
+    <offer id="M 6361-5" available="true">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6361-6" available="false">
+    <offer id="M 6361-6" available="true">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6362E-3" available="true">
       <price>3600</price>
@@ -18956,15 +18956,15 @@
       <price_old>12350</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6517-1" available="false">
+    <offer id="M 6517-1" available="true">
       <price>2300</price>
       <price_old>2990</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="M 6517-2" available="false">
+    <offer id="M 6517-2" available="true">
       <price>2300</price>
       <price_old>2990</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 6517-3" available="false">
       <price>2300</price>
@@ -19206,10 +19206,10 @@
       <price_old>4940</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MB 1021-7" available="true">
+    <offer id="MB 1021-7" available="false">
       <price>3600</price>
       <price_old>4680</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MB 1021-8" available="false">
       <price>3600</price>
@@ -21221,10 +21221,10 @@
       <price_old>4420</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1203-11" available="true">
+    <offer id="ME 1203-11" available="false">
       <price>3900</price>
       <price_old>5070</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1203-13" available="true">
       <price>3900</price>
@@ -21751,10 +21751,10 @@
       <price_old>4940</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MP 2372-2" available="true">
+    <offer id="MP 2372-2" available="false">
       <price>3800</price>
       <price_old>4940</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MP 2372-3" available="false">
       <price>3800</price>
