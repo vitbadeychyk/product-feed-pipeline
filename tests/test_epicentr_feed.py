@@ -60,8 +60,8 @@ class UnifiedFeedTests(unittest.TestCase):
         offers = {o.get('id'): o for o in root.findall('./shop/offers/offer')}
         self.assertEqual(set(offers), set(products))
         self.assertEqual(offers['SKU'].findtext('price'), '2000')
-        self.assertEqual(offers['SKU'].findtext('priceOld'), '2600')
-        self.assertEqual(offers['SKU'].findtext('priceOld'), offers['SKU'].findtext('price_old'))
+        self.assertEqual(offers['SKU'].findtext('price_old'), '2600')
+        self.assertFalse(root.findall('.//priceOld'))
         self.assertEqual(offers['SKU'].findtext('param'), 'Метал')
         self.assertEqual(offers['SKU'].findtext('country_of_origin'), 'Китай')
         self.assertEqual(offers['S52'].findtext('country_of_origin'), 'Україна')
@@ -82,9 +82,14 @@ class UnifiedFeedTests(unittest.TestCase):
         # Removed supplier product retains the entire last full card.
         history = deepcopy(products['SKU'])
         history['available'] = 'false'
+        cached = ET.fromstring(history['offer_xml'])
+        ET.SubElement(cached, 'priceOld').text = '2600'
+        history['offer_xml'] = ET.tostring(cached, encoding='unicode')
         again = build_feed(ET.fromstring('<yml_catalog><shop/></yml_catalog>'), manual, {'SKU': history})
         removed = again.find('./shop/offers/offer')
         self.assertEqual(removed.get('available'), 'false')
+        self.assertFalse(again.findall('.//priceOld'))
+        self.assertNotIn('<priceOld>', history['offer_xml'])
         self.assertEqual(removed.findtext('description_ua'), '<p>Повний опис</p>')
         self.assertEqual(again.findtext('./shop/categories/category'), 'Авто')
 
