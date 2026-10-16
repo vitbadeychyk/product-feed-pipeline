@@ -20,7 +20,13 @@ are flattened to separate simple YML params; uk is normalized to ua. No fixed
 Rozetka warranty, delivery or country defaults are injected.
 
 Canonical output: `data/output/epicentr/epicentr_feed.xml`.
-`epicentr_updates.xml` is an identical compatibility copy for existing URLs.
+`epicentr_feed.xml` contains complete import cards only: each offer must have a
+nonempty name and categoryId referencing the category directory. Complete
+out_of_stock cards stay in the import. Minimal legacy records are excluded.
+`epicentr_updates.xml` retains ALL IDs, including minimal historical out_of_stock
+records, for automatic price/stock updates. Configure this URL for stock updates
+when old cards must be disabled. Both files are built by the same exporter.
+The full history is preserved in state; no product data is invented.
 
 Removed products become out_of_stock and retain cached full content when present.
 Description priority: nonempty Supabase description, then nonempty supplier

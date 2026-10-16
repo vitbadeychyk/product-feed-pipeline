@@ -1,7 +1,7 @@
 import unittest
 import xml.etree.ElementTree as ET
 from copy import deepcopy
-from scripts.epicentr.export_feed import build_feed, build_supplier_content
+from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed
 from scripts.common import product_descriptions as descriptions
 from unittest.mock import patch, Mock
 
@@ -68,6 +68,17 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertEqual(offers['S52'].findtext('param'), 'Жовтий')
         self.assertEqual(offers['OLD'].findtext('availability'), 'out_of_stock')
         ET.fromstring(ET.tostring(root))
+        import_root = build_import_feed(root)
+        imported = import_root.findall('./shop/offers/offer')
+        self.assertEqual({o.get('id') for o in imported}, {'SKU', 'S52'})
+        self.assertTrue(all(o.findtext('name') and o.findtext('categoryId') for o in imported))
+        # Unavailable complete cards remain importable; historical minimal records
+        # are removed only from import and retained in updates/history.
+        self.assertEqual(next(o for o in imported if o.get('id') == 'S52').get('available'), 'false')
+        self.assertIn('OLD', {o.get('id') for o in root.findall('./shop/offers/offer')})
+        with self.assertRaises(ValueError):
+            build_import_feed(ET.fromstring('<yml_catalog><shop><offers><offer id="OLD"><price>100</price></offer></offers></shop></yml_catalog>'))
+
         # Removed supplier product retains the entire last full card.
         history = deepcopy(products['SKU'])
         history['available'] = 'false'
