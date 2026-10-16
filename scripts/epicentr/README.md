@@ -1,63 +1,48 @@
-# Epicentr unified feed — independent sources
+# Epicentr: one native XML URL
 
-Run `python -m scripts.epicentr.export_feed` with SUPABASE_URL and SUPABASE_KEY.
-No Rozetka XML, export module or execution order is required.
+Run `python -m scripts.epicentr.export_feed` with SUPABASE_URL/SUPABASE_KEY.
+No prepared Rozetka XML is consumed.
 
-Sources:
-- `data/raw/supplier_feed.xml`: products, vendorCode IDs, titles, images, brand,
-  barcode, URL, currency, category IDs/names, stock and ALL supplied parameters.
-- Supabase `products.sku,description`: independent paginated REST lookup, matched
-  by trimmed case-insensitive SKU without removing internal spaces. Description
-  formatting follows the existing Rozetka logic, implemented in the independent
-  `scripts/common/product_descriptions.py` client.
-- `scripts/pricing/epicentr_pricing.py`: existing Epicentr selling-price formula.
-- `data/manual/epicentr_manual_products.xml`: manual content/prices/defaults.
-- `state/epicentr_known_products.json`: price/stock and cached full-card history.
+Canonical URL path: `data/output/epicentr/epicentr_feed.xml`.
+This is now full native Epicentr XML (`yml_catalog/offers/offer`), not Prom YML.
+Use normal Import -> Link -> Update all for new cards and content updates.
+Save the SAME URL under Automatic stock updates for scheduled price/availability.
+Scheduled price/stock updates do not create new products automatically.
+Enable the marketplace option to mark products missing from the URL unavailable:
+legacy history without content cannot appear in the complete import catalog.
 
-Parameters are not filtered by Rozetka category rules. All raw per-item `<param>`
-values are copied, retaining names, units and languages. Nested multilingual values
-are flattened to separate simple YML params; uk is normalized to ua. No fixed
-Rozetka warranty, delivery or country defaults are injected.
+`epicentr_attributes.xml` is an identical compatibility alias of the main native
+catalog. `epicentr_updates.xml` is a native minimal price/stock feed preserving
+all historical IDs; existing consumers can keep using it, but it is not required
+for the new single-URL workflow.
 
-Canonical output: `data/output/epicentr/epicentr_feed.xml`.
-`epicentr_feed.xml` contains complete import cards only: each offer must have a
-nonempty name and categoryId referencing the category directory. Complete
-out_of_stock cards stay in the import. Minimal legacy records are excluded.
-`epicentr_updates.xml` retains ALL IDs, including minimal historical out_of_stock
-records, for automatic price/stock updates. Configure this URL for stock updates
-when old cards must be disabled. Both files are built by the same exporter.
-The full history is preserved in state; no product data is invented.
+Sources: raw supplier XML for names, pictures, brands, barcode/source data,
+category IDs, availability and per-product parameters. Independent Supabase SKU
+lookup for descriptions, then supplier description_ua, then description.
+Pricing remains scripts/pricing/epicentr_pricing.py. Manual items/defaults remain
+in data/manual/epicentr_manual_products.xml. Full source cards remain in history.
 
-Removed products become out_of_stock and retain cached full content when present.
-Description priority: nonempty Supabase description, then nonempty supplier
-`description_ua`, then supplier `description`. If all are empty, retain cached
-content or update-only entries. An empty successful DB lookup permits the
-supplier fallback; connection/API errors still fail without overwriting output. Category IDs are supplier IDs for mapping
-in the import UI, not Epicentr API taxonomy codes.
+Native output includes price, price_old, availability, mapped category and
+attribute_set, pictures, brand, localized name/description, country, measure_pcs
+and ratio=1. No Prom-only shop/categoryId/name_ua/stock_quantity or priceOld tags.
+Supplier parameter names alone are not valid Epicentr attribute codes: unencoded
+parameters are retained in source/history and listed for mapping, not submitted
+as fabricated attributes.
 
-Checks: `python -m unittest discover -s tests -v`.
+Category/attribute_set code/name mappings follow the supplied Epicentr workbook
+and native XML guide. Mixed groups use title rules. Category 195 applies SKU
+rules, title/description exceptions, then approved fallback 7153. Car-seat and
+stroller accessories go to 847. Fallback and unresolved assignments are audited.
 
-## Native measurement-field update
+`data/manual/epicentr_brand_map.json`: optional supplier brand -> object with
+verified `code` and `name`. Keys match case-insensitively. No codes are invented.
+Real brand names without a mapping are preserved as text; the rejected placeholder
+"Без бренду" is omitted unless a verified option is configured. These cards may
+still need brand selection before publication.
 
-The same exporter also generates `epicentr_attributes.xml`: a native Epicentr
-XML for File / Update all, not Import from other marketplaces. Every complete
-card has measure=measure_pcs (шт.) and ratio=1. This updates selling units and
-minimum sale quantity, not stock quantity. Product IDs and prices are retained.
-Category and attribute_set share the Epicentr code/name per the supplied native
-XML guide. `category_map.py` contains workbook-backed direct mappings and title
-rules for mixed supplier groups. Unresolved products omit both taxonomy fields
-and are listed in `epicentr_taxonomy_report.json`; no codes are invented.
-Measurements are still emitted for every complete card. Category-specific product
-parameters need their own paramcode/valuecode directory and are not inferred
-from arbitrary supplier parameter names. Test a small native XML import before
-applying all category assignments to existing cards.
-The Prom and stock-update output formats remain unchanged.
+`epicentr_taxonomy_report.json` lists unresolved categories, fallback assignments,
+brands lacking reference codes and supplier parameters needing attribute mapping.
 
-### Supplier spare parts category 195
-
-Priority: SKU_CATEGORY_OVERRIDES, specific title rules, description rules, then
-merchant-approved fallback 7153 (Запчастини для електротранспорту).
-Car-seat/stroller accessories -> 847; skateboard spares -> 8477; scooter spares
--> 8823 (electric scooters -> 7153). Fallback applies only to supplier 195.
-Fallback assignments are preserved in epicentr_taxonomy_report.json with SKU,
-title, target category and reason fallback_195, separate from unresolved items.
+After merging, run Actions on main to regenerate the URL. Start with a small
+native import and inspect its report before importing the complete catalog.
+Tests: `python -m unittest discover -s tests -v`.

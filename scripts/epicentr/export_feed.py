@@ -187,13 +187,14 @@ def build_import_feed(all_products: ET.Element) -> ET.Element:
     return root
 
 
-def build_attributes_feed(import_root: ET.Element) -> ET.Element:
+def build_attributes_feed(import_root: ET.Element, brand_map: dict | None = None) -> ET.Element:
     """Native Epicentr XML for updating measurement fields on existing cards.
 
     This is imported via File / Update all, not the Prom import parser.
     Taxonomy uses the verified Epicentr workbook, never supplier IDs as codes.
     Unresolved mixed products retain their current category in the cabinet.
     """
+    brand_map = brand_map or {}
     root = ET.Element("yml_catalog", date=import_root.get("date", ""))
     offers = ET.SubElement(root, "offers")
     for source in import_root.findall("./shop/offers/offer"):
@@ -206,10 +207,32 @@ def build_attributes_feed(import_root: ET.Element) -> ET.Element:
             code, title = taxonomy
             ET.SubElement(offer, "category", code=code).text = title
             ET.SubElement(offer, "attribute_set", code=code).text = title
+        for picture in source.findall("picture"):
+            offer.append(deepcopy(picture))
+        vendor = (source.findtext("vendor") or "").strip()
+        brand = brand_map.get(vendor.casefold())
+        if brand and brand.get("code") and brand.get("name"):
+            ET.SubElement(offer, "vendor", code=str(brand["code"])).text = brand["name"]
+        # Preserve real supplier brand names. Do not transmit the already-rejected
+        # placeholder or fabricate reference codes; missing codes go to report.
+        elif vendor and vendor.casefold() not in {"без бренду", "без бренда", "no brand", "unknown"}:
+            ET.SubElement(offer, "vendor").text = vendor
         name = ET.SubElement(offer, "name", lang="ua")
         name.text = source.findtext("name_ua") or source.findtext("name")
+        description = source.findtext("description_ua") or source.findtext("description")
+        if description:
+            ET.SubElement(offer, "description", lang="ua").text = description
+        country = source.findtext("country_of_origin")
+        if country:
+            country_codes = {"Китай": "chn", "Україна": "ukr"}
+            attrs = {"code": country_codes[country]} if country in country_codes else {}
+            ET.SubElement(offer, "country_of_origin", attrs).text = country
         ET.SubElement(offer, "param", name="Міра виміру", paramcode="measure", valuecode="measure_pcs").text = "шт."
         ET.SubElement(offer, "param", name="Мінімальна кратність товару", paramcode="ratio").text = "1"
+    # Match the supplied native template's field order.
+    order = {tag: index for index, tag in enumerate(("price", "price_old", "availability", "category", "attribute_set", "name", "picture", "description", "vendor", "country_of_origin", "param", "width", "height", "weight", "length"))}
+    for offer in offers:
+        offer[:] = sorted(offer, key=lambda child: order.get(child.tag, len(order)))
     return root
 
 
@@ -251,24 +274,46 @@ def export_feed() -> None:
     products = merge_with_history(current, state)
     updates_root = build_feed(source, ET.parse(MANUAL_FILE).getroot(), products)
     root = build_import_feed(updates_root)
-    write_xml_atomic(root, OUTPUT_FILE)
-    # Keep every historical ID in updates so existing cards can be disabled.
-    write_xml_atomic(updates_root, OUTPUT_FILE.with_name("epicentr_updates.xml"))
-    write_xml_atomic(build_attributes_feed(root), OUTPUT_FILE.with_name("epicentr_attributes.xml"))
+    brand_file = BASE_DIR / "data/manual/epicentr_brand_map.json"
+    brand_map = json.loads(brand_file.read_text(encoding="utf-8")) if brand_file.exists() else {}
+    brand_map = {key.strip().casefold(): value for key, value in brand_map.items()}
+    native_root = build_attributes_feed(root, brand_map)
+    # Canonical URL now uses the full native format for both URL import and
+    # auto-updates. No Prom parser or second content import is required.
+    write_xml_atomic(native_root, OUTPUT_FILE)
+    # Historical minimal records remain in a native updates-only compatibility URL.
+    native_updates = ET.Element("yml_catalog", date=native_root.get("date", ""))
+    native_update_offers = ET.SubElement(native_updates, "offers")
+    for old_offer in updates_root.findall("./shop/offers/offer"):
+        update = ET.SubElement(native_update_offers, "offer", dict(old_offer.attrib))
+        for tag in ("price", "price_old", "availability"):
+            set_text(update, tag, old_offer.findtext(tag))
+    write_xml_atomic(native_updates, OUTPUT_FILE.with_name("epicentr_updates.xml"))
+    # Old content URL becomes an alias of the complete native catalog.
+    write_xml_atomic(deepcopy(native_root), OUTPUT_FILE.with_name("epicentr_attributes.xml"))
     unresolved = []
     fallback_assignments = []
+    brands_needing_reference = {}
+    parameters_needing_reference = {}
     for offer in root.findall("./shop/offers/offer"):
         title = offer.findtext("name_ua") or offer.findtext("name") or ""
         category_id = offer.findtext("categoryId") or ""
         sku = offer.get("id") or ""
         description = offer.findtext("description_ua") or ""
+        vendor = (offer.findtext("vendor") or "").strip()
+        if vendor.casefold() not in brand_map:
+            brands_needing_reference.setdefault(vendor or "<empty>", []).append(sku)
+        for parameter in offer.findall("param"):
+            if not parameter.get("paramcode"):
+                parameters_needing_reference.setdefault(parameter.get("name") or "<empty>", 0)
+                parameters_needing_reference[parameter.get("name") or "<empty>"] += 1
         if category_id == "195":
             category, rule = resolve_spare_category(title, sku=sku, description=description)
             if rule == "fallback_195":
                 fallback_assignments.append({"sku": sku, "supplier_category_id": category_id, "name": title, "epicentr_category_code": category[0], "rule": rule})
         if not resolve_category(category_id, title, sku=sku, description=description):
             unresolved.append({"sku": offer.get("id"), "supplier_category_id": offer.findtext("categoryId"), "name": title})
-    report = {"total": len(root.findall("./shop/offers/offer")), "unresolved_count": len(unresolved), "unresolved": unresolved, "fallback_count": len(fallback_assignments), "fallback_assignments": fallback_assignments}
+    report = {"total": len(root.findall("./shop/offers/offer")), "unresolved_count": len(unresolved), "unresolved": unresolved, "fallback_count": len(fallback_assignments), "fallback_assignments": fallback_assignments, "brands_needing_reference": brands_needing_reference, "parameters_needing_reference": parameters_needing_reference, "packaging_dimensions_missing": [o.get("id") for o in root.findall("./shop/offers/offer") if not all(o.findtext(tag) for tag in ("width", "height", "length", "weight"))]}
     OUTPUT_FILE.with_name("epicentr_taxonomy_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     save_known_products({"products": products})
     full = len(root.findall("./shop/offers/offer"))
