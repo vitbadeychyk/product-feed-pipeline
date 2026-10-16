@@ -1,33 +1,30 @@
-# Epicentr unified feed
+# Epicentr unified feed — independent sources
 
-Run `python -m scripts.rozetka.export_feed`, then
-`python -m scripts.epicentr.export_feed`. The workflow enforces this order.
-The standalone Epicentr command consumes the existing Rozetka output; regenerate
-Rozetka first after changing the raw supplier feed.
+Run `python -m scripts.epicentr.export_feed` with SUPABASE_URL and SUPABASE_KEY.
+No Rozetka XML, export module or execution order is required.
+
+Sources:
+- `data/raw/supplier_feed.xml`: products, vendorCode IDs, titles, images, brand,
+  barcode, URL, currency, category IDs/names, stock and ALL supplied parameters.
+- Supabase `products.sku,description`: independent paginated REST lookup, matched
+  by trimmed case-insensitive SKU without removing internal spaces. Description
+  formatting follows the existing Rozetka logic, implemented in the independent
+  `scripts/common/product_descriptions.py` client.
+- `scripts/pricing/epicentr_pricing.py`: existing Epicentr selling-price formula.
+- `data/manual/epicentr_manual_products.xml`: manual content/prices/defaults.
+- `state/epicentr_known_products.json`: price/stock and cached full-card history.
+
+Parameters are not filtered by Rozetka category rules. All raw per-item `<param>`
+values are copied, retaining names, units and languages. Nested multilingual values
+are flattened to separate simple YML params; uk is normalized to ua. No fixed
+Rozetka warranty, delivery or country defaults are injected.
 
 Canonical output: `data/output/epicentr/epicentr_feed.xml`.
-`epicentr_updates.xml` is an identical compatibility copy for existing subscribers.
-The old updates CLI also invokes the unified exporter.
+`epicentr_updates.xml` is an identical compatibility copy for existing URLs.
 
-Product descriptions come from the prepared Rozetka catalog (Supabase
-`sku,description` lookup). Parameters are exactly the prepared Rozetka parameters:
-raw supplier `<param>` values selected by `scripts/rozetka/category_params.py`,
-including that directory's fixed/default values and language handling.
-This does not export every raw supplier parameter.
-
-Epicentr IDs remain supplier vendorCode / manual offer ID. Epicentr pricing,
-manual prices and manual availability retain the existing rules. Duplicate supplier
-SKUs use the last occurrence, matching the previous updates generator.
-Supplier quantity availability is taken from the prepared Rozetka catalog where
-available. Manual content and default parameters come from
-`data/manual/epicentr_manual_products.xml`; per-offer values override defaults.
-Category IDs are supplier IDs for mapping during the YML import, not Epicentr
-API taxonomy codes.
-
-History now saves full cards when available. Removed products retain their last
-full content and become out_of_stock. Legacy records and products without a
-prepared full description still have update-only entries in the same file:
-they can update an existing card but cannot create a complete new card.
-No product descriptions are invented to fill these gaps.
+Removed products become out_of_stock and retain cached full content when present.
+Products without a database description retain cached content or update-only
+entries; no descriptions are invented. Category IDs are supplier IDs for mapping
+in the import UI, not Epicentr API taxonomy codes.
 
 Checks: `python -m unittest discover -s tests -v`.

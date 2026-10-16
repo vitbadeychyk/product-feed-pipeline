@@ -1,7 +1,4 @@
-"""Unified YML: Rozetka product content, Epicentr SKU/pricing and stock history.
-
-Run after scripts.rozetka.export_feed. Never copy Rozetka selling prices or IDs.
-"""
+"""Unified Epicentr feed built directly from supplier XML and Supabase."""
 from __future__ import annotations
 
 from copy import deepcopy
@@ -10,6 +7,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 from scripts.common.parse_local_feed import parse_local_feed
+from scripts.common.product_descriptions import load_supabase_descriptions, normalize_sku
 from scripts.epicentr.export_updates_with_history import (
     load_known_products, save_known_products, build_current_products,
     load_manual_products, merge_with_history,
@@ -17,7 +15,7 @@ from scripts.epicentr.export_updates_with_history import (
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_FILE = BASE_DIR / "data/output/epicentr/epicentr_feed.xml"
-ROZETKA_FILE = BASE_DIR / "data/output/rozetka/rozetka_feed.xml"
+INPUT_FILE = BASE_DIR / "data/raw/supplier_feed.xml"
 MANUAL_FILE = BASE_DIR / "data/manual/epicentr_manual_products.xml"
 
 
@@ -46,7 +44,7 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
     for offer in source.findall("./shop/offers/offer"):
         sku = (offer.findtext("article") or "").strip()
         if not sku:
-            raise ValueError("Missing Rozetka article")
+            raise ValueError("Missing supplier article")
         if sku in content:
             print(f"Duplicate supplier SKU {sku}: using last item, as in existing Epicentr updates")
         content[sku] = deepcopy(offer)
@@ -110,17 +108,69 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
     return root
 
 
+def build_supplier_content(raw: ET.Element, descriptions: dict[str, str]) -> ET.Element:
+    """Build content solely from raw supplier data and an independent DB lookup."""
+    root = ET.Element("yml_catalog")
+    shop = ET.SubElement(root, "shop")
+    categories = ET.SubElement(shop, "categories")
+    for category in raw.findall(".//catalog/category"):
+        categories.append(deepcopy(category))
+    offers = ET.SubElement(shop, "offers")
+    for item in raw.findall(".//items/item"):
+        sku = (item.findtext("vendorCode") or "").strip()
+        description = descriptions.get(normalize_sku(sku), "")
+        if not sku or not description:
+            continue
+        offer = ET.SubElement(offers, "offer", id=sku)
+        set_text(offer, "article", sku)
+        for tag in ("url", "currencyId", "categoryId", "vendor", "barcode", "name", "name_ua"):
+            value = (item.findtext(tag) or "").strip()
+            if value:
+                set_text(offer, tag, value)
+        if not offer.findtext("currencyId"):
+            set_text(offer, "currencyId", "UAH")
+        if not offer.findtext("name_ua"):
+            set_text(offer, "name_ua", offer.findtext("name") or "")
+        for tag in ("description", "description_ua"):
+            set_text(offer, tag, description)
+        for picture in item.findall("image"):
+            if picture.text and picture.text.strip():
+                set_picture = ET.SubElement(offer, "picture")
+                set_picture.text = picture.text.strip()
+        # Preserve every supplied parameter, including unit and language attributes.
+        # Flatten multilingual <value> nodes as simple YML <param> values.
+        for param in item.findall("param"):
+            values = param.findall("value")
+            for value in values or [param]:
+                text = (value.text or "").strip()
+                if not text:
+                    continue
+                attrs = dict(param.attrib)
+                attrs.update(value.attrib)
+                if attrs.get("lang") == "uk":
+                    attrs["lang"] = "ua"
+                ET.SubElement(offer, "param", attrs).text = text
+    return root
+
+
 def export_feed() -> None:
-    source = ET.parse(ROZETKA_FILE).getroot()
-    if not source.findall("./shop/offers/offer"):
-        raise ValueError("Rozetka feed is empty; generate it first")
+    raw = ET.parse(INPUT_FILE).getroot()
+    items = raw.findall(".//items/item")
+    if not items:
+        raise ValueError("Supplier feed is empty; existing output will not be overwritten")
+    descriptions = load_supabase_descriptions()
+    source = build_supplier_content(raw, descriptions)
     supplier = build_current_products(parse_local_feed())
     manual = load_manual_products()
-    # Rozetka also checks quantity_in_stock; keep that stock decision.
-    for offer in source.findall("./shop/offers/offer"):
-        sku = (offer.findtext("article") or "").strip()
-        if sku in supplier:
-            supplier[sku]["available"] = offer.get("available", "false")
+    for item in items:
+        sku = (item.findtext("vendorCode") or "").strip()
+        if sku not in supplier:
+            continue
+        try:
+            qty = float((item.findtext("quantity_in_stock") or "0").replace(",", "."))
+        except ValueError:
+            qty = 0
+        supplier[sku]["available"] = "true" if qty > 0 and (item.findtext("available") or "").strip().lower() == "true" else "false"
     current = {**supplier, **manual}
     # Enrich existing history before its current price/stock records are replaced.
     state = load_known_products()
