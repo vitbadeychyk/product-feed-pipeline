@@ -52,3 +52,12 @@ parameters need their own paramcode/valuecode directory and are not inferred
 from arbitrary supplier parameter names. Test a small native XML import before
 applying all category assignments to existing cards.
 The Prom and stock-update output formats remain unchanged.
+
+### Supplier spare parts category 195
+
+Priority: SKU_CATEGORY_OVERRIDES, specific title rules, description rules, then
+merchant-approved fallback 7153 (Запчастини для електротранспорту).
+Car-seat/stroller accessories -> 847; skateboard spares -> 8477; scooter spares
+-> 8823 (electric scooters -> 7153). Fallback applies only to supplier 195.
+Fallback assignments are preserved in epicentr_taxonomy_report.json with SKU,
+title, target category and reason fallback_195, separate from unresolved items.

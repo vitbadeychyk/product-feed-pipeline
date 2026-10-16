@@ -7,7 +7,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 import json
 
-from scripts.epicentr.category_map import resolve_category
+from scripts.epicentr.category_map import resolve_category, resolve_spare_category
 
 from scripts.common.parse_local_feed import parse_local_feed
 from scripts.common.product_descriptions import load_supabase_descriptions, normalize_sku
@@ -201,7 +201,7 @@ def build_attributes_feed(import_root: ET.Element) -> ET.Element:
         for tag in ("price", "price_old", "availability"):
             if source.findtext(tag):
                 set_text(offer, tag, source.findtext(tag))
-        taxonomy = resolve_category(source.findtext("categoryId") or "", source.findtext("name_ua") or source.findtext("name") or "")
+        taxonomy = resolve_category(source.findtext("categoryId") or "", source.findtext("name_ua") or source.findtext("name") or "", sku=source.get("id") or "", description=source.findtext("description_ua") or "")
         if taxonomy:
             code, title = taxonomy
             ET.SubElement(offer, "category", code=code).text = title
@@ -256,11 +256,19 @@ def export_feed() -> None:
     write_xml_atomic(updates_root, OUTPUT_FILE.with_name("epicentr_updates.xml"))
     write_xml_atomic(build_attributes_feed(root), OUTPUT_FILE.with_name("epicentr_attributes.xml"))
     unresolved = []
+    fallback_assignments = []
     for offer in root.findall("./shop/offers/offer"):
         title = offer.findtext("name_ua") or offer.findtext("name") or ""
-        if not resolve_category(offer.findtext("categoryId") or "", title):
+        category_id = offer.findtext("categoryId") or ""
+        sku = offer.get("id") or ""
+        description = offer.findtext("description_ua") or ""
+        if category_id == "195":
+            category, rule = resolve_spare_category(title, sku=sku, description=description)
+            if rule == "fallback_195":
+                fallback_assignments.append({"sku": sku, "supplier_category_id": category_id, "name": title, "epicentr_category_code": category[0], "rule": rule})
+        if not resolve_category(category_id, title, sku=sku, description=description):
             unresolved.append({"sku": offer.get("id"), "supplier_category_id": offer.findtext("categoryId"), "name": title})
-    report = {"total": len(root.findall("./shop/offers/offer")), "unresolved_count": len(unresolved), "unresolved": unresolved}
+    report = {"total": len(root.findall("./shop/offers/offer")), "unresolved_count": len(unresolved), "unresolved": unresolved, "fallback_count": len(fallback_assignments), "fallback_assignments": fallback_assignments}
     OUTPUT_FILE.with_name("epicentr_taxonomy_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     save_known_products({"products": products})
     full = len(root.findall("./shop/offers/offer"))

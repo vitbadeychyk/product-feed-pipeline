@@ -41,8 +41,30 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertEqual(resolve_category('83', 'Манеж дитячий')[0], '871')
         self.assertEqual(resolve_category('76', 'Санки Мрія')[0], '5048')
         self.assertIsNone(resolve_category('76', 'Снігокат'))
-        self.assertIsNone(resolve_category('195', 'Запчастина'))
+        self.assertEqual(resolve_category('195', 'Запчастина')[0], '7153')
         self.assertIsNone(resolve_category('114', 'Новинка'))
+
+    def test_spares_exceptions_fallback_and_override(self):
+        from scripts.epicentr.category_map import resolve_category, resolve_spare_category, SKU_CATEGORY_OVERRIDES
+        cases = [
+            ('Адаптер для автокрісла', '847'),
+            ('Колесо для коляски', '847'),
+            ('Колесо для самоката', '8823'),
+            ('Колесо для електросамоката', '7153'),
+            ('Підвіска для скейтборда', '8477'),
+            ('Мотор для електромобіля', '7153'),
+            ('Невідома деталь X', '7153'),
+        ]
+        for title, code in cases:
+            with self.subTest(title=title):
+                self.assertEqual(resolve_category('195', title)[0], code)
+        self.assertEqual(resolve_spare_category('Невідома деталь X')[1], 'fallback_195')
+        self.assertEqual(resolve_category('195', 'Деталь X', description='Для автокрісла')[0], '847')
+        self.assertEqual(resolve_category('195', 'Адаптер для автокрісла', description='Електромобіль')[0], '847')
+        with patch.dict(SKU_CATEGORY_OVERRIDES, {'special-sku': ('8823', 'Запчастини для самокатів')}):
+            self.assertEqual(resolve_category('195', 'Невідома деталь', sku=' SPECIAL-SKU ')[0], '8823')
+        # Fallback must not leak into other supplier categories.
+        self.assertIsNone(resolve_category('114', 'Невідома деталь'))
 
     def test_supplier_description_fallback_priority(self):
         raw = ET.fromstring("""<root><items>

@@ -27,8 +27,35 @@ CATEGORY_MAP = {
 }
 
 
-def resolve_category(category_id: str, title: str) -> tuple[str, str] | None:
+# Exact SKU assignments take precedence over text rules. Keys are casefolded.
+SKU_CATEGORY_OVERRIDES: dict[str, tuple[str, str]] = {}
+
+
+def resolve_spare_category(title: str, *, sku: str = "", description: str = "") -> tuple[tuple[str, str], str]:
+    """Return category and an auditable rule for supplier spare-parts group 195."""
+    override = SKU_CATEGORY_OVERRIDES.get(sku.strip().casefold())
+    if override:
+        return override, "sku_override"
+    # Use title first. A generic description must not override a specific title.
+    for text, source in ((title.casefold(), "title"), (description.casefold(), "description")):
+        if any(word in text for word in ("автокрісл", "автокресл", "коляск", "візоч")):
+            return ("847", "Аксесуари для колясок та автокрісел"), source + ":stroller_or_car_seat"
+        if "скейт" in text:
+            return ("8477", "Запчастини для скейтбордів"), source + ":skateboard"
+        if "самокат" in text:
+            if "електр" in text or "электр" in text:
+                return ("7153", "Запчастини для електротранспорту"), source + ":electric_scooter"
+            return ("8823", "Запчастини для самокатів"), source + ":scooter"
+        if any(word in text for word in ("електромоб", "электромоб", "електротранспорт", "электротранспорт")):
+            return ("7153", "Запчастини для електротранспорту"), source + ":electric_transport"
+    # Explicit merchant-approved fallback. Always list these offers for review.
+    return ("7153", "Запчастини для електротранспорту"), "fallback_195"
+
+
+def resolve_category(category_id: str, title: str, *, sku: str = "", description: str = "") -> tuple[str, str] | None:
     """Return a verified leaf candidate; leave ambiguous products unresolved."""
+    if category_id == '195':
+        return resolve_spare_category(title, sku=sku, description=description)[0]
     text = title.casefold()
     if category_id == '76':
         # Supplier group also contains snow racers/ice sleds; don't lump them in.
