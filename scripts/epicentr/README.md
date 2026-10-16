@@ -43,7 +43,12 @@ The same exporter also generates `epicentr_attributes.xml`: a native Epicentr
 XML for File / Update all, not Import from other marketplaces. Every complete
 card has measure=measure_pcs (шт.) and ratio=1. This updates selling units and
 minimum sale quantity, not stock quantity. Product IDs and prices are retained.
-Category and attribute_set codes are not guessed from supplier IDs. The supplied
-category workbook contains a category tree but no separate attribute-set codes;
-API reference access or category-specific templates are needed to finish mapping.
+Category and attribute_set share the Epicentr code/name per the supplied native
+XML guide. `category_map.py` contains workbook-backed direct mappings and title
+rules for mixed supplier groups. Unresolved products omit both taxonomy fields
+and are listed in `epicentr_taxonomy_report.json`; no codes are invented.
+Measurements are still emitted for every complete card. Category-specific product
+parameters need their own paramcode/valuecode directory and are not inferred
+from arbitrary supplier parameter names. Test a small native XML import before
+applying all category assignments to existing cards.
 The Prom and stock-update output formats remain unchanged.

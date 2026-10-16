@@ -33,6 +33,17 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertEqual(get.call_args.args[0], 'https://test.supabase.co/rest/v1/products')
         self.assertEqual(get.call_args.kwargs['params']['select'], 'sku,description')
 
+    def test_category_mapping_handles_mixed_groups(self):
+        from scripts.epicentr.category_map import resolve_category
+        self.assertEqual(resolve_category('77', 'Дитячий автомобіль'), ('854', 'Дитячі електромобілі'))
+        self.assertEqual(resolve_category('79', 'Скейт дитячий')[0], '1438')
+        self.assertEqual(resolve_category('79', 'Самокат дитячий')[0], '1437')
+        self.assertEqual(resolve_category('83', 'Манеж дитячий')[0], '871')
+        self.assertEqual(resolve_category('76', 'Санки Мрія')[0], '5048')
+        self.assertIsNone(resolve_category('76', 'Снігокат'))
+        self.assertIsNone(resolve_category('195', 'Запчастина'))
+        self.assertIsNone(resolve_category('114', 'Новинка'))
+
     def test_supplier_description_fallback_priority(self):
         raw = ET.fromstring("""<root><items>
         <item><vendorCode>DB</vendorCode><description_ua>Supplier UA</description_ua></item>
@@ -75,8 +86,9 @@ class UnifiedFeedTests(unittest.TestCase):
             self.assertEqual(offer.find("param[@paramcode='measure']").get('valuecode'), 'measure_pcs')
             self.assertEqual(offer.findtext("param[@paramcode='measure']"), 'шт.')
             self.assertEqual(offer.findtext("param[@paramcode='ratio']"), '1')
-            self.assertIsNone(offer.find('category'))
-            self.assertIsNone(offer.find('attribute_set'))
+            code = '5048' if offer.get('id') == 'S52' else '854'
+            self.assertEqual(offer.find('category').get('code'), code)
+            self.assertEqual(offer.find('attribute_set').get('code'), code)
             self.assertTrue(offer.findtext("name[@lang='ua']"))
         self.assertEqual(len(attributes.findall('./offers/offer')), len(imported))
 

@@ -5,6 +5,9 @@ from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import json
+
+from scripts.epicentr.category_map import resolve_category
 
 from scripts.common.parse_local_feed import parse_local_feed
 from scripts.common.product_descriptions import load_supabase_descriptions, normalize_sku
@@ -188,8 +191,8 @@ def build_attributes_feed(import_root: ET.Element) -> ET.Element:
     """Native Epicentr XML for updating measurement fields on existing cards.
 
     This is imported via File / Update all, not the Prom import parser.
-    Taxonomy is intentionally omitted until category/attribute-set API codes
-    are verified; supplier category IDs are never used as native codes.
+    Taxonomy uses the verified Epicentr workbook, never supplier IDs as codes.
+    Unresolved mixed products retain their current category in the cabinet.
     """
     root = ET.Element("yml_catalog", date=import_root.get("date", ""))
     offers = ET.SubElement(root, "offers")
@@ -198,6 +201,11 @@ def build_attributes_feed(import_root: ET.Element) -> ET.Element:
         for tag in ("price", "price_old", "availability"):
             if source.findtext(tag):
                 set_text(offer, tag, source.findtext(tag))
+        taxonomy = resolve_category(source.findtext("categoryId") or "", source.findtext("name_ua") or source.findtext("name") or "")
+        if taxonomy:
+            code, title = taxonomy
+            ET.SubElement(offer, "category", code=code).text = title
+            ET.SubElement(offer, "attribute_set", code=code).text = title
         name = ET.SubElement(offer, "name", lang="ua")
         name.text = source.findtext("name_ua") or source.findtext("name")
         ET.SubElement(offer, "param", name="Міра виміру", paramcode="measure", valuecode="measure_pcs").text = "шт."
@@ -247,6 +255,13 @@ def export_feed() -> None:
     # Keep every historical ID in updates so existing cards can be disabled.
     write_xml_atomic(updates_root, OUTPUT_FILE.with_name("epicentr_updates.xml"))
     write_xml_atomic(build_attributes_feed(root), OUTPUT_FILE.with_name("epicentr_attributes.xml"))
+    unresolved = []
+    for offer in root.findall("./shop/offers/offer"):
+        title = offer.findtext("name_ua") or offer.findtext("name") or ""
+        if not resolve_category(offer.findtext("categoryId") or "", title):
+            unresolved.append({"sku": offer.get("id"), "supplier_category_id": offer.findtext("categoryId"), "name": title})
+    report = {"total": len(root.findall("./shop/offers/offer")), "unresolved_count": len(unresolved), "unresolved": unresolved}
+    OUTPUT_FILE.with_name("epicentr_taxonomy_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     save_known_products({"products": products})
     full = len(root.findall("./shop/offers/offer"))
     print(f"Epicentr import: {full} complete products")
