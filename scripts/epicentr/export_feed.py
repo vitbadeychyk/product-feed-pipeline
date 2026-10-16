@@ -118,7 +118,11 @@ def build_supplier_content(raw: ET.Element, descriptions: dict[str, str]) -> ET.
     offers = ET.SubElement(shop, "offers")
     for item in raw.findall(".//items/item"):
         sku = (item.findtext("vendorCode") or "").strip()
-        description = descriptions.get(normalize_sku(sku), "")
+        description = (descriptions.get(normalize_sku(sku)) or "").strip()
+        if not description:
+            description = (item.findtext("description_ua") or "").strip()
+        if not description:
+            description = (item.findtext("description") or "").strip()
         if not sku or not description:
             continue
         offer = ET.SubElement(offers, "offer", id=sku)
@@ -158,7 +162,7 @@ def export_feed() -> None:
     items = raw.findall(".//items/item")
     if not items:
         raise ValueError("Supplier feed is empty; existing output will not be overwritten")
-    descriptions = load_supabase_descriptions()
+    descriptions = load_supabase_descriptions(allow_empty=True)
     source = build_supplier_content(raw, descriptions)
     supplier = build_current_products(parse_local_feed())
     manual = load_manual_products()

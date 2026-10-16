@@ -209,7 +209,7 @@ def format_description(
 # LOAD DESCRIPTIONS FROM SUPABASE
 # ============================================================
 
-def load_supabase_descriptions() -> dict[str, str]:
+def load_supabase_descriptions(*, allow_empty: bool = False) -> dict[str, str]:
     """
     Завантажує з Supabase:
 
@@ -352,7 +352,7 @@ def load_supabase_descriptions() -> dict[str, str]:
     # SAFETY
     # --------------------------------------------------------
 
-    if not descriptions:
+    if not descriptions and not allow_empty:
 
         raise RuntimeError(
             "У Supabase не знайдено жодного товару "

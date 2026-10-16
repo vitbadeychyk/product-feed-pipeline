@@ -33,6 +33,25 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertEqual(get.call_args.args[0], 'https://test.supabase.co/rest/v1/products')
         self.assertEqual(get.call_args.kwargs['params']['select'], 'sku,description')
 
+    def test_supplier_description_fallback_priority(self):
+        raw = ET.fromstring("""<root><items>
+        <item><vendorCode>DB</vendorCode><description_ua>Supplier UA</description_ua></item>
+        <item><vendorCode>UA</vendorCode><description_ua>  &lt;p&gt;Український опис&lt;/p&gt;  </description_ua><description>Other</description></item>
+        <item><vendorCode>RU</vendorCode><description_ua>  </description_ua><description>Supplier description</description></item>
+        <item><vendorCode>NONE</vendorCode></item>
+        </items></root>""")
+        root = build_supplier_content(raw, {'db': 'Database description', 'ua': '  '})
+        offers = {o.get('id'): o for o in root.findall('./shop/offers/offer')}
+        self.assertEqual(offers['DB'].findtext('description_ua'), 'Database description')
+        self.assertEqual(offers['UA'].findtext('description_ua'), '<p>Український опис</p>')
+        self.assertEqual(offers['RU'].findtext('description_ua'), 'Supplier description')
+        self.assertNotIn('NONE', offers)
+        # All-empty descriptions in the DB still allow supplier descriptions.
+        response = Mock()
+        response.json.return_value = [{'sku': 'UA', 'description': None}]
+        with patch.object(descriptions, 'SUPABASE_URL', 'https://test.supabase.co'), patch.object(descriptions, 'SUPABASE_KEY', 'test-key'), patch.object(descriptions.requests, 'get', return_value=response):
+            self.assertEqual(descriptions.load_supabase_descriptions(allow_empty=True), {})
+
     def test_full_content_manual_overrides_and_removed_history(self):
         source = ET.fromstring('''<yml_catalog><shop><categories><category id="77">Авто</category></categories><offers><offer id="supplier-id" available="true"><article>SKU</article><price>999</price><currencyId>UAH</currencyId><categoryId>77</categoryId><name_ua>Авто</name_ua><description_ua>&lt;p&gt;Повний опис&lt;/p&gt;</description_ua><picture>https://example.com/a.jpg</picture><param name="Матеріал" lang="ua">Метал</param></offer></offers></shop></yml_catalog>''')
         manual = ET.fromstring('''<offers><defaults><categoryId>76</categoryId><category_name>Санки</category_name><currencyId>UAH</currencyId><description_ua>Опис</description_ua><params><param name="Колір">Синій</param></params></defaults><offer id="S52"><name_ua>Санки</name_ua><picture>https://example.com/s.jpg</picture><params><param name="Колір">Жовтий</param></params></offer></offers>''')
