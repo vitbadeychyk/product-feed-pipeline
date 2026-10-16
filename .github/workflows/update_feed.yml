@@ -105,13 +105,11 @@ jobs:
       # EPICENTR - FULL FEED
       # ======================================================
 
-      - name: Export Rozetka feed
+
+      - name: Export Epicentr full feed
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python -m scripts.rozetka.export_feed
-
-      - name: Export Epicentr full feed
         run: python -m scripts.epicentr.export_feed
 
       # ======================================================
@@ -288,6 +286,12 @@ jobs:
       # ROZETKA
       # ======================================================
 
+
+      - name: Export Rozetka feed
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -m scripts.rozetka.export_feed
 
       # ======================================================
       # EVA
