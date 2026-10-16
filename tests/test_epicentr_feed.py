@@ -63,6 +63,8 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertEqual(offers['SKU'].findtext('priceOld'), '2600')
         self.assertEqual(offers['SKU'].findtext('priceOld'), offers['SKU'].findtext('price_old'))
         self.assertEqual(offers['SKU'].findtext('param'), 'Метал')
+        self.assertEqual(offers['SKU'].findtext('country_of_origin'), 'Китай')
+        self.assertEqual(offers['S52'].findtext('country_of_origin'), 'Україна')
         self.assertEqual(offers['S52'].findtext('param'), 'Жовтий')
         self.assertEqual(offers['OLD'].findtext('availability'), 'out_of_stock')
         ET.fromstring(ET.tostring(root))
