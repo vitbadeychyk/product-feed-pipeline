@@ -60,6 +60,8 @@ class UnifiedFeedTests(unittest.TestCase):
         offers = {o.get('id'): o for o in root.findall('./shop/offers/offer')}
         self.assertEqual(set(offers), set(products))
         self.assertEqual(offers['SKU'].findtext('price'), '2000')
+        self.assertEqual(offers['SKU'].findtext('priceOld'), '2600')
+        self.assertEqual(offers['SKU'].findtext('priceOld'), offers['SKU'].findtext('price_old'))
         self.assertEqual(offers['SKU'].findtext('param'), 'Метал')
         self.assertEqual(offers['S52'].findtext('param'), 'Жовтий')
         self.assertEqual(offers['OLD'].findtext('availability'), 'out_of_stock')

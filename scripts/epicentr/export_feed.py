@@ -86,7 +86,10 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
         offer.set("id", sku)
         offer.set("available", "true" if available else "false")
         set_text(offer, "price", data["price"])
-        set_text(offer, "price_old", data.get("price_old") or int(float(data["price"]) * 1.3))
+        old_price = data.get("price_old") or int(float(data["price"]) * 1.3)
+        set_text(offer, "price_old", old_price)
+        # Prom-import template uses priceOld; keep price_old for existing updates.
+        set_text(offer, "priceOld", old_price)
         set_text(offer, "availability", "in_stock" if available else "out_of_stock")
         set_text(offer, "stock_quantity", "10" if available else "0")
         if offer.findtext("name_ua"):
