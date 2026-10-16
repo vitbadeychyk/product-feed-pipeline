@@ -86,7 +86,10 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
         offer.set("id", sku)
         offer.set("available", "true" if available else "false")
         set_text(offer, "price", data["price"])
-        set_text(offer, "price_old", data.get("price_old") or int(float(data["price"]) * 1.3))
+        old_price = data.get("price_old") or int(float(data["price"]) * 1.3)
+        set_text(offer, "price_old", old_price)
+        # Prom-import template uses priceOld; keep price_old for existing updates.
+        set_text(offer, "priceOld", old_price)
         set_text(offer, "availability", "in_stock" if available else "out_of_stock")
         set_text(offer, "stock_quantity", "10" if available else "0")
         if offer.findtext("name_ua"):
@@ -95,6 +98,9 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
                     raise ValueError(f"Incomplete product {sku}: {tag}")
             if offer.findtext("currencyId") != "UAH":
                 raise ValueError(f"Non-UAH product: {sku}")
+            # Merchant-defined origin policy for the Prom import template.
+            country = "Україна" if offer.findtext("categoryId") == "76" else "Китай"
+            set_text(offer, "country_of_origin", country)
             used_categories.add(offer.findtext("categoryId"))
             data["offer_xml"] = ET.tostring(offer, encoding="unicode")
             data["category_name"] = category_names.get(offer.findtext("categoryId")) or data.get("category_name")
