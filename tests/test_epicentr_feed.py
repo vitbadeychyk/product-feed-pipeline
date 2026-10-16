@@ -1,7 +1,7 @@
 import unittest
 import xml.etree.ElementTree as ET
 from copy import deepcopy
-from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed
+from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed, build_attributes_feed
 from scripts.common import product_descriptions as descriptions
 from unittest.mock import patch, Mock
 
@@ -70,6 +70,16 @@ class UnifiedFeedTests(unittest.TestCase):
         ET.fromstring(ET.tostring(root))
         import_root = build_import_feed(root)
         imported = import_root.findall('./shop/offers/offer')
+        attributes = build_attributes_feed(import_root)
+        for offer in attributes.findall('./offers/offer'):
+            self.assertEqual(offer.find("param[@paramcode='measure']").get('valuecode'), 'measure_pcs')
+            self.assertEqual(offer.findtext("param[@paramcode='measure']"), 'шт.')
+            self.assertEqual(offer.findtext("param[@paramcode='ratio']"), '1')
+            self.assertIsNone(offer.find('category'))
+            self.assertIsNone(offer.find('attribute_set'))
+            self.assertTrue(offer.findtext("name[@lang='ua']"))
+        self.assertEqual(len(attributes.findall('./offers/offer')), len(imported))
+
         self.assertEqual({o.get('id') for o in imported}, {'SKU', 'S52'})
         self.assertTrue(all(o.findtext('name') and o.findtext('categoryId') for o in imported))
         # Unavailable complete cards remain importable; historical minimal records

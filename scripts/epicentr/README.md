@@ -36,3 +36,14 @@ supplier fallback; connection/API errors still fail without overwriting output. 
 in the import UI, not Epicentr API taxonomy codes.
 
 Checks: `python -m unittest discover -s tests -v`.
+
+## Native measurement-field update
+
+The same exporter also generates `epicentr_attributes.xml`: a native Epicentr
+XML for File / Update all, not Import from other marketplaces. Every complete
+card has measure=measure_pcs (шт.) and ratio=1. This updates selling units and
+minimum sale quantity, not stock quantity. Product IDs and prices are retained.
+Category and attribute_set codes are not guessed from supplier IDs. The supplied
+category workbook contains a category tree but no separate attribute-set codes;
+API reference access or category-specific templates are needed to finish mapping.
+The Prom and stock-update output formats remain unchanged.

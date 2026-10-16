@@ -184,6 +184,27 @@ def build_import_feed(all_products: ET.Element) -> ET.Element:
     return root
 
 
+def build_attributes_feed(import_root: ET.Element) -> ET.Element:
+    """Native Epicentr XML for updating measurement fields on existing cards.
+
+    This is imported via File / Update all, not the Prom import parser.
+    Taxonomy is intentionally omitted until category/attribute-set API codes
+    are verified; supplier category IDs are never used as native codes.
+    """
+    root = ET.Element("yml_catalog", date=import_root.get("date", ""))
+    offers = ET.SubElement(root, "offers")
+    for source in import_root.findall("./shop/offers/offer"):
+        offer = ET.SubElement(offers, "offer", id=source.get("id"), available=source.get("available", "false"))
+        for tag in ("price", "price_old", "availability"):
+            if source.findtext(tag):
+                set_text(offer, tag, source.findtext(tag))
+        name = ET.SubElement(offer, "name", lang="ua")
+        name.text = source.findtext("name_ua") or source.findtext("name")
+        ET.SubElement(offer, "param", name="Міра виміру", paramcode="measure", valuecode="measure_pcs").text = "шт."
+        ET.SubElement(offer, "param", name="Мінімальна кратність товару", paramcode="ratio").text = "1"
+    return root
+
+
 def write_xml_atomic(root: ET.Element, path: Path) -> None:
     ET.indent(root, space="  ")
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -225,6 +246,7 @@ def export_feed() -> None:
     write_xml_atomic(root, OUTPUT_FILE)
     # Keep every historical ID in updates so existing cards can be disabled.
     write_xml_atomic(updates_root, OUTPUT_FILE.with_name("epicentr_updates.xml"))
+    write_xml_atomic(build_attributes_feed(root), OUTPUT_FILE.with_name("epicentr_attributes.xml"))
     save_known_products({"products": products})
     full = len(root.findall("./shop/offers/offer"))
     print(f"Epicentr import: {full} complete products")
