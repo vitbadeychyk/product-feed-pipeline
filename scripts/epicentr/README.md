@@ -23,8 +23,10 @@ Canonical output: `data/output/epicentr/epicentr_feed.xml`.
 `epicentr_updates.xml` is an identical compatibility copy for existing URLs.
 
 Removed products become out_of_stock and retain cached full content when present.
-Products without a database description retain cached content or update-only
-entries; no descriptions are invented. Category IDs are supplier IDs for mapping
+Description priority: nonempty Supabase description, then nonempty supplier
+`description_ua`, then supplier `description`. If all are empty, retain cached
+content or update-only entries. An empty successful DB lookup permits the
+supplier fallback; connection/API errors still fail without overwriting output. Category IDs are supplier IDs for mapping
 in the import UI, not Epicentr API taxonomy codes.
 
 Checks: `python -m unittest discover -s tests -v`.
