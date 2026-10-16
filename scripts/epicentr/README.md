@@ -36,3 +36,28 @@ supplier fallback; connection/API errors still fail without overwriting output. 
 in the import UI, not Epicentr API taxonomy codes.
 
 Checks: `python -m unittest discover -s tests -v`.
+
+## Native measurement-field update
+
+The same exporter also generates `epicentr_attributes.xml`: a native Epicentr
+XML for File / Update all, not Import from other marketplaces. Every complete
+card has measure=measure_pcs (шт.) and ratio=1. This updates selling units and
+minimum sale quantity, not stock quantity. Product IDs and prices are retained.
+Category and attribute_set share the Epicentr code/name per the supplied native
+XML guide. `category_map.py` contains workbook-backed direct mappings and title
+rules for mixed supplier groups. Unresolved products omit both taxonomy fields
+and are listed in `epicentr_taxonomy_report.json`; no codes are invented.
+Measurements are still emitted for every complete card. Category-specific product
+parameters need their own paramcode/valuecode directory and are not inferred
+from arbitrary supplier parameter names. Test a small native XML import before
+applying all category assignments to existing cards.
+The Prom and stock-update output formats remain unchanged.
+
+### Supplier spare parts category 195
+
+Priority: SKU_CATEGORY_OVERRIDES, specific title rules, description rules, then
+merchant-approved fallback 7153 (Запчастини для електротранспорту).
+Car-seat/stroller accessories -> 847; skateboard spares -> 8477; scooter spares
+-> 8823 (electric scooters -> 7153). Fallback applies only to supplier 195.
+Fallback assignments are preserved in epicentr_taxonomy_report.json with SKU,
+title, target category and reason fallback_195, separate from unresolved items.

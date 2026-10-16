@@ -1,7 +1,7 @@
 import unittest
 import xml.etree.ElementTree as ET
 from copy import deepcopy
-from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed
+from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed, build_attributes_feed
 from scripts.common import product_descriptions as descriptions
 from unittest.mock import patch, Mock
 
@@ -32,6 +32,39 @@ class UnifiedFeedTests(unittest.TestCase):
         self.assertIn('sku', result)
         self.assertEqual(get.call_args.args[0], 'https://test.supabase.co/rest/v1/products')
         self.assertEqual(get.call_args.kwargs['params']['select'], 'sku,description')
+
+    def test_category_mapping_handles_mixed_groups(self):
+        from scripts.epicentr.category_map import resolve_category
+        self.assertEqual(resolve_category('77', 'Дитячий автомобіль'), ('854', 'Дитячі електромобілі'))
+        self.assertEqual(resolve_category('79', 'Скейт дитячий')[0], '1438')
+        self.assertEqual(resolve_category('79', 'Самокат дитячий')[0], '1437')
+        self.assertEqual(resolve_category('83', 'Манеж дитячий')[0], '871')
+        self.assertEqual(resolve_category('76', 'Санки Мрія')[0], '5048')
+        self.assertIsNone(resolve_category('76', 'Снігокат'))
+        self.assertEqual(resolve_category('195', 'Запчастина')[0], '7153')
+        self.assertIsNone(resolve_category('114', 'Новинка'))
+
+    def test_spares_exceptions_fallback_and_override(self):
+        from scripts.epicentr.category_map import resolve_category, resolve_spare_category, SKU_CATEGORY_OVERRIDES
+        cases = [
+            ('Адаптер для автокрісла', '847'),
+            ('Колесо для коляски', '847'),
+            ('Колесо для самоката', '8823'),
+            ('Колесо для електросамоката', '7153'),
+            ('Підвіска для скейтборда', '8477'),
+            ('Мотор для електромобіля', '7153'),
+            ('Невідома деталь X', '7153'),
+        ]
+        for title, code in cases:
+            with self.subTest(title=title):
+                self.assertEqual(resolve_category('195', title)[0], code)
+        self.assertEqual(resolve_spare_category('Невідома деталь X')[1], 'fallback_195')
+        self.assertEqual(resolve_category('195', 'Деталь X', description='Для автокрісла')[0], '847')
+        self.assertEqual(resolve_category('195', 'Адаптер для автокрісла', description='Електромобіль')[0], '847')
+        with patch.dict(SKU_CATEGORY_OVERRIDES, {'special-sku': ('8823', 'Запчастини для самокатів')}):
+            self.assertEqual(resolve_category('195', 'Невідома деталь', sku=' SPECIAL-SKU ')[0], '8823')
+        # Fallback must not leak into other supplier categories.
+        self.assertIsNone(resolve_category('114', 'Невідома деталь'))
 
     def test_supplier_description_fallback_priority(self):
         raw = ET.fromstring("""<root><items>
@@ -70,6 +103,17 @@ class UnifiedFeedTests(unittest.TestCase):
         ET.fromstring(ET.tostring(root))
         import_root = build_import_feed(root)
         imported = import_root.findall('./shop/offers/offer')
+        attributes = build_attributes_feed(import_root)
+        for offer in attributes.findall('./offers/offer'):
+            self.assertEqual(offer.find("param[@paramcode='measure']").get('valuecode'), 'measure_pcs')
+            self.assertEqual(offer.findtext("param[@paramcode='measure']"), 'шт.')
+            self.assertEqual(offer.findtext("param[@paramcode='ratio']"), '1')
+            code = '5048' if offer.get('id') == 'S52' else '854'
+            self.assertEqual(offer.find('category').get('code'), code)
+            self.assertEqual(offer.find('attribute_set').get('code'), code)
+            self.assertTrue(offer.findtext("name[@lang='ua']"))
+        self.assertEqual(len(attributes.findall('./offers/offer')), len(imported))
+
         self.assertEqual({o.get('id') for o in imported}, {'SKU', 'S52'})
         self.assertTrue(all(o.findtext('name') and o.findtext('categoryId') for o in imported))
         # Unavailable complete cards remain importable; historical minimal records
