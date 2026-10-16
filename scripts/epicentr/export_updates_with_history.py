@@ -548,4 +548,6 @@ def export_feed() -> None:
 
 
 if __name__ == "__main__":
-    export_feed()
+    # Compatibility CLI: always generate the unified catalog.
+    from scripts.epicentr.export_feed import export_feed as export_unified_feed
+    export_unified_feed()

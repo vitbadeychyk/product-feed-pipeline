@@ -105,6 +105,12 @@ jobs:
       # EPICENTR - FULL FEED
       # ======================================================
 
+      - name: Export Rozetka feed
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -m scripts.rozetka.export_feed
+
       - name: Export Epicentr full feed
         run: python -m scripts.epicentr.export_feed
 
@@ -145,8 +151,7 @@ jobs:
       # supplier + manual + history
       # ======================================================
 
-      - name: Export Epicentr updates feed
-        run: python -m scripts.epicentr.export_updates_with_history
+      # epicentr_updates.xml is now an identical compatibility copy of epicentr_feed.xml.
 
       # ======================================================
       # EPICENTR - CHECK FINAL RESULT
@@ -283,11 +288,6 @@ jobs:
       # ROZETKA
       # ======================================================
 
-      - name: Export Rozetka feed
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python -m scripts.rozetka.export_feed
 
       # ======================================================
       # EVA
