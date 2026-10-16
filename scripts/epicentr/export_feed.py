@@ -163,6 +163,35 @@ def build_supplier_content(raw: ET.Element, descriptions: dict[str, str]) -> ET.
     return root
 
 
+def build_import_feed(all_products: ET.Element) -> ET.Element:
+    """Prom importer requires name and categoryId even for unavailable offers."""
+    root = deepcopy(all_products)
+    offers = root.find("./shop/offers")
+    if offers is None:
+        raise ValueError("Missing offers block")
+    categories = {c.get("id") for c in root.findall("./shop/categories/category")}
+    for offer in list(offers):
+        if not (offer.findtext("name") or "").strip() and (offer.findtext("name_ua") or "").strip():
+            set_text(offer, "name", offer.findtext("name_ua"))
+        if any(not (offer.findtext(tag) or "").strip() for tag in ("name", "categoryId")):
+            offers.remove(offer)
+            continue
+        if offer.findtext("categoryId") not in categories:
+            raise ValueError(f"Unknown category for {offer.get('id')}")
+    if not list(offers):
+        raise ValueError("No complete products for import; existing files will not be overwritten")
+    return root
+
+
+def write_xml_atomic(root: ET.Element, path: Path) -> None:
+    ET.indent(root, space="  ")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_suffix(".tmp")
+    ET.ElementTree(root).write(temp, encoding="utf-8", xml_declaration=True)
+    ET.parse(temp)
+    temp.replace(path)
+
+
 def export_feed() -> None:
     raw = ET.parse(INPUT_FILE).getroot()
     items = raw.findall(".//items/item")
@@ -190,18 +219,15 @@ def export_feed() -> None:
             if key in previous.get(sku, {}):
                 data[key] = previous[sku][key]
     products = merge_with_history(current, state)
-    root = build_feed(source, ET.parse(MANUAL_FILE).getroot(), products)
-    ET.indent(root, space="  ")
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    temp = OUTPUT_FILE.with_suffix(".tmp")
-    ET.ElementTree(root).write(temp, encoding="utf-8", xml_declaration=True)
-    ET.parse(temp)
-    temp.replace(OUTPUT_FILE)
-    # Compatibility URL: same unified feed, no separate stock-only generation.
-    OUTPUT_FILE.with_name("epicentr_updates.xml").write_bytes(OUTPUT_FILE.read_bytes())
+    updates_root = build_feed(source, ET.parse(MANUAL_FILE).getroot(), products)
+    root = build_import_feed(updates_root)
+    write_xml_atomic(root, OUTPUT_FILE)
+    # Keep every historical ID in updates so existing cards can be disabled.
+    write_xml_atomic(updates_root, OUTPUT_FILE.with_name("epicentr_updates.xml"))
     save_known_products({"products": products})
-    full = sum(bool(o.findtext("name_ua")) for o in root.findall("./shop/offers/offer"))
-    print(f"Epicentr: {full} full products; {len(products) - full} legacy update-only entries")
+    full = len(root.findall("./shop/offers/offer"))
+    print(f"Epicentr import: {full} complete products")
+    print(f"Epicentr updates: {len(products)} products, including {len(products) - full} legacy update-only entries")
 
 
 if __name__ == "__main__":

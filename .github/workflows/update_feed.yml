@@ -149,7 +149,7 @@ jobs:
       # supplier + manual + history
       # ======================================================
 
-      # epicentr_updates.xml is now an identical compatibility copy of epicentr_feed.xml.
+      # Unified exporter writes complete import cards and a separate history-inclusive updates file.
 
       # ======================================================
       # EPICENTR - CHECK FINAL RESULT
