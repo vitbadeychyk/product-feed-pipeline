@@ -113,6 +113,19 @@ class UnifiedFeedTests(unittest.TestCase):
             self.assertEqual(offer.find('attribute_set').get('code'), code)
             self.assertTrue(offer.findtext("name[@lang='ua']"))
         self.assertEqual(len(attributes.findall('./offers/offer')), len(imported))
+        self.assertIsNone(attributes.find('shop'))
+        native_sku = next(o for o in attributes.findall('./offers/offer') if o.get('id') == 'SKU')
+        self.assertEqual(native_sku.findtext('picture'), 'https://example.com/a.jpg')
+        self.assertEqual(native_sku.findtext("description[@lang='ua']"), '<p>Повний опис</p>')
+        self.assertEqual(native_sku.find('country_of_origin').get('code'), 'chn')
+        self.assertFalse(attributes.findall('.//priceOld'))
+        self.assertFalse(attributes.findall('.//categoryId'))
+        for source_offer in import_root.findall('./shop/offers/offer'):
+            ET.SubElement(source_offer, 'vendor').text = 'Без бренду'
+        unbranded = build_attributes_feed(import_root)
+        self.assertFalse(unbranded.findall('.//vendor'))
+        mapped_brand = build_attributes_feed(import_root, {'без бренду': {'code': 'verified-option-code', 'name': 'Без бренду'}})
+        self.assertEqual(mapped_brand.find('./offers/offer/vendor').get('code'), 'verified-option-code')
 
         self.assertEqual({o.get('id') for o in imported}, {'SKU', 'S52'})
         self.assertTrue(all(o.findtext('name') and o.findtext('categoryId') for o in imported))
