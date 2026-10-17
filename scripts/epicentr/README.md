@@ -46,3 +46,12 @@ brands lacking reference codes and supplier parameters needing attribute mapping
 After merging, run Actions on main to regenerate the URL. Start with a small
 native import and inspect its report before importing the complete catalog.
 Tests: `python -m unittest discover -s tests -v`.
+
+### Бренд за відсутності даних постачальника
+
+Для порожнього бренду або «Без бренду»/«Без бренда»/«no brand»/«unknown»
+передаємо Bambi Racer у категорії Епіцентру 854 (дитячі електромобілі),
+для решти товарів — Інше. Наявний справжній бренд не замінюємо.
+Коди vendor беруться з data/manual/epicentr_brand_map.json, зіставленого
+за точними назвами з експорту AttributeSet 646 від 17.10.2026 (колонки E/G).
+Відсутність коду для справжнього бренду потребує окремого зіставлення.
