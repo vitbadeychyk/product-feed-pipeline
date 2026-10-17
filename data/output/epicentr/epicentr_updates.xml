@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-17 08:14">
+<yml_catalog date="2026-10-17 11:45">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -6866,10 +6866,10 @@
       <price_old>3380</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 4579-3" available="false">
+    <offer id="M 4579-3" available="true">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
     </offer>
     <offer id="M 4612-RC" available="false">
       <price>1000</price>
@@ -9436,10 +9436,10 @@
       <price_old>1430</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5733EBLR-4" available="true">
+    <offer id="M 5733EBLR-4" available="false">
       <price>11700</price>
       <price_old>15210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5733EBLR-5" available="false">
       <price>11700</price>
@@ -20676,10 +20676,15 @@
       <price_old>2210</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1162-1 Frost Gray" available="false">
-      <price>5900</price>
-      <price_old>7670</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1162-1 Frost Gray" available="true">
+      <price>6600</price>
+      <price_old>8580</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="ME 1162-1 Green" available="true">
+      <price>6600</price>
+      <price_old>8580</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1162-1 Jade Green" available="false">
       <price>5900</price>
@@ -20695,6 +20700,11 @@
       <price>5900</price>
       <price_old>7670</price_old>
       <availability>out_of_stock</availability>
+    </offer>
+    <offer id="ME 1162-1 Purple" available="true">
+      <price>6600</price>
+      <price_old>8580</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1162-1 Taupe Beige" available="false">
       <price>5900</price>
