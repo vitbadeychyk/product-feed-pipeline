@@ -6,7 +6,6 @@ from datetime import datetime
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import json
-from scripts.common.product_images import marketplace_picture_url
 
 from scripts.epicentr.category_map import resolve_category, resolve_spare_category
 
@@ -210,9 +209,8 @@ def build_attributes_feed(import_root: ET.Element, brand_map: dict | None = None
             ET.SubElement(offer, "category", code=code).text = title
             ET.SubElement(offer, "attribute_set", code=code).text = title
         for picture in source.findall("picture"):
-            output_picture = deepcopy(picture)
-            output_picture.text = marketplace_picture_url(picture.text or "")
-            offer.append(output_picture)
+            # Epicentr rejects the supplier img.php?…&size=12 URL format.
+            offer.append(deepcopy(picture))
         vendor = (source.findtext("vendor") or "").strip()
         if vendor.casefold() in {"", "без бренду", "без бренда", "no brand", "unknown"}:
             # The fallback applies only to missing brands, never to real brands

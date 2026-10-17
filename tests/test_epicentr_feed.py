@@ -1,7 +1,8 @@
 import unittest
 import xml.etree.ElementTree as ET
 from copy import deepcopy
-from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed, build_attributes_feed, marketplace_picture_url
+from scripts.epicentr.export_feed import build_feed, build_supplier_content, build_import_feed, build_attributes_feed
+from scripts.common.product_images import marketplace_picture_url
 from scripts.common import product_descriptions as descriptions
 from unittest.mock import patch, Mock
 
@@ -15,7 +16,7 @@ class UnifiedFeedTests(unittest.TestCase):
         other = 'https://example.com/img/457894.jpg'
         self.assertEqual(marketplace_picture_url(other), other)
         source = ET.fromstring('<yml_catalog><shop><offers><offer id="x"><name>Фото</name><picture>https://metr-plus.com.ua/img/457894.jpg</picture></offer></offers></shop></yml_catalog>')
-        self.assertEqual(build_attributes_feed(source).findtext('./offers/offer/picture'), expected)
+        self.assertEqual(build_attributes_feed(source).findtext('./offers/offer/picture'), 'https://metr-plus.com.ua/img/457894.jpg')
         self.assertEqual(source.findtext('./shop/offers/offer/picture'), 'https://metr-plus.com.ua/img/457894.jpg')
 
     def test_direct_supplier_data_and_all_parameters(self):
