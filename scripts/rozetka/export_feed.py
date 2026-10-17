@@ -10,7 +10,6 @@ from pathlib import Path
 
 import requests
 
-from scripts.common.product_images import marketplace_picture_url
 
 from scripts.pricing.rozetka_pricing import calculate_old_price
 from scripts.pricing.rozetka_pricing import calculate_price
@@ -89,7 +88,7 @@ def get_images(
 ) -> list[str]:
 
     return [
-        marketplace_picture_url(img.text)
+        img.text.strip()
         for img in element.findall("image")
         if img.text
     ]

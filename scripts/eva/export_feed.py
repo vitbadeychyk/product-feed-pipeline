@@ -3,7 +3,6 @@ from __future__ import annotations
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from scripts.common.product_images import marketplace_picture_url
 
 from scripts.eva.category_map import EVA_CATEGORY_NAMES
 from scripts.eva.category_map import get_eva_category_id
@@ -302,9 +301,6 @@ def export_eva_feed() -> None:
 
     if exported_count == 0 and not manual_offers:
         raise RuntimeError("Не експортовано жодного товару для EVA")
-
-    for picture in root.findall("./shop/offers/offer/picture"):
-        picture.text = marketplace_picture_url(picture.text or "")
 
     normalize_multilang_params(root)
     apply_eva_categories(root, used_supplier_category_ids)
