@@ -210,12 +210,14 @@ def build_attributes_feed(import_root: ET.Element, brand_map: dict | None = None
         for picture in source.findall("picture"):
             offer.append(deepcopy(picture))
         vendor = (source.findtext("vendor") or "").strip()
+        if vendor.casefold() in {"", "без бренду", "без бренда", "no brand", "unknown"}:
+            # The fallback applies only to missing brands, never to real brands
+            # that have not yet been matched to an Epicentr option.
+            vendor = "Bambi Racer" if taxonomy and taxonomy[0] == "854" else "Інше"
         brand = brand_map.get(vendor.casefold())
         if brand and brand.get("code") and brand.get("name"):
             ET.SubElement(offer, "vendor", code=str(brand["code"])).text = brand["name"]
-        # Preserve real supplier brand names. Do not transmit the already-rejected
-        # placeholder or fabricate reference codes; missing codes go to report.
-        elif vendor and vendor.casefold() not in {"без бренду", "без бренда", "no brand", "unknown"}:
+        else:
             ET.SubElement(offer, "vendor").text = vendor
         name = ET.SubElement(offer, "name", lang="ua")
         name.text = source.findtext("name_ua") or source.findtext("name")

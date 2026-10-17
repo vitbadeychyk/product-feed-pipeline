@@ -123,9 +123,9 @@ class UnifiedFeedTests(unittest.TestCase):
         for source_offer in import_root.findall('./shop/offers/offer'):
             ET.SubElement(source_offer, 'vendor').text = 'Без бренду'
         unbranded = build_attributes_feed(import_root)
-        self.assertFalse(unbranded.findall('.//vendor'))
-        mapped_brand = build_attributes_feed(import_root, {'без бренду': {'code': 'verified-option-code', 'name': 'Без бренду'}})
-        self.assertEqual(mapped_brand.find('./offers/offer/vendor').get('code'), 'verified-option-code')
+        self.assertEqual([o.findtext('vendor') for o in unbranded.findall('./offers/offer')], ['Інше', 'Bambi Racer'])
+        mapped_brand = build_attributes_feed(import_root, {'bambi racer': {'code': 'verified-option-code', 'name': 'Bambi Racer'}})
+        self.assertEqual(mapped_brand.find("./offers/offer[@id='SKU']/vendor").get('code'), 'verified-option-code')
 
         self.assertEqual({o.get('id') for o in imported}, {'SKU', 'S52'})
         self.assertTrue(all(o.findtext('name') and o.findtext('categoryId') for o in imported))
