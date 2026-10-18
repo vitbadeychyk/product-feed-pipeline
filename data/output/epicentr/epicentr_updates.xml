@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-18 08:31">
+<yml_catalog date="2026-10-18 15:21">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -12251,15 +12251,15 @@
       <price_old>27300</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6080EL-6(24V)" available="true">
+    <offer id="M 6080EL-6(24V)" available="false">
       <price>21000</price>
       <price_old>27300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6080EL-8-2(24V)" available="true">
+    <offer id="M 6080EL-8-2(24V)" available="false">
       <price>21000</price>
       <price_old>27300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6107(2)-GEAR BOX" available="true">
       <price>4600</price>
@@ -17816,10 +17816,10 @@
       <price_old>11440</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 6356EBLR-8" available="true">
+    <offer id="M 6356EBLR-8" available="false">
       <price>8800</price>
       <price_old>11440</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6357EBLR-1" available="false">
       <price>8000</price>
