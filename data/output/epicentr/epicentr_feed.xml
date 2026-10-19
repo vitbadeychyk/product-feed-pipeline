@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-19 03:09">
+<yml_catalog date="2026-10-19 09:34">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -3394,10 +3394,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="BRAKE-SUPPORT-RIGHT" available="true">
+    <offer id="BRAKE-SUPPORT-RIGHT" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Гальмівний супорт BRAKE-SUPPORT-RIGHT</name>
@@ -3990,10 +3990,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="FD-2403" available="true">
+    <offer id="FD-2403" available="false">
       <price>7200</price>
       <price_old>9360</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="1441">Велосипеди</category>
       <attribute_set code="1441">Велосипеди</attribute_set>
       <name lang="ua">Велосипед PROFI FREEDOM 24 д. FD-2403</name>
@@ -8561,10 +8561,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4579-3" available="true">
+    <offer id="M 4579-3" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 4579-3</name>
@@ -11019,10 +11019,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5099EBLR-3(24V)" available="true">
+    <offer id="M 5099EBLR-3(24V)" available="false">
       <price>15500</price>
       <price_old>20150</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 5099EBLR-3(24V</name>
@@ -13613,10 +13613,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6019EBLR-3" available="true">
+    <offer id="M 6019EBLR-3" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6019EBLR-3</name>
@@ -13636,10 +13636,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6019EBLR-5" available="true">
+    <offer id="M 6019EBLR-5" available="false">
       <price>18900</price>
       <price_old>24570</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6019EBLR-5</name>
@@ -14004,10 +14004,82 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6054BLR-1" available="true">
+    <offer id="M 6054ABLR-1" available="true">
       <price>5100</price>
       <price_old>6630</price_old>
       <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 6054ABLR-1</name>
+      <picture>https://metr-plus.com.ua/img/936524.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940541.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940542.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940543.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940544.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940545.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940546.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940547.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940548.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940549.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940550.jpg</picture>
+      <description lang="ua">2,4G р/к, 3в1 (каталка-толокар, бат.ручка), 1*6V4.5A, 1*35W, муз, світло, шкіра, MP3, USB, BLUETOOTH, TF, білий</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6054ABLR-11" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 6054ABLR-11</name>
+      <picture>https://metr-plus.com.ua/img/936525.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940551.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940552.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940553.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940554.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940555.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940556.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940557.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940558.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940559.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940560.jpg</picture>
+      <description lang="ua">2,4G р/к, 3в1 (каталка-толокар, бат.ручка), 1*6V4.5A, 1*35W, муз, світло, шкіра, MP3, USB, BLUETOOTH, TF, сірий</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6054ABLR-2" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 6054ABLR-2</name>
+      <picture>https://metr-plus.com.ua/img/936526.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940561.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940562.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940563.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940564.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940565.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940566.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940567.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940568.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940569.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940570.jpg</picture>
+      <description lang="ua">2,4G р/к, 3в1 (каталка-толокар, бат.ручка), 1*6V4.5A, 1*35W, муз, світло, шкіра, MP3, USB, BLUETOOTH, TF, чорний</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6054BLR-1" available="false">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6054BLR-1</name>
@@ -14028,10 +14100,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6054BLR-11" available="true">
+    <offer id="M 6054BLR-11" available="false">
       <price>5100</price>
       <price_old>6630</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6054BLR-11</name>
@@ -14052,10 +14124,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6054BLR-2" available="true">
+    <offer id="M 6054BLR-2" available="false">
       <price>5100</price>
       <price_old>6630</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6054BLR-2</name>
@@ -16435,10 +16507,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6176-4" available="true">
+    <offer id="M 6176-4" available="false">
       <price>3300</price>
       <price_old>4290</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 6176-4</name>
@@ -21218,10 +21290,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6329EL-3" available="true">
+    <offer id="M 6329EL-3" available="false">
       <price>8600</price>
       <price_old>11180</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6329EL-3</name>
@@ -26075,10 +26147,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1183 Hot Chocolate" available="true">
+    <offer id="ME 1183 Hot Chocolate" available="false">
       <price>14800</price>
       <price_old>19240</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска універсальна 2в1 El Camino RIVIERA ME 1183 Hot Chocolate</name>
@@ -26580,10 +26652,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1200 White" available="true">
+    <offer id="ME 1200 White" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="869">Ходунки</category>
       <attribute_set code="869">Ходунки</attribute_set>
       <name lang="ua">Ходунки ME 1200 URSA White</name>
