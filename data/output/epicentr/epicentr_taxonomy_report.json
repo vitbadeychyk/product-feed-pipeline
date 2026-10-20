@@ -1,6 +1,6 @@
 {
-  "total": 1888,
-  "unresolved_count": 196,
+  "total": 1912,
+  "unresolved_count": 199,
   "unresolved": [
     {
       "sku": "10034",
@@ -508,6 +508,11 @@
       "name": "Гойдалки садові M 4019-1"
     },
     {
+      "sku": "M 4019-2",
+      "supplier_category_id": "122",
+      "name": "Гойдалки садові M 4019-2"
+    },
+    {
       "sku": "M 4019-4",
       "supplier_category_id": "122",
       "name": "Гойдалки садові  M 4019-4"
@@ -788,6 +793,11 @@
       "name": "Намет MR 1340-G"
     },
     {
+      "sku": "MR 1512 Ivory Beige",
+      "supplier_category_id": "83",
+      "name": "Намет MR 1512 Ivory Beige"
+    },
+    {
       "sku": "MR 1514",
       "supplier_category_id": "65",
       "name": "Баскетбольне кільце MR 1514"
@@ -906,6 +916,11 @@
       "sku": "MS 4776-W",
       "supplier_category_id": "114",
       "name": "Боксерський набір MS 4776-W"
+    },
+    {
+      "sku": "MS 4800-1",
+      "supplier_category_id": "60",
+      "name": "Тренажер MS 4800-1"
     },
     {
       "sku": "MS 4800-2",
@@ -6954,6 +6969,7 @@
       "M 5836-ST GEAR",
       "M 5845-EVA WHEEL",
       "M 5845-ST GEAR",
+      "M 5846EBLR-1",
       "M 5846EBLR-3",
       "M 5851-RC RECEIVER",
       "M 5851-ST GEAR",
@@ -7087,6 +7103,11 @@
       "M 6137-ST GEAR",
       "M 6138,M 6139,M 6140-EVA WHEEL",
       "M 6138,M 6139,M 6140-ST GEAR",
+      "M 6138EBLR-3",
+      "M 6139EBLR-1",
+      "M 6140EBLR-1",
+      "M 6140EBLR-3",
+      "M 6140EBLRS-11",
       "M 6141-EVA WHEEL",
       "M 6141-ST GEAR",
       "M 6142,M6143-L-GEAR BOX",
@@ -7166,6 +7187,7 @@
       "M 6253EL-8",
       "M 6254EL-1",
       "M 6254EL-11",
+      "M 6254EL-2",
       "M 6254EL-3",
       "M 6254EL-4",
       "M 6254EL-8",
@@ -7481,6 +7503,7 @@
       "MR 1290",
       "MR 1291",
       "MR 1293",
+      "MR 1512 Ivory Beige",
       "MR 1514",
       "MR 1515 Cashmere Beige",
       "MR 1515 Platinum Grey",
@@ -7612,13 +7635,14 @@
       "M 502-8-3"
     ],
     "K-POP Demon Hunters": [
-      "N 2071-32-1"
+      "N 2071-32-1",
+      "N 2071-32-7"
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3712,
-    "Розмір упаковки": 1058,
-    "Тип пакування": 412,
+    "Матеріал": 3760,
+    "Розмір упаковки": 1062,
+    "Тип пакування": 416,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -8101,6 +8125,7 @@
     "M 3981-EVA WHEEL",
     "M 3981-GEAR BOX",
     "M 4019-1",
+    "M 4019-2",
     "M 4019-4",
     "M 4053EL-2",
     "M 4053EL-4",
@@ -8312,6 +8337,8 @@
     "M 5048EL-8",
     "M 5050-EVA WHEEL",
     "M 5050-RC",
+    "M 5050EL-1",
+    "M 5050EL-2",
     "M 5054-GEAR BOX",
     "M 5054-ST-GEAR",
     "M 5054EL-1",
@@ -8452,6 +8479,7 @@
     "M 5836-ST GEAR",
     "M 5845-EVA WHEEL",
     "M 5845-ST GEAR",
+    "M 5846EBLR-1",
     "M 5846EBLR-3",
     "M 5851-RC RECEIVER",
     "M 5851-ST GEAR",
@@ -8522,6 +8550,7 @@
     "M 6038-T-EVA WHEEL",
     "M 6039-T-EVA WHEEL",
     "M 6039EBR-10(24V)",
+    "M 6039EBR-4(24V)",
     "M 6040-EVA WHEEL",
     "M 6053,M 6054,M 5795-ST GEAR",
     "M 6053,M 6054-GEAR BOX",
@@ -8627,6 +8656,11 @@
     "M 6137-ST GEAR",
     "M 6138,M 6139,M 6140-EVA WHEEL",
     "M 6138,M 6139,M 6140-ST GEAR",
+    "M 6138EBLR-3",
+    "M 6139EBLR-1",
+    "M 6140EBLR-1",
+    "M 6140EBLR-3",
+    "M 6140EBLRS-11",
     "M 6141-EVA WHEEL",
     "M 6141-ST GEAR",
     "M 6141EBLR-3",
@@ -8654,6 +8688,7 @@
     "M 6149-GEAR BOX",
     "M 6149-R-EVA WHEEL",
     "M 6149-RC RECEIVER",
+    "M 6149EBLR-1-5(24V)",
     "M 6150-GEAR BOX",
     "M 6150-RC RECEIVER",
     "M 6150-ST-WHEEL",
@@ -8726,6 +8761,7 @@
     "M 6253EL-8",
     "M 6254EL-1",
     "M 6254EL-11",
+    "M 6254EL-2",
     "M 6254EL-3",
     "M 6254EL-4",
     "M 6254EL-8",
@@ -8736,6 +8772,8 @@
     "M 6255EL-4",
     "M 6255EL-8",
     "M 6256,M 6257-RC RECEIVER",
+    "M 6256EBLR-11",
+    "M 6256EBLR-4",
     "M 6256EBLR-8",
     "M 6257-F-L-EVA WHEEL",
     "M 6257-F-R-EVA WHEEL",
@@ -9230,7 +9268,9 @@
     "ME 1183 Affogato Beige",
     "ME 1183 Hot Chocolate",
     "ME 1184 Beige",
+    "ME 1184 Green",
     "ME 1185 Beige",
+    "ME 1185 Grey",
     "ME 1186 Melange Cashmere Beige",
     "ME 1186 Melange Jet Black",
     "ME 1186 Melange Rock Gray",
@@ -9238,6 +9278,9 @@
     "ME 1187 Moon Gray",
     "ME 1187 Shadow Gray",
     "ME 1188 Black",
+    "ME 1191 Greige",
+    "ME 1191 Mineral Green",
+    "ME 1191 Night Black",
     "ME 1191-1 Emerald Green",
     "ME 1191-1 Plum Wine",
     "ME 1191-ADAPTER",
@@ -9293,6 +9336,8 @@
     "ME 1227 Sea Grass",
     "ME 1230 Black",
     "ME 1230 Chocolate",
+    "ME 1239 Gray Teal",
+    "ME 1239 Mocha",
     "MEB 275 SWIFT SENSOR",
     "MEB 275 SWIFT TIRE",
     "MEB 275 SWIFT TUBE",
@@ -9329,6 +9374,7 @@
     "MR 1293",
     "MR 1340-BG",
     "MR 1340-G",
+    "MR 1512 Ivory Beige",
     "MR 1514",
     "MR 1515 Cashmere Beige",
     "MR 1515 Platinum Grey",
@@ -9357,6 +9403,7 @@
     "MS 4681",
     "MS 4776-B",
     "MS 4776-W",
+    "MS 4800-1",
     "MS 4800-2",
     "MS 4800-3",
     "MS 4820-1",
@@ -9391,6 +9438,7 @@
     "N 2071-27-3",
     "N 2071-27-7",
     "N 2071-32-1",
+    "N 2071-32-7",
     "N 2071-34-1",
     "N 2071-37-1",
     "N 2071-37-5",
