@@ -2483,8 +2483,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=42&amp;id=350025&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1127072.jpg</image>
             <image>https://metr-plus.com.ua/img/1140534.jpg</image>
+            <image>https://metr-plus.com.ua/img/1127072.jpg</image>
             <image>https://metr-plus.com.ua/img/1140535.jpg</image>
             <image>https://metr-plus.com.ua/img/1140537.jpg</image>
             <image>https://metr-plus.com.ua/img/1140536.jpg</image>
@@ -3122,6 +3122,26 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
+        <item id="369544" selling_type="r">
+            <name>Пульт управления M 6316-RC</name>
+            <name_ua>Пульт керування M 6316-RC</name_ua>
+            <categoryId>114</categoryId>
+            <price>184</price>
+                <url>https://metr-plus.com.ua/index.php?section=114&amp;id=369544&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1161301.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>M 6316-RC</vendorCode>
+            <barcode>6903317867097</barcode>
+            <description><![CDATA[к квадроциклу M 6316]]></description>
+            <description_ua><![CDATA[до квадроциклу M 6316]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса</value>
+                <value lang="ru">метал, пластмаса</value>
+            </param>
+        </item>
         <item id="369546" selling_type="r">
             <name>Рулевой редуктор M 6316-ST GEAR</name>
             <name_ua>Рульовий редуктор M 6316-ST GEAR</name_ua>
@@ -3228,6 +3248,104 @@
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса, тканина</value>
                 <value lang="ru">метал, пластмаса, тканина</value>
+            </param>
+        </item>
+        <item id="371336" selling_type="r">
+            <name>Коляска детская ME 1191 CHLOE Greige</name>
+            <name_ua>Коляска дитяча ME 1191 CHLOE Greige</name_ua>
+            <categoryId>43</categoryId>
+            <price>7591</price>
+            <price_rrc>7591</price_rrc>
+                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=371336&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1161447.jpg</image>
+                <available>true</available>
+            <vendor>EL CAMINO</vendor>
+            <vendorCode>ME 1191 Greige</vendorCode>
+            <barcode>6903317899494</barcode>
+            <description><![CDATA[прогулочная, регул.ручка, регул.спинки, алюм.рама, серо-беж]]></description>
+            <description_ua><![CDATA[прогулянкова, регул.ручка, регул.спинки, алюм.рама, сіро-беж]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, тканина</value>
+                <value lang="ru">метал, пластмаса, тканина</value>
+            </param>
+        </item>
+        <item id="371337" selling_type="r">
+            <name>Коляска детская ME 1191 CHLOE Night Black</name>
+            <name_ua>Коляска дитяча ME 1191 CHLOE Night Black</name_ua>
+            <categoryId>43</categoryId>
+            <price>7591</price>
+            <price_rrc>7591</price_rrc>
+                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=371337&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1161448.jpg</image>
+                <available>true</available>
+            <vendor>EL CAMINO</vendor>
+            <vendorCode>ME 1191 Night Black</vendorCode>
+            <barcode>6903317899524</barcode>
+            <description><![CDATA[прогулочная, регул.ручка, регул.спинки, алюм.рама, черный]]></description>
+            <description_ua><![CDATA[прогулянкова, регул.ручка, регул.спинки, алюм.рама, чорний]]></description_ua>
+            <param name="Матеріал">
+                <value lang="uk">метал, пластмаса, тканина</value>
+                <value lang="ru">метал, пластмаса, тканина</value>
+            </param>
+        </item>
+        <item id="371360" selling_type="r">
+            <name>Боксерский набор MS 5013-1-GL</name>
+            <name_ua>Боксерський набір MS 5013-1-GL</name_ua>
+            <categoryId>114</categoryId>
+            <price>1536</price>
+                <url>https://metr-plus.com.ua/index.php?section=114&amp;id=371360&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1161480.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>MS 5013-1-GL</vendorCode>
+            <barcode>6903317901999</barcode>
+            <description><![CDATA[тренажер-мишень, боксерский автомат, настенный боксерский тренажер, 6 целей,39-39-6см,акум,эл.табло,9 скоростей, 9 режимов, музыка, свет, Bluetooth, рег.громкости, Type-Сзарь,перчатки, в кор, 38,5-41-6см]]></description>
+            <description_ua><![CDATA[тренажер-мішень, боксерський автомат, настінний боксерський тренажер, 6 цілей,39-39-6см,акум,ел.табло,9 швидкостей, 9 режимів, музика, світло, Bluetooth, рег.гучності, Type-Сзар,рукавички, в кор, 38,5-41-6см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">38,5-41-6см</value>
+                <value lang="ru">38,5-41-6см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">TPE, ABS</value>
+                <value lang="ru">TPE, ABS</value>
+            </param>
+        </item>
+        <item id="371361" selling_type="r">
+            <name>Боксерский набор MS 5013-2-GL</name>
+            <name_ua>Боксерський набір MS 5013-2-GL</name_ua>
+            <categoryId>114</categoryId>
+            <price>1536</price>
+                <url>https://metr-plus.com.ua/index.php?section=114&amp;id=371361&amp;lang=uk</url>
+            <quantity_in_stock>1</quantity_in_stock>
+            <currencyId>UAH</currencyId>
+            <image>https://metr-plus.com.ua/img/1161481.jpg</image>
+                <available>true</available>
+            <vendor>Без бренду</vendor>
+            <vendorCode>MS 5013-2-GL</vendorCode>
+            <barcode>6903317902002</barcode>
+            <description><![CDATA[тренажер-мишень, боксерский автомат, настенный боксерский тренажер, 6 целей,39-39-6см,акум,эл.табло,9 скоростей, 9 режимов, музыка, свет, Bluetooth, рег.громкости, Type-Сзарь,перчатки, в кор, 38,5-41-6см]]></description>
+            <description_ua><![CDATA[тренажер-мішень, боксерський автомат, настінний боксерський тренажер, 6 цілей,39-39-6см,акум,ел.табло,9 швидкостей, 9 режимів, музика, світло, Bluetooth, рег.гучності, Type-Сзар,рукавички, в кор, 38,5-41-6см]]></description_ua>
+            <param name="Тип пакування">
+                <value lang="uk">коробка</value>
+                <value lang="ru">коробка</value>
+            </param>
+            <param name="Розмір упаковки">
+                <value lang="uk">38,5-41-6см</value>
+                <value lang="ru">38,5-41-6см</value>
+            </param>
+            <param name="Матеріал">
+                <value lang="uk">TPE, ABS</value>
+                <value lang="ru">TPE, ABS</value>
             </param>
         </item>
         <item id="314372" selling_type="r">
@@ -6823,8 +6941,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=339067&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1052117.jpg</image>
             <image>https://metr-plus.com.ua/img/1152219.jpg</image>
+            <image>https://metr-plus.com.ua/img/1052117.jpg</image>
             <image>https://metr-plus.com.ua/img/1152220.jpg</image>
             <image>https://metr-plus.com.ua/img/1152226.jpg</image>
             <image>https://metr-plus.com.ua/img/1152221.jpg</image>
@@ -7546,8 +7664,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=343943&amp;id=344340&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1114193.jpg</image>
             <image>https://metr-plus.com.ua/img/1117242.jpg</image>
+            <image>https://metr-plus.com.ua/img/1114193.jpg</image>
             <image>https://metr-plus.com.ua/img/1117219.jpg</image>
             <image>https://metr-plus.com.ua/img/1117243.jpg</image>
             <image>https://metr-plus.com.ua/img/1117235.jpg</image>
@@ -8018,8 +8136,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349044&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125897.jpg</image>
             <image>https://metr-plus.com.ua/img/1127757.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125897.jpg</image>
             <image>https://metr-plus.com.ua/img/1127758.jpg</image>
             <image>https://metr-plus.com.ua/img/1127760.jpg</image>
             <image>https://metr-plus.com.ua/img/1127759.jpg</image>
@@ -8048,8 +8166,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349045&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125898.jpg</image>
             <image>https://metr-plus.com.ua/img/1127769.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125898.jpg</image>
             <image>https://metr-plus.com.ua/img/1127770.jpg</image>
             <image>https://metr-plus.com.ua/img/1127771.jpg</image>
             <image>https://metr-plus.com.ua/img/1127775.jpg</image>
@@ -8078,8 +8196,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349046&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125899.jpg</image>
             <image>https://metr-plus.com.ua/img/1133027.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125899.jpg</image>
             <image>https://metr-plus.com.ua/img/1133026.jpg</image>
             <image>https://metr-plus.com.ua/img/1133029.jpg</image>
             <image>https://metr-plus.com.ua/img/1133028.jpg</image>
@@ -8108,8 +8226,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349064&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125914.jpg</image>
             <image>https://metr-plus.com.ua/img/1153476.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125914.jpg</image>
             <image>https://metr-plus.com.ua/img/1153477.jpg</image>
             <image>https://metr-plus.com.ua/img/1153478.jpg</image>
                 <available>true</available>
@@ -8139,8 +8257,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349065&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125915.jpg</image>
             <image>https://metr-plus.com.ua/img/1153479.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125915.jpg</image>
             <image>https://metr-plus.com.ua/img/1153481.jpg</image>
             <image>https://metr-plus.com.ua/img/1153480.jpg</image>
                 <available>true</available>
@@ -8170,8 +8288,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349069&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125919.jpg</image>
             <image>https://metr-plus.com.ua/img/1153483.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125919.jpg</image>
             <image>https://metr-plus.com.ua/img/1153482.jpg</image>
                 <available>true</available>
             <vendor>iTrike</vendor>
@@ -8200,8 +8318,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349357&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126115.jpg</image>
             <image>https://metr-plus.com.ua/img/1127512.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126115.jpg</image>
             <image>https://metr-plus.com.ua/img/1127510.jpg</image>
             <image>https://metr-plus.com.ua/img/1127706.jpg</image>
             <image>https://metr-plus.com.ua/img/1127513.jpg</image>
@@ -8230,8 +8348,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349358&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126116.jpg</image>
             <image>https://metr-plus.com.ua/img/1128472.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126116.jpg</image>
             <image>https://metr-plus.com.ua/img/1128470.jpg</image>
             <image>https://metr-plus.com.ua/img/1128471.jpg</image>
             <image>https://metr-plus.com.ua/img/1128473.jpg</image>
@@ -8260,8 +8378,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349398&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126467.jpg</image>
             <image>https://metr-plus.com.ua/img/1127534.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126467.jpg</image>
             <image>https://metr-plus.com.ua/img/1127537.jpg</image>
             <image>https://metr-plus.com.ua/img/1127704.jpg</image>
             <image>https://metr-plus.com.ua/img/1127536.jpg</image>
@@ -8290,8 +8408,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349399&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126468.jpg</image>
             <image>https://metr-plus.com.ua/img/1127522.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126468.jpg</image>
             <image>https://metr-plus.com.ua/img/1127523.jpg</image>
             <image>https://metr-plus.com.ua/img/1127705.jpg</image>
             <image>https://metr-plus.com.ua/img/1127525.jpg</image>
@@ -8320,8 +8438,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349602&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126597.jpg</image>
             <image>https://metr-plus.com.ua/img/1143248.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126597.jpg</image>
             <image>https://metr-plus.com.ua/img/1143250.jpg</image>
             <image>https://metr-plus.com.ua/img/1143252.jpg</image>
             <image>https://metr-plus.com.ua/img/1143249.jpg</image>
@@ -8350,8 +8468,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=349989&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1127036.jpg</image>
             <image>https://metr-plus.com.ua/img/1151621.jpg</image>
+            <image>https://metr-plus.com.ua/img/1127036.jpg</image>
             <image>https://metr-plus.com.ua/img/1151622.jpg</image>
             <image>https://metr-plus.com.ua/img/1151626.jpg</image>
             <image>https://metr-plus.com.ua/img/1151623.jpg</image>
@@ -8377,8 +8495,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=353360&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1135566.jpg</image>
             <image>https://metr-plus.com.ua/img/1151614.jpg</image>
+            <image>https://metr-plus.com.ua/img/1135566.jpg</image>
             <image>https://metr-plus.com.ua/img/1151617.jpg</image>
             <image>https://metr-plus.com.ua/img/1151615.jpg</image>
             <image>https://metr-plus.com.ua/img/1151616.jpg</image>
@@ -9371,8 +9489,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=46&amp;id=308932&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/948937.jpg</image>
             <image>https://metr-plus.com.ua/img/1041395.jpg</image>
+            <image>https://metr-plus.com.ua/img/948937.jpg</image>
             <image>https://metr-plus.com.ua/img/1039070.jpg</image>
             <image>https://metr-plus.com.ua/img/1041396.jpg</image>
             <image>https://metr-plus.com.ua/img/1039071.jpg</image>
@@ -11255,8 +11373,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=81&amp;id=345388&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1114756.jpg</image>
             <image>https://metr-plus.com.ua/img/1143082.jpg</image>
+            <image>https://metr-plus.com.ua/img/1114756.jpg</image>
             <image>https://metr-plus.com.ua/img/1143081.jpg</image>
             <image>https://metr-plus.com.ua/img/1143083.jpg</image>
             <image>https://metr-plus.com.ua/img/1143084.jpg</image>
@@ -12543,36 +12661,6 @@
                 <value lang="ru">метал, пластмаса, тканина</value>
             </param>
         </item>
-        <item id="308878" selling_type="r">
-            <name>Убаюкивающий центр-шезлонг 8977</name>
-            <name_ua>Заколисуючий центр-шезлонг 8977</name_ua>
-            <categoryId>122</categoryId>
-            <price>6190</price>
-                <url>https://metr-plus.com.ua/index.php?section=122&amp;id=308878&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/948842.jpg</image>
-            <image>https://metr-plus.com.ua/img/963156.jpg</image>
-            <image>https://metr-plus.com.ua/img/963157.jpg</image>
-            <image>https://metr-plus.com.ua/img/963158.jpg</image>
-            <image>https://metr-plus.com.ua/img/963159.jpg</image>
-            <image>https://metr-plus.com.ua/img/963160.jpg</image>
-            <image>https://metr-plus.com.ua/img/963161.jpg</image>
-            <image>https://metr-plus.com.ua/img/963162.jpg</image>
-            <image>https://metr-plus.com.ua/img/963163.jpg</image>
-            <image>https://metr-plus.com.ua/img/963164.jpg</image>
-            <image>https://metr-plus.com.ua/img/963165.jpg</image>
-                <available>true</available>
-            <vendor>Mastela</vendor>
-            <vendorCode>8977</vendorCode>
-            <barcode>6903317734849</barcode>
-            <description><![CDATA[2в1, 3 полож.спинки, 360град., APP, USB, таймер, москитная сетка, игрушки, музыка, темно-серый]]></description>
-            <description_ua><![CDATA[2в1, 3 полож.спинки, 360град., APP, USB, таймер, москітна сітка, іграшки, музика, темно-сірий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
         <item id="313205" selling_type="r">
             <name>Качели ME 1075 TEDDY Gray Mint Feathes</name>
             <name_ua>Гойдалка ME 1075 TEDDY Gray Mint Feathes</name_ua>
@@ -12902,8 +12990,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=122&amp;id=344658&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1114322.jpg</image>
             <image>https://metr-plus.com.ua/img/1117104.jpg</image>
+            <image>https://metr-plus.com.ua/img/1114322.jpg</image>
             <image>https://metr-plus.com.ua/img/1117105.jpg</image>
             <image>https://metr-plus.com.ua/img/1117106.jpg</image>
             <image>https://metr-plus.com.ua/img/1117107.jpg</image>
@@ -13529,8 +13617,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=42&amp;id=365278&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1157483.jpg</image>
             <image>https://metr-plus.com.ua/img/1160790.jpg</image>
+            <image>https://metr-plus.com.ua/img/1157483.jpg</image>
             <image>https://metr-plus.com.ua/img/1160791.jpg</image>
             <image>https://metr-plus.com.ua/img/1160792.jpg</image>
             <image>https://metr-plus.com.ua/img/1160793.jpg</image>
@@ -13553,8 +13641,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=42&amp;id=365279&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1157484.jpg</image>
             <image>https://metr-plus.com.ua/img/1160786.jpg</image>
+            <image>https://metr-plus.com.ua/img/1157484.jpg</image>
             <image>https://metr-plus.com.ua/img/1160787.jpg</image>
             <image>https://metr-plus.com.ua/img/1160788.jpg</image>
             <image>https://metr-plus.com.ua/img/1160789.jpg</image>
@@ -13597,8 +13685,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=42&amp;id=365281&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1157486.jpg</image>
             <image>https://metr-plus.com.ua/img/1160794.jpg</image>
+            <image>https://metr-plus.com.ua/img/1157486.jpg</image>
             <image>https://metr-plus.com.ua/img/1160795.jpg</image>
             <image>https://metr-plus.com.ua/img/1160797.jpg</image>
             <image>https://metr-plus.com.ua/img/1160796.jpg</image>
@@ -13865,8 +13953,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=43&amp;id=339139&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117114.jpg</image>
             <image>https://metr-plus.com.ua/img/1117103.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117114.jpg</image>
             <image>https://metr-plus.com.ua/img/1117070.jpg</image>
             <image>https://metr-plus.com.ua/img/1117071.jpg</image>
             <image>https://metr-plus.com.ua/img/1117075.jpg</image>
@@ -14285,48 +14373,6 @@
             <barcode>6903317831425</barcode>
             <description><![CDATA[дитяча прогулянкова, до 22 кг, PU колеса, 3 положення спинки, чохол, чорний]]></description>
             <description_ua><![CDATA[дитяча прогулянкова, до 22 кг, PU колеса, 3 положення спинки, чохол, чорний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
-        <item id="371336" selling_type="r">
-            <name>Коляска детская ME 1191 CHLOE Greige</name>
-            <name_ua>Коляска дитяча ME 1191 CHLOE Greige</name_ua>
-            <categoryId>43</categoryId>
-            <price>7591</price>
-            <price_rrc>7591</price_rrc>
-                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=371336&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1161447.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1191 Greige</vendorCode>
-            <barcode>6903317899494</barcode>
-            <description><![CDATA[прогулочная, регул.ручка, регул.спинки, алюм.рама, серо-беж]]></description>
-            <description_ua><![CDATA[прогулянкова, регул.ручка, регул.спинки, алюм.рама, сіро-беж]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
-        <item id="371337" selling_type="r">
-            <name>Коляска детская ME 1191 CHLOE Night Black</name>
-            <name_ua>Коляска дитяча ME 1191 CHLOE Night Black</name_ua>
-            <categoryId>43</categoryId>
-            <price>7591</price>
-            <price_rrc>7591</price_rrc>
-                <url>https://metr-plus.com.ua/index.php?section=43&amp;id=371337&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1161448.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1191 Night Black</vendorCode>
-            <barcode>6903317899524</barcode>
-            <description><![CDATA[прогулочная, регул.ручка, регул.спинки, алюм.рама, черный]]></description>
-            <description_ua><![CDATA[прогулянкова, регул.ручка, регул.спинки, алюм.рама, чорний]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса, тканина</value>
                 <value lang="ru">метал, пластмаса, тканина</value>
@@ -15840,8 +15886,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=344284&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1114157.jpg</image>
             <image>https://metr-plus.com.ua/img/1153437.jpg</image>
+            <image>https://metr-plus.com.ua/img/1114157.jpg</image>
             <image>https://metr-plus.com.ua/img/1153438.jpg</image>
             <image>https://metr-plus.com.ua/img/1153439.jpg</image>
             <image>https://metr-plus.com.ua/img/1153440.jpg</image>
@@ -15874,8 +15920,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=346337&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117403.jpg</image>
             <image>https://metr-plus.com.ua/img/1153429.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117403.jpg</image>
             <image>https://metr-plus.com.ua/img/1153428.jpg</image>
             <image>https://metr-plus.com.ua/img/1153430.jpg</image>
             <image>https://metr-plus.com.ua/img/1153431.jpg</image>
@@ -15906,8 +15952,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=346338&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117404.jpg</image>
             <image>https://metr-plus.com.ua/img/1153563.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117404.jpg</image>
             <image>https://metr-plus.com.ua/img/1153564.jpg</image>
             <image>https://metr-plus.com.ua/img/1153565.jpg</image>
                 <available>true</available>
@@ -15937,8 +15983,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=346346&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117412.jpg</image>
             <image>https://metr-plus.com.ua/img/1153397.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117412.jpg</image>
             <image>https://metr-plus.com.ua/img/1153396.jpg</image>
             <image>https://metr-plus.com.ua/img/1153398.jpg</image>
             <image>https://metr-plus.com.ua/img/1153399.jpg</image>
@@ -15971,8 +16017,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=346347&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117413.jpg</image>
             <image>https://metr-plus.com.ua/img/1153412.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117413.jpg</image>
             <image>https://metr-plus.com.ua/img/1153413.jpg</image>
             <image>https://metr-plus.com.ua/img/1153419.jpg</image>
             <image>https://metr-plus.com.ua/img/1153414.jpg</image>
@@ -16005,8 +16051,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=348349&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1121690.jpg</image>
             <image>https://metr-plus.com.ua/img/1154992.jpg</image>
+            <image>https://metr-plus.com.ua/img/1121690.jpg</image>
             <image>https://metr-plus.com.ua/img/1154994.jpg</image>
             <image>https://metr-plus.com.ua/img/1154993.jpg</image>
             <image>https://metr-plus.com.ua/img/1154995.jpg</image>
@@ -16038,8 +16084,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349047&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125902.jpg</image>
             <image>https://metr-plus.com.ua/img/1155006.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125902.jpg</image>
             <image>https://metr-plus.com.ua/img/1155009.jpg</image>
             <image>https://metr-plus.com.ua/img/1155010.jpg</image>
             <image>https://metr-plus.com.ua/img/1155008.jpg</image>
@@ -16072,8 +16118,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349049&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125904.jpg</image>
             <image>https://metr-plus.com.ua/img/1154975.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125904.jpg</image>
             <image>https://metr-plus.com.ua/img/1154976.jpg</image>
             <image>https://metr-plus.com.ua/img/1154977.jpg</image>
             <image>https://metr-plus.com.ua/img/1154974.jpg</image>
@@ -16106,8 +16152,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=79&amp;id=349063&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1125913.jpg</image>
             <image>https://metr-plus.com.ua/img/1153473.jpg</image>
+            <image>https://metr-plus.com.ua/img/1125913.jpg</image>
             <image>https://metr-plus.com.ua/img/1153474.jpg</image>
             <image>https://metr-plus.com.ua/img/1153475.jpg</image>
                 <available>true</available>
@@ -16531,8 +16577,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=125&amp;id=347986&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1120014.jpg</image>
             <image>https://metr-plus.com.ua/img/1125675.jpg</image>
+            <image>https://metr-plus.com.ua/img/1120014.jpg</image>
             <image>https://metr-plus.com.ua/img/1125676.jpg</image>
             <image>https://metr-plus.com.ua/img/1125678.jpg</image>
             <image>https://metr-plus.com.ua/img/1125677.jpg</image>
@@ -16904,126 +16950,6 @@
                 <value lang="ru">FFC Z51</value>
             </param>
         </item>
-        <item id="347998" selling_type="r">
-            <name>Велосипед PROFI FREEDOM 24 д. FD-2405</name>
-            <name_ua>Велосипед PROFI FREEDOM 24 д. FD-2405</name_ua>
-            <categoryId>125</categoryId>
-            <price>7024</price>
-                <url>https://metr-plus.com.ua/index.php?section=125&amp;id=347998&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1120026.jpg</image>
-                <available>true</available>
-            <vendor>PROF1</vendor>
-            <vendorCode>FD-2405</vendorCode>
-            <barcode>6903317850488</barcode>
-            <description><![CDATA[алюм.рама 11&quot;,SKD85%,SHIMANO 21SP,скоростн.кол.,промподш.,темно-синий]]></description>
-            <description_ua><![CDATA[алюм.рама 11&quot;,SKD85%,SHIMANO 21SP,швидкознім.кол.,промпідш.,темно-синій]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">мішок</value>
-                <value lang="ru">мешок</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюміній</value>
-            </param>
-            <param name="Серія">
-                <value lang="uk">FREEDOM</value>
-                <value lang="ru">FREEDOM</value>
-            </param>
-            <param name="Бренд">
-                <value lang="uk">PROFI</value>
-                <value lang="ru">PROFI</value>
-            </param>
-            <param name="Рама">
-                <value lang="uk">11&quot;</value>
-                <value lang="ru">11&quot;</value>
-            </param>
-            <param name="Розмір колеса, дм">
-                <value lang="uk">24&quot;</value>
-                <value lang="ru">24&quot;</value>
-            </param>
-            <param name="Стать">
-                <value lang="uk">чоловічий</value>
-                <value lang="ru">мужской</value>
-            </param>
-            <param name="% Збірки у коробці">
-                <value lang="uk">85%</value>
-                <value lang="ru">85%</value>
-            </param>
-            <param name="Рама матеріал">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Вилка">
-                <value lang="uk">сталь, 38MM з локаутом</value>
-                <value lang="ru">сталь, 38MM с локаутом</value>
-            </param>
-            <param name="Кермо">
-                <value lang="uk">сталь</value>
-                <value lang="ru">сталь</value>
-            </param>
-            <param name="Гальма">
-                <value lang="uk">передній: дисковий, задній: дисковий</value>
-                <value lang="ru">передний:дисковый, задний: дисковый</value>
-            </param>
-            <param name="Педалі">
-                <value lang="uk">пластик на насипних підшипниках</value>
-                <value lang="ru">пластик на насыпных подшипниках</value>
-            </param>
-            <param name="Доп комплектуючі">
-                <value lang="uk">катафот (передній/задній/колеса), підніжка</value>
-                <value lang="ru">катафот (передний/задний/колеса), подножка</value>
-            </param>
-            <param name="Підсідельний штир">
-                <value lang="uk">сталь</value>
-                <value lang="ru">сталь</value>
-            </param>
-            <param name="Кареточний вузол">
-                <value lang="uk">промпідшипник</value>
-                <value lang="ru">промподшипник</value>
-            </param>
-            <param name="Винос керма">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Покришка">
-                <value lang="uk">WANDA KING</value>
-                <value lang="ru">WANDA KING</value>
-            </param>
-            <param name="Обiд">
-                <value lang="uk">алюміній</value>
-                <value lang="ru">алюминий</value>
-            </param>
-            <param name="Втулки">
-                <value lang="uk">сталь, передня з швидкознімним механізмом (QR), задня-звичайна</value>
-                <value lang="ru">сталь, передняя с быстросъемным механизмом (QR), задняя -обычная</value>
-            </param>
-            <param name="Задній перемикач">
-                <value lang="uk">SHIMANO TOURNEY TZ FD-TZ500</value>
-                <value lang="ru">SHIMANO TOURNEY TZ FD-TZ500</value>
-            </param>
-            <param name="Касета (тріскачка)">
-                <value lang="uk">SUNRUN 7SPEEDS INDEX</value>
-                <value lang="ru">SUNRUN 7SPEEDS INDEX</value>
-            </param>
-            <param name="Кількість швидкостей">
-                <value lang="uk">21</value>
-                <value lang="ru">21</value>
-            </param>
-            <param name="Передній перемикач">
-                <value lang="uk">SHIMANO TOURNEY TZ FD-TZ500</value>
-                <value lang="ru">SHIMANO TOURNEY TZ FD-TZ500</value>
-            </param>
-            <param name="Система передач">
-                <value lang="uk">SHIMANO TOURNEY EF500-7</value>
-                <value lang="ru">SHIMANO TOURNEY EF500-7</value>
-            </param>
-            <param name="Ланцюг">
-                <value lang="uk">FFC Z51</value>
-                <value lang="ru">FFC Z51</value>
-            </param>
-        </item>
         <item id="348198" selling_type="r">
             <name>Велосипед PROFI BALANCE 26 д. BL-2605</name>
             <name_ua>Велосипед PROFI BALANCE 26 д. BL-2605</name_ua>
@@ -17032,8 +16958,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=125&amp;id=348198&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1120181.jpg</image>
             <image>https://metr-plus.com.ua/img/1128482.jpg</image>
+            <image>https://metr-plus.com.ua/img/1120181.jpg</image>
             <image>https://metr-plus.com.ua/img/1128483.jpg</image>
             <image>https://metr-plus.com.ua/img/1128484.jpg</image>
             <image>https://metr-plus.com.ua/img/1128487.jpg</image>
@@ -20351,8 +20277,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=198783&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/291211.jpg</image>
             <image>https://metr-plus.com.ua/img/1053990.jpg</image>
+            <image>https://metr-plus.com.ua/img/291211.jpg</image>
             <image>https://metr-plus.com.ua/img/1053991.jpg</image>
             <image>https://metr-plus.com.ua/img/1053992.jpg</image>
             <image>https://metr-plus.com.ua/img/1053993.jpg</image>
@@ -20461,8 +20387,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=222495&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/407365.jpg</image>
             <image>https://metr-plus.com.ua/img/1155657.jpg</image>
+            <image>https://metr-plus.com.ua/img/407365.jpg</image>
             <image>https://metr-plus.com.ua/img/1155658.jpg</image>
             <image>https://metr-plus.com.ua/img/1155660.jpg</image>
             <image>https://metr-plus.com.ua/img/1155661.jpg</image>
@@ -20772,8 +20698,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=248584&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/616730.jpg</image>
             <image>https://metr-plus.com.ua/img/1155664.jpg</image>
+            <image>https://metr-plus.com.ua/img/616730.jpg</image>
             <image>https://metr-plus.com.ua/img/1155666.jpg</image>
             <image>https://metr-plus.com.ua/img/1155665.jpg</image>
             <image>https://metr-plus.com.ua/img/1155669.jpg</image>
@@ -20799,8 +20725,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=248585&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/616731.jpg</image>
             <image>https://metr-plus.com.ua/img/1155671.jpg</image>
+            <image>https://metr-plus.com.ua/img/616731.jpg</image>
             <image>https://metr-plus.com.ua/img/1155675.jpg</image>
             <image>https://metr-plus.com.ua/img/1155673.jpg</image>
             <image>https://metr-plus.com.ua/img/1155672.jpg</image>
@@ -22525,93 +22451,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="309671" selling_type="r">
-            <name>Джип M 6138EBLR-3</name>
-            <name_ua>Джип M 6138EBLR-3</name_ua>
-            <categoryId>77</categoryId>
-            <price>10370</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=309671&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/952578.jpg</image>
-            <image>https://metr-plus.com.ua/img/958390.jpg</image>
-            <image>https://metr-plus.com.ua/img/958391.jpg</image>
-            <image>https://metr-plus.com.ua/img/958392.jpg</image>
-            <image>https://metr-plus.com.ua/img/958393.jpg</image>
-            <image>https://metr-plus.com.ua/img/958394.jpg</image>
-            <image>https://metr-plus.com.ua/img/958395.jpg</image>
-            <image>https://metr-plus.com.ua/img/958396.jpg</image>
-            <image>https://metr-plus.com.ua/img/958397.jpg</image>
-            <image>https://metr-plus.com.ua/img/958398.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 6138EBLR-3</vendorCode>
-            <barcode>6903317736980</barcode>
-            <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description>
-            <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, червоний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="309770" selling_type="r">
-            <name>Джип M 6139EBLR-1</name>
-            <name_ua>Джип M 6139EBLR-1</name_ua>
-            <categoryId>77</categoryId>
-            <price>10143</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=309770&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/953264.jpg</image>
-            <image>https://metr-plus.com.ua/img/958327.jpg</image>
-            <image>https://metr-plus.com.ua/img/958328.jpg</image>
-            <image>https://metr-plus.com.ua/img/958329.jpg</image>
-            <image>https://metr-plus.com.ua/img/958330.jpg</image>
-            <image>https://metr-plus.com.ua/img/958331.jpg</image>
-            <image>https://metr-plus.com.ua/img/958332.jpg</image>
-            <image>https://metr-plus.com.ua/img/958333.jpg</image>
-            <image>https://metr-plus.com.ua/img/958334.jpg</image>
-            <image>https://metr-plus.com.ua/img/958335.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 6139EBLR-1</vendorCode>
-            <barcode>6903317736997</barcode>
-            <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description>
-            <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="310388" selling_type="r">
-            <name>Джип M 6140EBLR-1</name>
-            <name_ua>Джип M 6140EBLR-1</name_ua>
-            <categoryId>77</categoryId>
-            <price>10143</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=310388&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/954511.jpg</image>
-            <image>https://metr-plus.com.ua/img/958345.jpg</image>
-            <image>https://metr-plus.com.ua/img/958346.jpg</image>
-            <image>https://metr-plus.com.ua/img/958347.jpg</image>
-            <image>https://metr-plus.com.ua/img/958348.jpg</image>
-            <image>https://metr-plus.com.ua/img/958349.jpg</image>
-            <image>https://metr-plus.com.ua/img/958350.jpg</image>
-            <image>https://metr-plus.com.ua/img/958351.jpg</image>
-            <image>https://metr-plus.com.ua/img/958352.jpg</image>
-            <image>https://metr-plus.com.ua/img/958353.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 6140EBLR-1</vendorCode>
-            <barcode>6903317737024</barcode>
-            <description><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description>
-            <description_ua><![CDATA[р/к 2,4G, 2*35W, 1*12V7AH, MP3, USB, TF, EVA, шкіра, музика, світло, білий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="310465" selling_type="r">
             <name>Джип M 6140EBLR-3</name>
             <name_ua>Джип M 6140EBLR-3</name_ua>
@@ -23626,34 +23465,6 @@
             <barcode>6903317798407</barcode>
             <description><![CDATA[р/к2,4G, 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, жовтий]]></description>
             <description_ua><![CDATA[р/к2,4G, 2мотори35W, 1акум12V4,5AH, EVA, BLUETOOTH, музика, світло, жовтий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="329567" selling_type="r">
-            <name>Джип M 6256EBLR-11</name>
-            <name_ua>Джип M 6256EBLR-11</name_ua>
-            <categoryId>77</categoryId>
-            <price>15573</price>
-                <url>https://metr-plus.com.ua/index.php?section=77&amp;id=329567&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1014179.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025265.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025266.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025267.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025268.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025269.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025270.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025271.jpg</image>
-            <image>https://metr-plus.com.ua/img/1025272.jpg</image>
-                <available>true</available>
-            <vendor>Bambi Racer</vendor>
-            <vendorCode>M 6256EBLR-11</vendorCode>
-            <barcode>6903317796267</barcode>
-            <description><![CDATA[р/к2,4G, 4мотора45W,1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, сірий]]></description>
-            <description_ua><![CDATA[р/к2,4G, 4мотора45W,1акум12V12AH, MP3, USB, EVA, BLUETOOTH, TF, музика, світло, шкіра, сірий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -25281,8 +25092,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=346365&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117459.jpg</image>
             <image>https://metr-plus.com.ua/img/1133242.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117459.jpg</image>
             <image>https://metr-plus.com.ua/img/1133243.jpg</image>
             <image>https://metr-plus.com.ua/img/1133244.jpg</image>
             <image>https://metr-plus.com.ua/img/1133246.jpg</image>
@@ -25311,8 +25122,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=346366&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1117460.jpg</image>
             <image>https://metr-plus.com.ua/img/1133253.jpg</image>
+            <image>https://metr-plus.com.ua/img/1117460.jpg</image>
             <image>https://metr-plus.com.ua/img/1133255.jpg</image>
             <image>https://metr-plus.com.ua/img/1133254.jpg</image>
             <image>https://metr-plus.com.ua/img/1133257.jpg</image>
@@ -25341,8 +25152,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=347294&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1119423.jpg</image>
             <image>https://metr-plus.com.ua/img/1153062.jpg</image>
+            <image>https://metr-plus.com.ua/img/1119423.jpg</image>
             <image>https://metr-plus.com.ua/img/1153061.jpg</image>
             <image>https://metr-plus.com.ua/img/1153065.jpg</image>
             <image>https://metr-plus.com.ua/img/1153064.jpg</image>
@@ -25370,8 +25181,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=350406&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1127648.jpg</image>
             <image>https://metr-plus.com.ua/img/1153028.jpg</image>
+            <image>https://metr-plus.com.ua/img/1127648.jpg</image>
             <image>https://metr-plus.com.ua/img/1153029.jpg</image>
             <image>https://metr-plus.com.ua/img/1153030.jpg</image>
             <image>https://metr-plus.com.ua/img/1153033.jpg</image>
@@ -25396,8 +25207,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=350407&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1127649.jpg</image>
             <image>https://metr-plus.com.ua/img/1152533.jpg</image>
+            <image>https://metr-plus.com.ua/img/1127649.jpg</image>
             <image>https://metr-plus.com.ua/img/1152534.jpg</image>
             <image>https://metr-plus.com.ua/img/1152536.jpg</image>
             <image>https://metr-plus.com.ua/img/1152538.jpg</image>
@@ -25422,8 +25233,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=350408&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1127650.jpg</image>
             <image>https://metr-plus.com.ua/img/1152527.jpg</image>
+            <image>https://metr-plus.com.ua/img/1127650.jpg</image>
             <image>https://metr-plus.com.ua/img/1152530.jpg</image>
             <image>https://metr-plus.com.ua/img/1152532.jpg</image>
             <image>https://metr-plus.com.ua/img/1152531.jpg</image>
@@ -25448,8 +25259,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=351965&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1130301.jpg</image>
             <image>https://metr-plus.com.ua/img/1140468.jpg</image>
+            <image>https://metr-plus.com.ua/img/1130301.jpg</image>
             <image>https://metr-plus.com.ua/img/1140471.jpg</image>
             <image>https://metr-plus.com.ua/img/1140469.jpg</image>
             <image>https://metr-plus.com.ua/img/1140470.jpg</image>
@@ -25477,8 +25288,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=351966&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1130302.jpg</image>
             <image>https://metr-plus.com.ua/img/1140431.jpg</image>
+            <image>https://metr-plus.com.ua/img/1130302.jpg</image>
             <image>https://metr-plus.com.ua/img/1140433.jpg</image>
             <image>https://metr-plus.com.ua/img/1140432.jpg</image>
             <image>https://metr-plus.com.ua/img/1140434.jpg</image>
@@ -25507,8 +25318,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=351967&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1130303.jpg</image>
             <image>https://metr-plus.com.ua/img/1140442.jpg</image>
+            <image>https://metr-plus.com.ua/img/1130303.jpg</image>
             <image>https://metr-plus.com.ua/img/1140441.jpg</image>
             <image>https://metr-plus.com.ua/img/1140443.jpg</image>
             <image>https://metr-plus.com.ua/img/1140444.jpg</image>
@@ -25536,8 +25347,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=351968&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1130304.jpg</image>
             <image>https://metr-plus.com.ua/img/1140450.jpg</image>
+            <image>https://metr-plus.com.ua/img/1130304.jpg</image>
             <image>https://metr-plus.com.ua/img/1140451.jpg</image>
             <image>https://metr-plus.com.ua/img/1140452.jpg</image>
             <image>https://metr-plus.com.ua/img/1140453.jpg</image>
@@ -25565,8 +25376,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=352414&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1134893.jpg</image>
             <image>https://metr-plus.com.ua/img/1142754.jpg</image>
+            <image>https://metr-plus.com.ua/img/1134893.jpg</image>
             <image>https://metr-plus.com.ua/img/1142755.jpg</image>
             <image>https://metr-plus.com.ua/img/1142756.jpg</image>
             <image>https://metr-plus.com.ua/img/1142757.jpg</image>
@@ -25656,8 +25467,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=355351&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1140711.jpg</image>
             <image>https://metr-plus.com.ua/img/1152281.jpg</image>
+            <image>https://metr-plus.com.ua/img/1140711.jpg</image>
             <image>https://metr-plus.com.ua/img/1152282.jpg</image>
             <image>https://metr-plus.com.ua/img/1152286.jpg</image>
             <image>https://metr-plus.com.ua/img/1152283.jpg</image>
@@ -25686,8 +25497,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=356952&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1144472.jpg</image>
             <image>https://metr-plus.com.ua/img/1153008.jpg</image>
+            <image>https://metr-plus.com.ua/img/1144472.jpg</image>
             <image>https://metr-plus.com.ua/img/1153009.jpg</image>
             <image>https://metr-plus.com.ua/img/1153011.jpg</image>
             <image>https://metr-plus.com.ua/img/1153010.jpg</image>
@@ -25736,8 +25547,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=356955&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1144475.jpg</image>
             <image>https://metr-plus.com.ua/img/1152998.jpg</image>
+            <image>https://metr-plus.com.ua/img/1144475.jpg</image>
             <image>https://metr-plus.com.ua/img/1153001.jpg</image>
             <image>https://metr-plus.com.ua/img/1152999.jpg</image>
             <image>https://metr-plus.com.ua/img/1153000.jpg</image>
@@ -25806,8 +25617,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=359316&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1153450.jpg</image>
             <image>https://metr-plus.com.ua/img/1155638.jpg</image>
+            <image>https://metr-plus.com.ua/img/1153450.jpg</image>
             <image>https://metr-plus.com.ua/img/1155639.jpg</image>
             <image>https://metr-plus.com.ua/img/1155640.jpg</image>
             <image>https://metr-plus.com.ua/img/1155641.jpg</image>
@@ -25836,8 +25647,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=359317&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1153451.jpg</image>
             <image>https://metr-plus.com.ua/img/1155628.jpg</image>
+            <image>https://metr-plus.com.ua/img/1153451.jpg</image>
             <image>https://metr-plus.com.ua/img/1155626.jpg</image>
             <image>https://metr-plus.com.ua/img/1155627.jpg</image>
             <image>https://metr-plus.com.ua/img/1155633.jpg</image>
@@ -25866,8 +25677,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=77&amp;id=359318&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1153452.jpg</image>
             <image>https://metr-plus.com.ua/img/1155606.jpg</image>
+            <image>https://metr-plus.com.ua/img/1153452.jpg</image>
             <image>https://metr-plus.com.ua/img/1155610.jpg</image>
             <image>https://metr-plus.com.ua/img/1155611.jpg</image>
             <image>https://metr-plus.com.ua/img/1155607.jpg</image>
@@ -26430,8 +26241,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=347037&amp;id=349613&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126608.jpg</image>
             <image>https://metr-plus.com.ua/img/1142352.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126608.jpg</image>
             <image>https://metr-plus.com.ua/img/1142351.jpg</image>
             <image>https://metr-plus.com.ua/img/1142354.jpg</image>
             <image>https://metr-plus.com.ua/img/1142358.jpg</image>
@@ -26458,8 +26269,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=347037&amp;id=349614&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1126609.jpg</image>
             <image>https://metr-plus.com.ua/img/1151771.jpg</image>
+            <image>https://metr-plus.com.ua/img/1126609.jpg</image>
             <image>https://metr-plus.com.ua/img/1151770.jpg</image>
             <image>https://metr-plus.com.ua/img/1151772.jpg</image>
             <image>https://metr-plus.com.ua/img/1151776.jpg</image>
@@ -44866,8 +44677,8 @@
                 <url>https://metr-plus.com.ua/index.php?section=99&amp;id=351969&amp;lang=uk</url>
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1130305.jpg</image>
             <image>https://metr-plus.com.ua/img/1133304.jpg</image>
+            <image>https://metr-plus.com.ua/img/1130305.jpg</image>
             <image>https://metr-plus.com.ua/img/1133303.jpg</image>
             <image>https://metr-plus.com.ua/img/1133305.jpg</image>
             <image>https://metr-plus.com.ua/img/1133306.jpg</image>
@@ -47966,30 +47777,6 @@
             <param name="Матеріал">
                 <value lang="uk">пластмаса</value>
                 <value lang="ru">пластмаса</value>
-            </param>
-        </item>
-        <item id="331077" selling_type="r">
-            <name>Спортивный инвентарь MS 2609-12</name>
-            <name_ua>Спортивний інвентар MS 2609-12</name_ua>
-            <categoryId>60</categoryId>
-            <price>1826</price>
-                <url>https://metr-plus.com.ua/index.php?section=60&amp;id=331077&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1019305.jpg</image>
-                <available>true</available>
-            <vendor>PROF1</vendor>
-            <vendorCode>MS 2609-12</vendorCode>
-            <barcode>6903317807147</barcode>
-            <description><![CDATA[баланс.платформа, босса, диам.60см, эспандер (ручки EVA), насос, серый, в кор-ке]]></description>
-            <description_ua><![CDATA[баланс.платформа, босу, діам.60см, еспандер (ручки EVA), насос, сірий, в кор-ці]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">пакет</value>
-                <value lang="ru">пакет</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">пластмаса, ПВХ</value>
-                <value lang="ru">пластмаса, ПВХ</value>
             </param>
         </item>
         <item id="331344" selling_type="r">
