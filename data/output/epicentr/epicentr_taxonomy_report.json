@@ -1,6 +1,6 @@
 {
-  "total": 1912,
-  "unresolved_count": 199,
+  "total": 1915,
+  "unresolved_count": 202,
   "unresolved": [
     {
       "sku": "10034",
@@ -538,6 +538,11 @@
       "name": "Розвиваючий центр-стрибунець M 6243-8"
     },
     {
+      "sku": "M 6316-RC",
+      "supplier_category_id": "114",
+      "name": "Пульт керування M 6316-RC"
+    },
+    {
       "sku": "M 6316-RC RECEIVER",
       "supplier_category_id": "114",
       "name": "Блок керування M 6316-RC RECEIVER"
@@ -941,6 +946,16 @@
       "sku": "MS 4980",
       "supplier_category_id": "60",
       "name": "Тренажер MS 4980"
+    },
+    {
+      "sku": "MS 5013-1-GL",
+      "supplier_category_id": "114",
+      "name": "Боксерський набір MS 5013-1-GL"
+    },
+    {
+      "sku": "MS 5013-2-GL",
+      "supplier_category_id": "114",
+      "name": "Боксерський набір MS 5013-2-GL"
     },
     {
       "sku": "MS 5122",
@@ -7358,6 +7373,7 @@
       "M 6316-F-R-EVA WHEEL",
       "M 6316-R-L-EVA WHEEL",
       "M 6316-R-R-EVA WHEEL",
+      "M 6316-RC",
       "M 6316-RC RECEIVER",
       "M 6316-ST GEAR",
       "M 6316-ST-WHEEL",
@@ -7523,6 +7539,8 @@
       "MS 4776-W",
       "MS 4820-1",
       "MS 4980",
+      "MS 5013-1-GL",
+      "MS 5013-2-GL",
       "MS 5122",
       "MS 5146-B",
       "MS 5146-P",
@@ -7640,9 +7658,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3760,
-    "Розмір упаковки": 1062,
-    "Тип пакування": 416,
+    "Матеріал": 3766,
+    "Розмір упаковки": 1066,
+    "Тип пакування": 420,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -8961,6 +8979,7 @@
     "M 6316-F-R-EVA WHEEL",
     "M 6316-R-L-EVA WHEEL",
     "M 6316-R-R-EVA WHEEL",
+    "M 6316-RC",
     "M 6316-RC RECEIVER",
     "M 6316-ST GEAR",
     "M 6316-ST-WHEEL",
@@ -9408,6 +9427,8 @@
     "MS 4800-3",
     "MS 4820-1",
     "MS 4980",
+    "MS 5013-1-GL",
+    "MS 5013-2-GL",
     "MS 5122",
     "MS 5146-B",
     "MS 5146-P",
