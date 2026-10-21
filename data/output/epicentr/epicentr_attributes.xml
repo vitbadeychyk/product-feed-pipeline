@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-21 09:06">
+<yml_catalog date="2026-10-21 16:34">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -2398,10 +2398,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="9311" available="true">
+    <offer id="9311" available="false">
       <price>5000</price>
       <price_old>6500</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="872">Дитячі шезлонги</category>
       <attribute_set code="872">Дитячі шезлонги</attribute_set>
       <name lang="ua">Заколисуючий центр-шезлонг 9311</name>
@@ -5829,6 +5829,82 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="JR3-129-M" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-129-M</name>
+      <picture>https://metr-plus.com.ua/img/966786.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/993525.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/993526.jpg</picture>
+      <description lang="ua">Mini, метал+пластик, 2пер ПУ 108мм світло, заднє 75мм, кермо 3 положення (min 59,5см, 1 положення 66,5см, max 76см), підніжка 24-11см, музика, світло, на бат-ці, в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-129-P" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-129-P</name>
+      <picture>https://metr-plus.com.ua/img/966787.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/993527.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/993528.jpg</picture>
+      <description lang="ua">Mini, метал+пластик, 2пер ПУ 108мм світло, заднє 75мм, кермо 3 положення (min 59,5см, 1 положення 66,5см, max 76см), підніжка 24-11см, музика, світло, на бат-ці, в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-134-BL" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-134-BL</name>
+      <picture>https://metr-plus.com.ua/img/957050.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/970781.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/970782.jpg</picture>
+      <description lang="ua">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 84мм світло, кермо (3 положення, min 67см, max 78см), музика, світло, підніжка 27-13см, блакитний, на бат-ці, в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-134-GR" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-134-GR</name>
+      <picture>https://metr-plus.com.ua/img/957051.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х років Самокат Prof1 JR 3-134 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. Самокат має складану конструкцію, музику, світло та оснащений ножним гальмом, яке розміщене над заднім колесом. У нашому магазині Ви можете купити самокат Prof1 JR 3-134 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката Prof1 JR 3-134:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Рама самоката виконана з металу.&lt;/li&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті 3 положеннях від 67 до 78 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Має складану конструкцію.&lt;/li&gt;&lt;li&gt;Музика, світло (працюють від батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Розмір платформи: 27х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,4 см.&lt;/li&gt;&lt;li&gt;Упаковка: картонна коробка.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-134-P" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-134-P</name>
+      <picture>https://metr-plus.com.ua/img/957052.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х років Самокат Prof1 JR 3-134 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. Самокат має складану конструкцію, музику, світло та оснащений ножним гальмом, яке розміщене над заднім колесом. У нашому магазині Ви можете купити самокат Prof1 JR 3-134 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката Prof1 JR 3-134:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Рама самоката виконана з металу.&lt;/li&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті 3 положеннях від 67 до 78 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Має складану конструкцію.&lt;/li&gt;&lt;li&gt;Музика, світло (працюють від батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Розмір платформи: 27х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,4 см.&lt;/li&gt;&lt;li&gt;Упаковка: картонна коробка.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="JR3-134-Y" available="true">
       <price>1900</price>
       <price_old>2470</price_old>
@@ -5858,6 +5934,62 @@
       <picture>https://metr-plus.com.ua/img/1016301.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 3-х років Самокат Prof1 JR 3-135 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. Самокат має складану конструкцію, музику, світло і оснащений ножним гальмом, яке розміщене над заднім колесом. У нашому магазині Ви можете купити самокат Prof1 JR 3-135 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката Prof1 JR 3-135:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Рама самоката виконана з металу.&lt;/li&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті 3 положеннях: 62/71/80 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди .&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Має складану конструкцію.&lt;/li&gt;&lt;li&gt;Музика, світло (працюють від батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Розмір платформи: 29х12 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 12,5 см, заднього - 9 см.&lt;/li&gt;&lt;li&gt;Упаковка: картонна коробка.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 40 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-136-GR" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-136-GR</name>
+      <picture>https://metr-plus.com.ua/img/957055.jpg</picture>
+      <description lang="ua">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 90мм світло, кермо (3 положення, min 63см, 1 положення 69см, max 75см), музика, світло, підніжка 27-13см, зелений, на бат-ці, в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-136-P" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-136-P</name>
+      <picture>https://metr-plus.com.ua/img/957056.jpg</picture>
+      <description lang="ua">метал+пластик, 3 колеса ПУ, 2передніх 110мм світло, 1 заднє 90мм світло, кермо (3 положення, min 63см, 1 положення 69см, max 75см), музика, світло, підніжка 27-13см, на бат-ці, в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-143-G" available="true">
+      <price>3000</price>
+      <price_old>3900</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-143-G</name>
+      <picture>https://metr-plus.com.ua/img/960143.jpg</picture>
+      <description lang="ua">метал+пластик, 3колеса, 2колеса120мм світло,заднє 85мм світло, музика,світло, кермо(4положення, min66см, max85см), підніжка33-14см, на бат-ці,в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-143-P" available="true">
+      <price>3000</price>
+      <price_old>3900</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-143-P</name>
+      <picture>https://metr-plus.com.ua/img/958132.jpg</picture>
+      <description lang="ua">метал+пластик, 3колеса, 2колеса120мм світло, заднє 85мм світло, музика,світло, кермо(4положення, min66см, max85см), підніжка33-14см, на бат-ці,в кор-ці</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -5996,8 +6128,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="JR3-167-5BC-B" available="true">
-      <price>2300</price>
-      <price_old>2990</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="1437">Самокати</category>
       <attribute_set code="1437">Самокати</attribute_set>
@@ -6038,8 +6170,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="JR3-167-5BC-P" available="true">
-      <price>2300</price>
-      <price_old>2990</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="1437">Самокати</category>
       <attribute_set code="1437">Самокати</attribute_set>
@@ -6179,6 +6311,452 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="JR3-168-BG" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-168-BG</name>
+      <picture>https://metr-plus.com.ua/img/1114487.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153339.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153340.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153341.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153342.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153343.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат iTrike JR3-168-BG бежевий - стане чудовим вибором для активної дитини, яка любить прогулянки та рухливі ігри на свіжому повітрі, ця модель поєднує в собі стильний зовнішній вигляд, зручність у використанні та надійну конструкцію, завдяки чому катання приносить максимум задоволення. Самокат iTrike JR3-168-BG оснащений керованим кермом, що дозволяє підлаштувати його висоту під зростання дитини і зробити катання ще зручнішим. На кермі розташований невеликий кошик, в який можна покласти улюблену іграшку, пляшечку з водою або інші потрібні дрібниці, щоб все необхідне завжди було під рукою. Дитячий самокат JR3-168-BG бежевий виконаний із якісних та надійних матеріалів, розрахованих на активне щоденне використання. Міцна та стійка конструкція допомагає дитині почуватися впевнено під час катання, а плавний хід та зручне управління роблять кожну прогулянку максимально приємною.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-168-BG :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самокат&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;Музика, світло (працює від батарейок)&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Передні колеса – 110 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 80 мм&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 3 положення, 61 см/69 см/79 см&lt;/li&gt;&lt;li&gt;На кермі є кошик&lt;/li&gt;&lt;li&gt;Розмір підніжки: 27-12 см&lt;/li&gt;&lt;li&gt;Розмір коробки: 65х31х18 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий самокат JR3-168-BG або отримати додаткову інформацію про дитячий самокат JR3-168-BG, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-168-BG в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-168-BL" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-168-BL</name>
+      <picture>https://metr-plus.com.ua/img/1117507.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153348.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153349.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153350.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153351.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153352.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 63см, 1 положення 69см, max 79см),підніжка 27-12см, блакитний, на бат-ці, в кор-ці, 65-31-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-168-P" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-168-P</name>
+      <picture>https://metr-plus.com.ua/img/1114488.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153377.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153378.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153379.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153380.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153381.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат iTrike JR3-168-P рожевий - стане чудовим вибором для активної дитини, яка любить прогулянки та рухливі ігри на свіжому повітрі, ця модель поєднує в собі стильний зовнішній вигляд, зручність у використанні та надійну конструкцію, завдяки чому катання приносить максимум задоволення. Самокат iTrike JR3-168-P оснащений керованим кермом, що дозволяє підлаштувати його висоту під зростання дитини і зробити катання ще зручнішим. На кермі розташований невеликий кошик, в який можна покласти улюблену іграшку, пляшечку з водою або інші потрібні дрібниці, щоб все необхідне завжди було під рукою. Дитячий самокат JR3-168-P рожевий виконаний із якісних та надійних матеріалів, розрахованих на активне щоденне використання. Міцна та стійка конструкція допомагає дитині почуватися впевнено під час катання, а плавний хід та зручне управління роблять кожну прогулянку максимально приємною.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-168-P :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самокат&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;Музика, світло (працює від батарейок)&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Передні колеса – 110 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 80 мм&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 3 положення, 61 см/69 см/79 см&lt;/li&gt;&lt;li&gt;На кермі є кошик&lt;/li&gt;&lt;li&gt;Розмір підніжки: 27-12 см&lt;/li&gt;&lt;li&gt;Розмір коробки: 65х31х18 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий самокат JR3-168-P або отримати додаткову інформацію про дитячий самокат JR3-168-P, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-168-P в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-170-3-B" available="true">
+      <price>2800</price>
+      <price_old>3640</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-170-3-B</name>
+      <picture>https://metr-plus.com.ua/img/1114489.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153407.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153408.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153409.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153410.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153411.jpg</picture>
+      <description lang="ua">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 75мм світло, музика, світло, кермо (3положення, min 49см, max81см), підніжка 27-12см, сидіння (світло,висота від підлоги  27см), чорний, на бат-ці, в кор-ці, 57-</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-170-3-P" available="true">
+      <price>2800</price>
+      <price_old>3640</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-170-3-P</name>
+      <picture>https://metr-plus.com.ua/img/1117528.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153432.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153433.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153434.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153435.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат JR3-170-3-P рожевий - стане чудовим подарунком для дитини, вона доставить масу позитивних емоцій і допоможе проводити час активно, із задоволенням та користю. Ця модель привертає увагу яскравим зовнішнім виглядом та додатковими ефектами, які роблять кожну прогулянку ще цікавішою та веселішою. Музика створює гарний настрій під час катання, а підсвічування коліс гарно виглядає у русі та особливо ефектно виглядає ввечері. Самокат iTrike JR3-170-3-P оснащений трьома колесами, які забезпечують хорошу стійкість та допомагають дитині почуватися впевненіше під час руху, поворотів та зупинок. Така конструкція робить катання безпечнішим і комфортнішим, особливо для малюків, які ще тільки вчаться тримати рівновагу. Дитячий самокат JR3-170-3-P рожевий стане відмінним транспортом для активної та допитливої ​​дитини, яка любить рух, прогулянки та веселі ігри на свіжому повітрі. Завдяки продуманій конструкції модель легко може використовуватися не лише як самокат, а й як біговел, тому кататися на ньому зручно навіть найменшим дітям, які лише починають знайомство з таким видом транспорту.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-170-3-P :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: 3 в 1, самокат, біговел&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;Музика, світло (працює від батарейок)&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Передні колеса – 120 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 75 мм, світиться&lt;/li&gt;&lt;li&gt;Знімне сидіння, підсвічування&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння - 27 см&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 3 положення, 49 - 81 см&lt;/li&gt;&lt;li&gt;Розмір підніжки: 27-12 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий самокат JR3-170-3-P або отримати додаткову інформацію про дитячий самокат JR3-170-3-P, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат iTrike JR3-170-3-P у регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-170-3-W" available="true">
+      <price>2800</price>
+      <price_old>3640</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-170-3-W</name>
+      <picture>https://metr-plus.com.ua/img/1114159.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153392.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153393.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153394.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153395.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 2 років Самокат 3 в 1 iTrike JR 3-170-3 є новинкою серед широкого асортименту товарів для дітей. Музика, підсвічування платформи. У нашому магазині Ви можете купити самокат iTrike JR 3-170-3 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого самокату 3 в 1 iTrike JR 3-170-3:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Можливо використовувати як самокат та біговел.&lt;/li&gt;&lt;li&gt;Керування колесами в самокаті здійснюється нахилом керма у бік повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 49 до 81 см.&lt;/li&gt;&lt;li&gt;Самокат обладнаний додатковим сидінням для катання найменших дітей, яке кріпиться до рами.&lt;/li&gt;&lt;li&gt;Використовуючи сидіння, дитина може кататися на самокаті, як на каталці, відштовхуючись від землі двома ніжками.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 27 см.&lt;/li&gt;&lt;li&gt;Сидіння з підсвічуванням.&lt;/li&gt;&lt;li&gt;Колеса світяться під час руху.&lt;/li&gt;&lt;li&gt;Розмір передніх коліс: 120 мм.&lt;/li&gt;&lt;li&gt;Розмір заднього колеса: 75 мм.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи (працюють від 3хАА батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо (step-on-brake) розміщене на задньому колесі.&lt;/li&gt;&lt;li&gt;Розмір платформи: 27х12 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-B" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-B</name>
+      <picture>https://metr-plus.com.ua/img/1153457.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114490.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153459.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153458.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153460.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат JR3-171-B чорний - це відмінний вибір для батьків, які хочуть порадувати дитину стильним і при цьому дійсно якісним транспортом, який буде не просто іграшкою, а повноцінним засобом для активних прогулянок, адже дана модель поєднує у собі продуманий дизайн, надійну конструкцію та зручність у використанні, завдяки чому дитина з перших хвилин відчуває впевненість та отримує задоволення від катання. Самокат iTrike JR3-171-B оснащений ручкою, що регулюється по висоті, що дозволяє легко підлаштувати його під ріст дитини і використовувати не один сезон, а три колеса роблять катання максимально безпечним і комфортним навіть для найменших, при цьому яскраве підсвічування коліс додає особливого настрою і робить кожну прогулянку ще цікавішою і запам&amp;#x27;ятовується. Дитячий самокат JR3-171-B чорний відрізняється гарною маневреністю та легкістю управління, завдяки чому дитина швидко вчиться тримати баланс і впевнено керувати рухом, а сама модель виглядає стильно та сучасно, створюючи приємне враження як у дітей, так і у батьків.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-171-B :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самоката&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Передні колеса – 120 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 82 мм, світиться&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 4 положень – 58-79 см.&lt;/li&gt;&lt;li&gt;Розмір підніжки: 28-12 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;li&gt;Розмір коробки: 58х30х17 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий самокат JR3-171-B або отримати додаткову інформацію про самокат JR3-171-B, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-171-B в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-P" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-P</name>
+      <picture>https://metr-plus.com.ua/img/1114491.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153461.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153462.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153463.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153464.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат JR3-171-P рожевий - це відмінний вибір для батьків, які хочуть порадувати дитину стильним і при цьому дійсно якісним транспортом, який буде не просто іграшкою, а повноцінним засобом для активних прогулянок, адже дана модель поєднує у собі продуманий дизайн, надійну конструкцію та зручність у використанні, завдяки чому дитина з перших хвилин відчуває впевненість та отримує задоволення від катання. Самокат iTrike JR3-171-P оснащений ручкою, що регулюється по висоті, що дозволяє легко підлаштувати його під ріст дитини і використовувати не один сезон, а три колеса роблять катання максимально безпечним і комфортним навіть для найменших, при цьому яскраве підсвічування коліс додає особливого настрою і робить кожну прогулянку ще цікавішою і запам&amp;#x27;ятовується. Дитячий самокат JR3-171-P рожевий відрізняється гарною маневреністю та легкістю управління, завдяки чому дитина швидко вчиться тримати баланс і впевнено керувати рухом, а сама модель виглядає стильно та сучасно, створюючи приємне враження як у дітей, так і у батьків.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-171-P :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самоката&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Передні колеса – 120 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 82 мм, світиться&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 4 положень – 58-79 см.&lt;/li&gt;&lt;li&gt;Розмір підніжки: 28-12 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;li&gt;Розмір коробки: 58х30х17 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий самокат JR3-171-P або отримати додаткову інформацію про самокат JR3-171-P, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-171-P в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-P-PANEL" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-P-PANEL</name>
+      <picture>https://metr-plus.com.ua/img/1161568.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 85мм світло, кермо (4положення, min 58см, 1 положення 64см, max 79см), світло(сенсорна панель), підніжка 28-12см, рожевий, на бат-ці, в кор-ці, 59-32-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-V" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-V</name>
+      <picture>https://metr-plus.com.ua/img/1117417.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153465.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153466.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153467.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153468.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат JR3-171-V фіолетовий - це відмінний вибір для батьків, які хочуть порадувати дитину стильним і при цьому дійсно якісним транспортом, який буде не просто іграшкою, а повноцінним засобом для активних прогулянок, адже дана модель поєднує у собі продуманий дизайн, надійну конструкцію та зручність у використанні, завдяки чому дитина з перших хвилин відчуває впевненість та отримує задоволення від катання. Самокат iTrike JR3-171-V оснащений ручкою, що регулюється по висоті, що дозволяє легко підлаштувати його під ріст дитини і використовувати не один сезон, а три колеса роблять катання максимально безпечним і комфортним навіть для найменших, при цьому яскраве підсвічування коліс додає особливого настрою і робить кожну прогулянку ще цікавішою і запам&amp;#x27;ятовується. Дитячий самокат JR3-171-V фіолетовий відрізняється гарною маневреністю та легкістю управління, завдяки чому дитина швидко вчиться тримати баланс і впевнено керувати рухом, а сама модель виглядає стильно та сучасно, створюючи приємне враження як у дітей, так і у батьків.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-171-V :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самоката&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Передні колеса – 120 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 82 мм, світиться&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 4 положень – 58-79 см.&lt;/li&gt;&lt;li&gt;Розмір підніжки: 28-12 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;li&gt;Розмір коробки: 58х30х17 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий самокат JR3-171-V або отримати додаткову інформацію про самокат JR3-171-V, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-171-V в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-W" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-W</name>
+      <picture>https://metr-plus.com.ua/img/1114160.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153469.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153470.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153471.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153472.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий самокат JR3-171-W білий - це відмінний вибір для батьків, які хочуть порадувати дитину стильним і при цьому дійсно якісним транспортом, який буде не просто іграшкою, а повноцінним засобом для активних прогулянок, адже дана модель поєднує у собі продуманий дизайн, надійну конструкцію та зручність у використанні, завдяки чому дитина з перших хвилин відчуває впевненість та отримує задоволення від катання. Самокат iTrike JR3-171-W оснащений ручкою, що регулюється по висоті, що дозволяє легко підлаштувати його під ріст дитини і використовувати не один сезон, а три колеса роблять катання максимально безпечним і комфортним навіть для найменших, при цьому яскраве підсвічування коліс додає особливого настрою і робить кожну прогулянку ще цікавішою і запам&amp;#x27;ятовується. Дитячий самокат JR3-171-W білий відрізняється гарною маневреністю та легкістю управління, завдяки чому дитина швидко вчиться тримати баланс і впевнено керувати рухом, а сама модель виглядає стильно та сучасно, створюючи приємне враження як у дітей, так і у батьків.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самокату JR3-171-W :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: самоката&lt;/li&gt;&lt;li&gt;Виробник: iTrike&lt;/li&gt;&lt;li&gt;три колеса&lt;/li&gt;&lt;li&gt;Передні колеса – 120 мм, світяться&lt;/li&gt;&lt;li&gt;Заднє колесо – 82 мм, світиться&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Висота керма регулюється, 4 положень – 58-79 см.&lt;/li&gt;&lt;li&gt;Розмір підніжки: 28-12 см&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик&lt;/li&gt;&lt;li&gt;Розмір коробки: 58х30х17 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий самокат JR3-171-W або отримати додаткову інформацію про самокат JR3-171-W, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий самокат JR3-171-W в регіонах України&lt;/p&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-171-W-PANEL" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-171-W-PANEL</name>
+      <picture>https://metr-plus.com.ua/img/1161569.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 85мм світло, кермо (4положення, min 58см, 1 положення 64см, max 79см), світло(сенсорна панель), підніжка 28-12см, на бат-ці, в кор-ці, 59-32-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-177-BL" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-177-BL</name>
+      <picture>https://metr-plus.com.ua/img/1153532.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1117420.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153531.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153533.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153534.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153535.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х років Самокат iTrike JR 3-177 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. Самокат має музику, світло і оснащений ножним гальмом, яке розміщене над заднім колесом. У нашому магазині Ви можете купити самокат iTrike JR 3-177 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-177:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 63,5 до 74,5 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди .&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Музика (працює від батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Розмір платформи: 26х12 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 57х29,5х17 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-177-GR" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-177-GR</name>
+      <picture>https://metr-plus.com.ua/img/1153541.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114167.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153543.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153542.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153544.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153545.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо ( 3положення, min 63,5см, 1 положення 67см, max 74,5см), підніжка 26-12см, панда, зелений, на бат-ці, в кор-ці, 57-29,5-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-177-OR" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-177-OR</name>
+      <picture>https://metr-plus.com.ua/img/1153536.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1117421.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153538.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153537.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153539.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153540.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо ( 3положення, min 63,5см, 1 положення 67см, max 74,5см), підніжка 26-12см, панда, помаранчевий, на бат-ці, в кор-ці, 57-29,5-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-178-DBL" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-178-DBL</name>
+      <picture>https://metr-plus.com.ua/img/1153546.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114168.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153547.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153548.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3положення, min 58см, 1 положення 61см, max 71см), підніжка 26-12см, синій, в кор-ці, 60,5-29-18см</description>
+      <vendor>SPIDERMAN</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-178-LBL" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-178-LBL</name>
+      <picture>https://metr-plus.com.ua/img/1154893.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114169.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154892.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154891.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3положення, min 58см, 1 положення 61см, max 71см), підніжка 26-12см, блакитний, в кор-ці, 60,5-29-18см</description>
+      <vendor>FROZEN/КРИЖАНЕ СЕРЦЕ</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-178-P" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-178-P</name>
+      <picture>https://metr-plus.com.ua/img/1154897.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114170.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154898.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154899.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х років Самокат iTrike JR 3-178 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-178 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-178:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 58 до 71 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди .&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 26х12 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,5 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 60,5х29х18 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor>FROZEN/КРИЖАНЕ СЕРЦЕ</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-178-R" available="true">
+      <price>2000</price>
+      <price_old>2600</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-178-R</name>
+      <picture>https://metr-plus.com.ua/img/1154894.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114171.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154895.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154896.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо (3положення, min 58см, 1 положення 61см, max 71см), підніжка 26-12см, червоний, в кор-ці, 60,5-29-18см</description>
+      <vendor>MARVEL HEROES</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-179-BL" available="true">
+      <price>2200</price>
+      <price_old>2860</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-179-BL</name>
+      <picture>https://metr-plus.com.ua/img/1153578.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1114172.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153582.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153581.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153579.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153580.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-179 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-179 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-179:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 60,5 до 75,5 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 30х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,2 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 64,5х33х20 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-179-G" available="true">
+      <price>2200</price>
+      <price_old>2860</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-179-G</name>
+      <picture>https://metr-plus.com.ua/img/1117422.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154886.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154887.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154888.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154889.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1154890.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-179 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-179 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-179:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 60,5 до 75,5 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 30х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,2 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 64,5х33х20 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-179-GR" available="true">
+      <price>2200</price>
+      <price_old>2860</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-179-GR</name>
+      <picture>https://metr-plus.com.ua/img/1117423.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153649.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153650.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153651.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153652.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153653.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-179 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-179 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-179:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 60,5 до 75,5 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 30х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,2 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 64,5х33х20 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-179-P" available="true">
+      <price>2200</price>
+      <price_old>2860</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-179-P</name>
+      <picture>https://metr-plus.com.ua/img/1114280.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153644.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153645.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153646.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153647.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153648.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-179 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-179 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-179:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 60,5 до 75,5 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 30х13 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8,2 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 64,5х33х20 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-181-P" available="true">
+      <price>1900</price>
+      <price_old>2470</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-181-P</name>
+      <picture>https://metr-plus.com.ua/img/1114474.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-181 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-181 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-181:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 4 положеннях від 61 до 75 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 23х12 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 63х31х17 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-181-V" available="true">
+      <price>1900</price>
+      <price_old>2470</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-181-V</name>
+      <picture>https://metr-plus.com.ua/img/1114281.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153423.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153424.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153425.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153426.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1153427.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Самокат iTrike JR 3-181 допоможе весело і з радістю проводити час, буде сприяти розвитку координації рухів і вміння тримати рівновагу. Поворот коліс в самокаті здійснюється нахилом рульової стійки в сторону повороту. Така система управління є більш зрозумілою для маленьких дітей. У нашому магазині Ви можете купити самокат iTrike JR 3-181 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики самоката iTrike JR 3-181:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління колесами в самокаті здійснюється нахилом рульової стійки в сторону повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 4 положеннях від 61 до 75 см.&lt;/li&gt;&lt;li&gt;Самокат оснащений 3-ма колесами, які забезпечують стійкість і безпеку.&lt;/li&gt;&lt;li&gt;Колеса виконані з поліуретану і світяться під час їзди.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи працює від батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо розміщене над заднім колесом.&lt;/li&gt;&lt;li&gt;Розмір платформи: 23х12 см.&lt;/li&gt;&lt;li&gt;Діаметр передніх коліс: 11 см, заднього - 8 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 63х31х17 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="JR3-185-BL" available="true">
       <price>1600</price>
       <price_old>2080</price_old>
@@ -6253,6 +6831,370 @@
       <picture>https://metr-plus.com.ua/img/1154998.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1154999.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1 року Самокат 5 в 1 iTrike JR 3-186 є новинкою серед широкого асортименту товарів для дітей. Батьківська ручка дозволить катати дитину, як у прогулянковому візку. Музика, підсвічування платформи, додаткові колеса, захисний бампер. У нашому магазині Ви можете купити самокат iTrike JR 3-186 і перетворити дозвілля в захоплююче проведення часу.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого самокату 5 в 1 iTrike JR 3-186:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Самокат підходить для дітей від 1-го року.&lt;/li&gt;&lt;li&gt;Можливо використовувати як самокат, біговел, каталку з батьківською ручкою, штовхалку.&lt;/li&gt;&lt;li&gt;За допомогою батьківської ручки можливо катати найменших дітей.&lt;/li&gt;&lt;li&gt;Керування колесами в самокаті здійснюється нахилом керма у бік повороту.&lt;/li&gt;&lt;li&gt;Кермо регулюється по висоті в 3 положеннях від 62 до 78 см.&lt;/li&gt;&lt;li&gt;Самокат обладнаний додатковим сидінням для катання найменших дітей, яке кріпиться до рами.&lt;/li&gt;&lt;li&gt;Підніжка.&lt;/li&gt;&lt;li&gt;Використовуючи сидіння, дитина може кататися на самокаті, як на каталці, відштовхуючись від землі двома ніжками.&lt;/li&gt;&lt;li&gt;Для максимальної безпеки дитини передбачений захисний бампер.&lt;/li&gt;&lt;li&gt;2 типу задніх коліс: одинарне та подвійні поворотні.&lt;/li&gt;&lt;li&gt;Колеса світяться під час руху.&lt;/li&gt;&lt;li&gt;Розмір передніх коліс: 110 мм.&lt;/li&gt;&lt;li&gt;Розмір заднього колеса: 80 мм.&lt;/li&gt;&lt;li&gt;Розмір додаткових колес: 40 мм.&lt;/li&gt;&lt;li&gt;Музика та підсвічування платформи (працюють від 3хАА батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Ножне гальмо (step-on-brake) розміщене на задньому колесі.&lt;/li&gt;&lt;li&gt;Розмір платформи: 30х12 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 60х33х16 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-191-5С-BG" available="true">
+      <price>2700</price>
+      <price_old>3510</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-191-5С-BG</name>
+      <picture>https://metr-plus.com.ua/img/1161598.jpg</picture>
+      <description lang="ua">5в1(біговел, батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 63см, 1 положення 69см, max 79см),вис.від підл.до сідіння 29см,підніжка 27-12см, доп.колеса 36мм, кош</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-191-5С-BL" available="true">
+      <price>2700</price>
+      <price_old>3510</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-191-5С-BL</name>
+      <picture>https://metr-plus.com.ua/img/1161599.jpg</picture>
+      <description lang="ua">5в1(біговел, батьк.ручка), метал+пластик,3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 63см, 1 положення 69см, max 79см),вис.від підл.до сідіння 29см,підніжка 27-12см, доп.колеса 36мм, коши</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-191-5С-P" available="true">
+      <price>2700</price>
+      <price_old>3510</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-191-5С-P</name>
+      <picture>https://metr-plus.com.ua/img/1161600.jpg</picture>
+      <description lang="ua">5в1(біговел, батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 63см, 1 положення 69см, max 79см),вис.від підл.до сідіння 29см,підніжка 27-12см, доп.колеса 36мм, коши</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-192-G" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-192-G</name>
+      <picture>https://metr-plus.com.ua/img/1161570.jpg</picture>
+      <description lang="ua">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 3положення, min 62,5см, 1 положення 66,5см, max 76см), музика, світло, вис.від підлоги до сидіння 28,5см, підніжка 26-12,5см, зелений, на бат-ці, в к</description>
+      <vendor>МУЛЬТИБРЕНД</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-192-O" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-192-O</name>
+      <picture>https://metr-plus.com.ua/img/1161571.jpg</picture>
+      <description lang="ua">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 3положення, min 62,5см, 1 положення 66,5см, max 76см), музика, світло, вис.від підлоги до сидіння 28,5см, підніжка 26-12,5см, помаранчевий, на бат-ці</description>
+      <vendor>МУЛЬТИБРЕНД</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-192-R" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-192-R</name>
+      <picture>https://metr-plus.com.ua/img/1161572.jpg</picture>
+      <description lang="ua">3в1(біговел), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 3положення, min 62,5см, 1 положення 66,5см, max 76см), музика, світло, вис.від підлоги до сидіння 28,5см, підніжка 26-12,5см, червоний, на бат-ці, в</description>
+      <vendor>МУЛЬТИБРЕНД</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-194-5-GR" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-194-5-GR</name>
+      <picture>https://metr-plus.com.ua/img/1161573.jpg</picture>
+      <description lang="ua">5в1(біговел,батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 66см, 1 положення 73см, max 81см), вис.від підл.до сидіння 32см, підніжка 28-11см, кошик, доп.колеса 40</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-194-5-P" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-194-5-P</name>
+      <picture>https://metr-plus.com.ua/img/1161601.jpg</picture>
+      <description lang="ua">5в1(біговел,батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 66см, 1 положення 73см, max 81см), вис.від підл.до сидіння 32см, підніжка 28-11см, кошик, доп.колеса 40м</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-194-5-W" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-194-5-W</name>
+      <picture>https://metr-plus.com.ua/img/1161602.jpg</picture>
+      <description lang="ua">5в1(біговел,батьк.ручка), метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, музика, світло, кермо (3положення, min 66см, 1 положення 73см, max 81см), вис.від підл.до сидіння 32см, підніжка 28-11см, кошик, доп.колеса 40м</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-195-BL" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-195-BL</name>
+      <picture>https://metr-plus.com.ua/img/1161574.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо ( 3положення, min 64см, 1 положення 72,5см, max 81см), підніжка 28-12см, музика, світло, на бат-ці, в коробці, 60-29-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-195-O" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-195-O</name>
+      <picture>https://metr-plus.com.ua/img/1161575.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо ( 3положення, min 64см, 1 положення 72,5см, max 81см), підніжка 28-12см, музика, світло, на бат-ці, в коробці, 60-29-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-195-P" available="true">
+      <price>2100</price>
+      <price_old>2730</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-195-P</name>
+      <picture>https://metr-plus.com.ua/img/1161576.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм світло, кермо ( 3положення, min 64см, 1 положення 72,5см, max 81см), підніжка 28-12см, музика, світло, на бат-ці, в коробці, 60-29-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-196-BR" available="true">
+      <price>2600</price>
+      <price_old>3380</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-196-BR</name>
+      <picture>https://metr-plus.com.ua/img/1161577.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 85мм світло, кермо ( 5положень, min 60,5см, 1 положення 63,5см, max 77,5см), музика, світло, підніжка 28-13см, на бат-ці, в коробці, 63-33-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-196-G" available="true">
+      <price>2600</price>
+      <price_old>3380</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-196-G</name>
+      <picture>https://metr-plus.com.ua/img/1161578.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 85мм світло, кермо ( 5положень, min 60,5см, 1 положення 63,5см, max 77,5см), музика, світло, підніжка 28-13см, на бат-ці, в коробці, 63-33-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-196-P" available="true">
+      <price>2600</price>
+      <price_old>3380</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-196-P</name>
+      <picture>https://metr-plus.com.ua/img/1161579.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 120мм світло, заднє 85мм світло, кермо ( 5положень, min 60,5см, 1 положення 63,5см, max 77,5см), музика, світло, підніжка 28-13см, на бат-ці, в коробці, 63-33-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-198-Black" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-198-Black</name>
+      <picture>https://metr-plus.com.ua/img/1161580.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 65см, max 78,5см), музика, світло, підніжка 27-11,5см, на бат-ці, в коробці, 55-29-16см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-198-P" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-198-P</name>
+      <picture>https://metr-plus.com.ua/img/1161581.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 115мм світло, заднє 85мм світло, кермо (3 положення, min 61см, 1 положення 65см, max 78,5см), музика, світло, підніжка 27-11,5см, на бат-ці, в коробці, 55-29-16см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-199-G-BG" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-199-G-BG</name>
+      <picture>https://metr-plus.com.ua/img/1161582.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 125мм світло, заднє 80мм світло, кермо ( 3 положення, min 63см, 1 положення 70,5см, max 81,5см), підніжка 29,5-14,5см, музика, світло, динозавр, на бат-ці, в коробці, 60-32-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-199-G-Y" available="true">
+      <price>2400</price>
+      <price_old>3120</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-199-G-Y</name>
+      <picture>https://metr-plus.com.ua/img/1161583.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 125мм світло, заднє 80мм світло, кермо ( 3 положення, min 63см, 1 положення 70,5см, max 81,5см), підніжка 29,5-14,5см, музика, світло, динозавр, на бат-ці, в коробці, 60-32-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-200-BL" available="true">
+      <price>1900</price>
+      <price_old>2470</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-200-BL</name>
+      <picture>https://metr-plus.com.ua/img/1161584.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 3положення, min 62см, 1 положення 70см, max 79см), підніжка 28-10,5см, динозавр, в коробці, 59,5-29-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-200-G" available="true">
+      <price>1900</price>
+      <price_old>2470</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-200-G</name>
+      <picture>https://metr-plus.com.ua/img/1161585.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 3положення, min 62см, 1 положення 70см, max 79см), підніжка 28-10,5см, динозавр, в коробці, 59,5-29-19см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-201-BL" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-201-BL</name>
+      <picture>https://metr-plus.com.ua/img/1161586.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 4положення, min 60см, 1 положення 66см, max 78см), підніжка 29-11,5см, в коробці, 61-28-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-201-BL-G" available="true">
+      <price>1800</price>
+      <price_old>2340</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-201-BL-G</name>
+      <picture>https://metr-plus.com.ua/img/1161587.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 80мм, кермо ( 4положення, min 60см, 1 положення 66см, max 78см), підніжка 29-11,5см, в коробці, 61-28-17см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-203-G" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-203-G</name>
+      <picture>https://metr-plus.com.ua/img/1161588.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм, кермо ( 3положення, min 64см, 1 положення 74см, max 78см), підніжка 28-12,5см, в коробці, 66-28-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-203-P" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-203-P</name>
+      <picture>https://metr-plus.com.ua/img/1161589.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм, кермо ( 3положення, min 64см, 1 положення 74см, max 78см), підніжка 28-12,5см, в коробці, 66-28-18см</description>
+      <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JR3-203-W" available="true">
+      <price>2300</price>
+      <price_old>2990</price_old>
+      <availability>in_stock</availability>
+      <category code="1437">Самокати</category>
+      <attribute_set code="1437">Самокати</attribute_set>
+      <name lang="ua">Самокат JR3-203-W</name>
+      <picture>https://metr-plus.com.ua/img/1161590.jpg</picture>
+      <description lang="ua">Maxi-big, метал+пластик, 3колесаПУ, 2колеса 110мм світло, заднє 85мм, кермо ( 3положення, min 64см, 1 положення 74см, max 78см), підніжка 28-12,5см, в коробці, 66-28-18см</description>
       <vendor code="5653cf82e7cc4c9dae9b6656d2118fb1">iTrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -6975,10 +7917,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3906EBLRS-2" available="true">
+    <offer id="M 3906EBLRS-2" available="false">
       <price>22200</price>
       <price_old>28860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 3906EBLRS-2</name>
@@ -17860,10 +18802,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6256EBLR-4" available="true">
+    <offer id="M 6256EBLR-4" available="false">
       <price>16100</price>
       <price_old>20930</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6256EBLR-4</name>
@@ -18132,6 +19074,54 @@
       <picture>https://metr-plus.com.ua/img/1015732.jpg</picture>
       <description lang="ua">до трактора M 6260, 24V</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6260EBLR-3(24V)" available="true">
+      <price>19200</price>
+      <price_old>24960</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Трактор M 6260EBLR-3(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1015768.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019473.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019474.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019475.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019476.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019477.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019478.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019479.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019480.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019481.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019482.jpg</picture>
+      <description lang="ua">(1шт) р/к2,4G, з причепом, 1акум24V7AH, 2мотори95W, муз, світло, MP3, USB, BLUETOOTH, TF, колесаEVA, червоний</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6260EBLR-6(24V)" available="true">
+      <price>19200</price>
+      <price_old>24960</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Трактор M 6260EBLR-6(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1015771.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019486.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019487.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019488.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019489.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019490.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019491.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019492.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019493.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019494.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1019495.jpg</picture>
+      <description lang="ua">(1шт) р/к2,4G, з причепом, 1акум24V7AH, 2мотори95W, муз, світло, MP3, USB, BLUETOOTH, TF, колесаEVA, жовтий</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -21640,6 +22630,30 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6343EBLR-2" available="true">
+      <price>8800</price>
+      <price_old>11440</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 6343EBLR-2</name>
+      <picture>https://metr-plus.com.ua/img/1125242.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1117498.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125241.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125244.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125243.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125245.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125246.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125249.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125247.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125248.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1125250.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий електромобіль M 6343EBLR-2 чорний - стане бажаним подарунком для будь-якої дитини, яка мріє про власний транспорт і хоче відчути себе справжнім водієм, адже ця модель виконана в стилі дорослого Mercedes і виглядає максимально реалістично, привертаючи увагу з першого погляду та даруючи яскраві емоції від кожної поїздки. Дитячий джип M 6343EBLR-2 поєднує в собі надійність і комфорт, завдяки м&amp;#x27;якому сидінню з екошкіри, наявності ременя безпеки і дверям, що відкриваються, дитина почувається максимально комфортно, а якісні EVA колеса забезпечують плавний хід навіть по нерівній поверхні. Дитячий електромобіль M 6343EBLR-2 чорний оснащений чотирма потужними двигунами по 35W і акумулятором 12V9AH, що дає хорошу тягу і довгий час роботи, а фари, що світяться, і вбудована магнітола дозволяють дитині насолоджуватися улюбленою музикою під час руху, створюючи атмосферу справжньої пригоди і перетворюючи кожну поїздку в маленьку.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6343EBLR-2 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ліцензійна модель зі значком Mercedes&lt;/li&gt;&lt;li&gt;М&amp;#x27;яке сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х35W/12V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/9AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - кнопка, педаль газу&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, TF, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 35 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6345-F WHEEL" available="true">
       <price>1100</price>
       <price_old>1430</price_old>
@@ -23772,10 +24786,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6525E-5" available="true">
+    <offer id="M 6525E-5" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6525E-5</name>
@@ -24825,6 +25839,109 @@
       <picture>https://metr-plus.com.ua/img/957037.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 3 років Біговел Prof1 Kids MBB 1052 є чудовим транспортом, який навчає дитину тримати рівновагу і готує її для впевненої їзди на двоколісному велосипеді. Рама біговела виготовлена ​​із сталі. Він обладнаний зручним сидінням і гумовими колесами з алюмінієвими ободами. У нашому магазині Ви можете купити дитячий біговел Prof1 Kids MBB 1052 та забезпечити своїй дитині гармонійний розвиток.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела Prof1 Kids MBB 1052:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитина приводить у рух біговел відштовхуючись ногами від землі.&lt;/li&gt;&lt;li&gt;Рама біговела виготовлена ​​і сталі.&lt;/li&gt;&lt;li&gt;Біговел оснащений кермом з ергономічними рукоятками.&lt;/li&gt;&lt;li&gt;Біговел обладнаний зручним сидінням.&lt;/li&gt;&lt;li&gt;2 колеса виконані з гуми з алюмінієвими ободами.&lt;/li&gt;&lt;li&gt;Біговел відповідає всім стандартам безпеки.&lt;/li&gt;&lt;li&gt;Матеріал рами: метал, пластик.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 14 дюймів (36 см).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Компанія Prof1 Kids - це один із виробників-лідерів з виробництва дитячих велосипедів та біговилів. Товари високої якості, що поставляються на ринки Європи та України, з кожним роком розширюючи асортимент продукції та відкриваючи нові функціональні можливості. Продукція компанії отримала не одну нагороду та грамоту.&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MBB 1053-1" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="853">Біговели</category>
+      <attribute_set code="853">Біговели</attribute_set>
+      <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-1</name>
+      <picture>https://metr-plus.com.ua/img/957786.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156653.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156651.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156656.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156652.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156655.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156657.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156654.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1053-1 бежевий – це не просто іграшка, а корисний інструмент для розвитку. Дитина відштовхується ніжками від землі, розвиваючи при цьому м&amp;#x27;язи ніг, покращуючи координацію та почуття балансу. Катання стає не тільки веселим заняттям, а й чудовою фізичною активністю, що сприяє здоровому розвитку дитини. Біговел Prof1 Kids MBB 1053-1 оснащений чотирма колесами, що забезпечує йому високу стійкість, завдяки цьому навіть якщо дитина робить свої перші кроки в управлінні, вона легко утримає рівновагу та відчує впевненість. Це особливо важливо для малюків від 2 років, які тільки починають освоювати координацію рухів та вчаться орієнтуватися у просторі. Дитячий біговел MBB 1053-1 стане чудовим щаблем перед переходом до двоколісного велосипеда. Після того, як малюк впевнено катається на біговелі, пересісти на велосипед без бічних коліс буде значно простіше.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела 10д. MBB 1053-1 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: Prof1 Kids&lt;/li&gt;&lt;li&gt;Тип: біговел&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Розмір коліс: 10 дюймів&lt;/li&gt;&lt;li&gt;Музика, світло, працює на батарейках&lt;/li&gt;&lt;li&gt;На кермі ковзаючі ручки&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 20 кг&lt;/li&gt;&lt;li&gt;Рекомендований вік - від 2 років&lt;/li&gt;&lt;li&gt;Ширина між колесами – 18 см&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина – 52 см, ширина – 24 см, висота – 39 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий біговел 10д. Prof1 Kids MBB 1053-1 або отримати додаткову інформацію про дитячий біговель MBB 1053-1, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел 10д. MBB 1053-1 бежевий в регіонах України&lt;/p&gt;</description>
+      <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MBB 1053-2" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-2</name>
+      <picture>https://metr-plus.com.ua/img/957787.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156658.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156659.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156661.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156660.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156664.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156662.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156663.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1053-2 зелений - це підходящий варіант для активних малюків, які тільки починають освоювати самостійне пересування, ця модель поєднує високу якість матеріалів, надійну конструкцію і продуманий дизайн. Біговел Prof1 Kids MBB 1053-2 виконаний із турботою про комфорт та безпеку дитини, зручне сидіння, оптимальна висота та ергономічний дизайн роблять кожну прогулянку справжнім задоволенням для дитини та спокоєм для батьків. Дитячий біговел MBB 1053-2 виглядає стильно і сучасно, що перетворює цей транспорт на справжній модний аксесуар для малюків. Яскравий дизайн, плавні лінії та якісне оздоблення вигідно виділяють його серед інших моделей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела 10д. MBB 1053-2 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: Prof1 Kids&lt;/li&gt;&lt;li&gt;Тип: біговел&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Розмір коліс: 10 дюймів&lt;/li&gt;&lt;li&gt;Музика, світло, працює на батарейках&lt;/li&gt;&lt;li&gt;На кермі ковзаючі ручки&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 20 кг&lt;/li&gt;&lt;li&gt;Рекомендований вік - від 2 років&lt;/li&gt;&lt;li&gt;Ширина між колесами – 18 см&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина – 52 см, ширина – 24 см, висота – 39 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий біговел 10д. Prof1 Kids MBB 1053-2 або отримати додаткову інформацію про дитячий біговель MBB 1053-2, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел 10д. MBB 1053-2 зелений в регіонах України&lt;/p&gt;</description>
+      <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MBB 1053-3" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="853">Біговели</category>
+      <attribute_set code="853">Біговели</attribute_set>
+      <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-3</name>
+      <picture>https://metr-plus.com.ua/img/957788.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156665.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156668.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156666.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156670.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156667.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156669.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156671.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1053-3 для хлопчика, блакитний - це чудовий подарунок для дитини від 2 років, особливо якщо ви хочете не просто порадувати малюка, а й вкластися в його розвиток. Біговел Prof1 Kids MBB 1053-3 має зручне сидіння, яке не натирає і не викликає дискомфорту навіть при тривалих поїздках. Щоб їхати, дитині достатньо відштовхуватися ногами від землі, що допомагає розвивати м&amp;#x27;язи ніг, вчить координації та впевненості у своїх рухах. Дитячий біговел MBB 1053-3 має чотири колеса, завдяки чому він дуже стійкий, тому навіть якщо малюк тільки вчиться утримувати рівновагу, йому буде легко і зручно керуватися цим транспортом.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела 10д. MBB 1053-3 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: Prof1 Kids&lt;/li&gt;&lt;li&gt;Тип: біговел&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Розмір коліс: 10 дюймів&lt;/li&gt;&lt;li&gt;Музика, світло, працює на батарейках&lt;/li&gt;&lt;li&gt;На кермі ковзаючі ручки&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 20 кг&lt;/li&gt;&lt;li&gt;Рекомендований вік - від 2 років&lt;/li&gt;&lt;li&gt;Ширина між колесами – 18 см&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина – 52 см, ширина – 24 см, висота – 39 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий біговел 10д. Prof1 Kids MBB 1053-3 або отримати додаткову інформацію про дитячий біговель MBB 1053-3, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел 10д. MBB 1053-3 блакитний в Україні&lt;/p&gt;</description>
+      <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MBB 1053-4" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="853">Біговели</category>
+      <attribute_set code="853">Біговели</attribute_set>
+      <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-4</name>
+      <picture>https://metr-plus.com.ua/img/957789.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156679.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156680.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156682.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156681.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156684.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156685.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156683.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1053-4 для дівчинки, рожевий - це те, що тішить і батьків, і дітей, він міцний, безпечний, зручний та яскравий. З ним кожна прогулянкова перетворюється на справжню пригоду, а навчання їзді відбувається легко і природно. Біговел Prof1 Kids MBB 1053-4 обладнаний чотирма колесами, що забезпечує високу стійкість. Навіть якщо дитина тільки вчиться тримати рівновагу, їй буде легко та зручно керуватися цим транспортом. Конструкція продумана так, щоб мінімізувати ризик падіння та зробити перші кроки до самостійного катання максимально впевненими та радісними. Дитячий біговел MBB 1053-4 оснащений світловими та звуковими ефектами, які додають ще більше задоволення під час їзди. Такі деталі радують малюків і роблять кожну прогулянку справжньою пригодою.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела 10д. MBB 1053-4 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: Prof1 Kids&lt;/li&gt;&lt;li&gt;Тип: біговел&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Розмір коліс: 10 дюймів&lt;/li&gt;&lt;li&gt;Музика, світло, працює на батарейках&lt;/li&gt;&lt;li&gt;На кермі ковзаючі ручки&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 20 кг&lt;/li&gt;&lt;li&gt;Рекомендований вік - від 2 років&lt;/li&gt;&lt;li&gt;Ширина між колесами – 18 см&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина – 52 см, ширина – 24 см, висота – 39 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий біговел 10д. Prof1 Kids MBB 1053-4 або отримати додаткову інформацію про дитячий біговель MBB 1053-4, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел 10д.&lt;/p&gt;</description>
+      <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MBB 1053-5" available="true">
+      <price>1700</price>
+      <price_old>2210</price_old>
+      <availability>in_stock</availability>
+      <category code="853">Біговели</category>
+      <attribute_set code="853">Біговели</attribute_set>
+      <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-5</name>
+      <picture>https://metr-plus.com.ua/img/957790.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156673.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156672.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156676.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156674.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156675.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156678.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1156677.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1053-5 для дівчинки, малиновий - виглядає стильно та сучасно, тому він точно сподобається не лише дітям, а й їхнім батькам. Яскравий дизайн, цікаві кольори та світлові ефекти роблять його особливо привабливим. Біговел Prof1 Kids MBB 1053-5 - це не просто іграшка, а дійсно корисний транспорт, який допомагає розвивати координацію рухів, зміцнює м&amp;#x27;язи ніг та вчить малюка керувати своїм тілом. А вбудовані звукові функції додають веселощів у кожну прогулянку і роблять процес навчання ще більш захоплюючим. Дитячий біговел MBB 1053-5 Він стане чудовим подарунком для дитини від 2 років.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики біговела 10д. MBB 1053-5 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: Prof1 Kids&lt;/li&gt;&lt;li&gt;Тип: біговел&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал коліс: поліуретан&lt;/li&gt;&lt;li&gt;Розмір коліс: 10 дюймів&lt;/li&gt;&lt;li&gt;Музика, світло, працює на батарейках&lt;/li&gt;&lt;li&gt;На кермі ковзаючі ручки&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 20 кг&lt;/li&gt;&lt;li&gt;Рекомендований вік - від 2 років&lt;/li&gt;&lt;li&gt;Ширина між колесами – 18 см&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина – 52 см, ширина – 24 см, висота – 39 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий біговел 10д. Prof1 Kids MBB 1053-5 або отримати додаткову інформацію про дитячий біговель MBB 1053-5, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел 10д. MBB 1053-5 малиновий в регіонах України&lt;/p&gt;</description>
+      <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -26103,10 +27220,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1162-1 Purple" available="true">
+    <offer id="ME 1162-1 Purple" available="false">
       <price>6600</price>
       <price_old>8580</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Purple</name>
@@ -27008,6 +28125,78 @@
       <picture>https://metr-plus.com.ua/img/981925.jpg</picture>
       <picture>https://metr-plus.com.ua/img/981923.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий манеж ME 1196 Gray El Camino Swift 4 - стане чудовим місцем для відпочинку та ігор вашого малюка, в ньому він зможе проводити час, залишаючись у безпеці. Завдяки компактним розмірам та простоті складання, його зручно зберігати та перевозити. Він легко впишеться в будь-яку кімнату і не займе багато простору, а його нейтральний дизайн підійде до будь-якого інтер&amp;#x27;єру. Дитячий манеж ME 1196 El Camino Swift 4 оснащений бічними стінками з сітки, що дихає, що дозволяє добре провітрювати простір всередині і завжди бачити дитину, батьки зможуть спостерігати за грою або відпочинком свого малюка, не відволікаючись від своїх справ. Манеж ME 1196 Gray має вхід на застібці-блискавці, через який малюк зможе самостійно заходити всередину та виходити, коли це буде безпечно. Такий манеж підійде як для активних ігор, так і для спокійного відпочинку, а отже стане відмінним придбанням для всієї родини і справжньою знахідкою для батьків, яким потрібно трохи вільного часу, не турбуючись за безпеку своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого манежу ME 1196 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: дитячий манеж&lt;/li&gt;&lt;li&gt;Форма манежу: прямокутний&lt;/li&gt;&lt;li&gt;Тип тканини: льон&lt;/li&gt;&lt;li&gt;Вхід: застібка-блискавка&lt;/li&gt;&lt;li&gt;Відкидний бортик&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластик, тканина&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Манеж El Camino Swift 4 ME 1196 має такі переваги:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Форма манежу : прямокутна, зручна для розміщення в будь-якому приміщенні.&lt;/li&gt;&lt;li&gt;Конструкція : складна, легко збирається та займає мінімум місця при зберіганні&lt;/li&gt;&lt;li&gt;Стінки : виконані з дихаючої сітки, забезпечують хорошу вентиляцію та огляд за дитиною.&lt;/li&gt;&lt;li&gt;Безпека : конструкція без гострих кутів, безпечна для активного малюка.&lt;/li&gt;&lt;li&gt;Вхід : на застібці-блискавці, дозволяє дитині самостійно заходити та виходити&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий манеж ME 1196 Gray або отримати додаткову інформацію про дитячий манеж ME 1196 Gray, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий манеж El Camino Swift 4 ME 1196 Gray у регіонах України&lt;/p&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1198 Beige" available="true">
+      <price>6000</price>
+      <price_old>7800</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло El Camino i-FLOW ME 1198 Beige</name>
+      <picture>https://metr-plus.com.ua/img/1002581.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003782.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003783.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003784.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003785.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003786.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003787.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003788.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003789.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003790.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003791.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 15 місяців і зростом від 40 до 87 см Чудове автокрісло EL Camino ME 1198 i-Flow призначене для дітей до 15-ти місяців та зростом від 40 до 87 см. Воно відрізняється максимальною зручністю, практичністю та надійністю. Автокрісло гарантує дитині максимальну безпеку та високий рівень комфорту завдяки м&amp;#x27;якій додатковій вкладці. Для зручного перенесення передбачено спеціальна ручка. У нашому магазині можна купити автокрісло EL Camino ME 1198 i-Flow, яке обов&amp;#x27;язково підійде Вашому малюку і створить комфорт та затишок під час подорожей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого автокрісла EL Camino i-Flow ME 1198:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відповідає стандарту безпеки i-Size R129 і призначене для дитини зростом від 40 до 87 см.&lt;/li&gt;&lt;li&gt;Встановлюється проти ходу руху автомобіля на задньому сидінні за водієм або за пасажиром за допомогою штатних ременів безпеки, можливе встановлення на переднє пасажирське сидіння за умови можливості відключення подушки безпеки або її відсутності.&lt;/li&gt;&lt;li&gt;Можлива установка на базу ME 1198 Base 360 (продається окремо).&lt;/li&gt;&lt;li&gt;2 положення кута нахилу на базі автокрісла.&lt;/li&gt;&lt;li&gt;Підголовник регулюється в 4 положеннях.&lt;/li&gt;&lt;li&gt;4 положення кута нахилу на шасі.&lt;/li&gt;&lt;li&gt;3-х точкові ремені безпеки.&lt;/li&gt;&lt;li&gt;М&amp;#x27;яка вкладка для найменших дітей для регулювання глибини.&lt;/li&gt;&lt;li&gt;Глибина без вкладки: 110-140 градусів.&lt;/li&gt;&lt;li&gt;Глибина з вкладкою: 128-160 градусів.&lt;/li&gt;&lt;li&gt;Регульований капюшон, що захищає дитину від вітру та сонця, входить до комплекту.&lt;/li&gt;&lt;li&gt;Автокрісло оснащене зручною ручкою для перенесення.&lt;/li&gt;&lt;li&gt;У міру забруднення чохол можна зняти і випрати.&lt;/li&gt;&lt;li&gt;Розмір: 65х44х57 см.&lt;/li&gt;&lt;li&gt;Вага: 4,6 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,83 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 70х45х31,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1198 Black" available="true">
+      <price>6000</price>
+      <price_old>7800</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло El Camino i-FLOW ME 1198 Black</name>
+      <picture>https://metr-plus.com.ua/img/1002582.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003762.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003763.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003764.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003765.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003766.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003767.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003768.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003769.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003770.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003771.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 15 місяців і зростом від 40 до 87 см Чудове автокрісло EL Camino ME 1198 i-Flow призначене для дітей до 15-ти місяців та зростом від 40 до 87 см. Воно відрізняється максимальною зручністю, практичністю та надійністю. Автокрісло гарантує дитині максимальну безпеку та високий рівень комфорту завдяки м&amp;#x27;якій додатковій вкладці. Для зручного перенесення передбачено спеціальна ручка. У нашому магазині можна купити автокрісло EL Camino ME 1198 i-Flow, яке обов&amp;#x27;язково підійде Вашому малюку і створить комфорт та затишок під час подорожей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого автокрісла EL Camino i-Flow ME 1198:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відповідає стандарту безпеки i-Size R129 і призначене для дитини зростом від 40 до 87 см.&lt;/li&gt;&lt;li&gt;Встановлюється проти ходу руху автомобіля на задньому сидінні за водієм або за пасажиром за допомогою штатних ременів безпеки, можливе встановлення на переднє пасажирське сидіння за умови можливості відключення подушки безпеки або її відсутності.&lt;/li&gt;&lt;li&gt;Можлива установка на базу ME 1198 Base 360 (продається окремо).&lt;/li&gt;&lt;li&gt;2 положення кута нахилу на базі автокрісла.&lt;/li&gt;&lt;li&gt;Підголовник регулюється в 4 положеннях.&lt;/li&gt;&lt;li&gt;4 положення кута нахилу на шасі.&lt;/li&gt;&lt;li&gt;3-х точкові ремені безпеки.&lt;/li&gt;&lt;li&gt;М&amp;#x27;яка вкладка для найменших дітей для регулювання глибини.&lt;/li&gt;&lt;li&gt;Глибина без вкладки: 110-140 градусів.&lt;/li&gt;&lt;li&gt;Глибина з вкладкою: 128-160 градусів.&lt;/li&gt;&lt;li&gt;Регульований капюшон, що захищає дитину від вітру та сонця, входить до комплекту.&lt;/li&gt;&lt;li&gt;Автокрісло оснащене зручною ручкою для перенесення.&lt;/li&gt;&lt;li&gt;У міру забруднення чохол можна зняти і випрати.&lt;/li&gt;&lt;li&gt;Розмір: 65х44х57 см.&lt;/li&gt;&lt;li&gt;Вага: 4,6 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,83 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 70х45х31,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1198 Gray" available="true">
+      <price>6000</price>
+      <price_old>7800</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло El Camino i-FLOW ME 1198 Gray</name>
+      <picture>https://metr-plus.com.ua/img/1002583.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003772.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003773.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003774.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003775.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003776.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003777.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003778.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003779.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003780.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1003781.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 15 місяців і зростом від 40 до 87 см Чудове автокрісло EL Camino ME 1198 i-Flow призначене для дітей до 15-ти місяців та зростом від 40 до 87 см. Воно відрізняється максимальною зручністю, практичністю та надійністю. Автокрісло гарантує дитині максимальну безпеку та високий рівень комфорту завдяки м&amp;#x27;якій додатковій вкладці. Для зручного перенесення передбачено спеціальна ручка. У нашому магазині можна купити автокрісло EL Camino ME 1198 i-Flow, яке обов&amp;#x27;язково підійде Вашому малюку і створить комфорт та затишок під час подорожей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого автокрісла EL Camino i-Flow ME 1198:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відповідає стандарту безпеки i-Size R129 і призначене для дитини зростом від 40 до 87 см.&lt;/li&gt;&lt;li&gt;Встановлюється проти ходу руху автомобіля на задньому сидінні за водієм або за пасажиром за допомогою штатних ременів безпеки, можливе встановлення на переднє пасажирське сидіння за умови можливості відключення подушки безпеки або її відсутності.&lt;/li&gt;&lt;li&gt;Можлива установка на базу ME 1198 Base 360 (продається окремо).&lt;/li&gt;&lt;li&gt;2 положення кута нахилу на базі автокрісла.&lt;/li&gt;&lt;li&gt;Підголовник регулюється в 4 положеннях.&lt;/li&gt;&lt;li&gt;4 положення кута нахилу на шасі.&lt;/li&gt;&lt;li&gt;3-х точкові ремені безпеки.&lt;/li&gt;&lt;li&gt;М&amp;#x27;яка вкладка для найменших дітей для регулювання глибини.&lt;/li&gt;&lt;li&gt;Глибина без вкладки: 110-140 градусів.&lt;/li&gt;&lt;li&gt;Глибина з вкладкою: 128-160 градусів.&lt;/li&gt;&lt;li&gt;Регульований капюшон, що захищає дитину від вітру та сонця, входить до комплекту.&lt;/li&gt;&lt;li&gt;Автокрісло оснащене зручною ручкою для перенесення.&lt;/li&gt;&lt;li&gt;У міру забруднення чохол можна зняти і випрати.&lt;/li&gt;&lt;li&gt;Розмір: 65х44х57 см.&lt;/li&gt;&lt;li&gt;Вага: 4,6 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,83 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 70х45х31,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -29044,6 +30233,92 @@
       <picture>https://metr-plus.com.ua/img/963427.jpg</picture>
       <picture>https://metr-plus.com.ua/img/963428.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед з ручкою MT 1002-1 Smart Grey сірий - має надійну та безпечну конструкцію, страхувальний бампер з м&amp;#x27;якою накладкою захищає від випадкових падінь, триточковий ремінь надійно фіксує дитину, а додатковий ремінь-захист від сповзання запобігає його ковзанню. Велосипед триколісний MT 1002-1 Smart Grey оснащений складною підніжкою з нековзною поверхнею, що робить поїздку ще комфортнішою, якщо дитина втомилася крутити педалі, можна просто поставити ніжки на підніжку та насолоджуватися прогулянкою. Дитячий триколісний велосипед MT 1002-1 Smart Grey поєднує в собі зручність, безпеку та стиль, що робить кожну поїздку приємною та комфортною, він оснащений практичними багажними кошиками спереду та ззаду, які підходять для перевезення іграшок, пляшечок та інших необхідних речей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1002-1 Smart Grey :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: колясочний з поворотним сидінням&lt;/li&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Тканина NEW, UV 50+/WPF захист від вигоряння&lt;/li&gt;&lt;li&gt;Швидкознімне складане кермо&lt;/li&gt;&lt;li&gt;Ігрова панель: світло, музика, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Живлення від 3 AA батарейок (у комплект не входять)&lt;/li&gt;&lt;li&gt;М&amp;#x27;які поліуретанові колеса на підшипниках.&lt;/li&gt;&lt;li&gt;Розмір переднього колеса – 26 см, розмір заднього колеса – 23 см&lt;/li&gt;&lt;li&gt;Швидкознімний механізм коліс&lt;/li&gt;&lt;li&gt;Педалі (знімні), вільний хід колеса&lt;/li&gt;&lt;li&gt;Сонцезахисний капюшон із козирком (знімний)&lt;/li&gt;&lt;li&gt;Глибина капюшона регулюється за допомогою додаткової тканинної вставки на змійці.&lt;/li&gt;&lt;li&gt;Капюшон знімний, має оглядове вікно (сітка)&lt;/li&gt;&lt;li&gt;Телескопічна батьківська ручка (швидкознімна)&lt;/li&gt;&lt;li&gt;Висота ручки регулюється вище-нижче за допомогою кнопки та фіксатора, висота від підлоги - 94 см&lt;/li&gt;&lt;li&gt;Ширина шасі задніх коліс – 50 см.&lt;/li&gt;&lt;li&gt;Велике поворотне сидіння зі спинкою – 360°&lt;/li&gt;&lt;li&gt;М&amp;#x27;який чохол, що знімається&lt;/li&gt;&lt;li&gt;Розмір сидіння: ширина – 34 см, глибина – 27 см&lt;/li&gt;&lt;li&gt;Висота від сидіння до підлоги - 38 см&lt;/li&gt;&lt;li&gt;Висота від сидіння до нижньої підніжки - 25 см&lt;/li&gt;&lt;li&gt;Висока спинка – 49 см&lt;/li&gt;&lt;li&gt;Регулюється нахил спинки - 3 положення&lt;/li&gt;&lt;li&gt;Бампер з м&amp;#x27;якою накладкою, екокожа, знімний&lt;/li&gt;&lt;li&gt;Ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Передній багажний кошик: пластик (знімний)&lt;/li&gt;&lt;li&gt;Задній багажний кошик задній: пластик (знімний)&lt;/li&gt;&lt;li&gt;Задні гальма ножні - 2 шт.&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 10,2 кг&lt;/li&gt;&lt;li&gt;Розрахований на дітей від року п&amp;#x27;яти років&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий триколісний велосипед MT 1002-1 Smart Grey сірий або отримати додаткову інформацію про дитячий триколісний велосипед MT 1002-1 Smart Grey, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий триколісний велосипед MT 1002-1 Smart Grey сірий в регіонах України&lt;/p&gt;</description>
+      <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MT 1004DUOS-2" available="true">
+      <price>6900</price>
+      <price_old>8970</price_old>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед MT 1004DUOS-2</name>
+      <picture>https://metr-plus.com.ua/img/896382.jpg</picture>
+      <description lang="ua">3 кол.гума (12/10),оберт.сид.,вільний хід колес, гальма, підшипник,графіт</description>
+      <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MT 1006-12" available="true">
+      <price>4600</price>
+      <price_old>5980</price_old>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед MT 1006-12</name>
+      <picture>https://metr-plus.com.ua/img/864376.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897977.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897978.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897979.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897980.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897981.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897982.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897983.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897984.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897985.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897986.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1 до 5-ти років Дитячий триколісний велосипед Turbo Trike MT 1006 має сталеву раму, музичну панель зі світлом, захисний бампер і регульований капюшон. Резинові надувні колеса на підшипниках забезпечать м&amp;#x27;який хід. У нашому магазині Ви можете купити триколісний велосипед Turbo Trike MT 1006, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда Turbo Trike MT 1006:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1 року.&lt;/li&gt;&lt;li&gt;Рама велосипеда виготовлена зі сталі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма або батьківської ручки, що допоможе покатати дитину, якщо вона ще не вміє самостійно.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна, регулюється по висоті в 2-х положеннях (94 та 100 см).&lt;/li&gt;&lt;li&gt;Сидіння регулюється по відстані до керма.&lt;/li&gt;&lt;li&gt;Спинка сидіння регулюється за нахилом в 3 положеннях.&lt;/li&gt;&lt;li&gt;На сидінні розміщений м&amp;#x27;який знімний чохол.&lt;/li&gt;&lt;li&gt;3-точкові ремені безпеки з м&amp;#x27;якими накладками надійно утримають дитину на місці.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер розсувний.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхГхВ): 29х19х35 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 43 см.&lt;/li&gt;&lt;li&gt;Висота від підніжки до сидіння: 24 см.&lt;/li&gt;&lt;li&gt;Складана підніжка.&lt;/li&gt;&lt;li&gt;Велосипед обладнаний капюшоном який регулюється за допомогою фіксатора.&lt;/li&gt;&lt;li&gt;У капюшон вбудовано оглядове віконце.&lt;/li&gt;&lt;li&gt;Музична фара: USB, музика, світло.&lt;/li&gt;&lt;li&gt;Додатково входить в комплект пульт.&lt;/li&gt;&lt;li&gt;3 резинові надувні колеса на підшипниках забезпечать м&amp;#x27;який хід.&lt;/li&gt;&lt;li&gt;Педалі велосипеда рефлені, що запобіжить зісковзуванню ніжок дитини.&lt;/li&gt;&lt;li&gt;Функція вільного ходу педалей.&lt;/li&gt;&lt;li&gt;Додатковий захист переднього колеса.&lt;/li&gt;&lt;li&gt;Велосипед обладнаний заднім ножним гальмом.&lt;/li&gt;&lt;li&gt;У задній частині велосипеда розташований кошик для іграшок.&lt;/li&gt;&lt;li&gt;Сумка для батьків підвішується на ручку велосипеда.&lt;/li&gt;&lt;li&gt;Діаметр переднього колеса: 32 см.&lt;/li&gt;&lt;li&gt;Діаметр задніх коліс: 27 см.&lt;/li&gt;&lt;li&gt;Розмір велосипеда (ДхШхВ): 110х56х109 см.&lt;/li&gt;&lt;li&gt;Вага велосипеда: 10,8 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 60х30х41 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 12,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 25 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MT 1006-9" available="true">
+      <price>4600</price>
+      <price_old>5980</price_old>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед MT 1006-9</name>
+      <picture>https://metr-plus.com.ua/img/888985.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897951.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897952.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897953.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897954.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897955.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897956.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897957.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897958.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897959.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/897960.jpg</picture>
+      <description lang="ua">3 кол.гума(12/10),USB/ВТ,пульт,світло,вільн.хід коліс,гальма,підшипн.,темно-синій</description>
+      <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MT 1007-8" available="true">
+      <price>5800</price>
+      <price_old>7540</price_old>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед MT 1007-8</name>
+      <picture>https://metr-plus.com.ua/img/863210.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/884197.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883583.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883584.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883585.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883586.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883587.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883588.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883589.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883590.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/883591.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1 до 5-ти років Дитячий триколісний велосипед Turbo Trike MT 1007 має сталеву раму, поворотне сидіння, захисний бампер з накладкою з еко-шкіри і глибокий регульований капюшон. Резинові надувні колеса на підшипниках забезпечать м&amp;#x27;який хід. На кермі розміщена музична фара. У нашому магазині Ви можете купити триколісний велосипед Turbo Trike MT 1007, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда Turbo Trike MT 1007:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1 року.&lt;/li&gt;&lt;li&gt;Рама велосипеда виготовлена зі сталі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма або батьківської ручки, що допоможе покатати дитину, якщо вона ще не вміє самостійно.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Кермо складане.&lt;/li&gt;&lt;li&gt;Сидіння поворотне.&lt;/li&gt;&lt;li&gt;Спинки сидіння регулюється за нахилом.&lt;/li&gt;&lt;li&gt;На сидінні розміщений м&amp;#x27;який знімний чохол.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками надійно утримають дитину на місці.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер з оббивкою з екошкіри призначений для додаткової безпеки малюка.&lt;/li&gt;&lt;li&gt;Велосипед оснащений 2 типами підніжок.&lt;/li&gt;&lt;li&gt;Велосипед обладнаний глибоким капюшоном.&lt;/li&gt;&lt;li&gt;У капюшон вбудовано оглядове віконце.&lt;/li&gt;&lt;li&gt;Музична фара: USB, музика, світло.&lt;/li&gt;&lt;li&gt;Додатково входить в комплект пульт.&lt;/li&gt;&lt;li&gt;3 резинові надувні колеса на підшипниках забезпечать м&amp;#x27;який хід.&lt;/li&gt;&lt;li&gt;Педалі велосипеда рефлені, що запобіжить зісковзуванню ніжок дитини.&lt;/li&gt;&lt;li&gt;Функція вільного ходу педалей.&lt;/li&gt;&lt;li&gt;Велосипед обладнаний заднім ножним гальмом.&lt;/li&gt;&lt;li&gt;У задній частині велосипеда розташований місткий кошик для іграшок закритого типу.&lt;/li&gt;&lt;li&gt;Сумка для батьків підвішується на ручку велосипеда.&lt;/li&gt;&lt;li&gt;Діаметр переднього колеса: 30 см.&lt;/li&gt;&lt;li&gt;Діаметр задніх коліс: 25 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
