@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-22 09:08">
+<yml_catalog date="2026-10-22 16:35">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -2690,8 +2690,8 @@
       <category code="9042">Квадроцикли</category>
       <attribute_set code="9042">Квадроцикли</attribute_set>
       <name lang="ua">Квадроцикл AFB200L-19</name>
-      <picture>https://metr-plus.com.ua/img/1117242.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1114193.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1117242.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117219.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117243.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117235.jpg</picture>
@@ -4101,10 +4101,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="FRONT SUSPENSION 1000Q" available="true">
+    <offer id="FRONT SUSPENSION 1000Q" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Амортизатор передній FRONT SUSPENSION 1000Q</name>
@@ -11415,10 +11415,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5048EL-13" available="true">
+    <offer id="M 5048EL-13" available="false">
       <price>7100</price>
       <price_old>9230</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 5048EL-13</name>
@@ -11436,10 +11436,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5048EL-8" available="true">
+    <offer id="M 5048EL-8" available="false">
       <price>7100</price>
       <price_old>9230</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 5048EL-8</name>
@@ -16714,10 +16714,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6134-5" available="true">
+    <offer id="M 6134-5" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="869">Ходунки</category>
       <attribute_set code="869">Ходунки</attribute_set>
       <name lang="ua">Ходунки M 6134-5</name>
@@ -17033,10 +17033,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6143EL-3" available="true">
+    <offer id="M 6143EL-3" available="false">
       <price>9100</price>
       <price_old>11830</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6143EL-3</name>
@@ -21470,6 +21470,30 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6313(MP4)EBLRS-11(24V)" available="true">
+      <price>27000</price>
+      <price_old>35100</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 6313(MP4)EBLRS-11(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1152229.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1111863.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152230.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152232.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152231.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152234.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152235.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152233.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152236.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152237.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1152238.jpg</picture>
+      <description lang="ua">&lt;p&gt;Двомісний дитячий електромобіль M 6313(MP4)EBLRS-11(24V) сірий - поєднує в собі реалістичний дизайн, комфорт і продуману функціональність, завдяки чому він одразу привертає увагу і викликає у дитини справжнє захоплення, адже модель виконана в стилі легендарного Mercedes GT63 та виглядає максимально наближено до справжнього автомобіля. Двомісний електромобіль M 6313(MP4)EBLRS-11(24V) оснащений просторим двомісним сидінням, що дозволяє кататися відразу двом малюкам, роблячи прогулянки веселішими і цікавішими, а для батьків передбачена функція дистанційного керування за допомогою пульта, яка особливо зручна для найменших водіїв. покриття, а ємний акумулятор 24V 9AH дозволяє довше насолоджуватись поїздкою без частих підзарядок. Дитячий електромобіль M 6313(MP4)EBLRS-11(24V) сірий продуманий до дрібниць, щоб дарувати не тільки радість, але й комфорт під час катання, м&amp;#x27;які EVA колеса забезпечують плавний хід та знижують шум, задні амортизатори допомагають згладжувати нерівності дороги, а вбудована магнітола з підтримкою USB та Bluetooth дає можливість включати улюблену музику, перетворюючи кожну поїздку.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6313(MP4)EBLRS-11(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ліцензійна модель зі значком Mercedes&lt;/li&gt;&lt;li&gt;Автомобільне фарбування&lt;/li&gt;&lt;li&gt;Двомісне сидіння, екошкіра + велюр&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;задні амортизатори&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х200W / 24V / 12000RPM&lt;/li&gt;&lt;li&gt;Акумулятор 24V/9AH&lt;/li&gt;&lt;li&gt;Час на зарядку 8-14 годин&lt;/li&gt;&lt;li&gt;Заряджання 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 8 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад - важіль&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться передні та задні фари, кнопка увімк./вимк. світла&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3+USB, AUX, Bluetooth&lt;/li&gt;&lt;li&gt;П&amp;#x27;ятиточкові ремені безпеки – 2 шт.&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 50 кг&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth (STOP BUTTON)&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6313-BLUETOOTH" available="true">
       <price>1300</price>
       <price_old>1690</price_old>
@@ -22113,10 +22137,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6316-ST GEAR" available="true">
+    <offer id="M 6316-ST GEAR" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Рульовий редуктор M 6316-ST GEAR</name>
@@ -22630,10 +22654,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6343EBLR-2" available="true">
+    <offer id="M 6343EBLR-2" available="false">
       <price>8800</price>
       <price_old>11440</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6343EBLR-2</name>
@@ -23637,10 +23661,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6368-ST GEAR" available="true">
+    <offer id="M 6368-ST GEAR" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Рульовий редуктор M 6368-ST GEAR</name>
@@ -27196,10 +27220,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1162-1 Green" available="false">
+    <offer id="ME 1162-1 Green" available="true">
       <price>6600</price>
       <price_old>8580</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 VECTOR Green</name>
@@ -27220,10 +27244,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1162-1 Purple" available="false">
+    <offer id="ME 1162-1 Purple" available="true">
       <price>6600</price>
       <price_old>8580</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Purple</name>
@@ -27826,6 +27850,20 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="ME 1191 Asphalt Gray" available="true">
+      <price>7700</price>
+      <price_old>10010</price_old>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска дитяча ME 1191 CHLOE Asphalt Gray</name>
+      <picture>https://metr-plus.com.ua/img/1161733.jpg</picture>
+      <description lang="ua">прогулянкова, регул.ручка, регул.спинки, алюм.рама, темно-сірий</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="ME 1191 Greige" available="true">
       <price>7700</price>
       <price_old>10010</price_old>
@@ -27849,6 +27887,20 @@
       <name lang="ua">Коляска дитяча ME 1191 CHLOE Mineral Green</name>
       <picture>https://metr-plus.com.ua/img/1161429.jpg</picture>
       <description lang="ua">прогулянкова, регул.ручка, регул.спинки, алюм.рама, зелений</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1191 Mocha" available="true">
+      <price>7700</price>
+      <price_old>10010</price_old>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска дитяча ME 1191 CHLOE Mocha</name>
+      <picture>https://metr-plus.com.ua/img/1161734.jpg</picture>
+      <description lang="ua">прогулянкова, регул.ручка, регул.спинки, алюм.рама, бежевий</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>

@@ -1,5 +1,5 @@
 {
-  "total": 1990,
+  "total": 1993,
   "unresolved_count": 203,
   "unresolved": [
     {
@@ -7345,6 +7345,7 @@
       "M 6312EBLR-7(24V)",
       "M 6313 RC-RECEIVER",
       "M 6313(MP4)EBLR-1(24V)",
+      "M 6313(MP4)EBLRS-11(24V)",
       "M 6313-BLUETOOTH",
       "M 6313-EVA WHEEL",
       "M 6313-ST GEAR(24V)",
@@ -7677,7 +7678,7 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3916,
+    "Матеріал": 3922,
     "Розмір упаковки": 1162,
     "Тип пакування": 548,
     "Серія": 78,
@@ -9027,6 +9028,7 @@
     "M 6312EBLR-7(24V)",
     "M 6313 RC-RECEIVER",
     "M 6313(MP4)EBLR-1(24V)",
+    "M 6313(MP4)EBLRS-11(24V)",
     "M 6313-BLUETOOTH",
     "M 6313-EVA WHEEL",
     "M 6313-ST GEAR(24V)",
@@ -9384,8 +9386,10 @@
     "ME 1187 Moon Gray",
     "ME 1187 Shadow Gray",
     "ME 1188 Black",
+    "ME 1191 Asphalt Gray",
     "ME 1191 Greige",
     "ME 1191 Mineral Green",
+    "ME 1191 Mocha",
     "ME 1191 Night Black",
     "ME 1191-1 Emerald Green",
     "ME 1191-1 Plum Wine",
