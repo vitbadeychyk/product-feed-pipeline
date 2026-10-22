@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-22 03:12">
+<yml_catalog date="2026-10-22 09:08">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -7952,10 +7952,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3981-GEAR BOX" available="true">
+    <offer id="M 3981-GEAR BOX" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором  M 3981-GEAR BOX</name>
@@ -9442,10 +9442,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4569EBLR-2" available="true">
+    <offer id="M 4569EBLR-2" available="false">
       <price>10200</price>
       <price_old>13260</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 4569EBLR-2</name>
@@ -19078,10 +19078,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6260EBLR-3(24V)" available="true">
+    <offer id="M 6260EBLR-3(24V)" available="false">
       <price>19200</price>
       <price_old>24960</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Трактор M 6260EBLR-3(24V)</name>
@@ -19196,10 +19196,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6262EL-4" available="true">
+    <offer id="M 6262EL-4" available="false">
       <price>6000</price>
       <price_old>7800</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6262EL-4</name>
@@ -22089,10 +22089,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6316-RC" available="true">
+    <offer id="M 6316-RC" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Пульт керування M 6316-RC</name>
       <picture>https://metr-plus.com.ua/img/1161301.jpg</picture>
       <description lang="ua">до квадроциклу M 6316</description>
@@ -30238,10 +30238,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MT 1004DUOS-2" available="true">
+    <offer id="MT 1004DUOS-2" available="false">
       <price>6900</price>
       <price_old>8970</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1004DUOS-2</name>
