@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-23 03:17">
+<yml_catalog date="2026-10-23 09:04">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -8771,10 +8771,10 @@
       <price_old>1300</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5050EL-1" available="true">
+    <offer id="M 5050EL-1" available="false">
       <price>7100</price>
       <price_old>9230</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5050EL-2" available="true">
       <price>7100</price>
@@ -16981,10 +16981,10 @@
       <price_old>18070</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6314EBLR-8" available="true">
+    <offer id="M 6314EBLR-8" available="false">
       <price>13900</price>
       <price_old>18070</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6314EBLRS-2" available="true">
       <price>15300</price>
@@ -20521,15 +20521,15 @@
       <price_old>6500</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1110 Moon Black" available="false">
-      <price>5200</price>
-      <price_old>6760</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1110 Moon Black" available="true">
+      <price>6500</price>
+      <price_old>8450</price_old>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1110 Natural Beige" available="false">
-      <price>5100</price>
-      <price_old>6630</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1110 Natural Beige" available="true">
+      <price>6500</price>
+      <price_old>8450</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1110 Royal Dark G" available="false">
       <price>5000</price>
@@ -20545,6 +20545,11 @@
       <price>5200</price>
       <price_old>6760</price_old>
       <availability>out_of_stock</availability>
+    </offer>
+    <offer id="ME 1110 Special Pearl" available="true">
+      <price>6600</price>
+      <price_old>8580</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1110 i-FIX Base" available="true">
       <price>3300</price>
@@ -20826,15 +20831,15 @@
       <price_old>2340</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1147 Black" available="false">
-      <price>2300</price>
-      <price_old>2990</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1147 Black" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
     </offer>
-    <offer id="ME 1147 Stone Black" available="false">
-      <price>2300</price>
-      <price_old>2990</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1147 Stone Black" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1151 Cool Gray" available="false">
       <price>1900</price>
@@ -20886,10 +20891,10 @@
       <price_old>8580</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1162-1 Green" available="true">
+    <offer id="ME 1162-1 Green" available="false">
       <price>6600</price>
       <price_old>8580</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1162-1 Jade Green" available="false">
       <price>5900</price>
@@ -20906,10 +20911,10 @@
       <price_old>7670</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1162-1 Purple" available="true">
+    <offer id="ME 1162-1 Purple" available="false">
       <price>6600</price>
       <price_old>8580</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="ME 1162-1 Taupe Beige" available="false">
       <price>5900</price>
@@ -22026,10 +22031,10 @@
       <price_old>4680</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="MR 0800" available="false">
-      <price>2200</price>
-      <price_old>2860</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="MR 0800" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="MR 0801" available="true">
       <price>3700</price>

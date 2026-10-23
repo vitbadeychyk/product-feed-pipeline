@@ -1,6 +1,6 @@
 {
-  "total": 1993,
-  "unresolved_count": 203,
+  "total": 1999,
+  "unresolved_count": 204,
   "unresolved": [
     {
       "sku": "10034",
@@ -781,6 +781,11 @@
       "sku": "MP 2373",
       "supplier_category_id": "123",
       "name": "Гойдалка MP 2373"
+    },
+    {
+      "sku": "MR 0800",
+      "supplier_category_id": "65",
+      "name": "Баскетбольне кільце MR 0800"
     },
     {
       "sku": "MR 0801",
@@ -7519,6 +7524,7 @@
       "MOTOR 36V800W",
       "MOTOR 48V1200W",
       "MP 2373",
+      "MR 0800",
       "MR 0801",
       "MR 0802",
       "MR 1288",
@@ -7678,9 +7684,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3922,
-    "Розмір упаковки": 1162,
-    "Тип пакування": 548,
+    "Матеріал": 3934,
+    "Розмір упаковки": 1164,
+    "Тип пакування": 550,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -9326,7 +9332,10 @@
     "ME 1102 Gentle Gray",
     "ME 1102 Posh Black",
     "ME 1110 Base 360",
+    "ME 1110 Moon Black",
+    "ME 1110 Natural Beige",
     "ME 1110 Royal Dark Gray",
+    "ME 1110 Special Pearl",
     "ME 1110 i-FIX Base",
     "ME 1111 Pink",
     "ME 1111 Teal",
@@ -9353,6 +9362,8 @@
     "ME 1141 Pink",
     "ME 1141 Yellow",
     "ME 1143 Gold",
+    "ME 1147 Black",
+    "ME 1147 Stone Black",
     "ME 1152 Blue",
     "ME 1152 Pink",
     "ME 1162-1 Frost Gray",
@@ -9478,6 +9489,7 @@
     "MOTOR 36V800W",
     "MOTOR 48V1200W",
     "MP 2373",
+    "MR 0800",
     "MR 0801",
     "MR 0802",
     "MR 1288",
