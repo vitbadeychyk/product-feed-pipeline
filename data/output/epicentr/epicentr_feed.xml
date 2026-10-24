@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-24 03:11">
+<yml_catalog date="2026-10-24 08:36">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -2484,10 +2484,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="A4123-XS-PGR" available="true">
+    <offer id="A4123-XS-PGR" available="false">
       <price>1800</price>
       <price_old>2340</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="1436">Роликові ковзани</category>
       <attribute_set code="1436">Роликові ковзани</attribute_set>
       <name lang="ua">Ролики A 4123-XS-PGR (27-30)</name>
@@ -4480,10 +4480,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="HB-EATV1000NP-5" available="true">
+    <offer id="HB-EATV1000NP-5" available="false">
       <price>25600</price>
       <price_old>33280</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="9042">Квадроцикли</category>
       <attribute_set code="9042">Квадроцикли</attribute_set>
       <name lang="ua">Квадроцикл HB-EATV1000NP-5</name>
@@ -11005,10 +11005,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 502-2" available="true">
+    <offer id="M 502-2" available="false">
       <price>3100</price>
       <price_old>4030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 502-2</name>
@@ -11125,10 +11125,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 502-8-3" available="true">
+    <offer id="M 502-8-3" available="false">
       <price>3100</price>
       <price_old>4030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 502-8-3</name>
@@ -16920,10 +16920,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6140EBLR-3" available="true">
+    <offer id="M 6140EBLR-3" available="false">
       <price>11100</price>
       <price_old>14430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6140EBLR-3</name>
@@ -17395,10 +17395,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6149EBLR-1-5(24V)" available="true">
+    <offer id="M 6149EBLR-1-5(24V)" available="false">
       <price>23100</price>
       <price_old>30030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6149EBLR-1-5(24V)</name>
@@ -19147,10 +19147,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6260EBLR-6(24V)" available="true">
+    <offer id="M 6260EBLR-6(24V)" available="false">
       <price>19200</price>
       <price_old>24960</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Трактор M 6260EBLR-6(24V)</name>
@@ -23257,10 +23257,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6361-4" available="true">
+    <offer id="M 6361-4" available="false">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6361-4</name>
@@ -24401,10 +24401,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6409EBLR-1" available="true">
+    <offer id="M 6409EBLR-1" available="false">
       <price>18200</price>
       <price_old>23660</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6409EBLR-1</name>
@@ -24827,10 +24827,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6525E-13" available="true">
+    <offer id="M 6525E-13" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6525E-13</name>
@@ -24869,10 +24869,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6525E-8" available="true">
+    <offer id="M 6525E-8" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6525E-8</name>
@@ -25982,10 +25982,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MBB 1053-1" available="true">
+    <offer id="MBB 1053-1" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-1</name>
@@ -26022,10 +26022,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MBB 1053-3" available="true">
+    <offer id="MBB 1053-3" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-3</name>
@@ -26064,10 +26064,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MBB 1053-5" available="true">
+    <offer id="MBB 1053-5" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел дитячий 6,5 д. MBB 1053-5</name>
@@ -27271,10 +27271,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1131 Footmuff Plus Reflective" available="true">
+    <offer id="ME 1131 Footmuff Plus Reflective" available="false">
       <price>1900</price>
       <price_old>2470</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Конверт у візок  ME 1131 Footmuff Plus Reflective</name>
@@ -30886,10 +30886,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-19B-2" available="true">
+    <offer id="N 2071-19B-2" available="false">
       <price>4600</price>
       <price_old>5980</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-19B-2</name>
