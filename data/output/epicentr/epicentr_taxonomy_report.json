@@ -1,5 +1,5 @@
 {
-  "total": 2021,
+  "total": 2054,
   "unresolved_count": 199,
   "unresolved": [
     {
@@ -998,7 +998,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 798,
+  "fallback_count": 814,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -1827,9 +1827,37 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "JJ2088 EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо JJ2088-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "JJ2088 GEAR",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором JJ2088 GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "JJ2088- RC",
+      "supplier_category_id": "195",
+      "name": "Пульт JJ2088-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "JJ2088-ST GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор JJ2088-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "JJ2088-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо JJ2088-ST WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -1956,6 +1984,13 @@
       "sku": "JS330-GEAR",
       "supplier_category_id": "195",
       "name": "Редуктор у зборі з мотором JS330-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "JS330-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування JS330-RC",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -2576,6 +2611,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4968-4WD RC RECEIVER(24V)",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 4968-RC RECEIVER(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4968-DASHBOARD 24V",
       "supplier_category_id": "195",
       "name": "Панель запуску M 4968-DASHBOARD(24V)",
@@ -2586,6 +2628,34 @@
       "sku": "M 4968-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4968-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4968-RC 4WD (24V)",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 4968-RC(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4969-DASHBOARD(24V)",
+      "supplier_category_id": "195",
+      "name": "Панель запуску M 4969-DASHBOARD(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4969-RC RECEIVER(24V) 4WD",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 4969-RC RECEIVER(24V) 4WD",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4969-RC(24V)",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 4969-RC(24V)",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3829,6 +3899,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6058-ST-WHEE",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6058-ST-WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6060-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6060-EVA WHEEL",
@@ -3965,6 +4042,34 @@
       "sku": "M 6107-ST-WHEEL",
       "supplier_category_id": "195",
       "name": "Кермо M 6107-ST-WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6108-DASHBOARD",
+      "supplier_category_id": "195",
+      "name": "Панель запуску M 6108-DASHBOARD",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6108-EVA-WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6108-EVA-WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6108-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6108-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6108-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6108-RC RECEIVER",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -6314,6 +6419,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "RC RECEIVER-JS330",
+      "supplier_category_id": "195",
+      "name": "Блок керування RC RECEIVER-JS330",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "REAR SUSPENSION 1000Q",
       "supplier_category_id": "195",
       "name": "Амортизатор задній REAR SUSPENSION 1000Q",
@@ -6735,7 +6847,14 @@
       "JJ2066-F-EVA WHEEL",
       "JJ2066-ST GEAR",
       "JJ2066-ST GEAR(NEW)",
+      "JJ2088 EVA WHEEL",
+      "JJ2088 GEAR",
+      "JJ2088- RC",
       "JJ2088-ST GEAR",
+      "JJ2088-ST WHEEL",
+      "JJ2088EBLR-1-2(4WD)",
+      "JJ2088EBLR-11(4WD)",
+      "JJ2088EBLR-2(4WD)",
       "JJ2122-F-EVA WHEEL",
       "JJ2122-ST GEAR",
       "JJ2164-EVA WHEEL",
@@ -6751,6 +6870,8 @@
       "JJ2580-EVA WHEEL",
       "JJ2580-GEAR",
       "JJ2580-ST GEAR",
+      "JJ2580EBLR-1(24V)",
+      "JJ2580EBLR-2(24V)",
       "JR3-103-P",
       "JR3-134-Y",
       "JR3-135-G",
@@ -6772,9 +6893,12 @@
       "JS3198-ST WHEEL",
       "JS330-EVA WHEEL",
       "JS330-GEAR",
+      "JS330-RC",
       "JS330-ST GEAR",
+      "JS330EBLR-2-5(24V)",
       "JT5188-F-EVA WHEEL",
       "JT5188-R-EVA WHEEL",
+      "JT5188L-2",
       "JT5188L-3",
       "JT5188L-4",
       "M 3147-WHEEL",
@@ -6888,10 +7012,16 @@
       "M 4959-EVA WHEEL",
       "M 4959-GEAR BOX",
       "M 4959-ST GEAR",
+      "M 4968-4WD RC RECEIVER(24V)",
       "M 4968-DASHBOARD 24V",
       "M 4968-EVA WHEEL",
+      "M 4968-RC 4WD (24V)",
       "M 4968EBLR-1(24V)",
+      "M 4968EBLR-11(24V)",
       "M 4968EBLR-2(24V)",
+      "M 4969-DASHBOARD(24V)",
+      "M 4969-RC RECEIVER(24V) 4WD",
+      "M 4969-RC(24V)",
       "M 4969-ST GEAR(24V) 4WD",
       "M 4972,M 6281,6282,6283,M 5796-2,4G",
       "M 4972-ST GEAR",
@@ -7130,6 +7260,7 @@
       "M 6055-bluetooth",
       "M 6058-EVA WHEEL",
       "M 6058-ST GEAR",
+      "M 6058-ST-WHEE",
       "M 6060-EVA WHEEL",
       "M 6060-GEAR",
       "M 6062,M 4959,M 5911-RC",
@@ -7156,6 +7287,10 @@
       "M 6107-ST-WHEEL",
       "M 6107EBLR-2(24V)",
       "M 6107EBLR-4(24V)",
+      "M 6108-DASHBOARD",
+      "M 6108-EVA-WHEEL",
+      "M 6108-GEAR BOX",
+      "M 6108-RC RECEIVER",
       "M 6111(MP4)EBLR-1(24V)",
       "M 6111(MP4)EBLRS-11(24V)",
       "M 6111-BLUETOOTH",
@@ -7686,6 +7821,7 @@
       "RC RECEIVER-JJ2199",
       "RC RECEIVER-JJ2266",
       "RC RECEIVER-JJ2580",
+      "RC RECEIVER-JS330",
       "REAR SUSPENSION 1000Q",
       "REAR SUSPENSION 800N",
       "REAR SUSPENSION AFB200",
@@ -7766,9 +7902,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3978,
-    "Розмір упаковки": 1172,
-    "Тип пакування": 554,
+    "Матеріал": 4044,
+    "Розмір упаковки": 1184,
+    "Тип пакування": 556,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -8161,7 +8297,14 @@
     "JJ2066-F-EVA WHEEL",
     "JJ2066-ST GEAR",
     "JJ2066-ST GEAR(NEW)",
+    "JJ2088 EVA WHEEL",
+    "JJ2088 GEAR",
+    "JJ2088- RC",
     "JJ2088-ST GEAR",
+    "JJ2088-ST WHEEL",
+    "JJ2088EBLR-1-2(4WD)",
+    "JJ2088EBLR-11(4WD)",
+    "JJ2088EBLR-2(4WD)",
     "JJ2122-F-EVA WHEEL",
     "JJ2122-ST GEAR",
     "JJ2164-EVA WHEEL",
@@ -8177,6 +8320,8 @@
     "JJ2580-EVA WHEEL",
     "JJ2580-GEAR",
     "JJ2580-ST GEAR",
+    "JJ2580EBLR-1(24V)",
+    "JJ2580EBLR-2(24V)",
     "JR3-103-P",
     "JR3-129-M",
     "JR3-129-P",
@@ -8268,9 +8413,12 @@
     "JS3198-ST WHEEL",
     "JS330-EVA WHEEL",
     "JS330-GEAR",
+    "JS330-RC",
     "JS330-ST GEAR",
+    "JS330EBLR-2-5(24V)",
     "JT5188-F-EVA WHEEL",
     "JT5188-R-EVA WHEEL",
+    "JT5188L-2",
     "JT5188L-3",
     "JT5188L-4",
     "L-CC01-4",
@@ -8450,11 +8598,19 @@
     "M 4959-EVA WHEEL",
     "M 4959-GEAR BOX",
     "M 4959-ST GEAR",
+    "M 4968-4WD RC RECEIVER(24V)",
     "M 4968-DASHBOARD 24V",
     "M 4968-EVA WHEEL",
+    "M 4968-RC 4WD (24V)",
     "M 4968EBLR-1(24V)",
+    "M 4968EBLR-11(24V)",
     "M 4968EBLR-2(24V)",
+    "M 4969-DASHBOARD(24V)",
+    "M 4969-RC RECEIVER(24V) 4WD",
+    "M 4969-RC(24V)",
     "M 4969-ST GEAR(24V) 4WD",
+    "M 4969EBLR-15(24V)",
+    "M 4969EBLR-7(24V)",
     "M 4972,M 6281,6282,6283,M 5796-2,4G",
     "M 4972-ST GEAR",
     "M 4972-ST WHEEL",
@@ -8566,6 +8722,8 @@
     "M 5103-EVA WHEEL",
     "M 5103-GEAR BOX",
     "M 5103-ST GEAR",
+    "M 5103EBLR-1",
+    "M 5103EBLR-10",
     "M 5105-EVA WHEEL",
     "M 5105EBLR-4",
     "M 5110-ST GEAR",
@@ -8757,6 +8915,7 @@
     "M 6057-4",
     "M 6058-EVA WHEEL",
     "M 6058-ST GEAR",
+    "M 6058-ST-WHEE",
     "M 6058EBLR-11(24V)",
     "M 6058EBLR-18-5(24V)",
     "M 6060-EVA WHEEL",
@@ -8796,6 +8955,12 @@
     "M 6107-ST-WHEEL",
     "M 6107EBLR-2(24V)",
     "M 6107EBLR-4(24V)",
+    "M 6108-DASHBOARD",
+    "M 6108-EVA-WHEEL",
+    "M 6108-GEAR BOX",
+    "M 6108-RC RECEIVER",
+    "M 6108EBLR-1(24V)",
+    "M 6108EBLR-2(24V)",
     "M 6111(MP4)EBLR-1(24V)",
     "M 6111(MP4)EBLRS-11(24V)",
     "M 6111-BLUETOOTH",
@@ -9437,6 +9602,9 @@
     "ME 1111 Teal",
     "ME 1112 Anthracite",
     "ME 1112 Black",
+    "ME 1114 Black",
+    "ME 1114 Dark Gray",
+    "ME 1114 Light Gray",
     "ME 1115-W Beige",
     "ME 1115-W Black",
     "ME 1115-W Gray",
@@ -9713,6 +9881,7 @@
     "RC RECEIVER-JJ2199",
     "RC RECEIVER-JJ2266",
     "RC RECEIVER-JJ2580",
+    "RC RECEIVER-JS330",
     "REAR SUSPENSION 1000Q",
     "REAR SUSPENSION 800N",
     "REAR SUSPENSION AFB200",

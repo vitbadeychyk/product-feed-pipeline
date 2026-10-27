@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-27 09:34">
+<yml_catalog date="2026-10-27 17:26">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -5573,6 +5573,48 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="JJ2088 EVA WHEEL" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Колесо JJ2088-EVA WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/855778.jpg</picture>
+      <description lang="ua">для машини JJ2088, ширина 9,3см, діаметр</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088 GEAR" available="true">
+      <price>1400</price>
+      <price_old>1820</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Редуктор у зборі з мотором JJ2088 GEAR</name>
+      <picture>https://metr-plus.com.ua/img/848842.jpg</picture>
+      <description lang="ua">&lt;p&gt;для джипа JJ2088,4WD, 12V, RPM12000, отвір під вісь 12мм, довжина&lt;/p&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088- RC" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт JJ2088-RC</name>
+      <picture>https://metr-plus.com.ua/img/848840.jpg</picture>
+      <description lang="ua">2,4G, для джипа JJ2088,4WD, на бат-ці, в кор-ці</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="JJ2088-ST GEAR" available="true">
       <price>1400</price>
       <price_old>1820</price_old>
@@ -5583,6 +5625,92 @@
       <picture>https://metr-plus.com.ua/img/848844.jpg</picture>
       <description lang="ua">для джипа JJ2088,4WD, 12V, RPM8000, отвір під вісь 12мм, довжина</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088-ST WHEEL" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Кермо JJ2088-ST WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/855764.jpg</picture>
+      <description lang="ua">для джипа JJ2088</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088EBLR-1-2(4WD)" available="true">
+      <price>16600</price>
+      <price_old>21580</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JJ2088EBLR-1-2(4WD)</name>
+      <picture>https://metr-plus.com.ua/img/848828.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848980.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848981.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848982.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848983.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848984.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848985.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848986.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848987.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848988.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848989.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi JJ2088EBLR виконаний в оригінальному дизайні та обладнаний одним шкіряним сидінням з 3 точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами та акумулятором 12V/9Ah. Передбачена можливість підключення Bluetooth, а також є AUX, MP3 і USB. Світло передніх і задніх фар, а також підсвітка панелі приладів, дзеркал та кузовних елементів додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi JJ2088EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi JJ2088EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot; та педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має одне шкіряне сидіння.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 37 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 30 см.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Передні та задні фари світяться, а також підсвічується панель приладів, дзеркала та кузовні елементи.&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Сигнал на кермі працює від 2 батарейок АА (в комплект не входять).&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є AUX, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність передніх двигунів: 2х12V/25W/RPM8000.&lt;/li&gt;&lt;li&gt;Потужність задніх двигунів: 2х12V/35W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х12V/9Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(по дзеркалах)хВ): 121х74х62 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 62 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 26см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 22,5 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 20 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 118х73х62,5 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 24,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088EBLR-11(4WD)" available="true">
+      <price>16600</price>
+      <price_old>21580</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JJ2088EBLR-11(4WD)</name>
+      <picture>https://metr-plus.com.ua/img/851468.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852752.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852753.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852754.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852755.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852756.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852757.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852758.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852759.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852760.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/852761.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi JJ2088EBLR виконаний в оригінальному дизайні та обладнаний одним шкіряним сидінням з 3 точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами та акумулятором 12V/9Ah. Передбачена можливість підключення Bluetooth, а також є AUX, MP3 і USB. Світло передніх і задніх фар, а також підсвітка панелі приладів, дзеркал та кузовних елементів додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi JJ2088EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi JJ2088EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot; та педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має одне шкіряне сидіння.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 37 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 30 см.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Передні та задні фари світяться, а також підсвічується панель приладів, дзеркала та кузовні елементи.&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Сигнал на кермі працює від 2 батарейок АА (в комплект не входять).&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є AUX, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність передніх двигунів: 2х12V/25W/RPM8000.&lt;/li&gt;&lt;li&gt;Потужність задніх двигунів: 2х12V/35W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х12V/9Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(по дзеркалах)хВ): 121х74х62 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 62 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 26см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 22,5 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 20 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 118х73х62,5 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 24,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2088EBLR-2(4WD)" available="true">
+      <price>16600</price>
+      <price_old>21580</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JJ2088EBLR-2(4WD)</name>
+      <picture>https://metr-plus.com.ua/img/848871.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848910.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848911.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848912.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848913.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848914.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848915.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848916.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848917.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848918.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848919.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi JJ2088EBLR виконаний в оригінальному дизайні та обладнаний одним шкіряним сидінням з 3 точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами та акумулятором 12V/9Ah. Передбачена можливість підключення Bluetooth, а також є AUX, MP3 і USB. Світло передніх і задніх фар, а також підсвітка панелі приладів, дзеркал та кузовних елементів додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi JJ2088EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi JJ2088EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot; та педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має одне шкіряне сидіння.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 37 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 30 см.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Передні та задні фари світяться, а також підсвічується панель приладів, дзеркала та кузовні елементи.&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Сигнал на кермі працює від 2 батарейок АА (в комплект не входять).&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є AUX, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність передніх двигунів: 2х12V/25W/RPM8000.&lt;/li&gt;&lt;li&gt;Потужність задніх двигунів: 2х12V/35W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х12V/9Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(по дзеркалах)хВ): 121х74х62 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 62 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 26см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 22,5 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 20 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 118х73х62,5 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 24,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -5811,6 +5939,54 @@
       <picture>https://metr-plus.com.ua/img/1142114.jpg</picture>
       <description lang="ua">&lt;p&gt;до джипа JJ2580, 24V, RPM5000, отвір під вісь 10мм, довжина 17см&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2580EBLR-1(24V)" available="true">
+      <price>12400</price>
+      <price_old>16120</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JJ2580EBLR-1(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1151891.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1141077.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151892.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151893.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151894.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151896.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151897.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151898.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151895.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151899.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151900.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Позашляховик з пультом керування Mercedes Bambi JJ2580EBLR створений для дітей, які мріють про власний стильний автомобіль. Модель виконана в дизайні легендарного Mercedes G-Class, має високий кліренс, великі EVA-колеса та сучасний зовнішній вигляд, що робить її схожою на справжній позашляховик. Чотири двигуни у поєднанні з акумулятором 24V/5Ah забезпечують плавний рух і швидкість до 6 км/год. Комфорт маленькому водієві забезпечує просторе сидіння з екошкіри шириною 33 см, обладнане триточковим ременем безпеки. Плавний старт допомагає уникнути різких ривків на початку руху. Керування можливе за допомогою педалі або пульта дистанційного керування 2,4G, а напрямок руху вперед або назад перемикається тумблером. Двері, що відчиняються, роблять посадку більш зручною. Передні фари та підсвічування панелі надають автомобілю ефектного вигляду, а музичний модуль із підтримкою MP3, USB і Bluetooth дозволяє слухати улюблену музику під час прогулянок. EVA-колеса разом із задніми амортизаторами забезпечують комфортний рух різними покриттями, а перемикач режиму керування дозволяє швидко обирати між керуванням педаллю або пультом. У нашому магазині Ви можете купити позашляховик з пультом керування Mercedes Bambi JJ2580EBLR для веселих і комфортних прогулянок.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Mercedes Bambi JJ2580EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Позашляховик призначений для дітей від 3 років.&lt;/li&gt;&lt;li&gt;Запуск здійснюється кнопкою.&lt;/li&gt;&lt;li&gt;Під час старту відтворюється звук двигуна.&lt;/li&gt;&lt;li&gt;Передбачений плавний старт у звичайному режимі.&lt;/li&gt;&lt;li&gt;Керування можливе за допомогою педалі або пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;Рух вперед та назад здійснюється тумблером.&lt;/li&gt;&lt;li&gt;Швидкість руху становить 3-6 км/год.&lt;/li&gt;&lt;li&gt;Передбачено 2 швидкості на панелі керування та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Потужність двигунів: передні 2×35W / 24V / RPM6000, задні 2×35W / 24V / RPM18000.&lt;/li&gt;&lt;li&gt;Акумулятор: 24V/5Ah.&lt;/li&gt;&lt;li&gt;Передбачений індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Зарядний пристрій: 24V/500mA.&lt;/li&gt;&lt;li&gt;Час повної зарядки акумулятора становить 8-10 годин.&lt;/li&gt;&lt;li&gt;Є індикатор заряджання.&lt;/li&gt;&lt;li&gt;Передні фари.&lt;/li&gt;&lt;li&gt;Передбачене підсвічування панелі.&lt;/li&gt;&lt;li&gt;Є кнопка увімкнення та вимкнення світла.&lt;/li&gt;&lt;li&gt;Музичний модуль підтримує MP3, USB та Bluetooth.&lt;/li&gt;&lt;li&gt;Звуковий сигнал розташований на кермі.&lt;/li&gt;&lt;li&gt;Позашляховик має одне посадкове місце з екошкіри.&lt;/li&gt;&lt;li&gt;Ширина посадкового місця становить 33 см.&lt;/li&gt;&lt;li&gt;Сидіння обладнане триточковим ременем безпеки.&lt;/li&gt;&lt;li&gt;Колеса виконані з EVA-матеріалу.&lt;/li&gt;&lt;li&gt;Розмір передніх коліс: 21×15 см.&lt;/li&gt;&lt;li&gt;Розмір задніх коліс: 21×15 см.&lt;/li&gt;&lt;li&gt;Передбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Двері відчиняються.&lt;/li&gt;&lt;li&gt;Передбачений перемикач режиму керування (педаль газу або пульт).&lt;/li&gt;&lt;li&gt;Розміри позашляховика (ДхШхВ): 96×54×56 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі становить 25 см.&lt;/li&gt;&lt;li&gt;Вага: 15,4 кг.&lt;/li&gt;&lt;li&gt;Вага упаковки: 18,9 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 92×50,5×25,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi — один із найвідоміших брендів дитячого транспорту в Україні, який пропонує широкий асортимент електромобілів, квадроциклів, мотоциклів, толокарів та іншої дитячої техніки. Продукція бренду поєднує сучасний дизайн, функціональність і практичність, забезпечуючи комфортні та захопливі прогулянки для дітей різного віку.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JJ2580EBLR-2(24V)" available="true">
+      <price>12400</price>
+      <price_old>16120</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JJ2580EBLR-2(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1151903.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1141078.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151902.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151904.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151906.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151907.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151905.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151908.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151910.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151909.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1151911.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Позашляховик з пультом керування Mercedes Bambi JJ2580EBLR створений для дітей, які мріють про власний стильний автомобіль. Модель виконана в дизайні легендарного Mercedes G-Class, має високий кліренс, великі EVA-колеса та сучасний зовнішній вигляд, що робить її схожою на справжній позашляховик. Чотири двигуни у поєднанні з акумулятором 24V/5Ah забезпечують плавний рух і швидкість до 6 км/год. Комфорт маленькому водієві забезпечує просторе сидіння з екошкіри шириною 33 см, обладнане триточковим ременем безпеки. Плавний старт допомагає уникнути різких ривків на початку руху. Керування можливе за допомогою педалі або пульта дистанційного керування 2,4G, а напрямок руху вперед або назад перемикається тумблером. Двері, що відчиняються, роблять посадку більш зручною. Передні фари та підсвічування панелі надають автомобілю ефектного вигляду, а музичний модуль із підтримкою MP3, USB і Bluetooth дозволяє слухати улюблену музику під час прогулянок. EVA-колеса разом із задніми амортизаторами забезпечують комфортний рух різними покриттями, а перемикач режиму керування дозволяє швидко обирати між керуванням педаллю або пультом. У нашому магазині Ви можете купити позашляховик з пультом керування Mercedes Bambi JJ2580EBLR для веселих і комфортних прогулянок.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Mercedes Bambi JJ2580EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Позашляховик призначений для дітей від 3 років.&lt;/li&gt;&lt;li&gt;Запуск здійснюється кнопкою.&lt;/li&gt;&lt;li&gt;Під час старту відтворюється звук двигуна.&lt;/li&gt;&lt;li&gt;Передбачений плавний старт у звичайному режимі.&lt;/li&gt;&lt;li&gt;Керування можливе за допомогою педалі або пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;Рух вперед та назад здійснюється тумблером.&lt;/li&gt;&lt;li&gt;Швидкість руху становить 3-6 км/год.&lt;/li&gt;&lt;li&gt;Передбачено 2 швидкості на панелі керування та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Потужність двигунів: передні 2×35W / 24V / RPM6000, задні 2×35W / 24V / RPM18000.&lt;/li&gt;&lt;li&gt;Акумулятор: 24V/5Ah.&lt;/li&gt;&lt;li&gt;Передбачений індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Зарядний пристрій: 24V/500mA.&lt;/li&gt;&lt;li&gt;Час повної зарядки акумулятора становить 8-10 годин.&lt;/li&gt;&lt;li&gt;Є індикатор заряджання.&lt;/li&gt;&lt;li&gt;Передні фари.&lt;/li&gt;&lt;li&gt;Передбачене підсвічування панелі.&lt;/li&gt;&lt;li&gt;Є кнопка увімкнення та вимкнення світла.&lt;/li&gt;&lt;li&gt;Музичний модуль підтримує MP3, USB та Bluetooth.&lt;/li&gt;&lt;li&gt;Звуковий сигнал розташований на кермі.&lt;/li&gt;&lt;li&gt;Позашляховик має одне посадкове місце з екошкіри.&lt;/li&gt;&lt;li&gt;Ширина посадкового місця становить 33 см.&lt;/li&gt;&lt;li&gt;Сидіння обладнане триточковим ременем безпеки.&lt;/li&gt;&lt;li&gt;Колеса виконані з EVA-матеріалу.&lt;/li&gt;&lt;li&gt;Розмір передніх коліс: 21×15 см.&lt;/li&gt;&lt;li&gt;Розмір задніх коліс: 21×15 см.&lt;/li&gt;&lt;li&gt;Передбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Двері відчиняються.&lt;/li&gt;&lt;li&gt;Передбачений перемикач режиму керування (педаль газу або пульт).&lt;/li&gt;&lt;li&gt;Розміри позашляховика (ДхШхВ): 96×54×56 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі становить 25 см.&lt;/li&gt;&lt;li&gt;Вага: 15,4 кг.&lt;/li&gt;&lt;li&gt;Вага упаковки: 18,9 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 92×50,5×25,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi — один із найвідоміших брендів дитячого транспорту в Україні, який пропонує широкий асортимент електромобілів, квадроциклів, мотоциклів, толокарів та іншої дитячої техніки. Продукція бренду поєднує сучасний дизайн, функціональність і практичність, забезпечуючи комфортні та захопливі прогулянки для дітей різного віку.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -7270,6 +7446,20 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="JS330-RC" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт керування JS330-RC</name>
+      <picture>https://metr-plus.com.ua/img/1039445.jpg</picture>
+      <description lang="ua">до джипа JS330</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="JS330-ST GEAR" available="true">
       <price>1300</price>
       <price_old>1690</price_old>
@@ -7280,6 +7470,30 @@
       <picture>https://metr-plus.com.ua/img/1039449.jpg</picture>
       <description lang="ua">до джипа JS330, 24V, RPM5000, отвір під вісь 10мм, довжина 17см</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="JS330EBLR-2-5(24V)" available="true">
+      <price>11400</price>
+      <price_old>14820</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип JS330EBLR-2-5(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1038698.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043650.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043651.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043653.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043652.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043654.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043656.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043655.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043658.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043657.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1043659.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Баггі з пультом управління Bambi JS330EBLR виконаний в оригінальному дизайні та обладнаний шкіряним сидінням з 3-х точковими ременями безпеки. Електромобіль обладнаний 4ма двигунами по 35W та акумулятором 24V/5Ah. Передбачена можливість підключення Bluetooth, а також є MP3 та USB. Світло передніх фар, а також приємні мелодії порадують дитину під час їзди. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити баггі Bambi JS330EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики баггі з пультом керування Bambi JS330EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей віком від 3 років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною за допомогою кнопки і педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чути відповідний звук.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма з сигналом.&lt;/li&gt;&lt;li&gt;Електромобіль має 1 посадкове місце з еко-шкіри.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина посадкового місця: 31 см.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Імітація звуку роботи двигуна на кермі (працює від 2хАА батарейок, в комплект не входять).&lt;/li&gt;&lt;li&gt;Музика додасть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Можливе підключення Bluetooth, а також є MP3, USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині і 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність передніх двигунів: 2х24V/RPM6000/35W.&lt;/li&gt;&lt;li&gt;Потужність задніх двигунів: 2х24V/RPM18000/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/5Ah.&lt;/li&gt;&lt;li&gt;Передбачено індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШхВ): 100х61х56 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі : 41 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 15 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 12,7 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 91х51х28 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 16 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг .&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -7312,9 +7526,26 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="JT5188L-2" available="true">
+      <price>4200</price>
+      <price_old>5460</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Мотоцикл JT5188L-2</name>
+      <picture>https://metr-plus.com.ua/img/948897.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/304477.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/304476.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/304478.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Дитячий електромотоцикл Bambi JT5188L оснащений одним посадковим місцем зі шкіряним сидінням, а також кермом з панеллю приладів і пластиковими колесами. Світлові та звукові ефекти розважать дитину під час їзди. Якщо Ви хочете, щоб Ваша дитина активніше і з великою цікавістю освоювала навколишній світ, то в нашому магазині Ви можете купити електромотоцикл Bambi JT5188L.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромотоцикла Bambi JT5188L:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Електромотоцикл виконаний у спортивному стилі.&lt;/li&gt;&lt;li&gt;Призначений для їзди рівними поверхням.&lt;/li&gt;&lt;li&gt;Наводиться в рух дитиною за допомогою педалі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Має 1 посадкове місце зі шкіряним сидінням.&lt;/li&gt;&lt;li&gt;Обладнаний вітровим склом.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Музика розважить під час їзди (працює від 2-х батарейок ААА).&lt;/li&gt;&lt;li&gt;3 колеса в виконані з пластику.&lt;/li&gt;&lt;li&gt;Двигун: 1х6V/RPM18000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х6V/4Ah.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 26 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 20 см.&lt;/li&gt;&lt;li&gt;Акумулятори та зарядний пристрій входять до комплекту.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 18 см.&lt;/li&gt;&lt;li&gt;Розмір мотоцикла (ДхШхВ): 69х36х36см.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="JT5188L-3" available="true">
-      <price>3700</price>
-      <price_old>4810</price_old>
+      <price>4200</price>
+      <price_old>5460</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -7330,8 +7561,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="JT5188L-4" available="true">
-      <price>3700</price>
-      <price_old>4810</price_old>
+      <price>4200</price>
+      <price_old>5460</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -10370,6 +10601,20 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 4968-4WD RC RECEIVER(24V)" available="true">
+      <price>1600</price>
+      <price_old>2080</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Блок керування M 4968-RC RECEIVER(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795129.jpg</picture>
+      <description lang="ua">(1шт) для квадроцикла M 4968, 24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 4968-DASHBOARD 24V" available="true">
       <price>1300</price>
       <price_old>1690</price_old>
@@ -10398,6 +10643,20 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 4968-RC 4WD (24V)" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт керування M 4968-RC(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795162.jpg</picture>
+      <description lang="ua">&lt;p&gt;(1шт) для квадроцикла M 4968, 24V,на бат-ці, в кор-ці 13,5-8-4,5см&lt;/p&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 4968EBLR-1(24V)" available="true">
       <price>21400</price>
       <price_old>27820</price_old>
@@ -10416,6 +10675,30 @@
       <picture>https://metr-plus.com.ua/img/859032.jpg</picture>
       <picture>https://metr-plus.com.ua/img/859033.jpg</picture>
       <picture>https://metr-plus.com.ua/img/859034.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi M 4968EBLR виконаний в оригінальному дизайні та обладнаний 2-ма шкіряними сидіннями з 3-х точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами по 80W та акумулятором 24V/7Ah. Передбачена можливість підключення Bluetooth, а також є FM, MP3 і USB. Світло передніх і верхніх фар додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi M 4968EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi M 4968EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot;, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 шкіряних сидінь з 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 25 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 31 см.&lt;/li&gt;&lt;li&gt;Передні та верхні фари світяться (працюють від батарейок).&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є FM, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині і 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3,5-6, 5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається важелем.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V /80W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(за дзеркалами)хВ): 127х80х80 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 76 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 34 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 19 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 27,4 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 121х73х54 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 32,3 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 60 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4968EBLR-11(24V)" available="true">
+      <price>22600</price>
+      <price_old>29380</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 4968EBLR-11(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795137.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817921.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817922.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817923.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817924.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817925.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817926.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817927.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817928.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817929.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/817930.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi M 4968EBLR виконаний в оригінальному дизайні та обладнаний 2-ма шкіряними сидіннями з 3-х точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами по 80W та акумулятором 24V/7Ah. Передбачена можливість підключення Bluetooth, а також є FM, MP3 і USB. Світло передніх і верхніх фар додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi M 4968EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi M 4968EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot;, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 шкіряних сидінь з 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 25 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 31 см.&lt;/li&gt;&lt;li&gt;Передні та верхні фари світяться (працюють від батарейок).&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є FM, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині і 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3,5-6, 5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається важелем.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V /80W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(за дзеркалами)хВ): 127х80х80 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 76 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 34 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 19 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 27,4 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 121х73х54 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 32,3 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 60 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -10446,6 +10729,48 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 4969-DASHBOARD(24V)" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Панель запуску M 4969-DASHBOARD(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795158.jpg</picture>
+      <description lang="ua">(1шт) для квадроциклу M 4969,24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4969-RC RECEIVER(24V) 4WD" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Блок керування M 4969-RC RECEIVER(24V) 4WD</name>
+      <picture>https://metr-plus.com.ua/img/795131.jpg</picture>
+      <description lang="ua">4WD (1шт) для квадроцикла M 4969, 24V, 4WD</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4969-RC(24V)" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт керування M 4969-RC(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795163.jpg</picture>
+      <description lang="ua">(1шт) для квадроцикла M 4969, 24V,на бат-ці, в кор-ці 13,5-8-4,5см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 4969-ST GEAR(24V) 4WD" available="true">
       <price>1200</price>
       <price_old>1560</price_old>
@@ -10456,6 +10781,50 @@
       <picture>https://metr-plus.com.ua/img/798408.jpg</picture>
       <description lang="ua">4WD (1шт) для машини M 4969, 24V, 4WD</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4969EBLR-15(24V)" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 4969EBLR-15 (24V)</name>
+      <picture>https://metr-plus.com.ua/img/795143.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804022.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804026.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804025.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804020.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804021.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804019.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804024.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804023.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Баггі з пультом управління Bambi M 4969EBLR виконаний в оригінальному дизайні та обладнаний 2-х місним шкіряним сидінням з 3-х точковими ременями безпеки. Електромобіль обладнаний 4-ма двигунами по 80W та акумулятором 24V/7Ah. Передбачена можливість підключення Bluetooth, а також є MP3, USB. Світло передніх та верхніх фар, а також приємні мелодії порадують дитину під час їзди. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити баггі Bambi M 4969EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики баггі з пультом управління Bambi M 4969EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей віком від 3 років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною за допомогою кнопки і педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чути відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; та &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма з сигналом.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 посадкові місця зі шкіряними сидіннями.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина посадкового місця: 24 см.&lt;/li&gt;&lt;li&gt;Передні та верхні фари (працюють від батарейок) світяться.&lt;/li&gt;&lt;li&gt;Предбачена кнопка ввімкнення/вимкнення світла.&lt;/li&gt;&lt;li&gt;Приємна музика додасть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є MP3, USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачено задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 2-6 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/ назад перемикається кнопкою.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V/RPM12000/80W.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШхВ) : 123х78х80 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 32 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 32 см.&lt;/li&gt;&lt;li&gt;Діаметр диску: 18 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 34 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 118х66х38 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 37 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 60 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4969EBLR-7(24V)" available="true">
+      <price>19100</price>
+      <price_old>24830</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 4969EBLR-7(24V)</name>
+      <picture>https://metr-plus.com.ua/img/795146.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804014.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804017.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804016.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804015.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804013.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804011.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804012.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/804010.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Баггі з пультом управління Bambi M 4969EBLR виконаний в оригінальному дизайні та обладнаний 2-х місним шкіряним сидінням з 3-х точковими ременями безпеки. Електромобіль обладнаний 4-ма двигунами по 80W та акумулятором 24V/7Ah. Передбачена можливість підключення Bluetooth, а також є MP3, USB. Світло передніх та верхніх фар, а також приємні мелодії порадують дитину під час їзди. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити баггі Bambi M 4969EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики баггі з пультом управління Bambi M 4969EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей віком від 3 років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною за допомогою кнопки і педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чути відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; та &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма з сигналом.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 посадкові місця зі шкіряними сидіннями.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина посадкового місця: 24 см.&lt;/li&gt;&lt;li&gt;Передні та верхні фари (працюють від батарейок) світяться.&lt;/li&gt;&lt;li&gt;Предбачена кнопка ввімкнення/вимкнення світла.&lt;/li&gt;&lt;li&gt;Приємна музика додасть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth (STOP BUTTON), а також є MP3, USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачено задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 2-6 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/ назад перемикається кнопкою.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V/RPM12000/80W.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШхВ) : 123х78х80 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 32 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 32 см.&lt;/li&gt;&lt;li&gt;Діаметр диску: 18 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 34 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 118х66х38 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 37 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 60 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -12260,6 +12629,50 @@
       <picture>https://metr-plus.com.ua/img/861515.jpg</picture>
       <description lang="ua">для джипа  M 5103, 12V, RPM5500, отвір під вісь 10мм, довжина</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5103EBLR-1" available="true">
+      <price>10100</price>
+      <price_old>13130</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 5103EBLR-1</name>
+      <picture>https://metr-plus.com.ua/img/864983.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899211.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899212.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899213.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899214.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899215.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899216.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899217.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/899218.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi M 5103EBLR виконаний в оригінальному дизайні та обладнаний 1 шкіряним сидінням. Електромобіль оснащений 2 потужними двигунами та акумулятором 12V/7Ah. Передбачена можливість підключення Bluetooth, а також є MP3 і USB. Світло передніх фар, а також стробоскоп додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi M 5103EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi M 5103BLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot; та педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має 1 сидіння із еко шкіри.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 33 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 28 см.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 2-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Передні фари світяться, а також є стробоскоп (працює від 2хАА, в комплект не входять).&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Сигнал на кермі.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Bluetooth, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;В комплект входить лопата.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 2-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 2х12V/40W.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х12V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(по дзеркалах)хВ): 105х59х64 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 64 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 25 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 19,5 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 13,5 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 54х27,5х96 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 16,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5103EBLR-10" available="true">
+      <price>10100</price>
+      <price_old>13130</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 5103EBLR-10</name>
+      <picture>https://metr-plus.com.ua/img/864984.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940479.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940480.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940481.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940482.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940483.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940484.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940485.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/940486.jpg</picture>
+      <description lang="ua">р/к2,4G, 2мотори40W, 1акум12V7AH,світло,муз,колесаEVA, шкір.сидіння, хакі</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -15351,6 +15764,20 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6058-ST-WHEE" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Кермо M 6058-ST-WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/999806.jpg</picture>
+      <description lang="ua">до джипу М 6058</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6058EBLR-11(24V)" available="true">
       <price>17600</price>
       <price_old>22880</price_old>
@@ -16037,6 +16464,106 @@
       <picture>https://metr-plus.com.ua/img/1011644.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1011645.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 3 років Дитячий електромобіль з пультом керування Bambi M 6107EBLR нагадує модель справжнього автомобіля та обладнаний 2 посадковими місцями зі шкіряними сидіннями та 3 точковими ременями безпеки. Передбачена можливість підключення Bluetooth, а також є MP3, USB. Світло передніх фар, сигнал на кермі та приємна музика розважать дитину під час їзди. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити електромобіль Bambi M 6107EBLR та урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля Bambi M 6107EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей віком від 3 років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot;Старт&amp;quot;, додатку і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чути відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; та &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 посадкові місця зі шкіряними сидіннями.&lt;/li&gt;&lt;li&gt;Посадкові місця обладнані 3 точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 30 см.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 2х27см.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Сигнал на кермі розважить дитину під час їзди.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Музика розважить дитину під час їзди.&lt;/li&gt;&lt;li&gt;Можливе підключення Bluetooth, а також є MP3, USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Двері відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість: 2-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед і назад перемикається важілем.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V/90W.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Час на зарядку: 8-12 годин.&lt;/li&gt;&lt;li&gt;Передбачено індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(по колесам)хВ): 140х71х45 см.&lt;/li&gt;&lt;li&gt;Ширина по дзеркалам: 79 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 24 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 20 см.&lt;/li&gt;&lt;li&gt;Вага: 24,3 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 109х70х30 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 28,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 59 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108-DASHBOARD" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Панель запуску M 6108-DASHBOARD</name>
+      <picture>https://metr-plus.com.ua/img/994617.jpg</picture>
+      <description lang="ua">до джипу М 6108</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108-EVA-WHEEL" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Колесо M 6108-EVA-WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/994614.jpg</picture>
+      <description lang="ua">EVA до джипу М 6108, ширина 10,5см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108-GEAR BOX" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Редуктор у зборі з мотором M 6108-GEAR BOX</name>
+      <picture>https://metr-plus.com.ua/img/994618.jpg</picture>
+      <description lang="ua">до джипу М 6108, 24V, RPM12000, отвір під вісь 12мм, довжина</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108-RC RECEIVER" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Блок керування M 6108-RC RECEIVER</name>
+      <picture>https://metr-plus.com.ua/img/994611.jpg</picture>
+      <description lang="ua">до джипу М 6108, 24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108EBLR-1(24V)" available="true">
+      <price>17600</price>
+      <price_old>22880</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 6108EBLR-1(24V)</name>
+      <picture>https://metr-plus.com.ua/img/978726.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982747.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982748.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982749.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982750.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982751.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982752.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982753.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982754.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3-х до 8-ми років Позашляховик з пультом управління Bambi M 6108EBLR виконаний в оригінальному дизайні та обладнаний 2 місцеве шкіряне сидіння з 3-х точковими ременями безпеки. Електромобіль оснащений 4-ма потужними двигунами по 90W та акумулятором 24V/7Ah. Передбачена можливість підключення Bluetooth, а також є FM, SD, MP3 і USB. Світло передніх і верхніх фар додасть їзді різноманітності. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити позашляховик Bambi M 6108EBLR і урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики позашляховика з пультом керування Bambi M 6108EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей від 3-х років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot; Старт&amp;quot;, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чутно відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; і &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Електромобіль має 2 місцеве сидіння з екошкіри з 3-х точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 50 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 31 см.&lt;/li&gt;&lt;li&gt;В комплект входить лопатка.&lt;/li&gt;&lt;li&gt;Передні та верхні фари світяться (працюють від батарейок).&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Приємна музика та сигнал на кермі додадуть їзді різноманітності.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Двері електромобіля відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Можливо підключення Bluetooth, а також є FM, SD, MP3 та USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 2 швидкості руху в машині і 3 швидкості на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х24V/90W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х24V/7Ah.&lt;/li&gt;&lt;li&gt;Предбачено індикатор заряду акумулятора.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШ(за дзеркалами)хВ): 122х74х76 см.&lt;/li&gt;&lt;li&gt;Ширина по колесах: 73 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 28 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 19 см.&lt;/li&gt;&lt;li&gt;Вага електромобіля: 26,5 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 103,5х70х40 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 34,7 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 59 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6108EBLR-2(24V)" available="true">
+      <price>17600</price>
+      <price_old>22880</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Джип M 6108EBLR-2(24V)</name>
+      <picture>https://metr-plus.com.ua/img/978727.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982736.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982737.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982738.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982739.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982740.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982741.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982742.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/982743.jpg</picture>
+      <description lang="ua">(1шт) р/к2,4G, 4мотори90W, 1акум24V7AH,світло,муз,колесаEVA, USB, BLUETOOTH, FM, шкір.сидіння, чорний</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -19171,10 +19698,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6260EBLR-6(24V)" available="true">
+    <offer id="M 6260EBLR-6(24V)" available="false">
       <price>19200</price>
       <price_old>24960</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Трактор M 6260EBLR-6(24V)</name>
@@ -27027,6 +27554,68 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="ME 1114 Black" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло дитяче ME 1114 EVEREST Black</name>
+      <picture>https://metr-plus.com.ua/img/841179.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 12 років Автокрісло EL Camino Everest ME 1114 дозволить дитині створити зручне та безпечне місце в автомобілі, піднімаючи його на оптимальну висоту, збільшуючи огляд під час подорожей. Встановлюється автокрісло як проти руху, так і у напрямку руху. Кріпиться автокрісло за допомогою системи Isofix і Top Tether. Воно має поворотне сидіння зі спинкою, що регулюється по куту нахилу. Підголовник автокрісла регулюється по висоті в кількох положеннях, що захистить голову дитини в будь-якому віці. Якщо Ви збираєтеся в дорогу, то подбайте про свою дитину і не забудьте купити автокрісло EL Camino Everest ME 1114, щоб зробити поїздку комфортною, а головне безпечною.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики автокрісла EL Camino Everest ME 1114:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відноситься до групи 0-1-2-3 і розраховане для дітей з народження до 36 кг.&lt;/li&gt;&lt;li&gt;Крісло встановлюється в автомобілі проти ходу руху для дітей до 1-го року і кріпиться за допомогою системи Isofix і Top Tether.&lt;/li&gt;&lt;li&gt;Після досягнення дитиною 1-го року автокрісло можна встановлювати в напрямку руху.&lt;/li&gt;&lt;li&gt;Сидіння поворотне на 360 градусів.&lt;/li&gt;&lt;li&gt;Спинка сидіння автокрісла регулюється по куту нахилу в 3-х положеннях по ходу руху і в 4 проти ходу.&lt;/li&gt;&lt;li&gt;На сидінні розміщено додатковий м&amp;#x27;який вкладиш для найменших мандрівників.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками регулюються під зріст дитини.&lt;/li&gt;&lt;li&gt;Розмір автокрісла (ШхГхВ): 45х34х61-77 см.&lt;/li&gt;&lt;li&gt;Вага автокрісла: 7 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 8 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 50,5х44,5х58,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1114 Dark Gray" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло дитяче ME 1114 EVEREST Dark Gray</name>
+      <picture>https://metr-plus.com.ua/img/841180.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847527.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847528.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847529.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847530.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847531.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847532.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847533.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847534.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847535.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847536.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 12 років Автокрісло EL Camino Everest ME 1114 дозволить дитині створити зручне та безпечне місце в автомобілі, піднімаючи його на оптимальну висоту, збільшуючи огляд під час подорожей. Встановлюється автокрісло як проти руху, так і у напрямку руху. Кріпиться автокрісло за допомогою системи Isofix і Top Tether. Воно має поворотне сидіння зі спинкою, що регулюється по куту нахилу. Підголовник автокрісла регулюється по висоті в кількох положеннях, що захистить голову дитини в будь-якому віці. Якщо Ви збираєтеся в дорогу, то подбайте про свою дитину і не забудьте купити автокрісло EL Camino Everest ME 1114, щоб зробити поїздку комфортною, а головне безпечною.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики автокрісла EL Camino Everest ME 1114:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відноситься до групи 0-1-2-3 і розраховане для дітей з народження до 36 кг.&lt;/li&gt;&lt;li&gt;Крісло встановлюється в автомобілі проти ходу руху для дітей до 1-го року і кріпиться за допомогою системи Isofix і Top Tether.&lt;/li&gt;&lt;li&gt;Після досягнення дитиною 1-го року автокрісло можна встановлювати в напрямку руху.&lt;/li&gt;&lt;li&gt;Сидіння поворотне на 360 градусів.&lt;/li&gt;&lt;li&gt;Спинка сидіння автокрісла регулюється по куту нахилу в 3-х положеннях по ходу руху і в 4 проти ходу.&lt;/li&gt;&lt;li&gt;На сидінні розміщено додатковий м&amp;#x27;який вкладиш для найменших мандрівників.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками регулюються під зріст дитини.&lt;/li&gt;&lt;li&gt;Розмір автокрісла (ШхГхВ): 45х34х61-77 см.&lt;/li&gt;&lt;li&gt;Вага автокрісла: 7 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 8 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 50,5х44,5х58,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1114 Light Gray" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
+      <category code="843">Автокрісла</category>
+      <attribute_set code="843">Автокрісла</attribute_set>
+      <name lang="ua">Автокрісло дитяче ME 1114 EVEREST Light Gray</name>
+      <picture>https://metr-plus.com.ua/img/841181.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847540.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847541.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847542.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847543.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847544.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847545.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847546.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847547.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847548.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/847549.jpg</picture>
+      <description lang="ua">&lt;p&gt;З народження до 12 років Автокрісло EL Camino Everest ME 1114 дозволить дитині створити зручне та безпечне місце в автомобілі, піднімаючи його на оптимальну висоту, збільшуючи огляд під час подорожей. Встановлюється автокрісло як проти руху, так і у напрямку руху. Кріпиться автокрісло за допомогою системи Isofix і Top Tether. Воно має поворотне сидіння зі спинкою, що регулюється по куту нахилу. Підголовник автокрісла регулюється по висоті в кількох положеннях, що захистить голову дитини в будь-якому віці. Якщо Ви збираєтеся в дорогу, то подбайте про свою дитину і не забудьте купити автокрісло EL Camino Everest ME 1114, щоб зробити поїздку комфортною, а головне безпечною.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики автокрісла EL Camino Everest ME 1114:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відноситься до групи 0-1-2-3 і розраховане для дітей з народження до 36 кг.&lt;/li&gt;&lt;li&gt;Крісло встановлюється в автомобілі проти ходу руху для дітей до 1-го року і кріпиться за допомогою системи Isofix і Top Tether.&lt;/li&gt;&lt;li&gt;Після досягнення дитиною 1-го року автокрісло можна встановлювати в напрямку руху.&lt;/li&gt;&lt;li&gt;Сидіння поворотне на 360 градусів.&lt;/li&gt;&lt;li&gt;Спинка сидіння автокрісла регулюється по куту нахилу в 3-х положеннях по ходу руху і в 4 проти ходу.&lt;/li&gt;&lt;li&gt;На сидінні розміщено додатковий м&amp;#x27;який вкладиш для найменших мандрівників.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками регулюються під зріст дитини.&lt;/li&gt;&lt;li&gt;Розмір автокрісла (ШхГхВ): 45х34х61-77 см.&lt;/li&gt;&lt;li&gt;Вага автокрісла: 7 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 8 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 50,5х44,5х58,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="ME 1115-W Beige" available="true">
       <price>4500</price>
       <price_old>5850</price_old>
@@ -28282,10 +28871,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1191-1 Emerald Green" available="true">
+    <offer id="ME 1191-1 Emerald Green" available="false">
       <price>12600</price>
       <price_old>16380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска універсальна 2в1 El Camino CHLOE ME 1191-1 Emerald Green</name>
@@ -30015,10 +30604,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MR 1512 Ivory Beige" available="true">
+    <offer id="MR 1512 Ivory Beige" available="false">
       <price>2400</price>
       <price_old>3120</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Намет MR 1512 Ivory Beige</name>
       <picture>https://metr-plus.com.ua/img/974464.jpg</picture>
       <picture>https://metr-plus.com.ua/img/974497.jpg</picture>
@@ -30199,10 +30788,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 0535-1" available="true">
+    <offer id="MS 0535-1" available="false">
       <price>2000</price>
       <price_old>2600</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Степ-платформа MS 0535-1</name>
       <picture>https://metr-plus.com.ua/img/921160.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1148946.jpg</picture>
@@ -31767,6 +32356,20 @@
       <name lang="ua">Блок керування RC RECEIVER-JJ2580</name>
       <picture>https://metr-plus.com.ua/img/1142097.jpg</picture>
       <description lang="ua">&lt;p&gt;до джипу JJ2580, 24V&lt;/p&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="RC RECEIVER-JS330" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Блок керування RC RECEIVER-JS330</name>
+      <picture>https://metr-plus.com.ua/img/1039436.jpg</picture>
+      <description lang="ua">до джипу JS330, 24V</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
