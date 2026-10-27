@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-10-27 03:37">
+<yml_catalog date="2026-10-27 09:34">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4400</price>
@@ -16066,10 +16066,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6111(MP4)EBLRS-11(24V)" available="true">
+    <offer id="M 6111(MP4)EBLRS-11(24V)" available="false">
       <price>32600</price>
       <price_old>42380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6111(MP4)EBLRS-11(24V)</name>
@@ -17645,10 +17645,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6153-GEAR BOX" available="true">
+    <offer id="M 6153-GEAR BOX" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор в зборі з мотором M 6153-GEAR BOX</name>
@@ -22194,10 +22194,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6316-RC RECEIVER" available="false">
-      <price>1400</price>
-      <price_old>1820</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6316-RC RECEIVER" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 6316-RC RECEIVER</name>
       <picture>https://metr-plus.com.ua/img/1161195.jpg</picture>
       <description lang="ua">до квадроциклу M 6316, 12V</description>
@@ -22500,10 +22502,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6324-EVA WHEEL" available="true">
+    <offer id="M 6324-EVA WHEEL" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Колесо M 6324-EVA WHEEL</name>
@@ -24557,6 +24559,34 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6480-GEAR" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Редуктор у зборі з мотором M 6480-GEAR</name>
+      <picture>https://metr-plus.com.ua/img/1157899.jpg</picture>
+      <description lang="ua">до екскаватора M 6480, 24V, RPM 12000, отвір під вісь12мм, довжина 19см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6480-RC" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт керування M 6480-RC</name>
+      <picture>https://metr-plus.com.ua/img/1157896.jpg</picture>
+      <description lang="ua">2,4G, до екскаватора M 6480</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6480-RC RECEIVER" available="true">
       <price>1600</price>
       <price_old>2080</price_old>
@@ -24566,6 +24596,20 @@
       <name lang="ua">Блок керування M 6480-RC RECEIVER</name>
       <picture>https://metr-plus.com.ua/img/1157876.jpg</picture>
       <description lang="ua">до екскаватора M 6480, 24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6480-ST WHEEL" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Кермо M 6480-ST WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1161554.jpg</picture>
+      <description lang="ua">до екскаватора M 6480</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -24627,6 +24671,34 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6481-GEAR" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Редуктор у зборі з мотором M 6481-GEAR</name>
+      <picture>https://metr-plus.com.ua/img/1157900.jpg</picture>
+      <description lang="ua">до джипу M 6481, 24V, RPM 12000, отвір під вісь12мм, довжина 19см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6481-RC" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Пульт керування M 6481-RC</name>
+      <picture>https://metr-plus.com.ua/img/1157897.jpg</picture>
+      <description lang="ua">2,4G, до джипу M 6481</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6481-RC RECEIVER" available="true">
       <price>1600</price>
       <price_old>2080</price_old>
@@ -24636,6 +24708,20 @@
       <name lang="ua">Блок керування M 6481-RC RECEIVER</name>
       <picture>https://metr-plus.com.ua/img/1157877.jpg</picture>
       <description lang="ua">до джипу M 6481, 24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6481-ST WHEEL" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Кермо M 6481-ST WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1161555.jpg</picture>
+      <description lang="ua">до джипу M 6481</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -24921,10 +25007,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-F-EVA WHEEL" available="false">
-      <price>1100</price>
-      <price_old>1430</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6526-F-EVA WHEEL" available="true">
+      <price>1000</price>
+      <price_old>1300</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Колесо M 6526-F-EVA WHEEL</name>
       <picture>https://metr-plus.com.ua/img/1161179.jpg</picture>
       <description lang="ua">переднє, до мотоциклу M 6526, ширина 8см, діам.20см</description>
@@ -24933,10 +25021,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-GEAR BOX" available="false">
+    <offer id="M 6526-GEAR BOX" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 6526-GEAR BOX</name>
       <picture>https://metr-plus.com.ua/img/1161183.jpg</picture>
       <description lang="ua">до мотоциклу M 6526, 6V, RPM15000, отвір під вісь 10мм, довжина 17см</description>
@@ -24945,10 +25035,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-MP3" available="false">
+    <offer id="M 6526-MP3" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Плеєр M 6526-MP3</name>
       <picture>https://metr-plus.com.ua/img/1161181.jpg</picture>
       <description lang="ua">до мотоциклу M 6526</description>
@@ -24957,10 +25049,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-R-EVA WHEEL" available="false">
-      <price>1100</price>
-      <price_old>1430</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6526-R-EVA WHEEL" available="true">
+      <price>1000</price>
+      <price_old>1300</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Колесо M 6526-R-EVA WHEEL</name>
       <picture>https://metr-plus.com.ua/img/1161180.jpg</picture>
       <description lang="ua">заднє, до мотоциклу M 6526, ширина 8см, діам.20см</description>
@@ -24969,10 +25063,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-RC" available="false">
-      <price>1000</price>
-      <price_old>1300</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6526-RC" available="true">
+      <price>900</price>
+      <price_old>1170</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Пульт керування M 6526-RC</name>
       <picture>https://metr-plus.com.ua/img/1161182.jpg</picture>
       <description lang="ua">до мотоциклу M 6526</description>
@@ -24981,10 +25077,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6526-SP-HANDLE" available="false">
-      <price>1300</price>
-      <price_old>1690</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6526-SP-HANDLE" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Кермо M 6526-SP-HANDLE</name>
       <picture>https://metr-plus.com.ua/img/1161178.jpg</picture>
       <description lang="ua">до мотоциклу M 6526</description>

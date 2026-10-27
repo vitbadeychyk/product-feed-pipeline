@@ -1,6 +1,6 @@
 {
-  "total": 2015,
-  "unresolved_count": 206,
+  "total": 2021,
+  "unresolved_count": 199,
   "unresolved": [
     {
       "sku": "10034",
@@ -543,41 +543,6 @@
       "name": "Пульт керування M 6316-RC"
     },
     {
-      "sku": "M 6316-RC RECEIVER",
-      "supplier_category_id": "114",
-      "name": "Блок керування M 6316-RC RECEIVER"
-    },
-    {
-      "sku": "M 6526-F-EVA WHEEL",
-      "supplier_category_id": "114",
-      "name": "Колесо M 6526-F-EVA WHEEL"
-    },
-    {
-      "sku": "M 6526-GEAR BOX",
-      "supplier_category_id": "114",
-      "name": "Редуктор у зборі з мотором M 6526-GEAR BOX"
-    },
-    {
-      "sku": "M 6526-MP3",
-      "supplier_category_id": "114",
-      "name": "Плеєр M 6526-MP3"
-    },
-    {
-      "sku": "M 6526-R-EVA WHEEL",
-      "supplier_category_id": "114",
-      "name": "Колесо M 6526-R-EVA WHEEL"
-    },
-    {
-      "sku": "M 6526-RC",
-      "supplier_category_id": "114",
-      "name": "Пульт керування M 6526-RC"
-    },
-    {
-      "sku": "M 6526-SP-HANDLE",
-      "supplier_category_id": "114",
-      "name": "Кермо M 6526-SP-HANDLE"
-    },
-    {
       "sku": "M 6563-11",
       "supplier_category_id": "122",
       "name": "Розвиваючий центр-стрибунець M 6563-11"
@@ -1033,7 +998,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 785,
+  "fallback_count": 798,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -5439,6 +5404,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6316-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6316-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6316-ST GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор M 6316-ST GEAR",
@@ -5992,9 +5964,30 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6480-GEAR",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6480-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6480-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6480-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6480-RC RECEIVER",
       "supplier_category_id": "195",
       "name": "Блок керування M 6480-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6480-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6480-ST WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -6020,6 +6013,20 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6481-GEAR",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6481-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6481-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6481-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6481-RC RECEIVER",
       "supplier_category_id": "195",
       "name": "Блок керування M 6481-RC RECEIVER",
@@ -6027,9 +6034,58 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6481-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6481-ST WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6481-ST-GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор M 6481-ST-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-F-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6526-F-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6526-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-MP3",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 6526-MP3",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-R-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6526-R-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6526-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6526-SP-HANDLE",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6526-SP-HANDLE",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -7485,11 +7541,17 @@
       "M 6409EBLR-3",
       "M 6480-BLUETOOTH",
       "M 6480-EVA WHEEL",
+      "M 6480-GEAR",
+      "M 6480-RC",
       "M 6480-RC RECEIVER",
+      "M 6480-ST WHEEL",
       "M 6480-ST-GEAR",
       "M 6481-BLUETOOTH",
       "M 6481-EVA WHEEL",
+      "M 6481-GEAR",
+      "M 6481-RC",
       "M 6481-RC RECEIVER",
+      "M 6481-ST WHEEL",
       "M 6481-ST-GEAR",
       "M 6506EBLR-1",
       "M 6506EBLR-3",
@@ -7704,8 +7766,8 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 3966,
-    "Розмір упаковки": 1168,
+    "Матеріал": 3978,
+    "Розмір упаковки": 1172,
     "Тип пакування": 554,
     "Серія": 78,
     "Бренд": 78,
@@ -9231,12 +9293,18 @@
     "M 6478EL-5",
     "M 6480-BLUETOOTH",
     "M 6480-EVA WHEEL",
+    "M 6480-GEAR",
+    "M 6480-RC",
     "M 6480-RC RECEIVER",
+    "M 6480-ST WHEEL",
     "M 6480-ST-GEAR",
     "M 6480EBLR-6(24V)",
     "M 6481-BLUETOOTH",
     "M 6481-EVA WHEEL",
+    "M 6481-GEAR",
+    "M 6481-RC",
     "M 6481-RC RECEIVER",
+    "M 6481-ST WHEEL",
     "M 6481-ST-GEAR",
     "M 6481EBLR-1(24V)",
     "M 6481EBLR-3(24V)",
