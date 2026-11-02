@@ -90,8 +90,12 @@ def build_feed(source: ET.Element, manual: ET.Element, products: dict) -> ET.Ele
         offer.set("id", sku)
         offer.set("available", "true" if available else "false")
         set_text(offer, "price", data["price"])
-        old_price = data.get("price_old") or int(float(data["price"]) * 1.3)
-        set_text(offer, "price_old", old_price)
+        if data.get("has_rrc"):
+            for old_price_node in list(offer.findall("price_old")):
+                offer.remove(old_price_node)
+        else:
+            old_price = data.get("price_old") or int(float(data["price"]) * 1.3)
+            set_text(offer, "price_old", old_price)
         # Epicentr rejects priceOld. Remove cached copies from historical cards too.
         for legacy_price in list(offer.findall("priceOld")):
             offer.remove(legacy_price)

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from decimal import Decimal, InvalidOperation
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
@@ -95,29 +96,37 @@ def build_current_products(products: list[dict]) -> dict[str, dict]:
             product.get("price", 0) or 0
         )
 
-        if original_price <= 0:
+        if original_price <= 0 and not safe_text(product.get("price_rrc")):
             continue
 
         category_id = safe_text(
             product.get("category_id")
         )
 
-        final_price = calculate_price(
-            original_price=original_price,
-            category_id=category_id,
-        )
+        # Supplier RRC overrides the Epicentr category calculator.
+        rrc_text = safe_text(product.get("price_rrc")).replace(" ", "").replace(",", ".")
+        try:
+            rrc_price = Decimal(rrc_text)
+            valid_rrc = rrc_price.is_finite() and rrc_price > 0
+        except InvalidOperation:
+            valid_rrc = False
 
-        final_price = int(final_price)
+        if valid_rrc:
+            final_price = rrc_price
+        else:
+            final_price = int(calculate_price(
+                original_price=original_price,
+                category_id=category_id,
+            ))
 
         current_products[vendor_code] = {
             "id": vendor_code,
             "available": normalize_available(
                 product.get("available")
             ),
-            "price": final_price,
-            "price_old": calculate_old_price(
-                final_price
-            ),
+            "price": float(final_price) if valid_rrc else final_price,
+            "price_old": 0 if valid_rrc else calculate_old_price(final_price),
+            "has_rrc": valid_rrc,
             "category_id": category_id,
             "source": "supplier",
             "last_seen_at": datetime.now().strftime(
@@ -338,12 +347,7 @@ def build_feed(
             )
         )
 
-        price_value = int(
-            product_data.get(
-                "price",
-                0,
-            ) or 0
-        )
+        price_value = product_data.get("price", 0) or 0
 
         if price_value <= 0:
             continue
@@ -355,12 +359,8 @@ def build_feed(
             ) or 0
         )
 
-        if old_price_value <= 0:
-            old_price_value = (
-                calculate_old_price(
-                    price_value
-                )
-            )
+        if old_price_value <= 0 and not product_data.get("has_rrc"):
+            old_price_value = calculate_old_price(price_value)
 
         offer = ET.SubElement(
             offers,
@@ -386,12 +386,8 @@ def build_feed(
             price_value
         )
 
-        ET.SubElement(
-            offer,
-            "price_old",
-        ).text = str(
-            old_price_value
-        )
+        if not product_data.get("has_rrc"):
+            ET.SubElement(offer, "price_old").text = str(old_price_value)
 
         ET.SubElement(
             offer,
