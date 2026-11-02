@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from decimal import Decimal, InvalidOperation
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
@@ -102,22 +103,29 @@ def build_current_products(products: list[dict]) -> dict[str, dict]:
             product.get("category_id")
         )
 
-        final_price = calculate_price(
-            original_price=original_price,
-            category_id=category_id,
-        )
+        # Supplier RRC overrides the Epicentr category calculator.
+        rrc_text = safe_text(product.get("price_rrc")).replace(" ", "").replace(",", ".")
+        try:
+            rrc_price = Decimal(rrc_text)
+            valid_rrc = rrc_price.is_finite() and rrc_price > 0
+        except InvalidOperation:
+            valid_rrc = False
 
-        final_price = int(final_price)
+        if valid_rrc:
+            final_price = rrc_price
+        else:
+            final_price = int(calculate_price(
+                original_price=original_price,
+                category_id=category_id,
+            ))
 
         current_products[vendor_code] = {
             "id": vendor_code,
             "available": normalize_available(
                 product.get("available")
             ),
-            "price": final_price,
-            "price_old": calculate_old_price(
-                final_price
-            ),
+            "price": float(final_price) if valid_rrc else final_price,
+            "price_old": calculate_old_price(final_price),
             "category_id": category_id,
             "source": "supplier",
             "last_seen_at": datetime.now().strftime(
