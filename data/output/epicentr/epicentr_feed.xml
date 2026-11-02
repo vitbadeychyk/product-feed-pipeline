@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-02 04:17">
+<yml_catalog date="2026-11-02 14:25">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -3326,10 +3326,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="BL-2605" available="true">
+    <offer id="BL-2605" available="false">
       <price>7500</price>
       <price_old>9750</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="1441">Велосипеди</category>
       <attribute_set code="1441">Велосипеди</attribute_set>
       <name lang="ua">Велосипед PROFI BALANCE 26 д. BL-2605</name>
@@ -4171,10 +4171,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="FD-27506" available="true">
+    <offer id="FD-27506" available="false">
       <price>7600</price>
       <price_old>9880</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="1441">Велосипеди</category>
       <attribute_set code="1441">Велосипеди</attribute_set>
       <name lang="ua">Велосипед PROFI FREEDOM 27,5 д. FD-27506</name>
@@ -12080,10 +12080,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5050EL-2" available="true">
+    <offer id="M 5050EL-2" available="false">
       <price>7200</price>
       <price_old>9360</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 5050EL-2</name>
@@ -17868,10 +17868,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6138,M 6139,M 6140-GEAR BOX" available="true">
+    <offer id="M 6138,M 6139,M 6140-GEAR BOX" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор в зборі з мотором M 6138,M 6139,M 6140-GEAR BOX</name>
@@ -17896,10 +17896,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6138,M 6139,M 6140-RC RECEIVER" available="true">
+    <offer id="M 6138,M 6139,M 6140-RC RECEIVER" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 6138,M 6139,M 6140-RC RECEIVER</name>
@@ -18629,6 +18629,18 @@
       <picture>https://metr-plus.com.ua/img/974096.jpg</picture>
       <picture>https://metr-plus.com.ua/img/974097.jpg</picture>
       <description lang="ua">&lt;p&gt;Двомісний електромобіль баггі M 6149EBLR-11(24V) сірий - виконаний у вигляді стильного баггі, він одразу привертає увагу своїм зухвалим дизайном та спортивними формами. Такий транспорт стане чудовим подарунком для дитини, яка любить пригоди, рух та відчуття справжнього водіння. Дитячий баггі M 6149EBLR-11(24V) оснащений двомісним сидінням з м&amp;#x27;яким чохлом з екошкіри, завдяки чому малюкові буде зручно навіть під час довгих прогулянок, безпека дітей забезпечують надійні ремені, які фіксують дитину, але при цьому не сковують її рухи. Дитячий електромобіль M 6149EBLR-11(24V) має фари, що світяться, які створюють ефект справжнього транспорту і дозволяють кататися в сутінках, а вбудована функціональна магнітола подарує улюблену музику під час кожної прогулянки. Таке доповнення робить поїздки ще цікавішими та веселішими для дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6149 EBLR-11 (24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Два мотори 2х120W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Двомісне шкіряне сидіння&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Заряджання 24V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - кнопка, педаль газу&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 18 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Додаткові кнопки на панелі, MP3+USB, TF, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 80 кг&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6149EBLR-11-7(24V)" available="true">
+      <price>26400</price>
+      <price_old>34320</price_old>
+      <availability>in_stock</availability>
+      <name lang="ua">Джип M 6149EBLR-11-7(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1162740.jpg</picture>
+      <description lang="ua">(1шт) 2,4G р/к, 1*24V7AH, 2*120W, MP3, USB, TF, BLUETOOTH, EVA, шкіра, музика, світло, сіро-помаранчевий</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31753,7 +31765,7 @@
       <price>5200</price>
       <price_old>6760</price_old>
       <availability>in_stock</availability>
-      <name lang="ua">Снігокат MS MS 1778-10-BR</name>
+      <name lang="ua">Снігокат MS 1778-10-BR</name>
       <picture>https://metr-plus.com.ua/img/1162620.jpg</picture>
       <description lang="ua">низька рама, д106-ш47-в51см, спинка (висота 51см), висота до руля 41см, м&amp;apos;яке сидіння (екошкіра, 45-21см, висота до сидіння 28см, 2 положення відносно керма), малюнок(єдиноріг), метал+пластик, білий+рожевий, в кор-ці</description>
       <vendor>Unicorn Paw</vendor>
