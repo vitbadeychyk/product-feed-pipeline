@@ -47,6 +47,7 @@ def parse_local_feed() -> list[dict]:
             "name": get_text(item, "name"),
             "name_ua": get_text(item, "name_ua"),
             "price": parse_price(get_text(item, "price")),
+            "price_rrc": get_text(item, "price_rrc"),
             "category_id": get_text(item, "categoryId"),
             "url": get_text(item, "url"),
             "quantity_in_stock": get_text(item, "quantity_in_stock"),
