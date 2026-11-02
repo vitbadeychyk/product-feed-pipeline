@@ -5,6 +5,7 @@ import re
 import html
 import xml.etree.ElementTree as ET
 
+from decimal import Decimal, InvalidOperation
 from datetime import datetime
 from pathlib import Path
 
@@ -1074,6 +1075,11 @@ def build_offer(
         "price",
     )
 
+    raw_price_rrc = get_text(
+        item,
+        "price_rrc",
+    )
+
     barcode = get_text(
         item,
         "barcode",
@@ -1129,47 +1135,43 @@ def build_offer(
     # ========================================================
     # PRICE / PRICE_OLD
     #
-    # ВАЖЛИВО:
-    # - для калькулятора використовуємо category_id постачальника;
-    # - calculate_price() застосовує формулу категорії;
-    # - якщо формули немає -> supplier price + 500 грн;
-    # - фінальна price округлюється ВГОРУ до 100 грн;
-    # - price_old = price + 30% і також округлюється ВГОРУ до 100.
+    # price_rrc has priority over the category-based calculator.
+    # With a valid positive RRC, do not apply markups, rounding,
+    # or generate an artificial old price.
+    # Otherwise preserve the existing calculator behavior.
     # ========================================================
 
+    rrc_text = safe_text(raw_price_rrc).replace(" ", "").replace(",", ".")
     try:
-        original_price = float(
-            safe_text(raw_price)
-            .replace(" ", "")
-            .replace(",", ".")
+        rrc_price = Decimal(rrc_text)
+        has_rrc = rrc_price.is_finite() and rrc_price > 0
+    except InvalidOperation:
+        has_rrc = False
+
+    if has_rrc:
+        price_text = format(rrc_price, "f")
+        if "." in price_text:
+            price_text = price_text.rstrip("0").rstrip(".")
+        old_price = None
+    else:
+        try:
+            original_price = float(
+                safe_text(raw_price).replace(" ", "").replace(",", ".")
+            )
+        except ValueError:
+            original_price = 0.0
+
+        final_price = calculate_price(
+            original_price=original_price,
+            category_id=category_id,
         )
-    except ValueError:
-        original_price = 0.0
+        price_text = str(int(final_price))
+        old_price = calculate_old_price(final_price)
 
-    final_price = calculate_price(
-        original_price=original_price,
-        category_id=category_id,
-    )
+    ET.SubElement(offer, "price").text = price_text
 
-    old_price = calculate_old_price(
-        final_price
-    )
-
-    ET.SubElement(
-        offer,
-        "price",
-    ).text = str(
-        int(final_price)
-    )
-
-    if old_price > final_price:
-
-        ET.SubElement(
-            offer,
-            "price_old",
-        ).text = str(
-            int(old_price)
-        )
+    if old_price is not None and old_price > final_price:
+        ET.SubElement(offer, "price_old").text = str(int(old_price))
 
     # ========================================================
     # CURRENCY
