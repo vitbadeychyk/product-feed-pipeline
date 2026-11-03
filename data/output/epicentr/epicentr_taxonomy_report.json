@@ -1,6 +1,6 @@
 {
-  "total": 2129,
-  "unresolved_count": 227,
+  "total": 2166,
+  "unresolved_count": 231,
   "unresolved": [
     {
       "sku": "10034",
@@ -848,9 +848,29 @@
       "name": "Степ-платформа MS 0533-3"
     },
     {
+      "sku": "MS 0533-4",
+      "supplier_category_id": "60",
+      "name": "Степ-платформа MS 0533-4"
+    },
+    {
+      "sku": "MS 0533-5",
+      "supplier_category_id": "60",
+      "name": "Степ-платформа MS 0533-5"
+    },
+    {
       "sku": "MS 0534-3",
       "supplier_category_id": "60",
       "name": "Степ-платформа MS 0534-3"
+    },
+    {
+      "sku": "MS 0534-4",
+      "supplier_category_id": "60",
+      "name": "Степ-платформа MS 0534-4"
+    },
+    {
+      "sku": "MS 0534-5",
+      "supplier_category_id": "60",
+      "name": "Степ-платформа MS 0534-5"
     },
     {
       "sku": "MS 0535-1",
@@ -1138,7 +1158,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 818,
+  "fallback_count": 833,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -2569,6 +2589,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4823,4824,4852-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4823,4824,4852-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4823-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4823-EVA WHEEL",
@@ -2660,6 +2687,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4864-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4864-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4864-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4864-EVA WHEEL",
@@ -2677,6 +2711,13 @@
       "sku": "M 4864-ST GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор M 4864-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4864-ST-WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 4864-ST WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3598,6 +3639,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 5829-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 5829-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 5829-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 5829-EVA WHEEL",
@@ -3605,9 +3653,44 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 5829-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 5829-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5829-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 5829-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5829-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 5829-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 5829-ST GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор M 5829-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5829-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 5829-ST WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5830-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 5830-BLUETOOTH",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3622,6 +3705,13 @@
       "sku": "M 5830-R-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 5830-R-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5830-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 5830-RC RECEIVER",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -4081,6 +4171,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6072 GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6072 GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6072-RC",
       "supplier_category_id": "195",
       "name": "Пульт керування M 6072-RC",
@@ -4511,6 +4608,20 @@
       "sku": "M 6145 EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6145 EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6145-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6145-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6145-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6145-RC",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -4970,9 +5081,23 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6264-F WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6264-F WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6264-R WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6264-R WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6264-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6264-RC RECEIVER",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -6904,6 +7029,8 @@
       "5566A-black",
       "800N V2-STEERING AXLE",
       "800N-BATTERY-SET",
+      "A4165-S-P",
+      "A4165-S-V",
       "AFB200-11",
       "AFB200-19",
       "AFB200-200L-G-STEERING AXLE",
@@ -7157,6 +7284,7 @@
       "M 4806EBLR-1",
       "M 4806EBLR-2",
       "M 4806EBLR-4",
+      "M 4823,4824,4852-BLUETOOTH",
       "M 4823-EVA WHEEL",
       "M 4836-RC RECEIVER",
       "M 4837-EVA WHEEL",
@@ -7170,9 +7298,11 @@
       "M 4852-F EVA WHEEL",
       "M 4852-R EVA WHEEL",
       "M 4852-ST-WHEEL",
+      "M 4864-BLUETOOTH",
       "M 4864-EVA WHEEL",
       "M 4864-GEAR BOX",
       "M 4864-ST GEAR",
+      "M 4864-ST-WHEEL",
       "M 4865-ST GEAR",
       "M 4865-ST WHEEL",
       "M 4868-F-EVA WHEEL",
@@ -7357,10 +7487,17 @@
       "M 5823-HANDLE",
       "M 5824-EVA WHEEL",
       "M 5825-EVA WHEEL",
+      "M 5829-BLUETOOTH",
       "M 5829-EVA WHEEL",
+      "M 5829-GEAR BOX",
+      "M 5829-RC",
+      "M 5829-RC RECEIVER",
       "M 5829-ST GEAR",
+      "M 5829-ST WHEEL",
+      "M 5830-BLUETOOTH",
       "M 5830-F-EVA WHEEL",
       "M 5830-R-EVA WHEEL",
+      "M 5830-RC RECEIVER",
       "M 5830-SP HANDLE",
       "M 5833-EVA WHEEL",
       "M 5833-ST GEAR",
@@ -7445,6 +7582,7 @@
       "M 6062EBLR-3",
       "M 6070-ST GEAR",
       "M 6072 EVA WHEEL",
+      "M 6072 GEAR BOX",
       "M 6072-RC",
       "M 6072-RC RECEIVER",
       "M 6072-ST WHEEL",
@@ -7530,6 +7668,8 @@
       "M 6143-SP HANDLE",
       "M 6143EL-3",
       "M 6145 EVA WHEEL",
+      "M 6145-GEAR BOX",
+      "M 6145-RC",
       "M 6145-ST WHEEL",
       "M 6146-ST GEAR",
       "M 6146-ST WHEEL",
@@ -7633,7 +7773,9 @@
       "M 6263-F WHEEL",
       "M 6263-R WHEEL",
       "M 6263-SP HANDLE",
+      "M 6264-F WHEEL",
       "M 6264-R WHEEL",
+      "M 6264-RC RECEIVER",
       "M 6264-SP HANDLE",
       "M 6265-F WHEEL",
       "M 6265-R WHEEL",
@@ -8118,9 +8260,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 4194,
-    "Розмір упаковки": 1218,
-    "Тип пакування": 586,
+    "Матеріал": 4268,
+    "Розмір упаковки": 1238,
+    "Тип пакування": 606,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -8345,6 +8487,8 @@
     "A4151-S-YL",
     "A4156-XS-BL",
     "A4156-XS-OR",
+    "A4165-S-P",
+    "A4165-S-V",
     "AFB200-11",
     "AFB200-19",
     "AFB200-200L-G-STEERING AXLE",
@@ -8789,6 +8933,7 @@
     "M 4806EBLR-1",
     "M 4806EBLR-2",
     "M 4806EBLR-4",
+    "M 4823,4824,4852-BLUETOOTH",
     "M 4823-EVA WHEEL",
     "M 4836-RC RECEIVER",
     "M 4836EBLR-1",
@@ -8808,9 +8953,11 @@
     "M 4852-ST-WHEEL",
     "M 4852EL-1-2",
     "M 4852EL-3",
+    "M 4864-BLUETOOTH",
     "M 4864-EVA WHEEL",
     "M 4864-GEAR BOX",
     "M 4864-ST GEAR",
+    "M 4864-ST-WHEEL",
     "M 4865-ST GEAR",
     "M 4865-ST WHEEL",
     "M 4868-F-EVA WHEEL",
@@ -9046,11 +9193,24 @@
     "M 5823-HANDLE",
     "M 5824-EVA WHEEL",
     "M 5825-EVA WHEEL",
+    "M 5829-BLUETOOTH",
     "M 5829-EVA WHEEL",
+    "M 5829-GEAR BOX",
+    "M 5829-RC",
+    "M 5829-RC RECEIVER",
     "M 5829-ST GEAR",
+    "M 5829-ST WHEEL",
+    "M 5829EBLR-13",
+    "M 5829EBLR-3",
+    "M 5829EBLR-5",
+    "M 5829EBLRS-2",
+    "M 5830-BLUETOOTH",
     "M 5830-F-EVA WHEEL",
     "M 5830-R-EVA WHEEL",
+    "M 5830-RC RECEIVER",
     "M 5830-SP HANDLE",
+    "M 5830EBLR-1",
+    "M 5830EBLR-2",
     "M 5833-EVA WHEEL",
     "M 5833-ST GEAR",
     "M 5833-ST WHEEL",
@@ -9172,6 +9332,7 @@
     "M 6066EBLR-4",
     "M 6070-ST GEAR",
     "M 6072 EVA WHEEL",
+    "M 6072 GEAR BOX",
     "M 6072-RC",
     "M 6072-RC RECEIVER",
     "M 6072-ST WHEEL",
@@ -9281,6 +9442,8 @@
     "M 6145(A)EBR-3",
     "M 6145(A)EBR-5",
     "M 6145(A)EBR-6",
+    "M 6145-GEAR BOX",
+    "M 6145-RC",
     "M 6145-ST WHEEL",
     "M 6146-ST GEAR",
     "M 6146-ST WHEEL",
@@ -9331,8 +9494,11 @@
     "M 6204,6205,6206-ST WHEEL",
     "M 6204,6205,6206-ST-GEAR",
     "M 6207,M 6208-ST-GEAR",
+    "M 6219EBLR-1",
+    "M 6219EBLR-3",
     "M 6219EBLR-4",
     "M 6219EBLR-5",
+    "M 6219EBLR-6",
     "M 6220-BLUETOOTH",
     "M 6220-EVA WHEEL",
     "M 6220-GEAR BOX",
@@ -9410,7 +9576,9 @@
     "M 6263-F WHEEL",
     "M 6263-R WHEEL",
     "M 6263-SP HANDLE",
+    "M 6264-F WHEEL",
     "M 6264-R WHEEL",
+    "M 6264-RC RECEIVER",
     "M 6264-SP HANDLE",
     "M 6264EL-3",
     "M 6265-F WHEEL",
@@ -9749,7 +9917,9 @@
     "M 6518-7",
     "M 6525E-13",
     "M 6525E-3",
+    "M 6525E-4",
     "M 6525E-5",
+    "M 6525E-7",
     "M 6525E-8",
     "M 6525E-9",
     "M 6526-F-EVA WHEEL",
@@ -9893,6 +10063,7 @@
     "ME 1147 Stone Black",
     "ME 1152 Blue",
     "ME 1152 Pink",
+    "ME 1162-1 Beige Praline",
     "ME 1162-1 Frost Gray",
     "ME 1162-1 Green",
     "ME 1162-1 Purple",
@@ -9987,6 +10158,10 @@
     "ME 1227 Sea Grass",
     "ME 1230 Black",
     "ME 1230 Chocolate",
+    "ME 1231 Charcoal Gray",
+    "ME 1231 Hot Chocolate",
+    "ME 1231 Latte",
+    "ME 1231 Medium Gray",
     "ME 1239 Gray Teal",
     "ME 1239 Mocha",
     "MEB 275 SWIFT SENSOR",
@@ -10037,7 +10212,11 @@
     "MS 0501",
     "MS 0515",
     "MS 0533-3",
+    "MS 0533-4",
+    "MS 0533-5",
     "MS 0534-3",
+    "MS 0534-4",
+    "MS 0534-5",
     "MS 0535-1",
     "MS 0589",
     "MS 1778-10",
