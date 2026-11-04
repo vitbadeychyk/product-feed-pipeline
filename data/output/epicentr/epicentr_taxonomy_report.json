@@ -1,5 +1,5 @@
 {
-  "total": 2168,
+  "total": 2171,
   "unresolved_count": 233,
   "unresolved": [
     {
@@ -7576,6 +7576,7 @@
       "M 6054ABLR-1",
       "M 6054ABLR-11",
       "M 6054ABLR-2",
+      "M 6054ABLR-8",
       "M 6054BLR-1",
       "M 6054BLR-11",
       "M 6054BLR-2",
@@ -8003,6 +8004,8 @@
       "M 6404-R-L-EVA WHEEL",
       "M 6404-R-R-EVA WHEEL",
       "M 6404EBLR-1(24V)",
+      "M 6404EBLR-11(24V)",
+      "M 6404EBLR-11-7(24V)",
       "M 6404EBLR-2(24V)",
       "M 6408EBLR-3",
       "M 6409-EVA WHEEL",
@@ -8270,7 +8273,7 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 4272,
+    "Матеріал": 4278,
     "Розмір упаковки": 1238,
     "Тип пакування": 606,
     "Серія": 78,
@@ -9318,6 +9321,7 @@
     "M 6054ABLR-1",
     "M 6054ABLR-11",
     "M 6054ABLR-2",
+    "M 6054ABLR-8",
     "M 6054BLR-1",
     "M 6054BLR-11",
     "M 6054BLR-2",
@@ -9888,6 +9892,8 @@
     "M 6404-R-L-EVA WHEEL",
     "M 6404-R-R-EVA WHEEL",
     "M 6404EBLR-1(24V)",
+    "M 6404EBLR-11(24V)",
+    "M 6404EBLR-11-7(24V)",
     "M 6404EBLR-2(24V)",
     "M 6408EBLR-3",
     "M 6409-EVA WHEEL",
