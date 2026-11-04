@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-03 19:01">
+<yml_catalog date="2026-11-04 00:21">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -10348,10 +10348,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4846-EVA WHEEL" available="true">
+    <offer id="M 4846-EVA WHEEL" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Колесо M 4846-EVA WHEEL</name>
@@ -25761,6 +25761,30 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6375ELR-3" available="true">
+      <price>6400</price>
+      <price_old>8320</price_old>
+      <availability>in_stock</availability>
+      <name lang="ua">Квадроцикл M 6375ELR-3</name>
+      <picture>https://metr-plus.com.ua/img/1163087.jpg</picture>
+      <description lang="ua">3в1 (каталка-толокар, з причепом), 1*6V7AH, 2*35W, MP3, USB, BLUETOOTH, EVA, TF, музика, світло, шкіра, червоний</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6375ELR-8" available="true">
+      <price>6400</price>
+      <price_old>8320</price_old>
+      <availability>in_stock</availability>
+      <name lang="ua">Квадроцикл M 6375ELR-8</name>
+      <picture>https://metr-plus.com.ua/img/1163088.jpg</picture>
+      <description lang="ua">3в1 (каталка-толокар, з причепом), 1*6V7AH, 2*35W, MP3, USB, BLUETOOTH, EVA, TF, музика, світло, шкіра, рожевий</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6376-EVA WHEEL" available="true">
       <price>1500</price>
       <price_old>1950</price_old>
@@ -26329,10 +26353,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6480-GEAR" available="true">
+    <offer id="M 6480-GEAR" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 6480-GEAR</name>
@@ -26441,10 +26465,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6481-GEAR" available="true">
+    <offer id="M 6481-GEAR" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 6481-GEAR</name>
@@ -32551,10 +32575,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 4649" available="true">
+    <offer id="MS 4649" available="false">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 4649</name>
       <picture>https://metr-plus.com.ua/img/978703.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір MS 4649 - це не просто тренажер, а реальна можливість зміцнити тіло та зняти стрес після робочого дня. У комплект вже входять рукавички, тому можна розпочинати заняття відразу після встановлення. Підходить як чоловікам, так і жінкам, буде корисним і для підлітків, це чудове придбання для всієї родини. Настінний боксерський тренажер MS 4649 підтримує 4 рівнів швидкості, що дозволяє підлаштувати тренування під свій ритм. Ця модель має 6 цілей, які спалахують у випадковому порядку, що дозволяє відточувати спритність і реакцію. Тренажер для боксу MS 4649 працює від акумулятора, що позбавляє зайвих проводів і дозволяє встановити його в будь-якому зручному місці. Зарядки вистачає на тривалий час, а сам пристрій зібраний із міцних матеріалів, здатних витримати інтенсивні тренування.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 4649 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;4 різних швидкості&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Світло, музика, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Кріплення - липучки&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплекті: рукавички&lt;/li&gt;&lt;li&gt;Розміри коробки: 42,5х43,5х9,8 см&lt;/li&gt;&lt;li&gt;Розміри тренажера: 42х40х6,5, XNUMX см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 4649 або отримати додаткову інформацію про боксерський набір MS 4649, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 4649 у регіонах України&lt;/p&gt;</description>
@@ -32694,10 +32718,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5013-1-GL" available="true">
+    <offer id="MS 5013-1-GL" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5013-1-GL</name>
       <picture>https://metr-plus.com.ua/img/1161480.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5013-1-GL чорний – це чудове придбання для домашніх занять боксом. Допомагає виплеснути енергію, розім&amp;#x27;ятися після робочого дня та підтримувати себе у добрій фізичній формі. Ця модель підходить як дітям, так і дорослим, тому можна займатися всією родиною. Настінний боксерський тренажер MS 5013-1-GL стане чудовим придбанням для дорослої та дитини, в комплект входять боксерські рукавички, так що все необхідне для початку тренувань вже є. Можна встановити будинки і займатися у будь-який зручний час, не виходячи до спортзалу. Тренажер для боксу MS 5013-1-GL оснащений шістьма цілями, дев&amp;#x27;ятьма режимами та дев&amp;#x27;ятьма швидкостями, завдяки чому тренування не будуть нудними та одноманітними. Є музика, яскраве підсвічування та Bluetooth для додаткового задоволення під час занять. Пристрій працює від акумулятора, тому не потрібно постійно тримати його підключеним до розетки.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5013-1-GL :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;9 швидкостей&lt;/li&gt;&lt;li&gt;9 різних режимів&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 39х39х6 см&lt;/li&gt;&lt;li&gt;Розміри упаковки: 38,5х41х6 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5013-1-GL або отримати додаткову інформацію про боксерський набір MS 5013-1-GL, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5013-1-GL у регіонах України&lt;/p&gt;</description>
@@ -32706,10 +32730,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5013-2-GL" available="true">
+    <offer id="MS 5013-2-GL" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5013-2-GL</name>
       <picture>https://metr-plus.com.ua/img/1161481.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5013-2-GL білий - це чудове придбання для домашніх занять боксом. Допомагає виплеснути енергію, розім&amp;#x27;ятися після робочого дня та підтримувати себе у добрій фізичній формі. Ця модель підходить як дітям, так і дорослим, тому можна займатися всією родиною. Настінний боксерський тренажер MS 5013-2-GL стане чудовим придбанням для дорослої та дитини, в комплект входять боксерські рукавички, так що все необхідне для початку тренувань вже є. Можна встановити будинки і займатися у будь-який зручний час, не виходячи до спортзалу. Тренажер для боксу MS 5013-2-GL оснащений шістьма цілями, дев&amp;#x27;ятьма режимами та дев&amp;#x27;ятьма швидкостями, завдяки чому тренування не будуть нудними та одноманітними. Є музика, яскраве підсвічування та Bluetooth для додаткового задоволення під час занять. Пристрій працює від акумулятора, тому не потрібно постійно тримати його підключеним до розетки.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5013-2-GL :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;9 швидкостей&lt;/li&gt;&lt;li&gt;9 різних режимів&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 39х39х6 см&lt;/li&gt;&lt;li&gt;Розміри упаковки: 38,5х41х6 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5013-2-GL або отримати додаткову інформацію про боксерський набір MS 5013-2-GL, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5013-2-GL у регіонах України&lt;/p&gt;</description>

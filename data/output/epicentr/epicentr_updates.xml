@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-03 19:01">
+<yml_catalog date="2026-11-04 00:21">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -7691,10 +7691,10 @@
       <price_old>1430</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 4846-EVA WHEEL" available="true">
+    <offer id="M 4846-EVA WHEEL" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 4846-GEAR BOX" available="false">
       <price>1100</price>
@@ -18641,6 +18641,16 @@
       <price_old>18460</price_old>
       <availability>in_stock</availability>
     </offer>
+    <offer id="M 6375ELR-3" available="true">
+      <price>6400</price>
+      <price_old>8320</price_old>
+      <availability>in_stock</availability>
+    </offer>
+    <offer id="M 6375ELR-8" available="true">
+      <price>6400</price>
+      <price_old>8320</price_old>
+      <availability>in_stock</availability>
+    </offer>
     <offer id="M 6376-EVA WHEEL" available="true">
       <price>1500</price>
       <price_old>1950</price_old>
@@ -19146,10 +19156,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6480-GEAR" available="true">
+    <offer id="M 6480-GEAR" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6480-RC" available="false">
       <price>1100</price>
@@ -19186,10 +19196,10 @@
       <price_old>1820</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 6481-GEAR" available="true">
+    <offer id="M 6481-GEAR" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 6481-RC" available="false">
       <price>1100</price>
@@ -22596,10 +22606,10 @@
       <price_old>6630</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MS 4649" available="true">
+    <offer id="MS 4649" available="false">
       <price>2700</price>
       <price_old>3510</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MS 4681" available="true">
       <price>2200</price>
@@ -22651,15 +22661,15 @@
       <price_old>3380</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="MS 5013-1-GL" available="true">
+    <offer id="MS 5013-1-GL" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
-    <offer id="MS 5013-2-GL" available="true">
+    <offer id="MS 5013-2-GL" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="MS 5080" available="false">
       <price>2100</price>
