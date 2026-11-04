@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-04 00:21">
+<yml_catalog date="2026-11-04 11:50">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -1083,10 +1083,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="1504-2-5" available="true">
+    <offer id="1504-2-5" available="false">
       <price>7000</price>
       <price_old>9100</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Карт 1504-2-5</name>
       <picture>https://metr-plus.com.ua/img/943001.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1052578.jpg</picture>
@@ -2558,10 +2558,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="9313" available="true">
+    <offer id="9313" available="false">
       <price>5100</price>
       <price_old>6630</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="872">Дитячі шезлонги</category>
       <attribute_set code="872">Дитячі шезлонги</attribute_set>
       <name lang="ua">Заколисуючий центр-шезлонг 9313</name>
@@ -14398,10 +14398,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5829-GEAR BOX" available="true">
+    <offer id="M 5829-GEAR BOX" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 5829-GEAR BOX</name>
@@ -14412,10 +14412,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5829-RC" available="true">
+    <offer id="M 5829-RC" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Пульт керування M 5829-RC</name>
@@ -14454,10 +14454,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5829-ST WHEEL" available="true">
+    <offer id="M 5829-ST WHEEL" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Кермо M 5829-ST WHEEL</name>
@@ -15504,10 +15504,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5969-3" available="true">
+    <offer id="M 5969-3" available="false">
       <price>2400</price>
       <price_old>3120</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 5969-3</name>
@@ -17712,10 +17712,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6126EBLR-3" available="true">
+    <offer id="M 6126EBLR-3" available="false">
       <price>5300</price>
       <price_old>6890</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6126EBLR-3</name>
@@ -18683,10 +18683,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6145-GEAR BOX" available="true">
+    <offer id="M 6145-GEAR BOX" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 6145-GEAR BOX</name>
@@ -20701,9 +20701,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6257EBLR-8" available="true">
+    <offer id="M 6257EBLR-8" available="false">
       <price>16434.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6257EBLR-8</name>
@@ -28380,9 +28380,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1075 Gray Mint Feathes" available="true">
+    <offer id="ME 1075 Gray Mint Feathes" available="false">
       <price>2933.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Гойдалка ME 1075 TEDDY Gray Mint Feathes</name>
       <picture>https://metr-plus.com.ua/img/974456.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1048004.jpg</picture>
@@ -29402,9 +29402,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1162-1 Beige Praline" available="true">
+    <offer id="ME 1162-1 Beige Praline" available="false">
       <price>6377.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 VECTOR Beige Praline</name>
