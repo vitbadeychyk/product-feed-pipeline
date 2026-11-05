@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-05 00:42">
+<yml_catalog date="2026-11-05 11:50">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -7880,10 +7880,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147A-1" available="true">
+    <offer id="M 3147A-1" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147A-1</name>
@@ -18104,10 +18104,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6133EBLR-1" available="true">
+    <offer id="M 6133EBLR-1" available="false">
       <price>13100</price>
       <price_old>17030</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6133EBLR-1</name>
@@ -26653,10 +26653,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6506EBLR-1" available="true">
+    <offer id="M 6506EBLR-1" available="false">
       <price>9700</price>
       <price_old>12610</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6506EBLR-1</name>
@@ -27392,10 +27392,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MB 1681D" available="true">
+    <offer id="MB 1681D" available="false">
       <price>4200</price>
       <price_old>5460</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед дитячий 16д. MB 1681D</name>
@@ -31433,6 +31433,19 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="ME 1231 Cashmere Green" available="true">
+      <price>5911.0</price>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед El Camino VECTOR FLEX ME 1231 Cashmere Green</name>
+      <picture>https://metr-plus.com.ua/img/1163259.jpg</picture>
+      <description lang="ua">3 кол. PU (12/10), поворот сид., швидкоз?ємні кол., гальма, склад. кермо, світло, підшип., сумка, зелений</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="ME 1231 Charcoal Gray" available="true">
       <price>5911.0</price>
       <availability>in_stock</availability>
@@ -32199,6 +32212,34 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="MS 0515-1" available="true">
+      <price>4300</price>
+      <price_old>5590</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 0515-1</name>
+      <picture>https://metr-plus.com.ua/img/1163251.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 122см, висота 26см,з ручкою (4 положення висоти 104см/126см, EVA), ніжки 8шт, 36пружин, в коробці, 93,5-43-11см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 0515-2" available="true">
+      <price>4300</price>
+      <price_old>5590</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 0515-2</name>
+      <picture>https://metr-plus.com.ua/img/1163252.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 122см, висота 26см,з ручкою (4 положення висоти 104см/126см, EVA), ніжки 8шт, 36пружин, в коробці, 93,5-43-11см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="MS 0533-3" available="true">
       <price>2100</price>
       <price_old>2730</price_old>
@@ -32444,8 +32485,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="MS 2609-1 Blue" available="true">
-      <price>2700</price>
-      <price_old>3510</price_old>
+      <price>2600</price>
+      <price_old>3380</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Спортивний інвентар MS 2609-1 Blue</name>
       <picture>https://metr-plus.com.ua/img/359394.jpg</picture>
@@ -32456,8 +32497,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="MS 2609-1 Grey" available="true">
-      <price>2700</price>
-      <price_old>3510</price_old>
+      <price>2600</price>
+      <price_old>3380</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Спортивний інвентар MS 2609-1 Grey</name>
       <picture>https://metr-plus.com.ua/img/359395.jpg</picture>
@@ -32493,10 +32534,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 2609-12" available="false">
-      <price>2700</price>
-      <price_old>3510</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="MS 2609-12" available="true">
+      <price>2800</price>
+      <price_old>3640</price_old>
+      <availability>in_stock</availability>
       <name lang="ua">Спортивний інвентар MS 2609-12</name>
       <picture>https://metr-plus.com.ua/img/1019305.jpg</picture>
       <description lang="ua">&lt;p&gt;Спортивний інвентар MS 2609-12 - стане чудовим придбанням для тих, хто хоче урізноманітнити свої тренування та отримати справжній ефект від занять спортом. З нею легко розвивати координацію, зміцнювати м&amp;#x27;язи кора та покращувати загальний фізичний стан, при цьому тренування виходять цікавими та динамічними. Спортивний інвентар MS 2609-12 підходить як для початківців, так і для тих, хто вже давно у спорті та шукає нові навантаження. Її можна використовувати вдома, у спортзалі чи навіть на свіжому повітрі, а вправи з нею легко адаптувати під різні рівні підготовки. Балансувальна платформа MS 2609-12 виконана з якісних та міцних матеріалів, витримує інтенсивні тренування та прослужить довго. У комплекті є еспандер, який розширює можливості для тренувань, а сама платформа однаково добре підходить і чоловікам, і жінкам, які бажають бути у формі.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики спортивного інвентарю MS 2609-12 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: спортивний інвентар&lt;/li&gt;&lt;li&gt;Балансувальна багатофункціональна платформа&lt;/li&gt;&lt;li&gt;Діаметр - 60 см&lt;/li&gt;&lt;li&gt;Еспандер (ручки EVA)&lt;/li&gt;&lt;li&gt;У комплекті є насос&lt;/li&gt;&lt;li&gt;Розміри упаковки: 58х12х60,5 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати спортивний інвентар MS 2609-12 або отримати додаткову інформацію про спортивний інвентар MS 2609-12, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Придбати спортивний інвентар MS 2609-12 у регіонах України&lt;/p&gt;</description>
@@ -32524,6 +32565,48 @@
       <name lang="ua">Тренажер MS 3249-2</name>
       <picture>https://metr-plus.com.ua/img/521064.jpg</picture>
       <description lang="ua">&lt;p&gt;Канат для кросфіту MS 3249-2 , 12 метрів - сприяє розвитку сили, витривалості та спритності, роблячи тренування ефективнішими. На відміну від традиційних силових вправ, він дозволяє опрацьовувати м&amp;#x27;язи без необхідності піднімати тяжкість. Підйом канатом задіює не тільки руки, а й плечовий пояс, спину, прес, ноги, забезпечуючи комплексне навантаження на все тіло. Канат для шведської стінки MS 3249-2 легко кріпиться до шведської стінки або іншого опорного елемента, дозволяючи організувати тренувальний простір навіть у домашніх умовах. Завдяки міцним волокнам, він не розшаровується і не ковзає в руках, забезпечуючи комфорт та безпеку під час занять. Достатня довжина та оптимальна товщина роблять його зручним як для початківців, так і для досвідчених спортсменів. Канат для кросфіту MS 3249-2 стане чудовим вибором для тих, хто хоче підвищити свою фізичну підготовку, не перевантажуючи суглоби та хребет. Регулярні тренування з ним розвивають силу, покращують координацію та сприяють зміцненню всіх груп м&amp;#x27;язів. Це універсальний снаряд, який допоможе вам досягти відмінних результатів, незалежно від рівня підготовки.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каната для кросфіту MS 3249-2 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: канат для кросфіту&lt;/li&gt;&lt;li&gt;Довжина канату – 12 метрів&lt;/li&gt;&lt;li&gt;Діаметр каната – 38 мм&lt;/li&gt;&lt;li&gt;Матеріал виробу: поліпропілен&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Канат для занять кроссфітом MS 3249-2 - це надійний і довговічний спортивний снаряд, який ідеально підходить для інтенсивних тренувань, витримує значні навантаження, не розтягується і не втрачає своїх властивостей навіть при активному використанні. Такий канат можна застосовувати у залі чи на вулиці, закріплюючи на турниках, балках чи шведській стінці. Спортивний канат підходить як для чоловіків, так і для жінок, допомагаючи кожному спортсмену покращити фізичну форму. Він дає можливість варіювати складність занять: можна виконувати підйоми тимчасово, утримання у статиці чи комбінувати коїться з іншими вправами. Такий тренінг розвиває координацію рухів та зміцнює хват. Придбати канат для кросфіту MS 3249-2 або отримати додаткову інформацію про канат для кросфіту MS 3249-2, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити канат для кросфіту MS 3249-2 у регіонах України&lt;/p&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 3256-1-1" available="true">
+      <price>3800</price>
+      <price_old>4940</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 3256-1-1</name>
+      <picture>https://metr-plus.com.ua/img/1163253.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 131-115см, висота 31,5см, з ручкою(3 положення висоти 107см/127см, EVA), ніжки 6шт, bungee cord 42шт., навантаження до 100кг, синій, в коробці, 68-32-10см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 3256-1-2" available="true">
+      <price>3800</price>
+      <price_old>4940</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 3256-1-2</name>
+      <picture>https://metr-plus.com.ua/img/1163254.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 131-115см, висота 31,5см, з ручкою(3 положення висоти 107см/127см, EVA), ніжки 6шт, bungee cord 42шт., навантаження до 100кг, зелений, в коробці, 68-32-10см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 3256-2" available="true">
+      <price>4200</price>
+      <price_old>5460</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 3256-2</name>
+      <picture>https://metr-plus.com.ua/img/1163255.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 122-109см, висота 31см, з ручкою(4положення висоти 104см/128см, EVA), bungee cord 36шт.ніжки 6шт, навантаження до 100кг, рожевий, в коробці, 75-24-12см</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -32915,6 +32998,48 @@
       <name lang="ua">Тренажер MS 5147</name>
       <picture>https://metr-plus.com.ua/img/1162444.jpg</picture>
       <description lang="ua">&lt;p&gt;Тренажер лава для тренувань MS 5147 - підійде тим, хто вважає за краще займатися спортом вдома і хоче мати під рукою зручний тренажер для зміцнення м&amp;#x27;язів. Ця модель відмінно підходить для вправ на прес та спину, допомагаючи підтримувати активність та поступово покращувати фізичну форму. Тренажер для преса та спини MS 5147 має міцну металеву конструкцію, яка добре справляється зі своїм завданням, зберігаючи стійкість під час тренувань. Завдяки продуманому регулюванню та компактному призначенню тренажер стане корисним придбанням для дому. З ним можна організувати повноцінні заняття для м&amp;#x27;язів преса та спини, не витрачаючи час на поїздки до спортивної зали. Многофункціональний тренажер MS 5147 дозволяє підібрати зручне положення для занять завдяки спинці, що регулюється. Можна змінювати кут її нахилу, а також самостійно встановлювати потрібну висоту сидіння та підставки для ніг. Такі можливості особливо зручні, коли тренажер користуються різні члени сім&amp;#x27;ї або хочеться виконувати вправи з різним навантаженням.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики лави для тренувань MS 5147 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: багатофункціональний тренажер&lt;/li&gt;&lt;li&gt;Лава для тренування преса та спини&lt;/li&gt;&lt;li&gt;Спинка - 6 положень&lt;/li&gt;&lt;li&gt;Сидіння - 4 положення&lt;/li&gt;&lt;li&gt;Розмір сидіння: 31х35 см&lt;/li&gt;&lt;li&gt;Підставки для ніг - 3 положення&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластмаса, шкіра&lt;/li&gt;&lt;li&gt;Розміри тренажера: 105х32х107 см/147х32х56см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати лаву для тренувань MS 5147 або отримати додаткову інформацію про тренажер MS 5147, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити лаву для тренувань MS 5147 у регіонах України&lt;/p&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 5168" available="true">
+      <price>3900</price>
+      <price_old>5070</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 5168</name>
+      <picture>https://metr-plus.com.ua/img/1163256.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 106-95см, висота 25см, з ручкою (3положення висоти 104см/114см, EVA), складаний, синій, в коробці,82,5-25-23см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 5168-1" available="true">
+      <price>3900</price>
+      <price_old>5070</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 5168-1</name>
+      <picture>https://metr-plus.com.ua/img/1163257.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 106-95см, висота 25см, з ручкою (3положення висоти 104см/114см, EVA), складаний, зелений, в коробці,82,5-25-23см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="MS 5168-2" available="true">
+      <price>3900</price>
+      <price_old>5070</price_old>
+      <availability>in_stock</availability>
+      <category code="1446">Батути</category>
+      <attribute_set code="1446">Батути</attribute_set>
+      <name lang="ua">Батут MS 5168-2</name>
+      <picture>https://metr-plus.com.ua/img/1163258.jpg</picture>
+      <description lang="ua">для фітнесу, фітнес-батут, 106-95см, висота 25см, з ручкою (3положення висоти 104см/114см, EVA), складаний, червоний, в коробці,82,5-25-23см</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
