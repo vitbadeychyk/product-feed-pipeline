@@ -1,6 +1,6 @@
 {
-  "total": 2180,
-  "unresolved_count": 233,
+  "total": 2189,
+  "unresolved_count": 225,
   "unresolved": [
     {
       "sku": "10034",
@@ -413,39 +413,9 @@
       "name": "Фільтр насос 290732EU"
     },
     {
-      "sku": "3228CEBLR-BLUETOOTH",
-      "supplier_category_id": "114",
-      "name": "Плеєр 3228CEBLR-BLUETOOTH"
-    },
-    {
-      "sku": "3228CEBLR-F-EVA WHEEL",
-      "supplier_category_id": "114",
-      "name": "Колесо 3228CEBLR-F-EVA WHEEL"
-    },
-    {
-      "sku": "3228CEBLR-GEAR",
-      "supplier_category_id": "114",
-      "name": "Редуктор у зборі з мотором 3228CEBLR-GEAR"
-    },
-    {
-      "sku": "3228CEBLR-R-EVA WHEEL",
-      "supplier_category_id": "114",
-      "name": "Колесо 3228CEBLR-R-EVA WHEEL"
-    },
-    {
-      "sku": "3228CEBLR-ST GEAR",
-      "supplier_category_id": "114",
-      "name": "Рульовий редуктор 3228CEBLR-ST GEAR"
-    },
-    {
       "sku": "3228CEBLR-ST WHEEL",
       "supplier_category_id": "114",
       "name": "Кермо 3228CEBLR-ST WHEEL"
-    },
-    {
-      "sku": "3228CEBLR-T-Plastic",
-      "supplier_category_id": "114",
-      "name": "Колесо 3228CEBLR-T-Plastic WHEEL"
     },
     {
       "sku": "394168",
@@ -576,16 +546,6 @@
       "sku": "M 6316-RC",
       "supplier_category_id": "114",
       "name": "Пульт керування M 6316-RC"
-    },
-    {
-      "sku": "M 6375ELR-3",
-      "supplier_category_id": "114",
-      "name": "Квадроцикл M 6375ELR-3"
-    },
-    {
-      "sku": "M 6375ELR-8",
-      "supplier_category_id": "114",
-      "name": "Квадроцикл M 6375ELR-8"
     },
     {
       "sku": "M 6563-11",
@@ -1168,7 +1128,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 833,
+  "fallback_count": 839,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -1300,6 +1260,48 @@
       "sku": "28606",
       "supplier_category_id": "195",
       "name": "Насос 28606",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр 3228CEBLR-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-F-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо 3228CEBLR-F-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-GEAR",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором 3228CEBLR-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-R-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо 3228CEBLR-R-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-ST GEAR",
+      "supplier_category_id": "195",
+      "name": "Рульовий редуктор 3228CEBLR-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-T-Plastic",
+      "supplier_category_id": "195",
+      "name": "Колесо 3228CEBLR-T-Plastic WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -8281,7 +8283,7 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 4296,
+    "Матеріал": 4314,
     "Розмір упаковки": 1254,
     "Тип пакування": 624,
     "Серія": 78,
@@ -9877,7 +9879,10 @@
     "M 6374EL-5(24V)",
     "M 6374EL-6(24V)",
     "M 6374EL-8(24V)",
+    "M 6375ELR-1",
     "M 6375ELR-3",
+    "M 6375ELR-4",
+    "M 6375ELR-6",
     "M 6375ELR-8",
     "M 6376-EVA WHEEL",
     "M 6376-ST GEAR",
@@ -10093,6 +10098,9 @@
     "ME 1162-1 Frost Gray",
     "ME 1162-1 Green",
     "ME 1162-1 Purple",
+    "ME 1163 Gray",
+    "ME 1163 Mint",
+    "ME 1163 Pink",
     "ME 1175 Beige",
     "ME 1175 Light Gray",
     "ME 1175 Medium Gray",
@@ -10141,7 +10149,10 @@
     "ME 1198 Beige",
     "ME 1198 Black",
     "ME 1198 Gray",
+    "ME 1200 Beige",
+    "ME 1200 Gray",
     "ME 1200 Green",
+    "ME 1200 Pink",
     "ME 1200 White",
     "ME 1202 Graphite",
     "ME 1202 Lavender",
