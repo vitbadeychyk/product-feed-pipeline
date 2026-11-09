@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-09 04:34">
+<yml_catalog date="2026-11-09 18:15">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -7910,10 +7910,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147A-3" available="true">
+    <offer id="M 3147A-3" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147A-3</name>
@@ -7978,10 +7978,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147B-8" available="true">
+    <offer id="M 3147B-8" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147B-8</name>
@@ -7992,10 +7992,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147C-1" available="true">
+    <offer id="M 3147C-1" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147C-1</name>
@@ -8138,10 +8138,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3503A-1" available="true">
+    <offer id="M 3503A-1" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3503A-1</name>
@@ -8156,10 +8156,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3503B-1" available="true">
+    <offer id="M 3503B-1" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3503B-1</name>
@@ -8284,8 +8284,8 @@
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 3906-RC-RECEIVER</name>
-      <picture>https://metr-plus.com.ua/img/850772.jpg</picture>
-      <description lang="ua">до машини M 3906, 2023</description>
+      <picture>https://metr-plus.com.ua/img/248112.jpg</picture>
+      <description lang="ua">для машины M 3906, 12V</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -8964,10 +8964,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4176EBLR-7" available="true">
+    <offer id="M 4176EBLR-7" available="false">
       <price>16200</price>
       <price_old>21060</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 4176EBLR-7</name>
@@ -11069,10 +11069,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4972,M 6281,6282,6283,M 5796-2,4G" available="true">
+    <offer id="M 4972,M 6281,6282,6283,M 5796-2,4G" available="false">
       <price>1300</price>
       <price_old>1690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Пульт керування M 4972,M 6281,6282,6283,M 5796-2,4G</name>
@@ -14194,10 +14194,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5804EL-3" available="true">
+    <offer id="M 5804EL-3" available="false">
       <price>2900</price>
       <price_old>3770</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 5804EL-3</name>
@@ -14798,10 +14798,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5846EBLR-3" available="true">
+    <offer id="M 5846EBLR-3" available="false">
       <price>8800</price>
       <price_old>11440</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 5846EBLR-3</name>
@@ -15377,10 +15377,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5898-RC" available="true">
+    <offer id="M 5898-RC" available="false">
       <price>1300</price>
       <price_old>1690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Пульт керування M 5898-RC</name>
@@ -16187,10 +16187,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6039EBR-10(24V)" available="true">
+    <offer id="M 6039EBR-10(24V)" available="false">
       <price>13400</price>
       <price_old>17420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Баггі M 6039EBR-10(24V)</name>
@@ -16209,10 +16209,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6039EBR-4(24V)" available="true">
+    <offer id="M 6039EBR-4(24V)" available="false">
       <price>13400</price>
       <price_old>17420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Баггі M 6039EBR-4(24V)</name>
@@ -16970,10 +16970,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6073-RC" available="true">
+    <offer id="M 6073-RC" available="false">
       <price>1300</price>
       <price_old>1690</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Пульт керування M 6073--RC</name>
@@ -21129,10 +21129,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6265-SP HANDLE" available="true">
+    <offer id="M 6265-SP HANDLE" available="false">
       <price>900</price>
       <price_old>1170</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Кермо M 6265-SP HANDLE</name>
@@ -23298,10 +23298,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6312EBLR-7(24V)" available="true">
+    <offer id="M 6312EBLR-7(24V)" available="false">
       <price>13300</price>
       <price_old>17290</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6312EBLR-7(24V)</name>
@@ -26669,10 +26669,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6481EBLR-3(24V)" available="true">
+    <offer id="M 6481EBLR-3(24V)" available="false">
       <price>17000</price>
       <price_old>22100</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6481EBLR-3(24V)</name>
@@ -27930,10 +27930,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MBB 1050-2" available="true">
+    <offer id="MBB 1050-2" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел дитячий 12 д. MBB 1050-2</name>
@@ -28254,7 +28254,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1037 Nude Gray" available="true">
-      <price>4687.0</price>
+      <price>4936.0</price>
       <availability>in_stock</availability>
       <category code="745">Стільчики для годування</category>
       <attribute_set code="745">Стільчики для годування</attribute_set>
@@ -28275,7 +28275,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1037 Nude Green" available="true">
-      <price>4687.0</price>
+      <price>4936.0</price>
       <availability>in_stock</availability>
       <category code="745">Стільчики для годування</category>
       <attribute_set code="745">Стільчики для годування</attribute_set>
@@ -28296,7 +28296,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1037 Nude Pink" available="true">
-      <price>4687.0</price>
+      <price>4936.0</price>
       <availability>in_stock</availability>
       <category code="745">Стільчики для годування</category>
       <attribute_set code="745">Стільчики для годування</attribute_set>
@@ -28310,6 +28310,27 @@
       <picture>https://metr-plus.com.ua/img/1029070.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1029071.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1029072.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 6-ти місяців до 3-х років Стілець для годування EL Camino ME 1037 Crystal безпечний для малюка, адже обладнаний 5-ти точковими ременями безпеки з м&amp;#x27;якими накладками та пластиковою анатомічною перегородкою для ніжок, які надійно захистять дитину від випадання. Стілець можна використовувати в 5-ти положеннях по висоті. Спинка сидіння регулюється по куту нахилу в 3-х положеннях для комфортного відпочинку дитини. Вкладиш на сидіння виготовлений із еко-шкіри для зручності миття. Завдяки коліщаткам зі стопорами на всіх ніжках, стілець можна переміщати не піднімаючи його. У нашому магазині Ви можете купити стілець для годування EL Camino Crystal ME 1037 і завжди мати під рукою зручне місце для годування малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики стільця для годування EL Camino ME 1037 Crystal:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Стілець підходить для дітей від 6-ти місяців і до 3-х років.&lt;/li&gt;&lt;li&gt;Регулюється по висоті в 5-ти положеннях.&lt;/li&gt;&lt;li&gt;Спинка сидіння регулюється по куту нахилу в 3-х положеннях (від 110 до 150 градусів).&lt;/li&gt;&lt;li&gt;Додатковий вкладиш, розміщений на сидінні, виконаний з еко-шкіри для зручності миття.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками утримають дитину в безпечному та комфортному положенні, не обмежуючи її рухів.&lt;/li&gt;&lt;li&gt;Ремені регулюється під зріст дитини в 2-х положеннях.&lt;/li&gt;&lt;li&gt;Анатомічна пластикова вставка для поділу ніг перешкоджатиме мимовільному випаданню малюка.&lt;/li&gt;&lt;li&gt;Стілець має зручну регульовану в 3-х положеннях підставку для ніжок.&lt;/li&gt;&lt;li&gt;Знімний столик з підносом оснащений роз&amp;#x27;ємом, призначеним для пляшечок.&lt;/li&gt;&lt;li&gt;Відстань від столика до дитини регулюється в трьох положеннях.&lt;/li&gt;&lt;li&gt;Всі ніжки стільця оснащені колесами зі стопорами, завдяки цьому Ви легко перекотите стільчик, не піднімаючи його.&lt;/li&gt;&lt;li&gt;Конструкція стільця легка і стійка.&lt;/li&gt;&lt;li&gt;Стілець легко складається.&lt;/li&gt;&lt;li&gt;У складеному вигляді стійко стоїть у вертикальному положенні.&lt;/li&gt;&lt;li&gt;Виготовлений із високоякісних матеріалів.&lt;/li&gt;&lt;li&gt;Розмір у розкладеному вигляді: 86х58х111 см.&lt;/li&gt;&lt;li&gt;Розмір у складеному вигляді: 102х58х35 см.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхГ): 27х24 см.&lt;/li&gt;&lt;li&gt;Розмір столика: 19х21х23 см.&lt;/li&gt;&lt;li&gt;Діаметр коліщаток: 5,5 см.&lt;/li&gt;&lt;li&gt;Вага стільця: 9,3 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 56х25,5х65 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 10,3 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 15 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1037 Nude Taupe" available="true">
+      <price>4936.0</price>
+      <availability>in_stock</availability>
+      <category code="745">Стільчики для годування</category>
+      <attribute_set code="745">Стільчики для годування</attribute_set>
+      <name lang="ua">Стільчик El Camino CRYSTAL ME 1037 Nude Taupe</name>
+      <picture>https://metr-plus.com.ua/img/1027135.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030312.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030313.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030314.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030315.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030316.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030317.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030318.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1030319.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 6-ти місяців до 3-х років Стілець для годування EL Camino ME 1037 Crystal безпечний для малюка, адже обладнаний 5-ти точковими ременями безпеки з м&amp;#x27;якими накладками та пластиковою анатомічною перегородкою для ніжок, які надійно захистять дитину від випадання. Стілець можна використовувати в 5-ти положеннях по висоті. Спинка сидіння регулюється по куту нахилу в 3-х положеннях для комфортного відпочинку дитини. Вкладиш на сидіння виготовлений із еко-шкіри для зручності миття. Завдяки коліщаткам зі стопорами на всіх ніжках, стілець можна переміщати не піднімаючи його. У нашому магазині Ви можете купити стілець для годування EL Camino Crystal ME 1037 і завжди мати під рукою зручне місце для годування малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики стільця для годування EL Camino ME 1037 Crystal:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Стілець підходить для дітей від 6-ти місяців і до 3-х років.&lt;/li&gt;&lt;li&gt;Регулюється по висоті в 5-ти положеннях.&lt;/li&gt;&lt;li&gt;Спинка сидіння регулюється по куту нахилу в 3-х положеннях (від 110 до 150 градусів).&lt;/li&gt;&lt;li&gt;Додатковий вкладиш, розміщений на сидінні, виконаний з еко-шкіри для зручності миття.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з м&amp;#x27;якими накладками утримають дитину в безпечному та комфортному положенні, не обмежуючи її рухів.&lt;/li&gt;&lt;li&gt;Ремені регулюється під зріст дитини в 2-х положеннях.&lt;/li&gt;&lt;li&gt;Анатомічна пластикова вставка для поділу ніг перешкоджатиме мимовільному випаданню малюка.&lt;/li&gt;&lt;li&gt;Стілець має зручну регульовану в 3-х положеннях підставку для ніжок.&lt;/li&gt;&lt;li&gt;Знімний столик з підносом оснащений роз&amp;#x27;ємом, призначеним для пляшечок.&lt;/li&gt;&lt;li&gt;Відстань від столика до дитини регулюється в трьох положеннях.&lt;/li&gt;&lt;li&gt;Всі ніжки стільця оснащені колесами зі стопорами, завдяки цьому Ви легко перекотите стільчик, не піднімаючи його.&lt;/li&gt;&lt;li&gt;Конструкція стільця легка і стійка.&lt;/li&gt;&lt;li&gt;Стілець легко складається.&lt;/li&gt;&lt;li&gt;У складеному вигляді стійко стоїть у вертикальному положенні.&lt;/li&gt;&lt;li&gt;Виготовлений із високоякісних матеріалів.&lt;/li&gt;&lt;li&gt;Розмір у розкладеному вигляді: 86х58х111 см.&lt;/li&gt;&lt;li&gt;Розмір у складеному вигляді: 102х58х35 см.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхГ): 27х24 см.&lt;/li&gt;&lt;li&gt;Розмір столика: 19х21х23 см.&lt;/li&gt;&lt;li&gt;Діаметр коліщаток: 5,5 см.&lt;/li&gt;&lt;li&gt;Вага стільця: 9,3 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 56х25,5х65 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 10,3 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 15 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -28814,9 +28835,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1110 Royal Dark Gray" available="true">
+    <offer id="ME 1110 Royal Dark Gray" available="false">
       <price>4624.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
       <name lang="ua">Автокрісло дитяче ME 1110 i-FIX Royal Dark Gray</name>
@@ -31450,6 +31471,58 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="ME 1225 Ash Pink" available="true">
+      <price>7085.0</price>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска El Camino NOTTA ME 1225 Ash Pink</name>
+      <picture>https://metr-plus.com.ua/img/1163499.jpg</picture>
+      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, рожевий</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1225 Black" available="true">
+      <price>7085.0</price>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска El Camino NOTTA ME 1225 Black</name>
+      <picture>https://metr-plus.com.ua/img/1163500.jpg</picture>
+      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, чорний</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1225 Iron Gray" available="true">
+      <price>7085.0</price>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска El Camino NOTTA ME 1225 Iron Gray</name>
+      <picture>https://metr-plus.com.ua/img/1163501.jpg</picture>
+      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, темно-сірий</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1225 Truffle Beige" available="true">
+      <price>7085.0</price>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска El Camino NOTTA ME 1225 Truffle Beige</name>
+      <picture>https://metr-plus.com.ua/img/1163502.jpg</picture>
+      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, беж</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="ME 1226 Frost Gray" available="true">
       <price>4950.0</price>
       <availability>in_stock</availability>
@@ -31537,6 +31610,29 @@
       <picture>https://metr-plus.com.ua/img/1143808.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1143810.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1 року Дитячий триколісний велосипед EL Camino Trigo ME 1226 має алюмінієву раму, поворотне сидіння, рюкзак, підсклянник, дощовик, захисний бампер і глибокий регульований капюшон. Колеса з EVA матеріалу на підшипниках забезпечать м&amp;#x27;який хід. У нашому магазині Ви можете купити триколісний велосипед EL Camino Trigo ME 1226, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда EL Camino Trigo ME 1226:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1 року.&lt;/li&gt;&lt;li&gt;Рама велосипеда виготовлена з алюмінію.&lt;/li&gt;&lt;li&gt;Рама складана.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою батьківської ручки, що допоможе покатати дитину, якщо вона ще не вміє самостійно.&lt;/li&gt;&lt;li&gt;Батьківська ручка регулюється телескопічно в 3-х положеннях від 97 до 102 см.&lt;/li&gt;&lt;li&gt;Керувати самостійно велосипедом дитина зможе за допомогою керма.&lt;/li&gt;&lt;li&gt;Кермо регулюється в 2-х положеннях (вверх/вниз).&lt;/li&gt;&lt;li&gt;Сидіння поворотне.&lt;/li&gt;&lt;li&gt;Спинка регулюється по куту нахилу в 2-х положеннях за допомогою важеля.&lt;/li&gt;&lt;li&gt;На сидінні розміщений м&amp;#x27;який знімний чохол.&lt;/li&gt;&lt;li&gt;3-точкові ремені безпеки з м&amp;#x27;якими накладками надійно утримають дитину на місці.&lt;/li&gt;&lt;li&gt;Відкидний обмежувальний бампер.&lt;/li&gt;&lt;li&gt;Капюшоном регулюється в 2-х положеннях.&lt;/li&gt;&lt;li&gt;У капюшон вбудовано оглядове віконце.&lt;/li&gt;&lt;li&gt;Дощовик, підсклянник і рюкзак входять в комплект.&lt;/li&gt;&lt;li&gt;3 колеса з EVA матеріалу на підшипниках забезпечать м&amp;#x27;який хід.&lt;/li&gt;&lt;li&gt;Діаметр переднього колеса: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр задніх колес: 17 см.&lt;/li&gt;&lt;li&gt;Педалі знімні з функцією вільного ходу колеса.&lt;/li&gt;&lt;li&gt;Педалі переставляються в підніжку.&lt;/li&gt;&lt;li&gt;Велосипед обладнаний задніми ножними гальмами.&lt;/li&gt;&lt;li&gt;Розмір велосипеда: 78х50х94 см.&lt;/li&gt;&lt;li&gt;Розмір спального місця (ДхШхГ): 56х27х24 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 35 см.&lt;/li&gt;&lt;li&gt;Висота від сидіння до підніжки: 21 см.&lt;/li&gt;&lt;li&gt;Вага велосипеда:7 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 60х33х28 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 8,2 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 25 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1227 Magnet Gray" available="true">
+      <price>6909.0</price>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">Коляска El Camino AMBER ME 1227 Magnet Gray</name>
+      <picture>https://metr-plus.com.ua/img/1112461.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119123.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119124.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119125.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119126.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119127.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119128.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119129.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119130.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119131.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1119132.jpg</picture>
+      <description lang="ua">&lt;p&gt;Прогулянкова коляска El Camino Amber ME 1227 Magnet Gray темно-сіра - це підходящий вибір для тих, хто хоче придбати якісну, зручну, але при цьому не надто дорогу модель, яка відмінно справляється з повсякденними прогулянковами і не завдає зайвого клопоту, продумана конструкція робить її практичною у використанні, а стильний зовнішній вигляд приємно доповнює загальне враження. Коляска дитяча ME 1227 Magnet Gray розрахована на дітей від шести місяців і порадує легкістю та маневреністю, завдяки чому нею зручно керувати навіть однією рукою, складана конструкція дозволяє швидко скласти коляску для зберігання або перевезення, глибокий каптур захищає малюка від сонця та вітру, а просторе сидіння з регульованою спинкою дає можливість дитині як активно спостерігати за навколишнім світом, так і спокійно відпочивати під час прогулянки. Дитяча коляска ME 1227 Magnet Gray забезпечує високий рівень безпеки та зручності за рахунок п&amp;#x27;ятиточкового ремінця та страхувального бампера, які надійно фіксують малюка, при цьому не обмежуючи його комфорт, місткий багажний кошик дозволяє взяти з собою все необхідне, а чохол на ніжки в комплекті робить прогулянки затишнішими у прохолодну погоду, створюючи для дитини максимально комфорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого візка ME 1227 Magnet Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип коляски: прогулянкова&lt;/li&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип складання: книжка&lt;/li&gt;&lt;li&gt;Легка та міцна алюмінієва рама&lt;/li&gt;&lt;li&gt;Батьківська ручка регулюється&lt;/li&gt;&lt;li&gt;Глибокий капюшон із оглядовим віконцем, глибина регулюється&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється - 3 положення&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;П&amp;#x27;ятиточковий ремінь безпеки з м&amp;#x27;якими плечовими накладками&lt;/li&gt;&lt;li&gt;Регульована підніжка&lt;/li&gt;&lt;li&gt;Колеса - 4 шт., матеріал - PU&lt;/li&gt;&lt;li&gt;Передні колеса поворотні&lt;/li&gt;&lt;li&gt;Гальмо - спарене&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;У комплекті: чохол на ніжки&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 22 кг&lt;/li&gt;&lt;li&gt;Підходить дітям від 6-ти місяців до 3-х років&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -32536,10 +32632,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 1778-10" available="true">
+    <offer id="MS 1778-10" available="false">
       <price>4900</price>
       <price_old>6370</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Снігокат MS 1778-10</name>
       <picture>https://metr-plus.com.ua/img/1009926.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1010534.jpg</picture>
@@ -32910,10 +33006,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 4681" available="true">
+    <offer id="MS 4681" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 4681</name>
       <picture>https://metr-plus.com.ua/img/994014.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 5 років&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору Prof1 MS 4681:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Спортивний набір складається з боксерської груші, стійки та насоса з голкою.&lt;/li&gt;&lt;li&gt;Ігровий набір підійде для тренувальних поєдинків дитини.&lt;/li&gt;&lt;li&gt;Стійка регулюється по висоті від 124 до 155 см.&lt;/li&gt;&lt;li&gt;Стійка кріпиться до підлоги за допомогою присосок.&lt;/li&gt;&lt;li&gt;Усередині груші – повітряний балон, який накачується за допомогою насоса.&lt;/li&gt;&lt;li&gt;При ударі груша розгойдується на стійці завдяки пружині.&lt;/li&gt;&lt;li&gt;Грушу необхідно не сильно накачувати, вона має бути м’якою.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 27,5х27,5х60 см.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Компанія Prof1 – це один із лідерів-виробників дитячих велосипедів і біговелів, а також інших дитячих товарів. Товари високої якості постачаються на ринки Європи та України, щороку розширюючи асортимент продукції та відкриваючи нові функціональні можливості. Продукція компанії отримала не одну нагороду та грамоту.&lt;/p&gt;</description>
@@ -36798,10 +36894,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="YG2020-2-1-4" available="true">
+    <offer id="YG2020-2-1-4" available="false">
       <price>3500</price>
       <price_old>4550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Гірка YG2020-2-1-4</name>
       <picture>https://metr-plus.com.ua/img/616020.jpg</picture>
       <picture>https://metr-plus.com.ua/img/618669.jpg</picture>
