@@ -1,13 +1,38 @@
 name: Update product feed
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'
+  # GitHub cron is UTC-only. Trigger both UTC offsets used in Kyiv;
+  # schedule-guard below allows exactly 07:00, 15:00 and 20:00 Kyiv time.
+  - schedule:
+      - cron: '0 4,5,12,13,17,18 * * *'
 
   workflow_dispatch:
 
 jobs:
+  schedule-guard:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Check Kyiv local schedule
+        id: check
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import os
+
+          now = datetime.now(ZoneInfo("Europe/Kyiv"))
+          should_run = now.hour in (7, 15, 20)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"should_run={'true' if should_run else 'false'}\\n")
+          print(f"Kyiv time: {now:%Y-%m-%d %H:%M %Z}; run={should_run}")
+          PY
+
   update-feed:
+    needs: schedule-guard
+    if: always() && (github.event_name != 'schedule' || needs.schedule-guard.outputs.should_run == 'true')
     runs-on: ubuntu-latest
 
     permissions:
