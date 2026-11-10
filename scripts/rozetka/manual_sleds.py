@@ -118,6 +118,20 @@ def append_manual_sleds(
                 if name and value:
                     ET.SubElement(offer, "param", name=name).text = value
 
+        # Rozetka-only attributes for manually managed sleds.
+        # Keep these out of the shared Epicentr/EVA source XML.
+        roz_param_values = {
+            "Граничне навантаження": "30 кг",
+            "Країна-виробник товару": "Україна",
+        }
+        existing_param_names = {
+            (param.get("name") or "").strip()
+            for param in offer.findall("param")
+        }
+        for name, value in roz_param_values.items():
+            if name not in existing_param_names:
+                ET.SubElement(offer, "param", name=name).text = value
+
         prepared.append(offer)
         seen_ids.add(product_id)
         seen_articles.add(article.casefold())
