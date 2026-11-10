@@ -49,6 +49,12 @@ class ManualSledsTests(unittest.TestCase):
                 source.findtext("price_old") or defaults.findtext("price_old"),
             )
             self.assertEqual(actual.findtext("article"), source.findtext("article"))
+            params = {
+                param.get("name"): param.text
+                for param in actual.findall("param")
+            }
+            self.assertEqual(params.get("Граничне навантаження"), "30 кг")
+            self.assertEqual(params.get("Країна-виробник товару"), "Україна")
 
     def _expect_rejected_without_mutation(self, mutate):
         manual = ET.parse(MANUAL_FILE)
