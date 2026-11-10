@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-10 12:04">
+<yml_catalog date="2026-11-10 21:38">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -44,8 +44,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="09-025R-BOX" available="true">
-      <price>4900</price>
-      <price_old>6370</price_old>
+      <price>4500</price>
+      <price_old>5850</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -58,8 +58,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="09-025V-BOX" available="true">
-      <price>4900</price>
-      <price_old>6370</price_old>
+      <price>4500</price>
+      <price_old>5850</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -1758,10 +1758,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="3228CEBLR-ST WHEEL" available="true">
+    <offer id="3228CEBLR-ST WHEEL" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Кермо 3228CEBLR-ST WHEEL</name>
       <picture>https://metr-plus.com.ua/img/1162074.jpg</picture>
       <description lang="ua">до трактора 3228CEBLR</description>
@@ -1785,8 +1785,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="3328" available="true">
-      <price>6800</price>
-      <price_old>8840</price_old>
+      <price>5300</price>
+      <price_old>6890</price_old>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -1809,8 +1809,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="3378" available="true">
-      <price>6800</price>
-      <price_old>8840</price_old>
+      <price>5300</price>
+      <price_old>6890</price_old>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -3045,8 +3045,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ATV007-2-5" available="true">
-      <price>69800</price>
-      <price_old>90740</price_old>
+      <price>63100</price>
+      <price_old>82030</price_old>
       <availability>in_stock</availability>
       <category code="9042">Квадроцикли</category>
       <attribute_set code="9042">Квадроцикли</attribute_set>
@@ -3069,8 +3069,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ATV007-2-7" available="true">
-      <price>69800</price>
-      <price_old>90740</price_old>
+      <price>63100</price>
+      <price_old>82030</price_old>
       <availability>in_stock</availability>
       <category code="9042">Квадроцикли</category>
       <attribute_set code="9042">Квадроцикли</attribute_set>
@@ -3227,8 +3227,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="B0903-4" available="true">
-      <price>6700</price>
-      <price_old>8710</price_old>
+      <price>5900</price>
+      <price_old>7670</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Гірка-гойдалка B0903-4</name>
       <picture>https://metr-plus.com.ua/img/942831.jpg</picture>
@@ -4648,10 +4648,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="HB-EATV1200Q-2ST" available="true">
+    <offer id="HB-EATV1200Q-2ST" available="false">
       <price>31400</price>
       <price_old>40820</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="9042">Квадроцикли</category>
       <attribute_set code="9042">Квадроцикли</attribute_set>
       <name lang="ua">Квадроцикл HB-EATV1200Q-2ST</name>
@@ -5199,8 +5199,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="HF-H002" available="true">
-      <price>5800</price>
-      <price_old>7540</price_old>
+      <price>4800</price>
+      <price_old>6240</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Гірка-гойдалка HF-H002</name>
       <picture>https://metr-plus.com.ua/img/187197.jpg</picture>
@@ -7737,8 +7737,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="L-CC01-4" available="true">
-      <price>3300</price>
-      <price_old>4290</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Гірка L-CC01-4</name>
       <picture>https://metr-plus.com.ua/img/632282.jpg</picture>
@@ -7754,8 +7754,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="L-CC01-8" available="true">
-      <price>3300</price>
-      <price_old>4290</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Гірка L-CC01-8</name>
       <picture>https://metr-plus.com.ua/img/632284.jpg</picture>
@@ -8011,7 +8011,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 3233L Jade Green" available="true">
-      <price>3155.0</price>
+      <price>2840.0</price>
       <availability>in_stock</availability>
       <category code="745">Стільчики для годування</category>
       <attribute_set code="745">Стільчики для годування</attribute_set>
@@ -8031,7 +8031,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 3233L Pink" available="true">
-      <price>3155.0</price>
+      <price>2840.0</price>
       <availability>in_stock</availability>
       <category code="745">Стільчики для годування</category>
       <attribute_set code="745">Стільчики для годування</attribute_set>
@@ -8284,8 +8284,8 @@
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 3906-RC-RECEIVER</name>
-      <picture>https://metr-plus.com.ua/img/248112.jpg</picture>
-      <description lang="ua">для машины M 3906, 12V</description>
+      <picture>https://metr-plus.com.ua/img/850772.jpg</picture>
+      <description lang="ua">до машини M 3906, 2023</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -8555,8 +8555,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4055AL-1" available="true">
-      <price>51600</price>
-      <price_old>67080</price_old>
+      <price>46600</price>
+      <price_old>60580</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -8677,8 +8677,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4086-3" available="true">
-      <price>1700</price>
-      <price_old>2210</price_old>
+      <price>1600</price>
+      <price_old>2080</price_old>
       <availability>in_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
@@ -8696,8 +8696,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4086-4" available="true">
-      <price>1800</price>
-      <price_old>2340</price_old>
+      <price>1600</price>
+      <price_old>2080</price_old>
       <availability>in_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
@@ -8715,8 +8715,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4086-8" available="true">
-      <price>1800</price>
-      <price_old>2340</price_old>
+      <price>1600</price>
+      <price_old>2080</price_old>
       <availability>in_stock</availability>
       <category code="853">Біговели</category>
       <attribute_set code="853">Біговели</attribute_set>
@@ -9780,8 +9780,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4557EBLR-10" available="true">
-      <price>14500</price>
-      <price_old>18850</price_old>
+      <price>11900</price>
+      <price_old>15470</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -9855,8 +9855,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 4569EBLRS-4" available="true">
-      <price>11700</price>
-      <price_old>15210</price_old>
+      <price>10100</price>
+      <price_old>13130</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -10355,6 +10355,82 @@
       <name lang="ua">Колесо M 4844-R EVA WHEEL</name>
       <picture>https://metr-plus.com.ua/img/802207.jpg</picture>
       <description lang="ua">заднє, EVA до трактора M 4844, діам.38см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4845-3" available="true">
+      <price>3600</price>
+      <price_old>4680</price_old>
+      <availability>in_stock</availability>
+      <category code="4917">Дитячі каталки, гойдалки</category>
+      <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
+      <name lang="ua">Каталка-толокар M 4845-3</name>
+      <picture>https://metr-plus.com.ua/img/789130.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906443.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906444.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906445.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906446.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906447.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Машинка-каталка 2 в 1 Bambi 4845 є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки знімній батьківській ручці та знімному обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. У нашому магазині Ви можете купити машинку-каталку Bambi 4845 і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики машинки-каталки 2 в 1 Bambi 4845:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне пластикове сидіння.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер надійно захистить дитину від випадіння.&lt;/li&gt;&lt;li&gt;Є MP3, USB, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;4 колеса пластикові.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 17 см.&lt;/li&gt;&lt;li&gt;Педалі відсутні.&lt;/li&gt;&lt;li&gt;Розмір каталки з ручкою (ДхШ(по підставці для ніг)хВ): 74х41х92 см.&lt;/li&gt;&lt;li&gt;Розмір каталки без ручки (ДхШ(по колесам)хВ): 61х33х40 см.&lt;/li&gt;&lt;li&gt;Висота до спинки: 40 см.&lt;/li&gt;&lt;li&gt;Висота до батьківської ручки: 92 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 43 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Живлення від батарейок: 3хАА (у комплект не входять).&lt;/li&gt;&lt;li&gt;Вага: 4,3 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,2 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 63х30х37 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4845-4" available="true">
+      <price>3600</price>
+      <price_old>4680</price_old>
+      <availability>in_stock</availability>
+      <category code="4917">Дитячі каталки, гойдалки</category>
+      <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
+      <name lang="ua">Каталка-толокар M 4845-4</name>
+      <picture>https://metr-plus.com.ua/img/789131.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906448.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906449.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906450.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906451.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906452.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Машинка-каталка 2 в 1 Bambi 4845 є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки знімній батьківській ручці та знімному обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. У нашому магазині Ви можете купити машинку-каталку Bambi 4845 і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики машинки-каталки 2 в 1 Bambi 4845:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне пластикове сидіння.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер надійно захистить дитину від випадіння.&lt;/li&gt;&lt;li&gt;Є MP3, USB, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;4 колеса пластикові.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 17 см.&lt;/li&gt;&lt;li&gt;Педалі відсутні.&lt;/li&gt;&lt;li&gt;Розмір каталки з ручкою (ДхШ(по підставці для ніг)хВ): 74х41х92 см.&lt;/li&gt;&lt;li&gt;Розмір каталки без ручки (ДхШ(по колесам)хВ): 61х33х40 см.&lt;/li&gt;&lt;li&gt;Висота до спинки: 40 см.&lt;/li&gt;&lt;li&gt;Висота до батьківської ручки: 92 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 43 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Живлення від батарейок: 3хАА (у комплект не входять).&lt;/li&gt;&lt;li&gt;Вага: 4,3 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,2 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 63х30х37 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4845-5" available="true">
+      <price>3600</price>
+      <price_old>4680</price_old>
+      <availability>in_stock</availability>
+      <category code="4917">Дитячі каталки, гойдалки</category>
+      <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
+      <name lang="ua">Каталка-толокар M 4845-5</name>
+      <picture>https://metr-plus.com.ua/img/789132.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906453.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906454.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906455.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906456.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906457.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Машинка-каталка 2 в 1 Bambi 4845 є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки знімній батьківській ручці та знімному обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. У нашому магазині Ви можете купити машинку-каталку Bambi 4845 і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики машинки-каталки 2 в 1 Bambi 4845:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне пластикове сидіння.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер надійно захистить дитину від випадіння.&lt;/li&gt;&lt;li&gt;Є MP3, USB, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;4 колеса пластикові.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 17 см.&lt;/li&gt;&lt;li&gt;Педалі відсутні.&lt;/li&gt;&lt;li&gt;Розмір каталки з ручкою (ДхШ(по підставці для ніг)хВ): 74х41х92 см.&lt;/li&gt;&lt;li&gt;Розмір каталки без ручки (ДхШ(по колесам)хВ): 61х33х40 см.&lt;/li&gt;&lt;li&gt;Висота до спинки: 40 см.&lt;/li&gt;&lt;li&gt;Висота до батьківської ручки: 92 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 43 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Живлення від батарейок: 3хАА (у комплект не входять).&lt;/li&gt;&lt;li&gt;Вага: 4,3 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,2 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 63х30х37 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 4845-6" available="true">
+      <price>3600</price>
+      <price_old>4680</price_old>
+      <availability>in_stock</availability>
+      <category code="4917">Дитячі каталки, гойдалки</category>
+      <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
+      <name lang="ua">Каталка-толокар M 4845-6</name>
+      <picture>https://metr-plus.com.ua/img/789133.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906458.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906459.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906460.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906461.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/906462.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Машинка-каталка 2 в 1 Bambi 4845 є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки знімній батьківській ручці та знімному обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. У нашому магазині Ви можете купити машинку-каталку Bambi 4845 і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики машинки-каталки 2 в 1 Bambi 4845:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Управління дитиною здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне пластикове сидіння.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер надійно захистить дитину від випадіння.&lt;/li&gt;&lt;li&gt;Є MP3, USB, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;4 колеса пластикові.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 17 см.&lt;/li&gt;&lt;li&gt;Педалі відсутні.&lt;/li&gt;&lt;li&gt;Розмір каталки з ручкою (ДхШ(по підставці для ніг)хВ): 74х41х92 см.&lt;/li&gt;&lt;li&gt;Розмір каталки без ручки (ДхШ(по колесам)хВ): 61х33х40 см.&lt;/li&gt;&lt;li&gt;Висота до спинки: 40 см.&lt;/li&gt;&lt;li&gt;Висота до батьківської ручки: 92 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 43 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Живлення від батарейок: 3хАА (у комплект не входять).&lt;/li&gt;&lt;li&gt;Вага: 4,3 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,2 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 63х30х37 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -11292,8 +11368,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 501-20" available="true">
-      <price>3000</price>
-      <price_old>3900</price_old>
+      <price>2800</price>
+      <price_old>3640</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -11791,10 +11867,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5027EBLR-1" available="true">
+    <offer id="M 5027EBLR-1" available="false">
       <price>13500</price>
       <price_old>17550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 5027EBLR-1</name>
@@ -12522,8 +12598,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5098EBLR-1" available="true">
-      <price>16100</price>
-      <price_old>20930</price_old>
+      <price>15800</price>
+      <price_old>20540</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -12540,6 +12616,28 @@
       <picture>https://metr-plus.com.ua/img/849019.jpg</picture>
       <picture>https://metr-plus.com.ua/img/849020.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий електромобіль M 5098EBLR-1 Mercedes, шкіряне сидіння - здатний забезпечити вашому малюку веселе та цікаве проведення часу, іграшка зможе порадувати дитину відмінними світловими та звуковими ефектами, у неї світяться фари, а також є магнітола. Дитячий електромобіль M 5098EBLR-1 виконаний з матеріалів високої якості, що забезпечує іграшці довгий термін служби, машина має м&amp;#x27;які колеса EVA та шкіряне сидіння, що зробить їзду максимально комфортною. Дитячий електромобіль M 5098EBLR-1 створений у стилі справжнього автомобіля Mercedes, у машини можуть відчинятися двері, безпека малюка забезпечує ремінець, ця модель комплектується пультом дистанційного керування, також авто можна керувати вручну з кабіни.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 5098 EBLR-1 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ліцензійна модель має оригінальний значок Mercedes&lt;/li&gt;&lt;li&gt;Шкіряне сидіння&lt;/li&gt;&lt;li&gt;Ширина посадкового місця – 46 см.&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Розмір колеса – 26 см, розмір диска – 21 см&lt;/li&gt;&lt;li&gt;задні амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х35W / 12V / RPM12000&lt;/li&gt;&lt;li&gt;Акумулятор 12V/14AH&lt;/li&gt;&lt;li&gt;Час на зарядку 10-12 годин&lt;/li&gt;&lt;li&gt;Заряджання 12V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 1 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 8 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад - тумблер&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться передні та задні фари, кнопка увімк./вимк. світла&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Панель: MP3+USB, AUX, FM радіо, BLUETOOTH&lt;/li&gt;&lt;li&gt;П&amp;#x27;ятиточковий ремінь безпеки&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 35 кг&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4 G BLUETOOTH (STOP BUTTON)&lt;/li&gt;&lt;li&gt;Тумблер для перемикання режиму керування (педаль газу чи пульт радіокерування)&lt;/li&gt;&lt;li&gt;App (додаток)&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалей – 30 см&lt;/li&gt;&lt;li&gt;Вага машини: 20,7 кг&lt;/li&gt;&lt;li&gt;Вага коробки: 24,9 кг&lt;/li&gt;&lt;li&gt;Розміри коробки: 128х66х32,5 см&lt;/li&gt;&lt;li&gt;Розміри машини: довжина - 126 см, ширина по дзеркалах/колесами - 76 см/65 см, висота - 50 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий електромобіль M 5098 EBLR-1 або отримати додаткову інформацію про дитячий електромобіль M 5098 EBLR-1 Ви можете зателефонувавши нашим менеджерам за вказаними телефонами. Купити дитячий електромобіль M 5098 EBLR-1 у регіонах України&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5098EBLR-3" available="true">
+      <price>15800</price>
+      <price_old>20540</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 5098EBLR-3</name>
+      <picture>https://metr-plus.com.ua/img/850892.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855162.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855163.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855169.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855165.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855166.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855164.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855167.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/855168.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 3 років Дитячий електромобіль з пультом керування Bambi M 5098EBLR нагадує модель справжнього автомобіля та обладнаний одним 2-х містним посадковим шкіряним сидінням з 5-ти точковими ременями безпеки. Передбачена можливість підключення Bluetooth, а також є FM-радіо, AUX, MP3, USB. Світло передніх і задніх фар, сигнал на кермі та приємна музика розважать дитину під час їзди. Пульт дистанційного керування з можливістю перемикання швидкостей входить до комплекту. У нашому магазині Ви можете купити електромобіль Bambi M 5098EBLR та урізноманітнити дозвілля своєї дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля з пультом управління Bambi M 5098EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дитячий електромобіль призначений для дітей віком від 3 років.&lt;/li&gt;&lt;li&gt;Наводиться в рух як самою дитиною шляхом натискання кнопки &amp;quot;Старт&amp;quot; та педалі, так і за допомогою пульта дистанційного керування 2,4G.&lt;/li&gt;&lt;li&gt;При старті чути відповідний звук, а також можливі &amp;quot;повільний старт&amp;quot; та &amp;quot;повільний стоп&amp;quot;.&lt;/li&gt;&lt;li&gt;Електромобіль має одне 2-х містне шкіряне сидіння.&lt;/li&gt;&lt;li&gt;Посадкове місце обладнане 5 точковими ременями безпеки.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 46 см.&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалі: 30 см.&lt;/li&gt;&lt;li&gt;Передні та задні фари світяться.&lt;/li&gt;&lt;li&gt;Світло вмикається/вимикається кнопкою.&lt;/li&gt;&lt;li&gt;Сигнал на кермі розважить дитину під час їзди.&lt;/li&gt;&lt;li&gt;Предбачено регулювання гучності.&lt;/li&gt;&lt;li&gt;Можливе підключення Bluetooth (STOP BUTTON), а також є FM-радіо, AUX, MP3, USB.&lt;/li&gt;&lt;li&gt;4 колеса виконані з Eva-матеріалу.&lt;/li&gt;&lt;li&gt;Двері відкриваються в сторони.&lt;/li&gt;&lt;li&gt;Предбачені задні амортизатори.&lt;/li&gt;&lt;li&gt;Має 1 швидкость руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість: 3-8 км/год.&lt;/li&gt;&lt;li&gt;Рух вперед і назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 4х12V/35W/RPM12000.&lt;/li&gt;&lt;li&gt;Акумулятор: 1х12V/14Ah.&lt;/li&gt;&lt;li&gt;Час на зарядку: 8-12 годин.&lt;/li&gt;&lt;li&gt;Передбачено індикатор заряду батареї.&lt;/li&gt;&lt;li&gt;Розміри електромобіля (ДхШхВ): 126х65х50 см.&lt;/li&gt;&lt;li&gt;Ширина по дзеркалам : 76 см.&lt;/li&gt;&lt;li&gt;Діаметр колеса: 26 см.&lt;/li&gt;&lt;li&gt;Діаметр диска: 21 см.&lt;/li&gt;&lt;li&gt;Вага: 20,7 кг.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 128х66х32,5 см.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 24,9 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 35 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -12588,6 +12686,30 @@
       <picture>https://metr-plus.com.ua/img/853390.jpg</picture>
       <picture>https://metr-plus.com.ua/img/853391.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий електромобіль M 5098EBLRS-3 Mercedes, автофарбування - зможе порадувати дитину відмінними світловими та звуковими ефектами, у неї світяться фари, а також є магнітола, така іграшка здатна забезпечити вашому малюку веселе та цікаве проведення часу. Дитячий електромобіль M 5098EBLRS-3 має м&amp;#x27;які EVA колеса та шкіряне сидіння, що зробить їзду максимально комфортною, машина виконана з матеріалів високої якості, що забезпечує іграшці довгий термін служби. Дитячий електромобіль M 5098EBLRS-3 комплектується пультом дистанційного керування, також авто можна керувати вручну з кабіни, ця модель створена в стилі справжнього автомобіля Mercedes, у машини можуть відчинятися двері, безпека малюка забезпечує ремінець.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 5098 EBLRS-3 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ліцензійна модель має оригінальний значок Mercedes&lt;/li&gt;&lt;li&gt;Автомобільне фарбування&lt;/li&gt;&lt;li&gt;Шкіряне сидіння&lt;/li&gt;&lt;li&gt;Ширина посадкового місця – 46 см.&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Розмір колеса – 26 см, розмір диска – 21 см&lt;/li&gt;&lt;li&gt;задні амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х35W / 12V / RPM12000&lt;/li&gt;&lt;li&gt;Акумулятор 12V/14AH&lt;/li&gt;&lt;li&gt;Час на зарядку 10-12 годин&lt;/li&gt;&lt;li&gt;Заряджання 12V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 1 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 8 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад - тумблер&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться передні та задні фари, кнопка увімк./вимк. світла&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Панель: MP3+USB, AUX, FM радіо, BLUETOOTH&lt;/li&gt;&lt;li&gt;П&amp;#x27;ятиточковий ремінь безпеки&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 35 кг&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4 G BLUETOOTH (STOP BUTTON)&lt;/li&gt;&lt;li&gt;Тумблер для перемикання режиму керування (педаль газу чи пульт радіокерування)&lt;/li&gt;&lt;li&gt;App (додаток)&lt;/li&gt;&lt;li&gt;Відстань від сидіння до педалей – 30 см&lt;/li&gt;&lt;li&gt;Вага машини: 20,7 кг&lt;/li&gt;&lt;li&gt;Вага коробки: 24,9 кг&lt;/li&gt;&lt;li&gt;Розміри коробки: 128х66х32,5 см&lt;/li&gt;&lt;li&gt;Розміри машини: довжина - 126 см, ширина по дзеркалах/колесами - 76 см/65 см, висота - 50 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячий електромобіль M 5098 EBLRS-3 або отримати додаткову інформацію про дитячий електромобіль M 5098 EBLRS-3 Ви можете зателефонувавши нашим менеджерам за вказаними телефонами. Купити дитячий електромобіль M 5098 EBLRS-3 у регіонах України&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5098EBLRS-5" available="true">
+      <price>16700</price>
+      <price_old>21710</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Машина M 5098EBLRS-5</name>
+      <picture>https://metr-plus.com.ua/img/848835.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848995.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848996.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848997.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848998.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/848999.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/849000.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/849001.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/849002.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/849003.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/849004.jpg</picture>
+      <description lang="ua">р/к,  2,4G, 4мот35W, 1акум12V14Ah, EVA,SD, шкірян.сидіння., рем.без, фарб.зелений</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -12932,8 +13054,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5105EBLR-4" available="true">
-      <price>12200</price>
-      <price_old>15860</price_old>
+      <price>9500</price>
+      <price_old>12350</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -13889,9 +14011,94 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 5782EBLR-11" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-11</name>
+      <picture>https://metr-plus.com.ua/img/932202.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983724.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983725.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983726.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5782EBLR-3" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-3</name>
+      <picture>https://metr-plus.com.ua/img/932203.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983727.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983728.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983729.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5782EBLR-4" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-4</name>
+      <picture>https://metr-plus.com.ua/img/932204.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983730.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983731.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983732.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5782EBLR-5" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-5</name>
+      <picture>https://metr-plus.com.ua/img/932205.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983733.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983734.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983735.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5782EBLR-6" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-6</name>
+      <picture>https://metr-plus.com.ua/img/932206.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983736.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983737.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/983738.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 5782EBLR-8" available="true">
-      <price>4900</price>
-      <price_old>6370</price_old>
+      <price>4800</price>
+      <price_old>6240</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -13900,6 +14107,23 @@
       <picture>https://metr-plus.com.ua/img/983739.jpg</picture>
       <picture>https://metr-plus.com.ua/img/983740.jpg</picture>
       <picture>https://metr-plus.com.ua/img/983741.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5782EBLR-9" available="true">
+      <price>4800</price>
+      <price_old>6240</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5782EBLR-9</name>
+      <picture>https://metr-plus.com.ua/img/932208.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/976686.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/976687.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/976688.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5782EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5782EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5782EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/35W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Матеріал: ударостійкий пластик.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х41х92 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 69 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 31 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 47 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 65,5х37,5х30,5 см.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -14091,8 +14315,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5796EBLRS-4" available="true">
-      <price>13800</price>
-      <price_old>17940</price_old>
+      <price>12600</price>
+      <price_old>16380</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -15456,8 +15680,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5900EL-4" available="true">
-      <price>4300</price>
-      <price_old>5590</price_old>
+      <price>3600</price>
+      <price_old>4680</price_old>
       <availability>in_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
@@ -15502,6 +15726,90 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 5944EBLR-2" available="true">
+      <price>5300</price>
+      <price_old>6890</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5944EBLR-2</name>
+      <picture>https://metr-plus.com.ua/img/935887.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936339.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936340.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936341.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936342.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936343.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936344.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/936345.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5944EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, AUX, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5944EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5944EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 77х40х92 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 48 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х35 см.&lt;/li&gt;&lt;li&gt;Вага: 7,1 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 7,9 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5944EBLR-3" available="true">
+      <price>5300</price>
+      <price_old>6890</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5944EBLR-3</name>
+      <picture>https://metr-plus.com.ua/img/936512.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985905.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985902.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985903.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985904.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985906.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985907.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985908.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5944EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, AUX, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5944EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5944EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 77х40х92 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 48 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х35 см.&lt;/li&gt;&lt;li&gt;Вага: 7,1 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 7,9 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5944EBLR-4" available="true">
+      <price>5000</price>
+      <price_old>6500</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5944EBLR-4</name>
+      <picture>https://metr-plus.com.ua/img/935888.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985761.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985762.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985763.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985764.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985765.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985766.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985767.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5944EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, AUX, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5944EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5944EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 77х40х92 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 48 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х35 см.&lt;/li&gt;&lt;li&gt;Вага: 7,1 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 7,9 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 5944EBLR-5" available="true">
+      <price>5300</price>
+      <price_old>6890</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 5944EBLR-5</name>
+      <picture>https://metr-plus.com.ua/img/935889.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985754.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985755.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985756.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985757.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985758.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985759.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/985760.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 5944EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, AUX, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 5944EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 5944EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 15 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX, Bluetooth, TF.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Рух вперед/назад перемикається тумблером.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/4AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 77х40х92 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 28 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 48 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 22 см.&lt;/li&gt;&lt;li&gt;Діаметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х35 см.&lt;/li&gt;&lt;li&gt;Вага: 7,1 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 7,9 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 5960-7" available="false">
       <price>2200</price>
       <price_old>2860</price_old>
@@ -15531,8 +15839,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5989BLR-4" available="true">
-      <price>11400</price>
-      <price_old>14820</price_old>
+      <price>9400</price>
+      <price_old>12220</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -15554,8 +15862,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 5989BLR-6" available="true">
-      <price>11400</price>
-      <price_old>14820</price_old>
+      <price>9400</price>
+      <price_old>12220</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -15789,8 +16097,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6017AL-4" available="true">
-      <price>15300</price>
-      <price_old>19890</price_old>
+      <price>13800</price>
+      <price_old>17940</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -16000,8 +16308,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6026EBLR-1(24V)" available="true">
-      <price>17900</price>
-      <price_old>23270</price_old>
+      <price>14600</price>
+      <price_old>18980</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -16024,8 +16332,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6026EBLR-3(24V)" available="true">
-      <price>17900</price>
-      <price_old>23270</price_old>
+      <price>14600</price>
+      <price_old>18980</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -16712,8 +17020,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6062EBLR-3" available="true">
-      <price>15900</price>
-      <price_old>20670</price_old>
+      <price>14200</price>
+      <price_old>18460</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -16736,8 +17044,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6063EBLR-3" available="true">
-      <price>12400</price>
-      <price_old>16120</price_old>
+      <price>9200</price>
+      <price_old>11960</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -16759,8 +17067,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6066EBLR-4" available="true">
-      <price>21100</price>
-      <price_old>27430</price_old>
+      <price>18700</price>
+      <price_old>24310</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -17100,6 +17408,30 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6080EL-11(24V)" available="true">
+      <price>19500</price>
+      <price_old>25350</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6080EL-11(24V)</name>
+      <picture>https://metr-plus.com.ua/img/944805.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008409.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008410.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008411.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008412.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008413.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008414.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008415.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008416.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008417.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1008418.jpg</picture>
+      <description lang="ua">(1шт) 4мотори200W, 1акум24V7AH, EVA, USB, TF, сірий</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6080EL-6(24V)" available="false">
       <price>21000</price>
       <price_old>27300</price_old>
@@ -17124,10 +17456,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6080EL-8-2(24V)" available="false">
-      <price>21000</price>
-      <price_old>27300</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6080EL-8-2(24V)" available="true">
+      <price>19500</price>
+      <price_old>25350</price_old>
+      <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6080EL-8-2(24V)</name>
@@ -17177,8 +17509,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6107(2)EBLR-3(24V)" available="true">
-      <price>18800</price>
-      <price_old>24440</price_old>
+      <price>16900</price>
+      <price_old>21970</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -17255,8 +17587,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6107EBLR-2(24V)" available="true">
-      <price>14100</price>
-      <price_old>18330</price_old>
+      <price>12700</price>
+      <price_old>16510</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -17277,8 +17609,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6107EBLR-4(24V)" available="true">
-      <price>14100</price>
-      <price_old>18330</price_old>
+      <price>12700</price>
+      <price_old>16510</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -18884,8 +19216,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6148ELS-11(24V)" available="true">
-      <price>32300</price>
-      <price_old>41990</price_old>
+      <price>29300</price>
+      <price_old>38090</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -19393,10 +19725,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6176-8" available="true">
+    <offer id="M 6176-8" available="false">
       <price>3300</price>
       <price_old>4290</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 6176-8</name>
@@ -20005,8 +20337,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6243-4" available="true">
-      <price>3300</price>
-      <price_old>4290</price_old>
+      <price>3100</price>
+      <price_old>4030</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Розвиваючий центр-стрибунець M 6243-4</name>
       <picture>https://metr-plus.com.ua/img/999762.jpg</picture>
@@ -20038,8 +20370,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6243-5" available="true">
-      <price>3300</price>
-      <price_old>4290</price_old>
+      <price>3100</price>
+      <price_old>4030</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Розвиваючий центр-стрибунець M 6243-5</name>
       <picture>https://metr-plus.com.ua/img/999763.jpg</picture>
@@ -20055,8 +20387,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6243-8" available="true">
-      <price>3100</price>
-      <price_old>4030</price_old>
+      <price>2800</price>
+      <price_old>3640</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Розвиваючий центр-стрибунець M 6243-8</name>
       <picture>https://metr-plus.com.ua/img/999764.jpg</picture>
@@ -21241,6 +21573,94 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6275EBLR-3" available="true">
+      <price>5600</price>
+      <price_old>7280</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6275EBLR-3</name>
+      <picture>https://metr-plus.com.ua/img/1015766.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025475.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025476.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025477.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025478.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025479.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025480.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025481.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1026230.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 6275EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 6275EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 6275EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 14 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Має 1 швидкість руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 2х6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/7AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х40х90 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 72 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 33 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 49 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Діметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х30 см.&lt;/li&gt;&lt;li&gt;Вага: 7,5 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 8,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6275EBLR-4" available="true">
+      <price>5600</price>
+      <price_old>7280</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6275EBLR-4</name>
+      <picture>https://metr-plus.com.ua/img/1016041.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025468.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025469.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025470.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025471.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025472.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025473.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025474.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1026231.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 6275EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 6275EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 6275EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 14 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Має 1 швидкість руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 2х6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/7AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х40х90 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 72 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 33 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 49 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Діметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х30 см.&lt;/li&gt;&lt;li&gt;Вага: 7,5 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 8,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6275EBLR-5" available="true">
+      <price>5300</price>
+      <price_old>6890</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6275EBLR-5</name>
+      <picture>https://metr-plus.com.ua/img/1016042.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025461.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025462.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025463.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025464.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025465.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025466.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025467.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1026232.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 6275EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 6275EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 6275EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 14 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Має 1 швидкість руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 2х6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/7AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х40х90 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 72 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 33 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 49 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Діметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х30 см.&lt;/li&gt;&lt;li&gt;Вага: 7,5 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 8,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6275EBLR-8" available="true">
+      <price>5600</price>
+      <price_old>7280</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6275EBLR-8</name>
+      <picture>https://metr-plus.com.ua/img/1016043.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025454.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025455.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025456.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025457.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025458.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025459.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1025460.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1026233.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від 1-го року Електромобіль-толокар Bambi M 6275EBLR є унікальним транспортним засобом, який може стати альтернативою прогулянковому візку, завдяки батьківській ручці та обмежувальному бамперу. Трохи подорослішавши малюк навчиться відштовхуватися ніжками від землі, наводячи каталку в рух. Додатковою функціональною особливістю іграшки є наявність музики, USB, Bluetooth та світла передніх фар. Електромобіль обладнаний мотором який працює від акумулятора, а також пультом дистанційного керування. У нашому магазині Ви можете купити машинку-каталку Bambi M 6275EBLR і сприяти загальному фізичному розвитку дитини.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики електромобіля-толокара Bambi M 6275EBLR:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Приводиться в рух за допомогою кнопки та педалі або пульту дистанційного керування.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує передніми колесами.&lt;/li&gt;&lt;li&gt;Каталка наводиться в рух самою дитиною, шляхом відштовхування ніжками від землі.&lt;/li&gt;&lt;li&gt;Управління здійснюється за допомогою керма.&lt;/li&gt;&lt;li&gt;Машинка має зручне сидіння з еко-шкіри з високою спинкою.&lt;/li&gt;&lt;li&gt;Ширина сидіння: 14 см.&lt;/li&gt;&lt;li&gt;Обмежувальний бампер знімається зі зростанням дитини.&lt;/li&gt;&lt;li&gt;Предбачено підніжку для ніжок малюка.&lt;/li&gt;&lt;li&gt;Їзда супроводжується музикою.&lt;/li&gt;&lt;li&gt;Є MP3, USB, AUX.&lt;/li&gt;&lt;li&gt;Передні фари світяться.&lt;/li&gt;&lt;li&gt;Має 1 швидкість руху в машині та 3 швидкості руху на пульті.&lt;/li&gt;&lt;li&gt;Швидкість руху: 3-5 км/год.&lt;/li&gt;&lt;li&gt;Потужність двигуна: 2х6V/25W.&lt;/li&gt;&lt;li&gt;Акумулятор: 6V/7AH.&lt;/li&gt;&lt;li&gt;4 колеса з EVA матеріалу.&lt;/li&gt;&lt;li&gt;Розміри каталки з ручкою (ДхШхВ): 85х40х90 см.&lt;/li&gt;&lt;li&gt;Довжина машинки: 72 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 33 см.&lt;/li&gt;&lt;li&gt;Висота до керма: 49 см.&lt;/li&gt;&lt;li&gt;Висота від підставки для ніг до сидіння: 18 см.&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Діметр дисків: 17 см.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 66х37,5х30 см.&lt;/li&gt;&lt;li&gt;Вага: 7,5 кг.&lt;/li&gt;&lt;li&gt;Вага з упаковкою: 8,5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 23 кг.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Bambi - провідна торгова марка, що випускає товари для Ваших малюків, використовує ергономічні рішення у поєднанні з сучасним дизайном та цікавою кольоровою гамою. Основні виробничі потужності компанії знаходяться в Китаї, а вся продукція виробляється згідно з європейськими стандартами якості.&lt;/p&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6277 EVA WHEEL" available="true">
       <price>1000</price>
       <price_old>1300</price_old>
@@ -21482,8 +21902,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6281EBLR-15" available="true">
-      <price>11600</price>
-      <price_old>15080</price_old>
+      <price>9000</price>
+      <price_old>11700</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -21505,8 +21925,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6281EBLR-8" available="true">
-      <price>11600</price>
-      <price_old>15080</price_old>
+      <price>9000</price>
+      <price_old>11700</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -22497,8 +22917,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6300EBLR-8" available="true">
-      <price>5300</price>
-      <price_old>6890</price_old>
+      <price>5100</price>
+      <price_old>6630</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23139,8 +23559,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6311EBLR-11(24V)" available="true">
-      <price>15400</price>
-      <price_old>20020</price_old>
+      <price>14000</price>
+      <price_old>18200</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23425,7 +23845,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6313EBLR-1(24V)" available="true">
-      <price>22248.0</price>
+      <price>22604.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23809,7 +24229,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLR-11(24V)" available="true">
-      <price>23463.0</price>
+      <price>23839.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23831,7 +24251,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLR-3(24V)" available="true">
-      <price>23463.0</price>
+      <price>23839.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24285,8 +24705,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6322EBLR-6" available="true">
-      <price>15800</price>
-      <price_old>20540</price_old>
+      <price>14400</price>
+      <price_old>18720</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24850,8 +25270,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6350EBLR-1(24V)" available="true">
-      <price>21900</price>
-      <price_old>28470</price_old>
+      <price>19300</price>
+      <price_old>25090</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24874,8 +25294,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6350EBLR-11(24V)" available="true">
-      <price>21900</price>
-      <price_old>28470</price_old>
+      <price>19300</price>
+      <price_old>25090</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25188,8 +25608,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6362E-9" available="true">
-      <price>3700</price>
-      <price_old>4810</price_old>
+      <price>3400</price>
+      <price_old>4420</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25209,8 +25629,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6363-11" available="true">
-      <price>3400</price>
-      <price_old>4420</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25229,8 +25649,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6363-3" available="true">
-      <price>3400</price>
-      <price_old>4420</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25249,8 +25669,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6363-6" available="true">
-      <price>3400</price>
-      <price_old>4420</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25423,8 +25843,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6367ELR-3-2" available="true">
-      <price>3900</price>
-      <price_old>5070</price_old>
+      <price>3500</price>
+      <price_old>4550</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25445,8 +25865,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6367ELR-3-4" available="true">
-      <price>4200</price>
-      <price_old>5460</price_old>
+      <price>3900</price>
+      <price_old>5070</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25467,8 +25887,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6367ELR-5-11" available="true">
-      <price>4200</price>
-      <price_old>5460</price_old>
+      <price>3900</price>
+      <price_old>5070</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25489,8 +25909,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6367ELR-8-11" available="true">
-      <price>4200</price>
-      <price_old>5460</price_old>
+      <price>3900</price>
+      <price_old>5070</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -25966,8 +26386,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6380EBLR-1(24V)" available="true">
-      <price>19800</price>
-      <price_old>25740</price_old>
+      <price>17800</price>
+      <price_old>23140</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -26065,8 +26485,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6382EBLR-3(24V)" available="true">
-      <price>15500</price>
-      <price_old>20150</price_old>
+      <price>14100</price>
+      <price_old>18330</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -26134,10 +26554,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6382EBLR-8(24V)" available="true">
+    <offer id="M 6382EBLR-8(24V)" available="false">
       <price>15500</price>
       <price_old>20150</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6382EBLR-8(24V)</name>
@@ -26290,8 +26710,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6408EBLR-3" available="true">
-      <price>14200</price>
-      <price_old>18460</price_old>
+      <price>11700</price>
+      <price_old>15210</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -26380,8 +26800,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6409EBLR-3" available="true">
-      <price>18500</price>
-      <price_old>24050</price_old>
+      <price>16900</price>
+      <price_old>21970</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -26544,8 +26964,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6480EBLR-6(24V)" available="true">
-      <price>16900</price>
-      <price_old>21970</price_old>
+      <price>15400</price>
+      <price_old>20020</price_old>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -26725,10 +27145,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6506EBLR-3" available="true">
+    <offer id="M 6506EBLR-3" available="false">
       <price>9700</price>
       <price_old>12610</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6506EBLR-3</name>
@@ -26775,6 +27195,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6506EBLR-9</name>
       <picture>https://metr-plus.com.ua/img/1155746.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163582.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163583.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163584.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163585.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163586.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163587.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163588.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163589.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163590.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163591.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий електромобіль M 6506EBLR-9 ​​фіолетовий - Це чудовий подарунок для маленького водія, який хоче мати власну машину. Дана модель виконана в стилі справжнього Audi та виглядає дуже ефектно, за рух відповідають два двигуни по 35W, а живлення здійснюється від батареї 12V 7-9AH. Фари, що світяться, надають автомобілю реалістичного вигляду і роблять кожну поїздку цікавішою. Дитячий електромобіль M 6506EBLR-9 ​​сподобається дитині не лише своїм зовнішнім виглядом, а й гарною функціональністю, вбудована магнітола дозволяє включати музику під час прогулянки, перетворюючи звичайну поїздку на справжню пригоду. Така модель стане чудовим подарунком на день народження, свято або просто без приводу, коли хочеться порадувати дитину чимось справді цікавим. Дитячий електромобіль M 6506EBLR-9 ​​фіолетовий обладнаний комфортним сидінням із чохлом з екошкіри, на якому дитині зручно перебувати під час катання. Ремені безпеки дозволяють надійно зафіксувати малюка, а двері, що відкриваються, роблять машинку ще більше схожою на справжній автомобіль. Дитина зможе сама керувати їй за допомогою керма та педалі газу, а для маленьких дітей у комплекті передбачений зручний пульт для керування з боку батьків.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6506EBLR-9 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Два двигуни 2х35W / 12V / RPM10000&lt;/li&gt;&lt;li&gt;Акумулятор 12V/4,5AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час на зарядку 8-12 годин&lt;/li&gt;&lt;li&gt;Зарядка 12V/1000mA, штекер круглий одинарний&lt;/li&gt;&lt;li&gt;Старт - кнопка, педаль газу&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад - важіль&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: mp3, USB роз&amp;#x27;єм, Bluetooth&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Дзеркала заднього виду&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth (STOP BUTTON)&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27212,8 +27642,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 7772-11" available="true">
-      <price>3200</price>
-      <price_old>4160</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -27230,8 +27660,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 7772-13" available="true">
-      <price>3200</price>
-      <price_old>4160</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -27248,8 +27678,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 7772-4" available="true">
-      <price>3200</price>
-      <price_old>4160</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -27266,8 +27696,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 7772-5" available="true">
-      <price>3200</price>
-      <price_old>4160</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -27284,8 +27714,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 7772-8" available="true">
-      <price>3200</price>
-      <price_old>4160</price_old>
+      <price>2900</price>
+      <price_old>3770</price_old>
       <availability>in_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
@@ -28468,7 +28898,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1074 Soft Mint" available="true">
-      <price>3834.0</price>
+      <price>3451.0</price>
       <availability>in_stock</availability>
       <name lang="ua">Заколисуючий центр ME 1074 MYLA Soft Mint</name>
       <picture>https://metr-plus.com.ua/img/716665.jpg</picture>
@@ -28485,7 +28915,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1074 Soft Pink" available="true">
-      <price>3834.0</price>
+      <price>3451.0</price>
       <availability>in_stock</availability>
       <name lang="ua">Заколисуючий центр ME 1074 MYLA Soft Pink</name>
       <picture>https://metr-plus.com.ua/img/716666.jpg</picture>
@@ -28534,7 +28964,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1075 Mint Animals" available="true">
-      <price>2933.0</price>
+      <price>2639.0</price>
       <availability>in_stock</availability>
       <name lang="ua">Гойдалка ME 1075 TEDDY Mint Animals</name>
       <picture>https://metr-plus.com.ua/img/792217.jpg</picture>
@@ -28871,7 +29301,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1110 i-FIX Base" available="true">
-      <price>2703.0</price>
+      <price>2317.0</price>
       <availability>in_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
@@ -29111,7 +29541,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1116 Beige" available="true">
-      <price>3365.0</price>
+      <price>2692.0</price>
       <availability>in_stock</availability>
       <name lang="ua">Заколисуючий центр ME 1116 CUTE Beige</name>
       <picture>https://metr-plus.com.ua/img/850777.jpg</picture>
@@ -29130,7 +29560,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1116 Gray" available="true">
-      <price>3365.0</price>
+      <price>2692.0</price>
       <availability>in_stock</availability>
       <name lang="ua">Заколисуючий центр ME 1116 CUTE Gray</name>
       <picture>https://metr-plus.com.ua/img/850779.jpg</picture>
@@ -29348,7 +29778,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1125-W Beige" available="true">
-      <price>8654.0</price>
+      <price>6923.0</price>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -29566,9 +29996,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1162-1 Frost Gray" available="true">
+    <offer id="ME 1162-1 Frost Gray" available="false">
       <price>6377.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Frost Gray</name>
@@ -29620,6 +30050,42 @@
       <picture>https://metr-plus.com.ua/img/987632.jpg</picture>
       <picture>https://metr-plus.com.ua/img/987633.jpg</picture>
       <description lang="ua">&lt;p&gt;Велосипед з батьківською ручкою ME 1162-1 Vector Purple El Camino, фіолетовий - стане чудовим вибором для прогулянок, забезпечуючи комфорт та зручність як для малюка, так і для батьків. Завдяки надійній конструкції та продуманому дизайну, він чудово підійде для щоденного використання, замінюючи собою коляску та даруючи дитині радість від активних поїздок. Велосипед триколісний ME 1162-1 Purple оснащений великим каптуром, який захистить малюка від сонця, вітру та дощу, що робить прогулянку комфортною у будь-яку погоду, а якісні матеріали гарантують довговічність та стійкість до зовнішніх впливів. Дитячий триколісний велосипед ME 1162-1 Purple поєднує в собі високу якість, надійність і комфорт, його конструкція продумана до дрібниць, щоб дитина почувала себе під час прогулянки впевнено та безпечно.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда ME 1162-1 Vector Purple :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Тканина: NEW, UV 50+/WPF захист від вигоряння&lt;/li&gt;&lt;li&gt;Панель: світло, живлення від батарейок&lt;/li&gt;&lt;li&gt;Якісні поліуретанові колеса&lt;/li&gt;&lt;li&gt;Розмір переднього колеса – 12 д., розмір заднього колеса – 10 д.&lt;/li&gt;&lt;li&gt;Колеса на підшипниках (переднє та задні колеса)&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне - 2 шт.&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Капюшон має оглядове вікно&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Ручка має м&amp;#x27;які фомові накладки&lt;/li&gt;&lt;li&gt;На ручці сумочка-кишенька для дрібниць&lt;/li&gt;&lt;li&gt;Поворотне сидіння, м&amp;#x27;який чохол&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки з м&amp;#x27;якими накладками&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;У комплекті дощовик&lt;/li&gt;&lt;li&gt;Вантажопідйомність, що рекомендується - до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1162-1 Taupe Beige" available="true">
+      <price>6374.0</price>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Taupe Beige</name>
+      <picture>https://metr-plus.com.ua/img/1052438.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142712.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142713.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142714.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142715.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142716.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142717.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142718.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142719.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142720.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142721.jpg</picture>
+      <description lang="ua">3 кол. PU (12/10), поворот сид., швидкоз?ємні кол., гальма, склад. кермо, світло, підшип., сумка, дощовик, бежевий</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1162-1 Total Gray" available="true">
+      <price>6374.0</price>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Total Gray</name>
+      <picture>https://metr-plus.com.ua/img/1163505.jpg</picture>
+      <description lang="ua">3 кол. PU (12/10), пов.сид.,швидкоз.кол.,гальма,склад. кермо,світло,підшип.,сумка,дощ.,сірий</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -30216,7 +30682,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1187 Shadow Gray" available="true">
-      <price>6422.0</price>
+      <price>5779.0</price>
       <availability>in_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
@@ -30554,7 +31020,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1194 Black" available="true">
-      <price>2842.0</price>
+      <price>2487.0</price>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -30695,6 +31161,21 @@
       <picture>https://metr-plus.com.ua/img/1003780.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1003781.jpg</picture>
       <description lang="ua">&lt;p&gt;З народження до 15 місяців і зростом від 40 до 87 см Чудове автокрісло EL Camino ME 1198 i-Flow призначене для дітей до 15-ти місяців та зростом від 40 до 87 см. Воно відрізняється максимальною зручністю, практичністю та надійністю. Автокрісло гарантує дитині максимальну безпеку та високий рівень комфорту завдяки м&amp;#x27;якій додатковій вкладці. Для зручного перенесення передбачено спеціальна ручка. У нашому магазині можна купити автокрісло EL Camino ME 1198 i-Flow, яке обов&amp;#x27;язково підійде Вашому малюку і створить комфорт та затишок під час подорожей.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого автокрісла EL Camino i-Flow ME 1198:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Автокрісло відповідає стандарту безпеки i-Size R129 і призначене для дитини зростом від 40 до 87 см.&lt;/li&gt;&lt;li&gt;Встановлюється проти ходу руху автомобіля на задньому сидінні за водієм або за пасажиром за допомогою штатних ременів безпеки, можливе встановлення на переднє пасажирське сидіння за умови можливості відключення подушки безпеки або її відсутності.&lt;/li&gt;&lt;li&gt;Можлива установка на базу ME 1198 Base 360 (продається окремо).&lt;/li&gt;&lt;li&gt;2 положення кута нахилу на базі автокрісла.&lt;/li&gt;&lt;li&gt;Підголовник регулюється в 4 положеннях.&lt;/li&gt;&lt;li&gt;4 положення кута нахилу на шасі.&lt;/li&gt;&lt;li&gt;3-х точкові ремені безпеки.&lt;/li&gt;&lt;li&gt;М&amp;#x27;яка вкладка для найменших дітей для регулювання глибини.&lt;/li&gt;&lt;li&gt;Глибина без вкладки: 110-140 градусів.&lt;/li&gt;&lt;li&gt;Глибина з вкладкою: 128-160 градусів.&lt;/li&gt;&lt;li&gt;Регульований капюшон, що захищає дитину від вітру та сонця, входить до комплекту.&lt;/li&gt;&lt;li&gt;Автокрісло оснащене зручною ручкою для перенесення.&lt;/li&gt;&lt;li&gt;У міру забруднення чохол можна зняти і випрати.&lt;/li&gt;&lt;li&gt;Розмір: 65х44х57 см.&lt;/li&gt;&lt;li&gt;Вага: 4,6 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,83 кг.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 70х45х31,5 см.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1199" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="846">Коляски</category>
+      <attribute_set code="846">Коляски</attribute_set>
+      <name lang="ua">З'єднувач конектор для колясок El Camino ME 1199</name>
+      <picture>https://metr-plus.com.ua/img/994581.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/996882.jpg</picture>
+      <description lang="ua">універсальний з 3-х частин: 2x20см, 1x25см, в кор-ці</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -30915,7 +31396,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1206 Black" available="true">
-      <price>5221.0</price>
+      <price>4698.0</price>
       <availability>in_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
@@ -30938,7 +31419,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1206 Brown" available="true">
-      <price>5221.0</price>
+      <price>4698.0</price>
       <availability>in_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
@@ -30961,7 +31442,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1206 Gray" available="true">
-      <price>5221.0</price>
+      <price>4698.0</price>
       <availability>in_stock</availability>
       <category code="843">Автокрісла</category>
       <attribute_set code="843">Автокрісла</attribute_set>
@@ -31168,7 +31649,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1221 Beige" available="true">
-      <price>18935.0</price>
+      <price>17042.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -31191,7 +31672,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1221 Black" available="true">
-      <price>18935.0</price>
+      <price>17042.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -31214,7 +31695,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1221 Gray" available="true">
-      <price>18935.0</price>
+      <price>17042.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -31237,7 +31718,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1221 Green" available="true">
-      <price>18935.0</price>
+      <price>17042.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -31403,7 +31884,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1223 Beige" available="true">
-      <price>7621.0</price>
+      <price>6859.0</price>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -31426,7 +31907,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1223 Gray" available="true">
-      <price>7621.0</price>
+      <price>6859.0</price>
       <availability>in_stock</availability>
       <category code="868">Дитячі ліжечка</category>
       <attribute_set code="868">Дитячі ліжечка</attribute_set>
@@ -31478,7 +31959,7 @@
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска El Camino NOTTA ME 1225 Ash Pink</name>
       <picture>https://metr-plus.com.ua/img/1163499.jpg</picture>
-      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, рожевий</description>
+      <description lang="ua">&lt;p&gt;Прогулянкова коляска El Camino Notta ME 1225 Ash Pink рожева - стане чудовим вибором для батьків, які шукають зручну та легку коляску щодня. Вона підходить для малюків від шести місяців до трьох років, має сучасний дизайн та продуману конструкцію. Завдяки алюмінієвій рамі модель відрізняється невеликою вагою, а механізм складання типу книжка дозволяє швидко підготувати її до перевезення або зберігання. Дитяча коляска ME 1225 Ash Pink створена для комфортних щоденних прогулянок з дитиною, вона має глибокий каптур, який захищає малюка від яскравого сонця, дощу та гілка, а регульовані спинка та підніжка дозволяють влаштувати дитину зручніше, у тому числі для відпочинку під час прогулянки. Ремені безпеки та страхувальний бампер забезпечують надійну фіксацію маленького пасажира. Прогулянкова коляска ME 1225 Ash Pink порадує батьків своєю функціональністю та зручністю. Місткий кошик допоможе взяти з собою все необхідне, а чохол на ніжки забезпечить додатковий комфорт у прохолодні дні. Стильна, якісна та практична коляска, з якою щоденні прогулянки стануть ще приємнішими.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого візка ME 1225 Ash Pink :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: прогулянкова коляска&lt;/li&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип складання: книжка&lt;/li&gt;&lt;li&gt;Легка алюмінієва рама&lt;/li&gt;&lt;li&gt;Тип тканини: щільне, водовідштовхувальне просочення&lt;/li&gt;&lt;li&gt;Глибокий капюшон із оглядовим віконцем, глибина регулюється&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;5-точковий ремінь безпеки з м&amp;#x27;якими плечовими накладками&lt;/li&gt;&lt;li&gt;Регульована підніжка&lt;/li&gt;&lt;li&gt;Колеса - 4 шт., матеріал - PU&lt;/li&gt;&lt;li&gt;Передні колеса поворотні&lt;/li&gt;&lt;li&gt;Гальмо - спарене&lt;/li&gt;&lt;li&gt;Амортизатори передніх коліс&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;РМаксимальне навантаження – до 22 кг&lt;/li&gt;&lt;li&gt;Підходить дітям від 6-ти місяців до 3-х років&lt;/li&gt;&lt;li&gt;Аксесуари: чохол на ніжки&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити прогулянкову коляску ME 1225 Ash Pink або отримати додаткову інформацію про коляску ME 1225 Ash Pink, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити прогулянкову коляску El Camino Notta ME 1225 Ash Pink у регіонах України&lt;/p&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31491,7 +31972,7 @@
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска El Camino NOTTA ME 1225 Black</name>
       <picture>https://metr-plus.com.ua/img/1163500.jpg</picture>
-      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, чорний</description>
+      <description lang="ua">&lt;p&gt;Прогулянкова коляска El Camino Notta ME 1225 Black чорна - стане чудовим вибором для батьків, які шукають зручну та легку коляску щодня. Вона підходить для малюків від шести місяців до трьох років, має сучасний дизайн та продуману конструкцію. Завдяки алюмінієвій рамі модель відрізняється невеликою вагою, а механізм складання типу книжка дозволяє швидко підготувати її до перевезення або зберігання. Дитяча коляска ME 1225 Black створена для комфортних щоденних прогулянок з дитиною, вона має глибокий каптур, який захищає малюка від яскравого сонця, дощу та гілка, а регульовані спинка та підніжка дозволяють влаштувати дитину зручніше, у тому числі для відпочинку під час прогулянки. Ремені безпеки та страхувальний бампер забезпечують надійну фіксацію маленького пасажира. Прогулянкова коляска ME 1225 Black порадує батьків своєю функціональністю та зручністю. Місткий кошик допоможе взяти з собою все необхідне, а чохол на ніжки забезпечить додатковий комфорт у прохолодні дні. Стильна, якісна та практична коляска, з якою щоденні прогулянки стануть ще приємнішими.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого візка ME 1225 Black :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: прогулянкова коляска&lt;/li&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип складання: книжка&lt;/li&gt;&lt;li&gt;Легка алюмінієва рама&lt;/li&gt;&lt;li&gt;Тип тканини: щільне, водовідштовхувальне просочення&lt;/li&gt;&lt;li&gt;Глибокий капюшон із оглядовим віконцем, глибина регулюється&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;5-точковий ремінь безпеки з м&amp;#x27;якими плечовими накладками&lt;/li&gt;&lt;li&gt;Регульована підніжка&lt;/li&gt;&lt;li&gt;Колеса - 4 шт., матеріал - PU&lt;/li&gt;&lt;li&gt;Передні колеса поворотні&lt;/li&gt;&lt;li&gt;Гальмо - спарене&lt;/li&gt;&lt;li&gt;Амортизатори передніх коліс&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;РМаксимальне навантаження – до 22 кг&lt;/li&gt;&lt;li&gt;Підходить дітям від 6-ти місяців до 3-х років&lt;/li&gt;&lt;li&gt;Аксесуари: чохол на ніжки&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити прогулянкову коляску ME 1225 Black або отримати додаткову інформацію про коляску ME 1225 Black, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити прогулянкову коляску El Camino Notta ME 1225 Black в регіонах України&lt;/p&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31504,7 +31985,7 @@
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска El Camino NOTTA ME 1225 Iron Gray</name>
       <picture>https://metr-plus.com.ua/img/1163501.jpg</picture>
-      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, темно-сірий</description>
+      <description lang="ua">&lt;p&gt;Прогулянкова коляска El Camino Notta ME 1225 Iron Gray темно-сіра - стане чудовим вибором для батьків, які шукають зручну та легку коляску щодня. Вона підходить для малюків від шести місяців до трьох років, має сучасний дизайн та продуману конструкцію. Завдяки алюмінієвій рамі модель відрізняється невеликою вагою, а механізм складання типу книжка дозволяє швидко підготувати її до перевезення або зберігання. Дитяча коляска ME 1225 Iron Gray створена для комфортних щоденних прогулянок з дитиною, вона має глибокий каптур, який захищає малюка від яскравого сонця, дощу та гілка, а регульовані спинка та підніжка дозволяють влаштувати дитину зручніше, у тому числі для відпочинку під час прогулянки. Ремені безпеки та страхувальний бампер забезпечують надійну фіксацію маленького пасажира. Прогулянкова коляска ME 1225 Iron Gray порадує батьків своєю функціональністю та зручністю. Місткий кошик допоможе взяти з собою все необхідне, а чохол на ніжки забезпечить додатковий комфорт у прохолодні дні. Стильна, якісна та практична коляска, з якою щоденні прогулянки стануть ще приємнішими.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого візка ME 1225 Iron Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: прогулянкова коляска&lt;/li&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип складання: книжка&lt;/li&gt;&lt;li&gt;Легка алюмінієва рама&lt;/li&gt;&lt;li&gt;Тип тканини: щільне, водовідштовхувальне просочення&lt;/li&gt;&lt;li&gt;Глибокий капюшон із оглядовим віконцем, глибина регулюється&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;5-точковий ремінь безпеки з м&amp;#x27;якими плечовими накладками&lt;/li&gt;&lt;li&gt;Регульована підніжка&lt;/li&gt;&lt;li&gt;Колеса - 4 шт., матеріал - PU&lt;/li&gt;&lt;li&gt;Передні колеса поворотні&lt;/li&gt;&lt;li&gt;Гальмо - спарене&lt;/li&gt;&lt;li&gt;Амортизатори передніх коліс&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;РМаксимальне навантаження – до 22 кг&lt;/li&gt;&lt;li&gt;Підходить дітям від 6-ти місяців до 3-х років&lt;/li&gt;&lt;li&gt;Аксесуари: чохол на ніжки&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити прогулянкову коляску ME 1225 Iron Gray або отримати додаткову інформацію про коляску ME 1225 Iron Gray, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити прогулянкову коляску El Camino Notta ME 1225 Iron Gray у регіонах України&lt;/p&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31517,14 +31998,14 @@
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска El Camino NOTTA ME 1225 Truffle Beige</name>
       <picture>https://metr-plus.com.ua/img/1163502.jpg</picture>
-      <description lang="ua">дитяча прогулянкова, регул.спинка, алюм.рама, чохол, беж</description>
+      <description lang="ua">&lt;p&gt;Прогулянкова коляска El Camino Notta ME 1225 Truffle Beige бежева - стане чудовим вибором для батьків, які шукають зручну та легку коляску щодня. Вона підходить для малюків від шести місяців до трьох років, має сучасний дизайн та продуману конструкцію. Завдяки алюмінієвій рамі модель відрізняється невеликою вагою, а механізм складання типу книжка дозволяє швидко підготувати її до перевезення або зберігання. Дитяча коляска ME 1225 Truffle Beige створена для комфортних щоденних прогулянок з дитиною, вона має глибокий каптур, який захищає малюка від яскравого сонця, дощу та гілка, а регульовані спинка та підніжка дозволяють влаштувати дитину зручніше, у тому числі для відпочинку під час прогулянки. Ремені безпеки та страхувальний бампер забезпечують надійну фіксацію маленького пасажира. Прогулянкова коляска ME 1225 Truffle Beige порадує батьків своєю функціональністю та зручністю. Місткий кошик допоможе взяти з собою все необхідне, а чохол на ніжки забезпечить додатковий комфорт у прохолодні дні. Стильна, якісна та практична коляска, з якою щоденні прогулянки стануть ще приємнішими.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого візка ME 1225 Truffle Beige :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: прогулянкова коляска&lt;/li&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип складання: книжка&lt;/li&gt;&lt;li&gt;Легка алюмінієва рама&lt;/li&gt;&lt;li&gt;Тип тканини: щільне, водовідштовхувальне просочення&lt;/li&gt;&lt;li&gt;Глибокий капюшон із оглядовим віконцем, глибина регулюється&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;5-точковий ремінь безпеки з м&amp;#x27;якими плечовими накладками&lt;/li&gt;&lt;li&gt;Регульована підніжка&lt;/li&gt;&lt;li&gt;Колеса - 4 шт., матеріал - PU&lt;/li&gt;&lt;li&gt;Передні колеса поворотні&lt;/li&gt;&lt;li&gt;Гальмо - спарене&lt;/li&gt;&lt;li&gt;Амортизатори передніх коліс&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;РМаксимальне навантаження – до 22 кг&lt;/li&gt;&lt;li&gt;Підходить дітям від 6-ти місяців до 3-х років&lt;/li&gt;&lt;li&gt;Аксесуари: чохол на ніжки&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити прогулянкову коляску ME 1225 Truffle Beige або отримати додаткову інформацію про коляску ME 1225 Truffle Beige, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити прогулянкову коляску El Camino Notta ME 1225 Truffle Beige у регіонах України&lt;/p&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1226 Frost Gray" available="true">
-      <price>4950.0</price>
+      <price>3960.0</price>
       <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
@@ -31547,7 +32028,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1226 Jade Green" available="true">
-      <price>4950.0</price>
+      <price>3960.0</price>
       <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
@@ -31570,7 +32051,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1226 Magnet Gray" available="true">
-      <price>4950.0</price>
+      <price>3960.0</price>
       <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
@@ -31593,7 +32074,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1226 Night Black" available="true">
-      <price>4950.0</price>
+      <price>3960.0</price>
       <availability>in_stock</availability>
       <category code="4991">Дитячі велосипеди</category>
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
@@ -31662,7 +32143,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1230 Black" available="true">
-      <price>7249.0</price>
+      <price>5799.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -31685,7 +32166,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="ME 1230 Chocolate" available="true">
-      <price>7249.0</price>
+      <price>5799.0</price>
       <availability>in_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
@@ -33018,10 +33499,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 4683-1" available="true">
+    <offer id="MS 4683-1" available="false">
       <price>3300</price>
       <price_old>4290</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 4683-1</name>
       <picture>https://metr-plus.com.ua/img/987816.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 5 років&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору Prof1 MS 4682:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Спортивний набір складається з боксерської груші та насоса.&lt;/li&gt;&lt;li&gt;Ігровий набір підійде для тренувальних поєдинків дитини.&lt;/li&gt;&lt;li&gt;Боксерська груша кріпиться до стіни за допомогою присосок.&lt;/li&gt;&lt;li&gt;Усередині груші – повітряний балон, який накачується за допомогою насоса.&lt;/li&gt;&lt;li&gt;При ударі груша розгойдується завдяки пружині.&lt;/li&gt;&lt;li&gt;Грушу необхідно не сильно накачувати, вона має бути м’якою.&lt;/li&gt;&lt;li&gt;Розмір упаковки: 42х25,5х14 см.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Компанія Prof1 – це один із лідерів-виробників дитячих велосипедів і біговелів, а також інших дитячих товарів. Товари високої якості постачаються на ринки Європи та України, щороку розширюючи асортимент продукції та відкриваючи нові функціональні можливості. Продукція компанії отримала не одну нагороду та грамоту.&lt;/p&gt;</description>
@@ -33173,10 +33654,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5125" available="true">
+    <offer id="MS 5125" available="false">
       <price>2900</price>
       <price_old>3770</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5125</name>
       <picture>https://metr-plus.com.ua/img/1162332.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5125 - відмінно підійде для домашніх тренувань і активного відпочинку, з ним можна влаштувати невелику спортивну розминку, потренувати реакцію або просто виплеснути енергію, що накопичилася після робочого дня. Шість цілей та дев&amp;#x27;ять режимів зі швидкостями роблять заняття різноманітними та дозволяють вибрати комфортний рівень навантаження. Настінний боксерський тренажер MS 5125 обладнаний електронним табло, яке відображає результати, а також підсвічуванням для цікавішого тренувального процесу. Можна підключити музику через Bluetooth та займатися під улюблені мелодії, створюючи потрібний настрій для кожного заняття. Тренажер для боксу MS 5125 не займає багато місця та зручно розміщується на стіні за допомогою липучок. Він працює від акумулятора, що позбавляє необхідності постійно підключати його до розетки. Рукавички вже входять у комплект, тому все необхідне для початку тренувань буде під рукою.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5125 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;9 швидкостей&lt;/li&gt;&lt;li&gt;9 різних режимів&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 40х40х5 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5125 або отримати додаткову інформацію про боксерський набір MS 5125, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5125 у регіонах України&lt;/p&gt;</description>
@@ -33185,10 +33666,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5126" available="true">
+    <offer id="MS 5126" available="false">
       <price>3200</price>
       <price_old>4160</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5126</name>
       <picture>https://metr-plus.com.ua/img/1162333.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5126 - стане корисним доповненням до домашнього спортивного інвентарю. Завдяки акумуляторному живленню тренажер не потрібно постійно тримати підключеним до електромережі, що робить його використання зручнішим. Виробник передбачив і боксерські рукавички у комплекті, тому можна одразу приступати до занять. Настінний боксерський тренажер MS 5126 допоможе поєднати фізичну активність та захоплююче заняття, яке не набридає через кілька тренувань. Замість звичних вправ пропонується працювати з електронною мішенню, намагаючись потрапляти по зонах, що підсвічуються, і дотримуватися заданого темпу. Тренажер кріпиться на стіну, тому для його розміщення не потрібно виділяти окреме місце на підлозі. Тренажер для боксу MS 5126 має шість цілей для відпрацювання ударів, а різноманітність налаштувань дозволяє щоразу трохи змінювати хід тренування. Дев&amp;#x27;ять режимів і різні швидкості дають можливість вибрати відповідний варіант як для початківців, так і для тих, хто вже знайомий з боксом. Усі основні показники виводяться на електронне табло, тому можна змагатись із власними результатами.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5126 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;Кількість швидкостей – 9 шт.&lt;/li&gt;&lt;li&gt;Кількість режимів – 9 шт.&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 52х46х5 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5126 або отримати додаткову інформацію про боксерський набір MS 5126, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5126 у регіонах України&lt;/p&gt;</description>
@@ -33197,10 +33678,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5127" available="true">
+    <offer id="MS 5127" available="false">
       <price>2400</price>
       <price_old>3120</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5127</name>
       <picture>https://metr-plus.com.ua/img/1162334.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5127 - це хороший спосіб поєднати фізичну активність та захоплююче заняття, яке не набридає через кілька тренувань. Замість звичних вправ пропонується працювати з електронною мішенню, намагаючись потрапляти по зонах, що підсвічуються, і дотримуватися заданого темпу. Тренажер кріпиться на стіну, тому для його розміщення не потрібно виділяти окреме місце на підлозі. Настінний боксерський тренажер MS 5127 має п&amp;#x27;ять цілей для відпрацювання ударів, а різноманітність налаштувань дозволяє щоразу трохи змінювати хід тренування. Дев&amp;#x27;ять режимів і різні швидкості дають можливість вибрати відповідний варіант як для початківців, так і для тих, хто вже знайомий з боксом. Усі основні показники виводяться на електронне табло, тому можна змагатись із власними результатами. Тренажер для боксу MS 5127 стане корисним доповненням до домашнього спортивного інвентарю. Завдяки акумуляторному живленню тренажер не потрібно постійно тримати підключеним до електромережі, що робить його використання зручнішим. Виробник передбачив і боксерські рукавички у комплекті, тому можна одразу приступати до занять.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5127 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 5 шт.&lt;/li&gt;&lt;li&gt;Кількість швидкостей – 9 шт.&lt;/li&gt;&lt;li&gt;Кількість режимів – 9 шт.&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 37х36х4,5 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5127 або отримати додаткову інформацію про боксерський набір MS 5127, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5127 у регіонах України&lt;/p&gt;</description>
@@ -33209,10 +33690,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5128" available="true">
+    <offer id="MS 5128" available="false">
       <price>2900</price>
       <price_old>3770</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5128</name>
       <picture>https://metr-plus.com.ua/img/1162335.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5128 - має музичний супровід та підсвічування, завдяки яким тренування проходять набагато цікавіше. Ця модель має електронне табло, на якому показані результати тренування, що дозволяє відстежувати свої досягнення і ставити нові цілі. Настінний боксерський тренажер MS 5128 обладнаний шістьма ударними зонами, які роблять тренувальний процес різноманітнішим. На вибір доступно дев&amp;#x27;ять режимів та кілька рівнів швидкості, тому можна змінювати інтенсивність занять залежно від підготовки та настрою. Тренажер для боксу MS 5128 допоможе облаштувати невелику тренувальну зону прямо у себе вдома та займатися у будь-який зручний час. Настінна мета призначена для боксерських вправ, під час яких необхідно потрапляти за певними цілями. Такі заняття допомагають розвивати швидкість рухів, влучність та уважність, а також дають можливість активно провести час і трохи розім&amp;#x27;ятися після робочого дня.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5128 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 6 шт.&lt;/li&gt;&lt;li&gt;Кількість швидкостей – 9 шт.&lt;/li&gt;&lt;li&gt;Кількість режимів – 9 шт.&lt;/li&gt;&lt;li&gt;Електронне табло&lt;/li&gt;&lt;li&gt;Музика, світло, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 44,5х44,5х5,5 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5128 або отримати додаткову інформацію про боксерський набір MS 5128, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5128 у регіонах України&lt;/p&gt;</description>
@@ -33221,10 +33702,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 5129" available="true">
+    <offer id="MS 5129" available="false">
       <price>4900</price>
       <price_old>6370</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Боксерський набір MS 5129</name>
       <picture>https://metr-plus.com.ua/img/1162336.jpg</picture>
       <description lang="ua">&lt;p&gt;Боксерський набір тренажер-мішень MS 5129 - допоможе облаштувати невелику тренувальну зону прямо у себе вдома та займатися у будь-який зручний час. Настінна мета призначена для боксерських вправ, під час яких необхідно потрапляти за певними цілями. Такі заняття допомагають розвивати швидкість рухів, влучність та уважність, а також дають можливість активно провести час і трохи розім&amp;#x27;ятися після робочого дня. Настінний боксерський тренажер MS 5129 має електронне табло, на якому показані результати тренування, що дозволяє відстежувати свої досягнення і ставити нові цілі. Ця модель має музичний супровід та підсвічування, завдяки яким тренування проходять набагато цікавіше. Тренажер для боксу MS 5129 обладнаний вісьмома ударними зонами, які роблять тренувальний процес різноманітнішим. На вибір доступно дев&amp;#x27;ять режимів та кілька рівнів швидкості, тому можна змінювати інтенсивність занять залежно від підготовки та настрою.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики боксерського набору MS 5129 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: боксерський тренажер&lt;/li&gt;&lt;li&gt;Кількість цілей – 8 шт.&lt;/li&gt;&lt;li&gt;Кількість швидкостей – 9 шт.&lt;/li&gt;&lt;li&gt;Кількість режимів – 9 шт.&lt;/li&gt;&lt;li&gt;Електронне/сенсорне табло&lt;/li&gt;&lt;li&gt;Музика, світло, Bluetooth, регулятор гучності&lt;/li&gt;&lt;li&gt;Акумулятор&lt;/li&gt;&lt;li&gt;Type-C шнур&lt;/li&gt;&lt;li&gt;У комплект входять рукавички&lt;/li&gt;&lt;li&gt;Розміри мішені: 54х45,5х9 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати боксерський набір MS 5129 або отримати додаткову інформацію про боксерський набір MS 5129, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити боксерський набір MS 5129 у регіонах України&lt;/p&gt;</description>
@@ -34499,10 +34980,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="RC RECEIVER-3228CEBLR" available="true">
+    <offer id="RC RECEIVER-3228CEBLR" available="false">
       <price>1700</price>
       <price_old>2210</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Блок керування RC RECEIVER-3228CEBLR</name>
       <picture>https://metr-plus.com.ua/img/1162073.jpg</picture>
       <description lang="ua">до трактора 3228CEBLR, 24V</description>
@@ -36637,8 +37118,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="VM-1201 VENOM/BAT" available="true">
-      <price>44000</price>
-      <price_old>57200</price_old>
+      <price>39900</price>
+      <price_old>51870</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Електробайк PROFI VENOM/BAT 12д. VM-1201</name>
       <picture>https://metr-plus.com.ua/img/1125427.jpg</picture>
@@ -36659,8 +37140,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="VM-1202 VENOM/BAT" available="true">
-      <price>44000</price>
-      <price_old>57200</price_old>
+      <price>39900</price>
+      <price_old>51870</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Електробайк PROFI VENOM/BAT 12д. VM-1202</name>
       <picture>https://metr-plus.com.ua/img/1125431.jpg</picture>
@@ -36672,8 +37153,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="VM-1203 VENOM/BAT" available="true">
-      <price>44000</price>
-      <price_old>57200</price_old>
+      <price>39900</price>
+      <price_old>51870</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Електробайк PROFI VENOM/BAT 12д. VM-1203</name>
       <picture>https://metr-plus.com.ua/img/1125430.jpg</picture>
@@ -36755,8 +37236,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="VN-1601" available="true">
-      <price>40400</price>
-      <price_old>52520</price_old>
+      <price>36600</price>
+      <price_old>47580</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Електровелосипед PROFI VELON 16д. VN-1601</name>
       <picture>https://metr-plus.com.ua/img/1125307.jpg</picture>
@@ -36868,8 +37349,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="WM19003-4" available="true">
-      <price>3100</price>
-      <price_old>4030</price_old>
+      <price>2800</price>
+      <price_old>3640</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Гірка WM19003-4</name>
       <picture>https://metr-plus.com.ua/img/457630.jpg</picture>
@@ -36929,8 +37410,8 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="Z321-8" available="true">
-      <price>2700</price>
-      <price_old>3510</price_old>
+      <price>2400</price>
+      <price_old>3120</price_old>
       <availability>in_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
