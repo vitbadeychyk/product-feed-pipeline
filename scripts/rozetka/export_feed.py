@@ -16,6 +16,7 @@ from scripts.pricing.rozetka_pricing import calculate_old_price
 from scripts.pricing.rozetka_pricing import calculate_price
 from scripts.rozetka.category_params import get_category_params
 from scripts.rozetka.category_params import get_parameter_config
+from scripts.rozetka.manual_sleds import append_manual_sleds
 
 
 # ============================================================
@@ -1485,6 +1486,14 @@ def export_rozetka_feed() -> None:
             "Існуючий rozetka_feed.xml "
             "не буде перезаписаний."
         )
+
+    # ========================================================
+    # MANUAL SLEDS (SHARED WITH EPICENTR AND EVA)
+    # All supplier offers above remain unchanged.
+    # ========================================================
+
+    manual_sled_count = append_manual_sleds(root)
+    print(f"Додано ручних санок для Rozetka: {manual_sled_count}")
 
     # ========================================================
     # CREATE XML TREE
