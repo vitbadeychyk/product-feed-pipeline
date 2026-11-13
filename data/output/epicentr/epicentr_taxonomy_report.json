@@ -1,6 +1,6 @@
 {
-  "total": 2219,
-  "unresolved_count": 225,
+  "total": 2231,
+  "unresolved_count": 223,
   "unresolved": [
     {
       "sku": "10034",
@@ -411,11 +411,6 @@
       "sku": "290732EU",
       "supplier_category_id": "104",
       "name": "Фільтр насос 290732EU"
-    },
-    {
-      "sku": "3228CEBLR-ST WHEEL",
-      "supplier_category_id": "114",
-      "name": "Кермо 3228CEBLR-ST WHEEL"
     },
     {
       "sku": "394168",
@@ -1088,11 +1083,6 @@
       "name": "Електровелосипед PROFI PULSE 16д. PS-1601"
     },
     {
-      "sku": "RC RECEIVER-3228CEBLR",
-      "supplier_category_id": "114",
-      "name": "Блок керування RC RECEIVER-3228CEBLR"
-    },
-    {
       "sku": "VM-1201 VENOM/BAT",
       "supplier_category_id": "345906",
       "name": "Електробайк PROFI VENOM/BAT 12д. VM-1201"
@@ -1128,7 +1118,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 839,
+  "fallback_count": 846,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -1295,6 +1285,13 @@
       "sku": "3228CEBLR-ST GEAR",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор 3228CEBLR-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "3228CEBLR-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо 3228CEBLR-ST WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -6500,6 +6497,41 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6545-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6545-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6545-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6545-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6545-MP3",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 6545-MP3",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6545-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6545-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6545-SP-HANDLE",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6545-SP-HANDLE",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "MOTOR 36V1000W",
       "supplier_category_id": "195",
       "name": "Мотор MOTOR 36V1000W",
@@ -6664,6 +6696,13 @@
       "sku": "RC RECEIVER-1500H",
       "supplier_category_id": "195",
       "name": "Блок керування RC RECEIVER-1500H",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "RC RECEIVER-3228CEBLR",
+      "supplier_category_id": "195",
+      "name": "Блок керування RC RECEIVER-3228CEBLR",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -8059,6 +8098,11 @@
       "M 6544EBLR-11(24V)",
       "M 6544EBLRS-2(24V)",
       "M 6544EBLRS-3(24V)",
+      "M 6545-EVA WHEEL",
+      "M 6545-GEAR BOX",
+      "M 6545-MP3",
+      "M 6545-RC RECEIVER",
+      "M 6545-SP-HANDLE",
       "M 904-8",
       "MBB 1052-3",
       "MEB 275 SWIFT SENSOR",
@@ -8290,9 +8334,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 4374,
-    "Розмір упаковки": 1256,
-    "Тип пакування": 628,
+    "Матеріал": 4398,
+    "Розмір упаковки": 1260,
+    "Тип пакування": 630,
     "Серія": 78,
     "Бренд": 78,
     "Рама": 40,
@@ -8492,6 +8536,7 @@
     "66334",
     "800N V2-STEERING AXLE",
     "800N-BATTERY-SET",
+    "8015",
     "8016",
     "8018",
     "8081",
@@ -9975,6 +10020,7 @@
     "M 6518-3",
     "M 6518-7",
     "M 6525E-13",
+    "M 6525E-17",
     "M 6525E-3",
     "M 6525E-4",
     "M 6525E-5",
@@ -9998,6 +10044,15 @@
     "M 6544EBLR-11(24V)",
     "M 6544EBLRS-2(24V)",
     "M 6544EBLRS-3(24V)",
+    "M 6545-EVA WHEEL",
+    "M 6545-GEAR BOX",
+    "M 6545-MP3",
+    "M 6545-RC RECEIVER",
+    "M 6545-SP-HANDLE",
+    "M 6545EBL-2(24V)",
+    "M 6545EBL-3(24V)",
+    "M 6545EBL-5(24V)",
+    "M 6545EBL-8(24V)",
     "M 6563-11",
     "M 6563-13",
     "M 7772-11",
@@ -10129,6 +10184,7 @@
     "ME 1162-1 Purple",
     "ME 1162-1 Taupe Beige",
     "ME 1162-1 Total Gray",
+    "ME 1162-1 Total Green",
     "ME 1163 Gray",
     "ME 1163 Mint",
     "ME 1163 Pink",

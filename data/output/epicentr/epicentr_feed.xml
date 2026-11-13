@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-11 18:56">
+<yml_catalog date="2026-11-13 18:51">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -183,10 +183,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="1000Q-GLAND" available="true">
+    <offer id="1000Q-GLAND" available="false">
       <price>900</price>
       <price_old>1170</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Втулка 1000Q-GLAND</name>
@@ -1758,10 +1758,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="3228CEBLR-ST WHEEL" available="false">
+    <offer id="3228CEBLR-ST WHEEL" available="true">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Кермо 3228CEBLR-ST WHEEL</name>
       <picture>https://metr-plus.com.ua/img/1162074.jpg</picture>
       <description lang="ua">до трактора 3228CEBLR</description>
@@ -1896,10 +1898,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="48V-SIGNAL" available="true">
+    <offer id="48V-SIGNAL" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Сигнал 48В-СИГНАЛ</name>
@@ -2063,10 +2065,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="6599" available="false">
-      <price>3200</price>
-      <price_old>4160</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="6599" available="true">
+      <price>3300</price>
+      <price_old>4290</price_old>
+      <availability>in_stock</availability>
       <category code="872">Дитячі шезлонги</category>
       <attribute_set code="872">Дитячі шезлонги</attribute_set>
       <name lang="ua">Заколисуючий центр-шезлонг 6599</name>
@@ -2213,6 +2215,20 @@
       <picture>https://metr-plus.com.ua/img/946827.jpg</picture>
       <description lang="ua">набір 3 по 12V/12AH до квадроциклу HB-EATV800N V2, 800N V3, 800AS ящик(пластик), 31-15,5-12см</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="8015" available="true">
+      <price>3500</price>
+      <price_old>4550</price_old>
+      <availability>in_stock</availability>
+      <category code="872">Дитячі шезлонги</category>
+      <attribute_set code="872">Дитячі шезлонги</attribute_set>
+      <name lang="ua">Заколисуючий центр-шезлонг 8015</name>
+      <picture>https://metr-plus.com.ua/img/1041487.jpg</picture>
+      <description lang="ua">&lt;p&gt;Від народження та вагою до 9 кг&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики заколисуючого центру 3 в 1 Mastela 8015:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Зручне сидіння має м’який вкладиш для новонароджених;&lt;/li&gt;&lt;li&gt;Кут нахилу 152°–157°.&lt;/li&gt;&lt;li&gt;Bluetooth.&lt;/li&gt;&lt;li&gt;USB-вхід.&lt;/li&gt;&lt;li&gt;Сенсорна панель.&lt;/li&gt;&lt;li&gt;Центр має 5 швидкостей заколисування та таймер, який дозволяє автоматично зупинити заколисування через 15, 30 або 45 хвилин.&lt;/li&gt;&lt;li&gt;5-точкові ремені безпеки з паховою накладкою регулюються під зріст дитини.&lt;/li&gt;&lt;li&gt;Підвісні іграшки.&lt;/li&gt;&lt;li&gt;15 мелодій з регулюванням гучності.&lt;/li&gt;&lt;li&gt;Керування здійснюється за допомогою: сенсорної панелі, пульта або мобільного телефону (через застосунок).&lt;/li&gt;&lt;li&gt;Як заколисуючий центр використовується з вагою дитини до 9 кг.&lt;/li&gt;&lt;li&gt;Оббивка крісла знімається та переться при температурі 30 градусів у делікатному режимі машинного прання.&lt;/li&gt;&lt;li&gt;Живлення від мережі (блок живлення в комплект не входить) або від 4хАА батарейок (в комплект не входять).&lt;/li&gt;&lt;li&gt;Розміри гойдалки: 71х62х88 см.&lt;/li&gt;&lt;li&gt;Розміри спального місця: 70х36 см.&lt;/li&gt;&lt;li&gt;Розмір матрацика: 62х36 см.&lt;/li&gt;&lt;li&gt;У комплект входить: USB-кабель, москітна сітка, матрацик, капюшон і пульт дистанційного керування.&lt;/li&gt;&lt;li&gt;Вага: 4,9 кг.&lt;/li&gt;&lt;li&gt;Розмір коробки: 65х15х40 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5,7 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="6a713df9d3e74cf38c284a8121ef8e73">Mastela</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
@@ -2522,15 +2538,15 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="9311" available="false">
-      <price>5000</price>
-      <price_old>6500</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="9311" available="true">
+      <price>5100</price>
+      <price_old>6630</price_old>
+      <availability>in_stock</availability>
       <category code="872">Дитячі шезлонги</category>
       <attribute_set code="872">Дитячі шезлонги</attribute_set>
       <name lang="ua">Заколисуючий центр-шезлонг 9311</name>
-      <picture>https://metr-plus.com.ua/img/1117104.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1114322.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1117104.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117105.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117106.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1117107.jpg</picture>
@@ -2570,10 +2586,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="9313" available="false">
+    <offer id="9313" available="true">
       <price>5100</price>
       <price_old>6630</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
       <category code="872">Дитячі шезлонги</category>
       <attribute_set code="872">Дитячі шезлонги</attribute_set>
       <name lang="ua">Заколисуючий центр-шезлонг 9313</name>
@@ -7946,10 +7962,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147A-8" available="true">
+    <offer id="M 3147A-8" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147A-8</name>
@@ -9723,10 +9739,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4478-GEAR BOX" available="true">
+    <offer id="M 4478-GEAR BOX" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Редуктор у зборі з мотором M 4478-GEAR BOX</name>
@@ -10176,10 +10192,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 4806EBLR-2" available="true">
+    <offer id="M 4806EBLR-2" available="false">
       <price>13400</price>
       <price_old>17420</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 4806EBLR-2</name>
@@ -11255,10 +11271,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 501-1" available="true">
+    <offer id="M 501-1" available="false">
       <price>2600</price>
       <price_old>3380</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Столик M 501-1</name>
@@ -11867,10 +11883,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5027EBLR-1" available="false">
+    <offer id="M 5027EBLR-1" available="true">
       <price>13500</price>
       <price_old>17550</price_old>
-      <availability>out_of_stock</availability>
+      <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 5027EBLR-1</name>
@@ -13904,10 +13920,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5774ELS-2" available="true">
+    <offer id="M 5774ELS-2" available="false">
       <price>16800</price>
       <price_old>21840</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 5774ELS-2</name>
@@ -14890,10 +14906,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5830EBLR-2" available="true">
+    <offer id="M 5830EBLR-2" available="false">
       <price>15200</price>
       <price_old>19760</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 5830EBLR-2</name>
@@ -15347,12 +15363,13 @@
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел M 5857-13</name>
       <picture>https://metr-plus.com.ua/img/918601.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931585.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931586.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931587.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931588.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931589.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931590.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163673.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163674.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163675.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163676.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163677.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163678.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163679.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий біговел M 5857-13 Bambi, EVA колеса - стане чудовим подарунком для вашої дитини. Він подарує йому не лише радість від нових вражень, а й можливість розвиватись фізично. Їзда на біговелі сприяє зміцненню м&amp;#x27;язів ніг та покращенню координації рухів, що особливо важливо у період активного зростання та розвитку. Дитячий біговел M 5857-13 чудово підходить для дітей, які лише починають освоювати мистецтво балансу та координації. Біговел допомагає малюкові навчитися керувати своїм тілом, розвиває почуття рівноваги та впевненість у собі, що в майбутньому полегшить перехід до більш складних видів транспорту, таких як велосипед. Дитячий біговел M 5857-13 має стильний дизайн, який обов&amp;#x27;язково сподобається вашій дитині.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого біговела M 5857-13 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA - 4 шт.&lt;/li&gt;&lt;li&gt;Розмір колеса – 18 см&lt;/li&gt;&lt;li&gt;Комфортне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Для дітей від 1 до 3 років&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 20 кг&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння - 27 см&lt;/li&gt;&lt;li&gt;Вага коробки: 2,8 кг&lt;/li&gt;&lt;li&gt;Вага біговела: 2,1 кг&lt;/li&gt;&lt;li&gt;Розміри коробки: 53,5х18,5х23 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина - 58 см, ширина - 21 см, висота до керма - 38 см.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -15367,6 +15384,13 @@
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел M 5857-15</name>
       <picture>https://metr-plus.com.ua/img/1157762.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163688.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163689.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163690.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163691.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163692.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163693.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163694.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий біговел M 5857-15 бірюзовий - стане улюбленим супутником дитини на прогулянковах та активних іграх, він має стильний дизайн, який привертає увагу як дітей, так і дорослих. Сучасний зовнішній вигляд та яскраві кольори роблять цей транспорт не лише корисним, а й модним аксесуаром. Дитячий біговел M 5857-15 подарує малюкові радість від активних ігор на свіжому повітрі, та й сприятиме розвитку важливих фізичних навичок. Батьки оцінять такий подарунок за його практичність та користь для здоров&amp;#x27;я дитини. Дитячий біговел M 5857-15 стане корисним придбанням для дитини, їзда на біговелі допомагає зміцнити м&amp;#x27;язи ніг та розвинути координацію рухів. Дитина навчиться керувати своїм тілом, покращить почуття рівноваги та підготується до майбутнього освоєння велосипеда. Це перший крок до самостійності та впевненості у собі.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого біговела M 5857-15 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA - 4 шт.&lt;/li&gt;&lt;li&gt;Розмір колеса – 18 см&lt;/li&gt;&lt;li&gt;Комфортне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Для дітей від 1 до 3 років&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 20 кг&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння - 27 см&lt;/li&gt;&lt;li&gt;Вага коробки: 2,8 кг&lt;/li&gt;&lt;li&gt;Вага біговела: 2,1 кг&lt;/li&gt;&lt;li&gt;Розміри коробки: 53,5х18,5х23 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина - 58 см, ширина - 21 см, висота до керма - 38 см.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий біговел M 5857-15 або отримати додаткову інформацію про дитячий біговель M 5857-15, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий біговел M 5857-15 в регіонах України&lt;/p&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -15381,12 +15405,13 @@
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел M 5857-8</name>
       <picture>https://metr-plus.com.ua/img/918602.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931597.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931598.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931599.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931600.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931601.jpg</picture>
-      <picture>https://metr-plus.com.ua/img/931602.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163680.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163681.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163682.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163683.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163684.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163685.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163686.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий біговел M 5857-8 Bambi - чудовим подарунком для будь-якої дитини. Він не лише подарує радість від активних ігор на свіжому повітрі, а й сприятиме розвитку важливих фізичних навичок. Батьки оцінять такий подарунок за його практичність та користь для здоров&amp;#x27;я дитини. Дитячий біговел M 5857-8 це корисне придбання для дитини, їзда на біговелі допомагає зміцнити м&amp;#x27;язи ніг та розвинути координацію рухів. Дитячий біговел M 5857-8 має стильний дизайн, який привертає увагу як дітей, так і дорослих. Сучасний зовнішній вигляд та яскраві кольори роблять цей транспорт не тільки корисним, а й модним аксесуаром. Біговел стане улюбленим супутником дитини на прогулянковах та активних іграх.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого біговела M 5857-8 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA - 4 шт.&lt;/li&gt;&lt;li&gt;Розмір колеса – 18 см&lt;/li&gt;&lt;li&gt;Комфортне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Для дітей від 1 до 3 років&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 20 кг&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння - 27 см&lt;/li&gt;&lt;li&gt;Вага коробки: 2,8 кг&lt;/li&gt;&lt;li&gt;Вага біговела: 2,1 кг&lt;/li&gt;&lt;li&gt;Розміри коробки: 53,5х18,5х23 см&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина - 58 см, ширина - 21 см, висота до керма - 38 см.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -19319,10 +19344,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6149EBLR-11(24V)" available="true">
+    <offer id="M 6149EBLR-11(24V)" available="false">
       <price>24900</price>
       <price_old>32370</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6149EBLR-11(24V)</name>
@@ -19577,6 +19602,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 6152AL-11(24V)</name>
       <picture>https://metr-plus.com.ua/img/1158018.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163777.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163778.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163779.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163780.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163781.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163782.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163783.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163784.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163785.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163786.jpg</picture>
       <description lang="ua">&lt;p&gt;Двомісний дитячий електромобіль M 6152AL-11(24V) сірий - виглядає стильно і сучасно, авто має високу деталізацію, двері відкриваються в сторони, як у справжньої машини, капот теж можна відкрити, що додає інтерактиву та інтересу до гри. Дитячий електромобіль M 6152AL-11(24V) порадує просторим двомісним сидінням з ременями безпеки, так що можна кататися вдвох і бути впевненим у комфорті та захисті. М&amp;#x27;який чохол з екошкіри не тільки приємно відчувається, а й легко чиститься. Дитячий електромобіль M 6152AL-11(24V) стане чудовим подарунком, який точно запам&amp;#x27;ятається, машина має просте та зрозуміле управління, з яким легко впорається навіть новачок, їзда на такому транспорті подарує масу емоцій та радуватиме довгий час.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6152AL-11(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ліцензійна модель зі значком Audi&lt;/li&gt;&lt;li&gt;Двомісне шкіряне сидіння&lt;/li&gt;&lt;li&gt;Надувні гумові колеса&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;Відкривається капот&lt;/li&gt;&lt;li&gt;Двигун потужністю 200W/24V&lt;/li&gt;&lt;li&gt;Батарея 24V/10AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час для повної зарядки 8-12 годин&lt;/li&gt;&lt;li&gt;Зарядний пристрій 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - поворот ключа, педаль газу&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 18 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 100 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -22075,6 +22110,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Трактор M 6285EBLR-3(24V)</name>
       <picture>https://metr-plus.com.ua/img/1156954.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163788.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163789.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163790.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163791.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163792.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163793.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163794.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163795.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163796.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163797.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий електромобіль трактор M 6285EBLR-3(24V) червоний - стане чудовим подарунком для малюка, який мріє про власний транспорт і любить активні ігри на свіжому повітрі, при цьому модель виконана у вигляді трактора, що робить процес катання ще більш захоплюючим і додає реалістичності, завдяки чому дитина почувається справжнім маленьким водієм та отримує більше емоцій від кожної поїздки. Дитячий трактор M 6285EBLR-3(24V) працює від акумулятора і оснащений зручним сидінням з м&amp;#x27;яким чохлом, що забезпечує комфорт навіть при тривалих прогулянковах, при цьому керування можна здійснювати як самостійно за допомогою керма, так і за допомогою пульта дистанційного керування, що особливо зручно для батьків, які можуть контролювати рух і при необхідності. Дитячий електромобіль M 6285EBLR-3(24V) червоний оснащений фарами, що світяться, і вбудованою музикою, що робить катання більш цікавим і живим, а також має причіп, в якому дитина зможе перевозити свої іграшки або невеликі речі, завдяки чому гра стає ще більш різноманітною, а сама модель поєднує в собі якість, комфорт і функціональність.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6285EBLR-3(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;У комплект входить причіп&lt;/li&gt;&lt;li&gt;Два двигуни 2х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час на зарядку 8-12 годин&lt;/li&gt;&lt;li&gt;Зарядний пристрій 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка, педаль&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3+USB, SD&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4 G BLUETOOTH (STOP BUTTON)&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий електромобіль трактор M 6285EBLR-3(24V) або отримати додаткову інформацію про дитячий трактор M 6285EBLR-3(24V), для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий електромобіль трактор M 6285EBLR-3(24V) в регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -23757,7 +23802,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6313(MP4)EBLR-1(24V)" available="true">
-      <price>24321.0</price>
+      <price>21889.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23780,7 +23825,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6313(MP4)EBLRS-11(24V)" available="true">
-      <price>27402.0</price>
+      <price>24662.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23845,7 +23890,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6313EBLR-1(24V)" available="true">
-      <price>22604.0</price>
+      <price>20344.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -23955,7 +24000,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6313EBLRS-2(24V)" available="true">
-      <price>25169.0</price>
+      <price>22652.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24207,7 +24252,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLR-1(24V)" available="true">
-      <price>23839.0</price>
+      <price>21455.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24229,7 +24274,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLR-11(24V)" available="true">
-      <price>23839.0</price>
+      <price>21455.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24251,7 +24296,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLR-3(24V)" available="true">
-      <price>23839.0</price>
+      <price>21455.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24273,7 +24318,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLRS-11(24V)" available="true">
-      <price>26303.0</price>
+      <price>23673.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24295,7 +24340,7 @@
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
     <offer id="M 6315EBLRS-2(24V)" available="true">
-      <price>26303.0</price>
+      <price>23673.0</price>
       <availability>in_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
@@ -24470,6 +24515,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6316EBLR-11</name>
       <picture>https://metr-plus.com.ua/img/1157863.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163842.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163843.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163844.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163845.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163846.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163847.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163848.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163849.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163850.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163851.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6316EBLR-11 сірий - виглядає як справжній квадроцикл і при цьому має все необхідне для комфортної та безпечної їзди. Сидіння доповнене м&amp;#x27;яким чохлом, тому дитині зручно сидіти під час катання, а великі колеса EVA роблять рух більш плавним і м&amp;#x27;яким, забезпечуючи комфортну їзду по будь-якому покриттю. Квадроцикл на акумуляторі M 6316EBLR-11 оснащений чотирма моторами потужністю по 45W та акумулятором 12V12AH, що забезпечує хорошу тягу та тривалу їзду без частої підзарядки. Ця модель має фари, що світяться, що додає реалістичності і особливо сподобаються дитині під час катання. Для невеликих іграшок та інших речей ззаду передбачено багажник, тому можна взяти з собою все необхідне для прогулянки. Дитячий квадроцикл M 6316EBLR-11 поєднує комфорт та функціональність, тому стане цікавим подарунком та гарною розвагою для дитини на кожен день. Квадроцикл має пульт дистанційного керування, він дозволяє батькам катати дітей, які лише навчаються їзді.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6316EBLR-11 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/12AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Позаду є багажник&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий квадроцикл M 6316EBLR-11 або отримати додаткову інформацію про дитячий квадроцикл M 6316EBLR-11, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий квадроцикл M 6316EBLR-11 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -24484,6 +24539,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6316EBLR-13</name>
       <picture>https://metr-plus.com.ua/img/1157864.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163856.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163857.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163858.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163859.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163860.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163861.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163862.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163863.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163864.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163865.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6316EBLR-13 бежевий – виглядає як справжній квадроцикл і при цьому має все необхідне для комфортної та безпечної їзди. Сидіння доповнене м&amp;#x27;яким чохлом, тому дитині зручно сидіти під час катання, а великі колеса EVA роблять рух більш плавним і м&amp;#x27;яким, забезпечуючи комфортну їзду по будь-якому покриттю. Квадроцикл на акумуляторі M 6316EBLR-13 оснащений чотирма моторами потужністю по 45W та акумулятором 12V12AH, що забезпечує хорошу тягу та тривалу їзду без частої підзарядки. Ця модель має фари, що світяться, що додає реалістичності і особливо сподобаються дитині під час катання. Для невеликих іграшок та інших речей ззаду передбачено багажник, тому можна взяти з собою все необхідне для прогулянки. Дитячий квадроцикл M 6316EBLR-13 поєднує комфорт та функціональність, тому стане цікавим подарунком та гарною розвагою для дитини на кожен день. Квадроцикл має пульт дистанційного керування, він дозволяє батькам катати дітей, які лише навчаються їзді.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6316EBLR-13 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/12AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Позаду є багажник&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий квадроцикл M 6316EBLR-13 або отримати додаткову інформацію про дитячий квадроцикл M 6316EBLR-13, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий квадроцикл M 6316EBLR-13 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -24498,6 +24563,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6316EBLR-5</name>
       <picture>https://metr-plus.com.ua/img/1157865.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163800.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163801.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163802.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163803.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163804.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163805.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163806.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163807.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163808.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163809.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6316EBLR-5 зелений – виглядає як справжній квадроцикл і при цьому має все необхідне для комфортної та безпечної їзди. Сидіння доповнене м&amp;#x27;яким чохлом, тому дитині зручно сидіти під час катання, а великі колеса EVA роблять рух більш плавним і м&amp;#x27;яким, забезпечуючи комфортну їзду по будь-якому покриттю. Квадроцикл на акумуляторі M 6316EBLR-5 оснащений чотирма моторами потужністю по 45W та акумулятором 12V12AH, що забезпечує хорошу тягу та тривалу їзду без частої підзарядки. Ця модель має фари, що світяться, що додає реалістичності і особливо сподобаються дитині під час катання. Для невеликих іграшок та інших речей ззаду передбачено багажник, тому можна взяти з собою все необхідне для прогулянки. Дитячий квадроцикл M 6316EBLR-5 поєднує комфорт та функціональність, тому стане цікавим подарунком та гарною розвагою для дитини на кожен день. Квадроцикл має пульт дистанційного керування, він дозволяє батькам катати дітей, які лише навчаються їзді.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6316EBLR-5 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/12AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Позаду є багажник&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий квадроцикл M 6316EBLR-5 або отримати додаткову інформацію про дитячий квадроцикл M 6316EBLR-5, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий квадроцикл M 6316EBLR-5 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -24512,6 +24587,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6316EBLR-6</name>
       <picture>https://metr-plus.com.ua/img/1157866.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163814.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163815.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163816.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163817.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163818.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163819.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163820.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163821.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163822.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163823.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6316EBLR-6 жовтий – виглядає як справжній квадроцикл і при цьому має все необхідне для комфортної та безпечної їзди. Сидіння доповнене м&amp;#x27;яким чохлом, тому дитині зручно сидіти під час катання, а великі колеса EVA роблять рух більш плавним і м&amp;#x27;яким, забезпечуючи комфортну їзду по будь-якому покриттю. Квадроцикл на акумуляторі M 6316EBLR-6 оснащений чотирма моторами потужністю по 45W та акумулятором 12V12AH, що забезпечує хорошу тягу та тривалу їзду без частої підзарядки. Ця модель має фари, що світяться, що додає реалістичності і особливо сподобаються дитині під час катання. Для невеликих іграшок та інших речей ззаду передбачено багажник, тому можна взяти з собою все необхідне для прогулянки. Дитячий квадроцикл M 6316EBLR-6 поєднує комфорт та функціональність, тому стане цікавим подарунком та гарною розвагою для дитини на кожен день. Квадроцикл має пульт дистанційного керування, він дозволяє батькам катати дітей, які лише навчаються їзді.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6316EBLR-6 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/12AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Позаду є багажник&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий квадроцикл M 6316EBLR-6 або отримати додаткову інформацію про дитячий квадроцикл M 6316EBLR-6, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий квадроцикл M 6316EBLR-6 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -24526,6 +24611,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Квадроцикл M 6316EBLR-8</name>
       <picture>https://metr-plus.com.ua/img/1157867.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163828.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163829.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163830.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163831.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163832.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163833.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163834.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163835.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163836.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163837.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6316EBLR-8 рожевий - виглядає як справжній квадроцикл і при цьому має все необхідне для комфортної та безпечної їзди. Сидіння доповнене м&amp;#x27;яким чохлом, тому дитині зручно сидіти під час катання, а великі колеса EVA роблять рух більш плавним і м&amp;#x27;яким, забезпечуючи комфортну їзду по будь-якому покриттю. Квадроцикл на акумуляторі M 6316EBLR-8 оснащений чотирма моторами потужністю по 45W та акумулятором 12V12AH, що забезпечує хорошу тягу та тривалу їзду без частої підзарядки. Ця модель має фари, що світяться, що додає реалістичності і особливо сподобаються дитині під час катання. Для невеликих іграшок та інших речей ззаду передбачено багажник, тому можна взяти з собою все необхідне для прогулянки. Дитячий квадроцикл M 6316EBLR-8 поєднує комфорт та функціональність, тому стане цікавим подарунком та гарною розвагою для дитини на кожен день. Квадроцикл має пульт дистанційного керування, він дозволяє батькам катати дітей, які лише навчаються їзді.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6316EBLR-8 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;М&amp;#x27;яке шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/12AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 12V/1500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: USB, MP3, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Позаду є багажник&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий квадроцикл M 6316EBLR-8 або отримати додаткову інформацію про дитячий квадроцикл M 6316EBLR-8, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий квадроцикл M 6316EBLR-8 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -26831,6 +26926,15 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6478EL-2</name>
       <picture>https://metr-plus.com.ua/img/1156795.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163870.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163871.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163872.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163873.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163874.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163875.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163876.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163877.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163878.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий мотоцикл M 6478EL-2 чорний - це підходящий варіант для батьків, які хочуть зробити дитині чудовий подарунок, він обов&amp;#x27;язково порадує маленького водія своїм цікавим дизайном та зручністю під час катання. Іграшка виконана у стилі справжнього спортивного мотоцикла, тому виглядає яскраво та ефектно. Дитячий мотоцикл на акумуляторі M 6478EL-2 порадує комфортом та функціональністю. Він оснащений якісними колесами EVA, які добре підходять для прогулянок і забезпечують плавний рух. М&amp;#x27;яке сидіння з чохлом з екошкіри робить поїздки зручнішими, а фари, що світяться, додають мотоциклу привабливості. Дитячий мотоцикл M 6478EL-2 працює від акумулятора великої ємності, тому дитина зможе кататись досить довго без частої підзарядки. Зручна конструкція та стійкість дозволяють малюкові із задоволенням проводити час на прогулянці, розважаючись та освоюючи свій перший транспорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого мотоцикла M 6478EL-2 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Два двигуни 2х35W / 12V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/7AH&lt;/li&gt;&lt;li&gt;Шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час на зарядку – 8-10 годин&lt;/li&gt;&lt;li&gt;Заряджання 12V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка, ручка газу&lt;/li&gt;&lt;li&gt;Педаль - гальмо&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рухи вперед-назад - тумблер&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Панель: MP3+USB, AUX, BLUETOOTH&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий мотоцикл M 6478EL-2 або отримати додаткову інформацію про дитячий мотоцикл M 6478EL-2, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий мотоцикл M 6478EL-2 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -26845,6 +26949,15 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6478EL-3</name>
       <picture>https://metr-plus.com.ua/img/1156796.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163879.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163880.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163881.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163882.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163883.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163884.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163885.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163886.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163887.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий мотоцикл M 6478EL-3 червоний - це підходящий варіант для батьків, які хочуть зробити дитині чудовий подарунок, він обов&amp;#x27;язково порадує маленького водія своїм цікавим дизайном та зручністю під час катання. Іграшка виконана у стилі справжнього спортивного мотоцикла, тому виглядає яскраво та ефектно. Дитячий мотоцикл на акумуляторі M 6478EL-3 порадує комфортом та функціональністю. Він оснащений якісними колесами EVA, які добре підходять для прогулянок і забезпечують плавний рух. М&amp;#x27;яке сидіння з чохлом з екошкіри робить поїздки зручнішими, а фари, що світяться, додають мотоциклу привабливості. Дитячий мотоцикл M 6478EL-3 працює від акумулятора великої ємності, тому дитина зможе кататись досить довго без частої підзарядки. Зручна конструкція та стійкість дозволяють малюкові із задоволенням проводити час на прогулянці, розважаючись та освоюючи свій перший транспорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого мотоцикла M 6478EL-3 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Два двигуни 2х35W / 12V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/7AH&lt;/li&gt;&lt;li&gt;Шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час на зарядку – 8-10 годин&lt;/li&gt;&lt;li&gt;Заряджання 12V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка, ручка газу&lt;/li&gt;&lt;li&gt;Педаль - гальмо&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рухи вперед-назад - тумблер&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Панель: MP3+USB, AUX, BLUETOOTH&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий мотоцикл M 6478EL-3 або отримати додаткову інформацію про дитячий мотоцикл M 6478EL-3, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий мотоцикл M 6478EL-3 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -26859,6 +26972,15 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6478EL-5</name>
       <picture>https://metr-plus.com.ua/img/1156797.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163888.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163889.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163890.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163891.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163892.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163893.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163894.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163895.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163896.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий мотоцикл M 6478EL-5 зелений - це підходящий варіант для батьків, які хочуть зробити дитині чудовий подарунок, він обов&amp;#x27;язково порадує маленького водія своїм цікавим дизайном та зручністю під час катання. Іграшка виконана у стилі справжнього спортивного мотоцикла, тому виглядає яскраво та ефектно. Дитячий мотоцикл на акумуляторі M 6478EL-5 порадує комфортом та функціональністю. Він оснащений якісними колесами EVA, які добре підходять для прогулянок і забезпечують плавний рух. М&amp;#x27;яке сидіння з чохлом з екошкіри робить поїздки зручнішими, а фари, що світяться, додають мотоциклу привабливості. Дитячий мотоцикл M 6478EL-5 працює від акумулятора великої ємності, тому дитина зможе кататись досить довго без частої підзарядки. Зручна конструкція та стійкість дозволяють малюкові із задоволенням проводити час на прогулянці, розважаючись та освоюючи свій перший транспорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого мотоцикла M 6478EL-5 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Два двигуни 2х35W / 12V&lt;/li&gt;&lt;li&gt;Акумулятор 12V/7AH&lt;/li&gt;&lt;li&gt;Шкіряне сидіння&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Час на зарядку – 8-10 годин&lt;/li&gt;&lt;li&gt;Заряджання 12V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка, ручка газу&lt;/li&gt;&lt;li&gt;Педаль - гальмо&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 5 км/год&lt;/li&gt;&lt;li&gt;Рухи вперед-назад - тумблер&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулювання гучності&lt;/li&gt;&lt;li&gt;Панель: MP3+USB, AUX, BLUETOOTH&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 30 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий мотоцикл M 6478EL-5 або отримати додаткову інформацію про дитячий мотоцикл M 6478EL-5, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий мотоцикл M 6478EL-5 у регіонах України&lt;/p&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27083,6 +27205,14 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6481EBLR-1(24V)</name>
       <picture>https://metr-plus.com.ua/img/1157659.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163927.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163928.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163929.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163930.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163931.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163932.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163933.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163934.jpg</picture>
       <description lang="ua">&lt;p&gt;Двомісний електромобіль баггі M 6481EBLR-1(24V) білий - це чудова іграшка, що розважає і розвиває, яка подарує дитині багато позитивних емоцій. Він поєднує в собі міць, комфорт та реалістичний дизайн, завдяки чому катання стає ще цікавішим. Просторе сидіння дозволяє розміститися відразу двом дітям, тому кататися на такому баггі можна разом із братом, сестрою чи другом. Двомісний дитячий баггі M 6481EBLR-1(24V) відмінно підходить для веселих прогулянок та активного проведення часу. Великі EVA колеса забезпечують м&amp;#x27;яку та комфортну їзду, легко впораючись із невеликими нерівностями дороги. Фари, що світяться, роблять зовнішній вигляд машини більш реалістичною, а наявність магнітоли дозволить під час поїздки слухати улюблену музику і створювати справжній настрій для маленького водія. Дитячий електромобіль M 6481EBLR-1(24V) має в комплекті пульт управління, за допомогою якого батьки зможуть керувати баггі і катати водіїв-початківців. Якщо ви хочете надовго ощасливити свого малюка і подарувати йому яскраві емоції, цей дитячий електромобіль стане хорошим вибором.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6481EBLR-1(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Двомісне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х75W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - поворот ключа, педаль газу&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 7 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3+USB, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27111,6 +27241,15 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6481EBLR-5(24V)</name>
       <picture>https://metr-plus.com.ua/img/1157661.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163944.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163945.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163946.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163947.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163948.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163949.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163950.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163951.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163952.jpg</picture>
       <description lang="ua">&lt;p&gt;Двомісний електромобіль баггі M 6481EBLR-5(24V) зелений - це чудова іграшка, що розважає і розвиває, яка подарує дитині багато позитивних емоцій. Він поєднує в собі міць, комфорт та реалістичний дизайн, завдяки чому катання стає ще цікавішим. Просторе сидіння дозволяє розміститися відразу двом дітям, тому кататися на такому баггі можна разом із братом, сестрою чи другом. Двомісний дитячий баггі M 6481EBLR-5(24V) відмінно підходить для веселих прогулянок та активного проведення часу. Великі EVA колеса забезпечують м&amp;#x27;яку та комфортну їзду, легко впораючись із невеликими нерівностями дороги. Фари, що світяться, роблять зовнішній вигляд машини більш реалістичною, а наявність магнітоли дозволить під час поїздки слухати улюблену музику і створювати справжній настрій для маленького водія. Дитячий електромобіль M 6481EBLR-5(24V) має в комплекті пульт управління, за допомогою якого батьки зможуть керувати баггі і катати водіїв-початківців. Якщо ви хочете надовго ощасливити свого малюка і подарувати йому яскраві емоції, цей дитячий електромобіль стане хорошим вибором.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6481EBLR-5(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Двомісне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х75W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - поворот ключа, педаль газу&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 7 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3+USB, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27125,6 +27264,15 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 6481EBLR-8(24V)</name>
       <picture>https://metr-plus.com.ua/img/1157662.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163953.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163954.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163955.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163956.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163957.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163958.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163959.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163960.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163961.jpg</picture>
       <description lang="ua">&lt;p&gt;Двомісний електромобіль баггі M 6481EBLR-8(24V) рожевий - це чудова іграшка, що розважає і розвиває, яка подарує дитині багато позитивних емоцій. Він поєднує в собі міць, комфорт та реалістичний дизайн, завдяки чому катання стає ще цікавішим. Просторе сидіння дозволяє розміститися відразу двом дітям, тому кататися на такому баггі можна разом із братом, сестрою чи другом. Двомісний дитячий баггі M 6481EBLR-8(24V) відмінно підходить для веселих прогулянок та активного проведення часу. Великі EVA колеса забезпечують м&amp;#x27;яку та комфортну їзду, легко впораючись із невеликими нерівностями дороги. Фари, що світяться, роблять зовнішній вигляд машини більш реалістичною, а наявність магнітоли дозволить під час поїздки слухати улюблену музику і створювати справжній настрій для маленького водія. Дитячий електромобіль M 6481EBLR-8(24V) має в комплекті пульт управління, за допомогою якого батьки зможуть керувати баггі і катати водіїв-початківців. Якщо ви хочете надовго ощасливити свого малюка і подарувати йому яскраві емоції, цей дитячий електромобіль стане хорошим вибором.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого електромобіля M 6481EBLR-8(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Двомісне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Відчиняються двері&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х75W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V/1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт - поворот ключа, педаль газу&lt;/li&gt;&lt;li&gt;Плавний старт у звичайному режимі&lt;/li&gt;&lt;li&gt;Кількість швидкостей: в машині – 2 шт., на пульті – 3 шт.&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 7 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3+USB, Bluetooth&lt;/li&gt;&lt;li&gt;Ремені безпеки&lt;/li&gt;&lt;li&gt;Пульт дистанційного керування 2,4G Bluetooth&lt;/li&gt;&lt;li&gt;Корпус виконаний із міцного пластику.&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27233,6 +27381,11 @@
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6518-1</name>
       <picture>https://metr-plus.com.ua/img/1158024.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163716.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163717.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163718.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163719.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163720.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6518-1 біла – стане бажаним подарунком для будь-якого малюка, вона виглядає стильно та сучасно, тому обов&amp;#x27;язково сподобається дитині. Надійна та стійка конструкція робить катання комфортним та безпечним, а міцний пластиковий корпус та колеса добре підходять для активних прогулянок. Каталка - толокар M 6518-1 порадує малюків музикою та світлом, тому кататися на ній малюку буде ще цікавіше. Для руху дитині потрібно відштовхуватися ногами від статі, що допомагає зміцнювати м&amp;#x27;язи ніг та поступово покращує координацію рухів. Каталка підійде для веселих прогулянок удома або на вулиці. Дитяча каталка - толокар M 6518-1 має зручне управління: дитина самостійно відштовхується ногами та рухається вперед, а повертати можна за допомогою керма та пульта. Така модель стане чудовим варіантом для першого власного транспорту малюка та подарує йому багато приємних вражень від катання.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6518-1 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Стильний дизайн&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Матеріал коліс: пластик&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 25 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячу каталку - толокар M 6518-1 або отримати додаткову інформацію про каталку - толокар M 6518-1, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячу каталку - толокар M 6518-1 у регіонах України&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27247,6 +27400,11 @@
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6518-11</name>
       <picture>https://metr-plus.com.ua/img/1158025.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163733.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163734.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163735.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163736.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163737.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6518-11 сіра - стане бажаним подарунком для будь-якого малюка, вона виглядає стильно та сучасно, тому обов&amp;#x27;язково сподобається дитині. Надійна та стійка конструкція робить катання комфортним та безпечним, а міцний пластиковий корпус та колеса добре підходять для активних прогулянок. Каталка - толокар M 6518-11 порадує малюків музикою та світлом, тому кататися на ній малюку буде ще цікавіше. Для руху дитині потрібно відштовхуватися ногами від статі, що допомагає зміцнювати м&amp;#x27;язи ніг та поступово покращує координацію рухів. Каталка підійде для веселих прогулянок удома або на вулиці. Дитяча каталка - толокар M 6518-11 має зручне управління: дитина самостійно відштовхується ногами та рухається вперед, а повертати можна за допомогою керма та пульта. Така модель стане чудовим варіантом для першого власного транспорту малюка та подарує йому багато приємних вражень від катання.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6518-11 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Стильний дизайн&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Матеріал коліс: пластик&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 25 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячу каталку - толокар M 6518-11 або отримати додаткову інформацію про каталку - толокар M 6518-11, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячу каталку - толокар M 6518-11 у регіонах України&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27261,6 +27419,11 @@
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6518-3</name>
       <picture>https://metr-plus.com.ua/img/1158026.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163722.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163723.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163724.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163725.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163726.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6518-3 червона - стане бажаним подарунком для будь-якого малюка, вона виглядає стильно та сучасно, тому обов&amp;#x27;язково сподобається дитині. Надійна та стійка конструкція робить катання комфортним та безпечним, а міцний пластиковий корпус та колеса добре підходять для активних прогулянок. Каталка - толокар M 6518-3 порадує малюків музикою та світлом, тому кататися на ній малюку буде ще цікавіше. Для руху дитині потрібно відштовхуватися ногами від статі, що допомагає зміцнювати м&amp;#x27;язи ніг та поступово покращує координацію рухів. Каталка підійде для веселих прогулянок удома або на вулиці. Дитяча каталка - толокар M 6518-3 має зручне управління: дитина самостійно відштовхується ногами та рухається вперед, а повертати можна за допомогою керма та пульта. Така модель стане чудовим варіантом для першого власного транспорту малюка та подарує йому багато приємних вражень від катання.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6518-3 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Стильний дизайн&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Матеріал коліс: пластик&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 25 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячу каталку - толокар M 6518-3 або отримати додаткову інформацію про каталку - толокар M 6518-3, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячу каталку - толокар M 6518-3 у регіонах України&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27275,21 +27438,40 @@
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6518-7</name>
       <picture>https://metr-plus.com.ua/img/1158027.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163728.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163729.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163730.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163731.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163732.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6518-7 помаранчева – стане бажаним подарунком для будь-якого малюка, вона виглядає стильно та сучасно, тому обов&amp;#x27;язково сподобається дитині. Надійна та стійка конструкція робить катання комфортним та безпечним, а міцний пластиковий корпус та колеса добре підходять для активних прогулянок. Каталка - толокар M 6518-7 порадує малюків музикою та світлом, тому кататися на ній малюку буде ще цікавіше. Для руху дитині потрібно відштовхуватися ногами від статі, що допомагає зміцнювати м&amp;#x27;язи ніг та поступово покращує координацію рухів. Каталка підійде для веселих прогулянок удома або на вулиці. Дитяча каталка - толокар M 6518-7 має зручне управління: дитина самостійно відштовхується ногами та рухається вперед, а повертати можна за допомогою керма та пульта. Така модель стане чудовим варіантом для першого власного транспорту малюка та подарує йому багато приємних вражень від катання.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6518-7 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Стильний дизайн&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Матеріал коліс: пластик&lt;/li&gt;&lt;li&gt;Матеріал корпусу: міцний пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 25 кг&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити дитячу каталку - толокар M 6518-7 або отримати додаткову інформацію про каталку - толокар M 6518-7, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячу каталку - толокар M 6518-7 у регіонах України&lt;/p&gt;</description>
       <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6525E-13" available="false">
-      <price>2600</price>
-      <price_old>3380</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6525E-13" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6525E-13</name>
       <picture>https://metr-plus.com.ua/img/1161167.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6525E-13 бежева - стане чудовим подарунком для малюка, який любить кататися та весело проводити час на свіжому повітрі. Така іграшка не тільки розважає дитину, а й допомагає їй розвиватися, зміцнювати м&amp;#x27;язи ніг та покращувати координацію рухів. Дитяча каталка - толокар M 6525E-13 підходить для дітей від року, вона має чотири колеса, завдяки яким дитина почувається впевненіше під час катання. Керувати таким транспортом дуже просто: достатньо відштовхуватися ніжками від підлоги та вибирати напрямок руху. Каталка - толокар Bambi M 6525E-13 оснащена фарами, що світяться, і музичним супроводом, що робить поїздки ще цікавіше для маленького водія. Це відмінний варіант для батьків, які шукають цікаву та корисну іграшку для свого малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6525E-13 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал корпусу: пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6525E-17" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
+      <category code="4917">Дитячі каталки, гойдалки</category>
+      <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
+      <name lang="ua">Каталка-толокар M 6525E-17</name>
+      <picture>https://metr-plus.com.ua/img/1161168.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитяча каталка - толокар M 6525E-17 коричнева - стане чудовим подарунком для малюка, який любить кататися та весело проводити час на свіжому повітрі. Така іграшка не тільки розважає дитину, а й допомагає їй розвиватися, зміцнювати м&amp;#x27;язи ніг та покращувати координацію рухів. Дитяча каталка - толокар M 6525E-17 підходить для дітей від року, вона має чотири колеса, завдяки яким дитина почувається впевненіше під час катання. Керувати таким транспортом дуже просто: достатньо відштовхуватися ніжками від підлоги та вибирати напрямок руху. Каталка - толокар Bambi M 6525E-17 оснащена фарами, що світяться, і музичним супроводом, що робить поїздки ще цікавіше для маленького водія. Це відмінний варіант для батьків, які шукають цікаву та корисну іграшку для свого малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики каталки - толокара M 6525E-17 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: каталка - толокар&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Чотири колеса&lt;/li&gt;&lt;li&gt;Матеріал сидіння: пластик&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Матеріал корпусу: пластик&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -27351,10 +27533,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 6525E-8" available="false">
-      <price>2600</price>
-      <price_old>3380</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="M 6525E-8" available="true">
+      <price>2500</price>
+      <price_old>3250</price_old>
+      <availability>in_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 6525E-8</name>
@@ -27527,6 +27709,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6535EL-3(24V)</name>
       <picture>https://metr-plus.com.ua/img/1158001.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163897.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163898.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163899.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163900.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163901.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163902.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163903.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163904.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163905.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163906.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий мотоцикл M 6535EL-3(24V) червоний - Створений у вигляді справжнього скутера Honda, тому виглядає стильно та реалістично. Мотор потужністю 500W забезпечує хорошу динаміку, а батарея 24V7Ah дозволяє дитині досить довго кататись без частої підзарядки. Це крутий та функціональний транспорт для дитини, катання на якому подарує багато яскравих вражень під час прогулянок. Дитячий мотоцикл M 6535EL-3(24V) чудово підійде для перших самостійних поїздок та стане цікавим подарунком для будь-якого малюка. Завдяки поєднанню стильного дизайну, зручності та функціональності катання приноситиме дитині справжнє задоволення. Мотоцикл має додаткові бічні коліщатка, завдяки яким транспорт залишається стійким і дитина почувається впевненіше під час їзди. Дитячий скутер M 6535EL-3(24V) червоний оснащений фарами, що світяться, які роблять поїздки ще цікавішими, для розваги передбачені музика і Bluetooth, тому дитина зможе слухати улюблені мелодії під час катання, а м&amp;#x27;яке сидіння з чохлом з екошкіри забезпечує максимальний комфорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого мотоцикла M 6535EL-3(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Двигун потужністю 550W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7Ah&lt;/li&gt;&lt;li&gt;М&amp;#x27;яке сидіння, екошкіра&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Бічні коліщатка страхування&lt;/li&gt;&lt;li&gt;Зарядний пристрій 28,8V/500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – тумблер, ручка газу&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рухи вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, MP3+AUX, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для паркування&lt;/li&gt;&lt;li&gt;Матеріал корпусу: пластик&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 60 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27541,6 +27733,16 @@
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Мотоцикл M 6535EL-8(24V)</name>
       <picture>https://metr-plus.com.ua/img/1158002.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163917.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163918.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163919.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163920.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163921.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163922.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163923.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163924.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163925.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163926.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий мотоцикл M 6535EL-8(24V) рожевий - Створений у вигляді справжнього скутера Honda, тому виглядає стильно та реалістично. Мотор потужністю 500W забезпечує хорошу динаміку, а батарея 24V7Ah дозволяє дитині досить довго кататись без частої підзарядки. Це крутий та функціональний транспорт для дитини, катання на якому подарує багато яскравих вражень під час прогулянок. Дитячий мотоцикл M 6535EL-8(24V) чудово підійде для перших самостійних поїздок та стане цікавим подарунком для будь-якого малюка. Завдяки поєднанню стильного дизайну, зручності та функціональності катання приноситиме дитині справжнє задоволення. Мотоцикл має додаткові бічні коліщатка, завдяки яким транспорт залишається стійким і дитина почувається впевненіше під час їзди. Дитячий скутер M 6535EL-8(24V) рожевий оснащений фарами, що світяться, які роблять поїздки ще цікавішими, для розваги передбачені музика і Bluetooth, тому дитина зможе слухати улюблені мелодії під час катання, а м&amp;#x27;яке сидіння з чохлом з екошкіри забезпечує максимальний комфорт.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого мотоцикла M 6535EL-8(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Двигун потужністю 550W/24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7Ah&lt;/li&gt;&lt;li&gt;М&amp;#x27;яке сидіння, екошкіра&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Бічні коліщатка страхування&lt;/li&gt;&lt;li&gt;Зарядний пристрій 28,8V/500mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – тумблер, ручка газу&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рухи вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, MP3+AUX, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для паркування&lt;/li&gt;&lt;li&gt;Матеріал корпусу: пластик&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 60 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27617,12 +27819,147 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="M 6545-EVA WHEEL" available="true">
+      <price>1500</price>
+      <price_old>1950</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Колесо M 6545-EVA WHEEL</name>
+      <picture>https://metr-plus.com.ua/img/1164264.jpg</picture>
+      <description lang="ua">до квадроциклу M 6545, ширина 15см, діаметр 37см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545-GEAR BOX" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Редуктор у зборі з мотором M 6545-GEAR BOX</name>
+      <picture>https://metr-plus.com.ua/img/1164266.jpg</picture>
+      <description lang="ua">до квадроциклу M 6545, 24V, RPM10000, отвір під вісь 12мм, довжина 19см</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545-MP3" available="true">
+      <price>1200</price>
+      <price_old>1560</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Плеєр M 6545-MP3</name>
+      <picture>https://metr-plus.com.ua/img/1164265.jpg</picture>
+      <description lang="ua">до квадроциклу M 6545</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545-RC RECEIVER" available="true">
+      <price>1300</price>
+      <price_old>1690</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Блок керування M 6545-RC RECEIVER</name>
+      <picture>https://metr-plus.com.ua/img/1164262.jpg</picture>
+      <description lang="ua">до квадроциклу M 6545, 24V</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545-SP-HANDLE" available="true">
+      <price>1100</price>
+      <price_old>1430</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
+      <name lang="ua">Кермо M 6545-SP-HANDLE</name>
+      <picture>https://metr-plus.com.ua/img/1164263.jpg</picture>
+      <description lang="ua">до квадроциклу M 6545</description>
+      <vendor code="827b4a70220f11ea918e001e67ecc97b">Інше</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545EBL-2(24V)" available="true">
+      <price>16300</price>
+      <price_old>21190</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6545EBL-2(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1164099.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6545EBL-2(24V) чорний - це саме те, що мріє маленький любитель пригод. Стильний зовнішній вигляд, зручна посадка та продумана конструкція роблять його чудовим вибором для веселих прогулянок. М&amp;#x27;яке сидіння зі спинкою допомагає дитині почуватися комфортно під час поїздки, а великі колеса EVA забезпечують м&amp;#x27;який і безшумний рух. Дитячий квадроцикл M 6545EBL-2(24V) стане справжнім центром уваги під час прогулянок та подарує дитині безліч яскравих емоцій. Завдяки вбудованій магнітолі з Bluetooth можна вмикати улюблені пісні та насолоджуватися музикою в дорозі. Це чудовий варіант для подарунка, який не просто порадує дитину, а й подарує їй власний світ пригод. Дитячий квадроцикл M 6545EBL-2(24V) працює від акумулятора 24V 7AH і оснащений чотирма двигунами по 45Вт, щоб вирушити в дорогу дитині достатньо натиснути на педаль газу, що робить управління простим і зрозумілим. Фари, що світяться, ефектно виглядають і надають квадроциклу ще більше реалістичності, дозволяючи дитині відчути себе справжнім водієм.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6545EBL-2(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Шкіряне сидіння зі спинкою&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V / 1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545EBL-3(24V)" available="true">
+      <price>16300</price>
+      <price_old>21190</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6545EBL-3(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1163619.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6545EBL-3(24V) червоний - це саме те, що мріє маленький любитель пригод. Стильний зовнішній вигляд, зручна посадка та продумана конструкція роблять його чудовим вибором для веселих прогулянок. М&amp;#x27;яке сидіння зі спинкою допомагає дитині почуватися комфортно під час поїздки, а великі колеса EVA забезпечують м&amp;#x27;який і безшумний рух. Дитячий квадроцикл M 6545EBL-3(24V) стане справжнім центром уваги під час прогулянок та подарує дитині безліч яскравих емоцій. Завдяки вбудованій магнітолі з Bluetooth можна вмикати улюблені пісні та насолоджуватися музикою в дорозі. Це чудовий варіант для подарунка, який не просто порадує дитину, а й подарує їй власний світ пригод. Дитячий квадроцикл M 6545EBL-3(24V) працює від акумулятора 24V 7AH і оснащений чотирма двигунами по 45Вт, щоб вирушити в дорогу дитині достатньо натиснути на педаль газу, що робить управління простим і зрозумілим. Фари, що світяться, ефектно виглядають і надають квадроциклу ще більше реалістичності, дозволяючи дитині відчути себе справжнім водієм.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6545EBL-3(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Шкіряне сидіння зі спинкою&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V / 1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545EBL-5(24V)" available="true">
+      <price>16300</price>
+      <price_old>21190</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6545EBL-5(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1163620.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6545EBL-5(24V) зелений – це саме те, про що мріє маленький любитель пригод. Стильний зовнішній вигляд, зручна посадка та продумана конструкція роблять його чудовим вибором для веселих прогулянок. М&amp;#x27;яке сидіння зі спинкою допомагає дитині почуватися комфортно під час поїздки, а великі колеса EVA забезпечують м&amp;#x27;який і безшумний рух. Дитячий квадроцикл M 6545EBL-5(24V) стане справжнім центром уваги під час прогулянок та подарує дитині безліч яскравих емоцій. Завдяки вбудованій магнітолі з Bluetooth можна вмикати улюблені пісні та насолоджуватися музикою в дорозі. Це чудовий варіант для подарунка, який не просто порадує дитину, а й подарує їй власний світ пригод. Дитячий квадроцикл M 6545EBL-5(24V) працює від акумулятора 24V 7AH і оснащений чотирма двигунами по 45Вт, щоб вирушити в дорогу дитині достатньо натиснути на педаль газу, що робить управління простим і зрозумілим. Фари, що світяться, ефектно виглядають і надають квадроциклу ще більше реалістичності, дозволяючи дитині відчути себе справжнім водієм.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6545EBL-5(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Шкіряне сидіння зі спинкою&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V / 1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6545EBL-8(24V)" available="true">
+      <price>16300</price>
+      <price_old>21190</price_old>
+      <availability>in_stock</availability>
+      <category code="854">Дитячі електромобілі</category>
+      <attribute_set code="854">Дитячі електромобілі</attribute_set>
+      <name lang="ua">Квадроцикл M 6545EBL-8(24V)</name>
+      <picture>https://metr-plus.com.ua/img/1163621.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий квадроцикл M 6545EBL-8(24V) рожевий - це саме те, що мріє маленький любитель пригод. Стильний зовнішній вигляд, зручна посадка та продумана конструкція роблять його чудовим вибором для веселих прогулянок. М&amp;#x27;яке сидіння зі спинкою допомагає дитині почуватися комфортно під час поїздки, а великі колеса EVA забезпечують м&amp;#x27;який і безшумний рух. Дитячий квадроцикл M 6545EBL-8(24V) стане справжнім центром уваги під час прогулянок та подарує дитині безліч яскравих емоцій. Завдяки вбудованій магнітолі з Bluetooth можна вмикати улюблені пісні та насолоджуватися музикою в дорозі. Це чудовий варіант для подарунка, який не просто порадує дитину, а й подарує їй власний світ пригод. Дитячий квадроцикл M 6545EBL-8(24V) працює від акумулятора 24V 7AH і оснащений чотирма двигунами по 45Вт, щоб вирушити в дорогу дитині достатньо натиснути на педаль газу, що робить управління простим і зрозумілим. Фари, що світяться, ефектно виглядають і надають квадроциклу ще більше реалістичності, дозволяючи дитині відчути себе справжнім водієм.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого квадроциклу M 6545EBL-8(24V) :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Шкіряне сидіння зі спинкою&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA&lt;/li&gt;&lt;li&gt;Амортизатори&lt;/li&gt;&lt;li&gt;Чотири двигуни 4х45W / 24V&lt;/li&gt;&lt;li&gt;Акумулятор 24V/7AH&lt;/li&gt;&lt;li&gt;Індикатор заряду батареї&lt;/li&gt;&lt;li&gt;Заряджання 24V / 1000mA, індикатор заряджання&lt;/li&gt;&lt;li&gt;Старт – кнопка&lt;/li&gt;&lt;li&gt;Максимальна швидкість – до 6 км/год&lt;/li&gt;&lt;li&gt;Рух вперед-назад&lt;/li&gt;&lt;li&gt;Світлові та звукові ефекти, світяться фари&lt;/li&gt;&lt;li&gt;Музика, звук при старті, регулятор гучності&lt;/li&gt;&lt;li&gt;Магнітола: MP3, USB, Bluetooth&lt;/li&gt;&lt;li&gt;Підставка для ніг&lt;/li&gt;&lt;li&gt;Корпус із міцного пластику&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 50 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="dae6c4a025884c8884514e25385fb2ec">Bambi Racer</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="M 6563-11" available="true">
       <price>3200</price>
       <price_old>4160</price_old>
       <availability>in_stock</availability>
       <name lang="ua">Розвиваючий центр-стрибунець M 6563-11</name>
       <picture>https://metr-plus.com.ua/img/1157986.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163962.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163963.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163964.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163965.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163966.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163967.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163968.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163969.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163970.jpg</picture>
       <description lang="ua">&lt;p&gt;Розвиваючий центр - стрибунець M 6563-11 сірий - створений для активних малюків, яким цікаво все довкола. Дитина зможе зручно розміститися в м&amp;#x27;якому тканинному сидінні, грати з підвісними іграшками та весело стрибати, а регульована висота дозволяє встановити потрібне положення для комфортного використання. Розвиваючий центр M 6563-11 зробить дозвілля малюка веселим та цікавим, на ігровій дузі знаходяться яскраві підвісні іграшки, а музичні та світлові ефекти роблять гру більш захоплюючою. Різноманітні елементи допомагають дитині тренувати увагу, координацію рухів та знайомитися з новими звуками та кольорами. Розвиваючий центр M 6563-11 виготовлений із якісних матеріалів та розрахований на активне використання. Це практична та цікава модель, яка допоможе організувати дитині веселе дозвілля вдома та стане гарним подарунком для малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики розвиваючого центру M 6563-11 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: центр розвитку&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Висота регулюється&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Дуга з підвісними іграшками&lt;/li&gt;&lt;li&gt;Сидіння з тканини&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластмаса, тканина&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити розвиваючий центр - стрибунець M 6563-11 або отримати додаткову інформацію про розвиваючий центр M 6563-11, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити розвиваючий центр - стрибунець M 6563-11 у регіонах України&lt;/p&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -27635,6 +27972,15 @@
       <availability>in_stock</availability>
       <name lang="ua">Розвиваючий центр-стрибунець M 6563-13</name>
       <picture>https://metr-plus.com.ua/img/1157987.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163971.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163972.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163973.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163974.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163975.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163976.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163977.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163978.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163979.jpg</picture>
       <description lang="ua">&lt;p&gt;Розвиваючий центр - стрибунець M 6563-13 бежевий - створений для активних малюків, яким цікаво все довкола. Дитина зможе зручно розміститися в м&amp;#x27;якому тканинному сидінні, грати з підвісними іграшками та весело стрибати, а регульована висота дозволяє встановити потрібне положення для комфортного використання. Розвиваючий центр M 6563-13 зробить дозвілля малюка веселим та цікавим, на ігровій дузі знаходяться яскраві підвісні іграшки, а музичні та світлові ефекти роблять гру більш захоплюючою. Різноманітні елементи допомагають дитині тренувати увагу, координацію рухів та знайомитися з новими звуками та кольорами. Розвиваючий центр M 6563-13 виготовлений із якісних матеріалів та розрахований на активне використання. Це практична та цікава модель, яка допоможе організувати дитині веселе дозвілля вдома та стане гарним подарунком для малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики розвиваючого центру M 6563-13 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: центр розвитку&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Висота регулюється&lt;/li&gt;&lt;li&gt;Музика, світло&lt;/li&gt;&lt;li&gt;Дуга з підвісними іграшками&lt;/li&gt;&lt;li&gt;Сидіння з тканини&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластмаса, тканина&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити розвиваючий центр - стрибунець M 6563-13 або отримати додаткову інформацію про розвиваючий центр M 6563-13, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити розвиваючий центр - стрибунець M 6563-13 у регіонах України&lt;/p&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -28663,6 +29009,13 @@
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел MBB 1062-11-6</name>
       <picture>https://metr-plus.com.ua/img/1157763.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163762.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163763.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163764.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163765.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163766.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163767.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163768.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1062-11-6 сіро-жовтий - це чудовий варіант для активної дитини, якій цікаво самостійно пересуватися та досліджувати навколишній світ. Він призначений для малюків від року і має чотири колеса, що забезпечують стійкість під час руху. Дитячий біговел MBB 1062-11-6 стане цікавою іграшкою, а також принесе користь у процесі катання, їзда на ньому сприяє розвитку координації, допомагає дитині впевненіше керувати своїми рухами та поступово зміцнює м&amp;#x27;язи ніг. Дитячий біговел MBB 1062-11-6 має стильний дизайн, який добре доповнюється якісною та надійною конструкцією, а кошик на кермі стане приємним доповненням для маленького власника. У неї можна покласти іграшку або улюблену дрібницю, яку хочеться взяти із собою на прогулянку.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого біговела MBB 1062-11-6 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: дитячий біговел&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA - 4 шт.&lt;/li&gt;&lt;li&gt;Комфортне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластмаса&lt;/li&gt;&lt;li&gt;Для дітей від 1 до 3 років&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 20 кг&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина - 57,6 см, ширина - 28 см, висота до керма - 38,7 см.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -28677,6 +29030,13 @@
       <attribute_set code="853">Біговели</attribute_set>
       <name lang="ua">Біговел MBB 1062-12</name>
       <picture>https://metr-plus.com.ua/img/1157764.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163769.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163770.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163771.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163772.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163773.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163774.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163775.jpg</picture>
       <description lang="ua">&lt;p&gt;Дитячий біговел MBB 1062-12 блакитний - це відмінний варіант для активної дитини, якій цікаво самостійно пересуватися та досліджувати навколишній світ. Він призначений для малюків від року і має чотири колеса, що забезпечують стійкість під час руху. Дитячий біговел MBB 1062-12 стане цікавою іграшкою, а також принесе користь у процесі катання, їзда на ньому сприяє розвитку координації, допомагає дитині впевненіше керувати своїми рухами та поступово зміцнює м&amp;#x27;язи ніг. Дитячий біговел MBB 1062-12 має стильний дизайн, який добре доповнюється якісною та надійною конструкцією, а кошик на кермі стане приємним доповненням для маленького власника. У неї можна покласти іграшку або улюблену дрібницю, яку хочеться взяти із собою на прогулянку.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого біговела MBB 1062-12 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: дитячий біговел&lt;/li&gt;&lt;li&gt;М&amp;#x27;які колеса EVA - 4 шт.&lt;/li&gt;&lt;li&gt;Комфортне сидіння, екошкіра&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал виробу: метал, пластмаса&lt;/li&gt;&lt;li&gt;Для дітей від 1 до 3 років&lt;/li&gt;&lt;li&gt;Максимальне навантаження – до 20 кг&lt;/li&gt;&lt;li&gt;Розміри біговела: довжина - 57,6 см, ширина - 28 см, висота до керма - 38,7 см.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="4625872117c14caca73a358404439c15">PROF1 KIDS</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -29002,9 +29362,9 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="ME 1091-1 Total Black" available="true">
+    <offer id="ME 1091-1 Total Black" available="false">
       <price>14637.0</price>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="846">Коляски</category>
       <attribute_set code="846">Коляски</attribute_set>
       <name lang="ua">Коляска універсальна 2в1 ME 1091-1 PERSONA Total Black</name>
@@ -29294,6 +29654,16 @@
       <attribute_set code="843">Автокрісла</attribute_set>
       <name lang="ua">Автокрісло дитяче El Camino i-FIX+ ME 1110 Pearl</name>
       <picture>https://metr-plus.com.ua/img/1161771.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164335.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164336.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164337.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164338.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164339.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164340.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164341.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164342.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164343.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164344.jpg</picture>
       <description lang="ua">&lt;p&gt;Автокрісло El Camino i-Fix+ ME 1110 Special Pearl світло-бежеве - підходить для дітей від самого народження, тому можна не переживати про додаткові покупки на перший час, малюк лежить правильно, голова та спинка підтримуються, а батьки почуваються впевненіше. Це підходящий варіант для тих батьків, які з самого першого дня життя малюка хочуть бути спокійними за його безпеку і комфорт, ця модель продумана до дрібниць, вона надійна, приємна на дотик, добре фіксується в автомобілі і не викликає зайвих переживань під час поїздок, навіть якщо йдеться про довгу дорогу або часті короткі. Автокрісло ME 1110 Special Pearl має регульований підголівник, завдяки цьому автокрісло буквально росте разом з малюком, не потрібно щоразу підганяти щось самостійно, досить просто відрегулювати становище під зростання дитини. Дана модель встановлюється проти ходу руху, що вважається найбезпечнішим варіантом для маленьких дітей, і саме це відчуття захищеності тут стоїть на першому місці, додатковий бічний захист з двох сторін допомагає знизити навантаження при різких поворотах або гальмуваннях, дитина як оточена м&amp;#x27;яким і міцним коконом. Дитяче автокрісло ME 1110 Special Pearl оснащено триточковим ременем безпеки, який надійно фіксує маленького пасажира, не сковуючи його руху та не створюючи дискомфорту, ремені зручно затягуються та не тиснуть. Є зручна ручка для перенесення, тому крісло легко взяти з собою, переставити в іншу машину або занести додому, не просипавши малюка.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики автокрісла ME 1110 Special Pearl :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виробник: El Camino&lt;/li&gt;&lt;li&gt;Тип: автокрісло-бебікокон&lt;/li&gt;&lt;li&gt;Категорія: 0+&lt;/li&gt;&lt;li&gt;Стандарт безпеки: i-Size R129&lt;/li&gt;&lt;li&gt;Зріст дитини: 40-87 см&lt;/li&gt;&lt;li&gt;3 положення кута нахилу та довжини&lt;/li&gt;&lt;li&gt;Регулюється підголівник&lt;/li&gt;&lt;li&gt;Регулюється ручка-перенесення&lt;/li&gt;&lt;li&gt;Спосіб встановлення: проти ходу руху&lt;/li&gt;&lt;li&gt;Додатковий бічний захист з 2-х сторін&lt;/li&gt;&lt;li&gt;Кількість точок кріплення: 3 шт.&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки&lt;/li&gt;&lt;li&gt;Матеріал тканини: поліестер/льон&lt;/li&gt;&lt;li&gt;Глибина від 112 - 155 °, 2 положення підголівника&lt;/li&gt;&lt;li&gt;У комплекті: чохол, москітна сітка.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати автокрісло El Camino i-Fix+ ME 1110 Special Pearl або отримати додаткову інформацію про автокрісло ME 1110 Special Pearl, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитяче автокрісло ME 1110 Special Pearl у регіонах України&lt;/p&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -30085,7 +30455,20 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Total Gray</name>
       <picture>https://metr-plus.com.ua/img/1163505.jpg</picture>
-      <description lang="ua">3 кол. PU (12/10), пов.сид.,швидкоз.кол.,гальма,склад. кермо,світло,підшип.,сумка,дощ.,сірий</description>
+      <description lang="ua">&lt;p&gt;Велосипед із батьківською ручкою ME 1162-1 Total Gray сірий - це відмінний вибір для комфортних та захоплюючих прогулянок з дитиною від 1,5 до 5 років. Ця модель оснащена поворотним сидінням на 360 градусів, яке можна встановити у трьох положеннях, у тому числі розгорнути до батька або вперед у напрямку руху. Триколісний велосипед ME 1162-1 Total Gray оснащений регульованою швидкознімною батьківською ручкою з м&amp;#x27;якими накладками з екошкіри, складною підніжкою з нековзною поверхнею та додатковою підніжкою, що знімається під сидінням. Для зберігання іграшок та необхідних речей передбачені передній пластиковий кошик та задній кошик з кришкою та сіткою Дитячий велосипед El Camino Vector ME 1162-1 Total Gray має ігрову панель зі світловими ефектами та двома режимами, яка додасть прогулянковам ще більше інтересу. Глибокий регульований капюшон із магнітним оглядовим віконцем та сіткою допоможе захистити малюка від сонця та вітру, зберігаючи можливість спостерігати за ним під час прогулянки.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда ME 1162-1 Vector Total Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Тканина: NEW, UV 50+/WPF захист від вигоряння&lt;/li&gt;&lt;li&gt;Панель: світло, живлення від батарейок&lt;/li&gt;&lt;li&gt;Якісні поліуретанові колеса&lt;/li&gt;&lt;li&gt;Розмір переднього колеса – 12 д., розмір заднього колеса – 10 д.&lt;/li&gt;&lt;li&gt;Колеса на підшипниках (переднє та задні колеса)&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне - 2 шт.&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Капюшон має оглядове вікно&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Ручка має м&amp;#x27;які фомові накладки&lt;/li&gt;&lt;li&gt;На ручці сумочка-кишенька для дрібниць&lt;/li&gt;&lt;li&gt;Поворотне сидіння, м&amp;#x27;який чохол&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки з м&amp;#x27;якими накладками&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;У комплекті дощовик&lt;/li&gt;&lt;li&gt;Вантажопідйомність, що рекомендується - до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="ME 1162-1 Total Green" available="true">
+      <price>6374.0</price>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Total Green</name>
+      <picture>https://metr-plus.com.ua/img/1163605.jpg</picture>
+      <description lang="ua">&lt;p&gt;Велосипед з батьківською ручкою ME 1162-1 Total Green зелений - це чудовий вибір для комфортних та захоплюючих прогулянок з дитиною від 1,5 до 5 років. Ця модель оснащена поворотним сидінням на 360 градусів, яке можна встановити у трьох положеннях, у тому числі розгорнути до батька або вперед у напрямку руху. Триколісний велосипед ME 1162-1 Total Green оснащений регульованою швидкознімною батьківською ручкою з м&amp;#x27;якими накладками з екошкіри, складною підніжкою з нековзною поверхнею та додатковою підніжкою, що знімається під сидінням. Для зберігання іграшок та необхідних речей передбачені передній пластиковий кошик та задній кошик з кришкою та сіткою Дитячий велосипед El Camino Vector ME 1162-1 Total Green має ігрову панель зі світловими ефектами та двома режимами, яка додасть прогулянковам ще більше інтересу. Глибокий регульований капюшон із магнітним оглядовим віконцем та сіткою допоможе захистити малюка від сонця та вітру, зберігаючи можливість спостерігати за ним під час прогулянки.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда ME 1162-1 Vector Total Green :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Тканина: NEW, UV 50+/WPF захист від вигоряння&lt;/li&gt;&lt;li&gt;Панель: світло, живлення від батарейок&lt;/li&gt;&lt;li&gt;Якісні поліуретанові колеса&lt;/li&gt;&lt;li&gt;Розмір переднього колеса – 12 д., розмір заднього колеса – 10 д.&lt;/li&gt;&lt;li&gt;Колеса на підшипниках (переднє та задні колеса)&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне - 2 шт.&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Капюшон має оглядове вікно&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Ручка має м&amp;#x27;які фомові накладки&lt;/li&gt;&lt;li&gt;На ручці сумочка-кишенька для дрібниць&lt;/li&gt;&lt;li&gt;Поворотне сидіння, м&amp;#x27;який чохол&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки з м&amp;#x27;якими накладками&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;У комплекті дощовик&lt;/li&gt;&lt;li&gt;Вантажопідйомність, що рекомендується - до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31175,7 +31558,11 @@
       <name lang="ua">З'єднувач конектор для колясок El Camino ME 1199</name>
       <picture>https://metr-plus.com.ua/img/994581.jpg</picture>
       <picture>https://metr-plus.com.ua/img/996882.jpg</picture>
-      <description lang="ua">універсальний з 3-х частин: 2x20см, 1x25см, в кор-ці</description>
+      <picture>https://metr-plus.com.ua/img/1164073.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164074.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164075.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164076.jpg</picture>
+      <description lang="ua">універсальний з 3-х частин: 2x22см, 1x37см, в кор-ці</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
@@ -31288,6 +31675,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед дитячий El Camino FOLDI ME 1202 Graphite</name>
       <picture>https://metr-plus.com.ua/img/954736.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163980.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163981.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163982.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163983.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163984.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163985.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163986.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163987.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163988.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163989.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1,5 до 5-ти років Дитячий триколісний велосипед 3 в 1 EL Camino ME 1202 Foldi має алюмінієву раму, складану конструкцію та швидкознімні колеса. Колеса з EVA матеріалу забезпечать м&amp;#x27;який хід. Велосипед трансформується в біговел. У нашому магазині Ви можете купити триколісний велосипед ME 1202 Foldi, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда EL Camino Foldi ME 1202:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1,5 років.&lt;/li&gt;&lt;li&gt;Рама складана, виготовлена з алюмінію.&lt;/li&gt;&lt;li&gt;Варіанти використання: велосипед з батьківською ручкою, триколісний велосипед, біговел.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна, регулюється по висоті в 4-х положеннях від 67,5 до 90 см.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує переднім колесом.&lt;/li&gt;&lt;li&gt;Кермо знімне.&lt;/li&gt;&lt;li&gt;На сидінні м&amp;#x27;яка гумова накладка.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхД): 12,5х19 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 29 см.&lt;/li&gt;&lt;li&gt;Спинка знімна.&lt;/li&gt;&lt;li&gt;Розмір спинки (ВхШ): 10х19,5 см.&lt;/li&gt;&lt;li&gt;3 колеса з EVA матеріала.&lt;/li&gt;&lt;li&gt;Педалі знімні (місце зберігання під сидінням).&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Розмір велосипеда (ДхШхВ): 94х32х94 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 44х19х33 см.&lt;/li&gt;&lt;li&gt;Вага велосипеду: 4,4 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -31301,6 +31698,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед дитячий El Camino FOLDI ME 1202 Lavender</name>
       <picture>https://metr-plus.com.ua/img/954737.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163991.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163992.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163993.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163994.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163995.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163996.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163997.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163998.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1163999.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164000.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1,5 до 5-ти років Дитячий триколісний велосипед 3 в 1 EL Camino ME 1202 Foldi має алюмінієву раму, складану конструкцію та швидкознімні колеса. Колеса з EVA матеріалу забезпечать м&amp;#x27;який хід. Велосипед трансформується в біговел. У нашому магазині Ви можете купити триколісний велосипед ME 1202 Foldi, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда EL Camino Foldi ME 1202:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1,5 років.&lt;/li&gt;&lt;li&gt;Рама складана, виготовлена з алюмінію.&lt;/li&gt;&lt;li&gt;Варіанти використання: велосипед з батьківською ручкою, триколісний велосипед, біговел.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна, регулюється по висоті в 4-х положеннях від 67,5 до 90 см.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує переднім колесом.&lt;/li&gt;&lt;li&gt;Кермо знімне.&lt;/li&gt;&lt;li&gt;На сидінні м&amp;#x27;яка гумова накладка.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхД): 12,5х19 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 29 см.&lt;/li&gt;&lt;li&gt;Спинка знімна.&lt;/li&gt;&lt;li&gt;Розмір спинки (ВхШ): 10х19,5 см.&lt;/li&gt;&lt;li&gt;3 колеса з EVA матеріала.&lt;/li&gt;&lt;li&gt;Педалі знімні (місце зберігання під сидінням).&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Розмір велосипеда (ДхШхВ): 94х32х94 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 44х19х33 см.&lt;/li&gt;&lt;li&gt;Вага велосипеду: 4,4 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -31314,6 +31721,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед дитячий El Camino FOLDI ME 1202 Slate Green</name>
       <picture>https://metr-plus.com.ua/img/955024.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164002.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164003.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164004.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164005.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164006.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164007.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164008.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164009.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164010.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164011.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1,5 до 5-ти років Дитячий триколісний велосипед 3 в 1 EL Camino ME 1202 Foldi має алюмінієву раму, складану конструкцію та швидкознімні колеса. Колеса з EVA матеріалу забезпечать м&amp;#x27;який хід. Велосипед трансформується в біговел. У нашому магазині Ви можете купити триколісний велосипед ME 1202 Foldi, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда EL Camino Foldi ME 1202:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1,5 років.&lt;/li&gt;&lt;li&gt;Рама складана, виготовлена з алюмінію.&lt;/li&gt;&lt;li&gt;Варіанти використання: велосипед з батьківською ручкою, триколісний велосипед, біговел.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна, регулюється по висоті в 4-х положеннях від 67,5 до 90 см.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує переднім колесом.&lt;/li&gt;&lt;li&gt;Кермо знімне.&lt;/li&gt;&lt;li&gt;На сидінні м&amp;#x27;яка гумова накладка.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхД): 12,5х19 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 29 см.&lt;/li&gt;&lt;li&gt;Спинка знімна.&lt;/li&gt;&lt;li&gt;Розмір спинки (ВхШ): 10х19,5 см.&lt;/li&gt;&lt;li&gt;3 колеса з EVA матеріала.&lt;/li&gt;&lt;li&gt;Педалі знімні (місце зберігання під сидінням).&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Розмір велосипеда (ДхШхВ): 94х32х94 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 44х19х33 см.&lt;/li&gt;&lt;li&gt;Вага велосипеду: 4,4 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -31327,6 +31744,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед дитячий El Camino FOLDI ME 1202 Cinnamon Beige</name>
       <picture>https://metr-plus.com.ua/img/954738.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164014.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164015.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164016.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164017.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164018.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164019.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164020.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164021.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164022.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164023.jpg</picture>
       <description lang="ua">&lt;p&gt;Від 1,5 до 5-ти років Дитячий триколісний велосипед 3 в 1 EL Camino ME 1202 Foldi має алюмінієву раму, складану конструкцію та швидкознімні колеса. Колеса з EVA матеріалу забезпечать м&amp;#x27;який хід. Велосипед трансформується в біговел. У нашому магазині Ви можете купити триколісний велосипед ME 1202 Foldi, який Вас порадує особливостями дизайну та функціональністю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого триколісного велосипеда EL Camino Foldi ME 1202:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Призначений для катання дітей віком від 1,5 років.&lt;/li&gt;&lt;li&gt;Рама складана, виготовлена з алюмінію.&lt;/li&gt;&lt;li&gt;Варіанти використання: велосипед з батьківською ручкою, триколісний велосипед, біговел.&lt;/li&gt;&lt;li&gt;Батьківська ручка знімна, регулюється по висоті в 4-х положеннях від 67,5 до 90 см.&lt;/li&gt;&lt;li&gt;Батьківська ручка керує переднім колесом.&lt;/li&gt;&lt;li&gt;Кермо знімне.&lt;/li&gt;&lt;li&gt;На сидінні м&amp;#x27;яка гумова накладка.&lt;/li&gt;&lt;li&gt;Розмір сидіння (ШхД): 12,5х19 см.&lt;/li&gt;&lt;li&gt;Висота від підлоги до сидіння: 29 см.&lt;/li&gt;&lt;li&gt;Спинка знімна.&lt;/li&gt;&lt;li&gt;Розмір спинки (ВхШ): 10х19,5 см.&lt;/li&gt;&lt;li&gt;3 колеса з EVA матеріала.&lt;/li&gt;&lt;li&gt;Педалі знімні (місце зберігання під сидінням).&lt;/li&gt;&lt;li&gt;Діаметр коліс: 20 см.&lt;/li&gt;&lt;li&gt;Розмір велосипеда (ДхШхВ): 94х32х94 см.&lt;/li&gt;&lt;li&gt;Розмір в упаковці: 44х19х33 см.&lt;/li&gt;&lt;li&gt;Вага велосипеду: 4,4 кг.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 5 кг.&lt;/li&gt;&lt;li&gt;Максимальне навантаження: 30 кг.&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -32439,10 +32866,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MEB 700C NOVA SENSOR" available="true">
+    <offer id="MEB 700C NOVA SENSOR" available="false">
       <price>4900</price>
       <price_old>6370</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Сенсор MEB 700C NOVA SENSOR</name>
       <picture>https://metr-plus.com.ua/img/941700.jpg</picture>
       <description lang="ua">для електровелоcипеда</description>
@@ -33224,10 +33651,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 1778-4" available="true">
+    <offer id="MS 1778-4" available="false">
       <price>4900</price>
       <price_old>6370</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Снігокат MS 1778-4</name>
       <picture>https://metr-plus.com.ua/img/1009928.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1010531.jpg</picture>
@@ -33562,10 +33989,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="MS 4800-2" available="true">
+    <offer id="MS 4800-2" available="false">
       <price>8200</price>
       <price_old>10660</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Тренажер MS 4800-2</name>
       <picture>https://metr-plus.com.ua/img/1019833.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1020137.jpg</picture>
@@ -34038,6 +34465,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1036-W beige</name>
       <picture>https://metr-plus.com.ua/img/1157998.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164026.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164027.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164028.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164029.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164030.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164031.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164032.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164033.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164034.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164035.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед з ручкою MT 1036-W beige бежевий - має зручне сидіння з високою спинкою, що особливо важливо для малюків, які ще звикають до тривалих прогулянок. Така конструкція підтримує спину дитини та робить поїздку максимально комфортною. Велосипед триколісний MT 1036-W beige оснащений сонцезахисним капюшоном, який надійно захищає малюка від прямих променів, це особливо актуально в літній період, коли хочеться проводити більше часу на вулиці, не турбуючись про перегрівання та дискомфорт дитини. Дитячий триколісний велосипед MT 1036-W beige стане підходящим вибором для тих, хто цінує комфорт, якість та безпеку, він продуманий до дрібниць та відмінно підходить як для коротких прогулянок, так і для тривалих поїздок на свіжому повітрі.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1036-W beige :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Матеріал рами: алюміній&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр переднього колеса – 8 д., діаметр заднього колеса – 7 д.&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Глибокий каптур&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34052,6 +34489,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1036-W grey</name>
       <picture>https://metr-plus.com.ua/img/1157999.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164050.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164051.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164052.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164053.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164054.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164055.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164056.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164057.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164058.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164059.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед з ручкою MT 1036-W grey сірий - має зручне сидіння з високою спинкою, що особливо важливо для малюків, які ще звикають до тривалих прогулянок. Така конструкція підтримує спину дитини та робить поїздку максимально комфортною. Велосипед триколісний MT 1036-W grey оснащений сонцезахисним капюшоном, який надійно захищає малюка від прямих променів, це особливо актуально в літній період, коли хочеться проводити більше часу на вулиці, не турбуючись про перегрівання та дискомфорт дитини. Дитячий триколісний велосипед MT 1036-W grey стане підходящим вибором для тих, хто цінує комфорт, якість та безпеку, він продуманий до дрібниць та відмінно підходить як для коротких прогулянок, так і для тривалих поїздок на свіжому повітрі.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1036-W grey :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Матеріал рами: алюміній&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр переднього колеса – 8 д., діаметр заднього колеса – 7 д.&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Глибокий каптур&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34112,6 +34559,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1038-1 Charcoal Gray</name>
       <picture>https://metr-plus.com.ua/img/1161892.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164077.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164078.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164079.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164080.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164081.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164082.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164083.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164084.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164085.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164086.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед MT 1038-1 Charcoal Gray темно-сірий – це вдале поєднання зручності, надійності та практичності, він допомагає зробити прогулянки з дитиною простіше, а малюкові дає можливість поступово звикати до самостійного катання. Велосипед підійде для активного відпочинку на вулиці і стане гарною альтернативою звичайному візку, коли хочеться урізноманітнити щоденні прогулянки. Велосипед з ручкою MT 1038-1 Charcoal Gray радує комфортом та функціональністю, для дрібниць передбачені два кошики, розташовані спереду та ззаду, а на батьківській ручці є сумочка, куди можна покласти все необхідне. Доповнює конструкцію фари на кермі, яка робить катання на велосипеді ще цікавішим. Завдяки таким деталям на прогулянку зручно брати іграшки, пляшечку з водою та інші корисні речі. Триколісний велосипед MT 1038-1 Charcoal Gray стане чудовим вибором для перших прогулянок з малюком від 1 року. Спочатку його зручно використовувати замість коляски: батьки керують велосипедом за допомогою спеціальної ручки, а дитина з комфортом сидить у кріслі. Коли малюк підросте та захоче більше самостійності, він зможе кататися сам.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1038-1 Charcoal Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Виробник: Turbo Trike&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр колеса: переднє – 10 дюймів, заднє – 8 дюймів&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик ззаду&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 7,2 см&lt;/li&gt;&lt;li&gt;Розміри коробки упаковки: 62×38×28 см&lt;/li&gt;&lt;li&gt;Розміри велосипеда: 78×48×100 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Купити триколісний велосипед MT 1038-1 Charcoal Gray або отримати додаткову інформацію про триколісний велосипед MT 1038-1 Charcoal Gray, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити триколісний велосипед MT 1038-1 Charcoal Gray у регіонах України&lt;/p&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34126,6 +34583,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1038-1 Hot Chocolate</name>
       <picture>https://metr-plus.com.ua/img/1161839.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164107.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164108.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164109.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164110.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164111.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164112.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164113.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164114.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164115.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164116.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед MT 1038-1 Hot Chocolate шоколадний – це вдале поєднання зручності, надійності та практичності, він допомагає зробити прогулянки з дитиною простіше, а малюкові дає можливість поступово звикати до самостійного катання. Велосипед підійде для активного відпочинку на вулиці і стане гарною альтернативою звичайному візку, коли хочеться урізноманітнити щоденні прогулянки. Велосипед з ручкою MT 1038-1 Hot Chocolate радує комфортом та функціональністю, для дрібниць передбачені два кошики, розташовані спереду та ззаду, а на батьківській ручці є сумочка, куди можна покласти все необхідне. Доповнює конструкцію фари на кермі, яка робить катання на велосипеді ще цікавішим. Завдяки таким деталям на прогулянку зручно брати іграшки, пляшечку з водою та інші корисні речі. Триколісний велосипед MT 1038-1 Hot Chocolate стане чудовим вибором для перших прогулянок з малюком від 1 року. Спочатку його зручно використовувати замість коляски: батьки керують велосипедом за допомогою спеціальної ручки, а дитина з комфортом сидить у кріслі. Коли малюк підросте та захоче більше самостійності, він зможе кататися сам.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1038-1 Hot Chocolate :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Виробник: Turbo Trike&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр колеса: переднє – 10 дюймів, заднє – 8 дюймів&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик ззаду&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 7,2 см&lt;/li&gt;&lt;li&gt;Розміри коробки упаковки: 62×38×28 см&lt;/li&gt;&lt;li&gt;Розміри велосипеда: 78×48×100 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати триколісний велосипед MT 1038-1 Hot Chocolate або отримати додаткову інформацію про триколісний велосипед MT 1038-1 Hot Chocolate, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити триколісний велосипед MT 1038-1 Hot Chocolate у регіонах України&lt;/p&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34140,6 +34607,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1038-1 Latte</name>
       <picture>https://metr-plus.com.ua/img/1161840.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164126.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164127.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164128.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164129.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164130.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164131.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164132.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164133.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164134.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164135.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед MT 1038-1 Latte бежевий – це вдале поєднання зручності, надійності та практичності, він допомагає зробити прогулянки з дитиною простіше, а малюкові дає можливість поступово звикати до самостійного катання. Велосипед підійде для активного відпочинку на вулиці і стане гарною альтернативою звичайному візку, коли хочеться урізноманітнити щоденні прогулянки. Велосипед з ручкою MT 1038-1 Latte радує комфортом та функціональністю, для дрібниць передбачені два кошики, розташовані спереду та ззаду, а на батьківській ручці є сумочка, куди можна покласти все необхідне. Доповнює конструкцію фари на кермі, яка робить катання на велосипеді ще цікавішим. Завдяки таким деталям на прогулянку зручно брати іграшки, пляшечку з водою та інші корисні речі. Триколісний велосипед MT 1038-1 Latte стане чудовим вибором для перших прогулянок з малюком від 1 року. Спочатку його зручно використовувати замість коляски: батьки керують велосипедом за допомогою спеціальної ручки, а дитина з комфортом сидить у кріслі. Коли малюк підросте та захоче більше самостійності, він зможе кататися сам.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1038-1 Latte :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Виробник: Turbo Trike&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр колеса: переднє – 10 дюймів, заднє – 8 дюймів&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик ззаду&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 7,2 см&lt;/li&gt;&lt;li&gt;Розміри коробки упаковки: 62×38×28 см&lt;/li&gt;&lt;li&gt;Розміри велосипеда: 78×48×100 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати триколісний велосипед MT 1038-1 Latte або отримати додаткову інформацію про триколісний велосипед MT 1038-1 Latte, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити триколісний велосипед MT 1038-1 Latte у регіонах України&lt;/p&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34154,6 +34631,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1038-1 Medium Gray</name>
       <picture>https://metr-plus.com.ua/img/1161893.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164145.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164146.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164147.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164148.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164149.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164150.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164151.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164152.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164153.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164154.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед MT 1038-1 Medium Gray сірий – це вдале поєднання зручності, надійності та практичності, він допомагає зробити прогулянки з дитиною простіше, а малюкові дає можливість поступово звикати до самостійного катання. Велосипед підійде для активного відпочинку на вулиці і стане гарною альтернативою звичайному візку, коли хочеться урізноманітнити щоденні прогулянки. Велосипед з ручкою MT 1038-1 Medium Gray радує комфортом та функціональністю, для дрібниць передбачені два кошики, розташовані спереду та ззаду, а на батьківській ручці є сумочка, куди можна покласти все необхідне. Доповнює конструкцію фари на кермі, яка робить катання на велосипеді ще цікавішим. Завдяки таким деталям на прогулянку зручно брати іграшки, пляшечку з водою та інші корисні речі. Триколісний велосипед MT 1038-1 Medium Gray стане чудовим вибором для перших прогулянок з малюком від 1 року. Спочатку його зручно використовувати замість коляски: батьки керують велосипедом за допомогою спеціальної ручки, а дитина з комфортом сидить у кріслі. Коли малюк підросте та захоче більше самостійності, він зможе кататися сам.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1038-1 Medium Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Виробник: Turbo Trike&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр колеса: переднє – 10 дюймів, заднє – 8 дюймів&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик ззаду&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 7,2 см&lt;/li&gt;&lt;li&gt;Розміри коробки упаковки: 62×38×28 см&lt;/li&gt;&lt;li&gt;Розміри велосипеда: 78×48×100 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати триколісний велосипед MT 1038-1 Medium Gray або отримати додаткову інформацію про триколісний велосипед MT 1038-1 Medium Gray, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити триколісний велосипед MT 1038-1 Medium Gray у регіонах України&lt;/p&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34168,6 +34655,16 @@
       <attribute_set code="4991">Дитячі велосипеди</attribute_set>
       <name lang="ua">Велосипед MT 1038-1 Сashmere Green</name>
       <picture>https://metr-plus.com.ua/img/1161841.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164161.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164162.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164163.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164164.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164165.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164166.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164167.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164168.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164169.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1164170.jpg</picture>
       <description lang="ua">&lt;p&gt;Триколісний велосипед MT 1038-1 Сashmere Green зелений – це вдале поєднання зручності, надійності та практичності, він допомагає зробити прогулянки з дитиною простіше, а малюкові дає можливість поступово звикати до самостійного катання. Велосипед підійде для активного відпочинку на вулиці і стане гарною альтернативою звичайному візку, коли хочеться урізноманітнити щоденні прогулянки. Велосипед з ручкою MT 1038-1 Сashmere Green радує комфортом та функціональністю, для дрібниць передбачені два кошики, розташовані спереду та ззаду, а на батьківській ручці є сумочка, куди можна покласти все необхідне. Доповнює конструкцію фари на кермі, яка робить катання на велосипеді ще цікавішим. Завдяки таким деталям на прогулянку зручно брати іграшки, пляшечку з водою та інші корисні речі. Триколісний велосипед MT 1038-1 Сashmere Green стане чудовим вибором для перших прогулянок з малюком від 1 року. Спочатку його зручно використовувати замість коляски: батьки керують велосипедом за допомогою спеціальної ручки, а дитина з комфортом сидить у кріслі. Коли малюк підросте та захоче більше самостійності, він зможе кататися сам.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда MT 1038-1 Сashmere Green :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Виробник: Turbo Trike&lt;/li&gt;&lt;li&gt;Матеріал рами: метал&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Кошик на кермі&lt;/li&gt;&lt;li&gt;Матеріал коліс: EVA&lt;/li&gt;&lt;li&gt;Діаметр колеса: переднє – 10 дюймів, заднє – 8 дюймів&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне&lt;/li&gt;&lt;li&gt;Комфортне сидіння&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Ремінь безпеки&lt;/li&gt;&lt;li&gt;Страхувальний бампер&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик ззаду&lt;/li&gt;&lt;li&gt;Максимальна вантажопідйомність – до 30 кг&lt;/li&gt;&lt;li&gt;Вага велосипеда: 7,2 см&lt;/li&gt;&lt;li&gt;Розміри коробки упаковки: 62×38×28 см&lt;/li&gt;&lt;li&gt;Розміри велосипеда: 78×48×100 см&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати триколісний велосипед MT 1038-1 Сashmere Green або отримати додаткову інформацію про триколісний велосипед MT 1038-1 Сashmere Green, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити триколісний велосипед MT 1038-1 Сashmere Green в регіонах України&lt;/p&gt;</description>
       <vendor code="54da9eee44eb4f88b525fee306a54d47">Turbotrike</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
@@ -34240,10 +34737,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-13-1" available="true">
+    <offer id="N 2071-13-1" available="false">
       <price>4700</price>
       <price_old>6110</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-13-1</name>
@@ -34352,10 +34849,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-23-7" available="true">
+    <offer id="N 2071-23-7" available="false">
       <price>4700</price>
       <price_old>6110</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-23-7</name>
@@ -34366,10 +34863,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-26-1" available="true">
+    <offer id="N 2071-26-1" available="false">
       <price>4700</price>
       <price_old>6110</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-26-1</name>
@@ -34436,10 +34933,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-28-1" available="true">
+    <offer id="N 2071-28-1" available="false">
       <price>4700</price>
       <price_old>6110</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-28-1</name>
@@ -34492,10 +34989,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="N 2071-34-7" available="true">
+    <offer id="N 2071-34-7" available="false">
       <price>4700</price>
       <price_old>6110</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="873">Дитячі меблі</category>
       <attribute_set code="873">Дитячі меблі</attribute_set>
       <name lang="ua">Парта N 2071-34-7</name>
@@ -34980,10 +35477,12 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="RC RECEIVER-3228CEBLR" available="false">
-      <price>1700</price>
-      <price_old>2210</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="RC RECEIVER-3228CEBLR" available="true">
+      <price>1600</price>
+      <price_old>2080</price_old>
+      <availability>in_stock</availability>
+      <category code="7153">Запчастини для електротранспорту</category>
+      <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування RC RECEIVER-3228CEBLR</name>
       <picture>https://metr-plus.com.ua/img/1162073.jpg</picture>
       <description lang="ua">до трактора 3228CEBLR, 24V</description>
@@ -37392,10 +37891,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="YG2020-2-1-8" available="true">
+    <offer id="YG2020-2-1-8" available="false">
       <price>3500</price>
       <price_old>4550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <name lang="ua">Гірка YG2020-2-1-8</name>
       <picture>https://metr-plus.com.ua/img/616021.jpg</picture>
       <picture>https://metr-plus.com.ua/img/618674.jpg</picture>
