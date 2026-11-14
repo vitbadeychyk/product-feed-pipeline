@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-13 18:51">
+<yml_catalog date="2026-11-14 11:08">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -5534,10 +5534,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="JE1618EBLR-1" available="true">
+    <offer id="JE1618EBLR-1" available="false">
       <price>9800</price>
       <price_old>12740</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина JE1618EBLR-1</name>
@@ -7944,10 +7944,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 3147A-5" available="true">
+    <offer id="M 3147A-5" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 3147A-5</name>
@@ -11883,10 +11883,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5027EBLR-1" available="true">
+    <offer id="M 5027EBLR-1" available="false">
       <price>13500</price>
       <price_old>17550</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Машина M 5027EBLR-1</name>
@@ -12375,10 +12375,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5055EBLR-1(4WD)" available="true">
+    <offer id="M 5055EBLR-1(4WD)" available="false">
       <price>19300</price>
       <price_old>25090</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="854">Дитячі електромобілі</category>
       <attribute_set code="854">Дитячі електромобілі</attribute_set>
       <name lang="ua">Джип M 5055EBLR-1(4WD)</name>
@@ -14194,10 +14194,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5794-5" available="true">
+    <offer id="M 5794-5" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 5794-5</name>
@@ -14214,10 +14214,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5794-8" available="true">
+    <offer id="M 5794-8" available="false">
       <price>2500</price>
       <price_old>3250</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 5794-8</name>
@@ -15704,10 +15704,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5900EL-4" available="true">
+    <offer id="M 5900EL-4" available="false">
       <price>3600</price>
       <price_old>4680</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="4917">Дитячі каталки, гойдалки</category>
       <attribute_set code="4917">Дитячі каталки, гойдалки</attribute_set>
       <name lang="ua">Каталка-толокар M 5900EL-4</name>
@@ -24662,6 +24662,25 @@
       <picture>https://metr-plus.com.ua/img/1143086.jpg</picture>
       <picture>https://metr-plus.com.ua/img/1143085.jpg</picture>
       <description lang="ua">&lt;p&gt;Столик зі стільцем Bambi M 6319 регулються по висоті та виконані з МДФ з пластику. У нашому магазині Ви можете купити столик зі стільцем Bambi M 6319 і надати своїй дитині місце для занять творчістю.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики столика зі стільцем Bambi M 6319:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Стіл і стілець мають стійку конструкцію.&lt;/li&gt;&lt;li&gt;Висувна полиця для зберігання.&lt;/li&gt;&lt;li&gt;2 кошика для дрібниць.&lt;/li&gt;&lt;li&gt;Змінний рулон з розмальовкою.&lt;/li&gt;&lt;li&gt;Матеріал: МДФ, пластик.&lt;/li&gt;&lt;li&gt;Столик та стільчик регулюються по висоті в 3 положеннях.&lt;/li&gt;&lt;li&gt;Розмір столика (ШхГхВ): 90х63х46-52 см.&lt;/li&gt;&lt;li&gt;Стільниця: 76х56 см.&lt;/li&gt;&lt;li&gt;Розмір стільця (ШхГхВ): 37х37х52-56 см.&lt;/li&gt;&lt;li&gt;Розмір сидіння: 29х25 см.&lt;/li&gt;&lt;li&gt;Висота до сидіння: 30-32-34 см.&lt;/li&gt;&lt;li&gt;Вага в упаковці: 11,3 кг.&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
+    <offer id="M 6321-5" available="true">
+      <price>3356.0</price>
+      <availability>in_stock</availability>
+      <category code="873">Дитячі меблі</category>
+      <attribute_set code="873">Дитячі меблі</attribute_set>
+      <name lang="ua">Столик M 6321-5</name>
+      <picture>https://metr-plus.com.ua/img/1114759.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143104.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143105.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143106.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143107.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143108.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1143109.jpg</picture>
+      <description lang="ua">&lt;p&gt;Дитячий столик Bambi M 6321-5 кольоровий - стане чудовим доповненням дитячої кімнати, створюючи для дитини свій затишний простір, де він зможе проводити час з користю та задоволенням, за ним зручно робити уроки, малювати, ліпити, грати або навіть їсти, а завдяки продуманій конструкції він легко вписується у будь-який інтер&amp;#x27;єр. Дитячий столик M 6321-5 продуманий до дрібниць, в комплекті йдуть два зручні стільчики, що особливо практично для сім&amp;#x27;ї з двома дітьми або для ігор з друзями, знімна стільниця відкриває додатковий простір з ігровим полем для конструктора, де дитина може повністю зануритися в творчість, а два місткі деталі. зайвих зусиль. Дитячий столик M 6321-5 різнокольоровий відрізняється гладкою, приємною на дотик поверхнею, яка легко очищається від забруднень і не вимагає складного догляду, що особливо важливо для активних дитячих ігор та творчості, при цьому він поєднує у собі високу якість матеріалів, надійність конструкції та комфорт у використанні.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики дитячого столика M 6321-5 :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип: дитячий столик&lt;/li&gt;&lt;li&gt;Виробник: Bambi&lt;/li&gt;&lt;li&gt;Съемная столешница&lt;/li&gt;&lt;li&gt;Ігрова поверхня для Lego&lt;/li&gt;&lt;li&gt;Підставка для поверхні Lego&lt;/li&gt;&lt;li&gt;Два відсіки для дрібниць&lt;/li&gt;&lt;li&gt;У комплект входить 2 стільчики&lt;/li&gt;&lt;li&gt;Рекомендований вік: від 2 років&lt;/li&gt;&lt;li&gt;Матеріал виробу: пластмаса, поліпропілен&lt;/li&gt;&lt;li&gt;Висота до сидіння – 28 см&lt;/li&gt;&lt;li&gt;Розміри стільчика: ширина – 32 см, глибина – 32 см, висота – 55 см.&lt;/li&gt;&lt;li&gt;Розмір сидіння: ширина – 28 см, глибина – 22 см&lt;/li&gt;&lt;li&gt;Розміри стільниці: 72 х58, 5 см&lt;/li&gt;&lt;li&gt;Розміри столика: ширина – 78 см, глибина – 50 см, висота – 53 см.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Придбати дитячий столик M 6321-5 або отримати додаткову інформацію про дитячий столик M 6321-5, для цього просто зателефонуйте нашим менеджерам за вказаними телефонами. Купити дитячий столик M 6321-5 у регіонах України&lt;/p&gt;</description>
       <vendor code="6f6hnf3rwxfrdrmq">Bambi</vendor>
       <country_of_origin code="chn">Китай</country_of_origin>
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
