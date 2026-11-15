@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-14 11:08">
+<yml_catalog date="2026-11-15 18:03">
   <offers>
     <offer id="04-025B-DESK" available="false">
       <price>4200</price>
@@ -10566,10 +10566,10 @@
       <price_old>6500</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="M 5829-BLUETOOTH" available="true">
+    <offer id="M 5829-BLUETOOTH" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5829-EVA WHEEL" available="true">
       <price>1200</price>
@@ -10636,10 +10636,10 @@
       <price_old>2080</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="M 5830-RC RECEIVER" available="true">
+    <offer id="M 5830-RC RECEIVER" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="M 5830-SP HANDLE" available="true">
       <price>1100</price>
@@ -21151,10 +21151,10 @@
       <price_old>7670</price_old>
       <availability>out_of_stock</availability>
     </offer>
-    <offer id="ME 1162-1 Magnet Gray" available="false">
-      <price>5900</price>
-      <price_old>7670</price_old>
-      <availability>out_of_stock</availability>
+    <offer id="ME 1162-1 Magnet Gray" available="true">
+      <price>6377.0</price>
+      <price_old>None</price_old>
+      <availability>in_stock</availability>
     </offer>
     <offer id="ME 1162-1 Night Black" available="false">
       <price>5900</price>
@@ -24546,10 +24546,10 @@
       <price_old>3120</price_old>
       <availability>in_stock</availability>
     </offer>
-    <offer id="М 5781-RC RECEIVER" available="true">
+    <offer id="М 5781-RC RECEIVER" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
     </offer>
     <offer id="М 6382-GEAR BOX" available="false">
       <price>1200</price>

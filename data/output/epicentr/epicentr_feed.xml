@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-11-14 11:08">
+<yml_catalog date="2026-11-15 18:03">
   <offers>
     <offer id="06-025R-BOX" available="true">
       <price>4500</price>
@@ -14622,10 +14622,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5829-BLUETOOTH" available="true">
+    <offer id="M 5829-BLUETOOTH" available="false">
       <price>1100</price>
       <price_old>1430</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Плеєр M 5829-BLUETOOTH</name>
@@ -14854,10 +14854,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="M 5830-RC RECEIVER" available="true">
+    <offer id="M 5830-RC RECEIVER" available="false">
       <price>1200</price>
       <price_old>1560</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 5830-RC RECEIVER</name>
@@ -30421,6 +30421,29 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
+    <offer id="ME 1162-1 Magnet Gray" available="true">
+      <price>6377.0</price>
+      <availability>in_stock</availability>
+      <category code="4991">Дитячі велосипеди</category>
+      <attribute_set code="4991">Дитячі велосипеди</attribute_set>
+      <name lang="ua">Велосипед El Camino VECTOR ME 1162-1 Magnet Gray</name>
+      <picture>https://metr-plus.com.ua/img/1048356.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142733.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142734.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142735.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142736.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142737.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142738.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142739.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142740.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142741.jpg</picture>
+      <picture>https://metr-plus.com.ua/img/1142742.jpg</picture>
+      <description lang="ua">&lt;p&gt;Велосипед з батьківською ручкою ME 1162-1 Magnet Gray темно-сірий - має зручне поворотне сидіння з м&amp;#x27;якою накладкою, яке можна розвернути обличчям до батька або під час руху. Це допомагає дитині почуватися впевненіше, а батькам стежити за її самопочуттям. Велосипед триколісний ME 1162-1 Magnet Gray обладнаний ременем безпеки та страхувальним бампером, вони захистять малюка від випадкових падінь та зайвого занепокоєння. Ремені не натирають, легко регулюються та надійно фіксують малюка, а бампер можна відстебнути за потреби. Дитячий велосипед El Camino Vector ME 1162-1 Magnet Gray темно-сірий оснащений кошиками спереду та ззаду для іграшок, пляшечки або необхідних дрібниць, на батьківській ручці є невелика сумочка, куди зручно покласти ключі, серветки чи телефон.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Характеристики триколісного велосипеда ME 1162-1 Vector Magnet Gray :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Тип велосипеда: колясочний&lt;/li&gt;&lt;li&gt;Міцна металева рама&lt;/li&gt;&lt;li&gt;Складане кермо&lt;/li&gt;&lt;li&gt;Тканина: NEW, UV 50+/WPF захист від вигоряння&lt;/li&gt;&lt;li&gt;Панель: світло, живлення від батарейок&lt;/li&gt;&lt;li&gt;Якісні поліуретанові колеса&lt;/li&gt;&lt;li&gt;Розмір переднього колеса – 12 д., розмір заднього колеса – 10 д.&lt;/li&gt;&lt;li&gt;Колеса на підшипниках (переднє та задні колеса)&lt;/li&gt;&lt;li&gt;Гальмо: заднє, ножне - 2 шт.&lt;/li&gt;&lt;li&gt;Великий капюшон&lt;/li&gt;&lt;li&gt;Капюшон має оглядове вікно&lt;/li&gt;&lt;li&gt;Батьківська ручка (знімна)&lt;/li&gt;&lt;li&gt;Ручка має м&amp;#x27;які фомові накладки&lt;/li&gt;&lt;li&gt;На ручці сумочка-кишенька для дрібниць&lt;/li&gt;&lt;li&gt;Поворотне сидіння, м&amp;#x27;який чохол&lt;/li&gt;&lt;li&gt;Нахил спинки регулюється&lt;/li&gt;&lt;li&gt;Триточковий ремінь безпеки з м&amp;#x27;якими накладками&lt;/li&gt;&lt;li&gt;Бампер безпеки, ремінь-захист від сповзання&lt;/li&gt;&lt;li&gt;Складна підніжка з нековзною поверхнею&lt;/li&gt;&lt;li&gt;Багажний кошик&lt;/li&gt;&lt;li&gt;У комплекті дощовик&lt;/li&gt;&lt;li&gt;Вантажопідйомність, що рекомендується - до 30 кг&lt;/li&gt;&lt;/ul&gt;</description>
+      <vendor code="a23a84a050a3467490c3818c79f60c05">El Camino</vendor>
+      <country_of_origin code="chn">Китай</country_of_origin>
+      <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
+      <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
+    </offer>
     <offer id="ME 1162-1 Purple" available="true">
       <price>6377.0</price>
       <availability>in_stock</availability>
@@ -37941,10 +37964,10 @@
       <param name="Міра виміру" paramcode="measure" valuecode="measure_pcs">шт.</param>
       <param name="Мінімальна кратність товару" paramcode="ratio">1</param>
     </offer>
-    <offer id="М 5781-RC RECEIVER" available="true">
+    <offer id="М 5781-RC RECEIVER" available="false">
       <price>1000</price>
       <price_old>1300</price_old>
-      <availability>in_stock</availability>
+      <availability>out_of_stock</availability>
       <category code="7153">Запчастини для електротранспорту</category>
       <attribute_set code="7153">Запчастини для електротранспорту</attribute_set>
       <name lang="ua">Блок керування M 5781-RC RECEIVER</name>
