@@ -4554,6 +4554,11 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1164733.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165091.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165092.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165093.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165094.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165095.jpg</image>
                 <available>true</available>
             <vendor>EL CAMINO</vendor>
             <vendorCode>ME 1151-BATH STAND</vendorCode>
@@ -7602,28 +7607,6 @@
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="308571" selling_type="r">
-            <name>Столик M 501-10</name>
-            <name_ua>Столик M 501-10</name_ua>
-            <categoryId>81</categoryId>
-            <price>1892</price>
-                <old_price>2364.96</old_price>
-            <discount>20%</discount>
-                <url>https://metr-plus.com.ua/index.php?section=81&amp;id=308571&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/947786.jpg</image>
-                <available>true</available>
-            <vendor>Lilo and Stitch</vendor>
-            <vendorCode>M 501-10</vendorCode>
-            <barcode>6903317754403</barcode>
-            <description><![CDATA[2 стільчика, дерев&apos;яний, цифри, LS]]></description>
-            <description_ua><![CDATA[2 стільчики, дерев&apos;яний, цифри, LS]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">ДСП</value>
-                <value lang="ru">ДСП</value>
             </param>
         </item>
         <item id="308574" selling_type="r">
@@ -14166,37 +14149,6 @@
                 <value lang="ru">дерево, пластмаса</value>
             </param>
         </item>
-        <item id="284029" selling_type="r">
-            <name>Стульчик-качели ME 1102 DEBUT Posh Black</name>
-            <name_ua>Стільчик-гойдалка ME 1102 DEBUT Posh Black</name_ua>
-            <categoryId>45</categoryId>
-            <price>7658</price>
-            <price_rrc>7658</price_rrc>
-                <url>https://metr-plus.com.ua/index.php?section=45&amp;id=284029&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/819346.jpg</image>
-            <image>https://metr-plus.com.ua/img/915207.jpg</image>
-            <image>https://metr-plus.com.ua/img/915211.jpg</image>
-            <image>https://metr-plus.com.ua/img/915208.jpg</image>
-            <image>https://metr-plus.com.ua/img/915209.jpg</image>
-            <image>https://metr-plus.com.ua/img/915206.jpg</image>
-            <image>https://metr-plus.com.ua/img/915210.jpg</image>
-            <image>https://metr-plus.com.ua/img/915205.jpg</image>
-            <image>https://metr-plus.com.ua/img/915212.jpg</image>
-            <image>https://metr-plus.com.ua/img/915213.jpg</image>
-            <image>https://metr-plus.com.ua/img/915214.jpg</image>
-                <available>true</available>
-            <vendor>EL CAMINO</vendor>
-            <vendorCode>ME 1102 Posh Black</vendorCode>
-            <barcode>6903317551750</barcode>
-            <description><![CDATA[р/к, эл.прив., для корм., 5точ.рем., тайм, муз., черный]]></description>
-            <description_ua><![CDATA[р/к, ел.прив., для годув., 5точ.рем., тайм, муз., чорний]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса, тканина</value>
-                <value lang="ru">метал, пластмаса, тканина</value>
-            </param>
-        </item>
         <item id="287270" selling_type="r">
             <name>Стульчик M 5722 Gray</name>
             <name_ua>Стульчик M 5722 Gray</name_ua>
@@ -19940,33 +19892,6 @@
                 <value lang="ru">метал, пластмаса</value>
             </param>
         </item>
-        <item id="299948" selling_type="r">
-            <name>Биговел M 5857-13</name>
-            <name_ua>Біговел M 5857-13</name_ua>
-            <categoryId>491</categoryId>
-            <price>1468</price>
-                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=299948&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/918601.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163673.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163674.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163675.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163676.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163677.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163678.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163679.jpg</image>
-                <available>true</available>
-            <vendor>BAMBI</vendor>
-            <vendorCode>M 5857-13</vendorCode>
-            <barcode>6903317662654</barcode>
-            <description><![CDATA[EVA, 57,5-28-38см, бежевый]]></description>
-            <description_ua><![CDATA[EVA, 57,5-28-38см, бежевий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
         <item id="299949" selling_type="r">
             <name>Биговел M 5857-8</name>
             <name_ua>Біговел M 5857-8</name_ua>
@@ -20524,31 +20449,6 @@
             <barcode>6903317893003</barcode>
             <description><![CDATA[музика, світло, білий]]></description>
             <description_ua><![CDATA[музика, світло, білий]]></description_ua>
-            <param name="Матеріал">
-                <value lang="uk">метал, пластмаса</value>
-                <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="366854" selling_type="r">
-            <name>Каталка-толокар M 6518-11</name>
-            <name_ua>Каталка-толокар M 6518-11</name_ua>
-            <categoryId>78</categoryId>
-            <price>1404</price>
-                <url>https://metr-plus.com.ua/index.php?section=78&amp;id=366854&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1158025.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163733.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163734.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163735.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163736.jpg</image>
-            <image>https://metr-plus.com.ua/img/1163737.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>M 6518-11</vendorCode>
-            <barcode>6903317893010</barcode>
-            <description><![CDATA[музика, світло, сірий]]></description>
-            <description_ua><![CDATA[музика, світло, сірий]]></description_ua>
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
@@ -33476,6 +33376,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163240.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165096.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165097.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165098.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165099.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165100.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165101.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165102.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165103.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165104.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165105.jpg</image>
                 <available>true</available>
             <vendor>Без бренду</vendor>
             <vendorCode>M 6404EBLR-11-7(24V)</vendorCode>
@@ -33991,6 +33901,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163087.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165121.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165122.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165123.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165124.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165125.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165126.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165127.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165128.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165129.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165130.jpg</image>
                 <available>true</available>
             <vendor>Bambi Racer</vendor>
             <vendorCode>M 6375ELR-3</vendorCode>
@@ -34011,6 +33931,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163088.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165110.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165111.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165112.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165113.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165114.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165115.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165116.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165117.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165118.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165119.jpg</image>
                 <available>true</available>
             <vendor>Bambi Racer</vendor>
             <vendorCode>M 6375ELR-8</vendorCode>
@@ -34031,6 +33961,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163241.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165143.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165144.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165145.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165146.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165147.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165148.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165149.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165150.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165151.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165152.jpg</image>
                 <available>true</available>
             <vendor>Bambi Racer</vendor>
             <vendorCode>M 6375ELR-4</vendorCode>
@@ -34051,6 +33991,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163242.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165132.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165133.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165134.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165135.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165136.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165137.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165138.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165139.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165140.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165141.jpg</image>
                 <available>true</available>
             <vendor>Bambi Racer</vendor>
             <vendorCode>M 6375ELR-6</vendorCode>
@@ -34071,6 +34021,16 @@
             <quantity_in_stock>1</quantity_in_stock>
             <currencyId>UAH</currencyId>
             <image>https://metr-plus.com.ua/img/1163315.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165154.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165155.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165156.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165157.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165158.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165159.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165160.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165161.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165162.jpg</image>
+            <image>https://metr-plus.com.ua/img/1165163.jpg</image>
                 <available>true</available>
             <vendor>Bambi Racer</vendor>
             <vendorCode>M 6375ELR-1</vendorCode>
@@ -55271,31 +55231,6 @@
                 <value lang="ru">ПВХ</value>
             </param>
         </item>
-        <item id="247137" selling_type="r">
-            <name>Бассейн каркасный 26790</name>
-            <name_ua>Басейн каркасний 26790</name_ua>
-            <categoryId>126</categoryId>
-            <price>25066</price>
-                <url>https://metr-plus.com.ua/index.php?section=126&amp;id=247137&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/577958.jpg</image>
-            <image>https://metr-plus.com.ua/img/653371.jpg</image>
-                <available>true</available>
-            <vendor>INTEX</vendor>
-            <vendorCode>26790</vendorCode>
-            <barcode>6903317302895</barcode>
-            <description><![CDATA[400-200-122см, 8418л, с 220V фильтр-насосом, лестница, в кор-ке]]></description>
-            <description_ua><![CDATA[400-200-122см, 8418л, з 220V фільтр-насосом, сходи, в кор-ке]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">коробка</value>
-                <value lang="ru">коробка</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">метал, ПВХ</value>
-                <value lang="ru">метал, ПВХ</value>
-            </param>
-        </item>
         <item id="278171" selling_type="r">
             <name>Бассейн каркасный 26730</name>
             <name_ua>Басейн каркасний 26730</name_ua>
@@ -56566,33 +56501,6 @@
             <param name="Матеріал">
                 <value lang="uk">метал, пластмаса</value>
                 <value lang="ru">метал, пластмаса</value>
-            </param>
-        </item>
-        <item id="327412" selling_type="r">
-            <name>Снегокат MS 1778-4</name>
-            <name_ua>Снігокат MS 1778-4</name_ua>
-            <categoryId>76</categoryId>
-            <price>4028</price>
-                <url>https://metr-plus.com.ua/index.php?section=76&amp;id=327412&amp;lang=uk</url>
-            <quantity_in_stock>1</quantity_in_stock>
-            <currencyId>UAH</currencyId>
-            <image>https://metr-plus.com.ua/img/1009928.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010531.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010532.jpg</image>
-            <image>https://metr-plus.com.ua/img/1010533.jpg</image>
-                <available>true</available>
-            <vendor>Без бренду</vendor>
-            <vendorCode>MS 1778-4</vendorCode>
-            <barcode>6903317796700</barcode>
-            <description><![CDATA[низкая рама, д106-ш47-в41см, мягкое сиденье (экокожа, 45-21см, высота до сиденья 28см, 2 положения относительно руля), рисунок (лыжник), металл+пластик, веревка с рючкой, черный, в кор-ке]]></description>
-            <description_ua><![CDATA[низька рама, д106-ш47-в41см, м&apos;яке сидіння (екошкіра, 45-21см, висота до сидіння 28см, 2 положення відносно керма), малюнок (лижник), метал+пластик, мотузка з ручкою, чорний, в кор-ці]]></description_ua>
-            <param name="Тип пакування">
-                <value lang="uk">коробка</value>
-                <value lang="ru">коробка</value>
-            </param>
-            <param name="Матеріал">
-                <value lang="uk">метал, ПВХ</value>
-                <value lang="ru">метал, ПВХ</value>
             </param>
         </item>
         <item id="375223" selling_type="r">
