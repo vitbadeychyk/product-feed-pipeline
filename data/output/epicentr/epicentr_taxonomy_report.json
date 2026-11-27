@@ -1,6 +1,6 @@
 {
-  "total": 2485,
-  "unresolved_count": 229,
+  "total": 2555,
+  "unresolved_count": 252,
   "unresolved": [
     {
       "sku": "10034",
@@ -518,6 +518,11 @@
       "name": "Гойдалки садові  M 4019-4"
     },
     {
+      "sku": "M 4968-R-EVA WHEEL",
+      "supplier_category_id": "114",
+      "name": "Колесо M 4968-R-EVA WHEEL"
+    },
+    {
       "sku": "M 6243-4",
       "supplier_category_id": "99",
       "name": "Розвиваючий центр-стрибунець M 6243-4"
@@ -541,6 +546,26 @@
       "sku": "M 6316-RC",
       "supplier_category_id": "114",
       "name": "Пульт керування M 6316-RC"
+    },
+    {
+      "sku": "M 6516-F-PLASTIC WHEEL",
+      "supplier_category_id": "114",
+      "name": "Колесо M 6516-F-PLASTIC WHEEL"
+    },
+    {
+      "sku": "M 6516-GEAR BOX",
+      "supplier_category_id": "114",
+      "name": "Редуктор у зборі з мотором M 6516-GEAR BOX"
+    },
+    {
+      "sku": "M 6516-R-PLASTIC WHEEL",
+      "supplier_category_id": "114",
+      "name": "Колесо M 6516-R-PLASTIC WHEEL"
+    },
+    {
+      "sku": "M 6516-RC RECEIVER",
+      "supplier_category_id": "114",
+      "name": "Блок керування M 6516-RC RECEIVER"
     },
     {
       "sku": "M 6563-11",
@@ -771,6 +796,96 @@
       "sku": "MES 1069-2",
       "supplier_category_id": "345906",
       "name": "Пітбайк PROFI SAVAGE MES 1069-2"
+    },
+    {
+      "sku": "MES 1069-BIG STAR",
+      "supplier_category_id": "114",
+      "name": "Зірочка велика MES 1069-BIG STAR"
+    },
+    {
+      "sku": "MES 1069-CHAIN",
+      "supplier_category_id": "114",
+      "name": "Ланцюг MES 1069-CHAIN"
+    },
+    {
+      "sku": "MES 1069-CONTROLLER",
+      "supplier_category_id": "114",
+      "name": "Контролер MES 1069-CONTROLLER"
+    },
+    {
+      "sku": "MES 1069-Charger",
+      "supplier_category_id": "114",
+      "name": "Зарядний пристрій MES 1069-Charger"
+    },
+    {
+      "sku": "MES 1069-Charging Port",
+      "supplier_category_id": "114",
+      "name": "Порт зарядки MES 1069-Charging Port"
+    },
+    {
+      "sku": "MES 1069-Connection Cable",
+      "supplier_category_id": "114",
+      "name": "З'єднувальний кабель для акумулятора MES 1069-Connection Cable"
+    },
+    {
+      "sku": "MES 1069-F-BRAKE",
+      "supplier_category_id": "114",
+      "name": "Комплект переднього гальма MES 1069-F-BRAKE"
+    },
+    {
+      "sku": "MES 1069-F-Wheel",
+      "supplier_category_id": "114",
+      "name": "Колесо MES 1069-F-Wheel"
+    },
+    {
+      "sku": "MES 1069-Light",
+      "supplier_category_id": "114",
+      "name": "Фара передня MES 1069-Light"
+    },
+    {
+      "sku": "MES 1069-MOTOR-1.5kW",
+      "supplier_category_id": "114",
+      "name": "Мотор MES 1069-MOTOR-1.5kW"
+    },
+    {
+      "sku": "MES 1069-Main Wiring",
+      "supplier_category_id": "114",
+      "name": "Основний джгут проводів MES 1069-Main Wiring"
+    },
+    {
+      "sku": "MES 1069-POWER HADLE",
+      "supplier_category_id": "114",
+      "name": "Ручка газу з дисплеєм MES 1069-POWER HADLE"
+    },
+    {
+      "sku": "MES 1069-Pedal",
+      "supplier_category_id": "114",
+      "name": "Педалі MES 1069-Pedal"
+    },
+    {
+      "sku": "MES 1069-R-BRAKE",
+      "supplier_category_id": "114",
+      "name": "Комплект заднього гальма MES 1069-R-BRAKE"
+    },
+    {
+      "sku": "MES 1069-R-Wheel",
+      "supplier_category_id": "114",
+      "name": "Колесо MES 1069-R-Wheel"
+    },
+    {
+      "sku": "MES 1069-REAR SUSPENSION",
+      "supplier_category_id": "114",
+      "name": "Амортизатор задній MES 1069-REAR SUSPENSION"
+    },
+    {
+      "sku": "MES 1069-Seat",
+      "supplier_category_id": "114",
+      "name": "Сидіння MES 1069-Seat"
+    },
+    {
+      "sku": "MES 1069-Shock Absorber",
+      "supplier_category_id": "114",
+      "name": "Вилка MES 1069-Shock Absorber"
     },
     {
       "sku": "MP 2373",
@@ -1148,7 +1263,7 @@
       "name": "Гірка YG2020-2-1-8"
     }
   ],
-  "fallback_count": 914,
+  "fallback_count": 957,
   "fallback_assignments": [
     {
       "sku": "1000D-BATTERY-SET",
@@ -2271,6 +2386,27 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 3906-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 3906-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 3906-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 3906-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 3906-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт M 3906-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 3906-RC-RECEIVER",
       "supplier_category_id": "195",
       "name": "Блок керування M 3906-RC-RECEIVER",
@@ -2281,6 +2417,13 @@
       "sku": "M 3906-RC-RECEIVER v2026 new",
       "supplier_category_id": "195",
       "name": "Блок керування M 3906-RC-RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 3906-ST-WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 3906-ST-WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -2467,6 +2610,27 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4176-GEARBOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 4176-GEARBOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4176-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт M 4176-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4176-bluetooth",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4176-bluetooth",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4214-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4214-EVA WHEEL",
@@ -2621,9 +2785,44 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4418 ST-GEAR",
+      "supplier_category_id": "195",
+      "name": "Рульовий редуктор M 4418 ST-GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4418 ST-WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 4418-ST-WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4418-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4418-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4418-GEARBOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 4418-GEARBOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4418-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт M 4418-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4418-bluetooth",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4418-bluetooth",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -2761,9 +2960,30 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4786 ST-GEAR(24V)",
+      "supplier_category_id": "195",
+      "name": "Рульовий редуктор M 4786 ST-GEAR(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4786-RC(24V)",
+      "supplier_category_id": "195",
+      "name": "Пульт M 4786-RC(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4786-RC-RECEIVER(24V)",
       "supplier_category_id": "195",
       "name": "Блок керування M 4786-RC-RECEIVEER(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4786-bluetooth(24V)",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4786-bluetooth(24V)",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -2894,9 +3114,37 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4840 WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 4840 WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4840-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 4840-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4840-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 4840-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4840-RC",
       "supplier_category_id": "195",
       "name": "Пульт керування M 4840-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 4840-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 4840-RC RECEIVER",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3048,6 +3296,13 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 4920-GEAR BOX(24V)",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 4920-GEAR BOX(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 4938-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 4938-EVA WHEEL",
@@ -3184,6 +3439,27 @@
       "sku": "M 4972-ST WHEEL",
       "supplier_category_id": "195",
       "name": "Кермо M 4972-ST WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5001-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 5001-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5001-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор з мотором M 5001-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5001-RC-RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 5001-RC-RECEIVER",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3377,9 +3653,23 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 5055,M 4176,M 4174-RC-RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 5055,M 4176,M 4174-RC-RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 5055-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 5055-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5055-GEAR BOX(4WD)",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 5055-GEAR BOX(4WD)",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -3443,6 +3733,20 @@
       "sku": "M 5098 ST-GEAR(4WD)",
       "supplier_category_id": "195",
       "name": "Рульовий редуктор M 5098 ST-GEAR(4WD)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5099-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 5099-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5099-GEAR BOX 24V (4WD)",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 5099-GEAR BOX(4WD)",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -4210,9 +4514,30 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 5880 ST-GEAR (24V)",
+      "supplier_category_id": "195",
+      "name": "Рульовий редуктор M 5880 ST-GEAR(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 5880-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 5880-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5880-GEAR BOX (24V)",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 5880-GEAR BOX(24V)",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 5880-RC (24V)",
+      "supplier_category_id": "195",
+      "name": "Пульт M 5880-RC 24V (24V)",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -4710,6 +5035,13 @@
       "sku": "M 6080-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6080-R-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6080-GEAR BOX 24V",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6080-GEAR BOX 24V",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -5694,6 +6026,55 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6276-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 6276-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-EVA WHEEL",
+      "supplier_category_id": "195",
+      "name": "Колесо M 6276-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6276-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6276-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6276-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-SP HANDLE",
+      "supplier_category_id": "195",
+      "name": "Ручка газа M 6276-SP HANDLE",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6276-ST GEAR",
+      "supplier_category_id": "195",
+      "name": "Рульовий редуктор M 6276-ST GEAR",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6277 EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6277 EVA WHEEL",
@@ -6597,9 +6978,44 @@
       "rule": "fallback_195"
     },
     {
+      "sku": "M 6360-BLUETOOTH",
+      "supplier_category_id": "195",
+      "name": "Плеєр M 6360-BLUETOOTH",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
       "sku": "M 6360-EVA WHEEL",
       "supplier_category_id": "195",
       "name": "Колесо M 6360-EVA WHEEL",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6360-GEAR BOX",
+      "supplier_category_id": "195",
+      "name": "Редуктор у зборі з мотором M 6360-GEAR BOX",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6360-RC",
+      "supplier_category_id": "195",
+      "name": "Пульт керування M 6360-RC",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6360-RC RECEIVER",
+      "supplier_category_id": "195",
+      "name": "Блок керування M 6360-RC RECEIVER",
+      "epicentr_category_code": "7153",
+      "rule": "fallback_195"
+    },
+    {
+      "sku": "M 6360-ST WHEEL",
+      "supplier_category_id": "195",
+      "name": "Кермо M 6360-ST WHEEL",
       "epicentr_category_code": "7153",
       "rule": "fallback_195"
     },
@@ -7780,8 +8196,12 @@
       "M 3804-ST GEAR",
       "M 3893-GEAR BOX",
       "M 3906 ST-GEAR",
+      "M 3906-EVA WHEEL",
+      "M 3906-GEAR BOX",
+      "M 3906-RC",
       "M 3906-RC-RECEIVER",
       "M 3906-RC-RECEIVER v2026 new",
+      "M 3906-ST-WHEEL",
       "M 3906EBLR-1",
       "M 3906EBLRS-2",
       "M 3906EBLRS-3",
@@ -7816,6 +8236,9 @@
       "M 4175-RC-RECEIVER",
       "M 4176 ST-GEAR",
       "M 4176-EVA WHEEL",
+      "M 4176-GEARBOX",
+      "M 4176-RC",
+      "M 4176-bluetooth",
       "M 4176EBLR-1",
       "M 4176EBLR-3",
       "M 4176EBLR-7",
@@ -7846,8 +8269,13 @@
       "M 4274-SPEED HANDLE",
       "M 4282-EVA WHEEL",
       "M 4282-GEAR BOX",
+      "M 4418 ST-GEAR",
+      "M 4418 ST-WHEEL",
       "M 4418(MP4)EBLRS-2",
       "M 4418-EVA WHEEL",
+      "M 4418-GEARBOX",
+      "M 4418-RC",
+      "M 4418-bluetooth",
       "M 4418EBLR-1",
       "M 4418EBLR-8",
       "M 4418EBLR-8-2",
@@ -7877,7 +8305,10 @@
       "M 4619-R AIR WHEEL",
       "M 4741-3",
       "M 4741-4",
+      "M 4786 ST-GEAR(24V)",
+      "M 4786-RC(24V)",
       "M 4786-RC-RECEIVER(24V)",
+      "M 4786-bluetooth(24V)",
       "M 4791-Bluetooth",
       "M 4791-F-EVA WHEEL",
       "M 4791-R-EVA WHEEL",
@@ -7903,7 +8334,11 @@
       "M 4823-EVA WHEEL",
       "M 4836-RC RECEIVER",
       "M 4837-EVA WHEEL",
+      "M 4840 WHEEL",
+      "M 4840-BLUETOOTH",
+      "M 4840-GEAR BOX",
       "M 4840-RC",
+      "M 4840-RC RECEIVER",
       "M 4844-F EVA WHEEL",
       "M 4844-R EVA WHEEL",
       "M 4845-3",
@@ -7929,6 +8364,7 @@
       "M 4868-F-EVA WHEEL",
       "M 4871-ST GEAR",
       "M 4920-EVA WHEEL",
+      "M 4920-GEAR BOX(24V)",
       "M 4920EBLR-4",
       "M 4920EBLR-RS",
       "M 4938-EVA WHEEL",
@@ -7944,6 +8380,7 @@
       "M 4968-DASHBOARD 24V",
       "M 4968-EVA WHEEL",
       "M 4968-GEAR BOX 4WD (24V)",
+      "M 4968-R-EVA WHEEL",
       "M 4968-RC 4WD (24V)",
       "M 4968EBLR-1(24V)",
       "M 4968EBLR-11(24V)",
@@ -7959,6 +8396,9 @@
       "M 4972-ST GEAR",
       "M 4972-ST WHEEL",
       "M 4972EBLR-11",
+      "M 5001-EVA WHEEL",
+      "M 5001-GEAR BOX",
+      "M 5001-RC-RECEIVER",
       "M 5001EBLR-13",
       "M 5001EBLR-3",
       "M 5001EBLR-4",
@@ -8014,7 +8454,9 @@
       "M 5050-RC",
       "M 5054-GEAR BOX",
       "M 5054-ST-GEAR",
+      "M 5055,M 4176,M 4174-RC-RECEIVER",
       "M 5055-EVA WHEEL",
+      "M 5055-GEAR BOX(4WD)",
       "M 5055-bluetooth",
       "M 5055EBLR-1(4WD)",
       "M 5055EBLR-8(4WD)",
@@ -8038,6 +8480,8 @@
       "M 5098EBLRS-3",
       "M 5098EBLRS-4",
       "M 5098EBLRS-5",
+      "M 5099-EVA WHEEL",
+      "M 5099-GEAR BOX 24V (4WD)",
       "M 5099-RC-RECEIVER 24V (4WD)",
       "M 5099-ST-WHEEL",
       "M 5099-bluetooth",
@@ -8166,7 +8610,10 @@
       "M 5852-F-EVA WHEEL",
       "M 5852-RC",
       "M 5852-ST-GEAR",
+      "M 5880 ST-GEAR (24V)",
       "M 5880-EVA WHEEL",
+      "M 5880-GEAR BOX (24V)",
+      "M 5880-RC (24V)",
       "M 5880-RC-RECEIVER (24V)",
       "M 5880-ST-WHEEL",
       "M 5880-bluetooth (24V)",
@@ -8258,6 +8705,7 @@
       "M 6075-ST-GEAR",
       "M 6080 ST-GEAR 24V",
       "M 6080-EVA WHEEL",
+      "M 6080-GEAR BOX 24V",
       "M 6080-RC-RECEIVER 24V",
       "M 6080EL-11(24V)",
       "M 6080EL-13(24V)",
@@ -8467,6 +8915,13 @@
       "M 6269-R-EVA-WHEEL",
       "M 6269-ST GEAR",
       "M 6269-T-WHEEL",
+      "M 6276-BLUETOOTH",
+      "M 6276-EVA WHEEL",
+      "M 6276-GEAR BOX",
+      "M 6276-RC",
+      "M 6276-RC RECEIVER",
+      "M 6276-SP HANDLE",
+      "M 6276-ST GEAR",
       "M 6277 EVA WHEEL",
       "M 6277-BLUETOOTH",
       "M 6277-RC",
@@ -8637,7 +9092,12 @@
       "M 6359-MP3",
       "M 6359-R-EVA WHEEL",
       "M 6359-SP-HANDLE",
+      "M 6360-BLUETOOTH",
       "M 6360-EVA WHEEL",
+      "M 6360-GEAR BOX",
+      "M 6360-RC",
+      "M 6360-RC RECEIVER",
+      "M 6360-ST WHEEL",
       "M 6364-EVA WHEEL",
       "M 6364-RC RECEIVER",
       "M 6364-ST GEAR",
@@ -8702,6 +9162,10 @@
       "M 6506EBLR-4",
       "M 6506EBLR-8",
       "M 6506EBLR-9",
+      "M 6516-F-PLASTIC WHEEL",
+      "M 6516-GEAR BOX",
+      "M 6516-R-PLASTIC WHEEL",
+      "M 6516-RC RECEIVER",
       "M 6517-2",
       "M 6518-1",
       "M 6518-11",
@@ -8749,6 +9213,24 @@
       "MES 1033 MOTOR",
       "MES 1034_1034S CONTROLLLER",
       "MES 1034_1034S FOOTREST PAD",
+      "MES 1069-BIG STAR",
+      "MES 1069-CHAIN",
+      "MES 1069-CONTROLLER",
+      "MES 1069-Charger",
+      "MES 1069-Charging Port",
+      "MES 1069-Connection Cable",
+      "MES 1069-F-BRAKE",
+      "MES 1069-F-Wheel",
+      "MES 1069-Light",
+      "MES 1069-MOTOR-1.5kW",
+      "MES 1069-Main Wiring",
+      "MES 1069-POWER HADLE",
+      "MES 1069-Pedal",
+      "MES 1069-R-BRAKE",
+      "MES 1069-R-Wheel",
+      "MES 1069-REAR SUSPENSION",
+      "MES 1069-Seat",
+      "MES 1069-Shock Absorber",
       "MOTOR 36V1000W",
       "MOTOR 36V800W",
       "MOTOR 48V1200W",
@@ -8956,9 +9438,9 @@
     ]
   },
   "parameters_needing_reference": {
-    "Матеріал": 4906,
-    "Розмір упаковки": 1390,
-    "Тип пакування": 668,
+    "Матеріал": 5046,
+    "Розмір упаковки": 1452,
+    "Тип пакування": 678,
     "Серія": 92,
     "Бренд": 92,
     "Рама": 40,
@@ -9486,7 +9968,11 @@
     "JR3-196-G",
     "JR3-196-P",
     "JR3-197-5-BG",
+    "JR3-197-5-G",
+    "JR3-197-5-P",
     "JR3-197-BG",
+    "JR3-197-G",
+    "JR3-197-P",
     "JR3-198-Black",
     "JR3-198-P",
     "JR3-199-G-BG",
@@ -9548,8 +10034,12 @@
     "M 3804-ST GEAR",
     "M 3893-GEAR BOX",
     "M 3906 ST-GEAR",
+    "M 3906-EVA WHEEL",
+    "M 3906-GEAR BOX",
+    "M 3906-RC",
     "M 3906-RC-RECEIVER",
     "M 3906-RC-RECEIVER v2026 new",
+    "M 3906-ST-WHEEL",
     "M 3906EBLR-1",
     "M 3906EBLRS-2",
     "M 3906EBLRS-3",
@@ -9609,6 +10099,9 @@
     "M 4175-RC-RECEIVER",
     "M 4176 ST-GEAR",
     "M 4176-EVA WHEEL",
+    "M 4176-GEARBOX",
+    "M 4176-RC",
+    "M 4176-bluetooth",
     "M 4176EBLR-1",
     "M 4176EBLR-3",
     "M 4176EBLR-7",
@@ -9652,8 +10145,13 @@
     "M 4288-3",
     "M 4288-6",
     "M 4288-8",
+    "M 4418 ST-GEAR",
+    "M 4418 ST-WHEEL",
     "M 4418(MP4)EBLRS-2",
     "M 4418-EVA WHEEL",
+    "M 4418-GEARBOX",
+    "M 4418-RC",
+    "M 4418-bluetooth",
     "M 4418EBLR-1",
     "M 4418EBLR-8",
     "M 4418EBLR-8-2",
@@ -9692,7 +10190,10 @@
     "M 4619-R AIR WHEEL",
     "M 4741-3",
     "M 4741-4",
+    "M 4786 ST-GEAR(24V)",
+    "M 4786-RC(24V)",
     "M 4786-RC-RECEIVER(24V)",
+    "M 4786-bluetooth(24V)",
     "M 4791-Bluetooth",
     "M 4791-F-EVA WHEEL",
     "M 4791-R-EVA WHEEL",
@@ -9722,7 +10223,11 @@
     "M 4836EBLR-1",
     "M 4837-EVA WHEEL",
     "M 4837EBLR-1",
+    "M 4840 WHEEL",
+    "M 4840-BLUETOOTH",
+    "M 4840-GEAR BOX",
     "M 4840-RC",
+    "M 4840-RC RECEIVER",
     "M 4840ALR-1",
     "M 4844-F EVA WHEEL",
     "M 4844-R EVA WHEEL",
@@ -9753,6 +10258,7 @@
     "M 4868-F-EVA WHEEL",
     "M 4871-ST GEAR",
     "M 4920-EVA WHEEL",
+    "M 4920-GEAR BOX(24V)",
     "M 4920EBLR-4",
     "M 4920EBLR-RS",
     "M 4938-EVA WHEEL",
@@ -9768,6 +10274,7 @@
     "M 4968-DASHBOARD 24V",
     "M 4968-EVA WHEEL",
     "M 4968-GEAR BOX 4WD (24V)",
+    "M 4968-R-EVA WHEEL",
     "M 4968-RC 4WD (24V)",
     "M 4968EBLR-1(24V)",
     "M 4968EBLR-11(24V)",
@@ -9787,6 +10294,9 @@
     "M 4972-ST GEAR",
     "M 4972-ST WHEEL",
     "M 4972EBLR-11",
+    "M 5001-EVA WHEEL",
+    "M 5001-GEAR BOX",
+    "M 5001-RC-RECEIVER",
     "M 5001EBLR-13",
     "M 5001EBLR-3",
     "M 5001EBLR-4",
@@ -9873,7 +10383,9 @@
     "M 5054EL-1",
     "M 5054EL-2",
     "M 5054EL-3",
+    "M 5055,M 4176,M 4174-RC-RECEIVER",
     "M 5055-EVA WHEEL",
+    "M 5055-GEAR BOX(4WD)",
     "M 5055-bluetooth",
     "M 5055EBLR-1(4WD)",
     "M 5055EBLR-8(4WD)",
@@ -9898,6 +10410,8 @@
     "M 5098EBLRS-3",
     "M 5098EBLRS-4",
     "M 5098EBLRS-5",
+    "M 5099-EVA WHEEL",
+    "M 5099-GEAR BOX 24V (4WD)",
     "M 5099-RC-RECEIVER 24V (4WD)",
     "M 5099-ST-WHEEL",
     "M 5099-bluetooth",
@@ -10079,7 +10593,10 @@
     "M 5857-13",
     "M 5857-15",
     "M 5857-8",
+    "M 5880 ST-GEAR (24V)",
     "M 5880-EVA WHEEL",
+    "M 5880-GEAR BOX (24V)",
+    "M 5880-RC (24V)",
     "M 5880-RC-RECEIVER (24V)",
     "M 5880-ST-WHEEL",
     "M 5880-bluetooth (24V)",
@@ -10213,6 +10730,7 @@
     "M 6075EBLR-5(24V)",
     "M 6080 ST-GEAR 24V",
     "M 6080-EVA WHEEL",
+    "M 6080-GEAR BOX 24V",
     "M 6080-RC-RECEIVER 24V",
     "M 6080EL-11(24V)",
     "M 6080EL-13(24V)",
@@ -10492,6 +11010,13 @@
     "M 6275EBLR-4",
     "M 6275EBLR-5",
     "M 6275EBLR-8",
+    "M 6276-BLUETOOTH",
+    "M 6276-EVA WHEEL",
+    "M 6276-GEAR BOX",
+    "M 6276-RC",
+    "M 6276-RC RECEIVER",
+    "M 6276-SP HANDLE",
+    "M 6276-ST GEAR",
     "M 6276EBLR-3",
     "M 6276EBLR-4",
     "M 6276EBLR-5",
@@ -10730,7 +11255,12 @@
     "M 6359-MP3",
     "M 6359-R-EVA WHEEL",
     "M 6359-SP-HANDLE",
+    "M 6360-BLUETOOTH",
     "M 6360-EVA WHEEL",
+    "M 6360-GEAR BOX",
+    "M 6360-RC",
+    "M 6360-RC RECEIVER",
+    "M 6360-ST WHEEL",
     "M 6360EBLR-1-2",
     "M 6360EBLR-11",
     "M 6360EBLR-3-2",
@@ -10843,6 +11373,10 @@
     "M 6506EBLR-4",
     "M 6506EBLR-8",
     "M 6506EBLR-9",
+    "M 6516-F-PLASTIC WHEEL",
+    "M 6516-GEAR BOX",
+    "M 6516-R-PLASTIC WHEEL",
+    "M 6516-RC RECEIVER",
     "M 6516R-10",
     "M 6516R-13",
     "M 6516R-8",
@@ -11193,6 +11727,24 @@
     "MES 1034_1034S FOOTREST PAD",
     "MES 1069-1",
     "MES 1069-2",
+    "MES 1069-BIG STAR",
+    "MES 1069-CHAIN",
+    "MES 1069-CONTROLLER",
+    "MES 1069-Charger",
+    "MES 1069-Charging Port",
+    "MES 1069-Connection Cable",
+    "MES 1069-F-BRAKE",
+    "MES 1069-F-Wheel",
+    "MES 1069-Light",
+    "MES 1069-MOTOR-1.5kW",
+    "MES 1069-Main Wiring",
+    "MES 1069-POWER HADLE",
+    "MES 1069-Pedal",
+    "MES 1069-R-BRAKE",
+    "MES 1069-R-Wheel",
+    "MES 1069-REAR SUSPENSION",
+    "MES 1069-Seat",
+    "MES 1069-Shock Absorber",
     "MOTOR 36V1000W",
     "MOTOR 36V800W",
     "MOTOR 48V1200W",
